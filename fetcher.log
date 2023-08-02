@@ -1292,3 +1292,72 @@
 [2023-08-03 01:14:20] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
 [2023-08-03 01:14:20] INFO root fetch - main [MainThread]: End processing [metricflow]: success
 [2023-08-03 01:14:20] INFO root fetch - main [MainThread]: Store serial: [19149873]
+[2023-08-03 01:19:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149873]
+[2023-08-03 01:19:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-03 01:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datamorph-airflow
+[2023-08-03 01:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-fargate-run-task
+[2023-08-03 01:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zep-python
+[2023-08-03 01:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-asyncio-utils
+[2023-08-03 01:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: open-source-llm-tool
+[2023-08-03 01:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-08-03 01:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: masto
+[2023-08-03 01:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: UW-RestClients-AdSel
+[2023-08-03 01:19:28] INFO root fetch - processPackages [UW-RestClients-AdSel]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-08-03 01:19:28] INFO root fetch - processPackages [coiled]: New version: [0.9.5.dev9] Old Version: [0.9.5.dev8]
+[2023-08-03 01:19:28] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 01:19:28] WARNING root fetch - processPackages [open-source-llm-tool]: Skipping, unable to determine old version
+[2023-08-03 01:19:28] INFO root fetch - main [MainThread]: End processing [open-source-llm-tool] error
+[2023-08-03 01:19:28] INFO root fetch - processPackages [robotframework-asyncio-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-03 01:19:28] INFO root fetch - processPackages [zep-python]: New version: [0.34] Old Version: [0.33]
+[2023-08-03 01:19:28] INFO root fetch - processPackages [masto]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-08-03 01:19:28] INFO root fetch - processPackages [cdk-fargate-run-task]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-03 01:19:28] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2023-08-03 01:19:28] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/24/6d/7e38de78e9f052f234b1170563fc1971e6ffc387d8426174fb4b981de64f/coiled-0.9.5.dev8.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [UW-RestClients-AdSel]: Downloading https://files.pythonhosted.org/packages/f6/d8/5b2a0f72600382961c2e1ef65ce5cca8beae6e6cd19bdc8973852c64d2b1/UW-RestClients-AdSel-1.9.2.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [robotframework-asyncio-utils]: Downloading https://files.pythonhosted.org/packages/e2/10/fdefaf3630301f74cc61134fe734440e49000dfffd77243985638ccde4ca/robotframework_asyncio_utils-0.1.1.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [cdk-fargate-run-task]: Downloading https://files.pythonhosted.org/packages/84/d2/8d029d82c7d4579316b99c006828dd64a53939c9be8431cf6b9e34caa15a/cdk-fargate-run-task-2.0.98.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [zep-python]: Downloading https://files.pythonhosted.org/packages/93/89/546dbb844183d71000aabd49add6e35ffa5eabd8aab64c083bed8288c33d/zep_python-0.33.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [masto]: Downloading https://files.pythonhosted.org/packages/b7/70/e97f1ac05dc4f25525400700586d97754c7786f881361af5068a3a0acd61/masto-2.0.2.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/de/d3/b197d5f4cd35d1634c7d1049508a9a3504620135205db52eb1add92737a2/coiled-0.9.5.dev9.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2023-08-03 01:19:29] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20230803/d/datamorph-airflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 01:19:29] INFO root fetch - processPackages [UW-RestClients-AdSel]: Downloading https://files.pythonhosted.org/packages/ce/45/77ac55ea7ed455ce632c8561ccadb1d51d7e05fce8f9a8c3015c6536ca15/UW-RestClients-AdSel-1.9.3.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-08-03 01:19:29] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.5.dev8.tar.gz tmp/coiled-0.9.5.dev9.tar.gz --markdown 20230803/c/coiled/0.9.5.dev8-0.9.5.dev9/diff.md --exclude *.pyd
+[2023-08-03 01:19:29] INFO root fetch - processPackages [UW-RestClients-AdSel]: executing diffoscope
+[2023-08-03 01:19:29] INFO root fetch - processPackages [UW-RestClients-AdSel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UW-RestClients-AdSel-1.9.2.tar.gz tmp/UW-RestClients-AdSel-1.9.3.tar.gz --markdown 20230803/U/UW-RestClients-AdSel/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-08-03 01:19:29] INFO root fetch - processPackages [masto]: Downloading https://files.pythonhosted.org/packages/3f/a7/06bc1a63831084c411b2895033675ff691d6e5715daa2e81eea8f25604dd/masto-2.0.3.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [zep-python]: Downloading https://files.pythonhosted.org/packages/04/34/55a7d549ea5b518f3fda34106df8a6423476b5bfb8690265cf3bcbadbd3a/zep_python-0.34.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [robotframework-asyncio-utils]: Downloading https://files.pythonhosted.org/packages/e8/06/b73a1e5446cca9fd690a28c2b88862498baff227ceb9a03a2fb75d375d85/robotframework_asyncio_utils-0.1.2.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [cdk-fargate-run-task]: Downloading https://files.pythonhosted.org/packages/af/42/dfe42643d9aaeb9588255aeea326e5372008d92d7dc93cc76da5ffc44131/cdk-fargate-run-task-2.0.99.tar.gz
+[2023-08-03 01:19:29] INFO root fetch - processPackages [masto]: executing diffoscope
+[2023-08-03 01:19:29] INFO root fetch - processPackages [masto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masto-2.0.2.tar.gz tmp/masto-2.0.3.tar.gz --markdown 20230803/m/masto/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-08-03 01:19:29] INFO root fetch - processPackages [robotframework-asyncio-utils]: executing diffoscope
+[2023-08-03 01:19:29] INFO root fetch - processPackages [robotframework-asyncio-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_asyncio_utils-0.1.1.tar.gz tmp/robotframework_asyncio_utils-0.1.2.tar.gz --markdown 20230803/r/robotframework-asyncio-utils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-03 01:19:29] INFO root fetch - processPackages [zep-python]: executing diffoscope
+[2023-08-03 01:19:29] INFO root fetch - processPackages [zep-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zep_python-0.33.tar.gz tmp/zep_python-0.34.tar.gz --markdown 20230803/z/zep-python/0.33-0.34/diff.md --exclude *.pyd
+[2023-08-03 01:19:29] INFO root fetch - processPackages [cdk-fargate-run-task]: executing diffoscope
+[2023-08-03 01:19:29] INFO root fetch - processPackages [cdk-fargate-run-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-fargate-run-task-2.0.98.tar.gz tmp/cdk-fargate-run-task-2.0.99.tar.gz --markdown 20230803/c/cdk-fargate-run-task/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-03 01:19:30] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2023-08-03 01:19:30] INFO root fetch - processPackages [masto]: Remove: archive file [/home/abi/fetcher/tmp/masto-2.0.2.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - processPackages [masto]: Remove: archive file [/home/abi/fetcher/tmp/masto-2.0.3.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - main [MainThread]: End processing [masto]: success
+[2023-08-03 01:19:30] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.5.dev8.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.5.dev9.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-08-03 01:19:30] INFO root fetch - processPackages [zep-python]: Remove: archive file [/home/abi/fetcher/tmp/zep_python-0.33.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - processPackages [zep-python]: Remove: archive file [/home/abi/fetcher/tmp/zep_python-0.34.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - main [MainThread]: End processing [zep-python]: success
+[2023-08-03 01:19:30] INFO root fetch - processPackages [robotframework-asyncio-utils]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_asyncio_utils-0.1.1.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - processPackages [robotframework-asyncio-utils]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_asyncio_utils-0.1.2.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - main [MainThread]: End processing [robotframework-asyncio-utils]: success
+[2023-08-03 01:19:30] INFO root fetch - processPackages [cdk-fargate-run-task]: Remove: archive file [/home/abi/fetcher/tmp/cdk-fargate-run-task-2.0.98.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - processPackages [cdk-fargate-run-task]: Remove: archive file [/home/abi/fetcher/tmp/cdk-fargate-run-task-2.0.99.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - main [MainThread]: End processing [cdk-fargate-run-task]: success
+[2023-08-03 01:19:30] INFO root fetch - processPackages [UW-RestClients-AdSel]: Remove: archive file [/home/abi/fetcher/tmp/UW-RestClients-AdSel-1.9.2.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - processPackages [UW-RestClients-AdSel]: Remove: archive file [/home/abi/fetcher/tmp/UW-RestClients-AdSel-1.9.3.tar.gz]
+[2023-08-03 01:19:30] INFO root fetch - main [MainThread]: End processing [UW-RestClients-AdSel]: success
+[2023-08-03 01:19:30] INFO root fetch - main [MainThread]: Store serial: [19149902]
