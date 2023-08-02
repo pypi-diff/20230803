@@ -853,3 +853,75 @@
 [2023-08-03 00:47:45] INFO root fetch - processPackages [ashcrypt]: Remove: archive file [/home/abi/fetcher/tmp/ashcrypt-3.1.3.tar.gz]
 [2023-08-03 00:47:45] INFO root fetch - main [MainThread]: End processing [ashcrypt]: success
 [2023-08-03 00:47:45] INFO root fetch - main [MainThread]: Store serial: [19149619]
+[2023-08-03 00:52:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149619]
+[2023-08-03 00:52:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-03 00:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-diff
+[2023-08-03 00:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-08-03 00:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rune-ocr
+[2023-08-03 00:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: battery-cycler-drv-db
+[2023-08-03 00:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bluee
+[2023-08-03 00:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: physicX
+[2023-08-03 00:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-sphinx-hosting
+[2023-08-03 00:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tecton
+[2023-08-03 00:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: honeybee-radiance-postprocess
+[2023-08-03 00:52:54] INFO root fetch - processPackages [physicX]: New version: [0.0.1182] Old Version: [0.0.1181]
+[2023-08-03 00:52:55] INFO root fetch - processPackages [django-sphinx-hosting]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-03 00:52:55] INFO root fetch - processPackages [rune-ocr]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 00:52:55] WARNING root fetch - processPackages [bluee]: Skipping, unable to determine old version
+[2023-08-03 00:52:55] INFO root fetch - main [MainThread]: End processing [bluee] error
+[2023-08-03 00:52:55] WARNING root fetch - processPackages [battery-cycler-drv-db]: Skipping, unable to determine old version
+[2023-08-03 00:52:55] INFO root fetch - main [MainThread]: End processing [battery-cycler-drv-db] error
+[2023-08-03 00:52:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.419] Old Version: [0.3.418]
+[2023-08-03 00:52:55] INFO root fetch - processPackages [data-diff]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-08-03 00:52:55] INFO root fetch - processPackages [tecton]: New version: [0.8.0b4] Old Version: [0.8.0b3]
+[2023-08-03 00:52:55] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/0a/49/e5c8f785952fb3259e5fe7d32e0941446fd76105f20bcd57f4828a1e3f6e/tecton-0.8.0b3.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/2c/da/4b0a3344430ad183d15587b6c481a31a6172c73bb77e22b7880b1f0709eb/pepperize.cdk-ses-smtp-credentials-0.3.418.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/41/98/6ee2074d0ced612f3ec0c9899abc35507f00e7d0409a69b4960f2930666e/physicX-0.0.1181.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-08-03 00:52:55] INFO root fetch - processPackages [rune-ocr]: Downloading https://files.pythonhosted.org/packages/f6/79/a8b7e868e3a5b49c4bcc661fd1642010329353e2ebbe8159ec499ed2ed70/rune_ocr-0.0.3.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [django-sphinx-hosting]: Downloading https://files.pythonhosted.org/packages/ad/28/b173ebccaa506ed039ac701748871693009f9f238e8429a4ebe8c5b59acc/django-sphinx-hosting-1.2.2.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [data-diff]: Downloading https://files.pythonhosted.org/packages/3e/61/d39819bfed202baa2a28c8b9d1e12e63f75c58e105cd5f3f2235fc323535/data_diff-0.8.1.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/b8/ca/b0f5cb087b29cd6bb98c8877e4959867c39113333bbea481eb3258e399bd/physicX-0.0.1182.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/98/3b/79f1838f17204b2a0414dc3b010f9a0a3033d9f7d74482e20d3c940eda25/pepperize.cdk-ses-smtp-credentials-0.3.419.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [rune-ocr]: Downloading https://files.pythonhosted.org/packages/16/02/447ca2a2103afa3f4d140e8fd0420db2af7366efa00043ab779625c1da2a/rune_ocr-0.0.4.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/d0/0d/8b096cd5b0121c2b02605196399658e23cc8c3ab0cb2b22c3e70cd416297/tecton-0.8.0b4.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [physicX]: executing diffoscope
+[2023-08-03 00:52:55] INFO root fetch - processPackages [physicX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physicX-0.0.1181.tar.gz tmp/physicX-0.0.1182.tar.gz --markdown 20230803/p/physicX/0.0.1181-0.0.1182/diff.md --exclude *.pyd
+[2023-08-03 00:52:55] INFO root fetch - processPackages [data-diff]: Downloading https://files.pythonhosted.org/packages/0b/13/2823ff2173f2d36b7cdd0478d6b01f82d23bdb596a4c90eb6a19d15fef38/data_diff-0.8.2.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [django-sphinx-hosting]: Downloading https://files.pythonhosted.org/packages/5c/dd/a0230364737a4f9d8c4a854173afb861c9c944e1b20b1fc2eee9ed02ce47/django-sphinx-hosting-1.2.3.tar.gz
+[2023-08-03 00:52:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-08-03 00:52:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.418.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.419.tar.gz --markdown 20230803/p/pepperize.cdk-ses-smtp-credentials/0.3.418-0.3.419/diff.md --exclude *.pyd
+[2023-08-03 00:52:55] INFO root fetch - processPackages [rune-ocr]: executing diffoscope
+[2023-08-03 00:52:55] INFO root fetch - processPackages [rune-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rune_ocr-0.0.3.tar.gz tmp/rune_ocr-0.0.4.tar.gz --markdown 20230803/r/rune-ocr/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 00:52:55] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-08-03 00:52:55] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230803/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-08-03 00:52:55] INFO root fetch - processPackages [django-sphinx-hosting]: executing diffoscope
+[2023-08-03 00:52:55] INFO root fetch - processPackages [django-sphinx-hosting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sphinx-hosting-1.2.2.tar.gz tmp/django-sphinx-hosting-1.2.3.tar.gz --markdown 20230803/d/django-sphinx-hosting/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-03 00:52:55] INFO root fetch - processPackages [data-diff]: executing diffoscope
+[2023-08-03 00:52:55] INFO root fetch - processPackages [data-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_diff-0.8.1.tar.gz tmp/data_diff-0.8.2.tar.gz --markdown 20230803/d/data-diff/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-08-03 00:52:56] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-08-03 00:52:56] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.8.0b3.tar.gz tmp/tecton-0.8.0b4.tar.gz --markdown 20230803/t/tecton/0.8.0b3-0.8.0b4/diff.md --exclude *.pyd
+[2023-08-03 00:52:56] INFO root fetch - processPackages [physicX]: Remove: archive file [/home/abi/fetcher/tmp/physicX-0.0.1181.tar.gz]
+[2023-08-03 00:52:56] INFO root fetch - processPackages [physicX]: Remove: archive file [/home/abi/fetcher/tmp/physicX-0.0.1182.tar.gz]
+[2023-08-03 00:52:56] INFO root fetch - main [MainThread]: End processing [physicX]: success
+[2023-08-03 00:52:56] INFO root fetch - processPackages [rune-ocr]: Remove: archive file [/home/abi/fetcher/tmp/rune_ocr-0.0.3.tar.gz]
+[2023-08-03 00:52:56] INFO root fetch - processPackages [rune-ocr]: Remove: archive file [/home/abi/fetcher/tmp/rune_ocr-0.0.4.tar.gz]
+[2023-08-03 00:52:56] INFO root fetch - main [MainThread]: End processing [rune-ocr]: success
+[2023-08-03 00:52:57] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.418.tar.gz]
+[2023-08-03 00:52:57] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.419.tar.gz]
+[2023-08-03 00:52:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-08-03 00:52:57] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2023-08-03 00:52:57] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2023-08-03 00:52:57] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-08-03 00:52:57] INFO root fetch - processPackages [django-sphinx-hosting]: Remove: archive file [/home/abi/fetcher/tmp/django-sphinx-hosting-1.2.2.tar.gz]
+[2023-08-03 00:52:57] INFO root fetch - processPackages [django-sphinx-hosting]: Remove: archive file [/home/abi/fetcher/tmp/django-sphinx-hosting-1.2.3.tar.gz]
+[2023-08-03 00:52:57] INFO root fetch - main [MainThread]: End processing [django-sphinx-hosting]: success
+[2023-08-03 00:52:57] INFO root fetch - processPackages [data-diff]: Remove: archive file [/home/abi/fetcher/tmp/data_diff-0.8.1.tar.gz]
+[2023-08-03 00:52:57] INFO root fetch - processPackages [data-diff]: Remove: archive file [/home/abi/fetcher/tmp/data_diff-0.8.2.tar.gz]
+[2023-08-03 00:52:57] INFO root fetch - main [MainThread]: End processing [data-diff]: success
+[2023-08-03 00:52:59] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.8.0b3.tar.gz]
+[2023-08-03 00:52:59] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.8.0b4.tar.gz]
+[2023-08-03 00:52:59] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-08-03 00:52:59] INFO root fetch - main [MainThread]: Store serial: [19149648]
