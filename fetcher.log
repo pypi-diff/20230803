@@ -925,3 +925,36 @@
 [2023-08-03 00:52:59] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.8.0b4.tar.gz]
 [2023-08-03 00:52:59] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2023-08-03 00:52:59] INFO root fetch - main [MainThread]: Store serial: [19149648]
+[2023-08-03 00:58:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149648]
+[2023-08-03 00:58:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-03 00:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infrahouse-toolkit
+[2023-08-03 00:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pickled-carrots
+[2023-08-03 00:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyTermTk
+[2023-08-03 00:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Automatic-CV
+[2023-08-03 00:58:09] INFO root fetch - processPackages [pickled-carrots]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-03 00:58:09] WARNING root fetch - processPackages [Automatic-CV]: Skipping, unable to determine old version
+[2023-08-03 00:58:09] INFO root fetch - main [MainThread]: End processing [Automatic-CV] error
+[2023-08-03 00:58:09] INFO root fetch - processPackages [infrahouse-toolkit]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-03 00:58:09] INFO root fetch - processPackages [pyTermTk]: New version: [0.9.0a62] Old Version: [0.9.0a56]
+[2023-08-03 00:58:09] INFO root fetch - processPackages [pickled-carrots]: Downloading https://files.pythonhosted.org/packages/c6/99/eb4818a5c3278c6c54739eebd14c45ff37aa97159f7047017298c43e5d52/pickled_carrots-1.0.8.tar.gz
+[2023-08-03 00:58:09] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/f6/7f/6ab8bfc9849f92bdec53002ff0e35ca29e39635004e737d22b04625593be/infrahouse-toolkit-2.0.8.tar.gz
+[2023-08-03 00:58:10] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/75/5c/de0a01268aca4e293afd0f3034da418a422a4063208fe6a2d89fa1efc89e/pyTermTk-0.9.0a56.tar.gz
+[2023-08-03 00:58:10] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/54/73/96c60efbc8b7ce6d8816d937f5dd546a7a06af621b6ead6e59368e8f682f/infrahouse-toolkit-2.0.9.tar.gz
+[2023-08-03 00:58:10] INFO root fetch - processPackages [pickled-carrots]: Downloading https://files.pythonhosted.org/packages/5c/b3/296f8a90c438d5e58c56172bd621b228c6bd889652590b01851732cfc034/pickled_carrots-1.0.9.tar.gz
+[2023-08-03 00:58:10] INFO root fetch - processPackages [infrahouse-toolkit]: executing diffoscope
+[2023-08-03 00:58:10] INFO root fetch - processPackages [infrahouse-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahouse-toolkit-2.0.8.tar.gz tmp/infrahouse-toolkit-2.0.9.tar.gz --markdown 20230803/i/infrahouse-toolkit/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-03 00:58:10] INFO root fetch - processPackages [pickled-carrots]: executing diffoscope
+[2023-08-03 00:58:10] INFO root fetch - processPackages [pickled-carrots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickled_carrots-1.0.8.tar.gz tmp/pickled_carrots-1.0.9.tar.gz --markdown 20230803/p/pickled-carrots/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 00:58:10] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/05/bd/fe036dd7372cea97065d98f1d5d8c3f6453fa7fcb653d07550c359f9a113/pyTermTk-0.9.0a62.tar.gz
+[2023-08-03 00:58:10] INFO root fetch - processPackages [pyTermTk]: executing diffoscope
+[2023-08-03 00:58:10] INFO root fetch - processPackages [pyTermTk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTermTk-0.9.0a56.tar.gz tmp/pyTermTk-0.9.0a62.tar.gz --markdown 20230803/p/pyTermTk/0.9.0a56-0.9.0a62/diff.md --exclude *.pyd
+[2023-08-03 00:58:11] INFO root fetch - processPackages [pickled-carrots]: Remove: archive file [/home/abi/fetcher/tmp/pickled_carrots-1.0.8.tar.gz]
+[2023-08-03 00:58:11] INFO root fetch - processPackages [pickled-carrots]: Remove: archive file [/home/abi/fetcher/tmp/pickled_carrots-1.0.9.tar.gz]
+[2023-08-03 00:58:11] INFO root fetch - main [MainThread]: End processing [pickled-carrots]: success
+[2023-08-03 00:58:11] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-2.0.8.tar.gz]
+[2023-08-03 00:58:11] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-2.0.9.tar.gz]
+[2023-08-03 00:58:11] INFO root fetch - main [MainThread]: End processing [infrahouse-toolkit]: success
+[2023-08-03 00:58:11] INFO root fetch - processPackages [pyTermTk]: Remove: archive file [/home/abi/fetcher/tmp/pyTermTk-0.9.0a56.tar.gz]
+[2023-08-03 00:58:11] INFO root fetch - processPackages [pyTermTk]: Remove: archive file [/home/abi/fetcher/tmp/pyTermTk-0.9.0a62.tar.gz]
+[2023-08-03 00:58:11] INFO root fetch - main [MainThread]: End processing [pyTermTk]: success
+[2023-08-03 00:58:11] INFO root fetch - main [MainThread]: Store serial: [19149664]
