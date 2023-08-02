@@ -1454,3 +1454,91 @@
 [2023-08-03 01:29:51] INFO root fetch - processPackages [VBBinaryLensing]: Remove: archive file [/home/abi/fetcher/tmp/VBBinaryLensing-3.6.1.tar.gz]
 [2023-08-03 01:29:51] INFO root fetch - main [MainThread]: End processing [VBBinaryLensing]: success
 [2023-08-03 01:29:51] INFO root fetch - main [MainThread]: Store serial: [19149934]
+[2023-08-03 01:34:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149934]
+[2023-08-03 01:35:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-03 01:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nmecpy
+[2023-08-03 01:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-cdk-github-oidc
+[2023-08-03 01:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edgepi-python-sdk
+[2023-08-03 01:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datamorph-airflow
+[2023-08-03 01:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdxbasics
+[2023-08-03 01:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-ray-dev
+[2023-08-03 01:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: universities-api-wrapper
+[2023-08-03 01:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mass-composition
+[2023-08-03 01:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Automatic-CV
+[2023-08-03 01:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdxbasics
+[2023-08-03 01:35:00] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev6]
+[2023-08-03 01:35:00] INFO root fetch - processPackages [nmecpy]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-08-03 01:35:00] INFO root fetch - processPackages [edgepi-python-sdk]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-08-03 01:35:00] INFO root fetch - processPackages [aws-cdk-github-oidc]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-08-03 01:35:00] INFO root fetch - processPackages [universities-api-wrapper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-03 01:35:00] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 01:35:00] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-03 01:35:00] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-03 01:35:00] WARNING root fetch - processPackages [Automatic-CV]: Skipping, unable to determine old version
+[2023-08-03 01:35:00] INFO root fetch - processPackages [Automatic-CV]: Start processing: seqPSS
+[2023-08-03 01:35:00] INFO root fetch - main [MainThread]: End processing [Automatic-CV] error
+[2023-08-03 01:35:00] INFO root fetch - processPackages [mass-composition]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 01:35:01] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/37/8a/9179e0cdcc6485e06416e6639548eade7fa09f5f49c5f5c5559c1c9b5015/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 01:35:01] WARNING root fetch - processPackages [seqPSS]: Skipping, unable to determine old version
+[2023-08-03 01:35:01] INFO root fetch - main [MainThread]: End processing [seqPSS] error
+[2023-08-03 01:35:01] INFO root fetch - processPackages [aws-cdk-github-oidc]: Downloading https://files.pythonhosted.org/packages/42/73/12f9b3c82267fb68e0f5695b55ae045581241c71c4ceb2478e3e9cd77b0a/aws-cdk-github-oidc-2.3.3.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [nmecpy]: Downloading https://files.pythonhosted.org/packages/c6/cb/17a7472c957ff21ddc92a120efe74ecbe6f559aa44803fbf1c9371cd0e08/nmecpy-1.4.3.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [edgepi-python-sdk]: Downloading https://files.pythonhosted.org/packages/0b/1f/f658853f435724f2f2a11947006defff5615f007b9010a840e02facc7777/edgepi-python-sdk-1.2.5.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [universities-api-wrapper]: Downloading https://files.pythonhosted.org/packages/6e/0d/1dfd63f8b67df002024ad31772881117ea5fd22b4e2fa7757098e72f7134/universities-api-wrapper-0.0.2.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/c3/b9/841cc2b3e5d624d3f0d4611ab926933ef4275486ab60a4e31866620a05f7/mass_composition-0.1.8.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [nmecpy]: Downloading https://files.pythonhosted.org/packages/0c/6d/f3b4a3b845c8661336b1994ce458c5ce495452ca169c13cacef33dffb0ce/nmecpy-1.4.4.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [aws-cdk-github-oidc]: Downloading https://files.pythonhosted.org/packages/73/af/14b33d30d4fc245135daf4521c2dcd12acfa2a559fc47ccef2c29f61bfeb/aws-cdk-github-oidc-2.3.4.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [edgepi-python-sdk]: Downloading https://files.pythonhosted.org/packages/77/2c/ab9f9769ddcc681fadfe784b30a91d092e31c00d10a136d005d45c7372ed/edgepi-python-sdk-1.2.6.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2023-08-03 01:35:01] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20230803/d/datamorph-airflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 01:35:01] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/51/cd/da4e0a374cdc49c4a176f0cb2b3f59efe30ac77171388dc22a8a87a28418/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 01:35:01] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-08-03 01:35:01] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230803/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 01:35:01] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-08-03 01:35:01] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230803/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 01:35:01] INFO root fetch - processPackages [universities-api-wrapper]: Downloading https://files.pythonhosted.org/packages/d5/5c/47ed5937b28a1d1f5c7dd74546bf6bae5821355fa7deebea047c58548148/universities-api-wrapper-0.0.3.tar.gz
+[2023-08-03 01:35:01] INFO root fetch - processPackages [nmecpy]: executing diffoscope
+[2023-08-03 01:35:01] INFO root fetch - processPackages [nmecpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmecpy-1.4.3.tar.gz tmp/nmecpy-1.4.4.tar.gz --markdown 20230803/n/nmecpy/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-08-03 01:35:01] INFO root fetch - processPackages [edgepi-python-sdk]: executing diffoscope
+[2023-08-03 01:35:01] INFO root fetch - processPackages [edgepi-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgepi-python-sdk-1.2.5.tar.gz tmp/edgepi-python-sdk-1.2.6.tar.gz --markdown 20230803/e/edgepi-python-sdk/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-08-03 01:35:02] INFO root fetch - processPackages [universities-api-wrapper]: executing diffoscope
+[2023-08-03 01:35:02] INFO root fetch - processPackages [universities-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universities-api-wrapper-0.0.2.tar.gz tmp/universities-api-wrapper-0.0.3.tar.gz --markdown 20230803/u/universities-api-wrapper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-03 01:35:02] INFO root fetch - processPackages [aws-cdk-github-oidc]: executing diffoscope
+[2023-08-03 01:35:02] INFO root fetch - processPackages [aws-cdk-github-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk-github-oidc-2.3.3.tar.gz tmp/aws-cdk-github-oidc-2.3.4.tar.gz --markdown 20230803/a/aws-cdk-github-oidc/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-08-03 01:35:02] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4f/ea/2897c098efd0fa32ba87bc7885f3dfea4a69075a3aaec9f6f06641157246/mass_composition-0.1.9.tar.gz
+[2023-08-03 01:35:02] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-08-03 01:35:02] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-ray-dev/0.3.9.dev6-0.3.9.dev8/diff.md --exclude *.pyd
+[2023-08-03 01:35:02] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2023-08-03 01:35:02] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.1.8.tar.gz tmp/mass_composition-0.1.9.tar.gz --markdown 20230803/m/mass-composition/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 01:35:03] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2023-08-03 01:35:03] INFO root fetch - processPackages [nmecpy]: Remove: archive file [/home/abi/fetcher/tmp/nmecpy-1.4.3.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - processPackages [nmecpy]: Remove: archive file [/home/abi/fetcher/tmp/nmecpy-1.4.4.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - main [MainThread]: End processing [nmecpy]: success
+[2023-08-03 01:35:03] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-08-03 01:35:03] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-08-03 01:35:03] INFO root fetch - processPackages [aws-cdk-github-oidc]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk-github-oidc-2.3.3.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - processPackages [aws-cdk-github-oidc]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk-github-oidc-2.3.4.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - main [MainThread]: End processing [aws-cdk-github-oidc]: success
+[2023-08-03 01:35:03] INFO root fetch - processPackages [universities-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/universities-api-wrapper-0.0.2.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - processPackages [universities-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/universities-api-wrapper-0.0.3.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - main [MainThread]: End processing [universities-api-wrapper]: success
+[2023-08-03 01:35:03] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.8.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.9.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2023-08-03 01:35:03] INFO root fetch - processPackages [edgepi-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/edgepi-python-sdk-1.2.5.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - processPackages [edgepi-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/edgepi-python-sdk-1.2.6.tar.gz]
+[2023-08-03 01:35:03] INFO root fetch - main [MainThread]: End processing [edgepi-python-sdk]: success
+[2023-08-03 01:35:27] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 01:35:27] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 01:35:27] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-08-03 01:35:27] INFO root fetch - main [MainThread]: Store serial: [19149974]
