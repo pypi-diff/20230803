@@ -58,3 +58,104 @@
 [2023-08-03 00:05:12] INFO root fetch - processPackages [pymoca]: Remove: archive file [/home/abi/fetcher/tmp/pymoca-0.9.0.tar.gz]
 [2023-08-03 00:05:12] INFO root fetch - main [MainThread]: End processing [pymoca]: success
 [2023-08-03 00:05:12] INFO root fetch - main [MainThread]: Store serial: [19149226]
+[2023-08-03 00:10:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149226]
+[2023-08-03 00:10:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ashcrypt
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alertmanagermeshtastic
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chaostoolkit-reliably
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myPyllant
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tesseract-positional
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kioss
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Luxbeam
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: humann
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chronon-ai
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: loveread
+[2023-08-03 00:10:21] INFO root fetch - processPackages [humann]: New version: [3.8] Old Version: [3.7]
+[2023-08-03 00:10:21] WARNING root fetch - processPackages [Luxbeam]: Skipping, unable to determine old version
+[2023-08-03 00:10:21] INFO root fetch - processPackages [Luxbeam]: Start processing: aioworkers-consul
+[2023-08-03 00:10:21] INFO root fetch - main [MainThread]: End processing [Luxbeam] error
+[2023-08-03 00:10:21] INFO root fetch - processPackages [chronon-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 00:10:21] INFO root fetch - processPackages [kioss]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ashcrypt]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-08-03 00:10:21] INFO root fetch - processPackages [alertmanagermeshtastic]: New version: [2023.8.2.8] Old Version: [2023.8.2.7]
+[2023-08-03 00:10:21] INFO root fetch - processPackages [loveread]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-03 00:10:21] INFO root fetch - processPackages [tesseract-positional]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-03 00:10:21] INFO root fetch - processPackages [myPyllant]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-03 00:10:21] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 00:10:21] INFO root fetch - processPackages [aioworkers-consul]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-03 00:10:21] INFO root fetch - processPackages [alertmanagermeshtastic]: Downloading https://files.pythonhosted.org/packages/e8/0e/6ec37a76d71695d823fa7a518b0f03008f06a7802fdaaeb5d226b1b53949/alertmanagermeshtastic-2023.8.2.7.tar.gz
+[2023-08-03 00:10:21] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/97/10/4f51e75a484c85e9c6901b8cff8c2156e5664b2578af2e0442b8d7bd25e9/kioss-0.2.8.tar.gz
+[2023-08-03 00:10:21] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/32/df/58422a4f470f2c9c9d486c7b83bf6c238d72841a2ae64f0b7c88350a6b01/chaostoolkit-reliably-0.9.3.tar.gz
+[2023-08-03 00:10:21] INFO root fetch - processPackages [loveread]: Downloading https://files.pythonhosted.org/packages/31/e2/502752447638efa8b42bdd9492b9b6f6b51dc6210c15c4c13cb4a7ddae8c/loveread-0.2.3.tar.gz
+[2023-08-03 00:10:21] INFO root fetch - processPackages [ashcrypt]: Downloading https://files.pythonhosted.org/packages/90/10/301ee356260857f25de5c17e5c54ba9001c86c221a5ae2f7b42d8e7f4b83/ashcrypt-3.1.1.tar.gz
+[2023-08-03 00:10:21] INFO root fetch - processPackages [humann]: Downloading https://files.pythonhosted.org/packages/d5/7d/cc17a1bcc15023d22eed917a4d4311af738df4b5fa9c24d10257b38a5726/humann-3.7.tar.gz
+[2023-08-03 00:10:21] INFO root fetch - processPackages [myPyllant]: Downloading https://files.pythonhosted.org/packages/23/5d/01e11ba565e2ecd583622ebba5dbfd9cb6bf9bba944f795f70b76df3f390/mypyllant-0.4.1.tar.gz
+[2023-08-03 00:10:21] INFO root fetch - processPackages [chronon-ai]: Downloading https://files.pythonhosted.org/packages/69/d3/1d0ad2aa1fbea35c863dc641ef539bda98822670a30824127aa17faffcce/chronon-ai-0.0.8.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [aioworkers-consul]: Downloading https://files.pythonhosted.org/packages/f5/64/87a7e5d1447afb3a6b72ee97aaa322350d2d38d6bda944f894e28ad0626b/aioworkers-consul-0.1.1.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [tesseract-positional]: Downloading https://files.pythonhosted.org/packages/7f/0a/9a7a24d264731f0894533825d29b608938e2b3e45d72df2c0ea3ef000d45/tesseract_positional-0.1.1.tar.gz
+[2023-08-03 00:10:22] WARNING root fetch - processPackages [humann]: Skipping package: exceeds size limit 106999724>=10485760
+[2023-08-03 00:10:22] INFO root fetch - processPackages [humann]: Start processing: coiled
+[2023-08-03 00:10:22] INFO root fetch - main [MainThread]: End processing [humann] error
+[2023-08-03 00:10:22] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/b8/c5/810c74691ec477bb4963d5199f379e4a81d6cce5b71db42bc848f3477e16/chaostoolkit-reliably-0.9.4.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [coiled]: New version: [0.9.5.dev9] Old Version: [0.9.5.dev8]
+[2023-08-03 00:10:22] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/5a/e7/8c9f3f533f4f7dd02c84fd126c3c22b3e6603d5017b43a334c0aa4f84c0c/kioss-0.2.9.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [alertmanagermeshtastic]: Downloading https://files.pythonhosted.org/packages/86/f8/c994f875b2ac30ce2fc8d7b21b86aafa284cd1aa365ba6161b4561151630/alertmanagermeshtastic-2023.8.2.8.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [ashcrypt]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed6196ab59662ced08228f347bc280f6d859475d9b4d5e5aac50c253690b/ashcrypt-3.1.2.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [loveread]: Downloading https://files.pythonhosted.org/packages/fb/dc/d3e007e81c0680b6e340ed183ea747c424012c32b87f3c7c69a0209decef/loveread-0.2.4.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [myPyllant]: Downloading https://files.pythonhosted.org/packages/b7/f6/dc235d4f4bf79198b5b876f30a9f1af7b57243cdf596b09bb6e0ec499d45/mypyllant-0.4.2.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [kioss]: executing diffoscope
+[2023-08-03 00:10:22] INFO root fetch - processPackages [kioss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kioss-0.2.8.tar.gz tmp/kioss-0.2.9.tar.gz --markdown 20230803/k/kioss/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 00:10:22] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/24/6d/7e38de78e9f052f234b1170563fc1971e6ffc387d8426174fb4b981de64f/coiled-0.9.5.dev8.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [alertmanagermeshtastic]: executing diffoscope
+[2023-08-03 00:10:22] INFO root fetch - processPackages [alertmanagermeshtastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertmanagermeshtastic-2023.8.2.7.tar.gz tmp/alertmanagermeshtastic-2023.8.2.8.tar.gz --markdown 20230803/a/alertmanagermeshtastic/2023.8.2.7-2023.8.2.8/diff.md --exclude *.pyd
+[2023-08-03 00:10:22] INFO root fetch - processPackages [ashcrypt]: executing diffoscope
+[2023-08-03 00:10:22] INFO root fetch - processPackages [ashcrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ashcrypt-3.1.1.tar.gz tmp/ashcrypt-3.1.2.tar.gz --markdown 20230803/a/ashcrypt/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-08-03 00:10:22] INFO root fetch - processPackages [loveread]: executing diffoscope
+[2023-08-03 00:10:22] INFO root fetch - processPackages [loveread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loveread-0.2.3.tar.gz tmp/loveread-0.2.4.tar.gz --markdown 20230803/l/loveread/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-03 00:10:22] INFO root fetch - processPackages [chronon-ai]: Downloading https://files.pythonhosted.org/packages/a5/3d/dc0301417084a8050ef7ac9dbe26eb3c36626256f1d96319da60a6c1783c/chronon-ai-0.0.9.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-08-03 00:10:22] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230803/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 00:10:22] INFO root fetch - processPackages [aioworkers-consul]: Downloading https://files.pythonhosted.org/packages/da/c0/7e626dc23529a988d4a46f4e58db1ffdd206e8ac3c1b02f4fe283a3cf811/aioworkers_consul-0.2.0.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [tesseract-positional]: Downloading https://files.pythonhosted.org/packages/08/53/46d6d992ed48f711e9e645eba9a6c0be526168944508ae6df5ed83175964/tesseract_positional-0.1.2.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [myPyllant]: executing diffoscope
+[2023-08-03 00:10:22] INFO root fetch - processPackages [myPyllant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypyllant-0.4.1.tar.gz tmp/mypyllant-0.4.2.tar.gz --markdown 20230803/m/myPyllant/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-03 00:10:22] INFO root fetch - processPackages [aioworkers-consul]: executing diffoscope
+[2023-08-03 00:10:22] INFO root fetch - processPackages [aioworkers-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers-consul-0.1.1.tar.gz tmp/aioworkers_consul-0.2.0.tar.gz --markdown 20230803/a/aioworkers-consul/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-03 00:10:22] INFO root fetch - processPackages [tesseract-positional]: executing diffoscope
+[2023-08-03 00:10:22] INFO root fetch - processPackages [tesseract-positional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tesseract_positional-0.1.1.tar.gz tmp/tesseract_positional-0.1.2.tar.gz --markdown 20230803/t/tesseract-positional/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-03 00:10:22] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/de/d3/b197d5f4cd35d1634c7d1049508a9a3504620135205db52eb1add92737a2/coiled-0.9.5.dev9.tar.gz
+[2023-08-03 00:10:22] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-08-03 00:10:22] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.5.dev8.tar.gz tmp/coiled-0.9.5.dev9.tar.gz --markdown 20230803/c/coiled/0.9.5.dev8-0.9.5.dev9/diff.md --exclude *.pyd
+[2023-08-03 00:10:23] INFO root fetch - processPackages [chronon-ai]: executing diffoscope
+[2023-08-03 00:10:23] INFO root fetch - processPackages [chronon-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronon-ai-0.0.8.tar.gz tmp/chronon-ai-0.0.9.tar.gz --markdown 20230803/c/chronon-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 00:10:23] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.2.8.tar.gz]
+[2023-08-03 00:10:23] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.2.9.tar.gz]
+[2023-08-03 00:10:23] INFO root fetch - main [MainThread]: End processing [kioss]: success
+[2023-08-03 00:10:24] INFO root fetch - processPackages [alertmanagermeshtastic]: Remove: archive file [/home/abi/fetcher/tmp/alertmanagermeshtastic-2023.8.2.7.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - processPackages [alertmanagermeshtastic]: Remove: archive file [/home/abi/fetcher/tmp/alertmanagermeshtastic-2023.8.2.8.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - main [MainThread]: End processing [alertmanagermeshtastic]: success
+[2023-08-03 00:10:24] INFO root fetch - processPackages [loveread]: Remove: archive file [/home/abi/fetcher/tmp/loveread-0.2.3.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - processPackages [loveread]: Remove: archive file [/home/abi/fetcher/tmp/loveread-0.2.4.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - main [MainThread]: End processing [loveread]: success
+[2023-08-03 00:10:24] INFO root fetch - processPackages [ashcrypt]: Remove: archive file [/home/abi/fetcher/tmp/ashcrypt-3.1.1.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - processPackages [ashcrypt]: Remove: archive file [/home/abi/fetcher/tmp/ashcrypt-3.1.2.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - main [MainThread]: End processing [ashcrypt]: success
+[2023-08-03 00:10:24] INFO root fetch - processPackages [aioworkers-consul]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-consul-0.1.1.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - processPackages [aioworkers-consul]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers_consul-0.2.0.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - main [MainThread]: End processing [aioworkers-consul]: success
+[2023-08-03 00:10:24] INFO root fetch - processPackages [tesseract-positional]: Remove: archive file [/home/abi/fetcher/tmp/tesseract_positional-0.1.1.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - processPackages [tesseract-positional]: Remove: archive file [/home/abi/fetcher/tmp/tesseract_positional-0.1.2.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - main [MainThread]: End processing [tesseract-positional]: success
+[2023-08-03 00:10:24] INFO root fetch - processPackages [myPyllant]: Remove: archive file [/home/abi/fetcher/tmp/mypyllant-0.4.1.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - processPackages [myPyllant]: Remove: archive file [/home/abi/fetcher/tmp/mypyllant-0.4.2.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - main [MainThread]: End processing [myPyllant]: success
+[2023-08-03 00:10:24] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.3.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.4.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-08-03 00:10:24] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.5.dev8.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.5.dev9.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-08-03 00:10:24] INFO root fetch - processPackages [chronon-ai]: Remove: archive file [/home/abi/fetcher/tmp/chronon-ai-0.0.8.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - processPackages [chronon-ai]: Remove: archive file [/home/abi/fetcher/tmp/chronon-ai-0.0.9.tar.gz]
+[2023-08-03 00:10:24] INFO root fetch - main [MainThread]: End processing [chronon-ai]: success
+[2023-08-03 00:10:24] INFO root fetch - main [MainThread]: Store serial: [19149276]
