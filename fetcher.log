@@ -958,3 +958,135 @@
 [2023-08-03 00:58:11] INFO root fetch - processPackages [pyTermTk]: Remove: archive file [/home/abi/fetcher/tmp/pyTermTk-0.9.0a62.tar.gz]
 [2023-08-03 00:58:11] INFO root fetch - main [MainThread]: End processing [pyTermTk]: success
 [2023-08-03 00:58:11] INFO root fetch - main [MainThread]: Store serial: [19149664]
+[2023-08-03 01:03:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149664]
+[2023-08-03 01:03:20] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-03 01:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-radiance
+[2023-08-03 01:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvc-data
+[2023-08-03 01:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blued
+[2023-08-03 01:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-honeybee
+[2023-08-03 01:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metar2bufr
+[2023-08-03 01:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flwr-nightly
+[2023-08-03 01:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lbt-dragonfly
+[2023-08-03 01:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-cdk-github-oidc
+[2023-08-03 01:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmnt-cu101
+[2023-08-03 01:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dragonfly-energy
+[2023-08-03 01:03:20] INFO root fetch - processPackages [aws-cdk-github-oidc]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-08-03 01:03:20] WARNING root fetch - processPackages [blued]: Skipping, unable to determine old version
+[2023-08-03 01:03:20] INFO root fetch - processPackages [blued]: Start processing: sequential-parameterSearch
+[2023-08-03 01:03:20] INFO root fetch - main [MainThread]: End processing [blued] error
+[2023-08-03 01:03:20] INFO root fetch - processPackages [metar2bufr]: New version: [0.0.2.30] Old Version: [0.0.2.29]
+[2023-08-03 01:03:20] INFO root fetch - processPackages [dvc-data]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-08-03 01:03:20] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.87]
+[2023-08-03 01:03:20] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-08-03 01:03:20] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230802] Old Version: [0.7.0b20230801]
+[2023-08-03 01:03:20] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-03 01:03:20] WARNING root fetch - processPackages [sequential-parameterSearch]: Skipping, unable to determine old version
+[2023-08-03 01:03:20] INFO root fetch - processPackages [sequential-parameterSearch]: Start processing: SQLAlchemyExample
+[2023-08-03 01:03:20] INFO root fetch - main [MainThread]: End processing [sequential-parameterSearch] error
+[2023-08-03 01:03:20] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230801] Old Version: [1.5.0.dev20230731]
+[2023-08-03 01:03:20] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-08-03 01:03:20] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/14/4c/0bab09edc559883ae84ed8ebb3f7715d2d75ea81fab207e5f6c72a941156/metar2bufr-0.0.2.29.tar.gz
+[2023-08-03 01:03:20] INFO root fetch - processPackages [SQLAlchemyExample]: New version: [0.0.2] Old Version: [0.0.12]
+[2023-08-03 01:03:20] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/95/cb/49bc76b01a8b410994abeea569a120a141487841e30f6d6d61659eb1913f/tmnt-cu101-0.7.0b20230801.tar.gz
+[2023-08-03 01:03:20] INFO root fetch - processPackages [aws-cdk-github-oidc]: Downloading https://files.pythonhosted.org/packages/2b/c0/2508deb6ce7b87cadaafe6bf805b9fdc80bc9e1f3f75f8669905228b5758/aws_cdk_github_oidc-2.3.2-py3-none-any.whl
+[2023-08-03 01:03:20] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-08-03 01:03:20] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-08-03 01:03:20] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/44/c0/089fb85bfc81d8801c1c5839a299af3b45f88f1be2870adea4eacdeb9db8/flwr_nightly-1.5.0.dev20230731.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/20/b3/2ed49a77012165d9c35e9bc23b996126fe322307da08f78f6eb5a4129830/dragonfly-radiance-0.2.87.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/17/f8/64da2a7960f5450b7b770bd33a2182be1ea5d0dabf3e5a60f465a09afdd8/dvc-data-2.8.1.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/19/2e/c670737e0ca00af5285d9bb59ecc8f20b18fddce0c2eaf54bba0646998f5/SQLAlchemyExample-0.0.12.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/5b/12/d34b5f3930ac750c48791f6d550296e5c96b2b8076c11626f6d03a7044b3/flwr_nightly-1.5.0.dev20230801.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/fc/bd/f707492a6b676a81111d1850f8c117c91021318766c0c9ad5b9ea5fae440/tmnt-cu101-0.7.0b20230802.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/91/c9/dcc1fd613931d1dc8d8b6f90dfff1921b89de412c357acdad670da4bf8cd/metar2bufr-0.0.2.30.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [aws-cdk-github-oidc]: Downloading https://files.pythonhosted.org/packages/42/73/12f9b3c82267fb68e0f5695b55ae045581241c71c4ceb2478e3e9cd77b0a/aws-cdk-github-oidc-2.3.3.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-08-03 01:03:21] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230803/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-08-03 01:03:21] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/3a/01/1eb16026b61e74cf4dbd564a51839495edb9d74bb2ec635e4c237a03ccee/dvc-data-2.9.0.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-08-03 01:03:21] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230803/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-03 01:03:21] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/1e/7a/c84c43c1f1027e73857cfb954e67e9478684226306212f14223fcfac9ff7/SQLAlchemyExample-0.0.2.tar.gz
+[2023-08-03 01:03:21] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-08-03 01:03:21] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.87.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230803/d/dragonfly-radiance/0.2.87-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 01:03:21] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-08-03 01:03:21] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230731.tar.gz tmp/flwr_nightly-1.5.0.dev20230801.tar.gz --markdown 20230803/f/flwr-nightly/1.5.0.dev20230731-1.5.0.dev20230801/diff.md --exclude *.pyd
+[2023-08-03 01:03:21] INFO root fetch - processPackages [aws-cdk-github-oidc]: executing diffoscope
+[2023-08-03 01:03:21] INFO root fetch - processPackages [aws-cdk-github-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_cdk_github_oidc-2.3.2-py3-none-any.whl.zip tmp/aws-cdk-github-oidc-2.3.3.tar.gz --markdown 20230803/a/aws-cdk-github-oidc/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-08-03 01:03:21] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-08-03 01:03:21] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230803/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-08-03 01:03:21] INFO root fetch - processPackages [SQLAlchemyExample]: executing diffoscope
+[2023-08-03 01:03:21] INFO root fetch - processPackages [SQLAlchemyExample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemyExample-0.0.12.tar.gz tmp/SQLAlchemyExample-0.0.2.tar.gz --markdown 20230803/S/SQLAlchemyExample/0.0.12-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 01:03:21] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-08-03 01:03:21] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-2.8.1.tar.gz tmp/dvc-data-2.9.0.tar.gz --markdown 20230803/d/dvc-data/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-08-03 01:03:21] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-08-03 01:03:21] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230801.tar.gz tmp/tmnt-cu101-0.7.0b20230802.tar.gz --markdown 20230803/t/tmnt-cu101/0.7.0b20230801-0.7.0b20230802/diff.md --exclude *.pyd
+[2023-08-03 01:03:21] INFO root fetch - processPackages [metar2bufr]: executing diffoscope
+[2023-08-03 01:03:21] INFO root fetch - processPackages [metar2bufr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metar2bufr-0.0.2.29.tar.gz tmp/metar2bufr-0.0.2.30.tar.gz --markdown 20230803/m/metar2bufr/0.0.2.29-0.0.2.30/diff.md --exclude *.pyd
+[2023-08-03 01:03:23] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: CellNeighborEX
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-08-03 01:03:23] INFO root fetch - processPackages [aws-cdk-github-oidc]: Remove: archive file [/home/abi/fetcher/tmp/aws_cdk_github_oidc-2.3.2-py3-none-any.whl.zip]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [aws-cdk-github-oidc]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk-github-oidc-2.3.3.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [aws-cdk-github-oidc]: Start processing: robotframework-asyncio-utils
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [aws-cdk-github-oidc]: success
+[2023-08-03 01:03:23] INFO root fetch - processPackages [CellNeighborEX]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.0.12.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.0.2.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [SQLAlchemyExample]: Start processing: mitoinstaller
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [SQLAlchemyExample]: success
+[2023-08-03 01:03:23] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.87.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: pliny
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-08-03 01:03:23] WARNING root fetch - processPackages [robotframework-asyncio-utils]: Skipping, unable to determine old version
+[2023-08-03 01:03:23] INFO root fetch - processPackages [robotframework-asyncio-utils]: Start processing: tmnt
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [robotframework-asyncio-utils] error
+[2023-08-03 01:03:23] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-08-03 01:03:23] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230801] Old Version: [0.7.0b20230731]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/a9/cc/efea247a930bcdd3371e2847677b40c385cbf35a56d638639d1e8b121847/mitoinstaller-0.0.98.tar.gz
+[2023-08-03 01:03:23] INFO root fetch - processPackages [CellNeighborEX]: Downloading https://files.pythonhosted.org/packages/da/31/4477c841a1f84a4b8d0ab6d7f445566be771a8cd085ae02d42dd929fc9fa/CellNeighborEX-0.0.3.tar.gz
+[2023-08-03 01:03:23] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230801.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230802.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-08-03 01:03:23] WARNING root fetch - processPackages [pliny]: Skipping, unable to determine old version
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [pliny] error
+[2023-08-03 01:03:23] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-08-03 01:03:23] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/1f/84/6b6fa43db620afe6e7a303b63d4fee2567c2f715e0c6adcff32fe30d2f65/tmnt-0.7.0b20230731.tar.gz
+[2023-08-03 01:03:23] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.29.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.30.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [metar2bufr]: success
+[2023-08-03 01:03:23] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.8.1.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.9.0.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-08-03 01:03:23] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230731.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230801.tar.gz]
+[2023-08-03 01:03:23] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/90/7c/46b1dcf5bb93cdb5baf1650e82750b20b76439dbb6550a8596d1d373443a/mitoinstaller-0.0.99.tar.gz
+[2023-08-03 01:03:23] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-08-03 01:03:23] INFO root fetch - processPackages [CellNeighborEX]: Downloading https://files.pythonhosted.org/packages/3a/9e/824b288b21809f38a31ce848875e8f4a9dc0e7ab31d0c1d559c100d70d8b/CellNeighborEX-0.0.4-py3-none-any.whl
+[2023-08-03 01:03:23] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/59/0b/e4c72a49019ef48c84f23925c4edd1a213ec6793a96050a2d1be1b826eeb/tmnt-0.7.0b20230801.tar.gz
+[2023-08-03 01:03:23] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2023-08-03 01:03:23] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20230803/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 01:03:24] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-08-03 01:03:24] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230731.tar.gz tmp/tmnt-0.7.0b20230801.tar.gz --markdown 20230803/t/tmnt/0.7.0b20230731-0.7.0b20230801/diff.md --exclude *.pyd
+[2023-08-03 01:03:24] INFO root fetch - processPackages [CellNeighborEX]: executing diffoscope
+[2023-08-03 01:03:24] INFO root fetch - processPackages [CellNeighborEX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CellNeighborEX-0.0.3.tar.gz tmp/CellNeighborEX-0.0.4-py3-none-any.whl.zip --markdown 20230803/C/CellNeighborEX/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 01:03:24] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.98.tar.gz]
+[2023-08-03 01:03:24] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.99.tar.gz]
+[2023-08-03 01:03:24] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2023-08-03 01:03:24] INFO root fetch - processPackages [CellNeighborEX]: Remove: archive file [/home/abi/fetcher/tmp/CellNeighborEX-0.0.3.tar.gz]
+[2023-08-03 01:03:24] INFO root fetch - processPackages [CellNeighborEX]: Remove: archive file [/home/abi/fetcher/tmp/CellNeighborEX-0.0.4-py3-none-any.whl.zip]
+[2023-08-03 01:03:24] INFO root fetch - main [MainThread]: End processing [CellNeighborEX]: success
+[2023-08-03 01:03:24] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230731.tar.gz]
+[2023-08-03 01:03:24] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230801.tar.gz]
+[2023-08-03 01:03:24] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-08-03 01:03:24] INFO root fetch - main [MainThread]: Store serial: [19149725]
