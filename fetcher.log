@@ -239,3 +239,87 @@
 [2023-08-03 00:15:36] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
 [2023-08-03 00:15:36] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
 [2023-08-03 00:15:36] INFO root fetch - main [MainThread]: Store serial: [19149303]
+[2023-08-03 00:20:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149303]
+[2023-08-03 00:20:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-03 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mx-platform-python
+[2023-08-03 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loveread
+[2023-08-03 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytesdaq
+[2023-08-03 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alertmanagermeshtastic
+[2023-08-03 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sharingiscaring
+[2023-08-03 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lytics-api-wrapper
+[2023-08-03 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neoclient
+[2023-08-03 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myPyllant
+[2023-08-03 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easy-boto3
+[2023-08-03 00:20:45] INFO root fetch - processPackages [alertmanagermeshtastic]: New version: [2023.8.2.9] Old Version: [2023.8.2.8]
+[2023-08-03 00:20:45] INFO root fetch - processPackages [easy-boto3]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-03 00:20:45] INFO root fetch - processPackages [neoclient]: New version: [0.1.29] Old Version: [0.1.19]
+[2023-08-03 00:20:45] INFO root fetch - processPackages [pytesdaq]: New version: [0.3.6] Old Version: [0.3.4]
+[2023-08-03 00:20:45] INFO root fetch - processPackages [lytics-api-wrapper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 00:20:45] INFO root fetch - processPackages [loveread]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-03 00:20:45] INFO root fetch - processPackages [mx-platform-python]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-03 00:20:45] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.80]
+[2023-08-03 00:20:45] INFO root fetch - processPackages [myPyllant]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-03 00:20:45] INFO root fetch - processPackages [alertmanagermeshtastic]: Downloading https://files.pythonhosted.org/packages/86/f8/c994f875b2ac30ce2fc8d7b21b86aafa284cd1aa365ba6161b4561151630/alertmanagermeshtastic-2023.8.2.8.tar.gz
+[2023-08-03 00:20:45] INFO root fetch - processPackages [myPyllant]: Downloading https://files.pythonhosted.org/packages/b7/f6/dc235d4f4bf79198b5b876f30a9f1af7b57243cdf596b09bb6e0ec499d45/mypyllant-0.4.2.tar.gz
+[2023-08-03 00:20:45] INFO root fetch - processPackages [mx-platform-python]: Downloading https://files.pythonhosted.org/packages/b9/2a/d1f30f6f73fc3b0849ae6677faf2c5ce5dafd3cdc1887df0ac37ac66511e/mx-platform-python-0.9.1.tar.gz
+[2023-08-03 00:20:45] INFO root fetch - processPackages [neoclient]: Downloading https://files.pythonhosted.org/packages/31/1d/e5396a678ddbaa795d6ee2d770f43be24e3c46256486e335123759f43bd4/neoclient-0.1.19.tar.gz
+[2023-08-03 00:20:45] INFO root fetch - processPackages [easy-boto3]: Downloading https://files.pythonhosted.org/packages/d1/9e/0c9e74de7e5fdc9ccdfbee101eb51a0a55d3826291a382b9ba61e779c0aa/easy_boto3-0.1.6.tar.gz
+[2023-08-03 00:20:45] INFO root fetch - processPackages [loveread]: Downloading https://files.pythonhosted.org/packages/27/c1/f325da113d9e7eb5a4b2ee810fed841bfea55f695090dec0ff1aec5ee5ad/loveread-0.2.5.tar.gz
+[2023-08-03 00:20:45] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/ba/1c/87c3897e74fe36231350c93e1ae0e0dfc9ae8a19ff9063630cc5fbfaa51a/sharingiscaring-0.2.80.tar.gz
+[2023-08-03 00:20:45] INFO root fetch - processPackages [pytesdaq]: Downloading https://files.pythonhosted.org/packages/28/00/840d42842f22808c73b2651dc4c5e80c2e0e296f98071bb32cdcdbf2218f/pytesdaq-0.3.4.tar.gz
+[2023-08-03 00:20:45] INFO root fetch - processPackages [lytics-api-wrapper]: Downloading https://files.pythonhosted.org/packages/a2/ad/47631a0a8ea4c793d9708205e4d4565ffce87fbde0480c22b40d2ff67dd4/lytics_api_wrapper-0.0.3.tar.gz
+[2023-08-03 00:20:46] INFO root fetch - processPackages [myPyllant]: Downloading https://files.pythonhosted.org/packages/b9/0e/33ed3698f6e845a2ba4f796a841ce831f39f083c21c1172f07b227ec2e8b/mypyllant-0.4.3.tar.gz
+[2023-08-03 00:20:46] INFO root fetch - processPackages [alertmanagermeshtastic]: Downloading https://files.pythonhosted.org/packages/05/83/9a0286d184f37996693f3aeab38d975569c56ae700bed647108c08457646/alertmanagermeshtastic-2023.8.2.9.tar.gz
+[2023-08-03 00:20:46] INFO root fetch - processPackages [easy-boto3]: Downloading https://files.pythonhosted.org/packages/22/5d/13fafef8b560be777f52f0d406f64bd2a58c93fda3054eff939948bca528/easy_boto3-0.1.7.tar.gz
+[2023-08-03 00:20:46] INFO root fetch - processPackages [mx-platform-python]: Downloading https://files.pythonhosted.org/packages/17/82/b60fc7f40b00df6261b3a97dd00561b549791e4695995d5a86892fa1d888/mx-platform-python-0.9.2.tar.gz
+[2023-08-03 00:20:46] INFO root fetch - processPackages [neoclient]: Downloading https://files.pythonhosted.org/packages/5e/43/4947d33cdc9f62d313acc2a4cfad5ba0f80b877ca62947236efc5c0e440e/neoclient-0.1.29.tar.gz
+[2023-08-03 00:20:46] INFO root fetch - processPackages [loveread]: Downloading https://files.pythonhosted.org/packages/70/ef/1db10228d9ef5e92190bcdadeab4a90750583bd03d419aa53592d16dd385/loveread-0.2.6.tar.gz
+[2023-08-03 00:20:46] INFO root fetch - processPackages [pytesdaq]: Downloading https://files.pythonhosted.org/packages/e8/17/4be9d9f9468b58abb700e85dfcf1d430610ae9c65de40b024ebc8fdb444e/pytesdaq-0.3.6.tar.gz
+[2023-08-03 00:20:46] INFO root fetch - processPackages [lytics-api-wrapper]: Downloading https://files.pythonhosted.org/packages/3e/39/b317a4c1c8c9a08d6cf91d6a2597f02af8c44e74299767e028a3644be51a/lytics_api_wrapper-0.0.4.tar.gz
+[2023-08-03 00:20:46] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/3c/51/994c3bf1116cc8b6234cbdc78a444ab9f875f5c3ce1e11c36bc0b2cdfa0e/sharingiscaring-0.2.9.tar.gz
+[2023-08-03 00:20:46] INFO root fetch - processPackages [easy-boto3]: executing diffoscope
+[2023-08-03 00:20:46] INFO root fetch - processPackages [easy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_boto3-0.1.6.tar.gz tmp/easy_boto3-0.1.7.tar.gz --markdown 20230803/e/easy-boto3/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-03 00:20:46] INFO root fetch - processPackages [alertmanagermeshtastic]: executing diffoscope
+[2023-08-03 00:20:46] INFO root fetch - processPackages [alertmanagermeshtastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertmanagermeshtastic-2023.8.2.8.tar.gz tmp/alertmanagermeshtastic-2023.8.2.9.tar.gz --markdown 20230803/a/alertmanagermeshtastic/2023.8.2.8-2023.8.2.9/diff.md --exclude *.pyd
+[2023-08-03 00:20:46] INFO root fetch - processPackages [myPyllant]: executing diffoscope
+[2023-08-03 00:20:46] INFO root fetch - processPackages [myPyllant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypyllant-0.4.2.tar.gz tmp/mypyllant-0.4.3.tar.gz --markdown 20230803/m/myPyllant/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-03 00:20:46] INFO root fetch - processPackages [neoclient]: executing diffoscope
+[2023-08-03 00:20:46] INFO root fetch - processPackages [neoclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neoclient-0.1.19.tar.gz tmp/neoclient-0.1.29.tar.gz --markdown 20230803/n/neoclient/0.1.19-0.1.29/diff.md --exclude *.pyd
+[2023-08-03 00:20:46] INFO root fetch - processPackages [mx-platform-python]: executing diffoscope
+[2023-08-03 00:20:46] INFO root fetch - processPackages [mx-platform-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mx-platform-python-0.9.1.tar.gz tmp/mx-platform-python-0.9.2.tar.gz --markdown 20230803/m/mx-platform-python/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-03 00:20:46] INFO root fetch - processPackages [lytics-api-wrapper]: executing diffoscope
+[2023-08-03 00:20:46] INFO root fetch - processPackages [lytics-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytics_api_wrapper-0.0.3.tar.gz tmp/lytics_api_wrapper-0.0.4.tar.gz --markdown 20230803/l/lytics-api-wrapper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 00:20:46] INFO root fetch - processPackages [loveread]: executing diffoscope
+[2023-08-03 00:20:46] INFO root fetch - processPackages [loveread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loveread-0.2.5.tar.gz tmp/loveread-0.2.6.tar.gz --markdown 20230803/l/loveread/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-03 00:20:46] INFO root fetch - processPackages [pytesdaq]: executing diffoscope
+[2023-08-03 00:20:46] INFO root fetch - processPackages [pytesdaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytesdaq-0.3.4.tar.gz tmp/pytesdaq-0.3.6.tar.gz --markdown 20230803/p/pytesdaq/0.3.4-0.3.6/diff.md --exclude *.pyd
+[2023-08-03 00:20:46] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-08-03 00:20:46] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.80.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230803/s/sharingiscaring/0.2.80-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 00:20:48] INFO root fetch - processPackages [lytics-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/lytics_api_wrapper-0.0.3.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - processPackages [lytics-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/lytics_api_wrapper-0.0.4.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - main [MainThread]: End processing [lytics-api-wrapper]: success
+[2023-08-03 00:20:48] INFO root fetch - processPackages [myPyllant]: Remove: archive file [/home/abi/fetcher/tmp/mypyllant-0.4.2.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - processPackages [myPyllant]: Remove: archive file [/home/abi/fetcher/tmp/mypyllant-0.4.3.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - main [MainThread]: End processing [myPyllant]: success
+[2023-08-03 00:20:48] INFO root fetch - processPackages [loveread]: Remove: archive file [/home/abi/fetcher/tmp/loveread-0.2.5.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - processPackages [loveread]: Remove: archive file [/home/abi/fetcher/tmp/loveread-0.2.6.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - main [MainThread]: End processing [loveread]: success
+[2023-08-03 00:20:48] INFO root fetch - processPackages [neoclient]: Remove: archive file [/home/abi/fetcher/tmp/neoclient-0.1.19.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - processPackages [neoclient]: Remove: archive file [/home/abi/fetcher/tmp/neoclient-0.1.29.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - main [MainThread]: End processing [neoclient]: success
+[2023-08-03 00:20:48] INFO root fetch - processPackages [alertmanagermeshtastic]: Remove: archive file [/home/abi/fetcher/tmp/alertmanagermeshtastic-2023.8.2.8.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - processPackages [alertmanagermeshtastic]: Remove: archive file [/home/abi/fetcher/tmp/alertmanagermeshtastic-2023.8.2.9.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - main [MainThread]: End processing [alertmanagermeshtastic]: success
+[2023-08-03 00:20:48] INFO root fetch - processPackages [easy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/easy_boto3-0.1.6.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - processPackages [easy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/easy_boto3-0.1.7.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - main [MainThread]: End processing [easy-boto3]: success
+[2023-08-03 00:20:48] INFO root fetch - processPackages [pytesdaq]: Remove: archive file [/home/abi/fetcher/tmp/pytesdaq-0.3.4.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - processPackages [pytesdaq]: Remove: archive file [/home/abi/fetcher/tmp/pytesdaq-0.3.6.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - main [MainThread]: End processing [pytesdaq]: success
+[2023-08-03 00:20:48] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.80.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.9.tar.gz]
+[2023-08-03 00:20:48] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-08-03 00:20:49] INFO root fetch - processPackages [mx-platform-python]: Remove: archive file [/home/abi/fetcher/tmp/mx-platform-python-0.9.1.tar.gz]
+[2023-08-03 00:20:49] INFO root fetch - processPackages [mx-platform-python]: Remove: archive file [/home/abi/fetcher/tmp/mx-platform-python-0.9.2.tar.gz]
+[2023-08-03 00:20:49] INFO root fetch - main [MainThread]: End processing [mx-platform-python]: success
+[2023-08-03 00:20:49] INFO root fetch - main [MainThread]: Store serial: [19149341]
