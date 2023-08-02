@@ -1686,3 +1686,51 @@
 [2023-08-03 01:45:56] INFO root fetch - processPackages [composabl-core-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_core_dev-0.3.9.dev15-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-03 01:45:56] INFO root fetch - main [MainThread]: End processing [composabl-core-dev]: success
 [2023-08-03 01:45:56] INFO root fetch - main [MainThread]: Store serial: [19150031]
+[2023-08-03 01:51:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19150031]
+[2023-08-03 01:51:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-03 01:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botcity-documents
+[2023-08-03 01:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparkql
+[2023-08-03 01:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-cdk-github-oidc
+[2023-08-03 01:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stable-trunc-gaussian
+[2023-08-03 01:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapifurs
+[2023-08-03 01:51:05] INFO root fetch - processPackages [sparkql]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-03 01:51:05] INFO root fetch - processPackages [botcity-documents]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-08-03 01:51:05] INFO root fetch - processPackages [aws-cdk-github-oidc]: New version: [2.4.0] Old Version: [2.3.5]
+[2023-08-03 01:51:05] INFO root fetch - processPackages [scrapifurs]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-08-03 01:51:05] INFO root fetch - processPackages [stable-trunc-gaussian]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-08-03 01:51:05] INFO root fetch - processPackages [aws-cdk-github-oidc]: Downloading https://files.pythonhosted.org/packages/c7/9e/3c93c58fb46621b902f08ddef01cc6546bf1e7736058e1c6d0ee11586877/aws-cdk-github-oidc-2.3.5.tar.gz
+[2023-08-03 01:51:05] INFO root fetch - processPackages [sparkql]: Downloading https://files.pythonhosted.org/packages/53/d5/347fe06aa41ccdb806b310148c1113bc275fc8b54700741826e2f733e032/sparkql-0.8.0.tar.gz
+[2023-08-03 01:51:05] INFO root fetch - processPackages [scrapifurs]: Downloading https://files.pythonhosted.org/packages/65/e7/e60831f56d479b55489d9ec9ba7c155c330abc174517eb235efe482e71b0/scrapifurs-0.1.0.tar.gz
+[2023-08-03 01:51:05] INFO root fetch - processPackages [botcity-documents]: Downloading https://files.pythonhosted.org/packages/48/6c/d6078f27a8d7c36b95fa90be83cc1c92fe6c1bbad002ea7de3e6e68eef16/botcity-documents-0.3.4.tar.gz
+[2023-08-03 01:51:05] INFO root fetch - processPackages [stable-trunc-gaussian]: Downloading https://files.pythonhosted.org/packages/15/7d/c9d54ed3c10b93ca035faec1ad6d1087289e9bffd75f5039fce4a673a355/stable-trunc-gaussian-1.1.1.tar.gz
+[2023-08-03 01:51:06] INFO root fetch - processPackages [aws-cdk-github-oidc]: Downloading https://files.pythonhosted.org/packages/57/65/e4f020749fc8de8c0189be33b87db2eff4adf01f1dbc4fb2204958a42d0c/aws-cdk-github-oidc-2.4.0.tar.gz
+[2023-08-03 01:51:06] INFO root fetch - processPackages [sparkql]: Downloading https://files.pythonhosted.org/packages/f7/a9/b1f691cb1c832386462f3748c7697cec00acd33536440f042328f25acfb3/sparkql-0.9.0.tar.gz
+[2023-08-03 01:51:06] INFO root fetch - processPackages [scrapifurs]: Downloading https://files.pythonhosted.org/packages/be/ff/f96da9f06efc47519c78e024525a9bae0c76296ada6606f51f036b59a811/scrapifurs-0.1.2.tar.gz
+[2023-08-03 01:51:06] INFO root fetch - processPackages [stable-trunc-gaussian]: Downloading https://files.pythonhosted.org/packages/39/6b/2cdd4ced96971a42b34f2630fd04d687262f4f43692299926e273783d3df/stable-trunc-gaussian-1.2.0.tar.gz
+[2023-08-03 01:51:06] INFO root fetch - processPackages [aws-cdk-github-oidc]: executing diffoscope
+[2023-08-03 01:51:06] INFO root fetch - processPackages [aws-cdk-github-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk-github-oidc-2.3.5.tar.gz tmp/aws-cdk-github-oidc-2.4.0.tar.gz --markdown 20230803/a/aws-cdk-github-oidc/2.3.5-2.4.0/diff.md --exclude *.pyd
+[2023-08-03 01:51:06] INFO root fetch - processPackages [sparkql]: executing diffoscope
+[2023-08-03 01:51:06] INFO root fetch - processPackages [sparkql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkql-0.8.0.tar.gz tmp/sparkql-0.9.0.tar.gz --markdown 20230803/s/sparkql/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 01:51:06] INFO root fetch - processPackages [stable-trunc-gaussian]: executing diffoscope
+[2023-08-03 01:51:06] INFO root fetch - processPackages [stable-trunc-gaussian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-trunc-gaussian-1.1.1.tar.gz tmp/stable-trunc-gaussian-1.2.0.tar.gz --markdown 20230803/s/stable-trunc-gaussian/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-08-03 01:51:06] INFO root fetch - processPackages [scrapifurs]: executing diffoscope
+[2023-08-03 01:51:06] INFO root fetch - processPackages [scrapifurs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapifurs-0.1.0.tar.gz tmp/scrapifurs-0.1.2.tar.gz --markdown 20230803/s/scrapifurs/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-08-03 01:51:07] INFO root fetch - processPackages [sparkql]: Remove: archive file [/home/abi/fetcher/tmp/sparkql-0.8.0.tar.gz]
+[2023-08-03 01:51:07] INFO root fetch - processPackages [sparkql]: Remove: archive file [/home/abi/fetcher/tmp/sparkql-0.9.0.tar.gz]
+[2023-08-03 01:51:07] INFO root fetch - main [MainThread]: End processing [sparkql]: success
+[2023-08-03 01:51:07] INFO root fetch - processPackages [aws-cdk-github-oidc]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk-github-oidc-2.3.5.tar.gz]
+[2023-08-03 01:51:07] INFO root fetch - processPackages [aws-cdk-github-oidc]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk-github-oidc-2.4.0.tar.gz]
+[2023-08-03 01:51:07] INFO root fetch - main [MainThread]: End processing [aws-cdk-github-oidc]: success
+[2023-08-03 01:51:07] INFO root fetch - processPackages [scrapifurs]: Remove: archive file [/home/abi/fetcher/tmp/scrapifurs-0.1.0.tar.gz]
+[2023-08-03 01:51:07] INFO root fetch - processPackages [scrapifurs]: Remove: archive file [/home/abi/fetcher/tmp/scrapifurs-0.1.2.tar.gz]
+[2023-08-03 01:51:07] INFO root fetch - main [MainThread]: End processing [scrapifurs]: success
+[2023-08-03 01:51:07] INFO root fetch - processPackages [stable-trunc-gaussian]: Remove: archive file [/home/abi/fetcher/tmp/stable-trunc-gaussian-1.1.1.tar.gz]
+[2023-08-03 01:51:07] INFO root fetch - processPackages [stable-trunc-gaussian]: Remove: archive file [/home/abi/fetcher/tmp/stable-trunc-gaussian-1.2.0.tar.gz]
+[2023-08-03 01:51:07] INFO root fetch - main [MainThread]: End processing [stable-trunc-gaussian]: success
+[2023-08-03 01:51:07] INFO root fetch - processPackages [botcity-documents]: Downloading https://files.pythonhosted.org/packages/01/48/e7c4de67893b22a84c6573627f08eb8b12c19dc72431f6f8ec7a86e529a7/botcity-documents-0.4.0.tar.gz
+[2023-08-03 01:51:08] INFO root fetch - processPackages [botcity-documents]: executing diffoscope
+[2023-08-03 01:51:08] INFO root fetch - processPackages [botcity-documents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botcity-documents-0.3.4.tar.gz tmp/botcity-documents-0.4.0.tar.gz --markdown 20230803/b/botcity-documents/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-08-03 01:51:09] INFO root fetch - processPackages [botcity-documents]: Remove: archive file [/home/abi/fetcher/tmp/botcity-documents-0.3.4.tar.gz]
+[2023-08-03 01:51:09] INFO root fetch - processPackages [botcity-documents]: Remove: archive file [/home/abi/fetcher/tmp/botcity-documents-0.4.0.tar.gz]
+[2023-08-03 01:51:09] INFO root fetch - main [MainThread]: End processing [botcity-documents]: success
+[2023-08-03 01:51:09] INFO root fetch - main [MainThread]: Store serial: [19150048]
