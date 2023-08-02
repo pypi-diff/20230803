@@ -1361,3 +1361,57 @@
 [2023-08-03 01:19:30] INFO root fetch - processPackages [UW-RestClients-AdSel]: Remove: archive file [/home/abi/fetcher/tmp/UW-RestClients-AdSel-1.9.3.tar.gz]
 [2023-08-03 01:19:30] INFO root fetch - main [MainThread]: End processing [UW-RestClients-AdSel]: success
 [2023-08-03 01:19:30] INFO root fetch - main [MainThread]: Store serial: [19149902]
+[2023-08-03 01:24:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149902]
+[2023-08-03 01:24:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-03 01:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapifurs
+[2023-08-03 01:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zep-python
+[2023-08-03 01:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyabf
+[2023-08-03 01:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Topyfic
+[2023-08-03 01:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litenai
+[2023-08-03 01:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MOVE3
+[2023-08-03 01:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: facedetector-py
+[2023-08-03 01:24:39] INFO root fetch - processPackages [zep-python]: New version: [1.0b0] Old Version: [0.34]
+[2023-08-03 01:24:39] WARNING root fetch - processPackages [MOVE3]: Skipping, unable to determine old version
+[2023-08-03 01:24:39] INFO root fetch - main [MainThread]: End processing [MOVE3] error
+[2023-08-03 01:24:39] INFO root fetch - processPackages [Topyfic]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-03 01:24:39] INFO root fetch - processPackages [litenai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 01:24:39] INFO root fetch - processPackages [facedetector-py]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 01:24:39] INFO root fetch - processPackages [pyabf]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-08-03 01:24:40] WARNING root fetch - processPackages [scrapifurs]: Skipping, unable to determine old version
+[2023-08-03 01:24:40] INFO root fetch - main [MainThread]: End processing [scrapifurs] error
+[2023-08-03 01:24:40] INFO root fetch - processPackages [zep-python]: Downloading https://files.pythonhosted.org/packages/04/34/55a7d549ea5b518f3fda34106df8a6423476b5bfb8690265cf3bcbadbd3a/zep_python-0.34.tar.gz
+[2023-08-03 01:24:40] INFO root fetch - processPackages [facedetector-py]: Downloading https://files.pythonhosted.org/packages/5a/e8/315c31bf1c165c45af6d4d30875498bbe65e9fc344b3e643c821484e12ee/facedetector-py-0.0.3.tar.gz
+[2023-08-03 01:24:40] INFO root fetch - processPackages [Topyfic]: Downloading https://files.pythonhosted.org/packages/d8/36/ba47b55454c93ede91079f6128c10bb1be15ee0403ec6a6e74369d717265/Topyfic-0.4.3.tar.gz
+[2023-08-03 01:24:40] INFO root fetch - processPackages [pyabf]: Downloading https://files.pythonhosted.org/packages/dc/5c/2434049962364613bc3dcecb24f3d4c7a5d1d48f0b4ab4a16d7a208d7a19/pyabf-2.3.7.tar.gz
+[2023-08-03 01:24:40] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/94/2a/faa876ae16d03bc0c8948d4f3be1aab1fdbcfb4318cef9fcb984d2b303b9/litenai-0.0.8-py3-none-any.whl
+[2023-08-03 01:24:40] INFO root fetch - processPackages [zep-python]: Downloading https://files.pythonhosted.org/packages/9a/2a/be4ce5d376a68435f5218a50c6e9666b517dcc26bb931e04f77ee42cde13/zep_python-1.0b0.tar.gz
+[2023-08-03 01:24:40] INFO root fetch - processPackages [facedetector-py]: Downloading https://files.pythonhosted.org/packages/1d/40/210e1b38b315bcd84f20ce0f4582c38f81b2722d1b42937a7e7654d396c5/facedetector-py-0.0.4.tar.gz
+[2023-08-03 01:24:40] INFO root fetch - processPackages [Topyfic]: Downloading https://files.pythonhosted.org/packages/b0/a9/b7f8fa26e53c501e8832afb721ac9788f63c7f5ec2b41187dc3d961ff991/Topyfic-0.4.4.tar.gz
+[2023-08-03 01:24:40] INFO root fetch - processPackages [zep-python]: executing diffoscope
+[2023-08-03 01:24:40] INFO root fetch - processPackages [zep-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zep_python-0.34.tar.gz tmp/zep_python-1.0b0.tar.gz --markdown 20230803/z/zep-python/0.34-1.0b0/diff.md --exclude *.pyd
+[2023-08-03 01:24:40] INFO root fetch - processPackages [facedetector-py]: executing diffoscope
+[2023-08-03 01:24:40] INFO root fetch - processPackages [facedetector-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facedetector-py-0.0.3.tar.gz tmp/facedetector-py-0.0.4.tar.gz --markdown 20230803/f/facedetector-py/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 01:24:40] INFO root fetch - processPackages [Topyfic]: executing diffoscope
+[2023-08-03 01:24:40] INFO root fetch - processPackages [Topyfic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Topyfic-0.4.3.tar.gz tmp/Topyfic-0.4.4.tar.gz --markdown 20230803/T/Topyfic/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-03 01:24:40] INFO root fetch - processPackages [pyabf]: Downloading https://files.pythonhosted.org/packages/08/8c/60694c3129f22766e69e413c8172a263a46f363a99498da63bda411cfe28/pyabf-2.3.8.tar.gz
+[2023-08-03 01:24:40] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/75/73/193b789002dd329d092fe95760ff9bc83157ab0798508e0489ccadc622b4/litenai-0.0.9-py3-none-any.whl
+[2023-08-03 01:24:40] INFO root fetch - processPackages [pyabf]: executing diffoscope
+[2023-08-03 01:24:40] INFO root fetch - processPackages [pyabf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyabf-2.3.7.tar.gz tmp/pyabf-2.3.8.tar.gz --markdown 20230803/p/pyabf/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2023-08-03 01:24:40] INFO root fetch - processPackages [litenai]: executing diffoscope
+[2023-08-03 01:24:40] INFO root fetch - processPackages [litenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litenai-0.0.8-py3-none-any.whl.zip tmp/litenai-0.0.9-py3-none-any.whl.zip --markdown 20230803/l/litenai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 01:24:41] INFO root fetch - processPackages [facedetector-py]: Remove: archive file [/home/abi/fetcher/tmp/facedetector-py-0.0.3.tar.gz]
+[2023-08-03 01:24:41] INFO root fetch - processPackages [facedetector-py]: Remove: archive file [/home/abi/fetcher/tmp/facedetector-py-0.0.4.tar.gz]
+[2023-08-03 01:24:41] INFO root fetch - main [MainThread]: End processing [facedetector-py]: success
+[2023-08-03 01:24:41] INFO root fetch - processPackages [Topyfic]: Remove: archive file [/home/abi/fetcher/tmp/Topyfic-0.4.3.tar.gz]
+[2023-08-03 01:24:41] INFO root fetch - processPackages [Topyfic]: Remove: archive file [/home/abi/fetcher/tmp/Topyfic-0.4.4.tar.gz]
+[2023-08-03 01:24:41] INFO root fetch - main [MainThread]: End processing [Topyfic]: success
+[2023-08-03 01:24:41] INFO root fetch - processPackages [zep-python]: Remove: archive file [/home/abi/fetcher/tmp/zep_python-0.34.tar.gz]
+[2023-08-03 01:24:41] INFO root fetch - processPackages [zep-python]: Remove: archive file [/home/abi/fetcher/tmp/zep_python-1.0b0.tar.gz]
+[2023-08-03 01:24:41] INFO root fetch - main [MainThread]: End processing [zep-python]: success
+[2023-08-03 01:24:41] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.8-py3-none-any.whl.zip]
+[2023-08-03 01:24:41] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.9-py3-none-any.whl.zip]
+[2023-08-03 01:24:41] INFO root fetch - main [MainThread]: End processing [litenai]: success
+[2023-08-03 01:24:41] INFO root fetch - processPackages [pyabf]: Remove: archive file [/home/abi/fetcher/tmp/pyabf-2.3.7.tar.gz]
+[2023-08-03 01:24:41] INFO root fetch - processPackages [pyabf]: Remove: archive file [/home/abi/fetcher/tmp/pyabf-2.3.8.tar.gz]
+[2023-08-03 01:24:41] INFO root fetch - main [MainThread]: End processing [pyabf]: success
+[2023-08-03 01:24:41] INFO root fetch - main [MainThread]: Store serial: [19149923]
