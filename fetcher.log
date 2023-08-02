@@ -442,3 +442,104 @@
 [2023-08-03 00:26:05] INFO root fetch - processPackages [seahorse]: Remove: archive file [/home/abi/fetcher/tmp/seahorse-0.0.1b1.tar.gz]
 [2023-08-03 00:26:05] INFO root fetch - main [MainThread]: End processing [seahorse]: success
 [2023-08-03 00:26:05] INFO root fetch - main [MainThread]: Store serial: [19149386]
+[2023-08-03 00:31:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149386]
+[2023-08-03 00:31:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-03 00:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: masto
+[2023-08-03 00:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: masto
+[2023-08-03 00:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-appconfiguration
+[2023-08-03 00:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: requests-selenium
+[2023-08-03 00:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-08-03 00:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mitoinstaller
+[2023-08-03 00:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tdw
+[2023-08-03 00:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-ray-dev
+[2023-08-03 00:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RUTTS
+[2023-08-03 00:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rune-ocr
+[2023-08-03 00:31:30] WARNING root fetch - processPackages [masto]: Skipping, unable to determine old version
+[2023-08-03 00:31:30] INFO root fetch - processPackages [masto]: Start processing: nmecpy
+[2023-08-03 00:31:30] INFO root fetch - main [MainThread]: End processing [masto] error
+[2023-08-03 00:31:30] WARNING root fetch - processPackages [masto]: Skipping, unable to determine old version
+[2023-08-03 00:31:30] INFO root fetch - processPackages [masto]: Start processing: wodoo
+[2023-08-03 00:31:30] INFO root fetch - main [MainThread]: End processing [masto] error
+[2023-08-03 00:31:30] WARNING root fetch - processPackages [requests-selenium]: Skipping, unable to determine old version
+[2023-08-03 00:31:30] INFO root fetch - processPackages [requests-selenium]: Start processing: honeybee-core
+[2023-08-03 00:31:30] INFO root fetch - main [MainThread]: End processing [requests-selenium] error
+[2023-08-03 00:31:30] INFO root fetch - processPackages [RUTTS]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 00:31:30] INFO root fetch - processPackages [azure-appconfiguration]: New version: [1.5.0b2] Old Version: [1.5.0b1]
+[2023-08-03 00:31:30] WARNING root fetch - processPackages [rune-ocr]: Skipping, unable to determine old version
+[2023-08-03 00:31:30] INFO root fetch - processPackages [rune-ocr]: Start processing: llm-strategy
+[2023-08-03 00:31:30] INFO root fetch - main [MainThread]: End processing [rune-ocr] error
+[2023-08-03 00:31:30] INFO root fetch - processPackages [nmecpy]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-03 00:31:30] INFO root fetch - processPackages [tdw]: New version: [1.9.9.3] Old Version: [1.9.9.2]
+[2023-08-03 00:31:30] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev6]
+[2023-08-03 00:31:30] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 00:31:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.416] Old Version: [0.3.415]
+[2023-08-03 00:31:30] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-03 00:31:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/36/a2/673f48c1edcf7072da3084e774660a068245e4a7ec0923bb264e8e8488ea/pepperize.cdk-ses-smtp-credentials-0.3.415.tar.gz
+[2023-08-03 00:31:30] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-08-03 00:31:30] INFO root fetch - processPackages [llm-strategy]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-08-03 00:31:30] INFO root fetch - processPackages [tdw]: Downloading https://files.pythonhosted.org/packages/c4/72/7e9dcffb20652a0fc7a75acb9c45c9c15e02911caff77569e88bda949a27/tdw-1.9.9.2.tar.gz
+[2023-08-03 00:31:30] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-03 00:31:30] INFO root fetch - processPackages [nmecpy]: Downloading https://files.pythonhosted.org/packages/e3/1c/b63917d637caf8c478ca092c14ff6c9bc587677e4dbb558303ac39e5cf62/nmecpy-1.4.2.tar.gz
+[2023-08-03 00:31:30] INFO root fetch - processPackages [RUTTS]: Downloading https://files.pythonhosted.org/packages/4b/fa/1c5dd36eee8b4f27c23a4bbbf41510c989c1dfa1f96bc22ce069cf162f1f/RUTTS-0.0.8.tar.gz
+[2023-08-03 00:31:30] INFO root fetch - processPackages [azure-appconfiguration]: Downloading https://files.pythonhosted.org/packages/64/43/84c535af7df97d0b67680cc287222ce361e7cb50094edc32d6357d7646d7/azure-appconfiguration-1.5.0b1.zip
+[2023-08-03 00:31:30] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2023-08-03 00:31:30] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/37/8a/9179e0cdcc6485e06416e6639548eade7fa09f5f49c5f5c5559c1c9b5015/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 00:31:30] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/a9/cc/efea247a930bcdd3371e2847677b40c385cbf35a56d638639d1e8b121847/mitoinstaller-0.0.98.tar.gz
+[2023-08-03 00:31:30] INFO root fetch - processPackages [llm-strategy]: Downloading https://files.pythonhosted.org/packages/09/ad/58805b1c5de1e45599b528485e2711c10fd795cab3a264fc1314a6e3d3ae/llm_strategy-0.0.3.tar.gz
+[2023-08-03 00:31:31] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2023-08-03 00:31:31] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/43/7c/a9162d3685b98adf7c65eaa8b2cd45facfcf6552bca9e840301203044e43/pepperize.cdk-ses-smtp-credentials-0.3.416.tar.gz
+[2023-08-03 00:31:31] INFO root fetch - processPackages [RUTTS]: Downloading https://files.pythonhosted.org/packages/4f/7b/c30d7cc293dc1ff7df05cfb13d3d72ce6208e7e44e4d2e2057f7befb52c5/RUTTS-0.0.9.tar.gz
+[2023-08-03 00:31:31] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-03 00:31:31] INFO root fetch - processPackages [nmecpy]: Downloading https://files.pythonhosted.org/packages/c6/cb/17a7472c957ff21ddc92a120efe74ecbe6f559aa44803fbf1c9371cd0e08/nmecpy-1.4.3.tar.gz
+[2023-08-03 00:31:31] INFO root fetch - processPackages [azure-appconfiguration]: Downloading https://files.pythonhosted.org/packages/6a/52/45d4d270bc4cbbaa56aa19baa035a77b758f867f337eb0987b68df3478e7/azure-appconfiguration-1.5.0b2.zip
+[2023-08-03 00:31:31] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2023-08-03 00:31:31] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20230803/h/honeybee-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-08-03 00:31:31] WARNING root fetch - processPackages [tdw]: Skipping package: exceeds size limit 28395540>=10485760
+[2023-08-03 00:31:31] INFO root fetch - main [MainThread]: End processing [tdw] error
+[2023-08-03 00:31:31] INFO root fetch - processPackages [RUTTS]: executing diffoscope
+[2023-08-03 00:31:31] INFO root fetch - processPackages [RUTTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RUTTS-0.0.8.tar.gz tmp/RUTTS-0.0.9.tar.gz --markdown 20230803/R/RUTTS/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 00:31:31] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/90/7c/46b1dcf5bb93cdb5baf1650e82750b20b76439dbb6550a8596d1d373443a/mitoinstaller-0.0.99.tar.gz
+[2023-08-03 00:31:31] INFO root fetch - processPackages [llm-strategy]: Downloading https://files.pythonhosted.org/packages/67/37/093c94896ffb11e4cdc58eb82f337c432a2fae0e718cd0971358dcd85ee7/llm_strategy-1.0.0.tar.gz
+[2023-08-03 00:31:31] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-08-03 00:31:31] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.415.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.416.tar.gz --markdown 20230803/p/pepperize.cdk-ses-smtp-credentials/0.3.415-0.3.416/diff.md --exclude *.pyd
+[2023-08-03 00:31:31] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-03 00:31:31] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230803/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-03 00:31:31] INFO root fetch - processPackages [nmecpy]: executing diffoscope
+[2023-08-03 00:31:31] INFO root fetch - processPackages [nmecpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmecpy-1.4.2.tar.gz tmp/nmecpy-1.4.3.tar.gz --markdown 20230803/n/nmecpy/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-03 00:31:31] INFO root fetch - processPackages [azure-appconfiguration]: executing diffoscope
+[2023-08-03 00:31:31] INFO root fetch - processPackages [azure-appconfiguration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-appconfiguration-1.5.0b1.zip tmp/azure-appconfiguration-1.5.0b2.zip --markdown 20230803/a/azure-appconfiguration/1.5.0b1-1.5.0b2/diff.md --exclude *.pyd
+[2023-08-03 00:31:31] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2023-08-03 00:31:31] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20230803/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 00:31:31] INFO root fetch - processPackages [llm-strategy]: executing diffoscope
+[2023-08-03 00:31:31] INFO root fetch - processPackages [llm-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_strategy-0.0.3.tar.gz tmp/llm_strategy-1.0.0.tar.gz --markdown 20230803/l/llm-strategy/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-08-03 00:31:31] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/51/cd/da4e0a374cdc49c4a176f0cb2b3f59efe30ac77171388dc22a8a87a28418/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 00:31:32] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-08-03 00:31:32] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-ray-dev/0.3.9.dev6-0.3.9.dev8/diff.md --exclude *.pyd
+[2023-08-03 00:31:32] INFO root fetch - processPackages [RUTTS]: Remove: archive file [/home/abi/fetcher/tmp/RUTTS-0.0.8.tar.gz]
+[2023-08-03 00:31:32] INFO root fetch - processPackages [RUTTS]: Remove: archive file [/home/abi/fetcher/tmp/RUTTS-0.0.9.tar.gz]
+[2023-08-03 00:31:32] INFO root fetch - main [MainThread]: End processing [RUTTS]: success
+[2023-08-03 00:31:32] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.415.tar.gz]
+[2023-08-03 00:31:32] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.416.tar.gz]
+[2023-08-03 00:31:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-08-03 00:31:32] INFO root fetch - processPackages [llm-strategy]: Remove: archive file [/home/abi/fetcher/tmp/llm_strategy-0.0.3.tar.gz]
+[2023-08-03 00:31:32] INFO root fetch - processPackages [llm-strategy]: Remove: archive file [/home/abi/fetcher/tmp/llm_strategy-1.0.0.tar.gz]
+[2023-08-03 00:31:32] INFO root fetch - main [MainThread]: End processing [llm-strategy]: success
+[2023-08-03 00:31:32] INFO root fetch - processPackages [nmecpy]: Remove: archive file [/home/abi/fetcher/tmp/nmecpy-1.4.2.tar.gz]
+[2023-08-03 00:31:32] INFO root fetch - processPackages [nmecpy]: Remove: archive file [/home/abi/fetcher/tmp/nmecpy-1.4.3.tar.gz]
+[2023-08-03 00:31:32] INFO root fetch - main [MainThread]: End processing [nmecpy]: success
+[2023-08-03 00:31:32] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2023-08-03 00:31:32] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2023-08-03 00:31:32] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2023-08-03 00:31:33] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.98.tar.gz]
+[2023-08-03 00:31:33] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.99.tar.gz]
+[2023-08-03 00:31:33] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2023-08-03 00:31:33] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-08-03 00:31:33] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-08-03 00:31:33] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-03 00:31:33] INFO root fetch - processPackages [azure-appconfiguration]: Remove: archive file [/home/abi/fetcher/tmp/azure-appconfiguration-1.5.0b1.zip]
+[2023-08-03 00:31:33] INFO root fetch - processPackages [azure-appconfiguration]: Remove: archive file [/home/abi/fetcher/tmp/azure-appconfiguration-1.5.0b2.zip]
+[2023-08-03 00:31:33] INFO root fetch - main [MainThread]: End processing [azure-appconfiguration]: success
+[2023-08-03 00:31:57] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 00:31:57] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 00:31:57] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-08-03 00:31:57] INFO root fetch - main [MainThread]: Store serial: [19149444]
