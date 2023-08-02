@@ -1734,3 +1734,24 @@
 [2023-08-03 01:51:09] INFO root fetch - processPackages [botcity-documents]: Remove: archive file [/home/abi/fetcher/tmp/botcity-documents-0.4.0.tar.gz]
 [2023-08-03 01:51:09] INFO root fetch - main [MainThread]: End processing [botcity-documents]: success
 [2023-08-03 01:51:09] INFO root fetch - main [MainThread]: Store serial: [19150048]
+[2023-08-03 01:56:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19150048]
+[2023-08-03 01:56:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-03 01:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: masto
+[2023-08-03 01:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-cdk-github-oidc
+[2023-08-03 01:56:18] INFO root fetch - processPackages [masto]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-08-03 01:56:18] INFO root fetch - processPackages [aws-cdk-github-oidc]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-08-03 01:56:18] INFO root fetch - processPackages [masto]: Downloading https://files.pythonhosted.org/packages/3f/a7/06bc1a63831084c411b2895033675ff691d6e5715daa2e81eea8f25604dd/masto-2.0.3.tar.gz
+[2023-08-03 01:56:18] INFO root fetch - processPackages [aws-cdk-github-oidc]: Downloading https://files.pythonhosted.org/packages/57/65/e4f020749fc8de8c0189be33b87db2eff4adf01f1dbc4fb2204958a42d0c/aws-cdk-github-oidc-2.4.0.tar.gz
+[2023-08-03 01:56:18] INFO root fetch - processPackages [masto]: Downloading https://files.pythonhosted.org/packages/65/04/e042666467b298a1a64a05ea4359d6348a5327451bf64abd87680257b8a2/masto-2.0.4.tar.gz
+[2023-08-03 01:56:18] INFO root fetch - processPackages [aws-cdk-github-oidc]: Downloading https://files.pythonhosted.org/packages/38/3b/b461b3fb9cb40c316602d1d46754b0d3a449f2fb832c9e6050aca9543f53/aws-cdk-github-oidc-2.4.1.tar.gz
+[2023-08-03 01:56:18] INFO root fetch - processPackages [masto]: executing diffoscope
+[2023-08-03 01:56:18] INFO root fetch - processPackages [masto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masto-2.0.3.tar.gz tmp/masto-2.0.4.tar.gz --markdown 20230803/m/masto/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-08-03 01:56:18] INFO root fetch - processPackages [aws-cdk-github-oidc]: executing diffoscope
+[2023-08-03 01:56:18] INFO root fetch - processPackages [aws-cdk-github-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk-github-oidc-2.4.0.tar.gz tmp/aws-cdk-github-oidc-2.4.1.tar.gz --markdown 20230803/a/aws-cdk-github-oidc/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-08-03 01:56:19] INFO root fetch - processPackages [masto]: Remove: archive file [/home/abi/fetcher/tmp/masto-2.0.3.tar.gz]
+[2023-08-03 01:56:19] INFO root fetch - processPackages [masto]: Remove: archive file [/home/abi/fetcher/tmp/masto-2.0.4.tar.gz]
+[2023-08-03 01:56:19] INFO root fetch - main [MainThread]: End processing [masto]: success
+[2023-08-03 01:56:19] INFO root fetch - processPackages [aws-cdk-github-oidc]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk-github-oidc-2.4.0.tar.gz]
+[2023-08-03 01:56:19] INFO root fetch - processPackages [aws-cdk-github-oidc]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk-github-oidc-2.4.1.tar.gz]
+[2023-08-03 01:56:19] INFO root fetch - main [MainThread]: End processing [aws-cdk-github-oidc]: success
+[2023-08-03 01:56:19] INFO root fetch - main [MainThread]: Store serial: [19150056]
