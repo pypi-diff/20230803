@@ -1200,3 +1200,95 @@
 [2023-08-03 01:09:00] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-08-03 01:09:00] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
 [2023-08-03 01:09:00] INFO root fetch - main [MainThread]: Store serial: [19149797]
+[2023-08-03 01:14:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149797]
+[2023-08-03 01:14:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-03 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-enclosure
+[2023-08-03 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metricflow
+[2023-08-03 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotframework-asyncio-utils
+[2023-08-03 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyonms
+[2023-08-03 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: faker-file
+[2023-08-03 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yaylib
+[2023-08-03 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alertmanagermeshtastic
+[2023-08-03 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyterlab-miami-nights
+[2023-08-03 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: model2queue
+[2023-08-03 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: esp-docs
+[2023-08-03 01:14:14] INFO root fetch - processPackages [neon-enclosure]: New version: [1.6.1a2] Old Version: [1.6.1a1]
+[2023-08-03 01:14:14] INFO root fetch - processPackages [model2queue]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-08-03 01:14:14] INFO root fetch - processPackages [yaylib]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-03 01:14:14] INFO root fetch - processPackages [esp-docs]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-08-03 01:14:14] INFO root fetch - processPackages [jupyterlab-miami-nights]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-08-03 01:14:14] INFO root fetch - processPackages [pyonms]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 01:14:14] INFO root fetch - processPackages [metricflow]: New version: [0.93.0] Old Version: [0.92.1]
+[2023-08-03 01:14:14] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-03 01:14:14] WARNING root fetch - processPackages [robotframework-asyncio-utils]: Skipping, unable to determine old version
+[2023-08-03 01:14:14] INFO root fetch - processPackages [robotframework-asyncio-utils]: Start processing: file-directory-watcher
+[2023-08-03 01:14:14] INFO root fetch - main [MainThread]: End processing [robotframework-asyncio-utils] error
+[2023-08-03 01:14:14] INFO root fetch - processPackages [alertmanagermeshtastic]: New version: [2023.8.2.9] Old Version: [2023.8.2.8]
+[2023-08-03 01:14:14] INFO root fetch - processPackages [file-directory-watcher]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-03 01:14:14] INFO root fetch - processPackages [neon-enclosure]: Downloading https://files.pythonhosted.org/packages/51/e6/4c20057fe3ecac8e484c03678b554b2abea47825fe19aaeede18030ff24e/neon-enclosure-1.6.1a1.tar.gz
+[2023-08-03 01:14:14] INFO root fetch - processPackages [file-directory-watcher]: Downloading https://files.pythonhosted.org/packages/82/15/2cb60e4b664f567e051e9d5a6e518ad514920020c6cef7cb464013af122d/file-directory-watcher-0.2.1.tar.gz
+[2023-08-03 01:14:14] INFO root fetch - processPackages [model2queue]: Downloading https://files.pythonhosted.org/packages/6b/8b/a693f3409fa977f39ce355a642a915dfbac1b40f5ccb4473630d53cf57b2/model2queue-0.1.7.tar.gz
+[2023-08-03 01:14:14] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/b0/92/739ccec4760e1673fa3e485a2c759b20c6f67ab57764788e0a16dcf758eb/yaylib-1.0.6.tar.gz
+[2023-08-03 01:14:14] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/48/c0/df3a23893e69af35d2b44f7a54b4a898409d3b807860016dcad92e38c96e/metricflow-0.92.1.tar.gz
+[2023-08-03 01:14:14] INFO root fetch - processPackages [alertmanagermeshtastic]: Downloading https://files.pythonhosted.org/packages/86/f8/c994f875b2ac30ce2fc8d7b21b86aafa284cd1aa365ba6161b4561151630/alertmanagermeshtastic-2023.8.2.8.tar.gz
+[2023-08-03 01:14:14] INFO root fetch - processPackages [esp-docs]: Downloading https://files.pythonhosted.org/packages/eb/b1/0312cc57f55d3327ea8f7f2ba64785b40b4956c921e243d8a4fae476d7a1/esp-docs-1.4.2.tar.gz
+[2023-08-03 01:14:14] INFO root fetch - processPackages [jupyterlab-miami-nights]: Downloading https://files.pythonhosted.org/packages/70/ed/afa2f2af90da92263807e0a522cfa44e90f4cc272fe69dbf6becbe69271f/jupyterlab_miami_nights-0.3.2.tar.gz
+[2023-08-03 01:14:14] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/3b/a1/ad4ac7b368163a317102172cd45891028d6b068dc096e110814cc517deed/faker-file-0.9.2.tar.gz
+[2023-08-03 01:14:15] WARNING root fetch - processPackages [esp-docs]: Skipping package: exceeds size limit 15979246>=10485760
+[2023-08-03 01:14:15] INFO root fetch - main [MainThread]: End processing [esp-docs] error
+[2023-08-03 01:14:15] INFO root fetch - processPackages [pyonms]: Downloading https://files.pythonhosted.org/packages/fd/24/64953605a87cb08a2547f08903974ea587bb3e53940ea6b479e34cbc3d14/pyonms-0.0.8.tar.gz
+[2023-08-03 01:14:15] INFO root fetch - processPackages [file-directory-watcher]: Downloading https://files.pythonhosted.org/packages/76/d9/055cc554d808af295ddfbd61716830c40ba003c689ae6fea067d774307dd/file-directory-watcher-0.2.2.tar.gz
+[2023-08-03 01:14:15] INFO root fetch - processPackages [neon-enclosure]: Downloading https://files.pythonhosted.org/packages/4a/e6/3b5a21d89b25a7fa518b63310bac09945c6ec5f65d623b59de5b4fb809f6/neon-enclosure-1.6.1a2.tar.gz
+[2023-08-03 01:14:15] INFO root fetch - processPackages [alertmanagermeshtastic]: Downloading https://files.pythonhosted.org/packages/05/83/9a0286d184f37996693f3aeab38d975569c56ae700bed647108c08457646/alertmanagermeshtastic-2023.8.2.9.tar.gz
+[2023-08-03 01:14:15] INFO root fetch - processPackages [model2queue]: Downloading https://files.pythonhosted.org/packages/d8/19/b2e510ac11dcb028958430bf112290b2897c0bf9d695eb5ccb8da4edb523/model2queue-0.1.9.tar.gz
+[2023-08-03 01:14:15] INFO root fetch - processPackages [file-directory-watcher]: executing diffoscope
+[2023-08-03 01:14:15] INFO root fetch - processPackages [file-directory-watcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-directory-watcher-0.2.1.tar.gz tmp/file-directory-watcher-0.2.2.tar.gz --markdown 20230803/f/file-directory-watcher/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-03 01:14:15] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/7f/27/1dfcb99b5336f8a75175e722896a9411ab5d7566cd7c3dd43e09e79f710c/yaylib-1.0.7.tar.gz
+[2023-08-03 01:14:15] INFO root fetch - processPackages [neon-enclosure]: executing diffoscope
+[2023-08-03 01:14:15] INFO root fetch - processPackages [neon-enclosure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-enclosure-1.6.1a1.tar.gz tmp/neon-enclosure-1.6.1a2.tar.gz --markdown 20230803/n/neon-enclosure/1.6.1a1-1.6.1a2/diff.md --exclude *.pyd
+[2023-08-03 01:14:15] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/03/68/180ac09742d18eded44eac796173d6979f94ea672b47f02ceae672167dfa/metricflow-0.93.0.tar.gz
+[2023-08-03 01:14:15] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/91/2c/08a72a0cb6b8f0b657b334700bce122299a7f1c0d94c1e201959121ee226/faker-file-0.9.3.tar.gz
+[2023-08-03 01:14:15] INFO root fetch - processPackages [alertmanagermeshtastic]: executing diffoscope
+[2023-08-03 01:14:15] INFO root fetch - processPackages [alertmanagermeshtastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertmanagermeshtastic-2023.8.2.8.tar.gz tmp/alertmanagermeshtastic-2023.8.2.9.tar.gz --markdown 20230803/a/alertmanagermeshtastic/2023.8.2.8-2023.8.2.9/diff.md --exclude *.pyd
+[2023-08-03 01:14:15] INFO root fetch - processPackages [jupyterlab-miami-nights]: Downloading https://files.pythonhosted.org/packages/cb/dc/7e4a3037563b693b4d36bfe0ce05f5e4570c0a12b7109e5d0d466302d75b/jupyterlab_miami_nights-0.4.0.tar.gz
+[2023-08-03 01:14:15] INFO root fetch - processPackages [yaylib]: executing diffoscope
+[2023-08-03 01:14:15] INFO root fetch - processPackages [yaylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaylib-1.0.6.tar.gz tmp/yaylib-1.0.7.tar.gz --markdown 20230803/y/yaylib/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-03 01:14:15] INFO root fetch - processPackages [model2queue]: executing diffoscope
+[2023-08-03 01:14:15] INFO root fetch - processPackages [model2queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model2queue-0.1.7.tar.gz tmp/model2queue-0.1.9.tar.gz --markdown 20230803/m/model2queue/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 01:14:15] INFO root fetch - processPackages [pyonms]: Downloading https://files.pythonhosted.org/packages/bf/67/40f9adfbc018b19e60ba6aec326a4102e8756277acd7f55236ad4f41c7d7/pyonms-0.0.9.tar.gz
+[2023-08-03 01:14:15] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-08-03 01:14:15] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230803/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-03 01:14:15] INFO root fetch - processPackages [metricflow]: executing diffoscope
+[2023-08-03 01:14:15] INFO root fetch - processPackages [metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricflow-0.92.1.tar.gz tmp/metricflow-0.93.0.tar.gz --markdown 20230803/m/metricflow/0.92.1-0.93.0/diff.md --exclude *.pyd
+[2023-08-03 01:14:15] INFO root fetch - processPackages [pyonms]: executing diffoscope
+[2023-08-03 01:14:15] INFO root fetch - processPackages [pyonms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyonms-0.0.8.tar.gz tmp/pyonms-0.0.9.tar.gz --markdown 20230803/p/pyonms/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 01:14:15] INFO root fetch - processPackages [jupyterlab-miami-nights]: executing diffoscope
+[2023-08-03 01:14:15] INFO root fetch - processPackages [jupyterlab-miami-nights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_miami_nights-0.3.2.tar.gz tmp/jupyterlab_miami_nights-0.4.0.tar.gz --markdown 20230803/j/jupyterlab-miami-nights/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-08-03 01:14:16] INFO root fetch - processPackages [file-directory-watcher]: Remove: archive file [/home/abi/fetcher/tmp/file-directory-watcher-0.2.1.tar.gz]
+[2023-08-03 01:14:16] INFO root fetch - processPackages [file-directory-watcher]: Remove: archive file [/home/abi/fetcher/tmp/file-directory-watcher-0.2.2.tar.gz]
+[2023-08-03 01:14:16] INFO root fetch - main [MainThread]: End processing [file-directory-watcher]: success
+[2023-08-03 01:14:16] INFO root fetch - processPackages [neon-enclosure]: Remove: archive file [/home/abi/fetcher/tmp/neon-enclosure-1.6.1a1.tar.gz]
+[2023-08-03 01:14:16] INFO root fetch - processPackages [neon-enclosure]: Remove: archive file [/home/abi/fetcher/tmp/neon-enclosure-1.6.1a2.tar.gz]
+[2023-08-03 01:14:16] INFO root fetch - main [MainThread]: End processing [neon-enclosure]: success
+[2023-08-03 01:14:16] INFO root fetch - processPackages [alertmanagermeshtastic]: Remove: archive file [/home/abi/fetcher/tmp/alertmanagermeshtastic-2023.8.2.8.tar.gz]
+[2023-08-03 01:14:16] INFO root fetch - processPackages [alertmanagermeshtastic]: Remove: archive file [/home/abi/fetcher/tmp/alertmanagermeshtastic-2023.8.2.9.tar.gz]
+[2023-08-03 01:14:16] INFO root fetch - main [MainThread]: End processing [alertmanagermeshtastic]: success
+[2023-08-03 01:14:16] INFO root fetch - processPackages [model2queue]: Remove: archive file [/home/abi/fetcher/tmp/model2queue-0.1.7.tar.gz]
+[2023-08-03 01:14:16] INFO root fetch - processPackages [model2queue]: Remove: archive file [/home/abi/fetcher/tmp/model2queue-0.1.9.tar.gz]
+[2023-08-03 01:14:16] INFO root fetch - main [MainThread]: End processing [model2queue]: success
+[2023-08-03 01:14:17] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.6.tar.gz]
+[2023-08-03 01:14:17] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.7.tar.gz]
+[2023-08-03 01:14:17] INFO root fetch - main [MainThread]: End processing [yaylib]: success
+[2023-08-03 01:14:17] INFO root fetch - processPackages [pyonms]: Remove: archive file [/home/abi/fetcher/tmp/pyonms-0.0.8.tar.gz]
+[2023-08-03 01:14:17] INFO root fetch - processPackages [pyonms]: Remove: archive file [/home/abi/fetcher/tmp/pyonms-0.0.9.tar.gz]
+[2023-08-03 01:14:17] INFO root fetch - main [MainThread]: End processing [pyonms]: success
+[2023-08-03 01:14:17] INFO root fetch - processPackages [jupyterlab-miami-nights]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_miami_nights-0.3.2.tar.gz]
+[2023-08-03 01:14:17] INFO root fetch - processPackages [jupyterlab-miami-nights]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_miami_nights-0.4.0.tar.gz]
+[2023-08-03 01:14:17] INFO root fetch - main [MainThread]: End processing [jupyterlab-miami-nights]: success
+[2023-08-03 01:14:17] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.2.tar.gz]
+[2023-08-03 01:14:17] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
+[2023-08-03 01:14:17] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-08-03 01:14:20] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.92.1.tar.gz]
+[2023-08-03 01:14:20] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
+[2023-08-03 01:14:20] INFO root fetch - main [MainThread]: End processing [metricflow]: success
+[2023-08-03 01:14:20] INFO root fetch - main [MainThread]: Store serial: [19149873]
