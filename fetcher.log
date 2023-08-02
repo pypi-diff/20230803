@@ -1415,3 +1415,42 @@
 [2023-08-03 01:24:41] INFO root fetch - processPackages [pyabf]: Remove: archive file [/home/abi/fetcher/tmp/pyabf-2.3.8.tar.gz]
 [2023-08-03 01:24:41] INFO root fetch - main [MainThread]: End processing [pyabf]: success
 [2023-08-03 01:24:41] INFO root fetch - main [MainThread]: Store serial: [19149923]
+[2023-08-03 01:29:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149923]
+[2023-08-03 01:29:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-03 01:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VBBinaryLensing
+[2023-08-03 01:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datamorph-airflow
+[2023-08-03 01:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqPSS
+[2023-08-03 01:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-asyncio-utils
+[2023-08-03 01:29:50] INFO root fetch - processPackages [seqPSS]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 01:29:50] INFO root fetch - processPackages [robotframework-asyncio-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-03 01:29:50] INFO root fetch - processPackages [VBBinaryLensing]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-08-03 01:29:50] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 01:29:50] INFO root fetch - processPackages [robotframework-asyncio-utils]: Downloading https://files.pythonhosted.org/packages/e2/10/fdefaf3630301f74cc61134fe734440e49000dfffd77243985638ccde4ca/robotframework_asyncio_utils-0.1.1.tar.gz
+[2023-08-03 01:29:50] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2023-08-03 01:29:50] INFO root fetch - processPackages [seqPSS]: Downloading https://files.pythonhosted.org/packages/27/e7/b9c8a55094d3e270e6705f75c7e533a8b1d2f8abc9083eeb14a89f678ef8/seqPSS-0.0.1-py3-none-any.whl
+[2023-08-03 01:29:50] INFO root fetch - processPackages [VBBinaryLensing]: Downloading https://files.pythonhosted.org/packages/82/c9/b2d9e42ecf45ad7278e1918bffd612adf25beefb258acd0e8c50b909eca9/VBBinaryLensing-3.6.0.tar.gz
+[2023-08-03 01:29:50] INFO root fetch - processPackages [robotframework-asyncio-utils]: Downloading https://files.pythonhosted.org/packages/e8/06/b73a1e5446cca9fd690a28c2b88862498baff227ceb9a03a2fb75d375d85/robotframework_asyncio_utils-0.1.2.tar.gz
+[2023-08-03 01:29:50] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2023-08-03 01:29:50] INFO root fetch - processPackages [robotframework-asyncio-utils]: executing diffoscope
+[2023-08-03 01:29:50] INFO root fetch - processPackages [robotframework-asyncio-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_asyncio_utils-0.1.1.tar.gz tmp/robotframework_asyncio_utils-0.1.2.tar.gz --markdown 20230803/r/robotframework-asyncio-utils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-03 01:29:50] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2023-08-03 01:29:50] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20230803/d/datamorph-airflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 01:29:50] INFO root fetch - processPackages [seqPSS]: Downloading https://files.pythonhosted.org/packages/f6/10/b8d6f463be8b37457bc54544ce9beb88097f132f5c7ab9547af449306585/seqPSS-0.0.2-py3-none-any.whl
+[2023-08-03 01:29:50] INFO root fetch - processPackages [seqPSS]: executing diffoscope
+[2023-08-03 01:29:50] INFO root fetch - processPackages [seqPSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqPSS-0.0.1-py3-none-any.whl.zip tmp/seqPSS-0.0.2-py3-none-any.whl.zip --markdown 20230803/s/seqPSS/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 01:29:50] INFO root fetch - processPackages [VBBinaryLensing]: Downloading https://files.pythonhosted.org/packages/7b/f3/836c9ab9be24e72751d333991b2be951e1fb4739250009ebc1ec7e4a90b6/VBBinaryLensing-3.6.1.tar.gz
+[2023-08-03 01:29:51] INFO root fetch - processPackages [VBBinaryLensing]: executing diffoscope
+[2023-08-03 01:29:51] INFO root fetch - processPackages [VBBinaryLensing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VBBinaryLensing-3.6.0.tar.gz tmp/VBBinaryLensing-3.6.1.tar.gz --markdown 20230803/V/VBBinaryLensing/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-08-03 01:29:51] INFO root fetch - processPackages [robotframework-asyncio-utils]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_asyncio_utils-0.1.1.tar.gz]
+[2023-08-03 01:29:51] INFO root fetch - processPackages [robotframework-asyncio-utils]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_asyncio_utils-0.1.2.tar.gz]
+[2023-08-03 01:29:51] INFO root fetch - main [MainThread]: End processing [robotframework-asyncio-utils]: success
+[2023-08-03 01:29:51] INFO root fetch - processPackages [seqPSS]: Remove: archive file [/home/abi/fetcher/tmp/seqPSS-0.0.1-py3-none-any.whl.zip]
+[2023-08-03 01:29:51] INFO root fetch - processPackages [seqPSS]: Remove: archive file [/home/abi/fetcher/tmp/seqPSS-0.0.2-py3-none-any.whl.zip]
+[2023-08-03 01:29:51] INFO root fetch - main [MainThread]: End processing [seqPSS]: success
+[2023-08-03 01:29:51] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2023-08-03 01:29:51] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2023-08-03 01:29:51] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2023-08-03 01:29:51] INFO root fetch - processPackages [VBBinaryLensing]: Remove: archive file [/home/abi/fetcher/tmp/VBBinaryLensing-3.6.0.tar.gz]
+[2023-08-03 01:29:51] INFO root fetch - processPackages [VBBinaryLensing]: Remove: archive file [/home/abi/fetcher/tmp/VBBinaryLensing-3.6.1.tar.gz]
+[2023-08-03 01:29:51] INFO root fetch - main [MainThread]: End processing [VBBinaryLensing]: success
+[2023-08-03 01:29:51] INFO root fetch - main [MainThread]: Store serial: [19149934]
