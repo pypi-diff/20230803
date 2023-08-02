@@ -1090,3 +1090,113 @@
 [2023-08-03 01:03:24] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230801.tar.gz]
 [2023-08-03 01:03:24] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2023-08-03 01:03:24] INFO root fetch - main [MainThread]: Store serial: [19149725]
+[2023-08-03 01:08:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19149725]
+[2023-08-03 01:08:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-03 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: file-directory-watcher
+[2023-08-03 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2023-08-03 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lognflow
+[2023-08-03 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-uwg
+[2023-08-03 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: routeml
+[2023-08-03 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqPSS
+[2023-08-03 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lollms
+[2023-08-03 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mitosheet
+[2023-08-03 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slidge-style-parser
+[2023-08-03 01:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neon-iris
+[2023-08-03 01:08:33] INFO root fetch - processPackages [file-directory-watcher]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-03 01:08:33] INFO root fetch - processPackages [slidge-style-parser]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-03 01:08:34] WARNING root fetch - processPackages [seqPSS]: Skipping, unable to determine old version
+[2023-08-03 01:08:34] INFO root fetch - processPackages [seqPSS]: Start processing: composabl-ray-dev
+[2023-08-03 01:08:34] INFO root fetch - main [MainThread]: End processing [seqPSS] error
+[2023-08-03 01:08:34] INFO root fetch - processPackages [mitosheet]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-03 01:08:34] INFO root fetch - processPackages [neon-iris]: New version: [0.0.5a5] Old Version: [0.0.5a4]
+[2023-08-03 01:08:34] INFO root fetch - processPackages [routeml]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lognflow]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lollms]: New version: [2.3.0] Old Version: [2.2.8]
+[2023-08-03 01:08:34] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-08-03 01:08:34] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev6]
+[2023-08-03 01:08:34] INFO root fetch - processPackages [mitosheet]: Downloading https://files.pythonhosted.org/packages/8f/ca/cfa5a04a8bad41705bac5f84cf0c0a38c2e86f34a87c85d097c82dd321da/mitosheet-0.1.98.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/4e/30/7829da5fe24134fa3ee19951b9fda8638f19496a9dd153333d4974042fa5/lognflow-0.8.3.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [file-directory-watcher]: Downloading https://files.pythonhosted.org/packages/82/15/2cb60e4b664f567e051e9d5a6e518ad514920020c6cef7cb464013af122d/file-directory-watcher-0.2.1.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [slidge-style-parser]: Downloading https://files.pythonhosted.org/packages/53/42/03156426f0a7dfca434f3794ecedc00f9df9b9177c3b357e27dcfd91bd85/slidge_style_parser-0.1.0.tar.gz
+[2023-08-03 01:08:34] WARNING root fetch - processPackages [mitosheet]: Skipping package: exceeds size limit 14622615>=10485760
+[2023-08-03 01:08:34] INFO root fetch - processPackages [mitosheet]: Start processing: nifc-wildfires
+[2023-08-03 01:08:34] INFO root fetch - main [MainThread]: End processing [mitosheet] error
+[2023-08-03 01:08:34] INFO root fetch - processPackages [routeml]: Downloading https://files.pythonhosted.org/packages/84/45/4e346ea76e016a2092b7794341a12ea40d8d294f53c4b28fc28e1092762a/routeml-0.8.0.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/42/cc/4070f5bbd67d234234263c6322b3b7f1b4a8b3671230f748beae964d37e2/lollms-2.2.8.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [nifc-wildfires]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-03 01:08:34] INFO root fetch - processPackages [neon-iris]: Downloading https://files.pythonhosted.org/packages/28/86/1d55c7903e506e1666ac9e633eb4b8e6804e226c929f6ffb246417cf73e3/neon-iris-0.0.5a4.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/37/8a/9179e0cdcc6485e06416e6639548eade7fa09f5f49c5f5c5559c1c9b5015/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/35/52/17af48f1ae69033b8379f6035142e0c4c3f80f44faf61642a8c3a363928e/lognflow-0.8.4.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [file-directory-watcher]: Downloading https://files.pythonhosted.org/packages/76/d9/055cc554d808af295ddfbd61716830c40ba003c689ae6fea067d774307dd/file-directory-watcher-0.2.2.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [nifc-wildfires]: Downloading https://files.pythonhosted.org/packages/c2/88/9fa122375c6db12d4651c86fefd1cc4194103e07577ed14f2b0b562f544d/nifc-wildfires-0.3.0.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.8.3.tar.gz tmp/lognflow-0.8.4.tar.gz --markdown 20230803/l/lognflow/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-08-03 01:08:34] INFO root fetch - processPackages [slidge-style-parser]: Downloading https://files.pythonhosted.org/packages/08/3e/152513a0c802fa0ab2503a3e5b5900d99835cac8e3996a532844180cf650/slidge_style_parser-0.1.1-cp37-none-win32.whl
+[2023-08-03 01:08:34] INFO root fetch - processPackages [neon-iris]: Downloading https://files.pythonhosted.org/packages/63/25/b78f0ac0afc3c81706cfd03f56a658db75a60cd76675badacaa4a5978e0d/neon-iris-0.0.5a5.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-08-03 01:08:34] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230803/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-08-03 01:08:34] INFO root fetch - processPackages [file-directory-watcher]: executing diffoscope
+[2023-08-03 01:08:34] INFO root fetch - processPackages [file-directory-watcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-directory-watcher-0.2.1.tar.gz tmp/file-directory-watcher-0.2.2.tar.gz --markdown 20230803/f/file-directory-watcher/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-03 01:08:34] INFO root fetch - processPackages [routeml]: Downloading https://files.pythonhosted.org/packages/8b/dc/ff05900f5f3e0d24ccb806cdf5a7ce37eb0a4c9c2e971f2a45a74fc3ce8f/routeml-0.9.0.tar.gz
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230803/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-08-03 01:08:34] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/10/c3/4acb42105c09af55ded63a0d2d71a363228dc15a9307fa75a4fd5a5c97c0/lollms-2.3.0.tar.gz
+[2023-08-03 01:08:35] INFO root fetch - processPackages [slidge-style-parser]: executing diffoscope
+[2023-08-03 01:08:35] INFO root fetch - processPackages [slidge-style-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slidge_style_parser-0.1.0.tar.gz tmp/slidge_style_parser-0.1.1-cp37-none-win32.whl.zip --markdown 20230803/s/slidge-style-parser/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-03 01:08:35] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-08-03 01:08:35] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.2.8.tar.gz tmp/lollms-2.3.0.tar.gz --markdown 20230803/l/lollms/2.2.8-2.3.0/diff.md --exclude *.pyd
+[2023-08-03 01:08:35] INFO root fetch - processPackages [neon-iris]: executing diffoscope
+[2023-08-03 01:08:35] INFO root fetch - processPackages [neon-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-iris-0.0.5a4.tar.gz tmp/neon-iris-0.0.5a5.tar.gz --markdown 20230803/n/neon-iris/0.0.5a4-0.0.5a5/diff.md --exclude *.pyd
+[2023-08-03 01:08:35] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/51/cd/da4e0a374cdc49c4a176f0cb2b3f59efe30ac77171388dc22a8a87a28418/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 01:08:35] INFO root fetch - processPackages [routeml]: executing diffoscope
+[2023-08-03 01:08:35] INFO root fetch - processPackages [routeml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routeml-0.8.0.tar.gz tmp/routeml-0.9.0.tar.gz --markdown 20230803/r/routeml/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 01:08:35] INFO root fetch - processPackages [nifc-wildfires]: Downloading https://files.pythonhosted.org/packages/b0/0c/53fc47013d85102b4f3157bd8d37d2ef608d73e04c759dd5981dbaa1990f/nifc-wildfires-0.4.0.tar.gz
+[2023-08-03 01:08:35] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-08-03 01:08:35] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-ray-dev/0.3.9.dev6-0.3.9.dev8/diff.md --exclude *.pyd
+[2023-08-03 01:08:36] INFO root fetch - processPackages [nifc-wildfires]: executing diffoscope
+[2023-08-03 01:08:36] INFO root fetch - processPackages [nifc-wildfires]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifc-wildfires-0.3.0.tar.gz tmp/nifc-wildfires-0.4.0.tar.gz --markdown 20230803/n/nifc-wildfires/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.3.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.4.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lognflow]: Start processing: lbt-dragonfly
+[2023-08-03 01:08:36] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-08-03 01:08:36] INFO root fetch - processPackages [file-directory-watcher]: Remove: archive file [/home/abi/fetcher/tmp/file-directory-watcher-0.2.1.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - processPackages [file-directory-watcher]: Remove: archive file [/home/abi/fetcher/tmp/file-directory-watcher-0.2.2.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - main [MainThread]: End processing [file-directory-watcher]: success
+[2023-08-03 01:08:36] INFO root fetch - processPackages [slidge-style-parser]: Remove: archive file [/home/abi/fetcher/tmp/slidge_style_parser-0.1.0.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - processPackages [slidge-style-parser]: Remove: archive file [/home/abi/fetcher/tmp/slidge_style_parser-0.1.1-cp37-none-win32.whl.zip]
+[2023-08-03 01:08:36] INFO root fetch - main [MainThread]: End processing [slidge-style-parser]: success
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-08-03 01:08:36] INFO root fetch - processPackages [neon-iris]: Remove: archive file [/home/abi/fetcher/tmp/neon-iris-0.0.5a4.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - processPackages [neon-iris]: Remove: archive file [/home/abi/fetcher/tmp/neon-iris-0.0.5a5.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - main [MainThread]: End processing [neon-iris]: success
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-08-03 01:08:36] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.2.8.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.3.0.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-08-03 01:08:36] INFO root fetch - processPackages [routeml]: Remove: archive file [/home/abi/fetcher/tmp/routeml-0.8.0.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - processPackages [routeml]: Remove: archive file [/home/abi/fetcher/tmp/routeml-0.9.0.tar.gz]
+[2023-08-03 01:08:36] INFO root fetch - main [MainThread]: End processing [routeml]: success
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-08-03 01:08:36] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230803/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-08-03 01:08:37] INFO root fetch - processPackages [nifc-wildfires]: Remove: archive file [/home/abi/fetcher/tmp/nifc-wildfires-0.3.0.tar.gz]
+[2023-08-03 01:08:37] INFO root fetch - processPackages [nifc-wildfires]: Remove: archive file [/home/abi/fetcher/tmp/nifc-wildfires-0.4.0.tar.gz]
+[2023-08-03 01:08:37] INFO root fetch - main [MainThread]: End processing [nifc-wildfires]: success
+[2023-08-03 01:08:37] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-08-03 01:08:37] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-08-03 01:08:37] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-08-03 01:09:00] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 01:09:00] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 01:09:00] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-08-03 01:09:00] INFO root fetch - main [MainThread]: Store serial: [19149797]
