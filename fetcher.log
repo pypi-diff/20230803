@@ -10926,3 +10926,63 @@
 [2023-08-03 05:20:44] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz]
 [2023-08-03 05:20:44] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
 [2023-08-03 05:20:44] INFO root fetch - main [MainThread]: Store serial: [19153278]
+[2023-08-03 05:25:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153278]
+[2023-08-03 05:25:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-03 05:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sequentPSS
+[2023-08-03 05:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-vault
+[2023-08-03 05:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyload
+[2023-08-03 05:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codedog
+[2023-08-03 05:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-bailian20230601
+[2023-08-03 05:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upbge-stubs
+[2023-08-03 05:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: konfuzio-sdk
+[2023-08-03 05:25:53] WARNING root fetch - processPackages [sequentPSS]: Skipping, unable to determine old version
+[2023-08-03 05:25:53] INFO root fetch - main [MainThread]: End processing [sequentPSS] error
+[2023-08-03 05:25:53] INFO root fetch - processPackages [codedog]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-08-03 05:25:53] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-08-03 05:25:53] INFO root fetch - processPackages [hyload]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-03 05:25:53] INFO root fetch - processPackages [alibabacloud-bailian20230601]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-03 05:25:53] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-08-03 05:25:53] INFO root fetch - processPackages [upbge-stubs]: New version: [0.3.1.27.dev5745729931] Old Version: [0.3.1.27.dev5733820946]
+[2023-08-03 05:25:53] INFO root fetch - processPackages [codedog]: Downloading https://files.pythonhosted.org/packages/73/22/39a9a9552f5ba9469a9f568c934abe0fc69cf290c8ed2981b6149f61f2be/codedog-0.5.3.tar.gz
+[2023-08-03 05:25:53] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/97/c2/e40222c46eb57bec5ee9f69beef584d7c987d0c45126221780c12218d3cb/cdktf-cdktf-provider-vault-9.0.1.tar.gz
+[2023-08-03 05:25:53] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/86/a0/4e85f8a08afec4cdc88e711426f7f48c670ec89ea8a0c4c3e8e54fb0dc38/hyload-0.2.7-py3-none-any.whl
+[2023-08-03 05:25:53] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Downloading https://files.pythonhosted.org/packages/04/68/6232daf9b0c0f393bd465caa7372d1329d1cd2940a2aecea11dd01a9ce41/alibabacloud_bailian20230601-1.1.1.tar.gz
+[2023-08-03 05:25:53] INFO root fetch - processPackages [upbge-stubs]: Downloading https://files.pythonhosted.org/packages/9e/dc/a60bd96db800a00a4afcb0a303c03679b6c8ddbafc47b3369c7e1feb5bf2/upbge-stubs-0.3.1.27.dev5733820946.tar.gz
+[2023-08-03 05:25:53] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-08-03 05:25:54] INFO root fetch - processPackages [codedog]: Downloading https://files.pythonhosted.org/packages/19/b7/a7ce221613e2c42088b331f7702e8ed16098b03b7a8821004430a8db6371/codedog-0.5.4.tar.gz
+[2023-08-03 05:25:54] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-08-03 05:25:54] INFO root fetch - processPackages [codedog]: executing diffoscope
+[2023-08-03 05:25:54] INFO root fetch - processPackages [codedog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedog-0.5.3.tar.gz tmp/codedog-0.5.4.tar.gz --markdown 20230803/c/codedog/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-08-03 05:25:54] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/c3/cf/58582da7523821cceb0d18c25a1d1062d159d4818f5c7909e37d1a14a34b/hyload-0.2.8-py3-none-any.whl
+[2023-08-03 05:25:54] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Downloading https://files.pythonhosted.org/packages/69/c4/456da3ff8de735a989a32dc44f0067b71e2bb2225f6e5c1ce9c6889437ed/alibabacloud_bailian20230601-1.1.2.tar.gz
+[2023-08-03 05:25:54] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-08-03 05:25:54] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230803/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-08-03 05:25:54] INFO root fetch - processPackages [upbge-stubs]: Downloading https://files.pythonhosted.org/packages/76/76/d137ea309cb593b88f6b792864ef5819ac1cbe0b2de75a9a23086c44c5e0/upbge-stubs-0.3.1.27.dev5745729931.tar.gz
+[2023-08-03 05:25:54] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/29/1c/f81b951b650e4fbfc89a35613e698376b276f18499031d2eda206e1947c9/cdktf-cdktf-provider-vault-9.0.2.tar.gz
+[2023-08-03 05:25:54] INFO root fetch - processPackages [hyload]: executing diffoscope
+[2023-08-03 05:25:54] INFO root fetch - processPackages [hyload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyload-0.2.7-py3-none-any.whl.zip tmp/hyload-0.2.8-py3-none-any.whl.zip --markdown 20230803/h/hyload/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-03 05:25:54] INFO root fetch - processPackages [alibabacloud-bailian20230601]: executing diffoscope
+[2023-08-03 05:25:54] INFO root fetch - processPackages [alibabacloud-bailian20230601]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_bailian20230601-1.1.1.tar.gz tmp/alibabacloud_bailian20230601-1.1.2.tar.gz --markdown 20230803/a/alibabacloud-bailian20230601/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-03 05:25:54] INFO root fetch - processPackages [upbge-stubs]: executing diffoscope
+[2023-08-03 05:25:54] INFO root fetch - processPackages [upbge-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upbge-stubs-0.3.1.27.dev5733820946.tar.gz tmp/upbge-stubs-0.3.1.27.dev5745729931.tar.gz --markdown 20230803/u/upbge-stubs/0.3.1.27.dev5733820946-0.3.1.27.dev5745729931/diff.md --exclude *.pyd
+[2023-08-03 05:25:54] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: executing diffoscope
+[2023-08-03 05:25:54] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vault-9.0.1.tar.gz tmp/cdktf-cdktf-provider-vault-9.0.2.tar.gz --markdown 20230803/c/cdktf-cdktf-provider-vault/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-08-03 05:25:55] INFO root fetch - processPackages [codedog]: Remove: archive file [/home/abi/fetcher/tmp/codedog-0.5.3.tar.gz]
+[2023-08-03 05:25:55] INFO root fetch - processPackages [codedog]: Remove: archive file [/home/abi/fetcher/tmp/codedog-0.5.4.tar.gz]
+[2023-08-03 05:25:55] INFO root fetch - main [MainThread]: End processing [codedog]: success
+[2023-08-03 05:25:55] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-08-03 05:25:55] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-08-03 05:25:55] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-08-03 05:25:55] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.2.7-py3-none-any.whl.zip]
+[2023-08-03 05:25:55] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.2.8-py3-none-any.whl.zip]
+[2023-08-03 05:25:55] INFO root fetch - main [MainThread]: End processing [hyload]: success
+[2023-08-03 05:25:55] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bailian20230601-1.1.1.tar.gz]
+[2023-08-03 05:25:55] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bailian20230601-1.1.2.tar.gz]
+[2023-08-03 05:25:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-bailian20230601]: success
+[2023-08-03 05:25:57] INFO root fetch - processPackages [upbge-stubs]: Remove: archive file [/home/abi/fetcher/tmp/upbge-stubs-0.3.1.27.dev5733820946.tar.gz]
+[2023-08-03 05:25:57] INFO root fetch - processPackages [upbge-stubs]: Remove: archive file [/home/abi/fetcher/tmp/upbge-stubs-0.3.1.27.dev5745729931.tar.gz]
+[2023-08-03 05:25:57] INFO root fetch - main [MainThread]: End processing [upbge-stubs]: success
+[2023-08-03 05:25:58] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-9.0.1.tar.gz]
+[2023-08-03 05:25:58] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-9.0.2.tar.gz]
+[2023-08-03 05:25:58] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
+[2023-08-03 05:25:58] INFO root fetch - main [MainThread]: Store serial: [19153299]
