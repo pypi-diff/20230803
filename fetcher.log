@@ -1840,3 +1840,97 @@
 [2023-08-03 02:01:31] INFO root fetch - processPackages [vllm]: Remove: archive file [/home/abi/fetcher/tmp/vllm-0.1.3.tar.gz]
 [2023-08-03 02:01:31] INFO root fetch - main [MainThread]: End processing [vllm]: success
 [2023-08-03 02:01:31] INFO root fetch - main [MainThread]: Store serial: [19150082]
+[2023-08-03 02:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19150082]
+[2023-08-03 02:06:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-03 02:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composabl-ray-dev
+[2023-08-03 02:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-08-03 02:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kdp-api-python-client
+[2023-08-03 02:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2023-08-03 02:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azureml-dataprep-rslex
+[2023-08-03 02:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxkern-nightly
+[2023-08-03 02:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-artifacts-parser
+[2023-08-03 02:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azureml-dataprep
+[2023-08-03 02:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seqPSS
+[2023-08-03 02:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composabl-dev
+[2023-08-03 02:06:40] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev6]
+[2023-08-03 02:06:40] INFO root fetch - processPackages [seqPSS]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-03 02:06:40] INFO root fetch - processPackages [dbt-artifacts-parser]: New version: [0.4.1] Old Version: [0.4.0rc1]
+[2023-08-03 02:06:40] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230802.post405] Old Version: [1.9.0.20230801.post450]
+[2023-08-03 02:06:40] INFO root fetch - processPackages [kdp-api-python-client]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-08-03 02:06:40] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1690934589] Old Version: [1690848223]
+[2023-08-03 02:06:40] INFO root fetch - processPackages [azureml-dataprep]: New version: [4.9.7] Old Version: [4.9.6]
+[2023-08-03 02:06:40] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-08-03 02:06:40] INFO root fetch - processPackages [azureml-dataprep-rslex]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-08-03 02:06:40] INFO root fetch - processPackages [seqPSS]: Downloading https://files.pythonhosted.org/packages/47/d0/9f07181a79caec86a25aba3afcb10e1625dcb7fbaddc1e996a526b5d3756/seqPSS-0.0.5-py3-none-any.whl
+[2023-08-03 02:06:40] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/97/32/e755b0135cf936183b19679ffb4e5cbc684415dd71a66ce9c9c40aea20c0/torchdatasets-nightly-1690848223.tar.gz
+[2023-08-03 02:06:40] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/d2/b0/c1918e20d4b655d723963baccbbd99679a5fc3ee32db846255f8a404e4c7/mct-nightly-1.9.0.20230801.post450.tar.gz
+[2023-08-03 02:06:40] INFO root fetch - processPackages [composabl-dev]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev5]
+[2023-08-03 02:06:40] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/a4/4c/c6debdd6360928295d20d54d1a84237ec9b7d33ae1d957d755a05b6b33a8/dbt_artifacts_parser-0.4.0rc1.tar.gz
+[2023-08-03 02:06:40] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-08-03 02:06:40] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/37/8a/9179e0cdcc6485e06416e6639548eade7fa09f5f49c5f5c5559c1c9b5015/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 02:06:40] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/be/d1/9b097111cec9a1546318f5d94614b7332be358510506c48774d6d3c5040e/kdp-api-python-client-4.8.0.tar.gz
+[2023-08-03 02:06:41] INFO root fetch - processPackages [azureml-dataprep]: Downloading https://files.pythonhosted.org/packages/15/14/eda431e84d48f89e3474c6cdedace69e7bb15c9e9ef73c4d0714fe1ad78d/azureml_dataprep-4.9.6-py3-none-any.whl
+[2023-08-03 02:06:41] INFO root fetch - processPackages [azureml-dataprep-rslex]: Downloading https://files.pythonhosted.org/packages/a3/d5/7a9b0965a3954085cb0614195ffdb7507030614aff2fa0c8d65551f20d62/azureml_dataprep_rslex-2.9.0-cp39-cp39-win_amd64.whl
+[2023-08-03 02:06:41] WARNING root fetch - processPackages [azureml-dataprep]: Skipping package: exceeds size limit 38445808>=10485760
+[2023-08-03 02:06:41] INFO root fetch - processPackages [azureml-dataprep]: Start processing: jaxutils-nightly
+[2023-08-03 02:06:41] INFO root fetch - main [MainThread]: End processing [azureml-dataprep] error
+[2023-08-03 02:06:41] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/f5/02/2455d127b6a97727340fd4a20ff4530769b8af192ef4dfae422c7f214278/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 02:06:41] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230802] Old Version: [0.0.8.dev20230801]
+[2023-08-03 02:06:41] INFO root fetch - processPackages [seqPSS]: Downloading https://files.pythonhosted.org/packages/df/4d/3a4cfd4ae5ac5fc960ddd669631979f1b1748bc93c4738747ff24c092e3e/seqPSS-0.0.6-py3-none-any.whl
+[2023-08-03 02:06:41] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/ac/d5/1adf4e68a248f89d72724fd9480b80ea98537d51d7dbdb893353a7e41ac8/torchdatasets-nightly-1690934589.tar.gz
+[2023-08-03 02:06:41] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-08-03 02:06:41] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/07/ed/194ff64c31bde235ec6ecf18904abe7c58312d4d7fb70ed38423a168120c/mct-nightly-1.9.0.20230802.post405.tar.gz
+[2023-08-03 02:06:41] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/50/ed/05678740112ee7e3f914820031e0c5c90bd93694780b39fd2c81643b5c75/jaxutils-nightly-0.0.8.dev20230801.tar.gz
+[2023-08-03 02:06:41] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/b9/b1/022a6d6191978b7ab2e2bba42ad291673af290d6a0c9c91698018b79cc3a/dbt_artifacts_parser-0.4.1.tar.gz
+[2023-08-03 02:06:41] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/df/18/8343e941e07355b3e02283c2ce750ecaffdc2560780723d4b248e0680d79/kdp-api-python-client-4.9.0.tar.gz
+[2023-08-03 02:06:41] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-08-03 02:06:41] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1690848223.tar.gz tmp/torchdatasets-nightly-1690934589.tar.gz --markdown 20230803/t/torchdatasets-nightly/1690848223-1690934589/diff.md --exclude *.pyd
+[2023-08-03 02:06:41] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-08-03 02:06:41] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230803/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-08-03 02:06:41] INFO root fetch - processPackages [seqPSS]: executing diffoscope
+[2023-08-03 02:06:41] INFO root fetch - processPackages [seqPSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqPSS-0.0.5-py3-none-any.whl.zip tmp/seqPSS-0.0.6-py3-none-any.whl.zip --markdown 20230803/s/seqPSS/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-03 02:06:41] INFO root fetch - processPackages [dbt-artifacts-parser]: executing diffoscope
+[2023-08-03 02:06:41] INFO root fetch - processPackages [dbt-artifacts-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_artifacts_parser-0.4.0rc1.tar.gz tmp/dbt_artifacts_parser-0.4.1.tar.gz --markdown 20230803/d/dbt-artifacts-parser/0.4.0rc1-0.4.1/diff.md --exclude *.pyd
+[2023-08-03 02:06:41] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-08-03 02:06:41] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230801.post450.tar.gz tmp/mct-nightly-1.9.0.20230802.post405.tar.gz --markdown 20230803/m/mct-nightly/1.9.0.20230801.post450-1.9.0.20230802.post405/diff.md --exclude *.pyd
+[2023-08-03 02:06:41] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/51/cd/da4e0a374cdc49c4a176f0cb2b3f59efe30ac77171388dc22a8a87a28418/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 02:06:41] INFO root fetch - processPackages [kdp-api-python-client]: executing diffoscope
+[2023-08-03 02:06:41] INFO root fetch - processPackages [kdp-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-api-python-client-4.8.0.tar.gz tmp/kdp-api-python-client-4.9.0.tar.gz --markdown 20230803/k/kdp-api-python-client/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-08-03 02:06:41] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/a0/45/e772884fa600bb4a3625192c64743a1b74058959eeeda445bb668a313c56/jaxutils-nightly-0.0.8.dev20230802.tar.gz
+[2023-08-03 02:06:41] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-08-03 02:06:41] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-ray-dev/0.3.9.dev6-0.3.9.dev8/diff.md --exclude *.pyd
+[2023-08-03 02:06:42] WARNING root fetch - processPackages [azureml-dataprep-rslex]: Skipping package: exceeds size limit 13348921>=10485760
+[2023-08-03 02:06:42] INFO root fetch - main [MainThread]: End processing [azureml-dataprep-rslex] error
+[2023-08-03 02:06:42] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/54/be/e399388bd48adf9263b327a838fa8fadc33f070b712563217db654e901ba/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 02:06:42] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-08-03 02:06:42] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230801.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230802.tar.gz --markdown 20230803/j/jaxutils-nightly/0.0.8.dev20230801-0.0.8.dev20230802/diff.md --exclude *.pyd
+[2023-08-03 02:06:42] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-08-03 02:06:42] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-dev/0.3.9.dev5-0.3.9.dev8/diff.md --exclude *.pyd
+[2023-08-03 02:06:42] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-08-03 02:06:42] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-08-03 02:06:42] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-08-03 02:06:43] INFO root fetch - processPackages [seqPSS]: Remove: archive file [/home/abi/fetcher/tmp/seqPSS-0.0.5-py3-none-any.whl.zip]
+[2023-08-03 02:06:43] INFO root fetch - processPackages [seqPSS]: Remove: archive file [/home/abi/fetcher/tmp/seqPSS-0.0.6-py3-none-any.whl.zip]
+[2023-08-03 02:06:43] INFO root fetch - main [MainThread]: End processing [seqPSS]: success
+[2023-08-03 02:06:43] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690848223.tar.gz]
+[2023-08-03 02:06:43] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690934589.tar.gz]
+[2023-08-03 02:06:43] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-08-03 02:06:43] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230801.tar.gz]
+[2023-08-03 02:06:43] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230802.tar.gz]
+[2023-08-03 02:06:43] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-08-03 02:06:43] INFO root fetch - processPackages [dbt-artifacts-parser]: Remove: archive file [/home/abi/fetcher/tmp/dbt_artifacts_parser-0.4.0rc1.tar.gz]
+[2023-08-03 02:06:43] INFO root fetch - processPackages [dbt-artifacts-parser]: Remove: archive file [/home/abi/fetcher/tmp/dbt_artifacts_parser-0.4.1.tar.gz]
+[2023-08-03 02:06:43] INFO root fetch - main [MainThread]: End processing [dbt-artifacts-parser]: success
+[2023-08-03 02:06:44] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 02:06:44] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 02:06:44] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-08-03 02:06:45] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230801.post450.tar.gz]
+[2023-08-03 02:06:45] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230802.post405.tar.gz]
+[2023-08-03 02:06:45] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-08-03 02:06:45] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.8.0.tar.gz]
+[2023-08-03 02:06:45] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.9.0.tar.gz]
+[2023-08-03 02:06:45] INFO root fetch - main [MainThread]: End processing [kdp-api-python-client]: success
+[2023-08-03 02:07:07] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 02:07:07] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 02:07:07] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-08-03 02:07:07] INFO root fetch - main [MainThread]: Store serial: [19150125]
