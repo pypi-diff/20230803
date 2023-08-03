@@ -5534,3 +5534,48 @@
 [2023-08-03 03:06:51] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230803010110.tar.gz]
 [2023-08-03 03:06:51] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-08-03 03:06:51] INFO root fetch - main [MainThread]: Store serial: [19151395]
+[2023-08-03 03:11:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19151395]
+[2023-08-03 03:11:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-03 03:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-glue-container-launcher
+[2023-08-03 03:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-hugo-deploy
+[2023-08-03 03:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CrossPy
+[2023-08-03 03:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl-core-dev
+[2023-08-03 03:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mabwiser
+[2023-08-03 03:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: covalent-api-sdk
+[2023-08-03 03:12:00] INFO root fetch - processPackages [CrossPy]: New version: [0.0.0a3.dev9] Old Version: [0.0.0a3.dev8]
+[2023-08-03 03:12:00] INFO root fetch - processPackages [mabwiser]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-08-03 03:12:00] WARNING root fetch - processPackages [covalent-api-sdk]: Skipping, unable to determine old version
+[2023-08-03 03:12:00] INFO root fetch - main [MainThread]: End processing [covalent-api-sdk] error
+[2023-08-03 03:12:00] WARNING root fetch - processPackages [aws-glue-container-launcher]: Skipping, unable to determine old version
+[2023-08-03 03:12:00] INFO root fetch - main [MainThread]: End processing [aws-glue-container-launcher] error
+[2023-08-03 03:12:00] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.3.9.dev18] Old Version: [0.3.9.dev17]
+[2023-08-03 03:12:00] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 03:12:00] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/8c/ed/1c7b76826f17c2bd61654df4111613c9a3c9c40bb81d4d22edbdb374aef5/composabl_core_dev-0.3.9.dev17-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-03 03:12:00] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/ec/b8/e5ab99de223845d8d356f63f407518017a5afb79c4313f7c29026f449ba8/CrossPy-0.0.0a3.dev8.tar.gz
+[2023-08-03 03:12:00] INFO root fetch - processPackages [mabwiser]: Downloading https://files.pythonhosted.org/packages/0d/00/6a017d94358b299cff006ab5a355a2d62f21220b345a323108b374d1dfcf/mabwiser-2.7.0.tar.gz
+[2023-08-03 03:12:00] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-08-03 03:12:00] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-08-03 03:12:00] INFO root fetch - processPackages [mabwiser]: Downloading https://files.pythonhosted.org/packages/84/56/c273934b2a6679d15e9093b586c6aadbfe98d7161fe29844f4926188e87d/mabwiser-2.7.1.tar.gz
+[2023-08-03 03:12:00] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/42/3c/bb73b16a9d09ec4ec2e611a065b0b1308508085441750f46083f95b884c7/CrossPy-0.0.0a3.dev9.tar.gz
+[2023-08-03 03:12:00] INFO root fetch - processPackages [mabwiser]: executing diffoscope
+[2023-08-03 03:12:00] INFO root fetch - processPackages [mabwiser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mabwiser-2.7.0.tar.gz tmp/mabwiser-2.7.1.tar.gz --markdown 20230803/m/mabwiser/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-08-03 03:12:00] INFO root fetch - processPackages [CrossPy]: executing diffoscope
+[2023-08-03 03:12:00] INFO root fetch - processPackages [CrossPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrossPy-0.0.0a3.dev8.tar.gz tmp/CrossPy-0.0.0a3.dev9.tar.gz --markdown 20230803/C/CrossPy/0.0.0a3.dev8-0.0.0a3.dev9/diff.md --exclude *.pyd
+[2023-08-03 03:12:00] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-08-03 03:12:00] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230803/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 03:12:01] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/3d/80/8043df9ac958ccf00867816ab8991a46643579142b81180df7edd34c1972/composabl_core_dev-0.3.9.dev18-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-03 03:12:01] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev8.tar.gz]
+[2023-08-03 03:12:01] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev9.tar.gz]
+[2023-08-03 03:12:01] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
+[2023-08-03 03:12:01] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-08-03 03:12:01] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-08-03 03:12:01] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-08-03 03:12:01] INFO root fetch - processPackages [mabwiser]: Remove: archive file [/home/abi/fetcher/tmp/mabwiser-2.7.0.tar.gz]
+[2023-08-03 03:12:01] INFO root fetch - processPackages [mabwiser]: Remove: archive file [/home/abi/fetcher/tmp/mabwiser-2.7.1.tar.gz]
+[2023-08-03 03:12:01] INFO root fetch - main [MainThread]: End processing [mabwiser]: success
+[2023-08-03 03:12:03] INFO root fetch - processPackages [composabl-core-dev]: executing diffoscope
+[2023-08-03 03:12:03] INFO root fetch - processPackages [composabl-core-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_core_dev-0.3.9.dev17-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_core_dev-0.3.9.dev18-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230803/c/composabl-core-dev/0.3.9.dev17-0.3.9.dev18/diff.md --exclude *.pyd
+[2023-08-03 03:12:04] INFO root fetch - processPackages [composabl-core-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_core_dev-0.3.9.dev17-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-03 03:12:04] INFO root fetch - processPackages [composabl-core-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_core_dev-0.3.9.dev18-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-03 03:12:04] INFO root fetch - main [MainThread]: End processing [composabl-core-dev]: success
+[2023-08-03 03:12:04] INFO root fetch - main [MainThread]: Store serial: [19151421]
