@@ -12467,3 +12467,63 @@
 [2023-08-03 07:29:04] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.404.0.tar.gz]
 [2023-08-03 07:29:04] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-03 07:29:04] INFO root fetch - main [MainThread]: Store serial: [19154080]
+[2023-08-03 07:34:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154080]
+[2023-08-03 07:34:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-03 07:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-opnsense
+[2023-08-03 07:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lares
+[2023-08-03 07:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liplustools
+[2023-08-03 07:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoBrewML
+[2023-08-03 07:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lares
+[2023-08-03 07:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kentoml
+[2023-08-03 07:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UIron
+[2023-08-03 07:34:13] INFO root fetch - processPackages [liplustools]: New version: [0.2] Old Version: [0.1]
+[2023-08-03 07:34:13] INFO root fetch - processPackages [lares]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 07:34:13] INFO root fetch - processPackages [AutoBrewML]: New version: [0.9] Old Version: [0.8]
+[2023-08-03 07:34:13] INFO root fetch - processPackages [kentoml]: New version: [1.0.20.post8] Old Version: [1.0.20.post7]
+[2023-08-03 07:34:13] INFO root fetch - processPackages [UIron]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 07:34:13] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-03 07:34:13] INFO root fetch - processPackages [lares]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 07:34:13] INFO root fetch - processPackages [UIron]: Downloading https://files.pythonhosted.org/packages/2b/e6/90e047b3d759c8034743a573fba2c4825cd863600e194bfef302632ff8f7/UIron-0.0.8.tar.gz
+[2023-08-03 07:34:13] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/2c/56/b495a21226000f040f2198d8581d246fc3db50c240177529ef3305a3be47/lares-0.0.3.tar.gz
+[2023-08-03 07:34:13] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/2c/56/b495a21226000f040f2198d8581d246fc3db50c240177529ef3305a3be47/lares-0.0.3.tar.gz
+[2023-08-03 07:34:13] INFO root fetch - processPackages [liplustools]: Downloading https://files.pythonhosted.org/packages/6f/0a/9389201863006c2aa7679621e07b7f442ffd47f80eb0378d085dde1565d5/liplustools-0.1.tar.gz
+[2023-08-03 07:34:13] INFO root fetch - processPackages [AutoBrewML]: Downloading https://files.pythonhosted.org/packages/29/99/00ae06948a5c95386068fe7e12aada406a92d235d69e8b6a4fcc997579a8/AutoBrewML-0.8-py3-none-any.whl
+[2023-08-03 07:34:13] INFO root fetch - processPackages [kentoml]: Downloading https://files.pythonhosted.org/packages/b2/1d/0e6ae95b22547b69f526abd75f32ef5cb9cee0f682aec652233c6017935f/kentoml-1.0.20.post7.tar.gz
+[2023-08-03 07:34:13] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/f3/85/c18a09b9fbd4d6918989b4798ad3c9fded17041207cb5a24b3cb53c91469/pulumi_opnsense-0.1.4.tar.gz
+[2023-08-03 07:34:13] WARNING root fetch - processPackages [kentoml]: Skipping package: exceeds size limit 19837846>=10485760
+[2023-08-03 07:34:13] INFO root fetch - main [MainThread]: End processing [kentoml] error
+[2023-08-03 07:34:13] INFO root fetch - processPackages [UIron]: Downloading https://files.pythonhosted.org/packages/28/86/7ae7451e5a9b2db867b1548033dd1d9f16bf62bbc788f9375aea34116c17/UIron-0.0.9.tar.gz
+[2023-08-03 07:34:13] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/79/1c/23917568649407731881e1a09e875b1e8eeae3b83e82ba1545f97f09ced4/lares-0.0.4.tar.gz
+[2023-08-03 07:34:13] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/79/1c/23917568649407731881e1a09e875b1e8eeae3b83e82ba1545f97f09ced4/lares-0.0.4.tar.gz
+[2023-08-03 07:34:13] INFO root fetch - processPackages [UIron]: executing diffoscope
+[2023-08-03 07:34:13] INFO root fetch - processPackages [UIron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UIron-0.0.8.tar.gz tmp/UIron-0.0.9.tar.gz --markdown 20230803/U/UIron/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 07:34:13] INFO root fetch - processPackages [liplustools]: Downloading https://files.pythonhosted.org/packages/df/ab/e68648ea9f48b4c40ef62a3dbc02116d1888066222c36f330ea4d438e820/liplustools-0.2.tar.gz
+[2023-08-03 07:34:13] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/22/13/d24dbbc4fe357ad8f34af6cf25dbcdf3f6cf8c56a615381a4e4ad7d34a76/pulumi_opnsense-0.1.5.tar.gz
+[2023-08-03 07:34:13] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-03 07:34:13] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.3.tar.gz tmp/lares-0.0.4.tar.gz --markdown 20230803/l/lares/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 07:34:13] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-03 07:34:13] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.3.tar.gz tmp/lares-0.0.4.tar.gz --markdown 20230803/l/lares/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 07:34:13] INFO root fetch - processPackages [liplustools]: executing diffoscope
+[2023-08-03 07:34:13] INFO root fetch - processPackages [liplustools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liplustools-0.1.tar.gz tmp/liplustools-0.2.tar.gz --markdown 20230803/l/liplustools/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-03 07:34:13] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-08-03 07:34:13] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.1.4.tar.gz tmp/pulumi_opnsense-0.1.5.tar.gz --markdown 20230803/p/pulumi-opnsense/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-03 07:34:13] INFO root fetch - processPackages [AutoBrewML]: Downloading https://files.pythonhosted.org/packages/86/de/d9373b67ff4d1ddc1a258960a5c79af5f1f4d568541adfc5eae52aaedcf4/AutoBrewML-0.9-py3-none-any.whl
+[2023-08-03 07:34:14] INFO root fetch - processPackages [AutoBrewML]: executing diffoscope
+[2023-08-03 07:34:14] INFO root fetch - processPackages [AutoBrewML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoBrewML-0.8-py3-none-any.whl.zip tmp/AutoBrewML-0.9-py3-none-any.whl.zip --markdown 20230803/A/AutoBrewML/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-03 07:34:14] INFO root fetch - processPackages [liplustools]: Remove: archive file [/home/abi/fetcher/tmp/liplustools-0.1.tar.gz]
+[2023-08-03 07:34:14] INFO root fetch - processPackages [liplustools]: Remove: archive file [/home/abi/fetcher/tmp/liplustools-0.2.tar.gz]
+[2023-08-03 07:34:14] INFO root fetch - main [MainThread]: End processing [liplustools]: success
+[2023-08-03 07:34:14] INFO root fetch - processPackages [UIron]: Remove: archive file [/home/abi/fetcher/tmp/UIron-0.0.8.tar.gz]
+[2023-08-03 07:34:14] INFO root fetch - processPackages [UIron]: Remove: archive file [/home/abi/fetcher/tmp/UIron-0.0.9.tar.gz]
+[2023-08-03 07:34:14] INFO root fetch - main [MainThread]: End processing [UIron]: success
+[2023-08-03 07:34:14] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.3.tar.gz]
+[2023-08-03 07:34:14] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.4.tar.gz]
+[2023-08-03 07:34:14] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-03 07:34:14] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.1.4.tar.gz]
+[2023-08-03 07:34:14] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.1.5.tar.gz]
+[2023-08-03 07:34:14] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-08-03 07:34:14] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-03 07:34:15] INFO root fetch - processPackages [AutoBrewML]: Remove: archive file [/home/abi/fetcher/tmp/AutoBrewML-0.8-py3-none-any.whl.zip]
+[2023-08-03 07:34:15] INFO root fetch - processPackages [AutoBrewML]: Remove: archive file [/home/abi/fetcher/tmp/AutoBrewML-0.9-py3-none-any.whl.zip]
+[2023-08-03 07:34:15] INFO root fetch - main [MainThread]: End processing [AutoBrewML]: success
+[2023-08-03 07:34:15] INFO root fetch - main [MainThread]: Store serial: [19154101]
