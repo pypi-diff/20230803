@@ -5349,3 +5349,119 @@
 [2023-08-03 02:55:56] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.9.tar.gz]
 [2023-08-03 02:55:56] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2023-08-03 02:55:56] INFO root fetch - main [MainThread]: Store serial: [19151325]
+[2023-08-03 03:01:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19151325]
+[2023-08-03 03:01:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-03 03:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-grasshopper
+[2023-08-03 03:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: music-assistant
+[2023-08-03 03:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-08-03 03:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiohttp-client-rate-limiter
+[2023-08-03 03:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: general-superstaq
+[2023-08-03 03:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-ray-dev
+[2023-08-03 03:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coola
+[2023-08-03 03:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qiskit-superstaq
+[2023-08-03 03:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-superstaq
+[2023-08-03 03:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Supermarq
+[2023-08-03 03:01:06] INFO root fetch - processPackages [cirq-superstaq]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-03 03:01:06] INFO root fetch - processPackages [general-superstaq]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-03 03:01:06] INFO root fetch - processPackages [coola]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 03:01:06] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-03 03:01:06] INFO root fetch - processPackages [Supermarq]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-03 03:01:06] INFO root fetch - processPackages [qiskit-superstaq]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-03 03:01:06] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-08-03 03:01:06] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-03 03:01:06] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev6]
+[2023-08-03 03:01:06] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-08-03 03:01:06] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: Downloading https://files.pythonhosted.org/packages/7a/49/cda0c29801e8448b3a7aad0b8bd10ea4c618605ba5a5880b2fed17d345ef/aiohttp_client_rate_limiter-1.0.1.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/37/8a/9179e0cdcc6485e06416e6639548eade7fa09f5f49c5f5c5559c1c9b5015/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 03:01:06] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/3e/30/ffb0c70e6c2dcbc7193f66e71ba62bb7d17762a3b5d013cc2e0832282c6f/cirq-superstaq-0.4.8.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/c9/40/61dfe6a37d21d46492b78f95d5dd76c5824c30ce43f42c59f9569187e67e/general-superstaq-0.4.8.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/ca/0c/e47f7fdc6f34e79ff4ab3b21c0ef7b7f32f62be0255411f914475666fb8c/coola-0.0.8.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/f2/5c/28f22e8eb9f4af8fd9422ef56acde18d34dc6f63c8284a6a70550a2bad7e/Supermarq-0.4.8.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/30/e6/3685f99cfd36f45ae30b5ab732ec26ae4730b99648a47480cf683b1142a4/lbt-grasshopper-1.6.8.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/1c/02/e23febac63d3777f10aee959294d2b5776aef9d5597faaa5ccced224196e/qiskit-superstaq-0.4.8.tar.gz
+[2023-08-03 03:01:06] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-08-03 03:01:06] INFO root fetch - processPackages [music-assistant]: Start processing: pyautomail
+[2023-08-03 03:01:06] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-08-03 03:01:06] INFO root fetch - processPackages [pyautomail]: New version: [1.5.1.3] Old Version: [1.5.1.2]
+[2023-08-03 03:01:06] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: Downloading https://files.pythonhosted.org/packages/15/c6/71e7b941a04fcf99fbd41fb5f37f63aae904ebf3995c2c175374ac28a9b2/aiohttp_client_rate_limiter-1.0.2.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/64/cc/211889256cbdd74b5e4f9728d2ee2924e5ef681eb3d92ddc366ab736ebde/cirq-superstaq-0.4.9.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/dc/99/4adb9f3251beb32e2931c09dc2d3f2d50274297beef12ad6430aef5f5f3c/Supermarq-0.4.9.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [pyautomail]: Downloading https://files.pythonhosted.org/packages/40/bf/5a0a1e001cd3f76ab5f57112ca8361bf06ee86fda771dec3da1e85f39347/pyautomail-1.5.1.2.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/51/cd/da4e0a374cdc49c4a176f0cb2b3f59efe30ac77171388dc22a8a87a28418/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 03:01:06] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/c0/00/f18491a57d325c5dc504e910e8d6e1684f755895d75371d82f2fd985d679/general-superstaq-0.4.9.tar.gz
+[2023-08-03 03:01:06] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: executing diffoscope
+[2023-08-03 03:01:06] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_client_rate_limiter-1.0.1.tar.gz tmp/aiohttp_client_rate_limiter-1.0.2.tar.gz --markdown 20230803/a/aiohttp-client-rate-limiter/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-03 03:01:07] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/7f/0e/bed58a1ff4efe3f6f1ec7d9c70e7dde121ab45e1fd5b356c0afb5234a85e/qiskit-superstaq-0.4.9.tar.gz
+[2023-08-03 03:01:07] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/24/e9/d155575f4d38b7ae3d21b6f6e0c4c34409ce3b7b0412b7e24694915ec0e0/lbt-grasshopper-1.6.9.tar.gz
+[2023-08-03 03:01:07] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/67/49/16dce5b5e529dd9625489d79e8f5d3f192bb6a514bfb92247ce5198fda1a/coola-0.0.9.tar.gz
+[2023-08-03 03:01:07] INFO root fetch - processPackages [cirq-superstaq]: executing diffoscope
+[2023-08-03 03:01:07] INFO root fetch - processPackages [cirq-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-superstaq-0.4.8.tar.gz tmp/cirq-superstaq-0.4.9.tar.gz --markdown 20230803/c/cirq-superstaq/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-03 03:01:07] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-08-03 03:01:07] INFO root fetch - processPackages [Supermarq]: executing diffoscope
+[2023-08-03 03:01:07] INFO root fetch - processPackages [Supermarq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Supermarq-0.4.8.tar.gz tmp/Supermarq-0.4.9.tar.gz --markdown 20230803/S/Supermarq/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-03 03:01:07] INFO root fetch - processPackages [general-superstaq]: executing diffoscope
+[2023-08-03 03:01:07] INFO root fetch - processPackages [general-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general-superstaq-0.4.8.tar.gz tmp/general-superstaq-0.4.9.tar.gz --markdown 20230803/g/general-superstaq/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-03 03:01:07] INFO root fetch - processPackages [qiskit-superstaq]: executing diffoscope
+[2023-08-03 03:01:07] INFO root fetch - processPackages [qiskit-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-superstaq-0.4.8.tar.gz tmp/qiskit-superstaq-0.4.9.tar.gz --markdown 20230803/q/qiskit-superstaq/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-03 03:01:07] INFO root fetch - processPackages [coola]: executing diffoscope
+[2023-08-03 03:01:07] INFO root fetch - processPackages [coola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coola-0.0.8.tar.gz tmp/coola-0.0.9.tar.gz --markdown 20230803/c/coola/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 03:01:07] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2023-08-03 03:01:07] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.6.8.tar.gz tmp/lbt-grasshopper-1.6.9.tar.gz --markdown 20230803/l/lbt-grasshopper/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-08-03 03:01:07] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-08-03 03:01:07] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-ray-dev/0.3.9.dev6-0.3.9.dev8/diff.md --exclude *.pyd
+[2023-08-03 03:01:07] INFO root fetch - processPackages [pyautomail]: Downloading https://files.pythonhosted.org/packages/ef/62/cb812fa44f98cf591ef2d25c7560f5a6639724873d7d5b0e0401a97769f5/pyautomail-1.5.1.3.tar.gz
+[2023-08-03 03:01:07] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-08-03 03:01:07] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230803/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-03 03:01:07] INFO root fetch - processPackages [pyautomail]: executing diffoscope
+[2023-08-03 03:01:07] INFO root fetch - processPackages [pyautomail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautomail-1.5.1.2.tar.gz tmp/pyautomail-1.5.1.3.tar.gz --markdown 20230803/p/pyautomail/1.5.1.2-1.5.1.3/diff.md --exclude *.pyd
+[2023-08-03 03:01:08] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_client_rate_limiter-1.0.1.tar.gz]
+[2023-08-03 03:01:08] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_client_rate_limiter-1.0.2.tar.gz]
+[2023-08-03 03:01:08] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: Start processing: langflow
+[2023-08-03 03:01:08] INFO root fetch - main [MainThread]: End processing [aiohttp-client-rate-limiter]: success
+[2023-08-03 03:01:08] INFO root fetch - processPackages [langflow]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-08-03 03:01:08] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/4f/90/fafec3bac7166912045dd7d3c4e646b09525fb3b964bb9587d273318c16f/langflow-0.3.4.tar.gz
+[2023-08-03 03:01:08] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-superstaq-0.4.8.tar.gz]
+[2023-08-03 03:01:08] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-superstaq-0.4.9.tar.gz]
+[2023-08-03 03:01:08] INFO root fetch - processPackages [cirq-superstaq]: Start processing: aemcmc-nightly
+[2023-08-03 03:01:08] INFO root fetch - main [MainThread]: End processing [cirq-superstaq]: success
+[2023-08-03 03:01:08] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230802] Old Version: [0.0.8.dev20230801]
+[2023-08-03 03:01:08] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.4.8.tar.gz]
+[2023-08-03 03:01:08] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.4.9.tar.gz]
+[2023-08-03 03:01:08] INFO root fetch - main [MainThread]: End processing [Supermarq]: success
+[2023-08-03 03:01:08] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.8.tar.gz]
+[2023-08-03 03:01:08] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.9.tar.gz]
+[2023-08-03 03:01:08] INFO root fetch - main [MainThread]: End processing [coola]: success
+[2023-08-03 03:01:08] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/47/25/ee374e56098cbdd1b32dcba609442e0ed414277edb086a35a40f51e504a1/aemcmc-nightly-0.0.8.dev20230801.tar.gz
+[2023-08-03 03:01:08] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.8.tar.gz]
+[2023-08-03 03:01:08] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/cf/c3/20ac64367009065a3c089693f3e50bc3e8bb858187c5853f21515c6764c3/langflow-0.4.0.tar.gz
+[2023-08-03 03:01:08] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.9.tar.gz]
+[2023-08-03 03:01:08] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2023-08-03 03:01:09] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-superstaq-0.4.8.tar.gz]
+[2023-08-03 03:01:09] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-superstaq-0.4.9.tar.gz]
+[2023-08-03 03:01:09] INFO root fetch - main [MainThread]: End processing [qiskit-superstaq]: success
+[2023-08-03 03:01:09] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general-superstaq-0.4.8.tar.gz]
+[2023-08-03 03:01:09] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general-superstaq-0.4.9.tar.gz]
+[2023-08-03 03:01:09] INFO root fetch - main [MainThread]: End processing [general-superstaq]: success
+[2023-08-03 03:01:09] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-08-03 03:01:09] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-08-03 03:01:09] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-08-03 03:01:09] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-08-03 03:01:09] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.3.4.tar.gz tmp/langflow-0.4.0.tar.gz --markdown 20230803/l/langflow/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-08-03 03:01:09] INFO root fetch - processPackages [pyautomail]: Remove: archive file [/home/abi/fetcher/tmp/pyautomail-1.5.1.2.tar.gz]
+[2023-08-03 03:01:09] INFO root fetch - processPackages [pyautomail]: Remove: archive file [/home/abi/fetcher/tmp/pyautomail-1.5.1.3.tar.gz]
+[2023-08-03 03:01:09] INFO root fetch - main [MainThread]: End processing [pyautomail]: success
+[2023-08-03 03:01:09] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/2e/86/c0e7c25f5c780d607687f14eae305d9ef2b3a893353bd8607ed4b79e1f8b/aemcmc-nightly-0.0.8.dev20230802.tar.gz
+[2023-08-03 03:01:09] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-08-03 03:01:09] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230801.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230802.tar.gz --markdown 20230803/a/aemcmc-nightly/0.0.8.dev20230801-0.0.8.dev20230802/diff.md --exclude *.pyd
+[2023-08-03 03:01:10] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230801.tar.gz]
+[2023-08-03 03:01:10] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230802.tar.gz]
+[2023-08-03 03:01:10] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-08-03 03:01:10] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.3.4.tar.gz]
+[2023-08-03 03:01:10] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.4.0.tar.gz]
+[2023-08-03 03:01:10] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-08-03 03:01:33] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 03:01:33] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 03:01:33] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-08-03 03:01:33] INFO root fetch - main [MainThread]: Store serial: [19151366]
