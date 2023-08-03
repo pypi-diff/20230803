@@ -14299,3 +14299,73 @@
 [2023-08-03 09:05:37] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.8.tar.gz]
 [2023-08-03 09:05:37] INFO root fetch - main [MainThread]: End processing [dosmaster]: success
 [2023-08-03 09:05:37] INFO root fetch - main [MainThread]: Store serial: [19154934]
+[2023-08-03 09:10:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154934]
+[2023-08-03 09:10:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-03 09:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bc-detect-secrets
+[2023-08-03 09:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitaudit
+[2023-08-03 09:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-signalfx
+[2023-08-03 09:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybbt
+[2023-08-03 09:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-03 09:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-slack
+[2023-08-03 09:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dosmaster
+[2023-08-03 09:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fipiran
+[2023-08-03 09:10:47] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.3a1691044596] Old Version: [0.4.3a1690910723]
+[2023-08-03 09:10:47] INFO root fetch - processPackages [pybbt]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-08-03 09:10:47] INFO root fetch - processPackages [bc-detect-secrets]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-08-03 09:10:47] INFO root fetch - processPackages [dosmaster]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-08-03 09:10:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-03 09:10:47] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-08-03 09:10:47] INFO root fetch - processPackages [pulumi-signalfx]: New version: [6.2.0a1691044148] Old Version: [6.1.0]
+[2023-08-03 09:10:47] INFO root fetch - processPackages [fipiran]: New version: [0.9.0] Old Version: [0.8.1.dev0]
+[2023-08-03 09:10:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-03 09:10:47] ERROR root fetch - processPackages [pybbt]: Unable to fetch info: No such project/version 'pybbt' 0.0.3
+[2023-08-03 09:10:47] INFO root fetch - main [MainThread]: End processing [pybbt] error
+[2023-08-03 09:10:47] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/0e/7c/826e32114099a9c6db8e80d267d216c83441b67c9d4f2c5d16325d08b565/pulumi_slack-0.4.3a1690910723.tar.gz
+[2023-08-03 09:10:47] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/55/01/e9d87845086c58568659da267c72528f70d405ed6aa846158840bf24f65e/dosmaster-1.7.7.tar.gz
+[2023-08-03 09:10:47] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/a2/23/a92e4dd2a6d1d3532e79c77d0021ae63edce1919e2f1d537537b6422138f/bc-detect-secrets-1.4.8.tar.gz
+[2023-08-03 09:10:47] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/0a/18/c04c2a2695b90b59d399132911810ff9516094a848d91cc65beb7e8d7f14/pulumi_signalfx-6.1.0.tar.gz
+[2023-08-03 09:10:47] INFO root fetch - processPackages [fipiran]: Downloading https://files.pythonhosted.org/packages/32/5c/f541aa4fbaf3a80f635e4012885ade2f850c46942caa544fc2788e94a42b/fipiran-0.8.1.dev0.tar.gz
+[2023-08-03 09:10:47] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-08-03 09:10:47] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/d5/36/694b694f62be184037fc56c7a6c3bedb7839cdd1d3441fbe38afaed3e182/dosmaster-1.7.8.tar.gz
+[2023-08-03 09:10:48] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/55/99/4cda5faa71ad53f19783e698a76c1bb6142141e52fcbcf80fbf63b29c2ed/pulumi_slack-0.4.3a1691044596.tar.gz
+[2023-08-03 09:10:48] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/67/e4/eb8535d3c5950966fbd75207e1a6ef0d5c37e0f180563b6472f54a643d1b/pulumi_signalfx-6.2.0a1691044148.tar.gz
+[2023-08-03 09:10:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-03 09:10:48] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2023-08-03 09:10:48] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.3a1690910723.tar.gz tmp/pulumi_slack-0.4.3a1691044596.tar.gz --markdown 20230803/p/pulumi-slack/0.4.3a1690910723-0.4.3a1691044596/diff.md --exclude *.pyd
+[2023-08-03 09:10:48] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/02/f2/d1d870d526c722f22a491ebad1680e02ce935097d42af758a7a0e278f3c4/bc-detect-secrets-1.4.9.tar.gz
+[2023-08-03 09:10:48] INFO root fetch - processPackages [dosmaster]: executing diffoscope
+[2023-08-03 09:10:48] INFO root fetch - processPackages [dosmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosmaster-1.7.7.tar.gz tmp/dosmaster-1.7.8.tar.gz --markdown 20230803/d/dosmaster/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-08-03 09:10:48] INFO root fetch - processPackages [fipiran]: Downloading https://files.pythonhosted.org/packages/95/72/531bbe1908672d05170b2177622b940382f45aaf6e88cdb53bcb6e7c9256/fipiran-0.9.0.tar.gz
+[2023-08-03 09:10:48] INFO root fetch - processPackages [bc-detect-secrets]: executing diffoscope
+[2023-08-03 09:10:48] INFO root fetch - processPackages [bc-detect-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-detect-secrets-1.4.8.tar.gz tmp/bc-detect-secrets-1.4.9.tar.gz --markdown 20230803/b/bc-detect-secrets/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-08-03 09:10:48] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-08-03 09:10:48] INFO root fetch - processPackages [fipiran]: executing diffoscope
+[2023-08-03 09:10:48] INFO root fetch - processPackages [fipiran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fipiran-0.8.1.dev0.tar.gz tmp/fipiran-0.9.0.tar.gz --markdown 20230803/f/fipiran/0.8.1.dev0-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 09:10:48] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-08-03 09:10:48] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-6.1.0.tar.gz tmp/pulumi_signalfx-6.2.0a1691044148.tar.gz --markdown 20230803/p/pulumi-signalfx/6.1.0-6.2.0a1691044148/diff.md --exclude *.pyd
+[2023-08-03 09:10:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-03 09:10:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230803/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 09:10:48] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-08-03 09:10:48] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230803/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 09:10:49] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1690910723.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1691044596.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2023-08-03 09:10:49] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.7.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.8.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - main [MainThread]: End processing [dosmaster]: success
+[2023-08-03 09:10:49] INFO root fetch - processPackages [fipiran]: Remove: archive file [/home/abi/fetcher/tmp/fipiran-0.8.1.dev0.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - processPackages [fipiran]: Remove: archive file [/home/abi/fetcher/tmp/fipiran-0.9.0.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - main [MainThread]: End processing [fipiran]: success
+[2023-08-03 09:10:49] INFO root fetch - processPackages [bc-detect-secrets]: Remove: archive file [/home/abi/fetcher/tmp/bc-detect-secrets-1.4.8.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - processPackages [bc-detect-secrets]: Remove: archive file [/home/abi/fetcher/tmp/bc-detect-secrets-1.4.9.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - main [MainThread]: End processing [bc-detect-secrets]: success
+[2023-08-03 09:10:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-03 09:10:49] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-08-03 09:10:49] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-6.1.0.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-6.2.0a1691044148.tar.gz]
+[2023-08-03 09:10:49] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-08-03 09:10:49] INFO root fetch - main [MainThread]: Store serial: [19154961]
