@@ -11994,3 +11994,84 @@
 [2023-08-03 06:46:42] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
 [2023-08-03 06:46:42] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
 [2023-08-03 06:46:42] INFO root fetch - main [MainThread]: Store serial: [19153779]
+[2023-08-03 06:51:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153779]
+[2023-08-03 06:51:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-03 06:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: periflow-cli
+[2023-08-03 06:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TPE-Bot
+[2023-08-03 06:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: preamble
+[2023-08-03 06:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: image2layout-computer-vision
+[2023-08-03 06:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: retakesearch
+[2023-08-03 06:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magnetocaloric
+[2023-08-03 06:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mynacode
+[2023-08-03 06:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyatv
+[2023-08-03 06:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: docta.ai
+[2023-08-03 06:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moderne-visualizations-misc
+[2023-08-03 06:51:51] INFO root fetch - processPackages [magnetocaloric]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-08-03 06:51:51] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 06:51:51] INFO root fetch - processPackages [TPE-Bot]: New version: [3.1.0] Old Version: [2.1.0]
+[2023-08-03 06:51:51] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-03 06:51:51] INFO root fetch - processPackages [periflow-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 06:51:51] INFO root fetch - processPackages [retakesearch]: New version: [0.1.27] Old Version: [0.1.26]
+[2023-08-03 06:51:51] WARNING root fetch - processPackages [docta.ai]: Skipping, unable to determine old version
+[2023-08-03 06:51:51] INFO root fetch - main [MainThread]: End processing [docta.ai] error
+[2023-08-03 06:51:51] WARNING root fetch - processPackages [preamble]: Skipping, unable to determine old version
+[2023-08-03 06:51:51] INFO root fetch - main [MainThread]: End processing [preamble] error
+[2023-08-03 06:51:51] INFO root fetch - processPackages [moderne-visualizations-misc]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-03 06:51:51] INFO root fetch - processPackages [pyatv]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-08-03 06:51:51] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/7e/cc/ed540655913ca2ef30701d3f3325abb71db0b407d707f9af21c88a5c9b89/image2layout_computer_vision-0.0.8.tar.gz
+[2023-08-03 06:51:52] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/00/0c/2e08847cf95d56b57c5381557c7d77f46c66ea3445a087a4d4543629baee/magnetocaloric-1.2.7.tar.gz
+[2023-08-03 06:51:52] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-03 06:51:52] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/d0/21/27a3fc77ad40eee643117c17529220e6c82b5a63e6db16578c73cd7fa430/retakesearch-0.1.26.tar.gz
+[2023-08-03 06:51:52] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/5d/13/fec366ea14db694a01eb075ae33a4cdbcea8bdacc4a265baeae9b0c477ca/TPE_Bot-2.1.0-py3-none-any.whl
+[2023-08-03 06:51:52] INFO root fetch - processPackages [periflow-cli]: Downloading https://files.pythonhosted.org/packages/79/1c/b3b2f9a6b6d9f22e255d49aee10bb9f84e47c16e581383be7e3c5bc43736/periflow-cli-0.1.8.tar.gz
+[2023-08-03 06:51:52] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/a8/cc/9a47f5261d0209c3a086b989df89137037c5b2cb1add7e6a0f712a5d58cc/moderne_visualizations_misc-0.1.7.tar.gz
+[2023-08-03 06:51:52] INFO root fetch - processPackages [pyatv]: Downloading https://files.pythonhosted.org/packages/f7/fc/d232f4317a5767ece7839d0aa2bd1f067b35c1f55a9ad7c3d5ea7dabd022/pyatv-0.9.7.tar.gz
+[2023-08-03 06:51:52] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/b9/4f/fc1b1db4bb6a9f511d91debf7491a2e7804f52693e716c1de4937a9221e7/image2layout_computer_vision-0.0.9.tar.gz
+[2023-08-03 06:51:52] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-03 06:51:52] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/0d/0d/09619141bb440ffd6df9ecfc5c3e433ec799ffea4b89bc1511e0e9c654c8/magnetocaloric-1.2.8.tar.gz
+[2023-08-03 06:51:52] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-03 06:51:52] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230803/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-03 06:51:52] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-08-03 06:51:52] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.0.8.tar.gz tmp/image2layout_computer_vision-0.0.9.tar.gz --markdown 20230803/i/image2layout-computer-vision/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 06:51:52] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/18/ac/104d9f748df3485e386c8d31d4c8a4f0ea072078513d9dcb1d7917ed431a/TPE_Bot-3.1.0-py3-none-any.whl
+[2023-08-03 06:51:52] INFO root fetch - processPackages [magnetocaloric]: executing diffoscope
+[2023-08-03 06:51:52] INFO root fetch - processPackages [magnetocaloric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnetocaloric-1.2.7.tar.gz tmp/magnetocaloric-1.2.8.tar.gz --markdown 20230803/m/magnetocaloric/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-08-03 06:51:52] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/74/4b/72e2f2fbe4f9d009f8d1ffae71acd1d5a0c85c0b24f1ae28f3653b3ee810/retakesearch-0.1.27.tar.gz
+[2023-08-03 06:51:52] INFO root fetch - processPackages [retakesearch]: executing diffoscope
+[2023-08-03 06:51:52] INFO root fetch - processPackages [retakesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retakesearch-0.1.26.tar.gz tmp/retakesearch-0.1.27.tar.gz --markdown 20230803/r/retakesearch/0.1.26-0.1.27/diff.md --exclude *.pyd
+[2023-08-03 06:51:52] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2023-08-03 06:51:52] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE_Bot-2.1.0-py3-none-any.whl.zip tmp/TPE_Bot-3.1.0-py3-none-any.whl.zip --markdown 20230803/T/TPE-Bot/2.1.0-3.1.0/diff.md --exclude *.pyd
+[2023-08-03 06:51:52] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/bc/6f/4263bca1d812e7dae4451ff2f027cb3ffafec635a4e9b2627f8d6650cbd6/moderne_visualizations_misc-0.1.8.tar.gz
+[2023-08-03 06:51:52] INFO root fetch - processPackages [periflow-cli]: Downloading https://files.pythonhosted.org/packages/cf/6f/39b88d3dc51307e8d2ca1d332977dfe697affffc6cad48b113d29331588d/periflow-cli-0.1.9.tar.gz
+[2023-08-03 06:51:52] INFO root fetch - processPackages [periflow-cli]: executing diffoscope
+[2023-08-03 06:51:52] INFO root fetch - processPackages [periflow-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periflow-cli-0.1.8.tar.gz tmp/periflow-cli-0.1.9.tar.gz --markdown 20230803/p/periflow-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 06:51:53] INFO root fetch - processPackages [moderne-visualizations-misc]: executing diffoscope
+[2023-08-03 06:51:53] INFO root fetch - processPackages [moderne-visualizations-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moderne_visualizations_misc-0.1.7.tar.gz tmp/moderne_visualizations_misc-0.1.8.tar.gz --markdown 20230803/m/moderne-visualizations-misc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-03 06:51:53] INFO root fetch - processPackages [pyatv]: Downloading https://files.pythonhosted.org/packages/63/c8/992890d7deb53136f27bf96d788bf2b4b45c7af07e93e7d07fa88114a155/pyatv-0.9.8.tar.gz
+[2023-08-03 06:51:53] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-03 06:51:53] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-03 06:51:53] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-03 06:51:53] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.8.tar.gz]
+[2023-08-03 06:51:53] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.9.tar.gz]
+[2023-08-03 06:51:53] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-08-03 06:51:53] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.26.tar.gz]
+[2023-08-03 06:51:53] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.27.tar.gz]
+[2023-08-03 06:51:53] INFO root fetch - main [MainThread]: End processing [retakesearch]: success
+[2023-08-03 06:51:53] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.2.7.tar.gz]
+[2023-08-03 06:51:53] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.2.8.tar.gz]
+[2023-08-03 06:51:53] INFO root fetch - main [MainThread]: End processing [magnetocaloric]: success
+[2023-08-03 06:51:53] INFO root fetch - processPackages [pyatv]: executing diffoscope
+[2023-08-03 06:51:53] INFO root fetch - processPackages [pyatv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatv-0.9.7.tar.gz tmp/pyatv-0.9.8.tar.gz --markdown 20230803/p/pyatv/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-08-03 06:51:54] INFO root fetch - processPackages [periflow-cli]: Remove: archive file [/home/abi/fetcher/tmp/periflow-cli-0.1.8.tar.gz]
+[2023-08-03 06:51:54] INFO root fetch - processPackages [periflow-cli]: Remove: archive file [/home/abi/fetcher/tmp/periflow-cli-0.1.9.tar.gz]
+[2023-08-03 06:51:54] INFO root fetch - main [MainThread]: End processing [periflow-cli]: success
+[2023-08-03 06:51:54] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE_Bot-2.1.0-py3-none-any.whl.zip]
+[2023-08-03 06:51:54] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE_Bot-3.1.0-py3-none-any.whl.zip]
+[2023-08-03 06:51:54] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2023-08-03 06:51:56] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.1.7.tar.gz]
+[2023-08-03 06:51:56] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.1.8.tar.gz]
+[2023-08-03 06:51:56] INFO root fetch - main [MainThread]: End processing [moderne-visualizations-misc]: success
+[2023-08-03 06:51:57] INFO root fetch - processPackages [pyatv]: Remove: archive file [/home/abi/fetcher/tmp/pyatv-0.9.7.tar.gz]
+[2023-08-03 06:51:57] INFO root fetch - processPackages [pyatv]: Remove: archive file [/home/abi/fetcher/tmp/pyatv-0.9.8.tar.gz]
+[2023-08-03 06:51:57] INFO root fetch - main [MainThread]: End processing [pyatv]: success
+[2023-08-03 06:51:57] INFO root fetch - main [MainThread]: Store serial: [19153813]
