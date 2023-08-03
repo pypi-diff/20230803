@@ -12871,3 +12871,99 @@
 [2023-08-03 08:01:00] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-08-03 08:01:00] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-08-03 08:01:00] INFO root fetch - main [MainThread]: Store serial: [19154257]
+[2023-08-03 08:06:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154257]
+[2023-08-03 08:06:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-03 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dosmaster
+[2023-08-03 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mtbase
+[2023-08-03 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Adding-Test
+[2023-08-03 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmsis-stream
+[2023-08-03 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: license-tools
+[2023-08-03 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lares
+[2023-08-03 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-consul
+[2023-08-03 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AutoBrewML
+[2023-08-03 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-databricks
+[2023-08-03 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: switbuilder-core
+[2023-08-03 08:06:10] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2023-08-03 08:06:10] INFO root fetch - processPackages [mtbase]: New version: [4.7.202308030601] Old Version: [4.7.202308011009]
+[2023-08-03 08:06:10] INFO root fetch - processPackages [cmsis-stream]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-08-03 08:06:10] WARNING root fetch - processPackages [Adding-Test]: Skipping, unable to determine old version
+[2023-08-03 08:06:10] INFO root fetch - processPackages [lares]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-03 08:06:10] INFO root fetch - processPackages [Adding-Test]: Start processing: cdk8s
+[2023-08-03 08:06:10] INFO root fetch - main [MainThread]: End processing [Adding-Test] error
+[2023-08-03 08:06:10] INFO root fetch - processPackages [license-tools]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-03 08:06:10] INFO root fetch - processPackages [dosmaster]: New version: [1.7.2] Old Version: [1.4.2]
+[2023-08-03 08:06:10] INFO root fetch - processPackages [switbuilder-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 08:06:10] INFO root fetch - processPackages [AutoBrewML]: New version: [0.9] Old Version: [0.8]
+[2023-08-03 08:06:10] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2023-08-03 08:06:10] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2023-08-03 08:06:10] INFO root fetch - processPackages [AutoBrewML]: Downloading https://files.pythonhosted.org/packages/29/99/00ae06948a5c95386068fe7e12aada406a92d235d69e8b6a4fcc997579a8/AutoBrewML-0.8-py3-none-any.whl
+[2023-08-03 08:06:10] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/c2/88/8d845b42b8a0b630e8f3b72cafe18bb7ccca46b28477dc768f2f3a32acd9/switbuilder_core-0.0.8.tar.gz
+[2023-08-03 08:06:10] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-03 08:06:10] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/e4/92/2140d33f732f0d422929a77dd64fe2c2c7b21bb2f8b487a4d49f35d1dd87/cmsis_stream-1.6.1-py3-none-any.whl
+[2023-08-03 08:06:10] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/b2/38/0d12f5abef6277ec6089e8d8592dd6376bda039d967ba2bc77ad0f8b0369/lares-0.0.6.tar.gz
+[2023-08-03 08:06:10] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/4e/50/c03ae2b288fdbd334c0a02002f3bfac2cfc794e221e95090acf53e70f767/dosmaster-1.4.2.tar.gz
+[2023-08-03 08:06:10] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/f4/bd/b36ba39d5584eca7b35a0ee627caa9c2b8179252bf03217599d72c471ac9/mtbase-4.7.202308011009-py3-none-any.whl
+[2023-08-03 08:06:11] INFO root fetch - processPackages [license-tools]: Downloading https://files.pythonhosted.org/packages/0d/e6/c67c4192a84e775b4ae0299aedd30359ba2e3fc0aad8eaf946aaf179e1fc/license_tools-0.3.0.tar.gz
+[2023-08-03 08:06:11] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2023-08-03 08:06:11] INFO root fetch - processPackages [AutoBrewML]: Downloading https://files.pythonhosted.org/packages/86/de/d9373b67ff4d1ddc1a258960a5c79af5f1f4d568541adfc5eae52aaedcf4/AutoBrewML-0.9-py3-none-any.whl
+[2023-08-03 08:06:11] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2023-08-03 08:06:11] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/20/8a/73027b935cadace2a996b7f38db3705600afcd06272f73aafaefe6052f41/switbuilder_core-0.0.9.tar.gz
+[2023-08-03 08:06:11] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-08-03 08:06:11] INFO root fetch - processPackages [AutoBrewML]: executing diffoscope
+[2023-08-03 08:06:11] INFO root fetch - processPackages [AutoBrewML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoBrewML-0.8-py3-none-any.whl.zip tmp/AutoBrewML-0.9-py3-none-any.whl.zip --markdown 20230803/A/AutoBrewML/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-03 08:06:11] INFO root fetch - processPackages [switbuilder-core]: executing diffoscope
+[2023-08-03 08:06:11] INFO root fetch - processPackages [switbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switbuilder_core-0.0.8.tar.gz tmp/switbuilder_core-0.0.9.tar.gz --markdown 20230803/s/switbuilder-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 08:06:11] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/64/78/dcb135092a1340fa30be337518e7cbde64eca29d1a37dc5bbce500fc05a3/lares-0.0.7.tar.gz
+[2023-08-03 08:06:11] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2023-08-03 08:06:11] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20230803/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/diff.md --exclude *.pyd
+[2023-08-03 08:06:11] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/cc/70/e5c2c63d63b764b4f268330addfdd3d06adff76eee9190d6e5fd9df93c2f/dosmaster-1.7.2.tar.gz
+[2023-08-03 08:06:11] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/8a/86/454eee5d23ff249e11e508c1e84ee32764f37aa5bb8e57a7fabbaa25be1b/cmsis_stream-1.7.0-py3-none-any.whl
+[2023-08-03 08:06:11] INFO root fetch - processPackages [license-tools]: Downloading https://files.pythonhosted.org/packages/71/a4/137bfdea956074a0b8c98501fa5eae110ed9b26c87addaa4962d60b9449e/license_tools-0.3.1.tar.gz
+[2023-08-03 08:06:11] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2023-08-03 08:06:11] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/75/c4/44578058c9934231caf80de47e044b94b8f189d9f48986bc41ed8e273ec7/mtbase-4.7.202308030601-py3-none-any.whl
+[2023-08-03 08:06:11] INFO root fetch - processPackages [dosmaster]: executing diffoscope
+[2023-08-03 08:06:11] INFO root fetch - processPackages [dosmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosmaster-1.4.2.tar.gz tmp/dosmaster-1.7.2.tar.gz --markdown 20230803/d/dosmaster/1.4.2-1.7.2/diff.md --exclude *.pyd
+[2023-08-03 08:06:11] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2023-08-03 08:06:11] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.6.1-py3-none-any.whl.zip tmp/cmsis_stream-1.7.0-py3-none-any.whl.zip --markdown 20230803/c/cmsis-stream/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-08-03 08:06:11] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-03 08:06:11] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.6.tar.gz tmp/lares-0.0.7.tar.gz --markdown 20230803/l/lares/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-03 08:06:11] INFO root fetch - processPackages [license-tools]: executing diffoscope
+[2023-08-03 08:06:11] INFO root fetch - processPackages [license-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/license_tools-0.3.0.tar.gz tmp/license_tools-0.3.1.tar.gz --markdown 20230803/l/license-tools/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-03 08:06:11] INFO root fetch - processPackages [mtbase]: executing diffoscope
+[2023-08-03 08:06:11] INFO root fetch - processPackages [mtbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtbase-4.7.202308011009-py3-none-any.whl.zip tmp/mtbase-4.7.202308030601-py3-none-any.whl.zip --markdown 20230803/m/mtbase/4.7.202308011009-4.7.202308030601/diff.md --exclude *.pyd
+[2023-08-03 08:06:11] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-08-03 08:06:11] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2023-08-03 08:06:11] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20230803/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/diff.md --exclude *.pyd
+[2023-08-03 08:06:12] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-08-03 08:06:12] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230803/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-03 08:06:12] INFO root fetch - processPackages [AutoBrewML]: Remove: archive file [/home/abi/fetcher/tmp/AutoBrewML-0.8-py3-none-any.whl.zip]
+[2023-08-03 08:06:12] INFO root fetch - processPackages [AutoBrewML]: Remove: archive file [/home/abi/fetcher/tmp/AutoBrewML-0.9-py3-none-any.whl.zip]
+[2023-08-03 08:06:12] INFO root fetch - main [MainThread]: End processing [AutoBrewML]: success
+[2023-08-03 08:06:12] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.4.2.tar.gz]
+[2023-08-03 08:06:12] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.2.tar.gz]
+[2023-08-03 08:06:12] INFO root fetch - main [MainThread]: End processing [dosmaster]: success
+[2023-08-03 08:06:13] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.8.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.9.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
+[2023-08-03 08:06:13] INFO root fetch - processPackages [license-tools]: Remove: archive file [/home/abi/fetcher/tmp/license_tools-0.3.0.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - processPackages [license-tools]: Remove: archive file [/home/abi/fetcher/tmp/license_tools-0.3.1.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - main [MainThread]: End processing [license-tools]: success
+[2023-08-03 08:06:13] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.6.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.7.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-03 08:06:13] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.6.1-py3-none-any.whl.zip]
+[2023-08-03 08:06:13] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.7.0-py3-none-any.whl.zip]
+[2023-08-03 08:06:13] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2023-08-03 08:06:13] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-08-03 08:06:13] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2023-08-03 08:06:13] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.7.202308011009-py3-none-any.whl.zip]
+[2023-08-03 08:06:13] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.7.202308030601-py3-none-any.whl.zip]
+[2023-08-03 08:06:13] INFO root fetch - main [MainThread]: End processing [mtbase]: success
+[2023-08-03 08:06:13] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2023-08-03 08:06:13] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2023-08-03 08:06:13] INFO root fetch - main [MainThread]: Store serial: [19154287]
