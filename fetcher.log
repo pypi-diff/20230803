@@ -10082,3 +10082,48 @@
 [2023-08-03 04:43:56] INFO root fetch - processPackages [clientele]: Remove: archive file [/home/abi/fetcher/tmp/clientele-0.4.2.tar.gz]
 [2023-08-03 04:43:56] INFO root fetch - main [MainThread]: End processing [clientele]: success
 [2023-08-03 04:43:56] INFO root fetch - main [MainThread]: Store serial: [19152977]
+[2023-08-03 04:49:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152977]
+[2023-08-03 04:49:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-03 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thematos
+[2023-08-03 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asana
+[2023-08-03 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypergo
+[2023-08-03 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keystone-keycloak-backend
+[2023-08-03 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CUDG
+[2023-08-03 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: caikit
+[2023-08-03 04:49:05] INFO root fetch - processPackages [caikit]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 04:49:05] WARNING root fetch - processPackages [CUDG]: Skipping, unable to determine old version
+[2023-08-03 04:49:05] INFO root fetch - main [MainThread]: End processing [CUDG] error
+[2023-08-03 04:49:05] INFO root fetch - processPackages [hypergo]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-03 04:49:05] INFO root fetch - processPackages [thematos]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-03 04:49:05] INFO root fetch - processPackages [asana]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-08-03 04:49:05] WARNING root fetch - processPackages [keystone-keycloak-backend]: Skipping, unable to determine old version
+[2023-08-03 04:49:05] INFO root fetch - main [MainThread]: End processing [keystone-keycloak-backend] error
+[2023-08-03 04:49:05] INFO root fetch - processPackages [hypergo]: Downloading https://files.pythonhosted.org/packages/11/92/658f89e717ce70b39438e5d3a9d5ff4e1db73bb9d803b8285649f4571dfc/hypergo-0.1.7.tar.gz
+[2023-08-03 04:49:05] INFO root fetch - processPackages [asana]: Downloading https://files.pythonhosted.org/packages/f6/6f/43b29f5f4695f52353a72bf8fbd4769a3b2026ae4ac5017da00dc1bd4b1c/asana-4.0.2.tar.gz
+[2023-08-03 04:49:05] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/e2/64/eb5a4e4c43b7c18533482debb3623aa0d86cc59d03ae98e99c75208feaa4/caikit-0.9.3.tar.gz
+[2023-08-03 04:49:05] INFO root fetch - processPackages [thematos]: Downloading https://files.pythonhosted.org/packages/e4/0f/085ba78453672a736660c7dd675277a65a996be57c59e651b566ec13e722/thematos-0.2.2.tar.gz
+[2023-08-03 04:49:05] INFO root fetch - processPackages [hypergo]: Downloading https://files.pythonhosted.org/packages/52/bf/3480604f8637a2479eb8f3d9e90890b3aa57562a3d3ca21dd69b08facd91/hypergo-0.1.8.tar.gz
+[2023-08-03 04:49:05] INFO root fetch - processPackages [asana]: Downloading https://files.pythonhosted.org/packages/d7/d3/d8fff94e1058fbd376c199649edac2ac96a3f98e23e5142a2b5332e22bd6/asana-4.0.3.tar.gz
+[2023-08-03 04:49:05] INFO root fetch - processPackages [hypergo]: executing diffoscope
+[2023-08-03 04:49:05] INFO root fetch - processPackages [hypergo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypergo-0.1.7.tar.gz tmp/hypergo-0.1.8.tar.gz --markdown 20230803/h/hypergo/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-03 04:49:05] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/1d/9c/5ee666bbd25d2499e43903b58fd64c37feba1404ab96c754cb4d50439bee/caikit-0.9.4.tar.gz
+[2023-08-03 04:49:05] INFO root fetch - processPackages [asana]: executing diffoscope
+[2023-08-03 04:49:05] INFO root fetch - processPackages [asana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asana-4.0.2.tar.gz tmp/asana-4.0.3.tar.gz --markdown 20230803/a/asana/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-08-03 04:49:05] INFO root fetch - processPackages [thematos]: Downloading https://files.pythonhosted.org/packages/58/02/c8ee73f2c8a3c9c37a59fe4250e8fa7cca57931ba563f25a14239107c58e/thematos-0.2.3.tar.gz
+[2023-08-03 04:49:06] INFO root fetch - processPackages [thematos]: executing diffoscope
+[2023-08-03 04:49:06] INFO root fetch - processPackages [thematos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thematos-0.2.2.tar.gz tmp/thematos-0.2.3.tar.gz --markdown 20230803/t/thematos/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-03 04:49:06] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2023-08-03 04:49:06] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.9.3.tar.gz tmp/caikit-0.9.4.tar.gz --markdown 20230803/c/caikit/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 04:49:06] INFO root fetch - processPackages [hypergo]: Remove: archive file [/home/abi/fetcher/tmp/hypergo-0.1.7.tar.gz]
+[2023-08-03 04:49:06] INFO root fetch - processPackages [hypergo]: Remove: archive file [/home/abi/fetcher/tmp/hypergo-0.1.8.tar.gz]
+[2023-08-03 04:49:06] INFO root fetch - main [MainThread]: End processing [hypergo]: success
+[2023-08-03 04:49:06] INFO root fetch - processPackages [thematos]: Remove: archive file [/home/abi/fetcher/tmp/thematos-0.2.2.tar.gz]
+[2023-08-03 04:49:06] INFO root fetch - processPackages [thematos]: Remove: archive file [/home/abi/fetcher/tmp/thematos-0.2.3.tar.gz]
+[2023-08-03 04:49:06] INFO root fetch - main [MainThread]: End processing [thematos]: success
+[2023-08-03 04:49:08] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.3.tar.gz]
+[2023-08-03 04:49:08] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.4.tar.gz]
+[2023-08-03 04:49:08] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2023-08-03 04:49:11] INFO root fetch - processPackages [asana]: Remove: archive file [/home/abi/fetcher/tmp/asana-4.0.2.tar.gz]
+[2023-08-03 04:49:11] INFO root fetch - processPackages [asana]: Remove: archive file [/home/abi/fetcher/tmp/asana-4.0.3.tar.gz]
+[2023-08-03 04:49:11] INFO root fetch - main [MainThread]: End processing [asana]: success
+[2023-08-03 04:49:11] INFO root fetch - main [MainThread]: Store serial: [19153005]
