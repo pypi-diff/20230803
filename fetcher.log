@@ -11610,3 +11610,173 @@
 [2023-08-03 06:19:56] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.1.tar.gz]
 [2023-08-03 06:19:56] INFO root fetch - main [MainThread]: End processing [pywencai]: success
 [2023-08-03 06:19:56] INFO root fetch - main [MainThread]: Store serial: [19153564]
+[2023-08-03 06:25:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153564]
+[2023-08-03 06:25:05] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-03 06:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywencai
+[2023-08-03 06:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-ray
+[2023-08-03 06:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalkpy
+[2023-08-03 06:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloud-google-api
+[2023-08-03 06:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: json-file-split
+[2023-08-03 06:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvat-manifest-builder
+[2023-08-03 06:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fsai-shared-funcs
+[2023-08-03 06:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: awpr
+[2023-08-03 06:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edc-list-data
+[2023-08-03 06:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: recursive-validator
+[2023-08-03 06:25:05] INFO root fetch - processPackages [pywencai]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-03 06:25:05] WARNING root fetch - processPackages [cloud-google-api]: Skipping, unable to determine old version
+[2023-08-03 06:25:05] INFO root fetch - processPackages [cloud-google-api]: Start processing: fsai-grpc-api
+[2023-08-03 06:25:05] INFO root fetch - main [MainThread]: End processing [cloud-google-api] error
+[2023-08-03 06:25:05] INFO root fetch - processPackages [edc-list-data]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-03 06:25:05] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 06:25:05] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 06:25:05] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 06:25:05] INFO root fetch - processPackages [composabl-ray]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-08-03 06:25:05] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-08-03 06:25:05] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 06:25:05] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/4d/53/ceeb4be50300cbb9ab2e0de8699ddef9fb20be70ac60f72cac3097f0efc9/cvat_manifest_builder-0.0.98.tar.gz
+[2023-08-03 06:25:05] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 06:25:05] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 06:25:06] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/5a/f1/d46d6d2b9df688322af1ef327b8922b7c5a59739046fddd8de0ef81e9b88/pywencai-0.9.0.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/99/d8/622632db80b721cb33feb5bafb9759e9b295589e09234724044a35a985ba/json_file_split-0.0.98.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/20/69/15c65a62a3a988a3178f156c6296d17502891a9da8e386979e511c8bd639/awpr-0.0.98.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [edc-list-data]: Downloading https://files.pythonhosted.org/packages/cb/41/cfe2c7a2194c41a2f1b6d98f9ceb812460e1e5588d3d0661b80e69c57fbc/edc_list_data-0.3.8-py3-none-any.whl
+[2023-08-03 06:25:06] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/08/a7/9a7ebe38ab432231655f1bfd81e702be8be178baa4b6a212002bdcf3cd96/fsai_grpc_api-0.0.98.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/61/bc/39412ebc8deaeb66f457caebc15c02bc1fe07bc33108672e4bf143d64e3b/fsai_shared_funcs-0.0.98.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/44/24/6e3f27033069680d4ad07aee3e1d535e1b3444f1ce72e8df548e8a16dc8e/recursive_validator-0.0.98.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/f1/52/aac2c41d7230e500a9698fb67e49a706def9d3dba65be46a4f2d69a38675/composabl_ray-0.2.9-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 06:25:06] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/2d/fd/8ffcf4ea6e13da75ab842cd4fdacad9222d483a9b210dbc27e9c251f6a20/cvat_manifest_builder-0.0.99.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/43/6a/a5e099ae1a88431e28ea793094495025f2a78ac4d52ea49d8aad0e55cf8c/awpr-0.0.99.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/a0/bb/0991effbd14e0114fac9146f11da815fc866dc9e12a179cdfc204af7bd99/json_file_split-0.0.99.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/e4/42/279970b75bf0da6a8bce21f8f771807136d6d09464d72836f6a5bc7f0476/pywencai-0.9.1.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-08-03 06:25:06] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230803/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 06:25:06] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/9b/76/8a69144e2e7db3d7b70f7a9a6458e71d63b921d67ca39c9f646ee438e103/fsai_grpc_api-0.0.99.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/3d/ad/0128c444d5b95fa3b9882d63404069f05fbee06ab63f54a541348c51a445/fsai_shared_funcs-0.0.99.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/3a/cc/f8feacbe20ac476d11c94a3c866b32fb9b4dde5694a5194843b6b0dde0eb/recursive_validator-0.0.99.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-08-03 06:25:06] INFO root fetch - processPackages [edc-list-data]: Downloading https://files.pythonhosted.org/packages/6f/3a/f0243d8f0eb2f42fcca9ab0c84caf50d754cd3e205c900c3aa2ef49235d3/edc_list_data-0.3.9-py3-none-any.whl
+[2023-08-03 06:25:06] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-08-03 06:25:06] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230803/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 06:25:06] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-08-03 06:25:06] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230803/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 06:25:06] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-08-03 06:25:06] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230803/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 06:25:07] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-08-03 06:25:07] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230803/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 06:25:07] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-08-03 06:25:07] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230803/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 06:25:07] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-08-03 06:25:07] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.9.0.tar.gz tmp/pywencai-0.9.1.tar.gz --markdown 20230803/p/pywencai/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-03 06:25:07] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-08-03 06:25:07] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230803/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-08-03 06:25:07] INFO root fetch - processPackages [edc-list-data]: executing diffoscope
+[2023-08-03 06:25:07] INFO root fetch - processPackages [edc-list-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_list_data-0.3.8-py3-none-any.whl.zip tmp/edc_list_data-0.3.9-py3-none-any.whl.zip --markdown 20230803/e/edc-list-data/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 06:25:07] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/ba/cb/8f10720e0517b0c5a43baac379e54b7fc1bce74ebc8b62bfcd0044d4d69b/composabl_ray-0.3.0-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 06:25:07] INFO root fetch - processPackages [composabl-ray]: executing diffoscope
+[2023-08-03 06:25:07] INFO root fetch - processPackages [composabl-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray-0.2.9-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray-0.3.0-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-ray/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-08-03 06:25:08] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.98.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.99.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [awpr]: Start processing: pythia8mc
+[2023-08-03 06:25:08] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-08-03 06:25:08] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.98.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.99.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [cvat-manifest-builder]: Start processing: tfads-o-builder
+[2023-08-03 06:25:08] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-08-03 06:25:08] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.98.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.99.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [json-file-split]: Start processing: iwx-manifest-builder
+[2023-08-03 06:25:08] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-08-03 06:25:08] WARNING root fetch - processPackages [pythia8mc]: Skipping, unable to determine old version
+[2023-08-03 06:25:08] INFO root fetch - processPackages [pythia8mc]: Start processing: geopix
+[2023-08-03 06:25:08] INFO root fetch - main [MainThread]: End processing [pythia8mc] error
+[2023-08-03 06:25:08] INFO root fetch - processPackages [tfads-o-builder]: New version: [0.0.178] Old Version: [0.0.177]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.98.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.99.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [recursive-validator]: Start processing: kentoml
+[2023-08-03 06:25:08] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-08-03 06:25:08] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.0.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.1.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [pywencai]: Start processing: odoo-addons-oca-operating-unit
+[2023-08-03 06:25:08] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-08-03 06:25:08] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/84/e4/7b71ad5b2811c09f834186b0d02560ea13c4f9432f0d1cdcda0e8caace7a/tfads_o_builder-0.0.177.tar.gz
+[2023-08-03 06:25:08] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.98.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.99.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [fsai-grpc-api]: Start processing: edc-visit-tracking
+[2023-08-03 06:25:08] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-08-03 06:25:08] INFO root fetch - processPackages [kentoml]: New version: [1.0.20.post2] Old Version: [1.0.20.post1]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.98.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.99.tar.gz]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [fsai-shared-funcs]: Start processing: quickstart-vdk
+[2023-08-03 06:25:08] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-08-03 06:25:08] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/33/bf/02ba356059e9069f6db9f027bf1bd97a4c1de39fe82e72814ed2f73f3c39/iwx_manifest_builder-0.0.98.tar.gz
+[2023-08-03 06:25:08] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: New version: [16.0.20230802.0] Old Version: [16.0.20230605.0]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/b6/a3/41b4f581e7463e3bce55e79579de9bf1f2c828011573c06bf7ab33a974bd/geopix-0.0.98.tar.gz
+[2023-08-03 06:25:08] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.954135995.dev12631] Old Version: [0.2.952803197.dev12608]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [edc-visit-tracking]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/6b/37/3fdbe8d1932b0f7881a7e12b18a2d555a8153f72bae8291cfb900034a618/quickstart-vdk-0.2.952803197.dev12608.tar.gz
+[2023-08-03 06:25:08] INFO root fetch - processPackages [edc-list-data]: Remove: archive file [/home/abi/fetcher/tmp/edc_list_data-0.3.8-py3-none-any.whl.zip]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [edc-list-data]: Remove: archive file [/home/abi/fetcher/tmp/edc_list_data-0.3.9-py3-none-any.whl.zip]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [edc-list-data]: Start processing: edc-visit-schedule
+[2023-08-03 06:25:08] INFO root fetch - main [MainThread]: End processing [edc-list-data]: success
+[2023-08-03 06:25:08] INFO root fetch - processPackages [kentoml]: Downloading https://files.pythonhosted.org/packages/b6/a1/2db37dff484ed30cb3cb05c65d9b28aa7136ac4f129e1cb083fe6a5e2bca/kentoml-1.0.20.post1.tar.gz
+[2023-08-03 06:25:08] INFO root fetch - processPackages [edc-visit-schedule]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-03 06:25:08] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/fc/19/21129ae3079fd436322c70041a7a9c6d608e24009c7e9a8498ef6a21481f/tfads_o_builder-0.0.178.tar.gz
+[2023-08-03 06:25:08] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/66/ec/53d7027c4000ae985cb73eb18e08a82bbdcf666cee81f732f9ccbe46f856/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl
+[2023-08-03 06:25:08] WARNING root fetch - processPackages [kentoml]: Skipping package: exceeds size limit 19837781>=10485760
+[2023-08-03 06:25:08] INFO root fetch - processPackages [kentoml]: Start processing: odoo14-addon-ssi-appointment-schedule-state-change-constrain
+[2023-08-03 06:25:08] INFO root fetch - main [MainThread]: End processing [kentoml] error
+[2023-08-03 06:25:09] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/d7/d6/4db840a6915c649204176fabdc1a7d70a4fdf7a1d3bd33ddd8cd11c02111/iwx_manifest_builder-0.0.99.tar.gz
+[2023-08-03 06:25:09] INFO root fetch - processPackages [edc-visit-tracking]: Downloading https://files.pythonhosted.org/packages/1a/06/f2a9bc1cef336d39c82c1055f707cc73912c2e08799ac43095b50a894cbc/edc_visit_tracking-0.3.8-py3-none-any.whl
+[2023-08-03 06:25:09] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/6a/35/1c90409a83c347836b8e4e5b2ad3d6ad6534718a8977dd9b3a646edd5e26/geopix-0.0.99.tar.gz
+[2023-08-03 06:25:09] INFO root fetch - processPackages [tfads-o-builder]: executing diffoscope
+[2023-08-03 06:25:09] INFO root fetch - processPackages [tfads-o-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfads_o_builder-0.0.177.tar.gz tmp/tfads_o_builder-0.0.178.tar.gz --markdown 20230803/t/tfads-o-builder/0.0.177-0.0.178/diff.md --exclude *.pyd
+[2023-08-03 06:25:09] WARNING root fetch - processPackages [odoo14-addon-ssi-appointment-schedule-state-change-constrain]: Skipping, unable to determine old version
+[2023-08-03 06:25:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-appointment-schedule-state-change-constrain] error
+[2023-08-03 06:25:09] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/a3/cf/0f6b572b63420e60922302974e87dbc16c822d0ff2f7ab6f00e9acbbeb04/quickstart-vdk-0.2.954135995.dev12631.tar.gz
+[2023-08-03 06:25:09] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/55/62/08b5eb66559fe5f11493a7403cf1549605588ac96f1433e68190de33a591/edc_visit_schedule-0.3.8-py3-none-any.whl
+[2023-08-03 06:25:09] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-08-03 06:25:09] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230803/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 06:25:09] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-08-03 06:25:09] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230803/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 06:25:09] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/7f/6c/f62b2be658ef846b2c0bb586d3e37dda9770404e2d55d9783247a6458c8e/odoo_addons_oca_operating_unit-16.0.20230802.0-py3-none-any.whl
+[2023-08-03 06:25:09] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-08-03 06:25:09] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.952803197.dev12608.tar.gz tmp/quickstart-vdk-0.2.954135995.dev12631.tar.gz --markdown 20230803/q/quickstart-vdk/0.2.952803197.dev12608-0.2.954135995.dev12631/diff.md --exclude *.pyd
+[2023-08-03 06:25:09] INFO root fetch - processPackages [edc-visit-tracking]: Downloading https://files.pythonhosted.org/packages/cc/b6/616bf936c99497cd724389cfd967ef496bbcf233516084b90307f5d30127/edc_visit_tracking-0.3.9-py3-none-any.whl
+[2023-08-03 06:25:09] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: executing diffoscope
+[2023-08-03 06:25:09] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl.zip tmp/odoo_addons_oca_operating_unit-16.0.20230802.0-py3-none-any.whl.zip --markdown 20230803/o/odoo-addons-oca-operating-unit/16.0.20230605.0-16.0.20230802.0/diff.md --exclude *.pyd
+[2023-08-03 06:25:09] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/d5/72/3df1323c5292ddeb8587bdab58504a97371317f435cce78a6e93a1c6561a/edc_visit_schedule-0.3.9-py3-none-any.whl
+[2023-08-03 06:25:09] INFO root fetch - processPackages [edc-visit-tracking]: executing diffoscope
+[2023-08-03 06:25:09] INFO root fetch - processPackages [edc-visit-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_visit_tracking-0.3.8-py3-none-any.whl.zip tmp/edc_visit_tracking-0.3.9-py3-none-any.whl.zip --markdown 20230803/e/edc-visit-tracking/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 06:25:10] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.177.tar.gz]
+[2023-08-03 06:25:10] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.178.tar.gz]
+[2023-08-03 06:25:10] INFO root fetch - main [MainThread]: End processing [tfads-o-builder]: success
+[2023-08-03 06:25:10] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.98.tar.gz]
+[2023-08-03 06:25:10] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.99.tar.gz]
+[2023-08-03 06:25:10] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-08-03 06:25:10] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.98.tar.gz]
+[2023-08-03 06:25:10] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.99.tar.gz]
+[2023-08-03 06:25:10] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-08-03 06:25:10] INFO root fetch - processPackages [edc-visit-schedule]: executing diffoscope
+[2023-08-03 06:25:10] INFO root fetch - processPackages [edc-visit-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip --markdown 20230803/e/edc-visit-schedule/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 06:25:10] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.952803197.dev12608.tar.gz]
+[2023-08-03 06:25:10] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.954135995.dev12631.tar.gz]
+[2023-08-03 06:25:10] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-08-03 06:25:10] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-08-03 06:25:10] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_operating_unit-16.0.20230802.0-py3-none-any.whl.zip]
+[2023-08-03 06:25:10] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-operating-unit]: success
+[2023-08-03 06:25:10] INFO root fetch - processPackages [edc-visit-tracking]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_tracking-0.3.8-py3-none-any.whl.zip]
+[2023-08-03 06:25:10] INFO root fetch - processPackages [edc-visit-tracking]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_tracking-0.3.9-py3-none-any.whl.zip]
+[2023-08-03 06:25:10] INFO root fetch - main [MainThread]: End processing [edc-visit-tracking]: success
+[2023-08-03 06:25:11] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip]
+[2023-08-03 06:25:11] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip]
+[2023-08-03 06:25:11] INFO root fetch - main [MainThread]: End processing [edc-visit-schedule]: success
+[2023-08-03 06:25:11] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-08-03 06:25:11] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-08-03 06:25:11] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-08-03 06:25:33] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.2.9-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 06:25:33] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.3.0-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 06:25:33] INFO root fetch - main [MainThread]: End processing [composabl-ray]: success
+[2023-08-03 06:25:33] INFO root fetch - main [MainThread]: Store serial: [19153632]
