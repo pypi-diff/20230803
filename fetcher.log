@@ -11780,3 +11780,108 @@
 [2023-08-03 06:25:33] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.3.0-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-08-03 06:25:33] INFO root fetch - main [MainThread]: End processing [composabl-ray]: success
 [2023-08-03 06:25:33] INFO root fetch - main [MainThread]: Store serial: [19153632]
+[2023-08-03 06:30:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153632]
+[2023-08-03 06:30:50] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-03 06:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-ssi-appointment-schedule-state-change-constrain
+[2023-08-03 06:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codeinterpreter
+[2023-08-03 06:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-appointment-project
+[2023-08-03 06:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-appointment
+[2023-08-03 06:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-appointment-request
+[2023-08-03 06:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magnetocaloric
+[2023-08-03 06:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelscope
+[2023-08-03 06:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: always-updates
+[2023-08-03 06:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: always-updates
+[2023-08-03 06:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: news-toolkit-api
+[2023-08-03 06:30:50] WARNING root fetch - processPackages [odoo14-addon-ssi-appointment]: Skipping, unable to determine old version
+[2023-08-03 06:30:50] INFO root fetch - processPackages [odoo14-addon-ssi-appointment]: Start processing: prettier-prints
+[2023-08-03 06:30:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-appointment] error
+[2023-08-03 06:30:50] WARNING root fetch - processPackages [odoo14-addon-ssi-appointment-schedule-state-change-constrain]: Skipping, unable to determine old version
+[2023-08-03 06:30:50] INFO root fetch - processPackages [odoo14-addon-ssi-appointment-schedule-state-change-constrain]: Start processing: image2layout-computer-vision
+[2023-08-03 06:30:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-appointment-schedule-state-change-constrain] error
+[2023-08-03 06:30:50] INFO root fetch - processPackages [magnetocaloric]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-08-03 06:30:50] WARNING root fetch - processPackages [odoo14-addon-ssi-appointment-request]: Skipping, unable to determine old version
+[2023-08-03 06:30:50] INFO root fetch - processPackages [odoo14-addon-ssi-appointment-request]: Start processing: kentoml
+[2023-08-03 06:30:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-appointment-request] error
+[2023-08-03 06:30:50] WARNING root fetch - processPackages [odoo14-addon-ssi-appointment-project]: Skipping, unable to determine old version
+[2023-08-03 06:30:50] INFO root fetch - processPackages [odoo14-addon-ssi-appointment-project]: Start processing: StarClusterPlot
+[2023-08-03 06:30:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-appointment-project] error
+[2023-08-03 06:30:50] INFO root fetch - processPackages [news-toolkit-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 06:30:50] WARNING root fetch - processPackages [codeinterpreter]: Skipping, unable to determine old version
+[2023-08-03 06:30:50] INFO root fetch - processPackages [codeinterpreter]: Start processing: magic-rs
+[2023-08-03 06:30:50] INFO root fetch - main [MainThread]: End processing [codeinterpreter] error
+[2023-08-03 06:30:50] INFO root fetch - processPackages [modelscope]: New version: [1.8.0rc0] Old Version: [1.8.0]
+[2023-08-03 06:30:50] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-03 06:30:50] INFO root fetch - processPackages [prettier-prints]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-08-03 06:30:50] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-03 06:30:50] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 06:30:50] INFO root fetch - processPackages [kentoml]: New version: [1.0.20.post3] Old Version: [1.0.20.post2]
+[2023-08-03 06:30:50] ERROR root fetch - processPackages [magic-rs]: Unable to get metadata: No such project 'magic-rs'
+[2023-08-03 06:30:50] INFO root fetch - processPackages [magic-rs]: Start processing: nonebot-plugin-savepic
+[2023-08-03 06:30:50] INFO root fetch - main [MainThread]: End processing [magic-rs] error
+[2023-08-03 06:30:50] INFO root fetch - processPackages [StarClusterPlot]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-03 06:30:50] INFO root fetch - processPackages [nonebot-plugin-savepic]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-08-03 06:30:50] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/23/0e/f0a8dfd503a8d7ffd98b02e585680bf39868e84b844789a34fb369302733/magnetocaloric-1.2.5.tar.gz
+[2023-08-03 06:30:50] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-03 06:30:50] INFO root fetch - processPackages [prettier-prints]: Downloading https://files.pythonhosted.org/packages/a3/bc/fe889e00653806d1cfb9016bcc221fb2101843b7b5428394096d07d5470e/prettier_prints-1.3.1-py3-none-any.whl
+[2023-08-03 06:30:50] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-03 06:30:50] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/7e/cc/ed540655913ca2ef30701d3f3325abb71db0b407d707f9af21c88a5c9b89/image2layout_computer_vision-0.0.8.tar.gz
+[2023-08-03 06:30:50] INFO root fetch - processPackages [StarClusterPlot]: Downloading https://files.pythonhosted.org/packages/49/ac/23bdb8c2bc5c1922f3319dd5e5c05d0229747d6dcb76cfaa8292d7bd95dc/StarClusterPlot-0.1.3.tar.gz
+[2023-08-03 06:30:50] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/b8/8c/0bf287ee9d4c2a199c97a627012e12980f2a5c48f41e9a9d4c25eb9f6d0d/modelscope-1.8.0.tar.gz
+[2023-08-03 06:30:50] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/01/a8/5c879c130be570496a0aa73bc0fc0db545c98a01e57ecbea8267f6cdd035/news_toolkit_api-0.0.8.tar.gz
+[2023-08-03 06:30:50] INFO root fetch - processPackages [kentoml]: Downloading https://files.pythonhosted.org/packages/0f/d5/8214f0c3ebd0c238e485e204633437a6e8104f86cc9215f334ecd45e0874/kentoml-1.0.20.post2.tar.gz
+[2023-08-03 06:30:51] INFO root fetch - processPackages [nonebot-plugin-savepic]: Downloading https://files.pythonhosted.org/packages/9c/40/6a509e0b86c840ba9c8f937f5c20625ddb1d7919ac3e7ae67450861d62e9/nonebot_plugin_savepic-0.1.3.tar.gz
+[2023-08-03 06:30:51] WARNING root fetch - processPackages [kentoml]: Skipping package: exceeds size limit 19837985>=10485760
+[2023-08-03 06:30:51] INFO root fetch - main [MainThread]: End processing [kentoml] error
+[2023-08-03 06:30:51] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-03 06:30:51] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-03 06:30:51] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/b9/4f/fc1b1db4bb6a9f511d91debf7491a2e7804f52693e716c1de4937a9221e7/image2layout_computer_vision-0.0.9.tar.gz
+[2023-08-03 06:30:51] INFO root fetch - processPackages [prettier-prints]: Downloading https://files.pythonhosted.org/packages/41/a6/20f534032d2cc9579d622cd86f86a5fa3f6752c05de313c73898c88e27d5/prettier_prints-1.3.2-py3-none-any.whl
+[2023-08-03 06:30:51] INFO root fetch - processPackages [StarClusterPlot]: Downloading https://files.pythonhosted.org/packages/97/b6/513ce42f2fec4bbf37d303e2ecd75afacb1b30a4e4501f3e305cb46732b9/StarClusterPlot-0.1.4.tar.gz
+[2023-08-03 06:30:51] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/3b/00/9b3c115f7231fdd3830b22c3d39d399942f36b1912c9aa06a4c0326f52cf/magnetocaloric-1.2.6.tar.gz
+[2023-08-03 06:30:51] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-03 06:30:51] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230803/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-03 06:30:51] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/7f/ae/04ccf146659576048ebe5320388456ac50c316a7c3127feda7be5c62efb6/news_toolkit_api-0.0.9.tar.gz
+[2023-08-03 06:30:51] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-03 06:30:51] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230803/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-03 06:30:51] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-08-03 06:30:51] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.0.8.tar.gz tmp/image2layout_computer_vision-0.0.9.tar.gz --markdown 20230803/i/image2layout-computer-vision/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 06:30:51] INFO root fetch - processPackages [nonebot-plugin-savepic]: Downloading https://files.pythonhosted.org/packages/79/98/e555626dc80179b02a766664878030070f1ae3ad4d47da9c0400098edd3a/nonebot_plugin_savepic-0.2.0.tar.gz
+[2023-08-03 06:30:51] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/52/2b/8d5e6a2d9642395d446ec1b25ae04412394657bf0993cf920c6adf2c5503/modelscope-1.8.0rc0.tar.gz
+[2023-08-03 06:30:51] INFO root fetch - processPackages [prettier-prints]: executing diffoscope
+[2023-08-03 06:30:51] INFO root fetch - processPackages [prettier-prints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettier_prints-1.3.1-py3-none-any.whl.zip tmp/prettier_prints-1.3.2-py3-none-any.whl.zip --markdown 20230803/p/prettier-prints/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-08-03 06:30:51] INFO root fetch - processPackages [StarClusterPlot]: executing diffoscope
+[2023-08-03 06:30:51] INFO root fetch - processPackages [StarClusterPlot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StarClusterPlot-0.1.3.tar.gz tmp/StarClusterPlot-0.1.4.tar.gz --markdown 20230803/S/StarClusterPlot/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-03 06:30:51] INFO root fetch - processPackages [magnetocaloric]: executing diffoscope
+[2023-08-03 06:30:51] INFO root fetch - processPackages [magnetocaloric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnetocaloric-1.2.5.tar.gz tmp/magnetocaloric-1.2.6.tar.gz --markdown 20230803/m/magnetocaloric/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-08-03 06:30:51] INFO root fetch - processPackages [news-toolkit-api]: executing diffoscope
+[2023-08-03 06:30:51] INFO root fetch - processPackages [news-toolkit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news_toolkit_api-0.0.8.tar.gz tmp/news_toolkit_api-0.0.9.tar.gz --markdown 20230803/n/news-toolkit-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 06:30:51] INFO root fetch - processPackages [nonebot-plugin-savepic]: executing diffoscope
+[2023-08-03 06:30:51] INFO root fetch - processPackages [nonebot-plugin-savepic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_savepic-0.1.3.tar.gz tmp/nonebot_plugin_savepic-0.2.0.tar.gz --markdown 20230803/n/nonebot-plugin-savepic/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-08-03 06:30:51] INFO root fetch - processPackages [modelscope]: executing diffoscope
+[2023-08-03 06:30:51] INFO root fetch - processPackages [modelscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelscope-1.8.0.tar.gz tmp/modelscope-1.8.0rc0.tar.gz --markdown 20230803/m/modelscope/1.8.0-1.8.0rc0/diff.md --exclude *.pyd
+[2023-08-03 06:30:52] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-03 06:30:52] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-03 06:30:52] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-03 06:30:52] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-03 06:30:53] INFO root fetch - processPackages [prettier-prints]: Remove: archive file [/home/abi/fetcher/tmp/prettier_prints-1.3.1-py3-none-any.whl.zip]
+[2023-08-03 06:30:53] INFO root fetch - processPackages [prettier-prints]: Remove: archive file [/home/abi/fetcher/tmp/prettier_prints-1.3.2-py3-none-any.whl.zip]
+[2023-08-03 06:30:53] INFO root fetch - main [MainThread]: End processing [prettier-prints]: success
+[2023-08-03 06:30:53] INFO root fetch - processPackages [StarClusterPlot]: Remove: archive file [/home/abi/fetcher/tmp/StarClusterPlot-0.1.3.tar.gz]
+[2023-08-03 06:30:53] INFO root fetch - processPackages [StarClusterPlot]: Remove: archive file [/home/abi/fetcher/tmp/StarClusterPlot-0.1.4.tar.gz]
+[2023-08-03 06:30:53] INFO root fetch - main [MainThread]: End processing [StarClusterPlot]: success
+[2023-08-03 06:30:53] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.8.tar.gz]
+[2023-08-03 06:30:53] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.9.tar.gz]
+[2023-08-03 06:30:53] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-08-03 06:30:53] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.8.tar.gz]
+[2023-08-03 06:30:53] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.9.tar.gz]
+[2023-08-03 06:30:53] INFO root fetch - main [MainThread]: End processing [news-toolkit-api]: success
+[2023-08-03 06:30:53] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.2.5.tar.gz]
+[2023-08-03 06:30:53] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.2.6.tar.gz]
+[2023-08-03 06:30:53] INFO root fetch - main [MainThread]: End processing [magnetocaloric]: success
+[2023-08-03 06:30:53] INFO root fetch - processPackages [nonebot-plugin-savepic]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_savepic-0.1.3.tar.gz]
+[2023-08-03 06:30:53] INFO root fetch - processPackages [nonebot-plugin-savepic]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_savepic-0.2.0.tar.gz]
+[2023-08-03 06:30:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-savepic]: success
+[2023-08-03 06:31:10] INFO root fetch - processPackages [modelscope]: Remove: archive file [/home/abi/fetcher/tmp/modelscope-1.8.0.tar.gz]
+[2023-08-03 06:31:10] INFO root fetch - processPackages [modelscope]: Remove: archive file [/home/abi/fetcher/tmp/modelscope-1.8.0rc0.tar.gz]
+[2023-08-03 06:31:10] INFO root fetch - main [MainThread]: End processing [modelscope]: success
+[2023-08-03 06:31:10] INFO root fetch - main [MainThread]: Store serial: [19153724]
