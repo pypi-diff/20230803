@@ -12378,3 +12378,92 @@
 [2023-08-03 07:23:22] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.9.tar.gz]
 [2023-08-03 07:23:22] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
 [2023-08-03 07:23:22] INFO root fetch - main [MainThread]: Store serial: [19154018]
+[2023-08-03 07:28:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154018]
+[2023-08-03 07:28:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-03 07:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: UIron
+[2023-08-03 07:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lares
+[2023-08-03 07:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: camSort
+[2023-08-03 07:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xklb
+[2023-08-03 07:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kentoml
+[2023-08-03 07:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litellm
+[2023-08-03 07:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mojo-testplus
+[2023-08-03 07:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crazy-thursday
+[2023-08-03 07:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-08-03 07:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Jlab
+[2023-08-03 07:28:31] INFO root fetch - processPackages [lares]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 07:28:31] INFO root fetch - processPackages [UIron]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 07:28:31] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-03 07:28:31] INFO root fetch - processPackages [camSort]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-03 07:28:31] INFO root fetch - processPackages [kentoml]: New version: [1.0.20.post7] Old Version: [1.0.20.post6]
+[2023-08-03 07:28:31] INFO root fetch - processPackages [litellm]: New version: [0.1.221] Old Version: [0.1.220]
+[2023-08-03 07:28:31] INFO root fetch - processPackages [mojo-testplus]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-08-03 07:28:31] INFO root fetch - processPackages [Jlab]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-03 07:28:31] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.8.3.0] Old Version: [2023.8.2.1]
+[2023-08-03 07:28:31] INFO root fetch - processPackages [policyengine-us]: New version: [0.404.0] Old Version: [0.403.3]
+[2023-08-03 07:28:31] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/9c/be/1c8e69f2f0698e6a92d442756a7bece0975e6d89edd30120a8d13a406b75/camSort-0.2.8.tar.gz
+[2023-08-03 07:28:31] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-08-03 07:28:31] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/3f/b1/70fb2806a482d8ef95ffe63c47448db14df2c57cbb6f0154244e16d71d49/litellm-0.1.220.tar.gz
+[2023-08-03 07:28:31] INFO root fetch - processPackages [UIron]: Downloading https://files.pythonhosted.org/packages/2b/e6/90e047b3d759c8034743a573fba2c4825cd863600e194bfef302632ff8f7/UIron-0.0.8.tar.gz
+[2023-08-03 07:28:31] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/ff/ee/b30e322078013872679e18a5b23497df10e2b7e5d7354886208de0b5e026/crazy-thursday-2023.8.2.1.tar.gz
+[2023-08-03 07:28:31] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/e8/eb/f23a27b075a752793813a41a0010fee1680591b599e5a1b9f7b6d022e361/lares-0.0.1.tar.gz
+[2023-08-03 07:28:31] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/a6/bb/04a43a12561f5344352296b56caf4802fd65f0aa6acd91968ff977fced37/policyengine-us-0.403.3.tar.gz
+[2023-08-03 07:28:31] INFO root fetch - processPackages [kentoml]: Downloading https://files.pythonhosted.org/packages/33/7f/ba381a4283fd095a833c8bc532c11eea5cb0afd2279197b7e6c650e8af67/kentoml-1.0.20.post6.tar.gz
+[2023-08-03 07:28:31] INFO root fetch - processPackages [Jlab]: Downloading https://files.pythonhosted.org/packages/fa/3e/32d71787edae05b219b476dd39839ffb17efb97aaeb221f98cbcba3cce0f/Jlab-1.1.8.tar.gz
+[2023-08-03 07:28:31] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/39/1f/61b2e206df6ebaa1c0b92d3e2458b65b97b3176ebef8f4a0b8181aa64f1f/mojo_testplus-0.0.5.tar.gz
+[2023-08-03 07:28:31] WARNING root fetch - processPackages [kentoml]: Skipping package: exceeds size limit 19837811>=10485760
+[2023-08-03 07:28:31] INFO root fetch - main [MainThread]: End processing [kentoml] error
+[2023-08-03 07:28:31] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-08-03 07:28:32] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/94/e6/4b451c6a2cf5891f066a807faccc7824d76b5e3db9e1ab412f5e7339dd10/litellm-0.1.221.tar.gz
+[2023-08-03 07:28:32] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/d6/92/09b4c0a76a3c144fd5955430edc63d914c62436b592ec6757c99a2531c49/camSort-0.2.9.tar.gz
+[2023-08-03 07:28:32] INFO root fetch - processPackages [UIron]: Downloading https://files.pythonhosted.org/packages/28/86/7ae7451e5a9b2db867b1548033dd1d9f16bf62bbc788f9375aea34116c17/UIron-0.0.9.tar.gz
+[2023-08-03 07:28:32] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/d1/ae/faad2252be97b25cc1688ad0d840c181d6958b2b58e871f6c18e7f1e8969/lares-0.0.2.tar.gz
+[2023-08-03 07:28:32] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/2c/fa/9d7109b9a2534fa0aff304d3501cb241fa5a3e0089a9bcd752307448c5bc/policyengine-us-0.404.0.tar.gz
+[2023-08-03 07:28:32] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/e5/77/6c5b357eaf0a87b323ab97a9eb67d7d3d2c8934a18ca1fbd2c965b8eebcc/crazy-thursday-2023.8.3.0.tar.gz
+[2023-08-03 07:28:32] INFO root fetch - processPackages [Jlab]: Downloading https://files.pythonhosted.org/packages/ac/66/0597393cb75d6bf1c5b7558e5044e2658b628fee443c2e839df2ac8944b4/Jlab-1.1.9.tar.gz
+[2023-08-03 07:28:32] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-08-03 07:28:32] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230803/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-03 07:28:32] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-03 07:28:32] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.220.tar.gz tmp/litellm-0.1.221.tar.gz --markdown 20230803/l/litellm/0.1.220-0.1.221/diff.md --exclude *.pyd
+[2023-08-03 07:28:32] INFO root fetch - processPackages [UIron]: executing diffoscope
+[2023-08-03 07:28:32] INFO root fetch - processPackages [UIron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UIron-0.0.8.tar.gz tmp/UIron-0.0.9.tar.gz --markdown 20230803/U/UIron/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 07:28:32] INFO root fetch - processPackages [camSort]: executing diffoscope
+[2023-08-03 07:28:32] INFO root fetch - processPackages [camSort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camSort-0.2.8.tar.gz tmp/camSort-0.2.9.tar.gz --markdown 20230803/c/camSort/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 07:28:32] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-03 07:28:32] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.1.tar.gz tmp/lares-0.0.2.tar.gz --markdown 20230803/l/lares/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 07:28:32] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/d7/5d/ef815d751cc3d4b592c2b5e50d0c8a7549435e90ad7e958087a633cccb68/mojo_testplus-0.0.8.tar.gz
+[2023-08-03 07:28:32] INFO root fetch - processPackages [Jlab]: executing diffoscope
+[2023-08-03 07:28:32] INFO root fetch - processPackages [Jlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jlab-1.1.8.tar.gz tmp/Jlab-1.1.9.tar.gz --markdown 20230803/J/Jlab/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-03 07:28:32] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-08-03 07:28:32] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.8.2.1.tar.gz tmp/crazy-thursday-2023.8.3.0.tar.gz --markdown 20230803/c/crazy-thursday/2023.8.2.1-2023.8.3.0/diff.md --exclude *.pyd
+[2023-08-03 07:28:32] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-08-03 07:28:32] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.403.3.tar.gz tmp/policyengine-us-0.404.0.tar.gz --markdown 20230803/p/policyengine-us/0.403.3-0.404.0/diff.md --exclude *.pyd
+[2023-08-03 07:28:32] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2023-08-03 07:28:32] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-0.0.5.tar.gz tmp/mojo_testplus-0.0.8.tar.gz --markdown 20230803/m/mojo-testplus/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-08-03 07:28:33] INFO root fetch - processPackages [UIron]: Remove: archive file [/home/abi/fetcher/tmp/UIron-0.0.8.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - processPackages [UIron]: Remove: archive file [/home/abi/fetcher/tmp/UIron-0.0.9.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - main [MainThread]: End processing [UIron]: success
+[2023-08-03 07:28:33] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.1.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.2.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-03 07:28:33] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.8.2.1.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.8.3.0.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-08-03 07:28:33] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.220.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.221.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-03 07:28:33] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.8.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.9.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - main [MainThread]: End processing [camSort]: success
+[2023-08-03 07:28:33] INFO root fetch - processPackages [Jlab]: Remove: archive file [/home/abi/fetcher/tmp/Jlab-1.1.8.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - processPackages [Jlab]: Remove: archive file [/home/abi/fetcher/tmp/Jlab-1.1.9.tar.gz]
+[2023-08-03 07:28:33] INFO root fetch - main [MainThread]: End processing [Jlab]: success
+[2023-08-03 07:28:34] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-08-03 07:28:34] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-08-03 07:28:34] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-08-03 07:28:34] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-0.0.5.tar.gz]
+[2023-08-03 07:28:34] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-0.0.8.tar.gz]
+[2023-08-03 07:28:34] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
+[2023-08-03 07:29:04] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.403.3.tar.gz]
+[2023-08-03 07:29:04] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.404.0.tar.gz]
+[2023-08-03 07:29:04] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-08-03 07:29:04] INFO root fetch - main [MainThread]: Store serial: [19154080]
