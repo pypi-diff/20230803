@@ -20121,3 +20121,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 11:53:21] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev6.tar.gz]
 [2023-08-03 11:53:21] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-08-03 11:53:21] INFO root fetch - main [MainThread]: Store serial: [19157346]
+[2023-08-03 11:58:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157346]
+[2023-08-03 11:58:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-03 11:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clapy
+[2023-08-03 11:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: armory-library
+[2023-08-03 11:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hgcal-swamp
+[2023-08-03 11:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: concrete-datastore
+[2023-08-03 11:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loveread
+[2023-08-03 11:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-web-runner
+[2023-08-03 11:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-web-runner-dev
+[2023-08-03 11:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AppiumExtended
+[2023-08-03 11:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hpcflow-new2
+[2023-08-03 11:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yeref
+[2023-08-03 11:58:31] INFO root fetch - processPackages [hgcal-swamp]: New version: [1.2] Old Version: [1.1]
+[2023-08-03 11:58:31] INFO root fetch - processPackages [concrete-datastore]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-03 11:58:31] INFO root fetch - processPackages [je-web-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:58:31] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:58:31] INFO root fetch - processPackages [loveread]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-08-03 11:58:31] INFO root fetch - processPackages [AppiumExtended]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 11:58:31] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-08-03 11:58:31] INFO root fetch - processPackages [armory-library]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-08-03 11:58:31] INFO root fetch - processPackages [clapy]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-08-03 11:58:31] INFO root fetch - processPackages [hgcal-swamp]: Downloading https://files.pythonhosted.org/packages/66/4e/94d3d42e9091dd30003ac246c513b425795d3b79a8cf61905cc4903337bf/hgcal_swamp-1.1.tar.gz
+[2023-08-03 11:58:31] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-03 11:58:31] INFO root fetch - processPackages [concrete-datastore]: Downloading https://files.pythonhosted.org/packages/93/84/b081598f2d667183a9aad1ed8bd5c31307c779a6b88f0ff03977d7f2c07b/concrete-datastore-1.8.0.tar.gz
+[2023-08-03 11:58:31] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/98/dc/9b478fd57590174657ab4a34dd1a26e204245a4f2e1a88b6a6c338c1ec39/je_web_runner-0.0.8.tar.gz
+[2023-08-03 11:58:31] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/3d/5f/1255d66a56fb12701863ce7676f49de0a0fa1c8ebea7082713c306d9eae0/je_web_runner_dev-0.0.8.tar.gz
+[2023-08-03 11:58:31] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-03 11:58:31] INFO root fetch - processPackages [loveread]: Downloading https://files.pythonhosted.org/packages/70/ef/1db10228d9ef5e92190bcdadeab4a90750583bd03d419aa53592d16dd385/loveread-0.2.6.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/48/55/f67b7ff09d9d9bb7ded43778a2902e2c1945df868cb72b799ff08431d069/AppiumExtended-0.1.8.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [clapy]: Downloading https://files.pythonhosted.org/packages/94/50/1d8accd00cbcda144e6070601d2c8a2e6dd01adf7587a8df68a77978e51e/clapy-1.0.0.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/cc/ca/1fd224eb5a09826e85c92dd157f8295299e773354fdb824dadc0590fb96a/hpcflow_new2-0.2.0a8.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [armory-library]: Downloading https://files.pythonhosted.org/packages/bd/44/727c82bfd9cf092c9f9bbd599175d2d9934e9632dd8e39b779d17ce6906b/armory_library-0.0.1-py3-none-any.whl
+[2023-08-03 11:58:32] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/a0/6f/4829ef02077ea8ae3e3f1ae6127458670b79505fe73799371e9490b214c2/je_web_runner-0.0.9.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [hgcal-swamp]: Downloading https://files.pythonhosted.org/packages/9c/1e/ce8c10b459dfd181b7270834b51608d2dbda87bc4c67fd0e68f96657430b/hgcal_swamp-1.2.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [concrete-datastore]: Downloading https://files.pythonhosted.org/packages/35/0c/966cc07f835159fc959a82a0a9ce1ede43cbbce66d0df580aad4bee89e8e/concrete-datastore-1.9.0.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/16/62/09336d5dd7335342ae9a4e41ecdee21e0dd2f4a478f392d102c0d367c810/je_web_runner_dev-0.0.9.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/98/22/6a210072cc16cc0844864c54bc03a4714837c16bc570e163961c62152a39/AppiumExtended-0.1.9.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [je-web-runner]: executing diffoscope
+[2023-08-03 11:58:32] INFO root fetch - processPackages [je-web-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner-0.0.8.tar.gz tmp/je_web_runner-0.0.9.tar.gz --markdown 20230803/j/je-web-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:58:32] INFO root fetch - processPackages [hgcal-swamp]: executing diffoscope
+[2023-08-03 11:58:32] INFO root fetch - processPackages [hgcal-swamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgcal_swamp-1.1.tar.gz tmp/hgcal_swamp-1.2.tar.gz --markdown 20230803/h/hgcal-swamp/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-03 11:58:32] INFO root fetch - processPackages [loveread]: Downloading https://files.pythonhosted.org/packages/a6/28/90838e95b736e122cddcc936549dd084316d36963cdc425dc5b59f803536/loveread-0.2.7.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [armory-library]: Downloading https://files.pythonhosted.org/packages/e4/41/a9dbe3d6fb834d1d08755ed0016e898d35b6b77dc4ee1ef6b5a947d776db/armory_library-0.0.5-py3-none-any.whl
+[2023-08-03 11:58:32] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-08-03 11:58:32] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.8.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230803/j/je-web-runner-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:58:32] INFO root fetch - processPackages [clapy]: Downloading https://files.pythonhosted.org/packages/d4/85/354e4b6d0cbb8fb2b355933ef1d8a3fec00e87a8fae7f66d6c641a1ac249/clapy-2.0.0.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [concrete-datastore]: executing diffoscope
+[2023-08-03 11:58:32] INFO root fetch - processPackages [concrete-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concrete-datastore-1.8.0.tar.gz tmp/concrete-datastore-1.9.0.tar.gz --markdown 20230803/c/concrete-datastore/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-03 11:58:32] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-03 11:58:32] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230803/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 11:58:32] INFO root fetch - processPackages [AppiumExtended]: executing diffoscope
+[2023-08-03 11:58:32] INFO root fetch - processPackages [AppiumExtended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppiumExtended-0.1.8.tar.gz tmp/AppiumExtended-0.1.9.tar.gz --markdown 20230803/A/AppiumExtended/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 11:58:32] INFO root fetch - processPackages [armory-library]: executing diffoscope
+[2023-08-03 11:58:32] INFO root fetch - processPackages [armory-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armory_library-0.0.1-py3-none-any.whl.zip tmp/armory_library-0.0.5-py3-none-any.whl.zip --markdown 20230803/a/armory-library/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-08-03 11:58:32] INFO root fetch - processPackages [loveread]: executing diffoscope
+[2023-08-03 11:58:32] INFO root fetch - processPackages [loveread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loveread-0.2.6.tar.gz tmp/loveread-0.2.7.tar.gz --markdown 20230803/l/loveread/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-08-03 11:58:32] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/8f/94/5cf6c22b7755a1754a5e0798543a3a471342e39b288d923874c390867d9f/hpcflow_new2-0.2.0a9.tar.gz
+[2023-08-03 11:58:32] INFO root fetch - processPackages [clapy]: executing diffoscope
+[2023-08-03 11:58:32] INFO root fetch - processPackages [clapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clapy-1.0.0.tar.gz tmp/clapy-2.0.0.tar.gz --markdown 20230803/c/clapy/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-03 11:58:33] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-08-03 11:58:33] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230803/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-08-03 11:58:34] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.8.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.9.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [je-web-runner]: Start processing: monday-item-parser
+[2023-08-03 11:58:34] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
+[2023-08-03 11:58:34] INFO root fetch - processPackages [monday-item-parser]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [hgcal-swamp]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_swamp-1.1.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [hgcal-swamp]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_swamp-1.2.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [hgcal-swamp]: Start processing: apisql
+[2023-08-03 11:58:34] INFO root fetch - main [MainThread]: End processing [hgcal-swamp]: success
+[2023-08-03 11:58:34] INFO root fetch - processPackages [armory-library]: Remove: archive file [/home/abi/fetcher/tmp/armory_library-0.0.1-py3-none-any.whl.zip]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [armory-library]: Remove: archive file [/home/abi/fetcher/tmp/armory_library-0.0.5-py3-none-any.whl.zip]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [armory-library]: Start processing: CTkListbox
+[2023-08-03 11:58:34] INFO root fetch - main [MainThread]: End processing [armory-library]: success
+[2023-08-03 11:58:34] INFO root fetch - processPackages [apisql]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [CTkListbox]: New version: [0.5] Old Version: [0.4]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [monday-item-parser]: Downloading https://files.pythonhosted.org/packages/3b/d7/d20df777d9f9d5220ae0fc9892fcce90c8dae86bc0ce26a396b5d3862692/monday-item-parser-0.2.8.tar.gz
+[2023-08-03 11:58:34] INFO root fetch - processPackages [apisql]: Downloading https://files.pythonhosted.org/packages/9c/65/8b339ba7d9ff8620d74aeaaf94ac5e439f5ec4ba1fda7294dbe7514d9db7/apisql-0.3.2.tar.gz
+[2023-08-03 11:58:34] INFO root fetch - processPackages [CTkListbox]: Downloading https://files.pythonhosted.org/packages/b4/99/cbb7d737791f961a27c992f99afcaaae0f34f3bf6a8d88765c07c05a6025/CTkListbox-0.4.tar.gz
+[2023-08-03 11:58:34] INFO root fetch - processPackages [clapy]: Remove: archive file [/home/abi/fetcher/tmp/clapy-1.0.0.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [clapy]: Remove: archive file [/home/abi/fetcher/tmp/clapy-2.0.0.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [clapy]: Start processing: swmm-api
+[2023-08-03 11:58:34] INFO root fetch - main [MainThread]: End processing [clapy]: success
+[2023-08-03 11:58:34] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-03 11:58:34] INFO root fetch - processPackages [loveread]: Remove: archive file [/home/abi/fetcher/tmp/loveread-0.2.6.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [loveread]: Remove: archive file [/home/abi/fetcher/tmp/loveread-0.2.7.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - main [MainThread]: End processing [loveread]: success
+[2023-08-03 11:58:34] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.8.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.9.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-08-03 11:58:34] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.8.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.9.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - main [MainThread]: End processing [AppiumExtended]: success
+[2023-08-03 11:58:34] INFO root fetch - processPackages [apisql]: Downloading https://files.pythonhosted.org/packages/5c/b1/191074c3d92505f01b53b9d1309c54d348c6c83793db57ebd1f265d73e6c/apisql-0.3.3.tar.gz
+[2023-08-03 11:58:34] INFO root fetch - processPackages [swmm-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a8.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a9.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-08-03 11:58:34] INFO root fetch - processPackages [concrete-datastore]: Remove: archive file [/home/abi/fetcher/tmp/concrete-datastore-1.8.0.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - processPackages [concrete-datastore]: Remove: archive file [/home/abi/fetcher/tmp/concrete-datastore-1.9.0.tar.gz]
+[2023-08-03 11:58:34] INFO root fetch - main [MainThread]: End processing [concrete-datastore]: success
+[2023-08-03 11:58:34] INFO root fetch - processPackages [CTkListbox]: Downloading https://files.pythonhosted.org/packages/73/f7/66d74268ef8d8125f977252c017aba205df831e2191e5ff23358674d24c6/CTkListbox-0.5.tar.gz
+[2023-08-03 11:58:34] INFO root fetch - processPackages [monday-item-parser]: Downloading https://files.pythonhosted.org/packages/fc/79/c51fb2990497d7bc4fa7af06ebb35053f84f3e9f6b46badd1dbeab1581a3/monday-item-parser-0.2.9.tar.gz
+[2023-08-03 11:58:34] INFO root fetch - processPackages [apisql]: executing diffoscope
+[2023-08-03 11:58:34] INFO root fetch - processPackages [apisql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apisql-0.3.2.tar.gz tmp/apisql-0.3.3.tar.gz --markdown 20230803/a/apisql/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-03 11:58:34] INFO root fetch - processPackages [CTkListbox]: executing diffoscope
+[2023-08-03 11:58:34] INFO root fetch - processPackages [CTkListbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTkListbox-0.4.tar.gz tmp/CTkListbox-0.5.tar.gz --markdown 20230803/C/CTkListbox/0.4-0.5/diff.md --exclude *.pyd
+[2023-08-03 11:58:34] INFO root fetch - processPackages [monday-item-parser]: executing diffoscope
+[2023-08-03 11:58:34] INFO root fetch - processPackages [monday-item-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monday-item-parser-0.2.8.tar.gz tmp/monday-item-parser-0.2.9.tar.gz --markdown 20230803/m/monday-item-parser/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 11:58:34] INFO root fetch - processPackages [swmm-api]: Downloading https://files.pythonhosted.org/packages/82/bc/e3ebd15e10d699ed9b5642a235c414ce84f5f13ee52612c5684521148a71/swmm-api-0.4.8.tar.gz
+[2023-08-03 11:58:35] INFO root fetch - processPackages [swmm-api]: Downloading https://files.pythonhosted.org/packages/82/5d/df302736e1229719ba97cec4392d0731c337345cca86d512f1f60ffc309c/swmm-api-0.4.9.tar.gz
+[2023-08-03 11:58:35] INFO root fetch - processPackages [swmm-api]: executing diffoscope
+[2023-08-03 11:58:35] INFO root fetch - processPackages [swmm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swmm-api-0.4.8.tar.gz tmp/swmm-api-0.4.9.tar.gz --markdown 20230803/s/swmm-api/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-03 11:58:35] INFO root fetch - processPackages [apisql]: Remove: archive file [/home/abi/fetcher/tmp/apisql-0.3.2.tar.gz]
+[2023-08-03 11:58:35] INFO root fetch - processPackages [apisql]: Remove: archive file [/home/abi/fetcher/tmp/apisql-0.3.3.tar.gz]
+[2023-08-03 11:58:35] INFO root fetch - main [MainThread]: End processing [apisql]: success
+[2023-08-03 11:58:35] INFO root fetch - processPackages [monday-item-parser]: Remove: archive file [/home/abi/fetcher/tmp/monday-item-parser-0.2.8.tar.gz]
+[2023-08-03 11:58:35] INFO root fetch - processPackages [monday-item-parser]: Remove: archive file [/home/abi/fetcher/tmp/monday-item-parser-0.2.9.tar.gz]
+[2023-08-03 11:58:35] INFO root fetch - main [MainThread]: End processing [monday-item-parser]: success
+[2023-08-03 11:58:35] INFO root fetch - processPackages [CTkListbox]: Remove: archive file [/home/abi/fetcher/tmp/CTkListbox-0.4.tar.gz]
+[2023-08-03 11:58:35] INFO root fetch - processPackages [CTkListbox]: Remove: archive file [/home/abi/fetcher/tmp/CTkListbox-0.5.tar.gz]
+[2023-08-03 11:58:35] INFO root fetch - main [MainThread]: End processing [CTkListbox]: success
+[2023-08-03 11:58:36] INFO root fetch - processPackages [swmm-api]: Remove: archive file [/home/abi/fetcher/tmp/swmm-api-0.4.8.tar.gz]
+[2023-08-03 11:58:36] INFO root fetch - processPackages [swmm-api]: Remove: archive file [/home/abi/fetcher/tmp/swmm-api-0.4.9.tar.gz]
+[2023-08-03 11:58:36] INFO root fetch - main [MainThread]: End processing [swmm-api]: success
+[2023-08-03 11:58:36] INFO root fetch - main [MainThread]: Store serial: [19157434]
