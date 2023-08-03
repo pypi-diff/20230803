@@ -13105,3 +13105,181 @@
 [2023-08-03 08:11:27] INFO root fetch - processPackages [fastapi-gen]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_gen-0.3.0.tar.gz]
 [2023-08-03 08:11:27] INFO root fetch - main [MainThread]: End processing [fastapi-gen]: success
 [2023-08-03 08:11:27] INFO root fetch - main [MainThread]: Store serial: [19154331]
+[2023-08-03 08:16:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154331]
+[2023-08-03 08:16:36] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-03 08:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lares
+[2023-08-03 08:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiveviewer
+[2023-08-03 08:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-digitalocean
+[2023-08-03 08:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: japick
+[2023-08-03 08:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jnj-lib-test1
+[2023-08-03 08:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-confluentcloud
+[2023-08-03 08:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lares
+[2023-08-03 08:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-kafka
+[2023-08-03 08:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ploomber
+[2023-08-03 08:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uploader-client
+[2023-08-03 08:16:36] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.5.0a1691040885] Old Version: [3.5.0a1690263041]
+[2023-08-03 08:16:36] WARNING root fetch - processPackages [jnj-lib-test1]: Skipping, unable to determine old version
+[2023-08-03 08:16:36] INFO root fetch - processPackages [jnj-lib-test1]: Start processing: pulumi-equinix-metal
+[2023-08-03 08:16:36] INFO root fetch - main [MainThread]: End processing [jnj-lib-test1] error
+[2023-08-03 08:16:36] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 08:16:36] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 08:16:36] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-08-03 08:16:36] INFO root fetch - processPackages [hiveviewer]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-03 08:16:36] INFO root fetch - processPackages [japick]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-08-03 08:16:36] INFO root fetch - processPackages [uploader-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 08:16:36] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2023-08-03 08:16:36] INFO root fetch - processPackages [ploomber]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-03 08:16:36] INFO root fetch - processPackages [pulumi-equinix-metal]: New version: [3.3.0a1691040870] Old Version: [3.3.0a1689312624]
+[2023-08-03 08:16:37] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/be/14/1c41479fc23c11459be9c36dd4731a310f267c96b6782630cfc66ab4cf1b/uploader-client-0.1.8.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/3c/0c/089aa49c7b8de70f507d14f46e00f3b9420146f6ec6ee7c8e0d16f7105cf/pulumi_kafka-3.5.0a1690263041.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [japick]: Downloading https://files.pythonhosted.org/packages/6d/4f/aea737e033e460088aa6609b3c3778a3e2e18a0a4f412d1bd9a5ce7051cb/japick-0.3.4.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [ploomber]: Downloading https://files.pythonhosted.org/packages/9e/09/f09532b768b40c123888ad364edcf2d8efc85bd617e9ff30de3fa37b835e/ploomber-0.9.4-py3-none-any.whl
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/a9/aa/3963571f31b441cc0457851e7a0c9ffd29225afafd98baf1e4f1ad0ae550/pulumi_equinix_metal-3.3.0a1689312624.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [hiveviewer]: Downloading https://files.pythonhosted.org/packages/30/79/20a2a4445ce96f1a21d1890fa2a19fe5dda2b45f2ca204816a7373dbf8e0/hiveviewer-0.2.2.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/ca/5b/5db0fc048d1930f2ff4aceb98c28242f94b8d48eff7cb1a594c5fc1037cf/uploader-client-0.1.9.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/f5/9f/0da44d2bc58167d545e115bfcaf4b6977a72eae88c81ce90d62037309bdb/pulumi_kafka-3.5.0a1691040885.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [hiveviewer]: Downloading https://files.pythonhosted.org/packages/c4/14/1ff791c68a65640d6f2aeb03ed01c995db4dbadab022c41fd61cae39dde4/hiveviewer-0.2.3.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-03 08:16:37] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230803/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 08:16:37] INFO root fetch - processPackages [japick]: Downloading https://files.pythonhosted.org/packages/dd/9a/8c9fe2d91cad06860de25cf24838ae914ff28c3c448ed5e22e39ca0bcf43/japick-0.4.0.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-03 08:16:37] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230803/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/ef/27/6e00e8dddaafbbd83953ddda7085d48553c7fa5856bf6554bdf367fdaf65/pulumi_equinix_metal-3.3.0a1691040870.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [ploomber]: Downloading https://files.pythonhosted.org/packages/bc/42/a9177ba45f4033604d120c6cbad7f54188220a43491b141700035ad89e4c/ploomber-0.9.5.tar.gz
+[2023-08-03 08:16:37] INFO root fetch - processPackages [uploader-client]: executing diffoscope
+[2023-08-03 08:16:37] INFO root fetch - processPackages [uploader-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploader-client-0.1.8.tar.gz tmp/uploader-client-0.1.9.tar.gz --markdown 20230803/u/uploader-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.5.0a1690263041.tar.gz tmp/pulumi_kafka-3.5.0a1691040885.tar.gz --markdown 20230803/p/pulumi-kafka/3.5.0a1690263041-3.5.0a1691040885/diff.md --exclude *.pyd
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20230803/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/diff.md --exclude *.pyd
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-08-03 08:16:37] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230803/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-08-03 08:16:37] INFO root fetch - processPackages [hiveviewer]: executing diffoscope
+[2023-08-03 08:16:37] INFO root fetch - processPackages [hiveviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiveviewer-0.2.2.tar.gz tmp/hiveviewer-0.2.3.tar.gz --markdown 20230803/h/hiveviewer/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-03 08:16:37] INFO root fetch - processPackages [japick]: executing diffoscope
+[2023-08-03 08:16:37] INFO root fetch - processPackages [japick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/japick-0.3.4.tar.gz tmp/japick-0.4.0.tar.gz --markdown 20230803/j/japick/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-08-03 08:16:38] INFO root fetch - processPackages [pulumi-equinix-metal]: executing diffoscope
+[2023-08-03 08:16:38] INFO root fetch - processPackages [pulumi-equinix-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_equinix_metal-3.3.0a1689312624.tar.gz tmp/pulumi_equinix_metal-3.3.0a1691040870.tar.gz --markdown 20230803/p/pulumi-equinix-metal/3.3.0a1689312624-3.3.0a1691040870/diff.md --exclude *.pyd
+[2023-08-03 08:16:38] INFO root fetch - processPackages [ploomber]: executing diffoscope
+[2023-08-03 08:16:38] INFO root fetch - processPackages [ploomber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-0.9.4-py3-none-any.whl.zip tmp/ploomber-0.9.5.tar.gz --markdown 20230803/p/ploomber/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-03 08:16:39] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.8.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.9.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [lares]: Start processing: tensorage
+[2023-08-03 08:16:39] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-03 08:16:39] INFO root fetch - processPackages [lares]: Start processing: pyg-nightly
+[2023-08-03 08:16:39] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-03 08:16:39] INFO root fetch - processPackages [tensorage]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230802] Old Version: [2.4.0.dev20230801]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/de/df/0b1cd70d41bccabec21ce79c9c21dc32c8d20ae5ae9eedcc1884e6002b96/tensorage-0.0.8.tar.gz
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d0/6f/b6bab47e1ba215a87609452db170beb41e25133139196ea0d9b7f544b864/pyg_nightly-2.4.0.dev20230801.tar.gz
+[2023-08-03 08:16:39] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.8.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.9.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [uploader-client]: Start processing: dj-monaco
+[2023-08-03 08:16:39] INFO root fetch - main [MainThread]: End processing [uploader-client]: success
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.5.0a1690263041.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.5.0a1691040885.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pulumi-kafka]: Start processing: lares
+[2023-08-03 08:16:39] INFO root fetch - processPackages [dj-monaco]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-03 08:16:39] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2023-08-03 08:16:39] INFO root fetch - processPackages [hiveviewer]: Remove: archive file [/home/abi/fetcher/tmp/hiveviewer-0.2.2.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [hiveviewer]: Remove: archive file [/home/abi/fetcher/tmp/hiveviewer-0.2.3.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [hiveviewer]: Start processing: pulumi-libvirt
+[2023-08-03 08:16:39] INFO root fetch - main [MainThread]: End processing [hiveviewer]: success
+[2023-08-03 08:16:39] INFO root fetch - processPackages [japick]: Remove: archive file [/home/abi/fetcher/tmp/japick-0.3.4.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [japick]: Remove: archive file [/home/abi/fetcher/tmp/japick-0.4.0.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [japick]: Start processing: DependiPy
+[2023-08-03 08:16:39] INFO root fetch - main [MainThread]: End processing [japick]: success
+[2023-08-03 08:16:39] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.1a1691041544] Old Version: [0.4.1a1690896338]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [ploomber]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-0.9.4-py3-none-any.whl.zip]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [ploomber]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-0.9.5.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [ploomber]: Start processing: sql-load
+[2023-08-03 08:16:39] INFO root fetch - main [MainThread]: End processing [ploomber]: success
+[2023-08-03 08:16:39] INFO root fetch - processPackages [DependiPy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/0e/b1/d6519f414448860d51daa191680d379fcde04c6bcf774fbb1557db59d74f/tensorage-0.0.9.tar.gz
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/cc/e6/2fe4e750f7edd2b712d6aad6ba3a5efc3523d61ed24a21725040b66fde99/pyg_nightly-2.4.0.dev20230802.tar.gz
+[2023-08-03 08:16:39] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pulumi-confluentcloud]: Start processing: pulumi-keycloak
+[2023-08-03 08:16:39] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-08-03 08:16:39] WARNING root fetch - processPackages [sql-load]: Skipping, unable to determine old version
+[2023-08-03 08:16:39] INFO root fetch - processPackages [sql-load]: Start processing: pretext
+[2023-08-03 08:16:39] INFO root fetch - main [MainThread]: End processing [sql-load] error
+[2023-08-03 08:16:39] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-08-03 08:16:39] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.8.tar.gz tmp/tensorage-0.0.9.tar.gz --markdown 20230803/t/tensorage/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 08:16:39] INFO root fetch - processPackages [DependiPy]: Downloading https://files.pythonhosted.org/packages/4a/ca/7d3dc6fb5248778c079172b1a42a0708f73e1eb5e35655e8f1dbd1a46d39/DependiPy-1.0.8.tar.gz
+[2023-08-03 08:16:39] INFO root fetch - processPackages [dj-monaco]: Downloading https://files.pythonhosted.org/packages/93/e2/a7d4584156ce48ac2743aa8214b1808c44437e3ccbbcb5642afd543a178a/dj-monaco-1.0.2.tar.gz
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/24/f9/0c420cdbb340e66306b1b005f3a1d1cdf74cd1d27b76470006f9e2941214/pulumi_libvirt-0.4.1a1690896338.tar.gz
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.3.0a1691041465] Old Version: [5.3.0a1690967352]
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230801.tar.gz tmp/pyg_nightly-2.4.0.dev20230802.tar.gz --markdown 20230803/p/pyg-nightly/2.4.0.dev20230801-2.4.0.dev20230802/diff.md --exclude *.pyd
+[2023-08-03 08:16:39] INFO root fetch - processPackages [pretext]: New version: [1.7.5.dev20230803] Old Version: [1.7.5.dev20230802]
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-equinix-metal]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_equinix_metal-3.3.0a1689312624.tar.gz]
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-equinix-metal]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_equinix_metal-3.3.0a1691040870.tar.gz]
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-equinix-metal]: Start processing: hypha
+[2023-08-03 08:16:40] INFO root fetch - main [MainThread]: End processing [pulumi-equinix-metal]: success
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2023-08-03 08:16:40] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2023-08-03 08:16:40] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/47/66/7307033e3f767f78adea664a3546f010abef48933fea757dc12a2535256f/pulumi_keycloak-5.3.0a1690967352.tar.gz
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/cb/d1/964ae60792ae048f8a82cbc9e33e6c7dada1f23038f2d175a441c3ff1550/pretext-1.7.5.dev20230802.tar.gz
+[2023-08-03 08:16:40] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-03 08:16:40] INFO root fetch - processPackages [DependiPy]: Downloading https://files.pythonhosted.org/packages/b8/ed/1cb97038d749d7286983e7dd66a7c3acb3a9160aba7014fc58a2841902f2/DependiPy-1.0.9.tar.gz
+[2023-08-03 08:16:40] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-03 08:16:40] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230803/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 08:16:40] INFO root fetch - processPackages [dj-monaco]: Downloading https://files.pythonhosted.org/packages/e7/bd/b4aeaa31072e6b9d151a36320a07b0cebaac708473f26b6de33d83729f89/dj-monaco-1.0.3.tar.gz
+[2023-08-03 08:16:40] INFO root fetch - processPackages [DependiPy]: executing diffoscope
+[2023-08-03 08:16:40] INFO root fetch - processPackages [DependiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DependiPy-1.0.8.tar.gz tmp/DependiPy-1.0.9.tar.gz --markdown 20230803/D/DependiPy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 08:16:40] INFO root fetch - processPackages [dj-monaco]: executing diffoscope
+[2023-08-03 08:16:40] INFO root fetch - processPackages [dj-monaco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-monaco-1.0.2.tar.gz tmp/dj-monaco-1.0.3.tar.gz --markdown 20230803/d/dj-monaco/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/25/0b/a9b92b5caa63b3548be435abbd5d47941d851b352fe82541dc7ddd4aa8f3/pulumi_libvirt-0.4.1a1691041544.tar.gz
+[2023-08-03 08:16:40] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/d2/ea/d1ccda46a8af8bc6b58f98f1030d33847c918f8f16250774861bbf7a667d/pulumi_keycloak-5.3.0a1691041465.tar.gz
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/40/06/061bc50fe4f98551c89f8984c278d3bdd14e2e59dfb33f8653a9fc8808d2/pretext-1.7.5.dev20230803.tar.gz
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.1a1690896338.tar.gz tmp/pulumi_libvirt-0.4.1a1691041544.tar.gz --markdown 20230803/p/pulumi-libvirt/0.4.1a1690896338-0.4.1a1691041544/diff.md --exclude *.pyd
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.3.0a1690967352.tar.gz tmp/pulumi_keycloak-5.3.0a1691041465.tar.gz --markdown 20230803/p/pulumi-keycloak/5.3.0a1690967352-5.3.0a1691041465/diff.md --exclude *.pyd
+[2023-08-03 08:16:40] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.8.tar.gz]
+[2023-08-03 08:16:40] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.9.tar.gz]
+[2023-08-03 08:16:40] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-08-03 08:16:40] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.5.dev20230802.tar.gz tmp/pretext-1.7.5.dev20230803.tar.gz --markdown 20230803/p/pretext/1.7.5.dev20230802-1.7.5.dev20230803/diff.md --exclude *.pyd
+[2023-08-03 08:16:40] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-08-03 08:16:41] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-08-03 08:16:41] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230803/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-08-03 08:16:41] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.8.tar.gz]
+[2023-08-03 08:16:41] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.9.tar.gz]
+[2023-08-03 08:16:41] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-03 08:16:41] INFO root fetch - processPackages [DependiPy]: Remove: archive file [/home/abi/fetcher/tmp/DependiPy-1.0.8.tar.gz]
+[2023-08-03 08:16:41] INFO root fetch - processPackages [DependiPy]: Remove: archive file [/home/abi/fetcher/tmp/DependiPy-1.0.9.tar.gz]
+[2023-08-03 08:16:41] INFO root fetch - main [MainThread]: End processing [DependiPy]: success
+[2023-08-03 08:16:41] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1690896338.tar.gz]
+[2023-08-03 08:16:41] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1691041544.tar.gz]
+[2023-08-03 08:16:41] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2023-08-03 08:16:41] INFO root fetch - processPackages [dj-monaco]: Remove: archive file [/home/abi/fetcher/tmp/dj-monaco-1.0.2.tar.gz]
+[2023-08-03 08:16:41] INFO root fetch - processPackages [dj-monaco]: Remove: archive file [/home/abi/fetcher/tmp/dj-monaco-1.0.3.tar.gz]
+[2023-08-03 08:16:41] INFO root fetch - main [MainThread]: End processing [dj-monaco]: success
+[2023-08-03 08:16:42] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-08-03 08:16:42] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-08-03 08:16:42] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-08-03 08:16:42] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1690967352.tar.gz]
+[2023-08-03 08:16:42] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1691041465.tar.gz]
+[2023-08-03 08:16:42] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-08-03 08:16:43] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230801.tar.gz]
+[2023-08-03 08:16:43] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230802.tar.gz]
+[2023-08-03 08:16:43] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-08-03 08:16:44] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230802.tar.gz]
+[2023-08-03 08:16:44] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230803.tar.gz]
+[2023-08-03 08:16:44] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-08-03 08:16:44] INFO root fetch - main [MainThread]: Store serial: [19154391]
