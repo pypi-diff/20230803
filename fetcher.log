@@ -21885,3 +21885,183 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 13:13:07] INFO root fetch - processPackages [SuperPang]: Remove: archive file [/home/abi/fetcher/tmp/SuperPang-1.1.0.post2.tar.gz]
 [2023-08-03 13:13:07] INFO root fetch - main [MainThread]: End processing [SuperPang]: success
 [2023-08-03 13:13:07] INFO root fetch - main [MainThread]: Store serial: [19158061]
+[2023-08-03 13:18:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19158061]
+[2023-08-03 13:18:16] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-03 13:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ochat
+[2023-08-03 13:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decentralizedroutines
+[2023-08-03 13:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wonder-sdk
+[2023-08-03 13:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-08-03 13:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blue-krill
+[2023-08-03 13:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graph-jsp-env
+[2023-08-03 13:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wopo
+[2023-08-03 13:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: balena-sdk
+[2023-08-03 13:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jet-bridge-base
+[2023-08-03 13:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jet-bridge
+[2023-08-03 13:18:16] INFO root fetch - processPackages [wonder-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 13:18:16] WARNING root fetch - processPackages [wopo]: Skipping, unable to determine old version
+[2023-08-03 13:18:16] INFO root fetch - processPackages [wopo]: Start processing: jet-django
+[2023-08-03 13:18:16] INFO root fetch - main [MainThread]: End processing [wopo] error
+[2023-08-03 13:18:16] INFO root fetch - processPackages [blue-krill]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-08-03 13:18:16] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 13:18:17] INFO root fetch - processPackages [graph-jsp-env]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-03 13:18:17] INFO root fetch - processPackages [ochat]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-08-03 13:18:17] INFO root fetch - processPackages [jet-bridge]: New version: [1.8.2] Old Version: [1.7.9]
+[2023-08-03 13:18:17] INFO root fetch - processPackages [balena-sdk]: New version: [9.5.0] Old Version: [9.4.1]
+[2023-08-03 13:18:17] INFO root fetch - processPackages [jet-bridge-base]: New version: [1.8.2] Old Version: [1.7.9]
+[2023-08-03 13:18:17] INFO root fetch - processPackages [decentralizedroutines]: New version: [3.0.0] Old Version: [2.3.2]
+[2023-08-03 13:18:17] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/37/05/241450cdd86b168a622dc8451f3538b4f32243b5ee9cc34c5c69fd955cfe/wonder-sdk-0.1.8.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [jet-django]: New version: [1.8.2] Old Version: [1.7.9]
+[2023-08-03 13:18:17] INFO root fetch - processPackages [blue-krill]: Downloading https://files.pythonhosted.org/packages/79/08/893c0243b6d37d6dfe26d6975fff854e328045bfdeada1f28e130ea01daa/blue-krill-1.2.3.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/7c/3a/826c7c10ffc8b78eab2c7bbb2b941f0fcec716fad602076130d8c7e186e8/balena-sdk-9.4.1.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/5b/4b/714381e9d087c652b9bb8f031fe2214d3ccd553cfbdeb98ff62bdbc8735d/jet-bridge-1.7.9.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [graph-jsp-env]: Downloading https://files.pythonhosted.org/packages/d9/b3/3cfc3fc0e0be6a5e7f75e708aa5efce8ee9bf615a4daa10cdc0387551384/graph-jsp-env-0.2.1.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/de/7f/f9e71f8894bed2fe07ddb762338224ea2eef79a40aa637f7d1edf28deac4/decentralizedroutines-2.3.2.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [ochat]: Downloading https://files.pythonhosted.org/packages/72/f1/d9ef664c670b6333933632acbb1eb165a7e970be9572bb6cb740c333cd4a/ochat-3.1.1.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/95/e2/605beb8cd0fb1a160ddc0bd28151cc8d3510e8df5db0f63089d6b59777ef/jet-bridge-base-1.7.9.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/62/88/814c0029b2e35f343f1f1e3ed6a963523255a4cb150364247feeb6cf892c/jet-django-1.7.9.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [blue-krill]: Downloading https://files.pythonhosted.org/packages/2e/eb/fe33c76d6aaf96bf0e5e4cd8fa2f3aeb84563b4674c82b2b00d340ae2683/blue_krill-1.2.4.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-08-03 13:18:17] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230803/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 13:18:17] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/c3/48/1a5009fee9d5acacbfe883ce8614d2c18a8d29343d117b6305cc858bafd9/balena-sdk-9.5.0.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [graph-jsp-env]: Downloading https://files.pythonhosted.org/packages/3c/96/000acef6b65194beacb5edfe37a026a244f7f947545665297f7fc7d00e3b/graph-jsp-env-0.3.0.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/4a/67/f8b187ab9ae58e1a19e4147473dd7f6e4522aad0769cf67e5dd885372ba1/decentralizedroutines-3.0.0.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/a6/4c/9b58588edeab0913800bbcd1192ca5971c2bff7a3c0f6415859b1cd0998c/jet-bridge-1.8.2.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/f5/25/4991f4bef37b01368e06cda988181108fda8312bf6cdff12e141d0b13a80/wonder-sdk-0.1.9.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/60/b7/33cca6f4c9e35c211a17d9512a4e60c2c26987da993c7810066c997edf20/jet-django-1.8.2.tar.gz
+[2023-08-03 13:18:17] INFO root fetch - processPackages [blue-krill]: executing diffoscope
+[2023-08-03 13:18:17] INFO root fetch - processPackages [blue-krill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue-krill-1.2.3.tar.gz tmp/blue_krill-1.2.4.tar.gz --markdown 20230803/b/blue-krill/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-08-03 13:18:18] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/7a/98/b0761b1209e55f025b8b0a32f983017021a66eae31a55d8ccfb29f3fdf27/jet-bridge-base-1.8.2.tar.gz
+[2023-08-03 13:18:18] INFO root fetch - processPackages [balena-sdk]: executing diffoscope
+[2023-08-03 13:18:18] INFO root fetch - processPackages [balena-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balena-sdk-9.4.1.tar.gz tmp/balena-sdk-9.5.0.tar.gz --markdown 20230803/b/balena-sdk/9.4.1-9.5.0/diff.md --exclude *.pyd
+[2023-08-03 13:18:18] INFO root fetch - processPackages [graph-jsp-env]: executing diffoscope
+[2023-08-03 13:18:18] INFO root fetch - processPackages [graph-jsp-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-jsp-env-0.2.1.tar.gz tmp/graph-jsp-env-0.3.0.tar.gz --markdown 20230803/g/graph-jsp-env/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-03 13:18:18] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-08-03 13:18:18] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-2.3.2.tar.gz tmp/decentralizedroutines-3.0.0.tar.gz --markdown 20230803/d/decentralizedroutines/2.3.2-3.0.0/diff.md --exclude *.pyd
+[2023-08-03 13:18:18] INFO root fetch - processPackages [wonder-sdk]: executing diffoscope
+[2023-08-03 13:18:18] INFO root fetch - processPackages [wonder-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-sdk-0.1.8.tar.gz tmp/wonder-sdk-0.1.9.tar.gz --markdown 20230803/w/wonder-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 13:18:18] INFO root fetch - processPackages [jet-bridge]: executing diffoscope
+[2023-08-03 13:18:18] INFO root fetch - processPackages [jet-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-1.7.9.tar.gz tmp/jet-bridge-1.8.2.tar.gz --markdown 20230803/j/jet-bridge/1.7.9-1.8.2/diff.md --exclude *.pyd
+[2023-08-03 13:18:18] INFO root fetch - processPackages [ochat]: Downloading https://files.pythonhosted.org/packages/5c/5b/c53e8712f6f3d620b2eff09c9ccc3965a2fbed11d68d9eafdf3f6e0d99f6/ochat-3.1.2.tar.gz
+[2023-08-03 13:18:18] INFO root fetch - processPackages [jet-django]: executing diffoscope
+[2023-08-03 13:18:18] INFO root fetch - processPackages [jet-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-django-1.7.9.tar.gz tmp/jet-django-1.8.2.tar.gz --markdown 20230803/j/jet-django/1.7.9-1.8.2/diff.md --exclude *.pyd
+[2023-08-03 13:18:18] INFO root fetch - processPackages [jet-bridge-base]: executing diffoscope
+[2023-08-03 13:18:18] INFO root fetch - processPackages [jet-bridge-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-base-1.7.9.tar.gz tmp/jet-bridge-base-1.8.2.tar.gz --markdown 20230803/j/jet-bridge-base/1.7.9-1.8.2/diff.md --exclude *.pyd
+[2023-08-03 13:18:18] INFO root fetch - processPackages [ochat]: executing diffoscope
+[2023-08-03 13:18:18] INFO root fetch - processPackages [ochat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ochat-3.1.1.tar.gz tmp/ochat-3.1.2.tar.gz --markdown 20230803/o/ochat/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-08-03 13:18:18] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-08-03 13:18:18] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-08-03 13:18:18] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: hubble-exchange
+[2023-08-03 13:18:18] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-08-03 13:18:18] INFO root fetch - processPackages [hubble-exchange]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-08-03 13:18:19] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/6f/29/1d34a2e8d330c63514b8b8b8eaa9f667ae6baa7465742a404ada3cebd81b/hubble_exchange-0.5.0.tar.gz
+[2023-08-03 13:18:19] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/b9/5e/6c5844f0aa3a875c442e89705692190ab0cc178ac53a0b814919be08efde/hubble_exchange-0.5.1.tar.gz
+[2023-08-03 13:18:19] INFO root fetch - processPackages [hubble-exchange]: executing diffoscope
+[2023-08-03 13:18:19] INFO root fetch - processPackages [hubble-exchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubble_exchange-0.5.0.tar.gz tmp/hubble_exchange-0.5.1.tar.gz --markdown 20230803/h/hubble-exchange/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-08-03 13:18:19] INFO root fetch - processPackages [wonder-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-sdk-0.1.8.tar.gz]
+[2023-08-03 13:18:19] INFO root fetch - processPackages [wonder-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-sdk-0.1.9.tar.gz]
+[2023-08-03 13:18:19] INFO root fetch - processPackages [wonder-sdk]: Start processing: finterion
+[2023-08-03 13:18:19] INFO root fetch - main [MainThread]: End processing [wonder-sdk]: success
+[2023-08-03 13:18:19] INFO root fetch - processPackages [finterion]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-03 13:18:19] INFO root fetch - processPackages [blue-krill]: Remove: archive file [/home/abi/fetcher/tmp/blue-krill-1.2.3.tar.gz]
+[2023-08-03 13:18:19] INFO root fetch - processPackages [blue-krill]: Remove: archive file [/home/abi/fetcher/tmp/blue_krill-1.2.4.tar.gz]
+[2023-08-03 13:18:19] INFO root fetch - processPackages [blue-krill]: Start processing: libsql-experimental
+[2023-08-03 13:18:19] INFO root fetch - main [MainThread]: End processing [blue-krill]: success
+[2023-08-03 13:18:19] INFO root fetch - processPackages [finterion]: Downloading https://files.pythonhosted.org/packages/23/39/b6c663376bdb77b99744d913f2b384ce4ad0ff6958a43521d787c7a724b5/finterion-0.5.1.tar.gz
+[2023-08-03 13:18:19] INFO root fetch - processPackages [balena-sdk]: Remove: archive file [/home/abi/fetcher/tmp/balena-sdk-9.4.1.tar.gz]
+[2023-08-03 13:18:19] INFO root fetch - processPackages [balena-sdk]: Remove: archive file [/home/abi/fetcher/tmp/balena-sdk-9.5.0.tar.gz]
+[2023-08-03 13:18:19] INFO root fetch - processPackages [balena-sdk]: Start processing: gmltools
+[2023-08-03 13:18:19] INFO root fetch - main [MainThread]: End processing [balena-sdk]: success
+[2023-08-03 13:18:19] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.3.2.tar.gz]
+[2023-08-03 13:18:19] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-3.0.0.tar.gz]
+[2023-08-03 13:18:19] INFO root fetch - processPackages [decentralizedroutines]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-08-03 13:18:19] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-08-03 13:18:19] INFO root fetch - processPackages [libsql-experimental]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [finterion]: Downloading https://files.pythonhosted.org/packages/5a/37/6d89aa1c9c4cc20b9bab4c0b5dc05e4cb7a933959f7dd373ed86a0b4a63d/finterion-0.5.2.tar.gz
+[2023-08-03 13:18:20] WARNING root fetch - processPackages [gmltools]: Skipping, unable to determine old version
+[2023-08-03 13:18:20] INFO root fetch - processPackages [gmltools]: Start processing: bootloader-core-library
+[2023-08-03 13:18:20] INFO root fetch - main [MainThread]: End processing [gmltools] error
+[2023-08-03 13:18:20] INFO root fetch - processPackages [jet-django]: Remove: archive file [/home/abi/fetcher/tmp/jet-django-1.7.9.tar.gz]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [jet-django]: Remove: archive file [/home/abi/fetcher/tmp/jet-django-1.8.2.tar.gz]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [jet-django]: Start processing: seaplane
+[2023-08-03 13:18:20] INFO root fetch - main [MainThread]: End processing [jet-django]: success
+[2023-08-03 13:18:20] INFO root fetch - processPackages [bootloader-core-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [jet-bridge]: Remove: archive file [/home/abi/fetcher/tmp/jet-bridge-1.7.9.tar.gz]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [jet-bridge]: Remove: archive file [/home/abi/fetcher/tmp/jet-bridge-1.8.2.tar.gz]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [jet-bridge]: Start processing: gaitmap-mad
+[2023-08-03 13:18:20] INFO root fetch - main [MainThread]: End processing [jet-bridge]: success
+[2023-08-03 13:18:20] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.89b0]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [graph-jsp-env]: Remove: archive file [/home/abi/fetcher/tmp/graph-jsp-env-0.2.1.tar.gz]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [graph-jsp-env]: Remove: archive file [/home/abi/fetcher/tmp/graph-jsp-env-0.3.0.tar.gz]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [graph-jsp-env]: Start processing: datapackage-pipelines
+[2023-08-03 13:18:20] INFO root fetch - main [MainThread]: End processing [graph-jsp-env]: success
+[2023-08-03 13:18:20] INFO root fetch - processPackages [finterion]: executing diffoscope
+[2023-08-03 13:18:20] INFO root fetch - processPackages [finterion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterion-0.5.1.tar.gz tmp/finterion-0.5.2.tar.gz --markdown 20230803/f/finterion/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-03 13:18:20] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/d3/22/b543ce793700f6a6f3418d8eb473f9ab8a74509deb9381428ad3c21feb8d/bootloader_core_library-0.0.8.tar.gz
+[2023-08-03 13:18:20] INFO root fetch - processPackages [datapackage-pipelines]: New version: [2.2.9] Old Version: [2.2.6]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-08-03 13:18:20] INFO root fetch - processPackages [libsql-experimental]: Downloading https://files.pythonhosted.org/packages/8d/54/812479ac14ec28ba0d60d3b95e3c8f4d7fe13dc71b94cdde9d81fc1e9240/libsql_experimental-0.0.3.tar.gz
+[2023-08-03 13:18:20] INFO root fetch - processPackages [gaitmap-mad]: New version: [2.3.0] Old Version: [2.2.3]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/45/fa/8c7b9f84473da028cf2b65599d946254fe5be9317204dac4ac5f29b3dae8/seaplane-0.3.89b0.tar.gz
+[2023-08-03 13:18:20] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/b9/99/23a241c351518223bfc4593969cd5f300baf27d2c8a62e61cbe501902e47/bootloader_core_library-0.0.9.tar.gz
+[2023-08-03 13:18:20] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-08-03 13:18:20] INFO root fetch - processPackages [bootloader-core-library]: executing diffoscope
+[2023-08-03 13:18:20] INFO root fetch - processPackages [bootloader-core-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootloader_core_library-0.0.8.tar.gz tmp/bootloader_core_library-0.0.9.tar.gz --markdown 20230803/b/bootloader-core-library/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 13:18:20] INFO root fetch - processPackages [datapackage-pipelines]: Downloading https://files.pythonhosted.org/packages/4e/89/151eb6a9b577b92b1b3dfd9f08a6b34756f52e3ff7d65769e44dfd0defc3/datapackage-pipelines-2.2.6.tar.gz
+[2023-08-03 13:18:20] INFO root fetch - processPackages [gaitmap-mad]: Downloading https://files.pythonhosted.org/packages/e8/75/9f15476e545bff312e7b58d26c4ed913f35f30829ce8c1edd2d560827a6a/gaitmap_mad-2.2.3.tar.gz
+[2023-08-03 13:18:20] INFO root fetch - processPackages [libsql-experimental]: Downloading https://files.pythonhosted.org/packages/e9/cc/92456802305e0b0d35385c55c83c0441a03c0a0e880b7fc20cecf694ffe3/libsql_experimental-0.0.4.tar.gz
+[2023-08-03 13:18:20] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-08-03 13:18:20] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230803/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 13:18:20] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-08-03 13:18:20] INFO root fetch - processPackages [libsql-experimental]: executing diffoscope
+[2023-08-03 13:18:20] INFO root fetch - processPackages [libsql-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsql_experimental-0.0.3.tar.gz tmp/libsql_experimental-0.0.4.tar.gz --markdown 20230803/l/libsql-experimental/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 13:18:20] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-08-03 13:18:20] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.89b0.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230803/s/seaplane/0.3.89b0-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 13:18:20] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.5.0.tar.gz]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.5.1.tar.gz]
+[2023-08-03 13:18:20] INFO root fetch - processPackages [hubble-exchange]: Start processing: gaitmap
+[2023-08-03 13:18:20] INFO root fetch - main [MainThread]: End processing [hubble-exchange]: success
+[2023-08-03 13:18:21] INFO root fetch - processPackages [gaitmap]: New version: [2.3.0] Old Version: [2.2.3]
+[2023-08-03 13:18:21] INFO root fetch - processPackages [datapackage-pipelines]: Downloading https://files.pythonhosted.org/packages/a0/a2/e625d4747d9126d2cf2a946360fca27cde65b2b1c24f772f6fe33207f076/datapackage-pipelines-2.2.9.tar.gz
+[2023-08-03 13:18:21] INFO root fetch - processPackages [gaitmap-mad]: Downloading https://files.pythonhosted.org/packages/f6/de/916c5da1d7832f44f128050216f62c9bfd96da99bc832072f4f4b65d2915/gaitmap_mad-2.3.0.tar.gz
+[2023-08-03 13:18:21] INFO root fetch - processPackages [finterion]: Remove: archive file [/home/abi/fetcher/tmp/finterion-0.5.1.tar.gz]
+[2023-08-03 13:18:21] INFO root fetch - processPackages [finterion]: Remove: archive file [/home/abi/fetcher/tmp/finterion-0.5.2.tar.gz]
+[2023-08-03 13:18:21] INFO root fetch - main [MainThread]: End processing [finterion]: success
+[2023-08-03 13:18:21] INFO root fetch - processPackages [gaitmap]: Downloading https://files.pythonhosted.org/packages/61/fb/5b855823f8e027a117be5e82090c8df2c456321e08533df4b50b8952cd3d/gaitmap-2.2.3.tar.gz
+[2023-08-03 13:18:21] INFO root fetch - processPackages [gaitmap-mad]: executing diffoscope
+[2023-08-03 13:18:21] INFO root fetch - processPackages [gaitmap-mad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitmap_mad-2.2.3.tar.gz tmp/gaitmap_mad-2.3.0.tar.gz --markdown 20230803/g/gaitmap-mad/2.2.3-2.3.0/diff.md --exclude *.pyd
+[2023-08-03 13:18:21] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.8.tar.gz]
+[2023-08-03 13:18:21] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.9.tar.gz]
+[2023-08-03 13:18:21] INFO root fetch - main [MainThread]: End processing [bootloader-core-library]: success
+[2023-08-03 13:18:21] INFO root fetch - processPackages [gaitmap]: Downloading https://files.pythonhosted.org/packages/e0/a6/c8d27ca08ef12b80bee5514229040d05facca48119af4d772c69a62a433f/gaitmap-2.3.0.tar.gz
+[2023-08-03 13:18:21] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-08-03 13:18:21] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-08-03 13:18:21] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-08-03 13:18:21] INFO root fetch - processPackages [libsql-experimental]: Remove: archive file [/home/abi/fetcher/tmp/libsql_experimental-0.0.3.tar.gz]
+[2023-08-03 13:18:21] INFO root fetch - processPackages [libsql-experimental]: Remove: archive file [/home/abi/fetcher/tmp/libsql_experimental-0.0.4.tar.gz]
+[2023-08-03 13:18:21] INFO root fetch - main [MainThread]: End processing [libsql-experimental]: success
+[2023-08-03 13:18:21] INFO root fetch - processPackages [datapackage-pipelines]: executing diffoscope
+[2023-08-03 13:18:21] INFO root fetch - processPackages [datapackage-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapackage-pipelines-2.2.6.tar.gz tmp/datapackage-pipelines-2.2.9.tar.gz --markdown 20230803/d/datapackage-pipelines/2.2.6-2.2.9/diff.md --exclude *.pyd
+[2023-08-03 13:18:21] INFO root fetch - processPackages [gaitmap]: executing diffoscope
+[2023-08-03 13:18:21] INFO root fetch - processPackages [gaitmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitmap-2.2.3.tar.gz tmp/gaitmap-2.3.0.tar.gz --markdown 20230803/g/gaitmap/2.2.3-2.3.0/diff.md --exclude *.pyd
+[2023-08-03 13:18:22] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.89b0.tar.gz]
+[2023-08-03 13:18:22] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-08-03 13:18:22] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-08-03 13:18:22] INFO root fetch - processPackages [gaitmap-mad]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap_mad-2.2.3.tar.gz]
+[2023-08-03 13:18:22] INFO root fetch - processPackages [gaitmap-mad]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap_mad-2.3.0.tar.gz]
+[2023-08-03 13:18:22] INFO root fetch - main [MainThread]: End processing [gaitmap-mad]: success
+[2023-08-03 13:18:22] INFO root fetch - processPackages [jet-bridge-base]: Remove: archive file [/home/abi/fetcher/tmp/jet-bridge-base-1.7.9.tar.gz]
+[2023-08-03 13:18:22] INFO root fetch - processPackages [jet-bridge-base]: Remove: archive file [/home/abi/fetcher/tmp/jet-bridge-base-1.8.2.tar.gz]
+[2023-08-03 13:18:22] INFO root fetch - main [MainThread]: End processing [jet-bridge-base]: success
+[2023-08-03 13:18:22] INFO root fetch - processPackages [ochat]: Remove: archive file [/home/abi/fetcher/tmp/ochat-3.1.1.tar.gz]
+[2023-08-03 13:18:22] INFO root fetch - processPackages [ochat]: Remove: archive file [/home/abi/fetcher/tmp/ochat-3.1.2.tar.gz]
+[2023-08-03 13:18:22] INFO root fetch - main [MainThread]: End processing [ochat]: success
+[2023-08-03 13:18:23] INFO root fetch - processPackages [gaitmap]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap-2.2.3.tar.gz]
+[2023-08-03 13:18:23] INFO root fetch - processPackages [gaitmap]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap-2.3.0.tar.gz]
+[2023-08-03 13:18:23] INFO root fetch - main [MainThread]: End processing [gaitmap]: success
+[2023-08-03 13:18:23] INFO root fetch - processPackages [datapackage-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/datapackage-pipelines-2.2.6.tar.gz]
+[2023-08-03 13:18:23] INFO root fetch - processPackages [datapackage-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/datapackage-pipelines-2.2.9.tar.gz]
+[2023-08-03 13:18:23] INFO root fetch - main [MainThread]: End processing [datapackage-pipelines]: success
+[2023-08-03 13:18:23] INFO root fetch - main [MainThread]: Store serial: [19158151]
