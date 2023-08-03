@@ -10896,3 +10896,33 @@
 [2023-08-03 05:15:30] INFO root fetch - processPackages [PySide2-Material-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Material-Widgets-0.1.1.tar.gz]
 [2023-08-03 05:15:30] INFO root fetch - main [MainThread]: End processing [PySide2-Material-Widgets]: success
 [2023-08-03 05:15:30] INFO root fetch - main [MainThread]: Store serial: [19153270]
+[2023-08-03 05:20:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153270]
+[2023-08-03 05:20:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-03 05:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hao
+[2023-08-03 05:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stefutils
+[2023-08-03 05:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-databricks
+[2023-08-03 05:20:39] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-08-03 05:20:39] INFO root fetch - processPackages [hao]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-08-03 05:20:39] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-08-03 05:20:39] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2023-08-03 05:20:39] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/f2/41/a10203a0e3ade128a6d5513b95c0b66116641bcc4f7d3d7053606209c335/cdktf-cdktf-provider-databricks-9.0.1.tar.gz
+[2023-08-03 05:20:39] INFO root fetch - processPackages [hao]: Downloading https://files.pythonhosted.org/packages/17/69/fb1ed565a2338e1820434f269f2d177e080721bb06eadd5906138f6beee5/hao-3.7.8.tar.gz
+[2023-08-03 05:20:39] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2023-08-03 05:20:40] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2023-08-03 05:20:40] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20230803/s/stefutils/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 05:20:40] INFO root fetch - processPackages [hao]: Downloading https://files.pythonhosted.org/packages/f3/18/39775cc0b33aff460c38ad911af0b5fdbf79bb65311de2b2d64f1e3591d5/hao-3.7.9.tar.gz
+[2023-08-03 05:20:40] INFO root fetch - processPackages [hao]: executing diffoscope
+[2023-08-03 05:20:40] INFO root fetch - processPackages [hao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hao-3.7.8.tar.gz tmp/hao-3.7.9.tar.gz --markdown 20230803/h/hao/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-08-03 05:20:40] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/22/e6/a37602f6c892854f281c7bb4adc106276e2457550f978d3876eae5aff44f/cdktf-cdktf-provider-databricks-9.0.2.tar.gz
+[2023-08-03 05:20:40] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: executing diffoscope
+[2023-08-03 05:20:40] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-databricks-9.0.1.tar.gz tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz --markdown 20230803/c/cdktf-cdktf-provider-databricks/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-08-03 05:20:40] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2023-08-03 05:20:40] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2023-08-03 05:20:40] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2023-08-03 05:20:41] INFO root fetch - processPackages [hao]: Remove: archive file [/home/abi/fetcher/tmp/hao-3.7.8.tar.gz]
+[2023-08-03 05:20:41] INFO root fetch - processPackages [hao]: Remove: archive file [/home/abi/fetcher/tmp/hao-3.7.9.tar.gz]
+[2023-08-03 05:20:41] INFO root fetch - main [MainThread]: End processing [hao]: success
+[2023-08-03 05:20:44] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.1.tar.gz]
+[2023-08-03 05:20:44] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz]
+[2023-08-03 05:20:44] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
+[2023-08-03 05:20:44] INFO root fetch - main [MainThread]: Store serial: [19153278]
