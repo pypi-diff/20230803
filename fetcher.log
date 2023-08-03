@@ -22535,3 +22535,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 13:34:16] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.5.tar.gz]
 [2023-08-03 13:34:16] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-08-03 13:34:16] INFO root fetch - main [MainThread]: Store serial: [19158331]
+[2023-08-03 13:39:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19158331]
+[2023-08-03 13:39:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-03 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyecs
+[2023-08-03 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagbag
+[2023-08-03 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-log-python-sdk
+[2023-08-03 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hippo-api
+[2023-08-03 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solarmach
+[2023-08-03 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boop
+[2023-08-03 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: patroni
+[2023-08-03 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raspisump
+[2023-08-03 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: osm-easy-api
+[2023-08-03 13:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lusid-notifications-sdk-preview
+[2023-08-03 13:39:29] INFO root fetch - processPackages [easyecs]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-08-03 13:39:29] INFO root fetch - processPackages [hippo-api]: New version: [1.0.1] Old Version: [1.0.0.post1]
+[2023-08-03 13:39:29] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-08-03 13:39:29] INFO root fetch - processPackages [solarmach]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-03 13:39:29] INFO root fetch - processPackages [aliyun-log-python-sdk]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-08-03 13:39:29] INFO root fetch - processPackages [osm-easy-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-03 13:39:29] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/61/eb/47f9a4a5a24d0fa92af986815a867a3e0ee07802d6de055e4a7ac33eb400/easyecs-0.3.2.tar.gz
+[2023-08-03 13:39:29] INFO root fetch - processPackages [patroni]: New version: [3.1.0] Old Version: [3.0.4]
+[2023-08-03 13:39:29] WARNING root fetch - processPackages [boop]: Skipping, unable to determine old version
+[2023-08-03 13:39:29] INFO root fetch - main [MainThread]: End processing [boop] error
+[2023-08-03 13:39:29] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.804] Old Version: [0.1.803]
+[2023-08-03 13:39:29] INFO root fetch - processPackages [raspisump]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-08-03 13:39:29] INFO root fetch - processPackages [hippo-api]: Downloading https://files.pythonhosted.org/packages/96/f1/e3126feff16ea68c8b9b28ce4d4488f042ec9ee0a08d55f08e843846b76a/hippo_api-1.0.0.post1-py3-none-any.whl
+[2023-08-03 13:39:29] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-08-03 13:39:29] INFO root fetch - processPackages [solarmach]: Downloading https://files.pythonhosted.org/packages/81/b1/845c0a1f55130477b96277b12c7070a8d075b74d476604ba6760ab6f1464/solarmach-0.2.2.tar.gz
+[2023-08-03 13:39:29] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a8/88/6cad0db0da8d1abd362b012c35efa3693dd0ef5c6836e5af796fba902605/lusid-notifications-sdk-preview-0.1.803.tar.gz
+[2023-08-03 13:39:29] INFO root fetch - processPackages [aliyun-log-python-sdk]: Downloading https://files.pythonhosted.org/packages/1d/c6/2cb627179df785405e3fa979104ffa6729517be200f3621283d46c4e06c1/aliyun-log-python-sdk-0.8.7.tar.gz
+[2023-08-03 13:39:29] INFO root fetch - processPackages [hippo-api]: Downloading https://files.pythonhosted.org/packages/70/f0/3e0fce7a012720d6bc30316b957e9a7f9acc700d4a9b2ee0e19fa36660cd/hippo_api-1.0.1-py3-none-any.whl
+[2023-08-03 13:39:29] INFO root fetch - processPackages [patroni]: Downloading https://files.pythonhosted.org/packages/26/6b/66278368b9e70519fc8a31ec567b372acd85c5f8fc65793c8b4c2a647e02/patroni-3.0.4.tar.gz
+[2023-08-03 13:39:29] INFO root fetch - processPackages [osm-easy-api]: Downloading https://files.pythonhosted.org/packages/be/0a/8d68f7dffcb9c84efc7fd1ee195873e51b9cde8ae2180fd7adbbe39453ef/osm_easy_api-1.1.0.tar.gz
+[2023-08-03 13:39:29] INFO root fetch - processPackages [raspisump]: Downloading https://files.pythonhosted.org/packages/29/a3/ccc199d98ea95ea16a9bad4e993051f9f8aebe0479abc0f2c8eb0cfa9dae/raspisump-1.9.2.tar.gz
+[2023-08-03 13:39:29] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/bd/0d/a534f92a10d9519fb1a7f09f7d044131605277350a98f1c76eca5fdd05c2/easyecs-0.4.0.tar.gz
+[2023-08-03 13:39:29] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-08-03 13:39:29] INFO root fetch - processPackages [hippo-api]: executing diffoscope
+[2023-08-03 13:39:29] INFO root fetch - processPackages [hippo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hippo_api-1.0.0.post1-py3-none-any.whl.zip tmp/hippo_api-1.0.1-py3-none-any.whl.zip --markdown 20230803/h/hippo-api/1.0.0.post1-1.0.1/diff.md --exclude *.pyd
+[2023-08-03 13:39:29] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-08-03 13:39:29] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230803/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-08-03 13:39:29] INFO root fetch - processPackages [aliyun-log-python-sdk]: Downloading https://files.pythonhosted.org/packages/25/18/848375dc6e07fb8eb736c7057bf4e64284abc5253355e5e34a5a6b4b82fb/aliyun-log-python-sdk-0.8.8.tar.gz
+[2023-08-03 13:39:29] INFO root fetch - processPackages [easyecs]: executing diffoscope
+[2023-08-03 13:39:29] INFO root fetch - processPackages [easyecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyecs-0.3.2.tar.gz tmp/easyecs-0.4.0.tar.gz --markdown 20230803/e/easyecs/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-08-03 13:39:30] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f1/58/a40fd5c114da25e5b61958bdacd9ea088c1ada34610aa31bc667e140df26/lusid-notifications-sdk-preview-0.1.804.tar.gz
+[2023-08-03 13:39:30] INFO root fetch - processPackages [raspisump]: Downloading https://files.pythonhosted.org/packages/6e/46/a4c7d60f73d1e4f6e46f73a5f20a2e86b5e370f01da725c8ab04e9e3582e/raspisump-1.9.3.tar.gz
+[2023-08-03 13:39:30] INFO root fetch - processPackages [osm-easy-api]: Downloading https://files.pythonhosted.org/packages/98/43/817c9a6ebd22c58d34d3f6b5eed2ddc7183c1b7d2d51aedc749a3cd36a54/osm_easy_api-1.1.1.tar.gz
+[2023-08-03 13:39:30] INFO root fetch - processPackages [patroni]: Downloading https://files.pythonhosted.org/packages/83/db/9e8db9762241cfb3521f7da589ea5d2eee98726d4a1e469766283381db66/patroni-3.1.0.tar.gz
+[2023-08-03 13:39:30] INFO root fetch - processPackages [aliyun-log-python-sdk]: executing diffoscope
+[2023-08-03 13:39:30] INFO root fetch - processPackages [aliyun-log-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-log-python-sdk-0.8.7.tar.gz tmp/aliyun-log-python-sdk-0.8.8.tar.gz --markdown 20230803/a/aliyun-log-python-sdk/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-08-03 13:39:30] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-08-03 13:39:30] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.803.tar.gz tmp/lusid-notifications-sdk-preview-0.1.804.tar.gz --markdown 20230803/l/lusid-notifications-sdk-preview/0.1.803-0.1.804/diff.md --exclude *.pyd
+[2023-08-03 13:39:30] INFO root fetch - processPackages [raspisump]: executing diffoscope
+[2023-08-03 13:39:30] INFO root fetch - processPackages [raspisump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspisump-1.9.2.tar.gz tmp/raspisump-1.9.3.tar.gz --markdown 20230803/r/raspisump/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-08-03 13:39:30] INFO root fetch - processPackages [osm-easy-api]: executing diffoscope
+[2023-08-03 13:39:30] INFO root fetch - processPackages [osm-easy-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm_easy_api-1.1.0.tar.gz tmp/osm_easy_api-1.1.1.tar.gz --markdown 20230803/o/osm-easy-api/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-03 13:39:30] INFO root fetch - processPackages [patroni]: executing diffoscope
+[2023-08-03 13:39:30] INFO root fetch - processPackages [patroni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patroni-3.0.4.tar.gz tmp/patroni-3.1.0.tar.gz --markdown 20230803/p/patroni/3.0.4-3.1.0/diff.md --exclude *.pyd
+[2023-08-03 13:39:30] INFO root fetch - processPackages [solarmach]: Downloading https://files.pythonhosted.org/packages/ea/07/be38816b52d74125dd6f49f9903c517810b79f1610d0a570354218e229dd/solarmach-0.2.3.tar.gz
+[2023-08-03 13:39:30] INFO root fetch - processPackages [solarmach]: executing diffoscope
+[2023-08-03 13:39:30] INFO root fetch - processPackages [solarmach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarmach-0.2.2.tar.gz tmp/solarmach-0.2.3.tar.gz --markdown 20230803/s/solarmach/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-03 13:39:31] INFO root fetch - processPackages [hippo-api]: Remove: archive file [/home/abi/fetcher/tmp/hippo_api-1.0.0.post1-py3-none-any.whl.zip]
+[2023-08-03 13:39:31] INFO root fetch - processPackages [hippo-api]: Remove: archive file [/home/abi/fetcher/tmp/hippo_api-1.0.1-py3-none-any.whl.zip]
+[2023-08-03 13:39:31] INFO root fetch - main [MainThread]: End processing [hippo-api]: success
+[2023-08-03 13:39:31] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.3.2.tar.gz]
+[2023-08-03 13:39:31] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.4.0.tar.gz]
+[2023-08-03 13:39:31] INFO root fetch - main [MainThread]: End processing [easyecs]: success
+[2023-08-03 13:39:31] INFO root fetch - processPackages [raspisump]: Remove: archive file [/home/abi/fetcher/tmp/raspisump-1.9.2.tar.gz]
+[2023-08-03 13:39:31] INFO root fetch - processPackages [raspisump]: Remove: archive file [/home/abi/fetcher/tmp/raspisump-1.9.3.tar.gz]
+[2023-08-03 13:39:31] INFO root fetch - main [MainThread]: End processing [raspisump]: success
+[2023-08-03 13:39:31] INFO root fetch - processPackages [osm-easy-api]: Remove: archive file [/home/abi/fetcher/tmp/osm_easy_api-1.1.0.tar.gz]
+[2023-08-03 13:39:31] INFO root fetch - processPackages [osm-easy-api]: Remove: archive file [/home/abi/fetcher/tmp/osm_easy_api-1.1.1.tar.gz]
+[2023-08-03 13:39:31] INFO root fetch - main [MainThread]: End processing [osm-easy-api]: success
+[2023-08-03 13:39:32] INFO root fetch - processPackages [aliyun-log-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-log-python-sdk-0.8.7.tar.gz]
+[2023-08-03 13:39:32] INFO root fetch - processPackages [aliyun-log-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-log-python-sdk-0.8.8.tar.gz]
+[2023-08-03 13:39:32] INFO root fetch - main [MainThread]: End processing [aliyun-log-python-sdk]: success
+[2023-08-03 13:39:32] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.803.tar.gz]
+[2023-08-03 13:39:32] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.804.tar.gz]
+[2023-08-03 13:39:32] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-08-03 13:39:32] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-08-03 13:39:32] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-08-03 13:39:32] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-08-03 13:39:32] INFO root fetch - processPackages [solarmach]: Remove: archive file [/home/abi/fetcher/tmp/solarmach-0.2.2.tar.gz]
+[2023-08-03 13:39:32] INFO root fetch - processPackages [solarmach]: Remove: archive file [/home/abi/fetcher/tmp/solarmach-0.2.3.tar.gz]
+[2023-08-03 13:39:32] INFO root fetch - main [MainThread]: End processing [solarmach]: success
+[2023-08-03 13:39:32] INFO root fetch - processPackages [patroni]: Remove: archive file [/home/abi/fetcher/tmp/patroni-3.0.4.tar.gz]
+[2023-08-03 13:39:32] INFO root fetch - processPackages [patroni]: Remove: archive file [/home/abi/fetcher/tmp/patroni-3.1.0.tar.gz]
+[2023-08-03 13:39:32] INFO root fetch - main [MainThread]: End processing [patroni]: success
+[2023-08-03 13:39:32] INFO root fetch - main [MainThread]: Store serial: [19158361]
