@@ -9361,3 +9361,89 @@
 [2023-08-03 03:56:52] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-08-03 03:56:52] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
 [2023-08-03 03:56:52] INFO root fetch - main [MainThread]: Store serial: [19152697]
+[2023-08-03 04:02:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152697]
+[2023-08-03 04:02:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-03 04:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yt-fts
+[2023-08-03 04:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-dev
+[2023-08-03 04:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bdplot
+[2023-08-03 04:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: covalent-api-sdk
+[2023-08-03 04:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cjm-yolox-pytorch
+[2023-08-03 04:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awsome-validity
+[2023-08-03 04:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CrazyDG
+[2023-08-03 04:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: honeybee-core
+[2023-08-03 04:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bdplot
+[2023-08-03 04:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-llm
+[2023-08-03 04:02:06] INFO root fetch - processPackages [bdplot]: New version: [0.0.2rc27.post1] Old Version: [0.0.2rc26.post3]
+[2023-08-03 04:02:06] INFO root fetch - processPackages [composabl-dev]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev5]
+[2023-08-03 04:02:06] INFO root fetch - processPackages [yt-fts]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 04:02:06] INFO root fetch - processPackages [bdplot]: New version: [0.0.2rc27.post1] Old Version: [0.0.2rc26.post3]
+[2023-08-03 04:02:06] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230802.dev0] Old Version: [2.4.0b20230802]
+[2023-08-03 04:02:06] INFO root fetch - processPackages [covalent-api-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 04:02:06] INFO root fetch - processPackages [CrazyDG]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 04:02:06] WARNING root fetch - processPackages [awsome-validity]: Skipping, unable to determine old version
+[2023-08-03 04:02:06] INFO root fetch - processPackages [awsome-validity]: Start processing: FinderZ
+[2023-08-03 04:02:06] INFO root fetch - main [MainThread]: End processing [awsome-validity] error
+[2023-08-03 04:02:06] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 04:02:06] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-08-03 04:02:06] INFO root fetch - processPackages [FinderZ]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-08-03 04:02:06] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/a2/58/3e9eafe2ef4796f1d43db4ec18135bedc3c936a6c98b079bee3d17707b3c/bigdl_llm-2.4.0b20230802-py3-none-win_amd64.whl
+[2023-08-03 04:02:06] ERROR root fetch - processPackages [bdplot]: Unable to fetch info: No such project/version 'bdplot' 0.0.2rc26.post3
+[2023-08-03 04:02:06] ERROR root fetch - processPackages [bdplot]: Unable to fetch info: No such project/version 'bdplot' 0.0.2rc26.post3
+[2023-08-03 04:02:06] INFO root fetch - main [MainThread]: End processing [bdplot] error
+[2023-08-03 04:02:06] INFO root fetch - main [MainThread]: End processing [bdplot] error
+[2023-08-03 04:02:06] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2023-08-03 04:02:06] INFO root fetch - processPackages [CrazyDG]: Downloading https://files.pythonhosted.org/packages/ac/03/26071acc766692dd174c7511c51ee20692c1e67121ce1b6475ce119c854f/CrazyDG-0.0.1.tar.gz
+[2023-08-03 04:02:06] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/f5/02/2455d127b6a97727340fd4a20ff4530769b8af192ef4dfae422c7f214278/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 04:02:06] INFO root fetch - processPackages [yt-fts]: Downloading https://files.pythonhosted.org/packages/a4/72/e5ed8aed67daafdeeaee77ce84706e7b284c03900bebc8b4c9a5418c9100/yt-fts-0.1.8.tar.gz
+[2023-08-03 04:02:06] INFO root fetch - processPackages [covalent-api-sdk]: Downloading https://files.pythonhosted.org/packages/60/c6/a97c3942eb9155a5345fb7266c0f1b0943e5c6b1c0f652f9044bdcf0f62a/covalent-api-sdk-0.0.1.tar.gz
+[2023-08-03 04:02:06] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-08-03 04:02:06] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/a8/4e/99819aa6d6a832b2c77dc957c6f00396358535d9a116201c2b8e7a7e02f7/finderz-2.0.4.tar.gz
+[2023-08-03 04:02:06] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2023-08-03 04:02:06] INFO root fetch - processPackages [CrazyDG]: Downloading https://files.pythonhosted.org/packages/87/92/a9e81438fde248109288468a7c681bdce6ce2f091ac90573b2c76a6a9f3b/CrazyDG-0.0.2.tar.gz
+[2023-08-03 04:02:06] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/66/dc/c41f4c4664cb152292191deef3aef1b97f052026e2bf5870f8cf3266b79e/bigdl_llm-2.4.0b20230802.dev0-py3-none-manylinux2010_x86_64.whl
+[2023-08-03 04:02:06] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2023-08-03 04:02:06] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20230803/h/honeybee-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-08-03 04:02:06] INFO root fetch - processPackages [yt-fts]: Downloading https://files.pythonhosted.org/packages/07/27/81af49bf3228838a5be25585fd9eafb45419bd52a1bd7d47660f8fd3f1e6/yt-fts-0.1.9.tar.gz
+[2023-08-03 04:02:06] INFO root fetch - processPackages [CrazyDG]: executing diffoscope
+[2023-08-03 04:02:06] INFO root fetch - processPackages [CrazyDG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrazyDG-0.0.1.tar.gz tmp/CrazyDG-0.0.2.tar.gz --markdown 20230803/C/CrazyDG/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 04:02:06] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-08-03 04:02:06] INFO root fetch - processPackages [covalent-api-sdk]: Downloading https://files.pythonhosted.org/packages/9d/0f/523ec3d41633a7c927431116b0a8cf78f978a82696d725b1939500391038/covalent-api-sdk-0.0.2.tar.gz
+[2023-08-03 04:02:07] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/af/e1/b8e969ee4a8b77feea442426c54f3644cc7083e681e1a40f5d728f213d85/finderz-2.0.5.tar.gz
+[2023-08-03 04:02:07] INFO root fetch - processPackages [yt-fts]: executing diffoscope
+[2023-08-03 04:02:07] INFO root fetch - processPackages [yt-fts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt-fts-0.1.8.tar.gz tmp/yt-fts-0.1.9.tar.gz --markdown 20230803/y/yt-fts/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 04:02:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-08-03 04:02:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230803/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 04:02:07] INFO root fetch - processPackages [covalent-api-sdk]: executing diffoscope
+[2023-08-03 04:02:07] INFO root fetch - processPackages [covalent-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-api-sdk-0.0.1.tar.gz tmp/covalent-api-sdk-0.0.2.tar.gz --markdown 20230803/c/covalent-api-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 04:02:07] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-08-03 04:02:07] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230802-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230802.dev0-py3-none-manylinux2010_x86_64.whl.zip --markdown 20230803/b/bigdl-llm/2.4.0b20230802-2.4.0b20230802.dev0/diff.md --exclude *.pyd
+[2023-08-03 04:02:07] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/54/be/e399388bd48adf9263b327a838fa8fadc33f070b712563217db654e901ba/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 04:02:07] INFO root fetch - processPackages [FinderZ]: executing diffoscope
+[2023-08-03 04:02:07] INFO root fetch - processPackages [FinderZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finderz-2.0.4.tar.gz tmp/finderz-2.0.5.tar.gz --markdown 20230803/F/FinderZ/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-08-03 04:02:07] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-08-03 04:02:07] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-dev/0.3.9.dev5-0.3.9.dev8/diff.md --exclude *.pyd
+[2023-08-03 04:02:08] INFO root fetch - processPackages [CrazyDG]: Remove: archive file [/home/abi/fetcher/tmp/CrazyDG-0.0.1.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - processPackages [CrazyDG]: Remove: archive file [/home/abi/fetcher/tmp/CrazyDG-0.0.2.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - main [MainThread]: End processing [CrazyDG]: success
+[2023-08-03 04:02:08] INFO root fetch - processPackages [yt-fts]: Remove: archive file [/home/abi/fetcher/tmp/yt-fts-0.1.8.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - processPackages [yt-fts]: Remove: archive file [/home/abi/fetcher/tmp/yt-fts-0.1.9.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - main [MainThread]: End processing [yt-fts]: success
+[2023-08-03 04:02:08] INFO root fetch - processPackages [covalent-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/covalent-api-sdk-0.0.1.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - processPackages [covalent-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/covalent-api-sdk-0.0.2.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - main [MainThread]: End processing [covalent-api-sdk]: success
+[2023-08-03 04:02:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-08-03 04:02:08] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2023-08-03 04:02:08] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.4.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.5.tar.gz]
+[2023-08-03 04:02:08] INFO root fetch - main [MainThread]: End processing [FinderZ]: success
+[2023-08-03 04:02:09] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230802-py3-none-win_amd64.whl.zip]
+[2023-08-03 04:02:09] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230802.dev0-py3-none-manylinux2010_x86_64.whl.zip]
+[2023-08-03 04:02:09] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-08-03 04:02:09] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 04:02:09] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 04:02:09] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-08-03 04:02:09] INFO root fetch - main [MainThread]: Store serial: [19152738]
