@@ -9800,3 +9800,92 @@
 [2023-08-03 04:28:16] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230803.tar.gz]
 [2023-08-03 04:28:16] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-08-03 04:28:16] INFO root fetch - main [MainThread]: Store serial: [19152875]
+[2023-08-03 04:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152875]
+[2023-08-03 04:33:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-03 04:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: great-expectations-experimental
+[2023-08-03 04:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: great-expectations-experimental
+[2023-08-03 04:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragonfly-uwg
+[2023-08-03 04:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qctrl-client
+[2023-08-03 04:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-dragonfly
+[2023-08-03 04:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-honeybee
+[2023-08-03 04:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lbt-dragonfly
+[2023-08-03 04:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragonfly-energy
+[2023-08-03 04:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotchain-sdk
+[2023-08-03 04:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mc-netease-sdk
+[2023-08-03 04:33:25] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-03 04:33:25] INFO root fetch - processPackages [robotchain-sdk]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-03 04:33:25] INFO root fetch - processPackages [qctrl-client]: New version: [8.0.0] Old Version: [7.2.2]
+[2023-08-03 04:33:25] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-08-03 04:33:25] INFO root fetch - processPackages [mc-netease-sdk]: New version: [2.8.0.43895] Old Version: [2.7.5.43672]
+[2023-08-03 04:33:25] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-08-03 04:33:25] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230803013] Old Version: [0.1.20230803012]
+[2023-08-03 04:33:25] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230803013] Old Version: [0.1.20230803012]
+[2023-08-03 04:33:25] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-08-03 04:33:25] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-08-03 04:33:25] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/4d/11/2af30d4fa52c9e20f695a3181108f3397648fe3e612d8d61086551d5b9f1/qctrl_client-7.2.2.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [robotchain-sdk]: Downloading https://files.pythonhosted.org/packages/81/3a/3475502e28f841f95b1279a41cb500ee70012ea13a02af61ab86690f73f4/robotchain_sdk-1.0.5.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/fc/96/46ecf84b8947bce31b7c70a8e0018fa381b0cd26322edcf1428c24e6b9c6/great_expectations_experimental-0.1.20230803012.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/fc/96/46ecf84b8947bce31b7c70a8e0018fa381b0cd26322edcf1428c24e6b9c6/great_expectations_experimental-0.1.20230803012.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/98/f1/7c34987e4728884ffe9e124558474523f379d063dd41586c6b93084ae9e8/mc_netease_sdk-2.7.5.43672-py2-none-any.whl
+[2023-08-03 04:33:26] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/9a/af/3594666ee9628ac4a6fa4487fa01777abfaf419f9a002dd134ff4b386b1b/qctrl_client-8.0.0.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/4a/83/339a3f5b86f3410343c1df1ea8bd05e1b9f69504a98d6fca0df63f788d30/great_expectations_experimental-0.1.20230803013.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/4a/83/339a3f5b86f3410343c1df1ea8bd05e1b9f69504a98d6fca0df63f788d30/great_expectations_experimental-0.1.20230803013.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230803/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-08-03 04:33:26] INFO root fetch - processPackages [robotchain-sdk]: Downloading https://files.pythonhosted.org/packages/9e/64/b96114f9269664a68e3586345384db62fc092a811bf03389bd3ffac06d64/robotchain_sdk-1.0.6.tar.gz
+[2023-08-03 04:33:26] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-08-03 04:33:26] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230803/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-03 04:33:26] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-08-03 04:33:26] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230803/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230803/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-08-03 04:33:26] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230803/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-08-03 04:33:26] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/2a/b8/d364e817d0077dd43a3aa4a2b604fbbff57f9153d5b521777805c5ab3e52/mc_netease_sdk-2.8.0.43895-py2-none-any.whl
+[2023-08-03 04:33:26] INFO root fetch - processPackages [qctrl-client]: executing diffoscope
+[2023-08-03 04:33:26] INFO root fetch - processPackages [qctrl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_client-7.2.2.tar.gz tmp/qctrl_client-8.0.0.tar.gz --markdown 20230803/q/qctrl-client/7.2.2-8.0.0/diff.md --exclude *.pyd
+[2023-08-03 04:33:26] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-08-03 04:33:26] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230803012.tar.gz tmp/great_expectations_experimental-0.1.20230803013.tar.gz --markdown 20230803/g/great-expectations-experimental/0.1.20230803012-0.1.20230803013/diff.md --exclude *.pyd
+[2023-08-03 04:33:26] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-08-03 04:33:26] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230803012.tar.gz tmp/great_expectations_experimental-0.1.20230803013.tar.gz --markdown 20230803/g/great-expectations-experimental/0.1.20230803012-0.1.20230803013/diff.md --exclude *.pyd
+[2023-08-03 04:33:27] INFO root fetch - processPackages [mc-netease-sdk]: executing diffoscope
+[2023-08-03 04:33:27] INFO root fetch - processPackages [mc-netease-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mc_netease_sdk-2.7.5.43672-py2-none-any.whl.zip tmp/mc_netease_sdk-2.8.0.43895-py2-none-any.whl.zip --markdown 20230803/m/mc-netease-sdk/2.7.5.43672-2.8.0.43895/diff.md --exclude *.pyd
+[2023-08-03 04:33:27] INFO root fetch - processPackages [robotchain-sdk]: executing diffoscope
+[2023-08-03 04:33:27] INFO root fetch - processPackages [robotchain-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotchain_sdk-1.0.5.tar.gz tmp/robotchain_sdk-1.0.6.tar.gz --markdown 20230803/r/robotchain-sdk/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-03 04:33:28] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-08-03 04:33:28] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-08-03 04:33:28] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-08-03 04:33:28] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-7.2.2.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-8.0.0.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - main [MainThread]: End processing [qctrl-client]: success
+[2023-08-03 04:33:28] INFO root fetch - processPackages [robotchain-sdk]: Remove: archive file [/home/abi/fetcher/tmp/robotchain_sdk-1.0.5.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - processPackages [robotchain-sdk]: Remove: archive file [/home/abi/fetcher/tmp/robotchain_sdk-1.0.6.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - main [MainThread]: End processing [robotchain-sdk]: success
+[2023-08-03 04:33:28] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-08-03 04:33:28] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230803012.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230803013.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-08-03 04:33:28] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-08-03 04:33:28] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-08-03 04:33:29] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-08-03 04:33:29] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.7.5.43672-py2-none-any.whl.zip]
+[2023-08-03 04:33:29] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.8.0.43895-py2-none-any.whl.zip]
+[2023-08-03 04:33:29] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
+[2023-08-03 04:33:29] INFO root fetch - main [MainThread]: Store serial: [19152910]
