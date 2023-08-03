@@ -12342,3 +12342,39 @@
 [2023-08-03 07:18:08] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230802-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2023-08-03 07:18:08] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-08-03 07:18:08] INFO root fetch - main [MainThread]: Store serial: [19153924]
+[2023-08-03 07:23:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153924]
+[2023-08-03 07:23:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-03 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidy-tweet
+[2023-08-03 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minecraft-python
+[2023-08-03 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuralpit
+[2023-08-03 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NodeGraphQt
+[2023-08-03 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cntracer
+[2023-08-03 07:23:20] INFO root fetch - processPackages [tidy-tweet]: New version: [1.0.0b1] Old Version: [1.0.0a6]
+[2023-08-03 07:23:20] WARNING root fetch - processPackages [cntracer]: Skipping, unable to determine old version
+[2023-08-03 07:23:20] INFO root fetch - main [MainThread]: End processing [cntracer] error
+[2023-08-03 07:23:20] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-03 07:23:20] WARNING root fetch - processPackages [minecraft-python]: Skipping, unable to determine old version
+[2023-08-03 07:23:20] INFO root fetch - main [MainThread]: End processing [minecraft-python] error
+[2023-08-03 07:23:20] INFO root fetch - processPackages [neuralpit]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-03 07:23:20] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/aa/c8/4c685dde7cd3ec13b69f0d5f6a6314cbaee70ccae2309f5e3c0923af450c/tidy_tweet-1.0.0a6.tar.gz
+[2023-08-03 07:23:21] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/d3/ec/fb950534937f6aaf4efb573d8340c8ffbe55117125821bf6e5348a6ea157/NodeGraphQt-0.6.8.tar.gz
+[2023-08-03 07:23:21] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/c9/29/0b6f62abe56e23649e1c96797b91e13fbd4507217dbc7e0a3ba22d80421c/neuralpit-2.1.1.tar.gz
+[2023-08-03 07:23:21] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/7c/b0/488f43e0e6e241940f2edd8f7ece693d7bc310e7c5c4a1b08bb601d0fda7/tidy_tweet-1.0.0b1.tar.gz
+[2023-08-03 07:23:21] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/a3/f2/b8c7d17e13327bb0d735dbec6846a6b32ccbd207306ff420c7c93c99d52e/NodeGraphQt-0.6.9.tar.gz
+[2023-08-03 07:23:21] INFO root fetch - processPackages [tidy-tweet]: executing diffoscope
+[2023-08-03 07:23:21] INFO root fetch - processPackages [tidy-tweet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidy_tweet-1.0.0a6.tar.gz tmp/tidy_tweet-1.0.0b1.tar.gz --markdown 20230803/t/tidy-tweet/1.0.0a6-1.0.0b1/diff.md --exclude *.pyd
+[2023-08-03 07:23:21] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-08-03 07:23:21] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.6.8.tar.gz tmp/NodeGraphQt-0.6.9.tar.gz --markdown 20230803/N/NodeGraphQt/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-03 07:23:21] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/2d/6f/6811efa12168a7f9bf70f0009b55420058cddbf72ec1ae5249f4b56c7813/neuralpit-2.1.2.tar.gz
+[2023-08-03 07:23:21] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-08-03 07:23:21] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.1.1.tar.gz tmp/neuralpit-2.1.2.tar.gz --markdown 20230803/n/neuralpit/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-03 07:23:22] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0a6.tar.gz]
+[2023-08-03 07:23:22] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0b1.tar.gz]
+[2023-08-03 07:23:22] INFO root fetch - main [MainThread]: End processing [tidy-tweet]: success
+[2023-08-03 07:23:22] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.1.1.tar.gz]
+[2023-08-03 07:23:22] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.1.2.tar.gz]
+[2023-08-03 07:23:22] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-08-03 07:23:22] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.8.tar.gz]
+[2023-08-03 07:23:22] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.9.tar.gz]
+[2023-08-03 07:23:22] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-08-03 07:23:22] INFO root fetch - main [MainThread]: Store serial: [19154018]
