@@ -19205,3 +19205,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 11:16:00] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev3.tar.gz]
 [2023-08-03 11:16:00] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-08-03 11:16:00] INFO root fetch - main [MainThread]: Store serial: [19156897]
+[2023-08-03 11:21:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19156897]
+[2023-08-03 11:21:10] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-03 11:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmeel-help2man
+[2023-08-03 11:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logger-local
+[2023-08-03 11:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-web-runner
+[2023-08-03 11:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: je-web-runner-dev
+[2023-08-03 11:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-user
+[2023-08-03 11:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloud-governance
+[2023-08-03 11:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ocean-contracts
+[2023-08-03 11:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c2cciutils
+[2023-08-03 11:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xw-utils
+[2023-08-03 11:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-xrengine20230313
+[2023-08-03 11:21:10] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:21:10] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-08-03 11:21:10] WARNING root fetch - processPackages [cmeel-help2man]: Skipping, unable to determine old version
+[2023-08-03 11:21:10] INFO root fetch - processPackages [cmeel-help2man]: Start processing: r3l3453
+[2023-08-03 11:21:10] INFO root fetch - main [MainThread]: End processing [cmeel-help2man] error
+[2023-08-03 11:21:10] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-03 11:21:10] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-08-03 11:21:10] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:21:10] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-08-03 11:21:10] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-03 11:21:10] INFO root fetch - processPackages [je-web-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:21:10] INFO root fetch - processPackages [ocean-contracts]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2023-08-03 11:21:10] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-03 11:21:10] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-08-03 11:21:10] INFO root fetch - processPackages [r3l3453]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-03 11:21:10] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-08-03 11:21:10] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/3d/5f/1255d66a56fb12701863ce7676f49de0a0fa1c8ebea7082713c306d9eae0/je_web_runner_dev-0.0.8.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Downloading https://files.pythonhosted.org/packages/50/b0/82d823580318c4913c0564aa1ecf9d4084cc670ed78af5dae934be4ea59e/alibabacloud_xrengine20230313-2.0.0.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/98/dc/9b478fd57590174657ab4a34dd1a26e204245a4f2e1a88b6a6c338c1ec39/je_web_runner-0.0.8.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/76/cb/e0c80ed9a8d996e581c6c67fa8ee0257090aabd5b2aa4977b028349e2ff0/ocean-contracts-2.0.0a2.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-08-03 11:21:11] INFO root fetch - processPackages [r3l3453]: Downloading https://files.pythonhosted.org/packages/11/d5/d5011a2b448e855337b6d9e59ffe9db9619e934843f54fc97d18845b31ec/r3l3453-0.9.0.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-08-03 11:21:11] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230803/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:21:11] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-08-03 11:21:11] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230803/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-08-03 11:21:11] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/16/62/09336d5dd7335342ae9a4e41ecdee21e0dd2f4a478f392d102c0d367c810/je_web_runner_dev-0.0.9.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-08-03 11:21:11] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230803/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-08-03 11:21:11] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-08-03 11:21:11] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/a0/6f/4829ef02077ea8ae3e3f1ae6127458670b79505fe73799371e9490b214c2/je_web_runner-0.0.9.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [r3l3453]: Downloading https://files.pythonhosted.org/packages/ee/cb/b71aa1d1d497c55282320a775cdb2b63558762b89b1764be37d92ecd741c/r3l3453-0.9.1.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Downloading https://files.pythonhosted.org/packages/70/9f/1f45594011685189a71a114c697b2d75f2b536e48b77c308229fc349eeda/alibabacloud_xrengine20230313-2.0.1.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/dc/de/6c8e7e051954db489e9fdd1304318afa9bc184d272993692ea6db5d906bf/ocean-contracts-2.0.0a3.tar.gz
+[2023-08-03 11:21:11] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-08-03 11:21:11] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230803/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-03 11:21:11] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-08-03 11:21:11] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230803/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:21:11] INFO root fetch - processPackages [je-web-runner]: executing diffoscope
+[2023-08-03 11:21:11] INFO root fetch - processPackages [je-web-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner-0.0.8.tar.gz tmp/je_web_runner-0.0.9.tar.gz --markdown 20230803/j/je-web-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:21:11] INFO root fetch - processPackages [r3l3453]: executing diffoscope
+[2023-08-03 11:21:11] INFO root fetch - processPackages [r3l3453]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r3l3453-0.9.0.tar.gz tmp/r3l3453-0.9.1.tar.gz --markdown 20230803/r/r3l3453/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-03 11:21:11] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: executing diffoscope
+[2023-08-03 11:21:11] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_xrengine20230313-2.0.0.tar.gz tmp/alibabacloud_xrengine20230313-2.0.1.tar.gz --markdown 20230803/a/alibabacloud-xrengine20230313/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-03 11:21:11] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-08-03 11:21:11] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.8.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230803/j/je-web-runner-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:21:12] INFO root fetch - processPackages [ocean-contracts]: executing diffoscope
+[2023-08-03 11:21:12] INFO root fetch - processPackages [ocean-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocean-contracts-2.0.0a2.tar.gz tmp/ocean-contracts-2.0.0a3.tar.gz --markdown 20230803/o/ocean-contracts/2.0.0a2-2.0.0a3/diff.md --exclude *.pyd
+[2023-08-03 11:21:12] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-08-03 11:21:12] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-08-03 11:21:12] INFO root fetch - processPackages [logger-local]: Start processing: spanishconjugator
+[2023-08-03 11:21:12] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-08-03 11:21:12] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-03 11:21:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-03 11:21:13] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-03 11:21:13] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-03 11:21:13] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230803/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-03 11:21:13] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [xw-utils]: Start processing: monocleaner
+[2023-08-03 11:21:13] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-08-03 11:21:13] INFO root fetch - processPackages [monocleaner]: New version: [1.6.1] Old Version: [1.6]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [r3l3453]: Remove: archive file [/home/abi/fetcher/tmp/r3l3453-0.9.0.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [r3l3453]: Remove: archive file [/home/abi/fetcher/tmp/r3l3453-0.9.1.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [r3l3453]: Start processing: spanishconjugator
+[2023-08-03 11:21:13] INFO root fetch - main [MainThread]: End processing [r3l3453]: success
+[2023-08-03 11:21:13] INFO root fetch - processPackages [monocleaner]: Downloading https://files.pythonhosted.org/packages/e3/db/e074c9f6638f590d0e7a5eea34611019755e8e8a126072e372f56e45baa0/monocleaner-1.6.tar.gz
+[2023-08-03 11:21:13] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.8.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.9.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [je-web-runner]: Start processing: tbp-nightly
+[2023-08-03 11:21:13] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
+[2023-08-03 11:21:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_xrengine20230313-2.0.0.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.8.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_xrengine20230313-2.0.1.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.9.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [je-web-runner-dev]: Start processing: reytool
+[2023-08-03 11:21:13] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Start processing: hiddifypanel
+[2023-08-03 11:21:13] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-08-03 11:21:13] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - main [MainThread]: End processing [alibabacloud-xrengine20230313]: success
+[2023-08-03 11:21:13] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-08-03 11:21:13] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-08-03 11:21:13] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-08-03 11:21:13] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev4] Old Version: [8.0.0.dev3]
+[2023-08-03 11:21:13] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-08-03 11:21:13] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-08-03 11:21:14] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/e9/9e/529a20b7d0fccc668c2c486671568d5e40fb7ae542e4065f4239767ef551/hiddifypanel-8.0.0.dev3.tar.gz
+[2023-08-03 11:21:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-03 11:21:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230803/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-03 11:21:14] INFO root fetch - processPackages [monocleaner]: Downloading https://files.pythonhosted.org/packages/74/e2/a71d383551a1390875731028568a6a0686b17041d605807c26479ab315a9/monocleaner-1.6.1.tar.gz
+[2023-08-03 11:21:14] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-2.0.0a2.tar.gz]
+[2023-08-03 11:21:14] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-2.0.0a3.tar.gz]
+[2023-08-03 11:21:14] INFO root fetch - main [MainThread]: End processing [ocean-contracts]: success
+[2023-08-03 11:21:14] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-08-03 11:21:14] INFO root fetch - processPackages [monocleaner]: executing diffoscope
+[2023-08-03 11:21:14] INFO root fetch - processPackages [monocleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monocleaner-1.6.tar.gz tmp/monocleaner-1.6.1.tar.gz --markdown 20230803/m/monocleaner/1.6-1.6.1/diff.md --exclude *.pyd
+[2023-08-03 11:21:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-03 11:21:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-03 11:21:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-03 11:21:14] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-08-03 11:21:14] ERROR root fetch - processPackages [spanishconjugator]: Diffoscope failed: time="2023-08-03T11:21:14+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.998.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.999.tar.gz: No such file or directory
+
+[2023-08-03 11:21:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator] error
+[2023-08-03 11:21:14] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-08-03 11:21:14] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-08-03 11:21:14] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230803/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-08-03 11:21:14] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-08-03 11:21:14] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230803/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-08-03 11:21:15] INFO root fetch - processPackages [monocleaner]: Remove: archive file [/home/abi/fetcher/tmp/monocleaner-1.6.tar.gz]
+[2023-08-03 11:21:15] INFO root fetch - processPackages [monocleaner]: Remove: archive file [/home/abi/fetcher/tmp/monocleaner-1.6.1.tar.gz]
+[2023-08-03 11:21:15] INFO root fetch - main [MainThread]: End processing [monocleaner]: success
+[2023-08-03 11:21:15] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/6d/9f/b0586435697ebe22f892ccbafc88deef9f4f4c1e2b47c107f3b6c4aa35fc/hiddifypanel-8.0.0.dev4.tar.gz
+[2023-08-03 11:21:15] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-08-03 11:21:15] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-08-03 11:21:15] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-08-03 11:21:16] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-08-03 11:21:16] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-08-03 11:21:16] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-08-03 11:21:17] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-03 11:21:17] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev3.tar.gz tmp/hiddifypanel-8.0.0.dev4.tar.gz --markdown 20230803/h/hiddifypanel/8.0.0.dev3-8.0.0.dev4/diff.md --exclude *.pyd
+[2023-08-03 11:21:17] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-08-03 11:21:17] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-08-03 11:21:17] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-08-03 11:21:22] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev3.tar.gz]
+[2023-08-03 11:21:22] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev4.tar.gz]
+[2023-08-03 11:21:22] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-03 11:21:22] INFO root fetch - main [MainThread]: Store serial: [19156972]
