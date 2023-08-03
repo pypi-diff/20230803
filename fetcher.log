@@ -5143,3 +5143,101 @@
 [2023-08-03 02:45:18] INFO root fetch - processPackages [djaodjin-extended-templates]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-extended-templates-0.4.4.tar.gz]
 [2023-08-03 02:45:18] INFO root fetch - main [MainThread]: End processing [djaodjin-extended-templates]: success
 [2023-08-03 02:45:18] INFO root fetch - main [MainThread]: Store serial: [19151256]
+[2023-08-03 02:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19151256]
+[2023-08-03 02:50:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-03 02:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-08-03 02:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystools
+[2023-08-03 02:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grouped-query-attention-pytorch
+[2023-08-03 02:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bolt
+[2023-08-03 02:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bmt
+[2023-08-03 02:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-comprehend-s3olap
+[2023-08-03 02:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubric-nightly
+[2023-08-03 02:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: attr-dot-dict
+[2023-08-03 02:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airbyte
+[2023-08-03 02:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: satori-docs
+[2023-08-03 02:50:27] INFO root fetch - processPackages [grouped-query-attention-pytorch]: New version: [0.2.0] Old Version: [0.1.0rc2]
+[2023-08-03 02:50:27] INFO root fetch - processPackages [bolt]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-03 02:50:27] INFO root fetch - processPackages [satori-docs]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-08-03 02:50:27] INFO root fetch - processPackages [attr-dot-dict]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-08-03 02:50:27] INFO root fetch - processPackages [bmt]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-03 02:50:27] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 02:50:27] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-08-03 02:50:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-03 02:50:27] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.8.3] Old Version: [2023.8.2]
+[2023-08-03 02:50:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-08-03 02:50:27] INFO root fetch - processPackages [satori-docs]: Downloading https://files.pythonhosted.org/packages/9b/b5/19bcd023f642bc740c9965ad9aad291d73db7df6c7885a3735aadb2887d5/satori_docs-1.0.3.tar.gz
+[2023-08-03 02:50:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-08-03 02:50:27] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-08-03 02:50:27] INFO root fetch - processPackages [attr-dot-dict]: Downloading https://files.pythonhosted.org/packages/10/26/8758c3a2319dd3c8f448b6c368467fec3ef797310c71337d83c4165181fc/attr-dot-dict-0.0.1.tar.gz
+[2023-08-03 02:50:27] INFO root fetch - processPackages [grouped-query-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/32/a4/f0af0040e5342781f963aee0270c2e7e5ac41a21e835fc5fd5b2270c8bb9/grouped_query_attention_pytorch-0.1.0rc2.tar.gz
+[2023-08-03 02:50:27] INFO root fetch - processPackages [bolt]: Downloading https://files.pythonhosted.org/packages/b0/b9/aaddbe8ae8cc9a097a85c0711e9c6d9607fa4d7468dfd1ab2f800d929674/bolt-0.9.0.tar.gz
+[2023-08-03 02:50:27] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-08-03 02:50:27] INFO root fetch - processPackages [bmt]: Downloading https://files.pythonhosted.org/packages/1c/e8/8f7994b3b545c9e089164910b19512034472321614441cf561f388ec5454/bmt-1.1.0.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/27/3c/b1a24e7530c5cb71cdd5d711c29fdefb1196ba40e2c02e33f82eee633038/kubric-nightly-2023.8.2.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [satori-docs]: Downloading https://files.pythonhosted.org/packages/b4/83/8eff148ce7b0b2fb5f92003f674ab2bbac49abaee2f5b36c80bb6914260d/satori_docs-1.1.0.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [grouped-query-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/3d/67/58f4e1c3d619e16666c040b2be1299a28e611435a4a9ea6b1b91359383b7/grouped_query_attention_pytorch-0.2.0.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [attr-dot-dict]: Downloading https://files.pythonhosted.org/packages/a2/20/5545f37264691945529a069abb646dab6de274dfdd6a327b22dff948cf0a/attr-dot-dict-0.1.0.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [bmt]: Downloading https://files.pythonhosted.org/packages/5c/8b/f2377ed1caa4e9657e4aa532abdedfd6550aff28dc3a1aeec638fb73eb71/bmt-1.1.1.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [bolt]: Downloading https://files.pythonhosted.org/packages/44/fb/099c90357e45099a47c6020a63bb445ee8cf608b319120018d3bcb6b4640/bolt-0.9.1.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/78/1d/d053971a778702fc9e396e947ea0ff6e2126c2b789eb7f5b2f8de12c71fc/kubric-nightly-2023.8.3.tar.gz
+[2023-08-03 02:50:28] INFO root fetch - processPackages [bmt]: executing diffoscope
+[2023-08-03 02:50:28] INFO root fetch - processPackages [bmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmt-1.1.0.tar.gz tmp/bmt-1.1.1.tar.gz --markdown 20230803/b/bmt/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-03 02:50:28] INFO root fetch - processPackages [attr-dot-dict]: executing diffoscope
+[2023-08-03 02:50:28] INFO root fetch - processPackages [attr-dot-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attr-dot-dict-0.0.1.tar.gz tmp/attr-dot-dict-0.1.0.tar.gz --markdown 20230803/a/attr-dot-dict/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-08-03 02:50:28] INFO root fetch - processPackages [grouped-query-attention-pytorch]: executing diffoscope
+[2023-08-03 02:50:28] INFO root fetch - processPackages [grouped-query-attention-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grouped_query_attention_pytorch-0.1.0rc2.tar.gz tmp/grouped_query_attention_pytorch-0.2.0.tar.gz --markdown 20230803/g/grouped-query-attention-pytorch/0.1.0rc2-0.2.0/diff.md --exclude *.pyd
+[2023-08-03 02:50:28] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-08-03 02:50:28] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230803/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 02:50:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-08-03 02:50:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230803/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-08-03 02:50:28] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-08-03 02:50:28] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Start processing: cdk-slack-chatbot
+[2023-08-03 02:50:28] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-08-03 02:50:28] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-08-03 02:50:28] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230803/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-08-03 02:50:28] INFO root fetch - processPackages [bolt]: executing diffoscope
+[2023-08-03 02:50:28] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-08-03 02:50:28] INFO root fetch - processPackages [bolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bolt-0.9.0.tar.gz tmp/bolt-0.9.1.tar.gz --markdown 20230803/b/bolt/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-03 02:50:28] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.8.2.tar.gz tmp/kubric-nightly-2023.8.3.tar.gz --markdown 20230803/k/kubric-nightly/2023.8.2-2023.8.3/diff.md --exclude *.pyd
+[2023-08-03 02:50:28] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-03 02:50:28] INFO root fetch - processPackages [satori-docs]: executing diffoscope
+[2023-08-03 02:50:28] INFO root fetch - processPackages [satori-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_docs-1.0.3.tar.gz tmp/satori_docs-1.1.0.tar.gz --markdown 20230803/s/satori-docs/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-08-03 02:50:29] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-08-03 02:50:29] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-08-03 02:50:29] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-08-03 02:50:29] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230803/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-03 02:50:30] INFO root fetch - processPackages [attr-dot-dict]: Remove: archive file [/home/abi/fetcher/tmp/attr-dot-dict-0.0.1.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - processPackages [attr-dot-dict]: Remove: archive file [/home/abi/fetcher/tmp/attr-dot-dict-0.1.0.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - main [MainThread]: End processing [attr-dot-dict]: success
+[2023-08-03 02:50:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-08-03 02:50:30] INFO root fetch - processPackages [bmt]: Remove: archive file [/home/abi/fetcher/tmp/bmt-1.1.0.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - processPackages [bmt]: Remove: archive file [/home/abi/fetcher/tmp/bmt-1.1.1.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - main [MainThread]: End processing [bmt]: success
+[2023-08-03 02:50:30] INFO root fetch - processPackages [bolt]: Remove: archive file [/home/abi/fetcher/tmp/bolt-0.9.0.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - processPackages [bolt]: Remove: archive file [/home/abi/fetcher/tmp/bolt-0.9.1.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - main [MainThread]: End processing [bolt]: success
+[2023-08-03 02:50:30] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-08-03 02:50:30] INFO root fetch - processPackages [grouped-query-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/grouped_query_attention_pytorch-0.1.0rc2.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - processPackages [grouped-query-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/grouped_query_attention_pytorch-0.2.0.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - main [MainThread]: End processing [grouped-query-attention-pytorch]: success
+[2023-08-03 02:50:30] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.8.2.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.8.3.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-08-03 02:50:30] INFO root fetch - processPackages [satori-docs]: Remove: archive file [/home/abi/fetcher/tmp/satori_docs-1.0.3.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - processPackages [satori-docs]: Remove: archive file [/home/abi/fetcher/tmp/satori_docs-1.1.0.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - main [MainThread]: End processing [satori-docs]: success
+[2023-08-03 02:50:30] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-08-03 02:50:30] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-08-03 02:50:31] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-08-03 02:50:31] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-08-03 02:50:31] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-08-03 02:50:31] INFO root fetch - main [MainThread]: Store serial: [19151291]
