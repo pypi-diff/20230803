@@ -14884,3 +14884,178 @@
 [2023-08-03 09:32:01] INFO root fetch - processPackages [python-libtiepie]: Remove: archive file [/home/abi/fetcher/tmp/python_libtiepie-1.1.8-py3-none-win_amd64.whl.zip]
 [2023-08-03 09:32:01] INFO root fetch - main [MainThread]: End processing [python-libtiepie]: success
 [2023-08-03 09:32:01] INFO root fetch - main [MainThread]: Store serial: [19155257]
+[2023-08-03 09:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19155257]
+[2023-08-03 09:37:10] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-03 09:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shapelets-native
+[2023-08-03 09:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyEthioJobs
+[2023-08-03 09:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: report-dh
+[2023-08-03 09:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-mio
+[2023-08-03 09:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multiHGtest
+[2023-08-03 09:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shapelets-platform
+[2023-08-03 09:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjptools
+[2023-08-03 09:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gotrue
+[2023-08-03 09:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bleuio
+[2023-08-03 09:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybbt
+[2023-08-03 09:37:10] INFO root fetch - processPackages [pyEthioJobs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-03 09:37:11] INFO root fetch - processPackages [multiHGtest]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 09:37:11] INFO root fetch - processPackages [cjptools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-03 09:37:11] INFO root fetch - processPackages [pybbt]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-03 09:37:11] INFO root fetch - processPackages [pih-mio]: New version: [1.48024] Old Version: [1.48023]
+[2023-08-03 09:37:11] INFO root fetch - processPackages [report-dh]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-03 09:37:11] INFO root fetch - processPackages [shapelets-platform]: New version: [2.0.97] Old Version: [2.0.96]
+[2023-08-03 09:37:11] INFO root fetch - processPackages [gotrue]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-03 09:37:11] INFO root fetch - processPackages [bleuio]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-03 09:37:11] INFO root fetch - processPackages [shapelets-native]: New version: [2.0.97] Old Version: [2.0.96]
+[2023-08-03 09:37:11] INFO root fetch - processPackages [gotrue]: Downloading https://files.pythonhosted.org/packages/2c/34/761b71dcc52925be3c89703970a7fb79aa024fd579b750b59a6a640a2d33/gotrue-1.0.2.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [pybbt]: Downloading https://files.pythonhosted.org/packages/2b/9a/e8dc327a4b56e5c5886b99df0eb2c2c2ffa1d232ad8e4ae05819bdd28759/pybbt-1.0.0.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [pyEthioJobs]: Downloading https://files.pythonhosted.org/packages/c6/33/1b54aba2cad32ccb087e0b4fa2e70f74a7796c76615954b1e1ca197f97b3/pyEthioJobs-0.0.4.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/ca/61/310c98f28cdee4f9643eebd855676e5c7be6042e137573cdc28768e8f575/report-dh-0.9.1.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/0e/9a/45cf8cc0d7bca146036b4bdfd6d5f258e4446d2f5667e9f162e5d158bf8f/pih-mio-1.48023.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/7c/bd/7d6934e25145c2774399d4dca191be4a599eabddc8d2c58a88ebd6bf1adc/shapelets-platform-2.0.96.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/a2/60/f6dc51c0f8248361e35b4a322501335592ba6a7305f1115bce08a94ae2a3/cjptools-0.1.4.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/bb/fb/fa6385ec7075e28d690f912d55db1ae70ee72dbf51013ae60cc31a20963c/shapelets_native-2.0.96-cp39-cp39-win_amd64.whl
+[2023-08-03 09:37:11] INFO root fetch - processPackages [multiHGtest]: Downloading https://files.pythonhosted.org/packages/59/1f/bdb6a0ab896b01ad0e0025282fbd2c626d81eeb447902278329eb376201e/multiHGtest-0.0.3.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [bleuio]: Downloading https://files.pythonhosted.org/packages/cc/19/5f65a46084497a4045f72465c567e62cfa7a5a50b528bee717458b0d8e65/bleuio-1.2.0-py3-none-any.whl
+[2023-08-03 09:37:11] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/46/6b/31920ea74c958ad93386f56bfb06760dfac1e7c2fbefd75115490c2ccf21/report-dh-0.9.2.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [gotrue]: Downloading https://files.pythonhosted.org/packages/4d/f3/270bf7baae491e7624f49d75aedb75525c0aac631f36879aa9e53faf48ee/gotrue-1.0.3.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [pyEthioJobs]: Downloading https://files.pythonhosted.org/packages/5b/3d/2f78860d875bf27c684e48f63ddaafb2da761b4bf148162efaf09d94d41d/pyEthioJobs-0.0.5.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [pybbt]: Downloading https://files.pythonhosted.org/packages/0d/83/7dedbe40efeac04ab4d04ac330f035b0ccb078c999977d536cbc029a9576/pybbt-1.0.1.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/03/26/b079f8efdeb3bc518cea5cf9e09e1c97b6ddcf605815910a2d86d88daaf5/pih-mio-1.48024.tar.gz
+[2023-08-03 09:37:11] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/76/f6/9a4e482607855f69dc32646b8172802bf8eaec0ae4182734402ff48cf2fe/cjptools-0.1.5.tar.gz
+[2023-08-03 09:37:12] INFO root fetch - processPackages [gotrue]: executing diffoscope
+[2023-08-03 09:37:12] INFO root fetch - processPackages [gotrue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotrue-1.0.2.tar.gz tmp/gotrue-1.0.3.tar.gz --markdown 20230803/g/gotrue/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-03 09:37:12] INFO root fetch - processPackages [multiHGtest]: Downloading https://files.pythonhosted.org/packages/cd/aa/3d59cd4a3f1a2c818a5ed439442a93b73f3ff3a591dcc51207428d62fb7b/multiHGtest-0.0.4.tar.gz
+[2023-08-03 09:37:12] INFO root fetch - processPackages [bleuio]: Downloading https://files.pythonhosted.org/packages/52/56/efcc4b9af3b178dd26fa6387337d808299d9d97602e283fbca334b621be2/bleuio-1.3.0-py3-none-any.whl
+[2023-08-03 09:37:12] INFO root fetch - processPackages [report-dh]: executing diffoscope
+[2023-08-03 09:37:12] INFO root fetch - processPackages [report-dh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-dh-0.9.1.tar.gz tmp/report-dh-0.9.2.tar.gz --markdown 20230803/r/report-dh/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-03 09:37:12] INFO root fetch - processPackages [pybbt]: executing diffoscope
+[2023-08-03 09:37:12] INFO root fetch - processPackages [pybbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybbt-1.0.0.tar.gz tmp/pybbt-1.0.1.tar.gz --markdown 20230803/p/pybbt/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-03 09:37:12] INFO root fetch - processPackages [pyEthioJobs]: executing diffoscope
+[2023-08-03 09:37:12] INFO root fetch - processPackages [pyEthioJobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEthioJobs-0.0.4.tar.gz tmp/pyEthioJobs-0.0.5.tar.gz --markdown 20230803/p/pyEthioJobs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-03 09:37:12] INFO root fetch - processPackages [cjptools]: executing diffoscope
+[2023-08-03 09:37:12] INFO root fetch - processPackages [cjptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjptools-0.1.4.tar.gz tmp/cjptools-0.1.5.tar.gz --markdown 20230803/c/cjptools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-03 09:37:12] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/6d/55/338b3acc4e10e5a199b285b221f1cbfe713e7410e6a891d0f3bf64829ee0/shapelets-platform-2.0.97.tar.gz
+[2023-08-03 09:37:12] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-08-03 09:37:12] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-1.48023.tar.gz tmp/pih-mio-1.48024.tar.gz --markdown 20230803/p/pih-mio/1.48023-1.48024/diff.md --exclude *.pyd
+[2023-08-03 09:37:12] INFO root fetch - processPackages [multiHGtest]: executing diffoscope
+[2023-08-03 09:37:12] INFO root fetch - processPackages [multiHGtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiHGtest-0.0.3.tar.gz tmp/multiHGtest-0.0.4.tar.gz --markdown 20230803/m/multiHGtest/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 09:37:12] INFO root fetch - processPackages [bleuio]: executing diffoscope
+[2023-08-03 09:37:12] INFO root fetch - processPackages [bleuio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bleuio-1.2.0-py3-none-any.whl.zip tmp/bleuio-1.3.0-py3-none-any.whl.zip --markdown 20230803/b/bleuio/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-03 09:37:12] INFO root fetch - processPackages [shapelets-platform]: executing diffoscope
+[2023-08-03 09:37:12] INFO root fetch - processPackages [shapelets-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets-platform-2.0.96.tar.gz tmp/shapelets-platform-2.0.97.tar.gz --markdown 20230803/s/shapelets-platform/2.0.96-2.0.97/diff.md --exclude *.pyd
+[2023-08-03 09:37:12] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/13/70/e57d7f617a052e227e8032fad7300c1e975d52cd0c208aa60840da0054b6/shapelets_native-2.0.97-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-03 09:37:12] WARNING root fetch - processPackages [shapelets-native]: Skipping package: exceeds size limit 14873742>=10485760
+[2023-08-03 09:37:12] INFO root fetch - processPackages [shapelets-native]: Start processing: cjptools
+[2023-08-03 09:37:12] INFO root fetch - main [MainThread]: End processing [shapelets-native] error
+[2023-08-03 09:37:12] INFO root fetch - processPackages [cjptools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [cjptools]: executing diffoscope
+[2023-08-03 09:37:13] INFO root fetch - processPackages [cjptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjptools-0.1.4.tar.gz tmp/cjptools-0.1.5.tar.gz --markdown 20230803/c/cjptools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-03 09:37:13] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.1.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.2.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [report-dh]: Start processing: open-aea-flashbots
+[2023-08-03 09:37:13] INFO root fetch - main [MainThread]: End processing [report-dh]: success
+[2023-08-03 09:37:13] INFO root fetch - processPackages [pybbt]: Remove: archive file [/home/abi/fetcher/tmp/pybbt-1.0.0.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [pybbt]: Remove: archive file [/home/abi/fetcher/tmp/pybbt-1.0.1.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [pybbt]: Start processing: lalsuite
+[2023-08-03 09:37:13] INFO root fetch - main [MainThread]: End processing [pybbt]: success
+[2023-08-03 09:37:13] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48023.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48024.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [pih-mio]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-08-03 09:37:13] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-08-03 09:37:13] INFO root fetch - processPackages [open-aea-flashbots]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [multiHGtest]: Remove: archive file [/home/abi/fetcher/tmp/multiHGtest-0.0.3.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [multiHGtest]: Remove: archive file [/home/abi/fetcher/tmp/multiHGtest-0.0.4.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [multiHGtest]: Start processing: agentmemory
+[2023-08-03 09:37:13] INFO root fetch - main [MainThread]: End processing [multiHGtest]: success
+[2023-08-03 09:37:13] INFO root fetch - processPackages [gotrue]: Remove: archive file [/home/abi/fetcher/tmp/gotrue-1.0.2.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [gotrue]: Remove: archive file [/home/abi/fetcher/tmp/gotrue-1.0.3.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [gotrue]: Start processing: alibabacloud-btripopen20220520
+[2023-08-03 09:37:13] INFO root fetch - main [MainThread]: End processing [gotrue]: success
+[2023-08-03 09:37:13] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [agentmemory]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [pyEthioJobs]: Remove: archive file [/home/abi/fetcher/tmp/pyEthioJobs-0.0.4.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [pyEthioJobs]: Remove: archive file [/home/abi/fetcher/tmp/pyEthioJobs-0.0.5.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [pyEthioJobs]: Start processing: ospd-openvas
+[2023-08-03 09:37:13] INFO root fetch - main [MainThread]: End processing [pyEthioJobs]: success
+[2023-08-03 09:37:13] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.4.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.5.tar.gz]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [cjptools]: Start processing: micrologai
+[2023-08-03 09:37:13] INFO root fetch - main [MainThread]: End processing [cjptools]: success
+[2023-08-03 09:37:13] INFO root fetch - processPackages [bleuio]: Remove: archive file [/home/abi/fetcher/tmp/bleuio-1.2.0-py3-none-any.whl.zip]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [bleuio]: Remove: archive file [/home/abi/fetcher/tmp/bleuio-1.3.0-py3-none-any.whl.zip]
+[2023-08-03 09:37:13] INFO root fetch - main [MainThread]: End processing [bleuio]: success
+[2023-08-03 09:37:13] INFO root fetch - processPackages [ospd-openvas]: New version: [22.5.4] Old Version: [22.5.3]
+[2023-08-03 09:37:13] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-03 09:37:14] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-08-03 09:37:14] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-08-03 09:37:14] INFO root fetch - processPackages [micrologai]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-08-03 09:37:14] INFO root fetch - processPackages [open-aea-flashbots]: Downloading https://files.pythonhosted.org/packages/da/c3/8f1f8690055266e6eef18d197a7af2c0b5a842052b15ea29027ea969f00a/open-aea-flashbots-1.2.0.tar.gz
+[2023-08-03 09:37:14] ERROR root fetch - processPackages [cjptools]: Diffoscope failed: time="2023-08-03T09:37:13+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/cjptools-0.1.4.tar.gz does not exist
+
+[2023-08-03 09:37:14] INFO root fetch - main [MainThread]: End processing [cjptools] error
+[2023-08-03 09:37:14] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/df/71/00351343d592685a94483cb1c062b57f0935ed2beb95d26351c73065530b/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz
+[2023-08-03 09:37:14] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/de/98/73d05a28563088141efbde506f59660d05d8ff2d2909b19659857aeae99b/alibabacloud_btripopen20220520-1.1.8.tar.gz
+[2023-08-03 09:37:14] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/35/87/e8ce36c7ad1417e69e394b0f24133c8934f474950b51cc039cf0193ba4ed/agentmemory-0.2.7.tar.gz
+[2023-08-03 09:37:14] INFO root fetch - processPackages [ospd-openvas]: Downloading https://files.pythonhosted.org/packages/0a/8e/8df9be923549f7869e28cb4350c909d64f92d85d338ed92263184b274463/ospd_openvas-22.5.3.tar.gz
+[2023-08-03 09:37:14] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/e9/5a/8024aca913930e3e930f80a8864d2f12c6fb167b17827eceda2f195c9788/micrologai-1.3.5.tar.gz
+[2023-08-03 09:37:14] INFO root fetch - processPackages [open-aea-flashbots]: Downloading https://files.pythonhosted.org/packages/8d/2b/3f980966ae41ef5b06d72b30fc6dd8df4e435728a9e1ea9af689f9a639b9/open-aea-flashbots-1.3.0.tar.gz
+[2023-08-03 09:37:14] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/44/19/aeb346aa00abe6e79e96bb89d0272dd7080e9991c30558946a4e6a0108c4/agentmemory-0.3.0.tar.gz
+[2023-08-03 09:37:14] INFO root fetch - processPackages [open-aea-flashbots]: executing diffoscope
+[2023-08-03 09:37:14] INFO root fetch - processPackages [open-aea-flashbots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-flashbots-1.2.0.tar.gz tmp/open-aea-flashbots-1.3.0.tar.gz --markdown 20230803/o/open-aea-flashbots/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-03 09:37:14] INFO root fetch - processPackages [ospd-openvas]: Downloading https://files.pythonhosted.org/packages/d7/d1/76532852c8d7340f5913fc6f80e8b954e1e864742cd954132ab9365b2f6f/ospd_openvas-22.5.4.tar.gz
+[2023-08-03 09:37:14] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/45/bb/bde80949695da61ededa0597d7ddadb0ec652b26252e61e97727130da792/alibabacloud_btripopen20220520-1.1.9.tar.gz
+[2023-08-03 09:37:14] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/17/2f/b1114b5515489315daea25d9c2eaf4226b72feaf0ab33a369c0f381ce001/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz
+[2023-08-03 09:37:14] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-08-03 09:37:14] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.2.7.tar.gz tmp/agentmemory-0.3.0.tar.gz --markdown 20230803/a/agentmemory/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-08-03 09:37:14] INFO root fetch - processPackages [ospd-openvas]: executing diffoscope
+[2023-08-03 09:37:14] INFO root fetch - processPackages [ospd-openvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ospd_openvas-22.5.3.tar.gz tmp/ospd_openvas-22.5.4.tar.gz --markdown 20230803/o/ospd-openvas/22.5.3-22.5.4/diff.md --exclude *.pyd
+[2023-08-03 09:37:14] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-08-03 09:37:14] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz --markdown 20230803/a/alibabacloud-btripopen20220520-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-03 09:37:14] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-08-03 09:37:14] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.1.8.tar.gz tmp/alibabacloud_btripopen20220520-1.1.9.tar.gz --markdown 20230803/a/alibabacloud-btripopen20220520/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-03 09:37:14] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/2d/83/fe534916d49e9bdf1671db37b88f61c03fecb4e00db5c8aa367a42c0c648/micrologai-1.3.6.tar.gz
+[2023-08-03 09:37:15] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.96.tar.gz]
+[2023-08-03 09:37:15] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.97.tar.gz]
+[2023-08-03 09:37:15] INFO root fetch - main [MainThread]: End processing [shapelets-platform]: success
+[2023-08-03 09:37:15] INFO root fetch - processPackages [open-aea-flashbots]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-flashbots-1.2.0.tar.gz]
+[2023-08-03 09:37:15] INFO root fetch - processPackages [open-aea-flashbots]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-flashbots-1.3.0.tar.gz]
+[2023-08-03 09:37:15] INFO root fetch - main [MainThread]: End processing [open-aea-flashbots]: success
+[2023-08-03 09:37:15] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.2.7.tar.gz]
+[2023-08-03 09:37:15] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.3.0.tar.gz]
+[2023-08-03 09:37:15] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-08-03 09:37:15] INFO root fetch - processPackages [micrologai]: executing diffoscope
+[2023-08-03 09:37:15] INFO root fetch - processPackages [micrologai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrologai-1.3.5.tar.gz tmp/micrologai-1.3.6.tar.gz --markdown 20230803/m/micrologai/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-08-03 09:37:16] INFO root fetch - processPackages [ospd-openvas]: Remove: archive file [/home/abi/fetcher/tmp/ospd_openvas-22.5.3.tar.gz]
+[2023-08-03 09:37:16] INFO root fetch - processPackages [ospd-openvas]: Remove: archive file [/home/abi/fetcher/tmp/ospd_openvas-22.5.4.tar.gz]
+[2023-08-03 09:37:16] INFO root fetch - main [MainThread]: End processing [ospd-openvas]: success
+[2023-08-03 09:37:16] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz]
+[2023-08-03 09:37:16] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz]
+[2023-08-03 09:37:16] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-08-03 09:37:16] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.8.tar.gz]
+[2023-08-03 09:37:16] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.9.tar.gz]
+[2023-08-03 09:37:16] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-08-03 09:37:17] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.5.tar.gz]
+[2023-08-03 09:37:17] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.6.tar.gz]
+[2023-08-03 09:37:17] INFO root fetch - main [MainThread]: End processing [micrologai]: success
+[2023-08-03 09:37:17] INFO root fetch - main [MainThread]: Store serial: [19155329]
