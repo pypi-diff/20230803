@@ -9447,3 +9447,36 @@
 [2023-08-03 04:02:09] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-08-03 04:02:09] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
 [2023-08-03 04:02:09] INFO root fetch - main [MainThread]: Store serial: [19152738]
+[2023-08-03 04:07:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152738]
+[2023-08-03 04:07:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-03 04:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automation-file-dev
+[2023-08-03 04:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bdplot
+[2023-08-03 04:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automation-file
+[2023-08-03 04:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RegScale-CLI
+[2023-08-03 04:07:19] INFO root fetch - processPackages [automation-file]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 04:07:19] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 04:07:19] WARNING root fetch - processPackages [bdplot]: Skipping, unable to determine old version
+[2023-08-03 04:07:19] INFO root fetch - main [MainThread]: End processing [bdplot] error
+[2023-08-03 04:07:19] INFO root fetch - processPackages [RegScale-CLI]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-08-03 04:07:19] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/2b/3f/878438fa28f5ffd3c38125c73b4b234937896776bf6f52a64031c5602a30/RegScale_CLI-5.8.0-py3-none-any.whl
+[2023-08-03 04:07:19] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/a8/ac/0c7d47373834088c1e51432abf5758c7c09f8c3303b11513d87897381400/automation_file_dev-0.0.8.tar.gz
+[2023-08-03 04:07:19] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/5f/4c/2b84f4134629f3fc1f1f99b2cf878073fad61f7fc5f56f406e4197bc3eca/automation_file-0.0.8.tar.gz
+[2023-08-03 04:07:19] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/81/07/778978d646b2a15a81f5db8b7ec76ce6f41543e491b67f82cc41051e8332/RegScale_CLI-5.9.0-py3-none-any.whl
+[2023-08-03 04:07:19] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2023-08-03 04:07:19] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip --markdown 20230803/R/RegScale-CLI/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-08-03 04:07:19] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/01/7f/12e7511afb9c1d3533be1bb5782b028b4e743036972a3bed3ce053bb52ac/automation_file_dev-0.0.9.tar.gz
+[2023-08-03 04:07:19] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/61/d5/25a9248a3f46d8aff54ddc54143797f9b35549506743ec8ed413213e29b1/automation_file-0.0.9.tar.gz
+[2023-08-03 04:07:19] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-08-03 04:07:19] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.8.tar.gz tmp/automation_file_dev-0.0.9.tar.gz --markdown 20230803/a/automation-file-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 04:07:19] INFO root fetch - processPackages [automation-file]: executing diffoscope
+[2023-08-03 04:07:19] INFO root fetch - processPackages [automation-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file-0.0.8.tar.gz tmp/automation_file-0.0.9.tar.gz --markdown 20230803/a/automation-file/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 04:07:20] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip]
+[2023-08-03 04:07:20] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip]
+[2023-08-03 04:07:20] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2023-08-03 04:07:20] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.8.tar.gz]
+[2023-08-03 04:07:20] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.9.tar.gz]
+[2023-08-03 04:07:20] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-08-03 04:07:20] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.8.tar.gz]
+[2023-08-03 04:07:20] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.9.tar.gz]
+[2023-08-03 04:07:20] INFO root fetch - main [MainThread]: End processing [automation-file]: success
+[2023-08-03 04:07:20] INFO root fetch - main [MainThread]: Store serial: [19152751]
