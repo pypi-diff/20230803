@@ -9972,3 +9972,113 @@
 [2023-08-03 04:38:43] INFO root fetch - processPackages [blender-stubs]: Remove: archive file [/home/abi/fetcher/tmp/blender-stubs-3.2.0.27.dev5745415930.tar.gz]
 [2023-08-03 04:38:43] INFO root fetch - main [MainThread]: End processing [blender-stubs]: success
 [2023-08-03 04:38:43] INFO root fetch - main [MainThread]: Store serial: [19152937]
+[2023-08-03 04:43:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152937]
+[2023-08-03 04:43:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-03 04:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mopidy-yamusic
+[2023-08-03 04:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ycxiaomeng-demo
+[2023-08-03 04:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-prototyping-sdk.cdk-graph-plugin-diagram
+[2023-08-03 04:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-08-03 04:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.identity
+[2023-08-03 04:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-08-03 04:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-08-03 04:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-08-03 04:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.pipeline
+[2023-08-03 04:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.static-website
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 04:43:52] INFO root fetch - processPackages [mopidy-yamusic]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-08-03 04:43:52] WARNING root fetch - processPackages [ycxiaomeng-demo]: Skipping, unable to determine old version
+[2023-08-03 04:43:52] INFO root fetch - processPackages [ycxiaomeng-demo]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-08-03 04:43:52] INFO root fetch - main [MainThread]: End processing [ycxiaomeng-demo] error
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph-plugin-diagram]: New version: [0.19.59] Old Version: [0.19.58]
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-08-03 04:43:52] INFO root fetch - processPackages [mopidy-yamusic]: Downloading https://files.pythonhosted.org/packages/ea/4f/b9efa7d06ae181fa713f002505537dc25a1b184785a82841a80a8400fca2/mopidy-yamusic-2.2.1.tar.gz
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph-plugin-diagram]: Downloading https://files.pythonhosted.org/packages/53/37/fa8c2e2a0f7cddcc844098130d723475bc24ac399b42e32d0557c77963a3/aws_prototyping_sdk.cdk_graph_plugin_diagram-0.19.58.tar.gz
+[2023-08-03 04:43:52] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-08-03 04:43:53] WARNING root fetch - processPackages [aws-prototyping-sdk.cdk-graph-plugin-diagram]: Skipping package: exceeds size limit 85052927>=10485760
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph-plugin-diagram]: Start processing: lazymedia
+[2023-08-03 04:43:53] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cdk-graph-plugin-diagram] error
+[2023-08-03 04:43:53] INFO root fetch - processPackages [lazymedia]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-08-03 04:43:53] INFO root fetch - processPackages [mopidy-yamusic]: Downloading https://files.pythonhosted.org/packages/94/84/0bd16cfba0851d61fa50c3bb28a8c6c8b8bf0233c59a267232d0d953dfaa/mopidy-yamusic-2.2.2.tar.gz
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230803/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-08-03 04:43:53] INFO root fetch - processPackages [lazymedia]: Downloading https://files.pythonhosted.org/packages/32/77/1afeec63df9004596f6a554c15911f70f6c91c3781eeec6c0043daff2aef/lazymedia-0.0.2.tar.gz
+[2023-08-03 04:43:53] INFO root fetch - processPackages [mopidy-yamusic]: executing diffoscope
+[2023-08-03 04:43:53] INFO root fetch - processPackages [mopidy-yamusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mopidy-yamusic-2.2.1.tar.gz tmp/mopidy-yamusic-2.2.2.tar.gz --markdown 20230803/m/mopidy-yamusic/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230803/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230803/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230803/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230803/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230803/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230803/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-08-03 04:43:53] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230803/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-08-03 04:43:53] INFO root fetch - processPackages [lazymedia]: Downloading https://files.pythonhosted.org/packages/ba/33/bdc0645bbf1c57ad59fc7b940da4d384b63cca7febe4dfaa1a8154fdf96c/lazymedia-0.0.3.tar.gz
+[2023-08-03 04:43:54] INFO root fetch - processPackages [lazymedia]: executing diffoscope
+[2023-08-03 04:43:54] INFO root fetch - processPackages [lazymedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazymedia-0.0.2.tar.gz tmp/lazymedia-0.0.3.tar.gz --markdown 20230803/l/lazymedia/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-03 04:43:54] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz]
+[2023-08-03 04:43:54] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz]
+[2023-08-03 04:43:54] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Start processing: clientele
+[2023-08-03 04:43:54] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-08-03 04:43:54] INFO root fetch - processPackages [clientele]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-03 04:43:55] INFO root fetch - processPackages [mopidy-yamusic]: Remove: archive file [/home/abi/fetcher/tmp/mopidy-yamusic-2.2.1.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - processPackages [mopidy-yamusic]: Remove: archive file [/home/abi/fetcher/tmp/mopidy-yamusic-2.2.2.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - main [MainThread]: End processing [mopidy-yamusic]: success
+[2023-08-03 04:43:55] INFO root fetch - processPackages [clientele]: Downloading https://files.pythonhosted.org/packages/94/c1/4f7c946404b176d231d060b033bd93753c9103ad2811547dd94b64a7fd67/clientele-0.4.1.tar.gz
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-08-03 04:43:55] INFO root fetch - processPackages [clientele]: Downloading https://files.pythonhosted.org/packages/56/4a/f85b2121f0737f3f1dbd7eec9f916104c54b701ceee825a6bf146548c85d/clientele-0.4.2.tar.gz
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-08-03 04:43:55] INFO root fetch - processPackages [lazymedia]: Remove: archive file [/home/abi/fetcher/tmp/lazymedia-0.0.2.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - processPackages [lazymedia]: Remove: archive file [/home/abi/fetcher/tmp/lazymedia-0.0.3.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - main [MainThread]: End processing [lazymedia]: success
+[2023-08-03 04:43:55] INFO root fetch - processPackages [clientele]: executing diffoscope
+[2023-08-03 04:43:55] INFO root fetch - processPackages [clientele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clientele-0.4.1.tar.gz tmp/clientele-0.4.2.tar.gz --markdown 20230803/c/clientele/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-08-03 04:43:55] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-08-03 04:43:56] INFO root fetch - processPackages [clientele]: Remove: archive file [/home/abi/fetcher/tmp/clientele-0.4.1.tar.gz]
+[2023-08-03 04:43:56] INFO root fetch - processPackages [clientele]: Remove: archive file [/home/abi/fetcher/tmp/clientele-0.4.2.tar.gz]
+[2023-08-03 04:43:56] INFO root fetch - main [MainThread]: End processing [clientele]: success
+[2023-08-03 04:43:56] INFO root fetch - main [MainThread]: Store serial: [19152977]
