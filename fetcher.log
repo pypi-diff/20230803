@@ -5465,3 +5465,72 @@
 [2023-08-03 03:01:33] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-08-03 03:01:33] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
 [2023-08-03 03:01:33] INFO root fetch - main [MainThread]: Store serial: [19151366]
+[2023-08-03 03:06:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19151366]
+[2023-08-03 03:06:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-03 03:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iot-sdk-demo
+[2023-08-03 03:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dawgie
+[2023-08-03 03:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2023-08-03 03:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl-dev
+[2023-08-03 03:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anyforce
+[2023-08-03 03:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-curl
+[2023-08-03 03:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: r-lambda
+[2023-08-03 03:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Slpapy
+[2023-08-03 03:06:46] INFO root fetch - processPackages [r-lambda]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-03 03:06:46] INFO root fetch - processPackages [Slpapy]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-03 03:06:46] WARNING root fetch - processPackages [iot-sdk-demo]: Skipping, unable to determine old version
+[2023-08-03 03:06:46] INFO root fetch - main [MainThread]: End processing [iot-sdk-demo] error
+[2023-08-03 03:06:46] INFO root fetch - processPackages [dawgie]: New version: [1.4.1rc8] Old Version: [1.4.1rc7]
+[2023-08-03 03:06:46] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-08-03 03:06:46] INFO root fetch - processPackages [composabl-dev]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev5]
+[2023-08-03 03:06:46] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230803010110] Old Version: [2.2.1.dev20230802172732]
+[2023-08-03 03:06:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-03 03:06:46] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-08-03 03:06:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-08-03 03:06:46] INFO root fetch - processPackages [r-lambda]: Downloading https://files.pythonhosted.org/packages/41/b4/41f8de500cdb0af5e587714f2fb5cb54ac3f676d3a092ddf7260a4a00284/r_lambda-1.0.1.tar.gz
+[2023-08-03 03:06:46] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/87/21/daad73fae49ee38d4e52b0dcea7c1d31c3cec80c4b145a6a3a57d1d0d349/Slpapy-0.4.3.tar.gz
+[2023-08-03 03:06:46] INFO root fetch - processPackages [dawgie]: Downloading https://files.pythonhosted.org/packages/95/3c/6fd7ae325b86e0770ee93d094ed7db7b2cd1ad26c9f43dd532d36605d6b7/dawgie-1.4.1rc7.tar.gz
+[2023-08-03 03:06:46] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/f5/02/2455d127b6a97727340fd4a20ff4530769b8af192ef4dfae422c7f214278/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 03:06:46] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/69/a6/49038ae9fd9a964727dd0fa400a7ae08fc6fab3e70cb4944d5cc9f098b23/localstack-core-2.2.1.dev20230802172732.tar.gz
+[2023-08-03 03:06:46] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-08-03 03:06:46] INFO root fetch - processPackages [r-lambda]: Downloading https://files.pythonhosted.org/packages/5b/55/26eed3f1db30e453d5e883e9e22ef2a34823925abfd9f6cc42de4fc82d7e/r_lambda-1.0.2.tar.gz
+[2023-08-03 03:06:46] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-08-03 03:06:46] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230803/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 03:06:46] INFO root fetch - processPackages [dawgie]: Downloading https://files.pythonhosted.org/packages/fd/8d/7a1145366f56d68545b7633d80e3b1ff7938b72d17668b8c9491cfa621ba/dawgie-1.4.1rc8.tar.gz
+[2023-08-03 03:06:47] INFO root fetch - processPackages [r-lambda]: executing diffoscope
+[2023-08-03 03:06:47] INFO root fetch - processPackages [r-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r_lambda-1.0.1.tar.gz tmp/r_lambda-1.0.2.tar.gz --markdown 20230803/r/r-lambda/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-03 03:06:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-08-03 03:06:47] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/d6/40/68db0978741d4f02035306ec8700ab113a892e4379ffe007ff4e321d2e14/Slpapy-0.4.4.tar.gz
+[2023-08-03 03:06:47] INFO root fetch - processPackages [dawgie]: executing diffoscope
+[2023-08-03 03:06:47] INFO root fetch - processPackages [dawgie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dawgie-1.4.1rc7.tar.gz tmp/dawgie-1.4.1rc8.tar.gz --markdown 20230803/d/dawgie/1.4.1rc7-1.4.1rc8/diff.md --exclude *.pyd
+[2023-08-03 03:06:47] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/0b/f9/7e8ddb307622fb340a141693f32393ee8c8d3233577283790b8154a8f5e9/localstack-core-2.2.1.dev20230803010110.tar.gz
+[2023-08-03 03:06:47] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-08-03 03:06:47] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.4.3.tar.gz tmp/Slpapy-0.4.4.tar.gz --markdown 20230803/S/Slpapy/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-03 03:06:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-08-03 03:06:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230803/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-03 03:06:47] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/54/be/e399388bd48adf9263b327a838fa8fadc33f070b712563217db654e901ba/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 03:06:47] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-08-03 03:06:47] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-dev/0.3.9.dev5-0.3.9.dev8/diff.md --exclude *.pyd
+[2023-08-03 03:06:47] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-03 03:06:47] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230802172732.tar.gz tmp/localstack-core-2.2.1.dev20230803010110.tar.gz --markdown 20230803/l/localstack-core/2.2.1.dev20230802172732-2.2.1.dev20230803010110/diff.md --exclude *.pyd
+[2023-08-03 03:06:47] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-08-03 03:06:47] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-08-03 03:06:47] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-08-03 03:06:48] INFO root fetch - processPackages [r-lambda]: Remove: archive file [/home/abi/fetcher/tmp/r_lambda-1.0.1.tar.gz]
+[2023-08-03 03:06:48] INFO root fetch - processPackages [r-lambda]: Remove: archive file [/home/abi/fetcher/tmp/r_lambda-1.0.2.tar.gz]
+[2023-08-03 03:06:48] INFO root fetch - main [MainThread]: End processing [r-lambda]: success
+[2023-08-03 03:06:48] INFO root fetch - processPackages [Slpapy]: Remove: archive file [/home/abi/fetcher/tmp/Slpapy-0.4.3.tar.gz]
+[2023-08-03 03:06:48] INFO root fetch - processPackages [Slpapy]: Remove: archive file [/home/abi/fetcher/tmp/Slpapy-0.4.4.tar.gz]
+[2023-08-03 03:06:48] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-08-03 03:06:48] INFO root fetch - processPackages [dawgie]: Remove: archive file [/home/abi/fetcher/tmp/dawgie-1.4.1rc7.tar.gz]
+[2023-08-03 03:06:48] INFO root fetch - processPackages [dawgie]: Remove: archive file [/home/abi/fetcher/tmp/dawgie-1.4.1rc8.tar.gz]
+[2023-08-03 03:06:48] INFO root fetch - main [MainThread]: End processing [dawgie]: success
+[2023-08-03 03:06:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-08-03 03:06:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-08-03 03:06:48] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-08-03 03:06:49] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 03:06:49] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 03:06:49] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-08-03 03:06:51] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230802172732.tar.gz]
+[2023-08-03 03:06:51] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230803010110.tar.gz]
+[2023-08-03 03:06:51] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-03 03:06:51] INFO root fetch - main [MainThread]: Store serial: [19151395]
