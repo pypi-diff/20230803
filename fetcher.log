@@ -14773,3 +14773,114 @@
 [2023-08-03 09:26:41] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.2.0a1691044117.tar.gz]
 [2023-08-03 09:26:41] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
 [2023-08-03 09:26:41] INFO root fetch - main [MainThread]: Store serial: [19155197]
+[2023-08-03 09:31:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19155197]
+[2023-08-03 09:31:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-03 09:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-mio
+[2023-08-03 09:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iotPervasiveServiceSDK
+[2023-08-03 09:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selenium-driverless
+[2023-08-03 09:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-libtiepie
+[2023-08-03 09:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyEthioJobs
+[2023-08-03 09:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cntracer
+[2023-08-03 09:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-ns1
+[2023-08-03 09:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pih
+[2023-08-03 09:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fast-edit-distance
+[2023-08-03 09:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-rke
+[2023-08-03 09:31:50] INFO root fetch - processPackages [iotPervasiveServiceSDK]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-03 09:31:50] INFO root fetch - processPackages [pyEthioJobs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 09:31:50] INFO root fetch - processPackages [cntracer]: New version: [0.1.3] Old Version: [0.0.3]
+[2023-08-03 09:31:50] INFO root fetch - processPackages [selenium-driverless]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-08-03 09:31:50] INFO root fetch - processPackages [python-libtiepie]: New version: [1.1.8] Old Version: [1.1.6]
+[2023-08-03 09:31:50] INFO root fetch - processPackages [pulumi-rke]: New version: [3.3.0a1691044722] Old Version: [3.3.0a1690265253]
+[2023-08-03 09:31:50] INFO root fetch - processPackages [fast-edit-distance]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-03 09:31:50] INFO root fetch - processPackages [pih-mio]: New version: [1.48023] Old Version: [1.48022]
+[2023-08-03 09:31:50] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.1.0a1691046445] Old Version: [3.1.0a1690489503]
+[2023-08-03 09:31:50] INFO root fetch - processPackages [pih]: New version: [1.48030] Old Version: [1.48029]
+[2023-08-03 09:31:50] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/da/b7/556d3529becbfb7c959833e53ef6ef10ccab031ef6fac6b6ca1abb370a17/pih-1.48029.tar.gz
+[2023-08-03 09:31:50] INFO root fetch - processPackages [fast-edit-distance]: Downloading https://files.pythonhosted.org/packages/96/80/a33c207c569444b0fb557a802bba124eaa3719dd79f344d03a2994ece3a1/fast_edit_distance-1.2.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_24_x86_64.whl
+[2023-08-03 09:31:50] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/cc/42/1f4aaa34d9d90d60c13c0793d9b599934e6a7af3aa9aa6e66068806a41ef/iotPervasiveServiceSDK-0.0.2.tar.gz
+[2023-08-03 09:31:50] INFO root fetch - processPackages [pyEthioJobs]: Downloading https://files.pythonhosted.org/packages/f9/a5/28e0cd4b0fa2c0aa39a437ecf0eede4bae7f603e2e0ccfcc7d5748c3b36b/pyEthioJobs-0.0.3.tar.gz
+[2023-08-03 09:31:50] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/e2/1c/d0ed643cde79cfc8c95b5e58e3a2b9da911821e406c53e6f07e74b2c44ac/cntracer-0.0.3-cp39-cp39-win_amd64.whl
+[2023-08-03 09:31:50] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/3b/d7/1a367d3ecfcb610ef13747bce624fbe2820020c7a52f29220fe9d3868449/pih-mio-1.48022.tar.gz
+[2023-08-03 09:31:50] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/09/80/cea57ba454af4142b99af5e769babc9eb075a86d8bb44363110e359b20df/selenium_driverless-1.2.4.tar.gz
+[2023-08-03 09:31:50] INFO root fetch - processPackages [python-libtiepie]: Downloading https://files.pythonhosted.org/packages/4a/4d/31a82edebdbcf2640096ba99bb27ef142149d9619224744189a1714a9a6d/python_libtiepie-1.1.6-py3-none-win_amd64.whl
+[2023-08-03 09:31:50] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/79/2a/5d2ef69463eccac6aac5ba2f31955558bd18709c7cf47e57658553d91b3f/pulumi_rke-3.3.0a1690265253.tar.gz
+[2023-08-03 09:31:50] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/72/b7/5555f5f1e91554b0c977664008487d05310a52423a784f57d4dc98e176a5/pulumi_ns1-3.1.0a1690489503.tar.gz
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/b1/f6/02fde3e7f7de640d4e76c9441ac9322a9a4fa5e31e1e27d4056b4215d601/pih-1.48030.tar.gz
+[2023-08-03 09:31:51] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/ee/33/ea35d1d32118dcbd1421ef037ffd13f91ba50057216684c7f23467930931/iotPervasiveServiceSDK-0.0.3.tar.gz
+[2023-08-03 09:31:51] INFO root fetch - processPackages [fast-edit-distance]: Downloading https://files.pythonhosted.org/packages/fd/97/2b190303c56f444a3703456aff8951bfd5a425335e9034fd87b24bc2cc9d/fast_edit_distance-1.2.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pyEthioJobs]: Downloading https://files.pythonhosted.org/packages/c6/33/1b54aba2cad32ccb087e0b4fa2e70f74a7796c76615954b1e1ca197f97b3/pyEthioJobs-0.0.4.tar.gz
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/0e/9a/45cf8cc0d7bca146036b4bdfd6d5f258e4446d2f5667e9f162e5d158bf8f/pih-mio-1.48023.tar.gz
+[2023-08-03 09:31:51] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/ed/90/dfa3f2a4a446dad579bf7b2d053c8a844d81ed01a545f965831b5be39761/cntracer-0.1.3-cp39-cp39-musllinux_1_1_x86_64.whl
+[2023-08-03 09:31:51] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/e1/20/c70ff0dd66a07c3f691c674f71f1c0b983f43a3d20d24cca89f73333e75c/selenium_driverless-1.2.5.tar.gz
+[2023-08-03 09:31:51] INFO root fetch - processPackages [iotPervasiveServiceSDK]: executing diffoscope
+[2023-08-03 09:31:51] INFO root fetch - processPackages [iotPervasiveServiceSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotPervasiveServiceSDK-0.0.2.tar.gz tmp/iotPervasiveServiceSDK-0.0.3.tar.gz --markdown 20230803/i/iotPervasiveServiceSDK/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/cc/e9/c872cf7562da122c6fc2d29cbb55f698f24ba34d20068648a24898a22ae8/pulumi_rke-3.3.0a1691044722.tar.gz
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48029.tar.gz tmp/pih-1.48030.tar.gz --markdown 20230803/p/pih/1.48029-1.48030/diff.md --exclude *.pyd
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-1.48022.tar.gz tmp/pih-mio-1.48023.tar.gz --markdown 20230803/p/pih-mio/1.48022-1.48023/diff.md --exclude *.pyd
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/05/9d/aa733a9d9f978edcd2d7693ea38a52b28726e3653bfa940add7f24296fdb/pulumi_ns1-3.1.0a1691046445.tar.gz
+[2023-08-03 09:31:51] INFO root fetch - processPackages [selenium-driverless]: executing diffoscope
+[2023-08-03 09:31:51] INFO root fetch - processPackages [selenium-driverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_driverless-1.2.4.tar.gz tmp/selenium_driverless-1.2.5.tar.gz --markdown 20230803/s/selenium-driverless/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pyEthioJobs]: executing diffoscope
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pyEthioJobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEthioJobs-0.0.3.tar.gz tmp/pyEthioJobs-0.0.4.tar.gz --markdown 20230803/p/pyEthioJobs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 09:31:51] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2023-08-03 09:31:51] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-0.0.3-cp39-cp39-win_amd64.whl.zip tmp/cntracer-0.1.3-cp39-cp39-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/cntracer/0.0.3-0.1.3/diff.md --exclude *.pyd
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.3.0a1690265253.tar.gz tmp/pulumi_rke-3.3.0a1691044722.tar.gz --markdown 20230803/p/pulumi-rke/3.3.0a1690265253-3.3.0a1691044722/diff.md --exclude *.pyd
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2023-08-03 09:31:51] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.1.0a1690489503.tar.gz tmp/pulumi_ns1-3.1.0a1691046445.tar.gz --markdown 20230803/p/pulumi-ns1/3.1.0a1690489503-3.1.0a1691046445/diff.md --exclude *.pyd
+[2023-08-03 09:31:51] INFO root fetch - processPackages [fast-edit-distance]: executing diffoscope
+[2023-08-03 09:31:51] INFO root fetch - processPackages [fast-edit-distance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_edit_distance-1.2.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_24_x86_64.whl.zip tmp/fast_edit_distance-1.2.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230803/f/fast-edit-distance/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-03 09:31:52] INFO root fetch - processPackages [python-libtiepie]: Downloading https://files.pythonhosted.org/packages/87/c1/76246ddd9e6f21c849214521c783603f6dacbd50aba41a2ad35c8ae4bac6/python_libtiepie-1.1.8-py3-none-win_amd64.whl
+[2023-08-03 09:31:52] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.0.3-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 09:31:52] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.1.3-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 09:31:52] INFO root fetch - processPackages [cntracer]: Start processing: construct-typing
+[2023-08-03 09:31:52] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2023-08-03 09:31:52] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.2.tar.gz]
+[2023-08-03 09:31:52] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.3.tar.gz]
+[2023-08-03 09:31:52] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Start processing: nemusicapi
+[2023-08-03 09:31:52] INFO root fetch - main [MainThread]: End processing [iotPervasiveServiceSDK]: success
+[2023-08-03 09:31:52] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48029.tar.gz]
+[2023-08-03 09:31:52] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48030.tar.gz]
+[2023-08-03 09:31:52] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-03 09:31:53] INFO root fetch - processPackages [construct-typing]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-03 09:31:53] INFO root fetch - processPackages [nemusicapi]: New version: [0.0.4a3] Old Version: [0.0.4a2]
+[2023-08-03 09:31:53] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1690265253.tar.gz]
+[2023-08-03 09:31:53] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1691044722.tar.gz]
+[2023-08-03 09:31:53] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2023-08-03 09:31:53] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/3a/7c/5cdc0d34f97fc73d161caa9ebb5da9aedf85f36bed0672e5ef7c89447a25/nemusicapi-0.0.4a2.tar.gz
+[2023-08-03 09:31:53] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1690489503.tar.gz]
+[2023-08-03 09:31:53] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1691046445.tar.gz]
+[2023-08-03 09:31:53] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2023-08-03 09:31:53] INFO root fetch - processPackages [pyEthioJobs]: Remove: archive file [/home/abi/fetcher/tmp/pyEthioJobs-0.0.3.tar.gz]
+[2023-08-03 09:31:53] INFO root fetch - processPackages [pyEthioJobs]: Remove: archive file [/home/abi/fetcher/tmp/pyEthioJobs-0.0.4.tar.gz]
+[2023-08-03 09:31:53] INFO root fetch - main [MainThread]: End processing [pyEthioJobs]: success
+[2023-08-03 09:31:53] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48022.tar.gz]
+[2023-08-03 09:31:53] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48023.tar.gz]
+[2023-08-03 09:31:53] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-08-03 09:31:53] INFO root fetch - processPackages [construct-typing]: Downloading https://files.pythonhosted.org/packages/5d/dd/1dc08eb8bb34cbeaff9bf335684284441ecf8f412bb9df561b1c37eb6f68/construct-typing-0.6.1.tar.gz
+[2023-08-03 09:31:53] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.2.4.tar.gz]
+[2023-08-03 09:31:53] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.2.5.tar.gz]
+[2023-08-03 09:31:53] INFO root fetch - main [MainThread]: End processing [selenium-driverless]: success
+[2023-08-03 09:31:53] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/8f/62/36c3f643baa556d77ecc010715639758fdef95c3c38718646eb6429335af/nemusicapi-0.0.4a3.tar.gz
+[2023-08-03 09:31:53] INFO root fetch - processPackages [construct-typing]: Downloading https://files.pythonhosted.org/packages/f1/13/c609e60a687252813aa4b69f989f42754ccd5e217717216fc852eefedfd7/construct-typing-0.6.2.tar.gz
+[2023-08-03 09:31:53] INFO root fetch - processPackages [python-libtiepie]: executing diffoscope
+[2023-08-03 09:31:53] INFO root fetch - processPackages [python-libtiepie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_libtiepie-1.1.6-py3-none-win_amd64.whl.zip tmp/python_libtiepie-1.1.8-py3-none-win_amd64.whl.zip --markdown 20230803/p/python-libtiepie/1.1.6-1.1.8/diff.md --exclude *.pyd
+[2023-08-03 09:31:53] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 09:31:53] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.4a2.tar.gz tmp/nemusicapi-0.0.4a3.tar.gz --markdown 20230803/n/nemusicapi/0.0.4a2-0.0.4a3/diff.md --exclude *.pyd
+[2023-08-03 09:31:53] INFO root fetch - processPackages [construct-typing]: executing diffoscope
+[2023-08-03 09:31:53] INFO root fetch - processPackages [construct-typing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/construct-typing-0.6.1.tar.gz tmp/construct-typing-0.6.2.tar.gz --markdown 20230803/c/construct-typing/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-03 09:31:53] INFO root fetch - processPackages [fast-edit-distance]: Remove: archive file [/home/abi/fetcher/tmp/fast_edit_distance-1.2.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_24_x86_64.whl.zip]
+[2023-08-03 09:31:53] INFO root fetch - processPackages [fast-edit-distance]: Remove: archive file [/home/abi/fetcher/tmp/fast_edit_distance-1.2.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-03 09:31:53] INFO root fetch - main [MainThread]: End processing [fast-edit-distance]: success
+[2023-08-03 09:31:54] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.4a2.tar.gz]
+[2023-08-03 09:31:54] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.4a3.tar.gz]
+[2023-08-03 09:31:54] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 09:31:54] INFO root fetch - processPackages [construct-typing]: Remove: archive file [/home/abi/fetcher/tmp/construct-typing-0.6.1.tar.gz]
+[2023-08-03 09:31:54] INFO root fetch - processPackages [construct-typing]: Remove: archive file [/home/abi/fetcher/tmp/construct-typing-0.6.2.tar.gz]
+[2023-08-03 09:31:54] INFO root fetch - main [MainThread]: End processing [construct-typing]: success
+[2023-08-03 09:32:01] INFO root fetch - processPackages [python-libtiepie]: Remove: archive file [/home/abi/fetcher/tmp/python_libtiepie-1.1.6-py3-none-win_amd64.whl.zip]
+[2023-08-03 09:32:01] INFO root fetch - processPackages [python-libtiepie]: Remove: archive file [/home/abi/fetcher/tmp/python_libtiepie-1.1.8-py3-none-win_amd64.whl.zip]
+[2023-08-03 09:32:01] INFO root fetch - main [MainThread]: End processing [python-libtiepie]: success
+[2023-08-03 09:32:01] INFO root fetch - main [MainThread]: Store serial: [19155257]
