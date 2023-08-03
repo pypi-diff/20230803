@@ -11921,3 +11921,9 @@
 [2023-08-03 06:36:21] INFO root fetch - processPackages [badsecrets]: Remove: archive file [/home/abi/fetcher/tmp/badsecrets-0.4.412.tar.gz]
 [2023-08-03 06:36:21] INFO root fetch - main [MainThread]: End processing [badsecrets]: success
 [2023-08-03 06:36:21] INFO root fetch - main [MainThread]: Store serial: [19153744]
+[2023-08-03 06:41:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153744]
+[2023-08-03 06:41:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-08-03 06:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kentoml
+[2023-08-03 06:41:30] WARNING root fetch - processPackages [kentoml]: Skipping, unable to determine old version
+[2023-08-03 06:41:30] INFO root fetch - main [MainThread]: End processing [kentoml] error
+[2023-08-03 06:41:30] INFO root fetch - main [MainThread]: Store serial: [19153750]
