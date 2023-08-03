@@ -20250,3 +20250,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 11:58:36] INFO root fetch - processPackages [swmm-api]: Remove: archive file [/home/abi/fetcher/tmp/swmm-api-0.4.9.tar.gz]
 [2023-08-03 11:58:36] INFO root fetch - main [MainThread]: End processing [swmm-api]: success
 [2023-08-03 11:58:36] INFO root fetch - main [MainThread]: Store serial: [19157434]
+[2023-08-03 12:03:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157434]
+[2023-08-03 12:03:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-03 12:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mknodes
+[2023-08-03 12:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biaslyze
+[2023-08-03 12:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellar-extractor
+[2023-08-03 12:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fosslight-source
+[2023-08-03 12:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bipl
+[2023-08-03 12:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagster-polars
+[2023-08-03 12:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langfuse
+[2023-08-03 12:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DjangoDynamicDrive
+[2023-08-03 12:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bootloader-core-library
+[2023-08-03 12:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meggie
+[2023-08-03 12:03:45] INFO root fetch - processPackages [bipl]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-03 12:03:45] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-03 12:03:45] INFO root fetch - processPackages [bootloader-core-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 12:03:45] INFO root fetch - processPackages [fosslight-source]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-08-03 12:03:45] INFO root fetch - processPackages [langfuse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 12:03:45] INFO root fetch - processPackages [cellar-extractor]: New version: [1.0.54] Old Version: [1.0.53]
+[2023-08-03 12:03:45] INFO root fetch - processPackages [meggie]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-08-03 12:03:45] INFO root fetch - processPackages [biaslyze]: New version: [0.0.8a0] Old Version: [0.0.7a0]
+[2023-08-03 12:03:45] INFO root fetch - processPackages [dagster-polars]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-03 12:03:45] WARNING root fetch - processPackages [DjangoDynamicDrive]: Skipping, unable to determine old version
+[2023-08-03 12:03:45] INFO root fetch - processPackages [DjangoDynamicDrive]: Start processing: titan-iris
+[2023-08-03 12:03:45] INFO root fetch - main [MainThread]: End processing [DjangoDynamicDrive] error
+[2023-08-03 12:03:45] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-08-03 12:03:45] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/d3/22/b543ce793700f6a6f3418d8eb473f9ab8a74509deb9381428ad3c21feb8d/bootloader_core_library-0.0.8.tar.gz
+[2023-08-03 12:03:45] INFO root fetch - processPackages [fosslight-source]: Downloading https://files.pythonhosted.org/packages/ee/81/9d5938e4f4b84f30990232b1c32ac6d1f0a4b51b609e7d7fef02cca1c97b/fosslight_source-1.6.8.tar.gz
+[2023-08-03 12:03:45] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/fc/40/3ef74e4912171af535ce42a8496b5d514b756a0b45ff32bc1feed39955ef/langfuse-0.0.8.tar.gz
+[2023-08-03 12:03:45] INFO root fetch - processPackages [bipl]: Downloading https://files.pythonhosted.org/packages/c5/8c/3e5c55eb44c93e077e43c5f5297c9cefed6b7111620cfb119806b99d409a/bipl-0.3.3.tar.gz
+[2023-08-03 12:03:45] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-08-03 12:03:45] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/ba/aa/6f7d45b676c3a17768df2f0b0da5efd1ed9b8cefac76a5dc0ed82e560bdd/cellar_extractor-1.0.53.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [meggie]: Downloading https://files.pythonhosted.org/packages/dc/04/dacd3e1ea175728c02cdc156b69129b42a0316cdad01f7b21ea3ace3f564/meggie-1.5.1.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [dagster-polars]: Downloading https://files.pythonhosted.org/packages/de/cd/2a8bf9aaddfef8ef807655d416d188aa7b0fe1779c2ef3a03cbecb6664f0/dagster_polars-0.0.6.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [biaslyze]: Downloading https://files.pythonhosted.org/packages/1d/ee/0196f9f75d985eb749929e1fa06029ae962289c978bc1defbcb214e94054/biaslyze-0.0.7a0.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/a3/6a/95eb0d740a1f91ce539617150bdf06282bad7e47ab66b7bf599d696f52d9/langfuse-0.0.9.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/b9/99/23a241c351518223bfc4593969cd5f300baf27d2c8a62e61cbe501902e47/bootloader_core_library-0.0.9.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [fosslight-source]: Downloading https://files.pythonhosted.org/packages/9d/81/a3d8e1dafb41eb63278bfb32976a9fc72dcca248bd42ca726c302c026a86/fosslight_source-1.6.9.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [bootloader-core-library]: executing diffoscope
+[2023-08-03 12:03:46] INFO root fetch - processPackages [bootloader-core-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootloader_core_library-0.0.8.tar.gz tmp/bootloader_core_library-0.0.9.tar.gz --markdown 20230803/b/bootloader-core-library/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 12:03:46] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-08-03 12:03:46] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.8.tar.gz tmp/langfuse-0.0.9.tar.gz --markdown 20230803/l/langfuse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 12:03:46] INFO root fetch - processPackages [bipl]: Downloading https://files.pythonhosted.org/packages/06/3c/1bf9a17f52949a4a25e9d71f2b5010989c26841c72f4ceab7daee8f57c6d/bipl-0.3.4.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/6d/1d/8e80d0d1e00116875cfc85e742de4e3ac71cda1b349d5c8918ff976d205d/cellar_extractor-1.0.54.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [fosslight-source]: executing diffoscope
+[2023-08-03 12:03:46] INFO root fetch - processPackages [fosslight-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_source-1.6.8.tar.gz tmp/fosslight_source-1.6.9.tar.gz --markdown 20230803/f/fosslight-source/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-08-03 12:03:46] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-08-03 12:03:46] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230803/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 12:03:46] INFO root fetch - processPackages [dagster-polars]: Downloading https://files.pythonhosted.org/packages/b7/c5/6f5ee855bc7b592c2d6733cb27b979c48be67455ad1262679d4ff8ceae76/dagster_polars-0.0.7.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [meggie]: Downloading https://files.pythonhosted.org/packages/be/a1/805770870c020e357a2f77dcb3487c25368c672588c470d7f359a5352658/meggie-1.5.2.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [biaslyze]: Downloading https://files.pythonhosted.org/packages/e1/6d/246bb3ace0199f0f3501c483fb995c3208c59614c65782daedb3376c7073/biaslyze-0.0.8a0.tar.gz
+[2023-08-03 12:03:46] INFO root fetch - processPackages [bipl]: executing diffoscope
+[2023-08-03 12:03:46] INFO root fetch - processPackages [bipl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bipl-0.3.3.tar.gz tmp/bipl-0.3.4.tar.gz --markdown 20230803/b/bipl/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-03 12:03:46] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-08-03 12:03:46] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230803/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-08-03 12:03:46] INFO root fetch - processPackages [cellar-extractor]: executing diffoscope
+[2023-08-03 12:03:46] INFO root fetch - processPackages [cellar-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellar_extractor-1.0.53.tar.gz tmp/cellar_extractor-1.0.54.tar.gz --markdown 20230803/c/cellar-extractor/1.0.53-1.0.54/diff.md --exclude *.pyd
+[2023-08-03 12:03:47] INFO root fetch - processPackages [dagster-polars]: executing diffoscope
+[2023-08-03 12:03:47] INFO root fetch - processPackages [dagster-polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_polars-0.0.6.tar.gz tmp/dagster_polars-0.0.7.tar.gz --markdown 20230803/d/dagster-polars/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-03 12:03:47] INFO root fetch - processPackages [meggie]: executing diffoscope
+[2023-08-03 12:03:47] INFO root fetch - processPackages [meggie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meggie-1.5.1.tar.gz tmp/meggie-1.5.2.tar.gz --markdown 20230803/m/meggie/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-08-03 12:03:47] INFO root fetch - processPackages [biaslyze]: executing diffoscope
+[2023-08-03 12:03:47] INFO root fetch - processPackages [biaslyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biaslyze-0.0.7a0.tar.gz tmp/biaslyze-0.0.8a0.tar.gz --markdown 20230803/b/biaslyze/0.0.7a0-0.0.8a0/diff.md --exclude *.pyd
+[2023-08-03 12:03:47] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.8.tar.gz]
+[2023-08-03 12:03:47] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.9.tar.gz]
+[2023-08-03 12:03:47] INFO root fetch - processPackages [langfuse]: Start processing: pulumi-fastly
+[2023-08-03 12:03:47] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-08-03 12:03:48] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.2.0a1691040884] Old Version: [8.2.0a1690262840]
+[2023-08-03 12:03:48] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.8.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.9.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - processPackages [bootloader-core-library]: Start processing: RWAPIMicroservicePython
+[2023-08-03 12:03:48] INFO root fetch - main [MainThread]: End processing [bootloader-core-library]: success
+[2023-08-03 12:03:48] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/7a/9d/01adb7088fe093e9fc7e4d13edbbefdf7ab728655fa18819861ad3783b06/pulumi_fastly-8.2.0a1690262840.tar.gz
+[2023-08-03 12:03:48] INFO root fetch - processPackages [RWAPIMicroservicePython]: New version: [3.0.0b4] Old Version: [2.0.0]
+[2023-08-03 12:03:48] INFO root fetch - processPackages [fosslight-source]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_source-1.6.8.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - processPackages [fosslight-source]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_source-1.6.9.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - main [MainThread]: End processing [fosslight-source]: success
+[2023-08-03 12:03:48] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/4d/dc/78c72723fb1ade38e3c2f73007c5ae1af220ce1e5345b283195b6040dfda/RWAPIMicroservicePython-2.0.0.tar.gz
+[2023-08-03 12:03:48] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/69/db/3c32a9e417726d2dd2f7b92801be4713a954950bbed5b0454c05410812f3/pulumi_fastly-8.2.0a1691040884.tar.gz
+[2023-08-03 12:03:48] INFO root fetch - processPackages [bipl]: Remove: archive file [/home/abi/fetcher/tmp/bipl-0.3.3.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - processPackages [bipl]: Remove: archive file [/home/abi/fetcher/tmp/bipl-0.3.4.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - main [MainThread]: End processing [bipl]: success
+[2023-08-03 12:03:48] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-08-03 12:03:48] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-08-03 12:03:48] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.2.0a1690262840.tar.gz tmp/pulumi_fastly-8.2.0a1691040884.tar.gz --markdown 20230803/p/pulumi-fastly/8.2.0a1690262840-8.2.0a1691040884/diff.md --exclude *.pyd
+[2023-08-03 12:03:48] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/67/e7/a649b134fb49edc783b25084ae93963cfc4422b04f0bf938dbf3c07def50/RWAPIMicroservicePython-3.0.0b4.tar.gz
+[2023-08-03 12:03:48] INFO root fetch - processPackages [dagster-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster_polars-0.0.6.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - processPackages [dagster-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster_polars-0.0.7.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - main [MainThread]: End processing [dagster-polars]: success
+[2023-08-03 12:03:48] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.53.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.54.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - main [MainThread]: End processing [cellar-extractor]: success
+[2023-08-03 12:03:48] INFO root fetch - processPackages [RWAPIMicroservicePython]: executing diffoscope
+[2023-08-03 12:03:48] INFO root fetch - processPackages [RWAPIMicroservicePython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RWAPIMicroservicePython-2.0.0.tar.gz tmp/RWAPIMicroservicePython-3.0.0b4.tar.gz --markdown 20230803/R/RWAPIMicroservicePython/2.0.0-3.0.0b4/diff.md --exclude *.pyd
+[2023-08-03 12:03:48] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-08-03 12:03:48] INFO root fetch - processPackages [biaslyze]: Remove: archive file [/home/abi/fetcher/tmp/biaslyze-0.0.7a0.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - processPackages [biaslyze]: Remove: archive file [/home/abi/fetcher/tmp/biaslyze-0.0.8a0.tar.gz]
+[2023-08-03 12:03:48] INFO root fetch - main [MainThread]: End processing [biaslyze]: success
+[2023-08-03 12:03:49] INFO root fetch - processPackages [meggie]: Remove: archive file [/home/abi/fetcher/tmp/meggie-1.5.1.tar.gz]
+[2023-08-03 12:03:49] INFO root fetch - processPackages [meggie]: Remove: archive file [/home/abi/fetcher/tmp/meggie-1.5.2.tar.gz]
+[2023-08-03 12:03:49] INFO root fetch - main [MainThread]: End processing [meggie]: success
+[2023-08-03 12:03:49] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-2.0.0.tar.gz]
+[2023-08-03 12:03:49] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0b4.tar.gz]
+[2023-08-03 12:03:49] INFO root fetch - main [MainThread]: End processing [RWAPIMicroservicePython]: success
+[2023-08-03 12:03:49] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1690262840.tar.gz]
+[2023-08-03 12:03:49] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1691040884.tar.gz]
+[2023-08-03 12:03:49] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-08-03 12:03:49] INFO root fetch - main [MainThread]: Store serial: [19157476]
