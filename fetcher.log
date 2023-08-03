@@ -19935,3 +19935,189 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 11:48:03] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.3.1.dev120.tar.gz]
 [2023-08-03 11:48:03] INFO root fetch - main [MainThread]: End processing [zadarapyV2]: success
 [2023-08-03 11:48:03] INFO root fetch - main [MainThread]: Store serial: [19157278]
+[2023-08-03 11:53:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157278]
+[2023-08-03 11:53:12] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-03 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-aws-utils
+[2023-08-03 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webmeter
+[2023-08-03 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-records-lom
+[2023-08-03 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hiddifypanel
+[2023-08-03 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dustmaps
+[2023-08-03 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: corporate-reputation
+[2023-08-03 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inmoose
+[2023-08-03 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cubed
+[2023-08-03 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tno.mpc.communication
+[2023-08-03 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: msaDocModels
+[2023-08-03 11:53:12] INFO root fetch - processPackages [databricks-aws-utils]: New version: [1.4.0b1] Old Version: [1.3.3b1]
+[2023-08-03 11:53:12] INFO root fetch - processPackages [corporate-reputation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-03 11:53:12] INFO root fetch - processPackages [databricks-aws-utils]: Downloading https://files.pythonhosted.org/packages/24/d8/c31e267411af4fec34eabee44bd4b9f00237d077537c442c6547aed422b4/databricks_aws_utils-1.3.3b1.tar.gz
+[2023-08-03 11:53:12] INFO root fetch - processPackages [webmeter]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-03 11:53:12] INFO root fetch - processPackages [dustmaps]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-03 11:53:12] INFO root fetch - processPackages [tno.mpc.communication]: New version: [4.8.1] Old Version: [4.5.0]
+[2023-08-03 11:53:12] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/7a/a0/9a2009f226fe67dbd11d0681c39128e4c4d96e57b52c6b0505adcf4e491b/corporate_reputation-0.9.2.tar.gz
+[2023-08-03 11:53:12] INFO root fetch - processPackages [inmoose]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-03 11:53:12] INFO root fetch - processPackages [cubed]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-03 11:53:12] INFO root fetch - processPackages [invenio-records-lom]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-03 11:53:12] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev6] Old Version: [8.0.0.dev5]
+[2023-08-03 11:53:12] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.88]
+[2023-08-03 11:53:13] INFO root fetch - processPackages [webmeter]: Downloading https://files.pythonhosted.org/packages/7f/07/509fee925ef6411459e0fee20c7d58e2b5bab543fd32ad75211a697fceeb/webmeter-1.0.0.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [dustmaps]: Downloading https://files.pythonhosted.org/packages/d3/9a/3e08627048ff54184e22ca98e9ee5f391e26152b984a74a532043ec4687e/dustmaps-1.0.8.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [inmoose]: Downloading https://files.pythonhosted.org/packages/a0/fb/64890fb9d377927531e6f35fbf7e8713acc2cf4503f2a329e70a07a6e8a9/inmoose-0.1.1.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [databricks-aws-utils]: Downloading https://files.pythonhosted.org/packages/e4/15/93a9072f17bd8382ce8378dad0d83dd2ee7773ed7b447c01f2c9967918d4/databricks_aws_utils-1.4.0b1.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/5f/e4/a5da31a7477b5e8946a5e355433181b601db41d7d98592af2e82bce833a0/msaDocModels-0.0.88.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/bd/03/2c85549fb51e3c27e483bd20211a3589fab6a6ad0b0717a0ed7ba19b79bd/hiddifypanel-8.0.0.dev5.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/dc/f5/06774261a9adf3155d1cbfe17773d7d620daeed823c66e41c872ab7cbfd5/corporate_reputation-0.9.3.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/8e/15/3bb624b77fa4faae61f3f297cb9d74a43494e09b77f4008070c12898480d/cubed-0.8.0.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [tno.mpc.communication]: Downloading https://files.pythonhosted.org/packages/3d/73/6414cf35f64dbc29f2c481dca9285a232047913ec12edf704437ebd1551e/tno.mpc.communication-4.5.0.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/a7/d9/b366af89a5d223ea850fb149d543d8535f1a63df7d6aaf194b788ade4a81/invenio-records-lom-0.8.1.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [databricks-aws-utils]: executing diffoscope
+[2023-08-03 11:53:13] INFO root fetch - processPackages [databricks-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_aws_utils-1.3.3b1.tar.gz tmp/databricks_aws_utils-1.4.0b1.tar.gz --markdown 20230803/d/databricks-aws-utils/1.3.3b1-1.4.0b1/diff.md --exclude *.pyd
+[2023-08-03 11:53:13] INFO root fetch - processPackages [corporate-reputation]: executing diffoscope
+[2023-08-03 11:53:13] INFO root fetch - processPackages [corporate-reputation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corporate_reputation-0.9.2.tar.gz tmp/corporate_reputation-0.9.3.tar.gz --markdown 20230803/c/corporate-reputation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-03 11:53:13] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/2f/da/7c36532a600ac292c1fec4f775200d779a44eb48ddc5249e3c2fc70dbf4d/msaDocModels-0.0.9.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [webmeter]: Downloading https://files.pythonhosted.org/packages/e0/12/5711f32e06a01ea40be561aa4b6b9dd80c37a7aa7515066e76dc428b3ff3/webmeter-1.0.1.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [dustmaps]: Downloading https://files.pythonhosted.org/packages/ef/d1/95d9e3ea99371c754a27d3dca7bf3ccfe4badcc3de6f1c1b60debba594da/dustmaps-1.0.9.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [inmoose]: Downloading https://files.pythonhosted.org/packages/ad/f0/06fe92b6b48134cd55bf00129481812643470e4c0ff0786ce44afd8ebfc3/inmoose-0.2.0.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-08-03 11:53:13] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.88.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230803/m/msaDocModels/0.0.88-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:53:13] INFO root fetch - processPackages [dustmaps]: executing diffoscope
+[2023-08-03 11:53:13] INFO root fetch - processPackages [dustmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dustmaps-1.0.8.tar.gz tmp/dustmaps-1.0.9.tar.gz --markdown 20230803/d/dustmaps/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:53:13] INFO root fetch - processPackages [inmoose]: executing diffoscope
+[2023-08-03 11:53:13] INFO root fetch - processPackages [inmoose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmoose-0.1.1.tar.gz tmp/inmoose-0.2.0.tar.gz --markdown 20230803/i/inmoose/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-03 11:53:13] INFO root fetch - processPackages [tno.mpc.communication]: Downloading https://files.pythonhosted.org/packages/95/d9/81ec88a4570ef642cfec991e30010f4379fd2b49a0f4b3128f0f073e1b8d/tno.mpc.communication-4.8.1.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/df/b7/a7b5ccd8c50f461a78dc131c98a62fefe9d8dca1d3a92d3f83959d4899c3/cubed-0.9.0.tar.gz
+[2023-08-03 11:53:13] INFO root fetch - processPackages [webmeter]: executing diffoscope
+[2023-08-03 11:53:13] INFO root fetch - processPackages [webmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webmeter-1.0.0.tar.gz tmp/webmeter-1.0.1.tar.gz --markdown 20230803/w/webmeter/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-03 11:53:14] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/d2/a1/a4f27a3949cb9641f050db71c0e20941c366e57450ec499c9f5e40d718c4/invenio-records-lom-0.9.0.tar.gz
+[2023-08-03 11:53:14] INFO root fetch - processPackages [tno.mpc.communication]: executing diffoscope
+[2023-08-03 11:53:14] INFO root fetch - processPackages [tno.mpc.communication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tno.mpc.communication-4.5.0.tar.gz tmp/tno.mpc.communication-4.8.1.tar.gz --markdown 20230803/t/tno.mpc.communication/4.5.0-4.8.1/diff.md --exclude *.pyd
+[2023-08-03 11:53:14] INFO root fetch - processPackages [cubed]: executing diffoscope
+[2023-08-03 11:53:14] INFO root fetch - processPackages [cubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubed-0.8.0.tar.gz tmp/cubed-0.9.0.tar.gz --markdown 20230803/c/cubed/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 11:53:14] INFO root fetch - processPackages [invenio-records-lom]: executing diffoscope
+[2023-08-03 11:53:14] INFO root fetch - processPackages [invenio-records-lom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-lom-0.8.1.tar.gz tmp/invenio-records-lom-0.9.0.tar.gz --markdown 20230803/i/invenio-records-lom/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 11:53:14] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/03/17/00969b7f68565d3b1797afea30b739e12958784c8872855b18b71da98130/hiddifypanel-8.0.0.dev6.tar.gz
+[2023-08-03 11:53:14] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.2.tar.gz]
+[2023-08-03 11:53:14] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.3.tar.gz]
+[2023-08-03 11:53:14] INFO root fetch - processPackages [corporate-reputation]: Start processing: tfmock
+[2023-08-03 11:53:14] INFO root fetch - main [MainThread]: End processing [corporate-reputation]: success
+[2023-08-03 11:53:14] INFO root fetch - processPackages [databricks-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/databricks_aws_utils-1.3.3b1.tar.gz]
+[2023-08-03 11:53:14] INFO root fetch - processPackages [databricks-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/databricks_aws_utils-1.4.0b1.tar.gz]
+[2023-08-03 11:53:14] INFO root fetch - processPackages [databricks-aws-utils]: Start processing: TEST-TC
+[2023-08-03 11:53:14] INFO root fetch - main [MainThread]: End processing [databricks-aws-utils]: success
+[2023-08-03 11:53:14] WARNING root fetch - processPackages [tfmock]: Skipping, unable to determine old version
+[2023-08-03 11:53:14] INFO root fetch - processPackages [tfmock]: Start processing: fotoobo
+[2023-08-03 11:53:14] INFO root fetch - main [MainThread]: End processing [tfmock] error
+[2023-08-03 11:53:14] INFO root fetch - processPackages [TEST-TC]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-03 11:53:14] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/66/83/2f0c3a02f58ad91c5c443334cfdc8b559cf92ce2d5d49ec7e8a0c8fc6829/TEST_TC-1.1.4.tar.gz
+[2023-08-03 11:53:14] INFO root fetch - processPackages [fotoobo]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [msaDocModels]: Remove: archive file [/home/abi/fetcher/tmp/msaDocModels-0.0.88.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [msaDocModels]: Remove: archive file [/home/abi/fetcher/tmp/msaDocModels-0.0.9.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [msaDocModels]: Start processing: smol-k8s-lab
+[2023-08-03 11:53:15] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-08-03 11:53:15] INFO root fetch - processPackages [fotoobo]: Downloading https://files.pythonhosted.org/packages/96/64/49d5d87cd64bc68e9f3497873b53e69eeb908245348465615ef3ec23e7b9/fotoobo-0.9.0.tar.gz
+[2023-08-03 11:53:15] INFO root fetch - processPackages [webmeter]: Remove: archive file [/home/abi/fetcher/tmp/webmeter-1.0.0.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [webmeter]: Remove: archive file [/home/abi/fetcher/tmp/webmeter-1.0.1.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [webmeter]: Start processing: py-keycloak-utils
+[2023-08-03 11:53:15] INFO root fetch - main [MainThread]: End processing [webmeter]: success
+[2023-08-03 11:53:15] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/a9/ae/cc48e0c4dee179e9893205f7e7ae1dce1d5bc0d6d49c7cb06cbf58db540e/TEST_TC-1.1.5.tar.gz
+[2023-08-03 11:53:15] INFO root fetch - processPackages [smol-k8s-lab]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [py-keycloak-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [dustmaps]: Remove: archive file [/home/abi/fetcher/tmp/dustmaps-1.0.8.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [dustmaps]: Remove: archive file [/home/abi/fetcher/tmp/dustmaps-1.0.9.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [dustmaps]: Start processing: setuptools-github
+[2023-08-03 11:53:15] INFO root fetch - main [MainThread]: End processing [dustmaps]: success
+[2023-08-03 11:53:15] INFO root fetch - processPackages [smol-k8s-lab]: Downloading https://files.pythonhosted.org/packages/9d/87/13308be22204b51fb87e866b901eeeed544e88ea1a57a0ca37a6132ad894/smol_k8s_lab-0.9.2.tar.gz
+[2023-08-03 11:53:15] INFO root fetch - processPackages [setuptools-github]: New version: [0.3.2b83] Old Version: [0.3.2b78]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-08-03 11:53:15] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.1.4.tar.gz tmp/TEST_TC-1.1.5.tar.gz --markdown 20230803/T/TEST-TC/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-03 11:53:15] INFO root fetch - processPackages [py-keycloak-utils]: Downloading https://files.pythonhosted.org/packages/42/50/611aac3021283f16ed7e95e20bb052448cc1a5d1372033480be2e2f3f1eb/py-keycloak-utils-1.0.0.tar.gz
+[2023-08-03 11:53:15] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/09/73/62a323f37bd698d88bc07c7d9cf18506487ade3652e32025145f6251ec63/setuptools-github-0.3.2b78.tar.gz
+[2023-08-03 11:53:15] INFO root fetch - processPackages [tno.mpc.communication]: Remove: archive file [/home/abi/fetcher/tmp/tno.mpc.communication-4.5.0.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [tno.mpc.communication]: Remove: archive file [/home/abi/fetcher/tmp/tno.mpc.communication-4.8.1.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [tno.mpc.communication]: Start processing: cubicweb-conference
+[2023-08-03 11:53:15] INFO root fetch - main [MainThread]: End processing [tno.mpc.communication]: success
+[2023-08-03 11:53:15] INFO root fetch - processPackages [smol-k8s-lab]: Downloading https://files.pythonhosted.org/packages/af/4f/23da6cacde788d0bcd24e300bf328ec91cb8f76f9c2e4971c3c98340e06e/smol_k8s_lab-0.9.3.tar.gz
+[2023-08-03 11:53:15] INFO root fetch - processPackages [py-keycloak-utils]: Downloading https://files.pythonhosted.org/packages/cf/23/4c0455857c3795cae68a4954616bf0c9d99504aa5e3b15377c1654f9289a/py-keycloak-utils-1.0.1.tar.gz
+[2023-08-03 11:53:15] INFO root fetch - processPackages [inmoose]: Remove: archive file [/home/abi/fetcher/tmp/inmoose-0.1.1.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [inmoose]: Remove: archive file [/home/abi/fetcher/tmp/inmoose-0.2.0.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [inmoose]: Start processing: apisql
+[2023-08-03 11:53:15] INFO root fetch - main [MainThread]: End processing [inmoose]: success
+[2023-08-03 11:53:15] INFO root fetch - processPackages [cubicweb-conference]: New version: [1.0.0] Old Version: [0.4.2]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [smol-k8s-lab]: executing diffoscope
+[2023-08-03 11:53:15] INFO root fetch - processPackages [smol-k8s-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol_k8s_lab-0.9.2.tar.gz tmp/smol_k8s_lab-0.9.3.tar.gz --markdown 20230803/s/smol-k8s-lab/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-03 11:53:15] INFO root fetch - processPackages [fotoobo]: Downloading https://files.pythonhosted.org/packages/02/78/7a561b6ba2a59fce7b77766abaa5883c154867640c6f315dd2adad30e5c8/fotoobo-1.0.0.tar.gz
+[2023-08-03 11:53:15] INFO root fetch - processPackages [py-keycloak-utils]: executing diffoscope
+[2023-08-03 11:53:15] INFO root fetch - processPackages [py-keycloak-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-keycloak-utils-1.0.0.tar.gz tmp/py-keycloak-utils-1.0.1.tar.gz --markdown 20230803/p/py-keycloak-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-03 11:53:15] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-03 11:53:15] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev5.tar.gz tmp/hiddifypanel-8.0.0.dev6.tar.gz --markdown 20230803/h/hiddifypanel/8.0.0.dev5-8.0.0.dev6/diff.md --exclude *.pyd
+[2023-08-03 11:53:15] INFO root fetch - processPackages [cubed]: Remove: archive file [/home/abi/fetcher/tmp/cubed-0.8.0.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [cubed]: Remove: archive file [/home/abi/fetcher/tmp/cubed-0.9.0.tar.gz]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [cubed]: Start processing: pulumi-opsgenie
+[2023-08-03 11:53:15] INFO root fetch - main [MainThread]: End processing [cubed]: success
+[2023-08-03 11:53:15] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/f6/c8/4d1e8a4a6b45d05d727489bab467153bcedf66f5a0ef757bab210d0f6f9a/setuptools-github-0.3.2b83.tar.gz
+[2023-08-03 11:53:15] INFO root fetch - processPackages [apisql]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-03 11:53:15] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1691043253] Old Version: [1.3.0a1690456737]
+[2023-08-03 11:53:16] INFO root fetch - processPackages [fotoobo]: executing diffoscope
+[2023-08-03 11:53:16] INFO root fetch - processPackages [fotoobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fotoobo-0.9.0.tar.gz tmp/fotoobo-1.0.0.tar.gz --markdown 20230803/f/fotoobo/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-03 11:53:16] INFO root fetch - processPackages [setuptools-github]: executing diffoscope
+[2023-08-03 11:53:16] INFO root fetch - processPackages [setuptools-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-github-0.3.2b78.tar.gz tmp/setuptools-github-0.3.2b83.tar.gz --markdown 20230803/s/setuptools-github/0.3.2b78-0.3.2b83/diff.md --exclude *.pyd
+[2023-08-03 11:53:16] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/62/7c/64cf0cd98f90369446ad9837f7e1a33e659ee8c4e1f84ca6cfeb8912e76e/pulumi_opsgenie-1.3.0a1690456737.tar.gz
+[2023-08-03 11:53:16] INFO root fetch - processPackages [cubicweb-conference]: Downloading https://files.pythonhosted.org/packages/02/6f/f56005daa62742507b700edf6a31341d21c95dba7dc231f1dbdfff23e9d2/cubicweb-conference-0.4.2.tar.gz
+[2023-08-03 11:53:16] INFO root fetch - processPackages [apisql]: Downloading https://files.pythonhosted.org/packages/9c/65/8b339ba7d9ff8620d74aeaaf94ac5e439f5ec4ba1fda7294dbe7514d9db7/apisql-0.3.2.tar.gz
+[2023-08-03 11:53:16] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/71/a4/c0bd42752ec06a4198b06b2c56bae2760fcc4bbe98a6cc663eb8f5e8fb99/pulumi_opsgenie-1.3.0a1691043253.tar.gz
+[2023-08-03 11:53:16] INFO root fetch - processPackages [cubicweb-conference]: Downloading https://files.pythonhosted.org/packages/dc/fb/8c63805bf2c9d0e392211d316ff17a2d46d244b66dd7d619be9afcdbdab0/cubicweb-conference-1.0.0.tar.gz
+[2023-08-03 11:53:16] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-08-03 11:53:16] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1690456737.tar.gz tmp/pulumi_opsgenie-1.3.0a1691043253.tar.gz --markdown 20230803/p/pulumi-opsgenie/1.3.0a1690456737-1.3.0a1691043253/diff.md --exclude *.pyd
+[2023-08-03 11:53:16] INFO root fetch - processPackages [apisql]: Downloading https://files.pythonhosted.org/packages/5c/b1/191074c3d92505f01b53b9d1309c54d348c6c83793db57ebd1f265d73e6c/apisql-0.3.3.tar.gz
+[2023-08-03 11:53:16] INFO root fetch - processPackages [cubicweb-conference]: executing diffoscope
+[2023-08-03 11:53:16] INFO root fetch - processPackages [cubicweb-conference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-conference-0.4.2.tar.gz tmp/cubicweb-conference-1.0.0.tar.gz --markdown 20230803/c/cubicweb-conference/0.4.2-1.0.0/diff.md --exclude *.pyd
+[2023-08-03 11:53:16] INFO root fetch - processPackages [apisql]: executing diffoscope
+[2023-08-03 11:53:16] INFO root fetch - processPackages [apisql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apisql-0.3.2.tar.gz tmp/apisql-0.3.3.tar.gz --markdown 20230803/a/apisql/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-03 11:53:16] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.4.tar.gz]
+[2023-08-03 11:53:16] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.5.tar.gz]
+[2023-08-03 11:53:16] INFO root fetch - processPackages [TEST-TC]: Start processing: concrete-datastore
+[2023-08-03 11:53:16] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-08-03 11:53:17] INFO root fetch - processPackages [concrete-datastore]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-03 11:53:17] INFO root fetch - processPackages [concrete-datastore]: Downloading https://files.pythonhosted.org/packages/93/84/b081598f2d667183a9aad1ed8bd5c31307c779a6b88f0ff03977d7f2c07b/concrete-datastore-1.8.0.tar.gz
+[2023-08-03 11:53:17] INFO root fetch - processPackages [py-keycloak-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-keycloak-utils-1.0.0.tar.gz]
+[2023-08-03 11:53:17] INFO root fetch - processPackages [py-keycloak-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-keycloak-utils-1.0.1.tar.gz]
+[2023-08-03 11:53:17] INFO root fetch - processPackages [py-keycloak-utils]: Start processing: airtable-pg-sync
+[2023-08-03 11:53:17] INFO root fetch - main [MainThread]: End processing [py-keycloak-utils]: success
+[2023-08-03 11:53:17] INFO root fetch - processPackages [airtable-pg-sync]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-03 11:53:17] INFO root fetch - processPackages [airtable-pg-sync]: Downloading https://files.pythonhosted.org/packages/ed/c3/f5369988031238fc463893b2d0ba49fa3c5616d6cd393e480aca8d5c947e/airtable_pg_sync-0.0.5.tar.gz
+[2023-08-03 11:53:17] INFO root fetch - processPackages [smol-k8s-lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-0.9.2.tar.gz]
+[2023-08-03 11:53:17] INFO root fetch - processPackages [smol-k8s-lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-0.9.3.tar.gz]
+[2023-08-03 11:53:17] INFO root fetch - main [MainThread]: End processing [smol-k8s-lab]: success
+[2023-08-03 11:53:17] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.8.1.tar.gz]
+[2023-08-03 11:53:17] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.9.0.tar.gz]
+[2023-08-03 11:53:17] INFO root fetch - main [MainThread]: End processing [invenio-records-lom]: success
+[2023-08-03 11:53:17] INFO root fetch - processPackages [concrete-datastore]: Downloading https://files.pythonhosted.org/packages/35/0c/966cc07f835159fc959a82a0a9ce1ede43cbbce66d0df580aad4bee89e8e/concrete-datastore-1.9.0.tar.gz
+[2023-08-03 11:53:17] INFO root fetch - processPackages [airtable-pg-sync]: Downloading https://files.pythonhosted.org/packages/4d/f8/d2c9f5fcdb0d125c17968c29c36b02e211d6c1d7218f1b88e377581e1b63/airtable_pg_sync-0.0.6.tar.gz
+[2023-08-03 11:53:17] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.2b78.tar.gz]
+[2023-08-03 11:53:17] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.2b83.tar.gz]
+[2023-08-03 11:53:17] INFO root fetch - main [MainThread]: End processing [setuptools-github]: success
+[2023-08-03 11:53:17] INFO root fetch - processPackages [concrete-datastore]: executing diffoscope
+[2023-08-03 11:53:17] INFO root fetch - processPackages [concrete-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concrete-datastore-1.8.0.tar.gz tmp/concrete-datastore-1.9.0.tar.gz --markdown 20230803/c/concrete-datastore/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-03 11:53:17] INFO root fetch - processPackages [fotoobo]: Remove: archive file [/home/abi/fetcher/tmp/fotoobo-0.9.0.tar.gz]
+[2023-08-03 11:53:17] INFO root fetch - processPackages [airtable-pg-sync]: executing diffoscope
+[2023-08-03 11:53:17] INFO root fetch - processPackages [airtable-pg-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtable_pg_sync-0.0.5.tar.gz tmp/airtable_pg_sync-0.0.6.tar.gz --markdown 20230803/a/airtable-pg-sync/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-03 11:53:17] INFO root fetch - processPackages [fotoobo]: Remove: archive file [/home/abi/fetcher/tmp/fotoobo-1.0.0.tar.gz]
+[2023-08-03 11:53:17] INFO root fetch - main [MainThread]: End processing [fotoobo]: success
+[2023-08-03 11:53:18] INFO root fetch - processPackages [apisql]: Remove: archive file [/home/abi/fetcher/tmp/apisql-0.3.2.tar.gz]
+[2023-08-03 11:53:18] INFO root fetch - processPackages [apisql]: Remove: archive file [/home/abi/fetcher/tmp/apisql-0.3.3.tar.gz]
+[2023-08-03 11:53:18] INFO root fetch - main [MainThread]: End processing [apisql]: success
+[2023-08-03 11:53:18] INFO root fetch - processPackages [cubicweb-conference]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-conference-0.4.2.tar.gz]
+[2023-08-03 11:53:18] INFO root fetch - processPackages [cubicweb-conference]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-conference-1.0.0.tar.gz]
+[2023-08-03 11:53:18] INFO root fetch - main [MainThread]: End processing [cubicweb-conference]: success
+[2023-08-03 11:53:18] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1690456737.tar.gz]
+[2023-08-03 11:53:18] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1691043253.tar.gz]
+[2023-08-03 11:53:18] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-08-03 11:53:18] INFO root fetch - processPackages [airtable-pg-sync]: Remove: archive file [/home/abi/fetcher/tmp/airtable_pg_sync-0.0.5.tar.gz]
+[2023-08-03 11:53:18] INFO root fetch - processPackages [airtable-pg-sync]: Remove: archive file [/home/abi/fetcher/tmp/airtable_pg_sync-0.0.6.tar.gz]
+[2023-08-03 11:53:18] INFO root fetch - main [MainThread]: End processing [airtable-pg-sync]: success
+[2023-08-03 11:53:18] INFO root fetch - processPackages [concrete-datastore]: Remove: archive file [/home/abi/fetcher/tmp/concrete-datastore-1.8.0.tar.gz]
+[2023-08-03 11:53:18] INFO root fetch - processPackages [concrete-datastore]: Remove: archive file [/home/abi/fetcher/tmp/concrete-datastore-1.9.0.tar.gz]
+[2023-08-03 11:53:18] INFO root fetch - main [MainThread]: End processing [concrete-datastore]: success
+[2023-08-03 11:53:21] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev5.tar.gz]
+[2023-08-03 11:53:21] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev6.tar.gz]
+[2023-08-03 11:53:21] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-03 11:53:21] INFO root fetch - main [MainThread]: Store serial: [19157346]
