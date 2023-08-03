@@ -1,0 +1,403 @@
+# Comparing `tmp/pelican-minify-0.9.tar.gz` & `tmp/pelican_minify-2.0.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "dist/pelican-minify-0.9.tar", last modified: Thu Nov 26 03:43:57 2015, max compression
++gzip compressed data, last modified: Sun Feb  2 00:00:00 2020, max compression
+```
+
+## Comparing `pelican-minify-0.9.tar` & `pelican_minify-2.0.0.tar`
+
+### file list
+
+```diff
+@@ -1,17 +1,21 @@
+-drwxr-xr-x   0 rdegges    (501) staff       (20)        0 2015-11-26 03:43:57.000000 pelican-minify-0.9/
+--rw-r--r--   0 rdegges    (501) staff       (20)       49 2014-08-29 01:05:07.000000 pelican-minify-0.9/MANIFEST.in
+--rw-r--r--   0 rdegges    (501) staff       (20)     1598 2015-11-26 03:35:46.000000 pelican-minify-0.9/minify.py
+--rw-r--r--   0 rdegges    (501) staff       (20)   217824 2014-08-29 01:05:07.000000 pelican-minify-0.9/pelican.png
+-drwxr-xr-x   0 rdegges    (501) staff       (20)        0 2015-11-26 03:43:57.000000 pelican-minify-0.9/pelican_minify.egg-info/
+--rw-r--r--   0 rdegges    (501) staff       (20)        1 2015-11-26 03:43:57.000000 pelican-minify-0.9/pelican_minify.egg-info/dependency_links.txt
+--rw-r--r--   0 rdegges    (501) staff       (20)        1 2014-08-29 01:07:13.000000 pelican-minify-0.9/pelican_minify.egg-info/not-zip-safe
+--rw-r--r--   0 rdegges    (501) staff       (20)     3916 2015-11-26 03:43:57.000000 pelican-minify-0.9/pelican_minify.egg-info/PKG-INFO
+--rw-r--r--   0 rdegges    (501) staff       (20)       42 2015-11-26 03:43:57.000000 pelican-minify-0.9/pelican_minify.egg-info/requires.txt
+--rw-r--r--   0 rdegges    (501) staff       (20)      297 2015-11-26 03:43:57.000000 pelican-minify-0.9/pelican_minify.egg-info/SOURCES.txt
+--rw-r--r--   0 rdegges    (501) staff       (20)        7 2015-11-26 03:43:57.000000 pelican-minify-0.9/pelican_minify.egg-info/top_level.txt
+--rw-r--r--   0 rdegges    (501) staff       (20)     3916 2015-11-26 03:43:57.000000 pelican-minify-0.9/PKG-INFO
+--rw-r--r--   0 rdegges    (501) staff       (20)     2669 2015-11-26 03:42:27.000000 pelican-minify-0.9/README.md
+--rw-r--r--   0 rdegges    (501) staff       (20)       59 2015-11-26 03:43:57.000000 pelican-minify-0.9/setup.cfg
+--rw-r--r--   0 rdegges    (501) staff       (20)      839 2015-11-26 03:34:33.000000 pelican-minify-0.9/setup.py
+--rw-r--r--   0 rdegges    (501) staff       (20)     1162 2015-11-26 03:36:13.000000 pelican-minify-0.9/tests.py
+--rw-r--r--   0 rdegges    (501) staff       (20)     1211 2014-08-29 01:05:07.000000 pelican-minify-0.9/UNLICENSE
++-rw-r--r--   0        0        0     6148 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/.DS_Store
++-rw-r--r--   0        0        0      201 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/.editorconfig
++-rw-r--r--   0        0        0      737 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/.pre-commit-config.yaml
++-rw-r--r--   0        0        0      763 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/CHANGELOG.md
++-rw-r--r--   0        0        0      559 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/CONTRIBUTING.md
++-rw-r--r--   0        0        0      182 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/DEVELOPMENT.md
++-rw-r--r--   0        0        0     3141 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/tasks.py
++-rw-r--r--   0        0        0       57 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/.github/FUNDING.yml
++-rw-r--r--   0        0        0     2315 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/.github/workflows/main.yml
++-rw-r--r--   0        0        0       46 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/.vscode/settings.json
++-rw-r--r--   0        0        0       36 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/pelican/plugins/minify/__init__.py
++-rw-r--r--   0        0        0     3371 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/pelican/plugins/minify/minify.py
++-rw-r--r--   0        0        0     3757 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/pelican/plugins/minify/test_minify.py
++-rw-r--r--   0        0        0      116 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/pelican/plugins/minify/test_data/index.js
++-rw-r--r--   0        0        0      780 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/pelican/plugins/minify/test_data/sample.html
++-rw-r--r--   0        0        0       30 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/pelican/plugins/minify/test_data/styles.css
++-rw-r--r--   0        0        0      598 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/.gitignore
++-rw-r--r--   0        0        0     1085 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/LICENSE
++-rw-r--r--   0        0        0     2618 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/README.md
++-rw-r--r--   0        0        0     2908 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/pyproject.toml
++-rw-r--r--   0        0        0     4070 2020-02-02 00:00:00.000000 pelican_minify-2.0.0/PKG-INFO
+```
+
+### filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-POSIX tar archive (GNU)
++POSIX tar archive
+```
+
+### Comparing `pelican-minify-0.9/README.md` & `pelican_minify-2.0.0/README.md`
+
+ * *Files 23% similar despite different names*
+
+```diff
+@@ -1,167 +1,164 @@
+-00000000: 2320 7065 6c69 6361 6e2d 6d69 6e69 6679  # pelican-minify
+-00000010: 0a0a 5b21 5b50 7950 4920 5665 7273 696f  ..[![PyPI Versio
+-00000020: 6e5d 2868 7474 7073 3a2f 2f69 6d67 2e73  n](https://img.s
+-00000030: 6869 656c 6473 2e69 6f2f 7079 7069 2f76  hields.io/pypi/v
+-00000040: 2f70 656c 6963 616e 2d6d 696e 6966 792e  /pelican-minify.
+-00000050: 7376 6729 5d28 6874 7470 733a 2f2f 7079  svg)](https://py
+-00000060: 7069 2e70 7974 686f 6e2e 6f72 672f 7079  pi.python.org/py
+-00000070: 7069 2f70 656c 6963 616e 2d6d 696e 6966  pi/pelican-minif
+-00000080: 7929 0a5b 215b 5079 5049 2044 6f77 6e6c  y).[![PyPI Downl
+-00000090: 6f61 6473 5d28 6874 7470 733a 2f2f 696d  oads](https://im
+-000000a0: 672e 7368 6965 6c64 732e 696f 2f70 7970  g.shields.io/pyp
+-000000b0: 692f 646d 2f70 656c 6963 616e 2d6d 696e  i/dm/pelican-min
+-000000c0: 6966 792e 7376 6729 5d28 6874 7470 733a  ify.svg)](https:
+-000000d0: 2f2f 7079 7069 2e70 7974 686f 6e2e 6f72  //pypi.python.or
+-000000e0: 672f 7079 7069 2f70 656c 6963 616e 2d6d  g/pypi/pelican-m
+-000000f0: 696e 6966 7929 0a5b 215b 4275 696c 6420  inify).[![Build 
+-00000100: 5374 6174 7573 5d28 6874 7470 733a 2f2f  Status](https://
+-00000110: 7365 6375 7265 2e74 7261 7669 732d 6369  secure.travis-ci
+-00000120: 2e6f 7267 2f72 6465 6767 6573 2f70 656c  .org/rdegges/pel
+-00000130: 6963 616e 2d6d 696e 6966 792e 706e 673f  ican-minify.png?
+-00000140: 6272 616e 6368 3d6d 6173 7465 7229 5d28  branch=master)](
+-00000150: 6874 7470 733a 2f2f 7472 6176 6973 2d63  https://travis-c
+-00000160: 692e 6f72 672f 7264 6567 6765 732f 7065  i.org/rdegges/pe
+-00000170: 6c69 6361 6e2d 6d69 6e69 6679 290a 0a41  lican-minify)..A
+-00000180: 6e20 4854 4d4c 206d 696e 6966 6963 6174  n HTML minificat
+-00000190: 696f 6e20 706c 7567 696e 2066 6f72 0a5b  ion plugin for.[
+-000001a0: 5065 6c69 6361 6e5d 2868 7474 703a 2f2f  Pelican](http://
+-000001b0: 7065 6c69 6361 6e2e 7265 6164 7468 6564  pelican.readthed
+-000001c0: 6f63 732e 6f72 672f 656e 2f6c 6174 6573  ocs.org/en/lates
+-000001d0: 742f 292c 2074 6865 2073 7461 7469 6320  t/), the static 
+-000001e0: 7369 7465 2067 656e 6572 6174 6f72 2e0a  site generator..
+-000001f0: 0a21 5b50 656c 6963 616e 204c 6f67 6f5d  .![Pelican Logo]
+-00000200: 2868 7474 7073 3a2f 2f67 6974 6875 622e  (https://github.
+-00000210: 636f 6d2f 7264 6567 6765 732f 7065 6c69  com/rdegges/peli
+-00000220: 6361 6e2d 6d69 6e69 6679 2f72 6177 2f6d  can-minify/raw/m
+-00000230: 6173 7465 722f 7065 6c69 6361 6e2e 706e  aster/pelican.pn
+-00000240: 6729 0a0a 0a23 2320 496e 7374 616c 6c0a  g)...## Install.
+-00000250: 0a54 6f20 696e 7374 616c 6c20 7468 6520  .To install the 
+-00000260: 6c69 6272 6172 792c 2079 6f75 2063 616e  library, you can
+-00000270: 2075 7365 0a5b 7069 705d 2868 7474 703a   use.[pip](http:
+-00000280: 2f2f 7777 772e 7069 702d 696e 7374 616c  //www.pip-instal
+-00000290: 6c65 722e 6f72 672f 656e 2f6c 6174 6573  ler.org/en/lates
+-000002a0: 742f 292e 0a0a 6060 6062 6173 680a 2420  t/)...```bash.$ 
+-000002b0: 7069 7020 696e 7374 616c 6c20 7065 6c69  pip install peli
+-000002c0: 6361 6e2d 6d69 6e69 6679 0a60 6060 0a0a  can-minify.```..
+-000002d0: 0a23 2320 5573 6167 650a 0a54 6f20 7573  .## Usage..To us
+-000002e0: 6520 6070 656c 6963 616e 2d6d 696e 6966  e `pelican-minif
+-000002f0: 7960 2c20 796f 7520 6e65 6564 2074 6f20  y`, you need to 
+-00000300: 6d61 6b65 206f 6e6c 7920 6120 7369 6e67  make only a sing
+-00000310: 6c65 2063 6861 6e67 6520 746f 2079 6f75  le change to you
+-00000320: 720a 6070 656c 6963 616e 636f 6e66 2e70  r.`pelicanconf.p
+-00000330: 7960 2066 696c 6520 2874 6865 2063 6f6e  y` file (the con
+-00000340: 6669 6775 7261 7469 6f6e 2066 696c 6520  figuration file 
+-00000350: 7468 6174 2050 656c 6963 616e 2075 7365  that Pelican use
+-00000360: 7320 746f 2067 656e 6572 6174 650a 796f  s to generate.yo
+-00000370: 7572 2073 7461 7469 6320 7369 7465 2e0a  ur static site..
+-00000380: 0a55 7064 6174 6520 796f 7572 2060 504c  .Update your `PL
+-00000390: 5547 494e 5360 2067 6c6f 6261 6c2c 2061  UGINS` global, a
+-000003a0: 6e64 2061 7070 656e 6420 606d 696e 6966  nd append `minif
+-000003b0: 7960 2074 6f20 7468 6520 6c69 7374 2c20  y` to the list, 
+-000003c0: 6567 3a0a 0a60 6060 2070 7974 686f 6e0a  eg:..``` python.
+-000003d0: 2320 7065 6c69 6361 6e63 6f6e 662e 7079  # pelicanconf.py
+-000003e0: 0a0a 2320 2e2e 2e0a 0a50 4c55 4749 4e53  ..# .....PLUGINS
+-000003f0: 203d 205b 0a20 2020 2023 202e 2e2e 0a20   = [.    # .... 
+-00000400: 2020 2027 6d69 6e69 6679 272c 0a20 2020     'minify',.   
+-00000410: 2023 202e 2e2e 0a5d 0a0a 2320 2e2e 2e0a   # ....]..# ....
+-00000420: 6060 600a 0a54 6865 206e 6578 7420 7469  ```..The next ti
+-00000430: 6d65 2079 6f75 2062 7569 6c64 2079 6f75  me you build you
+-00000440: 7220 5065 6c69 6361 6e20 7369 7465 2c20  r Pelican site, 
+-00000450: 6070 656c 6963 616e 2d6d 696e 6966 7960  `pelican-minify`
+-00000460: 2077 696c 6c20 6175 746f 6d61 7469 6361   will automatica
+-00000470: 6c6c 790a 6d69 6e69 6679 2079 6f75 7220  lly.minify your 
+-00000480: 5065 6c69 6361 6e20 7061 6765 7320 6166  Pelican pages af
+-00000490: 7465 7220 7468 6579 2776 6520 6265 656e  ter they've been
+-000004a0: 2067 656e 6572 6174 6564 2e0a 0a60 7065   generated...`pe
+-000004b0: 6c69 6361 6e2d 6d69 6e69 6679 6020 6361  lican-minify` ca
+-000004c0: 6e20 616c 736f 2062 6520 636f 6e66 6967  n also be config
+-000004d0: 7572 6564 2062 7920 7365 7474 696e 6720  ured by setting 
+-000004e0: 604d 494e 4946 5960 2074 6f20 6120 6861  `MINIFY` to a ha
+-000004f0: 7368 2063 6f6e 7461 696e 696e 670a 5b70  sh containing.[p
+-00000500: 6172 616d 6574 6572 7320 746f 2068 746d  arameters to htm
+-00000510: 6c6d 696e 5d28 6874 7470 733a 2f2f 6874  lmin](https://ht
+-00000520: 6d6c 6d69 6e2e 7265 6164 7468 6564 6f63  mlmin.readthedoc
+-00000530: 732e 6f72 672f 656e 2f6c 6174 6573 742f  s.org/en/latest/
+-00000540: 7265 6665 7265 6e63 652e 6874 6d6c 2368  reference.html#h
+-00000550: 746d 6c6d 696e 2e6d 696e 6966 7929 2c20  tmlmin.minify), 
+-00000560: 6567 3a0a 0a60 6060 2070 7974 686f 6e0a  eg:..``` python.
+-00000570: 2320 7065 6c69 6361 6e63 6f6e 662e 7079  # pelicanconf.py
+-00000580: 0a0a 2320 2e2e 2e0a 0a4d 494e 4946 5920  ..# .....MINIFY 
+-00000590: 3d20 7b0a 2020 2772 656d 6f76 655f 636f  = {.  'remove_co
+-000005a0: 6d6d 656e 7473 273a 2054 7275 652c 0a20  mments': True,. 
+-000005b0: 2027 7265 6d6f 7665 5f61 6c6c 5f65 6d70   'remove_all_emp
+-000005c0: 7479 5f73 7061 6365 273a 2054 7275 652c  ty_space': True,
+-000005d0: 0a20 2027 7265 6d6f 7665 5f6f 7074 696f  .  'remove_optio
+-000005e0: 6e61 6c5f 6174 7472 6962 7574 655f 7175  nal_attribute_qu
+-000005f0: 6f74 6573 273a 2046 616c 7365 0a7d 0a0a  otes': False.}..
+-00000600: 2320 2e2e 2e0a 6060 600a 0a54 6869 7320  # ....```..This 
+-00000610: 7265 6475 6365 7320 6669 6c65 2073 697a  reduces file siz
+-00000620: 6520 616e 6420 6f62 7363 7572 6573 2074  e and obscures t
+-00000630: 6865 2070 7562 6c69 6320 736f 7572 6365  he public source
+-00000640: 2063 6f64 652c 2062 7574 206b 6565 7020   code, but keep 
+-00000650: 696e 0a6d 696e 642d 2d6d 696e 6966 7969  in.mind--minifyi
+-00000660: 6e67 2079 6f75 7220 7374 6174 6963 2073  ng your static s
+-00000670: 6974 6520 7769 6c6c 2069 6e63 7265 6173  ite will increas
+-00000680: 6520 796f 7572 2050 656c 6963 616e 2062  e your Pelican b
+-00000690: 7569 6c64 2074 696d 6573 2c20 6173 2069  uild times, as i
+-000006a0: 740a 6164 6473 2065 7874 7261 2066 696c  t.adds extra fil
+-000006b0: 6520 7072 6f63 6573 7369 6e67 2066 6f72  e processing for
+-000006c0: 2065 6163 6820 7061 6765 2067 656e 6572   each page gener
+-000006d0: 6174 6564 2e0a 0a2a 2a4e 4f54 452a 2a3a  ated...**NOTE**:
+-000006e0: 2059 6f75 2073 686f 756c 6420 7072 6f62   You should prob
+-000006f0: 6162 6c79 2069 6e63 6c75 6465 2074 6865  ably include the
+-00000700: 2060 6d69 6e69 6679 6020 706c 7567 696e   `minify` plugin
+-00000710: 2061 7420 7468 6520 7665 7279 2062 6f74   at the very bot
+-00000720: 746f 6d20 6f66 0a79 6f75 7220 6050 4c55  tom of.your `PLU
+-00000730: 4749 4e53 6020 6172 7261 792e 2020 5468  GINS` array.  Th
+-00000740: 6973 2077 696c 6c20 656e 7375 7265 2069  is will ensure i
+-00000750: 7420 6973 2074 6865 206c 6173 7420 7468  t is the last th
+-00000760: 696e 6720 746f 2072 756e 2c20 616e 640a  ing to run, and.
+-00000770: 646f 6573 6e27 7420 7072 656d 6174 7572  doesn't prematur
+-00000780: 656c 7920 677a 6970 2061 6e79 2066 696c  ely gzip any fil
+-00000790: 6573 2e0a 0a0a 2323 2043 6861 6e67 656c  es....## Changel
+-000007a0: 6f67 0a0a 7630 2e31 3a20 3132 2d34 2d32  og..v0.1: 12-4-2
+-000007b0: 3031 320a 0a20 2020 202d 2046 6972 7374  012..    - First
+-000007c0: 2072 656c 6561 7365 210a 0a76 302e 323a   release!..v0.2:
+-000007d0: 2032 2d31 322d 3230 3133 0a0a 2020 2020   2-12-2013..    
+-000007e0: 2d20 4669 7869 6e67 2069 7373 7565 2077  - Fixing issue w
+-000007f0: 6974 6820 756e 6963 6f64 6520 6368 6172  ith unicode char
+-00000800: 6163 7465 7273 2e0a 2020 2020 2d20 5570  acters..    - Up
+-00000810: 6772 6164 696e 6720 646a 616e 676f 2d68  grading django-h
+-00000820: 746d 6c6d 696e 2064 6570 656e 6465 6e63  tmlmin dependenc
+-00000830: 792e 0a0a 7630 2e33 3a20 322d 3132 2d32  y...v0.3: 2-12-2
+-00000840: 3031 330a 0a20 2020 202d 2046 6978 696e  013..    - Fixin
+-00000850: 6720 7465 7374 732e 0a0a 7630 2e34 3a20  g tests...v0.4: 
+-00000860: 322d 3135 2d32 3031 330a 0a20 2020 202d  2-15-2013..    -
+-00000870: 2055 7067 7261 6469 6e67 2064 6a61 6e67   Upgrading djang
+-00000880: 6f2d 6874 6d6c 6d69 6e2e 0a0a 7630 2e35  o-htmlmin...v0.5
+-00000890: 3a20 382d 3238 2d32 3031 340a 0a20 2020  : 8-28-2014..   
+-000008a0: 202d 2050 7974 686f 6e20 3320 636f 6d70   - Python 3 comp
+-000008b0: 6174 6962 696c 6974 7920 2874 6861 6e6b  atibility (thank
+-000008c0: 7320 4041 6c65 784a 4621 292e 0a0a 7630  s @AlexJF!)...v0
+-000008d0: 2e36 3a20 392d 392d 3230 3134 0a0a 2020  .6: 9-9-2014..  
+-000008e0: 2020 2d20 4669 7869 6e67 2075 6e69 636f    - Fixing unico
+-000008f0: 6465 2062 7567 2028 7468 616e 6b73 2040  de bug (thanks @
+-00000900: 6b75 7261 2129 2e0a 0a76 302e 373a 2031  kura!)...v0.7: 1
+-00000910: 312d 342d 3230 3134 0a0a 2020 2020 2d20  1-4-2014..    - 
+-00000920: 4d61 6b69 6e67 206d 696e 6966 6963 6174  Making minificat
+-00000930: 696f 6e20 776f 726b 206f 6e20 2e68 746d  ion work on .htm
+-00000940: 2066 696c 6573 2028 7468 616e 6b73 2040   files (thanks @
+-00000950: 556e 6465 7465 726d 696e 616e 7421 292e  Undeterminant!).
+-00000960: 0a0a 7630 2e38 3a20 352d 3132 2d32 3031  ..v0.8: 5-12-201
+-00000970: 350a 0a20 2020 202d 204e 6f20 6c6f 6e67  5..    - No long
+-00000980: 6572 2072 656d 6f76 696e 6720 6f70 7469  er removing opti
+-00000990: 6f6e 616c 2071 756f 7465 7320 6672 6f6d  onal quotes from
+-000009a0: 2048 544d 4c20 656c 656d 656e 7473 2e20   HTML elements. 
+-000009b0: 5468 6973 2070 726f 7669 6465 730a 2020  This provides.  
+-000009c0: 2020 2020 6265 7474 6572 2063 6f6d 7061      better compa
+-000009d0: 7469 6269 6c69 7479 2061 6372 6f73 7320  tibility across 
+-000009e0: 6272 6f77 7365 7273 202f 2065 7463 2e0a  browsers / etc..
+-000009f0: 0a76 302e 393a 2031 312d 3235 2d32 3031  .v0.9: 11-25-201
+-00000a00: 350a 0a20 2020 202d 204d 616b 696e 6720  5..    - Making 
+-00000a10: 6d69 6e69 6679 206c 6962 7261 7279 2063  minify library c
+-00000a20: 6f6e 6669 6775 7261 626c 652e 0a20 2020  onfigurable..   
+-00000a30: 202d 2052 656d 6f76 696e 6720 6167 6772   - Removing aggr
+-00000a40: 6573 7369 7665 2077 6869 7465 7370 6163  essive whitespac
+-00000a50: 6520 7265 6d6f 7661 6c20 282a 6176 6f69  e removal (*avoi
+-00000a60: 6473 2069 7373 7565 732a 292e 0a         ds issues*)..
++00000000: 4d69 6e69 6679 3a20 4120 506c 7567 696e  Minify: A Plugin
++00000010: 2066 6f72 2050 656c 6963 616e 0a3d 3d3d   for Pelican.===
++00000020: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d  ================
++00000030: 3d3d 3d3d 3d3d 3d3d 3d0a 0a5b 215b 4275  =========..[![Bu
++00000040: 696c 6420 5374 6174 7573 5d28 6874 7470  ild Status](http
++00000050: 733a 2f2f 696d 672e 7368 6965 6c64 732e  s://img.shields.
++00000060: 696f 2f67 6974 6875 622f 6163 7469 6f6e  io/github/action
++00000070: 732f 776f 726b 666c 6f77 2f73 7461 7475  s/workflow/statu
++00000080: 732f 7065 6c69 6361 6e2d 706c 7567 696e  s/pelican-plugin
++00000090: 732f 6d69 6e69 6679 2f6d 6169 6e2e 796d  s/minify/main.ym
++000000a0: 6c3f 6272 616e 6368 3d6d 6169 6e29 5d28  l?branch=main)](
++000000b0: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++000000c0: 6f6d 2f70 656c 6963 616e 2d70 6c75 6769  om/pelican-plugi
++000000d0: 6e73 2f6d 696e 6966 792f 6163 7469 6f6e  ns/minify/action
++000000e0: 7329 0a5b 215b 5079 5049 2056 6572 7369  s).[![PyPI Versi
++000000f0: 6f6e 5d28 6874 7470 733a 2f2f 696d 672e  on](https://img.
++00000100: 7368 6965 6c64 732e 696f 2f70 7970 692f  shields.io/pypi/
++00000110: 762f 7065 6c69 6361 6e2d 6d69 6e69 6679  v/pelican-minify
++00000120: 295d 2868 7474 7073 3a2f 2f70 7970 692e  )](https://pypi.
++00000130: 6f72 672f 7072 6f6a 6563 742f 7065 6c69  org/project/peli
++00000140: 6361 6e2d 6d69 6e69 6679 2f29 0a21 5b4c  can-minify/).![L
++00000150: 6963 656e 7365 5d28 6874 7470 733a 2f2f  icense](https://
++00000160: 696d 672e 7368 6965 6c64 732e 696f 2f70  img.shields.io/p
++00000170: 7970 692f 6c2f 7065 6c69 6361 6e2d 6d69  ypi/l/pelican-mi
++00000180: 6e69 6679 3f63 6f6c 6f72 3d62 6c75 6529  nify?color=blue)
++00000190: 0a0a 5468 6973 2050 656c 6963 616e 2070  ..This Pelican p
++000001a0: 6c75 6769 6e20 6361 6e20 636f 6d70 7265  lugin can compre
++000001b0: 7373 2048 544d 4c20 2620 4353 5320 6669  ss HTML & CSS fi
++000001c0: 6c65 7320 6173 2077 656c 6c20 6173 2069  les as well as i
++000001d0: 6e6c 696e 6520 4353 5320 616e 6420 4a61  nline CSS and Ja
++000001e0: 7661 5363 7269 7074 2069 6e20 4854 4d4c  vaScript in HTML
++000001f0: 2066 696c 6573 2e0a 0a52 6571 7569 7265   files...Require
++00000200: 6d65 6e74 730a 2d2d 2d2d 2d2d 2d2d 2d2d  ments.----------
++00000210: 2d2d 0a0a 4265 6361 7573 6520 7468 6973  --..Because this
++00000220: 2070 6c75 6769 6e20 6465 7065 6e64 7320   plugin depends 
++00000230: 6f6e 2074 6865 205b 606d 696e 6966 792d  on the [`minify-
++00000240: 6874 6d6c 605d 2868 7474 7073 3a2f 2f70  html`](https://p
++00000250: 7970 692e 6f72 672f 7072 6f6a 6563 742f  ypi.org/project/
++00000260: 6d69 6e69 6679 2d68 746d 6c29 2050 7974  minify-html) Pyt
++00000270: 686f 6e20 7061 636b 6167 652c 2077 6869  hon package, whi
++00000280: 6368 2069 6e20 7475 726e 2075 7469 6c69  ch in turn utili
++00000290: 7a65 7320 7468 6520 5275 7374 2d62 6173  zes the Rust-bas
++000002a0: 6564 205b 606d 696e 6966 792d 6874 6d6c  ed [`minify-html
++000002b0: 605d 2868 7474 7073 3a2f 2f67 6974 6875  `](https://githu
++000002c0: 622e 636f 6d2f 7769 6c73 6f6e 7a6c 696e  b.com/wilsonzlin
++000002d0: 2f6d 696e 6966 792d 6874 6d6c 2920 7072  /minify-html) pr
++000002e0: 6f6a 6563 742c 2079 6f75 206d 7573 7420  oject, you must 
++000002f0: 6861 7665 2043 6172 676f 2028 7468 6520  have Cargo (the 
++00000300: 5275 7374 2070 6163 6b61 6765 206d 616e  Rust package man
++00000310: 6167 6572 2920 696e 7374 616c 6c65 6420  ager) installed 
++00000320: 616e 6420 6176 6169 6c61 626c 6520 6f6e  and available on
++00000330: 2079 6f75 7220 6050 4154 4860 2e20 5275   your `PATH`. Ru
++00000340: 7374 2061 6e64 2043 6172 676f 2063 616e  st and Cargo can
++00000350: 2062 6520 696e 7374 616c 6c65 6420 6f6e   be installed on
++00000360: 204d 6163 2073 7973 7465 6d73 2076 6961   Mac systems via
++00000370: 2048 6f6d 6562 7265 773a 0a0a 2020 2020   Homebrew:..    
++00000380: 6272 6577 2069 6e73 7461 6c6c 2072 7573  brew install rus
++00000390: 740a 0a41 6c74 6572 6e61 7469 7665 6c79  t..Alternatively
++000003a0: 2c20 5275 7374 2061 6e64 2043 6172 676f  , Rust and Cargo
++000003b0: 2063 616e 2062 6520 696e 7374 616c 6c65   can be installe
++000003c0: 6420 7669 6120 796f 7572 2070 6172 7469  d via your parti
++000003d0: 6375 6c61 7220 7379 7374 656d e280 9973  cular system...s
++000003e0: 2070 6163 6b61 6765 206d 616e 6167 6572   package manager
++000003f0: 206f 7220 7669 613a 203c 6874 7470 733a   or via: <https:
++00000400: 2f2f 7275 7374 7570 2e72 732f 3e0a 0a49  //rustup.rs/>..I
++00000410: 6e73 7461 6c6c 6174 696f 6e0a 2d2d 2d2d  nstallation.----
++00000420: 2d2d 2d2d 2d2d 2d2d 0a0a 5468 6973 2070  --------..This p
++00000430: 6c75 6769 6e20 6361 6e20 6265 2069 6e73  lugin can be ins
++00000440: 7461 6c6c 6564 2076 6961 3a0a 0a20 2020  talled via:..   
++00000450: 2070 7974 686f 6e20 2d6d 2070 6970 2069   python -m pip i
++00000460: 6e73 7461 6c6c 2070 656c 6963 616e 2d6d  nstall pelican-m
++00000470: 696e 6966 790a 0a41 7320 6c6f 6e67 2061  inify..As long a
++00000480: 7320 796f 7520 6861 7665 206e 6f74 2065  s you have not e
++00000490: 7870 6c69 6369 746c 7920 6164 6465 6420  xplicitly added 
++000004a0: 6120 6050 4c55 4749 4e53 6020 7365 7474  a `PLUGINS` sett
++000004b0: 696e 6720 746f 2079 6f75 7220 5065 6c69  ing to your Peli
++000004c0: 6361 6e20 7365 7474 696e 6773 2066 696c  can settings fil
++000004d0: 652c 2074 6865 6e20 7468 6520 6e65 776c  e, then the newl
++000004e0: 792d 696e 7374 616c 6c65 6420 706c 7567  y-installed plug
++000004f0: 696e 2073 686f 756c 6420 6265 2061 7574  in should be aut
++00000500: 6f6d 6174 6963 616c 6c79 2064 6574 6563  omatically detec
++00000510: 7465 6420 616e 6420 656e 6162 6c65 642e  ted and enabled.
++00000520: 204f 7468 6572 7769 7365 2c20 796f 7520   Otherwise, you 
++00000530: 6d75 7374 2061 6464 2060 6d69 6e69 6679  must add `minify
++00000540: 6020 746f 2079 6f75 7220 6578 6973 7469  ` to your existi
++00000550: 6e67 2060 504c 5547 494e 5360 206c 6973  ng `PLUGINS` lis
++00000560: 742e 2046 6f72 206d 6f72 6520 696e 666f  t. For more info
++00000570: 726d 6174 696f 6e2c 2070 6c65 6173 6520  rmation, please 
++00000580: 7365 6520 7468 6520 5b48 6f77 2074 6f20  see the [How to 
++00000590: 5573 6520 506c 7567 696e 735d 2868 7474  Use Plugins](htt
++000005a0: 7073 3a2f 2f64 6f63 732e 6765 7470 656c  ps://docs.getpel
++000005b0: 6963 616e 2e63 6f6d 2f65 6e2f 6c61 7465  ican.com/en/late
++000005c0: 7374 2f70 6c75 6769 6e73 2e68 746d 6c23  st/plugins.html#
++000005d0: 686f 772d 746f 2d75 7365 2d70 6c75 6769  how-to-use-plugi
++000005e0: 6e73 2920 646f 6375 6d65 6e74 6174 696f  ns) documentatio
++000005f0: 6e2e 0a0a 5573 6167 650a 2d2d 2d2d 2d0a  n...Usage.-----.
++00000600: 0a42 7920 6465 6661 756c 742c 2061 6c6c  .By default, all
++00000610: 2048 544d 4c20 616e 6420 4353 5320 6669   HTML and CSS fi
++00000620: 6c65 7320 7769 6c6c 2062 6520 636f 6d70  les will be comp
++00000630: 7265 7373 6564 2c20 696e 636c 7564 696e  ressed, includin
++00000640: 6720 696e 6c69 6e65 204a 6176 6153 6372  g inline JavaScr
++00000650: 6970 7420 616e 6420 4353 5320 7275 6c65  ipt and CSS rule
++00000660: 7320 696e 2060 3c73 6372 6970 743e 6020  s in `<script>` 
++00000670: 616e 6420 603c 7374 796c 653e 6020 7461  and `<style>` ta
++00000680: 6773 2e0a 0a54 6f20 636f 6e66 6967 7572  gs...To configur
++00000690: 6520 7468 6520 6265 6861 7669 6f72 206f  e the behavior o
++000006a0: 6620 7468 6520 706c 7567 696e 2c20 6164  f the plugin, ad
++000006b0: 6420 7468 6520 666f 6c6c 6f77 696e 6720  d the following 
++000006c0: 7661 7269 6162 6c65 7320 696e 2079 6f75  variables in you
++000006d0: 7220 5065 6c69 6361 6e20 7365 7474 696e  r Pelican settin
++000006e0: 6773 2066 696c 6520 2876 616c 7565 7320  gs file (values 
++000006f0: 7368 6f77 6e20 6865 7265 2061 7265 2074  shown here are t
++00000700: 6865 2064 6566 6175 6c74 2076 616c 7565  he default value
++00000710: 7329 3a0a 0a60 6060 7079 7468 6f6e 0a43  s):..```python.C
++00000720: 5353 5f4d 494e 203d 2054 7275 650a 4854  SS_MIN = True.HT
++00000730: 4d4c 5f4d 494e 203d 2054 7275 650a 494e  ML_MIN = True.IN
++00000740: 4c49 4e45 5f43 5353 5f4d 494e 203d 2054  LINE_CSS_MIN = T
++00000750: 7275 650a 494e 4c49 4e45 5f4a 535f 4d49  rue.INLINE_JS_MI
++00000760: 4e20 3d20 5472 7565 0a60 6060 0a0a 506c  N = True.```..Pl
++00000770: 6561 7365 206e 6f74 6520 7468 6174 2060  ease note that `
++00000780: 494e 4c49 4e45 5f43 5353 5f4d 494e 6020  INLINE_CSS_MIN` 
++00000790: 616e 6420 6049 4e4c 494e 455f 4a53 5f4d  and `INLINE_JS_M
++000007a0: 494e 6020 7265 7175 6972 6520 7468 6174  IN` require that
++000007b0: 2060 4854 4d4c 5f4d 494e 6020 6265 2065   `HTML_MIN` be e
++000007c0: 6e61 626c 6564 2e0a 0a43 6f6e 7472 6962  nabled...Contrib
++000007d0: 7574 696e 670a 2d2d 2d2d 2d2d 2d2d 2d2d  uting.----------
++000007e0: 2d2d 0a0a 436f 6e74 7269 6275 7469 6f6e  --..Contribution
++000007f0: 7320 6172 6520 7765 6c63 6f6d 6520 616e  s are welcome an
++00000800: 6420 6d75 6368 2061 7070 7265 6369 6174  d much appreciat
++00000810: 6564 2e20 4576 6572 7920 6c69 7474 6c65  ed. Every little
++00000820: 2062 6974 2068 656c 7073 2e20 596f 7520   bit helps. You 
++00000830: 6361 6e20 636f 6e74 7269 6275 7465 2062  can contribute b
++00000840: 7920 696d 7072 6f76 696e 6720 7468 6520  y improving the 
++00000850: 646f 6375 6d65 6e74 6174 696f 6e2c 2061  documentation, a
++00000860: 6464 696e 6720 6d69 7373 696e 6720 6665  dding missing fe
++00000870: 6174 7572 6573 2c20 616e 6420 6669 7869  atures, and fixi
++00000880: 6e67 2062 7567 732e 2059 6f75 2063 616e  ng bugs. You can
++00000890: 2061 6c73 6f20 6865 6c70 206f 7574 2062   also help out b
++000008a0: 7920 7265 7669 6577 696e 6720 616e 6420  y reviewing and 
++000008b0: 636f 6d6d 656e 7469 6e67 206f 6e20 5b65  commenting on [e
++000008c0: 7869 7374 696e 6720 6973 7375 6573 5d5b  xisting issues][
++000008d0: 5d2e 0a0a 546f 2073 7461 7274 2063 6f6e  ]...To start con
++000008e0: 7472 6962 7574 696e 6720 746f 2074 6869  tributing to thi
++000008f0: 7320 706c 7567 696e 2c20 7265 7669 6577  s plugin, review
++00000900: 2074 6865 205b 436f 6e74 7269 6275 7469   the [Contributi
++00000910: 6e67 2074 6f20 5065 6c69 6361 6e5d 5b5d  ng to Pelican][]
++00000920: 2064 6f63 756d 656e 7461 7469 6f6e 2c20   documentation, 
++00000930: 6265 6769 6e6e 696e 6720 7769 7468 2074  beginning with t
++00000940: 6865 202a 2a43 6f6e 7472 6962 7574 696e  he **Contributin
++00000950: 6720 436f 6465 2a2a 2073 6563 7469 6f6e  g Code** section
++00000960: 2e0a 0a5b 6578 6973 7469 6e67 2069 7373  ...[existing iss
++00000970: 7565 735d 3a20 6874 7470 733a 2f2f 6769  ues]: https://gi
++00000980: 7468 7562 2e63 6f6d 2f70 656c 6963 616e  thub.com/pelican
++00000990: 2d70 6c75 6769 6e73 2f6d 696e 6966 792f  -plugins/minify/
++000009a0: 6973 7375 6573 0a5b 436f 6e74 7269 6275  issues.[Contribu
++000009b0: 7469 6e67 2074 6f20 5065 6c69 6361 6e5d  ting to Pelican]
++000009c0: 3a20 6874 7470 733a 2f2f 646f 6373 2e67  : https://docs.g
++000009d0: 6574 7065 6c69 6361 6e2e 636f 6d2f 656e  etpelican.com/en
++000009e0: 2f6c 6174 6573 742f 636f 6e74 7269 6275  /latest/contribu
++000009f0: 7465 2e68 746d 6c0a 0a4c 6963 656e 7365  te.html..License
++00000a00: 0a2d 2d2d 2d2d 2d2d 0a0a 5468 6973 2070  .-------..This p
++00000a10: 726f 6a65 6374 2069 7320 6c69 6365 6e73  roject is licens
++00000a20: 6564 2075 6e64 6572 2074 6865 204d 4954  ed under the MIT
++00000a30: 206c 6963 656e 7365 2e0a                  license..
+```
+
