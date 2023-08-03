@@ -11360,3 +11360,60 @@
 [2023-08-03 05:59:04] INFO root fetch - processPackages [pytoniq]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-0.0.9.tar.gz]
 [2023-08-03 05:59:04] INFO root fetch - main [MainThread]: End processing [pytoniq]: success
 [2023-08-03 05:59:04] INFO root fetch - main [MainThread]: Store serial: [19153457]
+[2023-08-03 06:04:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153457]
+[2023-08-03 06:04:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-03 06:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcpsocket
+[2023-08-03 06:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evals-nightly
+[2023-08-03 06:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Widget-Controller
+[2023-08-03 06:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zcbot-predict-sdk
+[2023-08-03 06:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-core
+[2023-08-03 06:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liplustools
+[2023-08-03 06:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: StarClusterPlot
+[2023-08-03 06:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yandexcloud
+[2023-08-03 06:04:13] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 06:04:13] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230801] Old Version: [1.0.3.dev20230731]
+[2023-08-03 06:04:13] INFO root fetch - processPackages [Widget-Controller]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-08-03 06:04:13] WARNING root fetch - processPackages [tcpsocket]: Skipping, unable to determine old version
+[2023-08-03 06:04:13] INFO root fetch - main [MainThread]: End processing [tcpsocket] error
+[2023-08-03 06:04:13] WARNING root fetch - processPackages [liplustools]: Skipping, unable to determine old version
+[2023-08-03 06:04:13] INFO root fetch - main [MainThread]: End processing [liplustools] error
+[2023-08-03 06:04:13] INFO root fetch - processPackages [StarClusterPlot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-03 06:04:13] WARNING root fetch - processPackages [composabl-core]: Skipping, unable to determine old version
+[2023-08-03 06:04:13] INFO root fetch - main [MainThread]: End processing [composabl-core] error
+[2023-08-03 06:04:13] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/23/de/2e8e2cd70ebc68c458bfcd67443d7f67ba9c95e66260faa13d259323dc2c/evals-nightly-1.0.3.dev20230731.tar.gz
+[2023-08-03 06:04:13] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-08-03 06:04:13] INFO root fetch - processPackages [Widget-Controller]: Downloading https://files.pythonhosted.org/packages/d0/ab/a7185ce44b29a4f2c74adcaf2863d163fa773b8ec9caf1347a0b1c229e56/Widget_Controller-2.0.1.tar.gz
+[2023-08-03 06:04:13] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/7d/6e/9e65ce9f340a92e3b3cb8aaeb4734cda61695713be50bb6b46770a3a587a/zcbot-predict-sdk-0.0.8.tar.gz
+[2023-08-03 06:04:13] INFO root fetch - processPackages [StarClusterPlot]: Downloading https://files.pythonhosted.org/packages/72/a6/5ee453bc0215126a68782a0e43383929d62953c16628e174570ac0a53905/StarClusterPlot-0.1.1.tar.gz
+[2023-08-03 06:04:13] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2023-08-03 06:04:13] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/07/5b/ef0f515581f29a66617150db7be2378908c2763084c82bc18c705ba37228/evals-nightly-1.0.3.dev20230801.tar.gz
+[2023-08-03 06:04:13] INFO root fetch - processPackages [Widget-Controller]: Downloading https://files.pythonhosted.org/packages/a6/be/dd61b47b68265c2025bfede788bcd0d104284722802b4563fe7339978f98/Widget_Controller-2.0.2.tar.gz
+[2023-08-03 06:04:13] INFO root fetch - processPackages [StarClusterPlot]: Downloading https://files.pythonhosted.org/packages/0d/0d/d0cda8714e03f9d1b87c35c62871b0f230a015956a15de7f7a20f25fcbe3/StarClusterPlot-0.1.2.tar.gz
+[2023-08-03 06:04:13] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-08-03 06:04:13] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230731.tar.gz tmp/evals-nightly-1.0.3.dev20230801.tar.gz --markdown 20230803/e/evals-nightly/1.0.3.dev20230731-1.0.3.dev20230801/diff.md --exclude *.pyd
+[2023-08-03 06:04:13] INFO root fetch - processPackages [Widget-Controller]: executing diffoscope
+[2023-08-03 06:04:13] INFO root fetch - processPackages [Widget-Controller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Widget_Controller-2.0.1.tar.gz tmp/Widget_Controller-2.0.2.tar.gz --markdown 20230803/W/Widget-Controller/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-08-03 06:04:14] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/b3/fa/c78fca334a791ad8ba00725d1b676d3000e6e1160fcd28fee2ac88852932/zcbot-predict-sdk-0.0.9.tar.gz
+[2023-08-03 06:04:14] INFO root fetch - processPackages [StarClusterPlot]: executing diffoscope
+[2023-08-03 06:04:14] INFO root fetch - processPackages [StarClusterPlot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StarClusterPlot-0.1.1.tar.gz tmp/StarClusterPlot-0.1.2.tar.gz --markdown 20230803/S/StarClusterPlot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-03 06:04:14] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2023-08-03 06:04:14] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-08-03 06:04:14] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230803/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 06:04:14] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2023-08-03 06:04:14] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20230803/y/yandexcloud/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-08-03 06:04:14] INFO root fetch - processPackages [Widget-Controller]: Remove: archive file [/home/abi/fetcher/tmp/Widget_Controller-2.0.1.tar.gz]
+[2023-08-03 06:04:14] INFO root fetch - processPackages [Widget-Controller]: Remove: archive file [/home/abi/fetcher/tmp/Widget_Controller-2.0.2.tar.gz]
+[2023-08-03 06:04:14] INFO root fetch - main [MainThread]: End processing [Widget-Controller]: success
+[2023-08-03 06:04:15] INFO root fetch - processPackages [StarClusterPlot]: Remove: archive file [/home/abi/fetcher/tmp/StarClusterPlot-0.1.1.tar.gz]
+[2023-08-03 06:04:15] INFO root fetch - processPackages [StarClusterPlot]: Remove: archive file [/home/abi/fetcher/tmp/StarClusterPlot-0.1.2.tar.gz]
+[2023-08-03 06:04:15] INFO root fetch - main [MainThread]: End processing [StarClusterPlot]: success
+[2023-08-03 06:04:15] INFO root fetch - processPackages [zcbot-predict-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-predict-sdk-0.0.8.tar.gz]
+[2023-08-03 06:04:15] INFO root fetch - processPackages [zcbot-predict-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-predict-sdk-0.0.9.tar.gz]
+[2023-08-03 06:04:15] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-08-03 06:04:15] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230731.tar.gz]
+[2023-08-03 06:04:15] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230801.tar.gz]
+[2023-08-03 06:04:15] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-08-03 06:04:18] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2023-08-03 06:04:18] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2023-08-03 06:04:18] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2023-08-03 06:04:18] INFO root fetch - main [MainThread]: Store serial: [19153485]
