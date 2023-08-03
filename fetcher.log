@@ -20648,3 +20648,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 12:20:33] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.9.2.tar.gz]
 [2023-08-03 12:20:33] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-08-03 12:20:33] INFO root fetch - main [MainThread]: Store serial: [19157585]
+[2023-08-03 12:25:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157585]
+[2023-08-03 12:25:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-03 12:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shareddata
+[2023-08-03 12:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasets
+[2023-08-03 12:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CrazyDG
+[2023-08-03 12:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pumaz
+[2023-08-03 12:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ploadpy
+[2023-08-03 12:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yolov8face
+[2023-08-03 12:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yolov8face
+[2023-08-03 12:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: junifer
+[2023-08-03 12:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yep-detectors
+[2023-08-03 12:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Fred-Frechet
+[2023-08-03 12:25:43] INFO root fetch - processPackages [CrazyDG]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 12:25:43] INFO root fetch - processPackages [pumaz]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-08-03 12:25:43] INFO root fetch - processPackages [yolov8face]: New version: [0.1.1] Old Version: [0.0.3]
+[2023-08-03 12:25:43] INFO root fetch - processPackages [yolov8face]: New version: [0.1.1] Old Version: [0.0.3]
+[2023-08-03 12:25:43] INFO root fetch - processPackages [shareddata]: New version: [2.3.5] Old Version: [2.3.2]
+[2023-08-03 12:25:43] WARNING root fetch - processPackages [yep-detectors]: Skipping, unable to determine old version
+[2023-08-03 12:25:43] INFO root fetch - main [MainThread]: End processing [yep-detectors] error
+[2023-08-03 12:25:43] INFO root fetch - processPackages [junifer]: New version: [0.0.4.dev8] Old Version: [0.0.4.dev15]
+[2023-08-03 12:25:43] INFO root fetch - processPackages [CrazyDG]: Downloading https://files.pythonhosted.org/packages/2b/6a/d2fb03e01b5795e2c0ccc5e436ce7189db5fe96584f5fbd5d580a1744251/CrazyDG-0.0.3.tar.gz
+[2023-08-03 12:25:43] WARNING root fetch - processPackages [ploadpy]: Skipping, unable to determine old version
+[2023-08-03 12:25:43] INFO root fetch - main [MainThread]: End processing [ploadpy] error
+[2023-08-03 12:25:43] INFO root fetch - processPackages [Fred-Frechet]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-03 12:25:43] INFO root fetch - processPackages [datasets]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-03 12:25:43] INFO root fetch - processPackages [yolov8face]: Downloading https://files.pythonhosted.org/packages/70/24/a5e73892efb6bf1aa3acb704af43d79c710232848b4d2f50ad45ff204ada/yolov8face-0.0.3.tar.gz
+[2023-08-03 12:25:43] INFO root fetch - processPackages [yolov8face]: Downloading https://files.pythonhosted.org/packages/70/24/a5e73892efb6bf1aa3acb704af43d79c710232848b4d2f50ad45ff204ada/yolov8face-0.0.3.tar.gz
+[2023-08-03 12:25:43] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/80/d5/7068485fca5b8833fea903b67e20d74fb2dc889fb024612b6da0b24bc31e/junifer-0.0.4.dev15.tar.gz
+[2023-08-03 12:25:43] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/2d/cc/cee569c150c4f25cbda23590c8e9baf1de58f7658dde670ba0b1182df4fe/shareddata-2.3.2.tar.gz
+[2023-08-03 12:25:43] INFO root fetch - processPackages [pumaz]: Downloading https://files.pythonhosted.org/packages/c4/ef/d1bfd2fcb47e4d47f6e767e897356695d743cc60f412882e11f0eec608fd/pumaz-0.3.0.tar.gz
+[2023-08-03 12:25:43] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/35/81/17595c869b665747837da1825308030df3087c80e20f26e282781e991ed7/Fred-Frechet-1.9.8.tar.gz
+[2023-08-03 12:25:43] INFO root fetch - processPackages [CrazyDG]: Downloading https://files.pythonhosted.org/packages/6c/1f/4f4df1cb5b24ac88657713a9e10496bd41a47cbc419a5afafe91408aebaf/CrazyDG-0.0.4.tar.gz
+[2023-08-03 12:25:43] INFO root fetch - processPackages [datasets]: Downloading https://files.pythonhosted.org/packages/ce/ba/2ed94e21dd2d425ebd185a2f5ea6cc63b48c145a374b161c7eb274d76229/datasets-2.8.0.tar.gz
+[2023-08-03 12:25:43] INFO root fetch - processPackages [CrazyDG]: executing diffoscope
+[2023-08-03 12:25:43] INFO root fetch - processPackages [CrazyDG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrazyDG-0.0.3.tar.gz tmp/CrazyDG-0.0.4.tar.gz --markdown 20230803/C/CrazyDG/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 12:25:43] INFO root fetch - processPackages [yolov8face]: Downloading https://files.pythonhosted.org/packages/56/41/f39a400fc0a8bc837ae6b93a8f2eaec393168261fc6e8c4aed8840d1eebe/yolov8face-0.1.1.tar.gz
+[2023-08-03 12:25:43] INFO root fetch - processPackages [yolov8face]: Downloading https://files.pythonhosted.org/packages/56/41/f39a400fc0a8bc837ae6b93a8f2eaec393168261fc6e8c4aed8840d1eebe/yolov8face-0.1.1.tar.gz
+[2023-08-03 12:25:43] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/80/13/035528f2577d94eddfb6556eebef98d0c2b48b5228d56ce0f0a932859bfc/shareddata-2.3.5.tar.gz
+[2023-08-03 12:25:44] INFO root fetch - processPackages [pumaz]: Downloading https://files.pythonhosted.org/packages/a1/bb/c6a0c7896289d5e40319caa9e47f68b7fc219cc5e81827aaaaabac5ee999/pumaz-1.0.0.tar.gz
+[2023-08-03 12:25:44] INFO root fetch - processPackages [pumaz]: executing diffoscope
+[2023-08-03 12:25:44] INFO root fetch - processPackages [pumaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pumaz-0.3.0.tar.gz tmp/pumaz-1.0.0.tar.gz --markdown 20230803/p/pumaz/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-03 12:25:44] INFO root fetch - processPackages [datasets]: Downloading https://files.pythonhosted.org/packages/f6/d0/ccd1c9148fe300a069b42a8701fe9f1cb9a22c056d449c96ef5d546e18aa/datasets-2.9.0.tar.gz
+[2023-08-03 12:25:44] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/af/71/ab2e5bfaf639d216e531b39c565c52e18c9b9b5ac7b2efa940691b33770c/junifer-0.0.4.dev8.tar.gz
+[2023-08-03 12:25:44] INFO root fetch - processPackages [yolov8face]: executing diffoscope
+[2023-08-03 12:25:44] INFO root fetch - processPackages [yolov8face]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolov8face-0.0.3.tar.gz tmp/yolov8face-0.1.1.tar.gz --markdown 20230803/y/yolov8face/0.0.3-0.1.1/diff.md --exclude *.pyd
+[2023-08-03 12:25:44] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/6e/75/298c88cc23934ff39afe9396676a702e198399c248fb6d9e16da366009d3/Fred-Frechet-1.9.9.tar.gz
+[2023-08-03 12:25:44] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-08-03 12:25:44] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.3.2.tar.gz tmp/shareddata-2.3.5.tar.gz --markdown 20230803/s/shareddata/2.3.2-2.3.5/diff.md --exclude *.pyd
+[2023-08-03 12:25:44] INFO root fetch - processPackages [yolov8face]: executing diffoscope
+[2023-08-03 12:25:44] INFO root fetch - processPackages [yolov8face]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolov8face-0.0.3.tar.gz tmp/yolov8face-0.1.1.tar.gz --markdown 20230803/y/yolov8face/0.0.3-0.1.1/diff.md --exclude *.pyd
+[2023-08-03 12:25:44] INFO root fetch - processPackages [datasets]: executing diffoscope
+[2023-08-03 12:25:44] INFO root fetch - processPackages [datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasets-2.8.0.tar.gz tmp/datasets-2.9.0.tar.gz --markdown 20230803/d/datasets/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-03 12:25:44] INFO root fetch - processPackages [Fred-Frechet]: executing diffoscope
+[2023-08-03 12:25:44] INFO root fetch - processPackages [Fred-Frechet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fred-Frechet-1.9.8.tar.gz tmp/Fred-Frechet-1.9.9.tar.gz --markdown 20230803/F/Fred-Frechet/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-03 12:25:44] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2023-08-03 12:25:44] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.4.dev15.tar.gz tmp/junifer-0.0.4.dev8.tar.gz --markdown 20230803/j/junifer/0.0.4.dev15-0.0.4.dev8/diff.md --exclude *.pyd
+[2023-08-03 12:25:45] INFO root fetch - processPackages [CrazyDG]: Remove: archive file [/home/abi/fetcher/tmp/CrazyDG-0.0.3.tar.gz]
+[2023-08-03 12:25:45] INFO root fetch - processPackages [CrazyDG]: Remove: archive file [/home/abi/fetcher/tmp/CrazyDG-0.0.4.tar.gz]
+[2023-08-03 12:25:45] INFO root fetch - main [MainThread]: End processing [CrazyDG]: success
+[2023-08-03 12:25:45] INFO root fetch - processPackages [yolov8face]: Remove: archive file [/home/abi/fetcher/tmp/yolov8face-0.0.3.tar.gz]
+[2023-08-03 12:25:45] INFO root fetch - processPackages [yolov8face]: Remove: archive file [/home/abi/fetcher/tmp/yolov8face-0.1.1.tar.gz]
+[2023-08-03 12:25:45] INFO root fetch - main [MainThread]: End processing [yolov8face]: success
+[2023-08-03 12:25:45] INFO root fetch - processPackages [pumaz]: Remove: archive file [/home/abi/fetcher/tmp/pumaz-0.3.0.tar.gz]
+[2023-08-03 12:25:45] INFO root fetch - processPackages [pumaz]: Remove: archive file [/home/abi/fetcher/tmp/pumaz-1.0.0.tar.gz]
+[2023-08-03 12:25:45] INFO root fetch - main [MainThread]: End processing [pumaz]: success
+[2023-08-03 12:25:45] INFO root fetch - main [MainThread]: End processing [yolov8face]: success
+[2023-08-03 12:25:45] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.3.2.tar.gz]
+[2023-08-03 12:25:45] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.3.5.tar.gz]
+[2023-08-03 12:25:45] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-08-03 12:25:45] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.8.tar.gz]
+[2023-08-03 12:25:45] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.9.tar.gz]
+[2023-08-03 12:25:45] INFO root fetch - main [MainThread]: End processing [Fred-Frechet]: success
+[2023-08-03 12:25:46] INFO root fetch - processPackages [datasets]: Remove: archive file [/home/abi/fetcher/tmp/datasets-2.8.0.tar.gz]
+[2023-08-03 12:25:46] INFO root fetch - processPackages [datasets]: Remove: archive file [/home/abi/fetcher/tmp/datasets-2.9.0.tar.gz]
+[2023-08-03 12:25:46] INFO root fetch - main [MainThread]: End processing [datasets]: success
+[2023-08-03 12:25:46] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev15.tar.gz]
+[2023-08-03 12:25:46] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev8.tar.gz]
+[2023-08-03 12:25:46] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2023-08-03 12:25:46] INFO root fetch - main [MainThread]: Store serial: [19157622]
