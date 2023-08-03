@@ -11565,3 +11565,48 @@
 [2023-08-03 06:14:45] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.9.tar.gz]
 [2023-08-03 06:14:45] INFO root fetch - main [MainThread]: End processing [gs2-cdk]: success
 [2023-08-03 06:14:45] INFO root fetch - main [MainThread]: Store serial: [19153546]
+[2023-08-03 06:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153546]
+[2023-08-03 06:19:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-03 06:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparglim
+[2023-08-03 06:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kentoml
+[2023-08-03 06:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-google-api-v1.0.1
+[2023-08-03 06:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-multi-company
+[2023-08-03 06:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiohttp-client-rate-limiter
+[2023-08-03 06:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywencai
+[2023-08-03 06:19:54] WARNING root fetch - processPackages [kentoml]: Skipping, unable to determine old version
+[2023-08-03 06:19:54] INFO root fetch - main [MainThread]: End processing [kentoml] error
+[2023-08-03 06:19:54] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: New version: [16.0.20230802.0] Old Version: [16.0.20230612.0]
+[2023-08-03 06:19:54] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-03 06:19:54] INFO root fetch - processPackages [sparglim]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-03 06:19:54] WARNING root fetch - processPackages [cloud-google-api-v1.0.1]: Skipping, unable to determine old version
+[2023-08-03 06:19:54] INFO root fetch - main [MainThread]: End processing [cloud-google-api-v1.0.1] error
+[2023-08-03 06:19:54] INFO root fetch - processPackages [pywencai]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-03 06:19:54] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/ea/9f/be474e94baf03ae4ac64a91f73d5d08500905d173722d2bebafbff315b0c/sparglim-0.1.2.tar.gz
+[2023-08-03 06:19:54] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/a6/d1/7cb924dffef6c34ff581b3a9c84d5c3f00471ae9fc7dabceb64bf8a27d47/odoo_addons_oca_multi_company-16.0.20230612.0-py3-none-any.whl
+[2023-08-03 06:19:54] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: Downloading https://files.pythonhosted.org/packages/15/c6/71e7b941a04fcf99fbd41fb5f37f63aae904ebf3995c2c175374ac28a9b2/aiohttp_client_rate_limiter-1.0.2.tar.gz
+[2023-08-03 06:19:55] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/5a/f1/d46d6d2b9df688322af1ef327b8922b7c5a59739046fddd8de0ef81e9b88/pywencai-0.9.0.tar.gz
+[2023-08-03 06:19:55] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/7a/95/05eea0b8f90c8423ca20f7c5cd0b7bd2a76b4ef0bd72b521dbe6f05c6dd9/sparglim-0.1.3.tar.gz
+[2023-08-03 06:19:55] INFO root fetch - processPackages [sparglim]: executing diffoscope
+[2023-08-03 06:19:55] INFO root fetch - processPackages [sparglim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparglim-0.1.2.tar.gz tmp/sparglim-0.1.3.tar.gz --markdown 20230803/s/sparglim/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-03 06:19:55] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/6f/9f/9b786c62e75c5c213cf6f7ca985458ee02b15f2e593585b2d681671d8709/odoo_addons_oca_multi_company-16.0.20230802.0-py3-none-any.whl
+[2023-08-03 06:19:55] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: Downloading https://files.pythonhosted.org/packages/42/22/81309ddd60bf3069130e9fd7e0411504f19b7aff9d9631d119268f186a15/aiohttp_client_rate_limiter-1.0.3.tar.gz
+[2023-08-03 06:19:55] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: executing diffoscope
+[2023-08-03 06:19:55] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_multi_company-16.0.20230612.0-py3-none-any.whl.zip tmp/odoo_addons_oca_multi_company-16.0.20230802.0-py3-none-any.whl.zip --markdown 20230803/o/odoo-addons-oca-multi-company/16.0.20230612.0-16.0.20230802.0/diff.md --exclude *.pyd
+[2023-08-03 06:19:55] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: executing diffoscope
+[2023-08-03 06:19:55] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_client_rate_limiter-1.0.2.tar.gz tmp/aiohttp_client_rate_limiter-1.0.3.tar.gz --markdown 20230803/a/aiohttp-client-rate-limiter/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-03 06:19:55] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/e4/42/279970b75bf0da6a8bce21f8f771807136d6d09464d72836f6a5bc7f0476/pywencai-0.9.1.tar.gz
+[2023-08-03 06:19:56] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-08-03 06:19:56] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.9.0.tar.gz tmp/pywencai-0.9.1.tar.gz --markdown 20230803/p/pywencai/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-03 06:19:56] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_client_rate_limiter-1.0.2.tar.gz]
+[2023-08-03 06:19:56] INFO root fetch - processPackages [aiohttp-client-rate-limiter]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_client_rate_limiter-1.0.3.tar.gz]
+[2023-08-03 06:19:56] INFO root fetch - main [MainThread]: End processing [aiohttp-client-rate-limiter]: success
+[2023-08-03 06:19:56] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_multi_company-16.0.20230612.0-py3-none-any.whl.zip]
+[2023-08-03 06:19:56] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_multi_company-16.0.20230802.0-py3-none-any.whl.zip]
+[2023-08-03 06:19:56] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-multi-company]: success
+[2023-08-03 06:19:56] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.2.tar.gz]
+[2023-08-03 06:19:56] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.3.tar.gz]
+[2023-08-03 06:19:56] INFO root fetch - main [MainThread]: End processing [sparglim]: success
+[2023-08-03 06:19:56] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.0.tar.gz]
+[2023-08-03 06:19:56] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.1.tar.gz]
+[2023-08-03 06:19:56] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-08-03 06:19:56] INFO root fetch - main [MainThread]: Store serial: [19153564]
