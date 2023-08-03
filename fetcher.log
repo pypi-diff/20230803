@@ -18603,3 +18603,142 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 10:54:40] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-08-03 10:54:40] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-08-03 10:54:40] INFO root fetch - main [MainThread]: Store serial: [19156530]
+[2023-08-03 10:59:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19156530]
+[2023-08-03 10:59:50] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hiddifypanel
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.projen-awscdk-construct
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orbit-component-zerodocs
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MOBPY
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pcalf
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfireconsole
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ruleminer
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: s1290018-learn
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tsetmc
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eth-token-index
+[2023-08-03 10:59:50] INFO root fetch - processPackages [pcalf]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-03 10:59:50] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev1] Old Version: [8.0.0.dev0]
+[2023-08-03 10:59:50] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 10:59:50] WARNING root fetch - processPackages [s1290018-learn]: Skipping, unable to determine old version
+[2023-08-03 10:59:50] INFO root fetch - processPackages [s1290018-learn]: Start processing: coolbg
+[2023-08-03 10:59:50] INFO root fetch - main [MainThread]: End processing [s1290018-learn] error
+[2023-08-03 10:59:50] INFO root fetch - processPackages [orbit-component-zerodocs]: New version: [1.0.9] Old Version: [1.0.18]
+[2023-08-03 10:59:50] INFO root fetch - processPackages [MOBPY]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ruleminer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 10:59:50] WARNING root fetch - processPackages [pyfireconsole]: Skipping, unable to determine old version
+[2023-08-03 10:59:50] INFO root fetch - processPackages [pyfireconsole]: Start processing: airoboros
+[2023-08-03 10:59:50] INFO root fetch - main [MainThread]: End processing [pyfireconsole] error
+[2023-08-03 10:59:50] INFO root fetch - processPackages [eth-token-index]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-08-03 10:59:50] INFO root fetch - processPackages [tsetmc]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-03 10:59:50] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/71/cb/19a8463d958e9da97cad75b01ffd58a601b4228ee34890aab53ae77cd3bc/hiddifypanel-8.0.0.dev0.tar.gz
+[2023-08-03 10:59:50] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/d3/81/09e0f632920b4d4fb9533f016703682086e3d5dc4c5c8d9709cb295cb72d/orbit_component_zerodocs-1.0.18.tar.gz
+[2023-08-03 10:59:50] INFO root fetch - processPackages [airoboros]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-03 10:59:50] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2023-08-03 10:59:50] INFO root fetch - processPackages [pcalf]: Downloading https://files.pythonhosted.org/packages/08/78/fb7c9ac0cee608f10f299d9796270e4f9aa299b61b95bf0293ae6afdce3e/pcalf-1.2.1.tar.gz
+[2023-08-03 10:59:50] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-08-03 10:59:50] INFO root fetch - processPackages [ruleminer]: Downloading https://files.pythonhosted.org/packages/56/4a/8c1d0b0130beebde1b21925b1094dfcecbad18c00342038c0b7ad085a1e5/ruleminer-0.1.8-py2.py3-none-any.whl
+[2023-08-03 10:59:50] INFO root fetch - processPackages [tsetmc]: Downloading https://files.pythonhosted.org/packages/e9/89/591bbad4fd0fe61938b4209f60e88c1fb470f266fe465ce188ca3fa4c499/tsetmc-0.9.0.tar.gz
+[2023-08-03 10:59:50] INFO root fetch - processPackages [eth-token-index]: Downloading https://files.pythonhosted.org/packages/ee/f8/623123ac53a6b3c42a1fa3520b2df1e3c4094d0f6394ba592826df18f1e3/eth-token-index-0.6.2.tar.gz
+[2023-08-03 10:59:50] INFO root fetch - processPackages [MOBPY]: Downloading https://files.pythonhosted.org/packages/ee/c4/322fb61e10c5e48da55193c93645612aac0a7bfd947b8e5293f88c751838/MOBPY-1.1.0.tar.gz
+[2023-08-03 10:59:51] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/4a/ff/9273f4cb2e8fca09dafad941f272c651a2394b294082efb56e8b062aaac3/airoboros-2.0.8.tar.gz
+[2023-08-03 10:59:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-08-03 10:59:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230803/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 10:59:51] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2023-08-03 10:59:51] INFO root fetch - processPackages [ruleminer]: Downloading https://files.pythonhosted.org/packages/42/4e/5ea94f19fc07634c633158d076ba968b988458f1ea195a51b8d4ce3883f0/ruleminer-0.1.9-py2.py3-none-any.whl
+[2023-08-03 10:59:51] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/04/2c/8c8531b18da66a5bff50cef3ed436d05cbc4cd0c86ce2edb050974cd4cbd/orbit_component_zerodocs-1.0.9.tar.gz
+[2023-08-03 10:59:51] INFO root fetch - processPackages [pcalf]: Downloading https://files.pythonhosted.org/packages/a9/e7/ffd0291bfdd833df0f83283c38fb4d00d7d95cd63507f959ff3697697d68/pcalf-1.2.2.tar.gz
+[2023-08-03 10:59:51] INFO root fetch - processPackages [eth-token-index]: Downloading https://files.pythonhosted.org/packages/28/c6/052ccf98969edfbecd7959df6af11fa421318021f820add65387450a94dc/eth-token-index-0.6.3.tar.gz
+[2023-08-03 10:59:51] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/ea/0b/10b7e8c1d72e2110732337666c1fb3278c338ad8f76908749f39897328c5/airoboros-2.0.9.tar.gz
+[2023-08-03 10:59:51] INFO root fetch - processPackages [MOBPY]: Downloading https://files.pythonhosted.org/packages/4d/a5/90080b667db182c581f90a27662e6a07b0f05131df3a8c49836ea80cbd6e/MOBPY-1.1.1.tar.gz
+[2023-08-03 10:59:51] INFO root fetch - processPackages [tsetmc]: Downloading https://files.pythonhosted.org/packages/58/ff/602c329041abb143266ea818f96ae044114643056881f5b90ee954fa644d/tsetmc-0.9.1.tar.gz
+[2023-08-03 10:59:51] INFO root fetch - processPackages [orbit-component-zerodocs]: executing diffoscope
+[2023-08-03 10:59:51] INFO root fetch - processPackages [orbit-component-zerodocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_zerodocs-1.0.18.tar.gz tmp/orbit_component_zerodocs-1.0.9.tar.gz --markdown 20230803/o/orbit-component-zerodocs/1.0.18-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 10:59:51] INFO root fetch - processPackages [airoboros]: executing diffoscope
+[2023-08-03 10:59:51] INFO root fetch - processPackages [airoboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airoboros-2.0.8.tar.gz tmp/airoboros-2.0.9.tar.gz --markdown 20230803/a/airoboros/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-03 10:59:51] INFO root fetch - processPackages [eth-token-index]: executing diffoscope
+[2023-08-03 10:59:51] INFO root fetch - processPackages [eth-token-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-token-index-0.6.2.tar.gz tmp/eth-token-index-0.6.3.tar.gz --markdown 20230803/e/eth-token-index/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-08-03 10:59:51] INFO root fetch - processPackages [MOBPY]: executing diffoscope
+[2023-08-03 10:59:51] INFO root fetch - processPackages [MOBPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MOBPY-1.1.0.tar.gz tmp/MOBPY-1.1.1.tar.gz --markdown 20230803/M/MOBPY/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-03 10:59:51] INFO root fetch - processPackages [tsetmc]: executing diffoscope
+[2023-08-03 10:59:51] INFO root fetch - processPackages [tsetmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsetmc-0.9.0.tar.gz tmp/tsetmc-0.9.1.tar.gz --markdown 20230803/t/tsetmc/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-03 10:59:51] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2023-08-03 10:59:51] INFO root fetch - processPackages [ruleminer]: executing diffoscope
+[2023-08-03 10:59:51] INFO root fetch - processPackages [ruleminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruleminer-0.1.8-py2.py3-none-any.whl.zip tmp/ruleminer-0.1.9-py2.py3-none-any.whl.zip --markdown 20230803/r/ruleminer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 10:59:51] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2023-08-03 10:59:51] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20230803/c/coolbg/3.98-3.99/diff.md --exclude *.pyd
+[2023-08-03 10:59:52] INFO root fetch - processPackages [pcalf]: executing diffoscope
+[2023-08-03 10:59:52] INFO root fetch - processPackages [pcalf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcalf-1.2.1.tar.gz tmp/pcalf-1.2.2.tar.gz --markdown 20230803/p/pcalf/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-03 10:59:52] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/08/0e/7e3701275c9c7325666260921b5e0f39ff86229e421c94e593dac5a8b57b/hiddifypanel-8.0.0.dev1.tar.gz
+[2023-08-03 10:59:52] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-08-03 10:59:52] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-08-03 10:59:52] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: rtdip-sdk
+[2023-08-03 10:59:52] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-08-03 10:59:52] INFO root fetch - processPackages [rtdip-sdk]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-03 10:59:52] INFO root fetch - processPackages [rtdip-sdk]: Downloading https://files.pythonhosted.org/packages/af/8a/d67cb15fae5032019c9e741e252e45005ec8d36d54ff9ff9baa2a3f27aad/rtdip-sdk-0.6.1.tar.gz
+[2023-08-03 10:59:52] INFO root fetch - processPackages [orbit-component-zerodocs]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_zerodocs-1.0.18.tar.gz]
+[2023-08-03 10:59:52] INFO root fetch - processPackages [orbit-component-zerodocs]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_zerodocs-1.0.9.tar.gz]
+[2023-08-03 10:59:52] INFO root fetch - processPackages [orbit-component-zerodocs]: Start processing: PySmartShell
+[2023-08-03 10:59:52] INFO root fetch - main [MainThread]: End processing [orbit-component-zerodocs]: success
+[2023-08-03 10:59:52] WARNING root fetch - processPackages [rtdip-sdk]: Skipping package: exceeds size limit 14642984>=10485760
+[2023-08-03 10:59:52] INFO root fetch - processPackages [rtdip-sdk]: Start processing: xron
+[2023-08-03 10:59:52] INFO root fetch - main [MainThread]: End processing [rtdip-sdk] error
+[2023-08-03 10:59:52] INFO root fetch - processPackages [xron]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-03 10:59:52] INFO root fetch - processPackages [PySmartShell]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-03 10:59:52] INFO root fetch - processPackages [tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/tsetmc-0.9.0.tar.gz]
+[2023-08-03 10:59:52] INFO root fetch - processPackages [tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/tsetmc-0.9.1.tar.gz]
+[2023-08-03 10:59:52] INFO root fetch - processPackages [tsetmc]: Start processing: cntracer
+[2023-08-03 10:59:52] INFO root fetch - main [MainThread]: End processing [tsetmc]: success
+[2023-08-03 10:59:52] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-03 10:59:52] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev0.tar.gz tmp/hiddifypanel-8.0.0.dev1.tar.gz --markdown 20230803/h/hiddifypanel/8.0.0.dev0-8.0.0.dev1/diff.md --exclude *.pyd
+[2023-08-03 10:59:53] INFO root fetch - processPackages [eth-token-index]: Remove: archive file [/home/abi/fetcher/tmp/eth-token-index-0.6.2.tar.gz]
+[2023-08-03 10:59:53] INFO root fetch - processPackages [eth-token-index]: Remove: archive file [/home/abi/fetcher/tmp/eth-token-index-0.6.3.tar.gz]
+[2023-08-03 10:59:53] INFO root fetch - processPackages [eth-token-index]: Start processing: siman
+[2023-08-03 10:59:53] INFO root fetch - main [MainThread]: End processing [eth-token-index]: success
+[2023-08-03 10:59:53] INFO root fetch - processPackages [xron]: Downloading https://files.pythonhosted.org/packages/25/70/48db5d5ec8bd998e568b6e6d9a91fcea31673904f0981a8d8c8bc2621126/xron-1.0.2.tar.gz
+[2023-08-03 10:59:53] INFO root fetch - processPackages [cntracer]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-03 10:59:53] INFO root fetch - processPackages [MOBPY]: Remove: archive file [/home/abi/fetcher/tmp/MOBPY-1.1.0.tar.gz]
+[2023-08-03 10:59:53] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-2.0.8.tar.gz]
+[2023-08-03 10:59:53] INFO root fetch - processPackages [MOBPY]: Remove: archive file [/home/abi/fetcher/tmp/MOBPY-1.1.1.tar.gz]
+[2023-08-03 10:59:53] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-2.0.9.tar.gz]
+[2023-08-03 10:59:53] INFO root fetch - main [MainThread]: End processing [MOBPY]: success
+[2023-08-03 10:59:53] INFO root fetch - main [MainThread]: End processing [airoboros]: success
+[2023-08-03 10:59:53] INFO root fetch - processPackages [PySmartShell]: Downloading https://files.pythonhosted.org/packages/ad/1d/44db0f783ca5c02ffbf4c9e6217c3ad0249a37e451a212c4392be596425f/PySmartShell-0.0.4.tar.gz
+[2023-08-03 10:59:53] INFO root fetch - processPackages [siman]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-08-03 10:59:53] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2023-08-03 10:59:53] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2023-08-03 10:59:53] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2023-08-03 10:59:53] INFO root fetch - processPackages [ruleminer]: Remove: archive file [/home/abi/fetcher/tmp/ruleminer-0.1.8-py2.py3-none-any.whl.zip]
+[2023-08-03 10:59:53] INFO root fetch - processPackages [ruleminer]: Remove: archive file [/home/abi/fetcher/tmp/ruleminer-0.1.9-py2.py3-none-any.whl.zip]
+[2023-08-03 10:59:53] INFO root fetch - main [MainThread]: End processing [ruleminer]: success
+[2023-08-03 10:59:53] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/20/87/124f09e1cd1a4e6b338c740a9321f6d08e3a3ef4c30b0953d1675518845d/cntracer-0.3.0-cp39-cp39-win_amd64.whl
+[2023-08-03 10:59:53] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/42/81/9a7dd9e994e861264f80e492e436c16da3556ad0fda3c362f4fe933264bc/siman-1.3.9.tar.gz
+[2023-08-03 10:59:53] INFO root fetch - processPackages [PySmartShell]: Downloading https://files.pythonhosted.org/packages/53/1f/be35d3b60b9a64372f6f1ab03a37f41a988404771bbfc53dad5b08e8aef3/PySmartShell-0.0.5.tar.gz
+[2023-08-03 10:59:53] INFO root fetch - processPackages [xron]: Downloading https://files.pythonhosted.org/packages/b6/55/fd50f3ec2b62e266b58c5f43e1563ef216f06a878e7f72a53ef1055ab5f4/xron-1.0.3.tar.gz
+[2023-08-03 10:59:53] INFO root fetch - processPackages [PySmartShell]: executing diffoscope
+[2023-08-03 10:59:53] INFO root fetch - processPackages [PySmartShell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySmartShell-0.0.4.tar.gz tmp/PySmartShell-0.0.5.tar.gz --markdown 20230803/P/PySmartShell/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-03 10:59:53] INFO root fetch - processPackages [xron]: executing diffoscope
+[2023-08-03 10:59:53] INFO root fetch - processPackages [xron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xron-1.0.2.tar.gz tmp/xron-1.0.3.tar.gz --markdown 20230803/x/xron/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-03 10:59:53] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/66/01/64f82eefb2ab4ccb8ee16e043ea5b805aef446d5ab5598f85508765e591d/cntracer-0.4.0-cp39-cp39-musllinux_1_1_aarch64.whl
+[2023-08-03 10:59:53] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/40/96/518ee8974a2fa4bda0704239819ea0c9d871a5eee0692578a1c4c1a5378b/siman-1.4.0.tar.gz
+[2023-08-03 10:59:53] INFO root fetch - processPackages [pcalf]: Remove: archive file [/home/abi/fetcher/tmp/pcalf-1.2.1.tar.gz]
+[2023-08-03 10:59:53] INFO root fetch - processPackages [pcalf]: Remove: archive file [/home/abi/fetcher/tmp/pcalf-1.2.2.tar.gz]
+[2023-08-03 10:59:53] INFO root fetch - main [MainThread]: End processing [pcalf]: success
+[2023-08-03 10:59:54] INFO root fetch - processPackages [siman]: executing diffoscope
+[2023-08-03 10:59:54] INFO root fetch - processPackages [siman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siman-1.3.9.tar.gz tmp/siman-1.4.0.tar.gz --markdown 20230803/s/siman/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-08-03 10:59:54] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2023-08-03 10:59:54] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-0.3.0-cp39-cp39-win_amd64.whl.zip tmp/cntracer-0.4.0-cp39-cp39-musllinux_1_1_aarch64.whl.zip --markdown 20230803/c/cntracer/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-03 10:59:54] INFO root fetch - processPackages [PySmartShell]: Remove: archive file [/home/abi/fetcher/tmp/PySmartShell-0.0.4.tar.gz]
+[2023-08-03 10:59:54] INFO root fetch - processPackages [PySmartShell]: Remove: archive file [/home/abi/fetcher/tmp/PySmartShell-0.0.5.tar.gz]
+[2023-08-03 10:59:54] INFO root fetch - main [MainThread]: End processing [PySmartShell]: success
+[2023-08-03 10:59:54] INFO root fetch - processPackages [xron]: Remove: archive file [/home/abi/fetcher/tmp/xron-1.0.2.tar.gz]
+[2023-08-03 10:59:54] INFO root fetch - processPackages [xron]: Remove: archive file [/home/abi/fetcher/tmp/xron-1.0.3.tar.gz]
+[2023-08-03 10:59:54] INFO root fetch - main [MainThread]: End processing [xron]: success
+[2023-08-03 10:59:55] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.3.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 10:59:55] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.4.0-cp39-cp39-musllinux_1_1_aarch64.whl.zip]
+[2023-08-03 10:59:55] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2023-08-03 10:59:55] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.3.9.tar.gz]
+[2023-08-03 10:59:55] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.4.0.tar.gz]
+[2023-08-03 10:59:55] INFO root fetch - main [MainThread]: End processing [siman]: success
+[2023-08-03 10:59:58] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev0.tar.gz]
+[2023-08-03 10:59:58] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev1.tar.gz]
+[2023-08-03 10:59:58] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-03 10:59:58] INFO root fetch - main [MainThread]: Store serial: [19156638]
