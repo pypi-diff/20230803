@@ -13831,3 +13831,99 @@
 [2023-08-03 08:49:45] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b5.tar.gz]
 [2023-08-03 08:49:45] INFO root fetch - main [MainThread]: End processing [ontouml-json2graph]: success
 [2023-08-03 08:49:45] INFO root fetch - main [MainThread]: Store serial: [19154677]
+[2023-08-03 08:54:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154677]
+[2023-08-03 08:54:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-03 08:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qase-pytest
+[2023-08-03 08:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lmcloud
+[2023-08-03 08:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-08-03 08:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Adding-Test
+[2023-08-03 08:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nemusicapi
+[2023-08-03 08:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ontouml-json2graph
+[2023-08-03 08:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-okta
+[2023-08-03 08:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dosmaster
+[2023-08-03 08:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mynacode
+[2023-08-03 08:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: md4-fileo
+[2023-08-03 08:54:54] INFO root fetch - processPackages [ontouml-json2graph]: New version: [1.0.0b6] Old Version: [1.0.0b5]
+[2023-08-03 08:54:54] INFO root fetch - processPackages [qase-pytest]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-08-03 08:54:54] WARNING root fetch - processPackages [md4-fileo]: Skipping, unable to determine old version
+[2023-08-03 08:54:54] INFO root fetch - processPackages [md4-fileo]: Start processing: hypymedia
+[2023-08-03 08:54:54] INFO root fetch - main [MainThread]: End processing [md4-fileo] error
+[2023-08-03 08:54:54] INFO root fetch - processPackages [dosmaster]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-08-03 08:54:54] INFO root fetch - processPackages [nemusicapi]: New version: [0.0.4a1] Old Version: [0.0.3a3]
+[2023-08-03 08:54:54] INFO root fetch - processPackages [Adding-Test]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-03 08:54:54] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-03 08:54:54] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-03 08:54:54] INFO root fetch - processPackages [pulumi-okta]: New version: [4.2.0a1691043040] Old Version: [4.2.0a1690971916]
+[2023-08-03 08:54:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-03 08:54:54] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/77/76/c5bbd7816dc3acc785d28d52fd3d2bef8ebb4580b63beb84c152ba8dce79/ontouml_json2graph-1.0.0b5.tar.gz
+[2023-08-03 08:54:54] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/84/6a/746bb83e461fea9c1c15b4d95196047a266add9407e76c63923332b1cd4e/dosmaster-1.7.5.tar.gz
+[2023-08-03 08:54:54] INFO root fetch - processPackages [hypymedia]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-03 08:54:54] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/e3/82/282a6354cf9c12c1eef03fbe27311f589026de5af0bd45b523e7833334b6/pulumi_okta-4.2.0a1690971916.tar.gz
+[2023-08-03 08:54:54] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-03 08:54:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-08-03 08:54:54] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/76/74/0cbc75dfb9e486af486cb769dd8839cd1762ff9faa64c4389b9256b77772/nemusicapi-0.0.3a3.tar.gz
+[2023-08-03 08:54:54] INFO root fetch - processPackages [Adding-Test]: Downloading https://files.pythonhosted.org/packages/00/9a/b3bac9979278d88bd1b08e4cf738b9f1610fb095ddd83770b60a96811ddd/Adding_Test-0.1.0.tar.gz
+[2023-08-03 08:54:54] INFO root fetch - processPackages [qase-pytest]: Downloading https://files.pythonhosted.org/packages/91/62/e22cc1d686edb7b7d017ceeb879ff11035222c9a49c94a559d540c49bb07/qase-pytest-5.0.1.tar.gz
+[2023-08-03 08:54:54] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/a3/05/f4050bdfd14ae29f479cfdaa0f44470c51ee42dedc68b4f72e75b6f3ab72/hypymedia-0.1.7.tar.gz
+[2023-08-03 08:54:54] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-08-03 08:54:54] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-03 08:54:54] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/c5/b1/af3d8893ef956a10bd3322780a66083ea65ebe5ec74fd86bda91d0a86055/dosmaster-1.7.6.tar.gz
+[2023-08-03 08:54:54] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/2e/c5/5e616375fba654230d1a321cd219026334ef960f8b4ab34abf144540c53a/ontouml_json2graph-1.0.0b6.tar.gz
+[2023-08-03 08:54:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-08-03 08:54:55] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/a8/68/28b65801b368acb3af1b4da74722bedd8e41b071179976727d764424599d/pulumi_okta-4.2.0a1691043040.tar.gz
+[2023-08-03 08:54:55] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/cd/10/4c7c68194bb8c0e1c45e87b7ee823ebd871b643bea0981a4a9df112edce7/nemusicapi-0.0.4a1.tar.gz
+[2023-08-03 08:54:55] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/f1/eb/0c1d2a292851ded8ad68e0c9477c32219ce044c9d663d1f9d1f797908c9a/hypymedia-0.1.8.tar.gz
+[2023-08-03 08:54:55] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-03 08:54:55] INFO root fetch - processPackages [Adding-Test]: Downloading https://files.pythonhosted.org/packages/1e/b3/b0938f9c4b2a577de7f9b676d8003900b503fad54c60040a6e6a93e5d84c/Adding_Test-0.1.1.tar.gz
+[2023-08-03 08:54:55] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230803/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-03 08:54:55] INFO root fetch - processPackages [dosmaster]: executing diffoscope
+[2023-08-03 08:54:55] INFO root fetch - processPackages [dosmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosmaster-1.7.5.tar.gz tmp/dosmaster-1.7.6.tar.gz --markdown 20230803/d/dosmaster/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-08-03 08:54:55] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-08-03 08:54:55] INFO root fetch - processPackages [qase-pytest]: Downloading https://files.pythonhosted.org/packages/fa/18/c560a6f3692bb9a3ace1172fa536312e021fb565abd635af5f1e27ed4ed1/qase-pytest-5.0.2.tar.gz
+[2023-08-03 08:54:55] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-08-03 08:54:55] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230803/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-03 08:54:55] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 08:54:55] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.3a3.tar.gz tmp/nemusicapi-0.0.4a1.tar.gz --markdown 20230803/n/nemusicapi/0.0.3a3-0.0.4a1/diff.md --exclude *.pyd
+[2023-08-03 08:54:55] INFO root fetch - processPackages [ontouml-json2graph]: executing diffoscope
+[2023-08-03 08:54:55] INFO root fetch - processPackages [ontouml-json2graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontouml_json2graph-1.0.0b5.tar.gz tmp/ontouml_json2graph-1.0.0b6.tar.gz --markdown 20230803/o/ontouml-json2graph/1.0.0b5-1.0.0b6/diff.md --exclude *.pyd
+[2023-08-03 08:54:55] INFO root fetch - processPackages [hypymedia]: executing diffoscope
+[2023-08-03 08:54:55] INFO root fetch - processPackages [hypymedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypymedia-0.1.7.tar.gz tmp/hypymedia-0.1.8.tar.gz --markdown 20230803/h/hypymedia/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-03 08:54:55] INFO root fetch - processPackages [Adding-Test]: executing diffoscope
+[2023-08-03 08:54:55] INFO root fetch - processPackages [Adding-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Adding_Test-0.1.0.tar.gz tmp/Adding_Test-0.1.1.tar.gz --markdown 20230803/A/Adding-Test/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-03 08:54:55] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-08-03 08:54:55] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230803/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 08:54:55] INFO root fetch - processPackages [qase-pytest]: executing diffoscope
+[2023-08-03 08:54:55] INFO root fetch - processPackages [qase-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase-pytest-5.0.1.tar.gz tmp/qase-pytest-5.0.2.tar.gz --markdown 20230803/q/qase-pytest/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-08-03 08:54:55] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-08-03 08:54:55] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.2.0a1690971916.tar.gz tmp/pulumi_okta-4.2.0a1691043040.tar.gz --markdown 20230803/p/pulumi-okta/4.2.0a1690971916-4.2.0a1691043040/diff.md --exclude *.pyd
+[2023-08-03 08:54:56] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.3a3.tar.gz]
+[2023-08-03 08:54:56] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.4a1.tar.gz]
+[2023-08-03 08:54:56] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 08:54:56] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.5.tar.gz]
+[2023-08-03 08:54:56] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.6.tar.gz]
+[2023-08-03 08:54:56] INFO root fetch - main [MainThread]: End processing [dosmaster]: success
+[2023-08-03 08:54:56] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.7.tar.gz]
+[2023-08-03 08:54:56] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.8.tar.gz]
+[2023-08-03 08:54:56] INFO root fetch - main [MainThread]: End processing [hypymedia]: success
+[2023-08-03 08:54:56] INFO root fetch - processPackages [Adding-Test]: Remove: archive file [/home/abi/fetcher/tmp/Adding_Test-0.1.0.tar.gz]
+[2023-08-03 08:54:56] INFO root fetch - processPackages [Adding-Test]: Remove: archive file [/home/abi/fetcher/tmp/Adding_Test-0.1.1.tar.gz]
+[2023-08-03 08:54:56] INFO root fetch - main [MainThread]: End processing [Adding-Test]: success
+[2023-08-03 08:54:56] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-03 08:54:56] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-03 08:54:56] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-03 08:54:56] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-08-03 08:54:56] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-08-03 08:54:57] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-08-03 08:54:57] INFO root fetch - processPackages [qase-pytest]: Remove: archive file [/home/abi/fetcher/tmp/qase-pytest-5.0.1.tar.gz]
+[2023-08-03 08:54:57] INFO root fetch - processPackages [qase-pytest]: Remove: archive file [/home/abi/fetcher/tmp/qase-pytest-5.0.2.tar.gz]
+[2023-08-03 08:54:57] INFO root fetch - main [MainThread]: End processing [qase-pytest]: success
+[2023-08-03 08:54:57] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-08-03 08:54:57] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-08-03 08:54:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-08-03 08:54:57] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b5.tar.gz]
+[2023-08-03 08:54:57] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b6.tar.gz]
+[2023-08-03 08:54:57] INFO root fetch - main [MainThread]: End processing [ontouml-json2graph]: success
+[2023-08-03 08:54:57] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.2.0a1690971916.tar.gz]
+[2023-08-03 08:54:57] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.2.0a1691043040.tar.gz]
+[2023-08-03 08:54:57] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-08-03 08:54:57] INFO root fetch - main [MainThread]: Store serial: [19154710]
