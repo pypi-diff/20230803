@@ -9746,3 +9746,57 @@
 [2023-08-03 04:23:02] INFO root fetch - processPackages [inspursmsdk]: Remove: archive file [/home/abi/fetcher/tmp/inspursmsdk-2.1.2.tar.gz]
 [2023-08-03 04:23:02] INFO root fetch - main [MainThread]: End processing [inspursmsdk]: success
 [2023-08-03 04:23:02] INFO root fetch - main [MainThread]: Store serial: [19152848]
+[2023-08-03 04:28:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152848]
+[2023-08-03 04:28:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-03 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdx-python-api
+[2023-08-03 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2023-08-03 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-user
+[2023-08-03 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rogue-tools
+[2023-08-03 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VizTyping
+[2023-08-03 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-radiance
+[2023-08-03 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LagRochePlot
+[2023-08-03 04:28:11] WARNING root fetch - processPackages [LagRochePlot]: Skipping, unable to determine old version
+[2023-08-03 04:28:11] INFO root fetch - main [MainThread]: End processing [LagRochePlot] error
+[2023-08-03 04:28:11] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.88]
+[2023-08-03 04:28:11] WARNING root fetch - processPackages [VizTyping]: Skipping, unable to determine old version
+[2023-08-03 04:28:11] INFO root fetch - main [MainThread]: End processing [VizTyping] error
+[2023-08-03 04:28:11] INFO root fetch - processPackages [rogue-tools]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-03 04:28:11] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230803] Old Version: [1.2.20230802]
+[2023-08-03 04:28:11] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-03 04:28:11] INFO root fetch - processPackages [hdx-python-api]: New version: [6.0.7] Old Version: [6.0.6]
+[2023-08-03 04:28:11] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/c5/19/2ec25836e3b431674700997294f8ac170332bc84778b07092c5f09e55f66/iam_actions-1.2.20230802.tar.gz
+[2023-08-03 04:28:11] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/bc/71/3a83e4f112a14b1453b0741d2d80a97214e4e7de6e142a106c72322ac421/rogue_tools-1.1.0.tar.gz
+[2023-08-03 04:28:11] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-08-03 04:28:11] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/5d/a7/87c186c3215f8aa010322c4fb17010c90980cb5ef7b7e08050728f895337/dragonfly-radiance-0.2.88.tar.gz
+[2023-08-03 04:28:11] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/5c/f9/756f0dd43a8fdbf3fd661cfb61e40f34f6d6b5586812fd3b3091f70bedf2/hdx_python_api-6.0.6.tar.gz
+[2023-08-03 04:28:11] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-08-03 04:28:11] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/84/46/90ac0673d2ece1b8f7d9b2d79cbfa1e27432c99bf51225c2f9fa1aae6c83/rogue_tools-1.1.1.tar.gz
+[2023-08-03 04:28:11] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-08-03 04:28:11] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-08-03 04:28:11] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230803/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-03 04:28:11] INFO root fetch - processPackages [rogue-tools]: executing diffoscope
+[2023-08-03 04:28:11] INFO root fetch - processPackages [rogue-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rogue_tools-1.1.0.tar.gz tmp/rogue_tools-1.1.1.tar.gz --markdown 20230803/r/rogue-tools/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-03 04:28:11] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/13/71/83bffd5881bc8ba1a82aecfd1af01ab70b29aa18103805cfbf35196528e2/iam_actions-1.2.20230803.tar.gz
+[2023-08-03 04:28:11] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-08-03 04:28:11] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.88.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230803/d/dragonfly-radiance/0.2.88-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 04:28:12] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/bb/2f/367d1d60b4ab535729b7a4f78ef35f6b1c691fe7daabb9ef4f7615d5f166/hdx_python_api-6.0.7.tar.gz
+[2023-08-03 04:28:12] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-08-03 04:28:12] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230802.tar.gz tmp/iam_actions-1.2.20230803.tar.gz --markdown 20230803/i/iam-actions/1.2.20230802-1.2.20230803/diff.md --exclude *.pyd
+[2023-08-03 04:28:12] INFO root fetch - processPackages [hdx-python-api]: executing diffoscope
+[2023-08-03 04:28:12] INFO root fetch - processPackages [hdx-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_api-6.0.6.tar.gz tmp/hdx_python_api-6.0.7.tar.gz --markdown 20230803/h/hdx-python-api/6.0.6-6.0.7/diff.md --exclude *.pyd
+[2023-08-03 04:28:12] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.1.0.tar.gz]
+[2023-08-03 04:28:12] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.1.1.tar.gz]
+[2023-08-03 04:28:12] INFO root fetch - main [MainThread]: End processing [rogue-tools]: success
+[2023-08-03 04:28:12] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.88.tar.gz]
+[2023-08-03 04:28:12] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-08-03 04:28:12] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-08-03 04:28:12] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-08-03 04:28:12] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-08-03 04:28:12] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-08-03 04:28:13] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_api-6.0.6.tar.gz]
+[2023-08-03 04:28:13] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_api-6.0.7.tar.gz]
+[2023-08-03 04:28:13] INFO root fetch - main [MainThread]: End processing [hdx-python-api]: success
+[2023-08-03 04:28:16] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230802.tar.gz]
+[2023-08-03 04:28:16] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230803.tar.gz]
+[2023-08-03 04:28:16] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-08-03 04:28:16] INFO root fetch - main [MainThread]: Store serial: [19152875]
