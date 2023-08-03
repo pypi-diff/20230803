@@ -9037,3 +9037,87 @@
 [2023-08-03 03:30:15] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.93.tar.gz]
 [2023-08-03 03:30:15] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-08-03 03:30:15] INFO root fetch - main [MainThread]: Store serial: [19152562]
+[2023-08-03 03:35:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152562]
+[2023-08-03 03:35:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-03 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowflake-snowpark-python
+[2023-08-03 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-user
+[2023-08-03 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iot-sdk-demo
+[2023-08-03 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: specklia
+[2023-08-03 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-stdlib
+[2023-08-03 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinjected
+[2023-08-03 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modal-client
+[2023-08-03 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modal
+[2023-08-03 03:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-numpy
+[2023-08-03 03:35:26] INFO root fetch - processPackages [snowflake-snowpark-python]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-08-03 03:35:27] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-03 03:35:27] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-03 03:35:27] INFO root fetch - processPackages [pinjected]: New version: [0.1.111] Old Version: [0.1.110]
+[2023-08-03 03:35:27] INFO root fetch - processPackages [iot-sdk-demo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 03:35:27] INFO root fetch - processPackages [modal]: New version: [0.50.2895] Old Version: [0.50.2893]
+[2023-08-03 03:35:27] INFO root fetch - processPackages [modal-client]: New version: [0.50.2895] Old Version: [0.50.2893]
+[2023-08-03 03:35:27] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 03:35:27] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 03:35:27] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/61/bd/8906d929550a61c727f7790c92434d4c5ef4a88bbd2318c0b3f9b860b3e9/modal_client-0.50.2893-py3-none-any.whl
+[2023-08-03 03:35:27] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/34/27/42da44b98d622bdf02bf21c99a800513723e9a8b651082b26a97bdbced69/modal-0.50.2893-py3-none-any.whl
+[2023-08-03 03:35:27] INFO root fetch - processPackages [snowflake-snowpark-python]: Downloading https://files.pythonhosted.org/packages/df/1b/eac433b74e921b510343ad09ade91c7ef7a95c1bc31b228739a18f445a84/snowflake-snowpark-python-1.6.0.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/d3/0c/8b77ea410470ae49727c98234c30ad610a452bee41ea4f26c0e3ea6848e9/pinjected-0.1.110.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [iot-sdk-demo]: Downloading https://files.pythonhosted.org/packages/9b/f4/6cf85df2b8524f780955acaf4f1c9979a0ec69ff0a00eb021a1b0fbdb73e/iot-sdk-demo-0.0.1.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/85/cd/efd7a6d3c795394cdd14d10a00df0b7e0ec098d01f23e1203f01ada24735/modal-0.50.2895-py3-none-any.whl
+[2023-08-03 03:35:27] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-08-03 03:35:27] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230803/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-03 03:35:27] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-08-03 03:35:27] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230803/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 03:35:27] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/6c/83/307f9a964c555a70ce217d5ab72fc338bedc5582b2f7f1d281913dd4a698/modal_client-0.50.2895-py3-none-any.whl
+[2023-08-03 03:35:27] INFO root fetch - processPackages [iot-sdk-demo]: Downloading https://files.pythonhosted.org/packages/8b/76/bd97b618403ee6459ada691d0647372e0cfe436540cc6a62f9340c74693e/iot-sdk-demo-0.0.2.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/06/f1/84a237dba5d7806e1512c4fdeea5daab3de1260e05324c16033bf1e1e9ae/pinjected-0.1.111.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-08-03 03:35:27] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2893-py3-none-any.whl.zip tmp/modal-0.50.2895-py3-none-any.whl.zip --markdown 20230803/m/modal/0.50.2893-0.50.2895/diff.md --exclude *.pyd
+[2023-08-03 03:35:27] INFO root fetch - processPackages [snowflake-snowpark-python]: Downloading https://files.pythonhosted.org/packages/40/32/39ace1dc0e59adb1de116f3d8e7e6a435130e34166d927ebd69abfa85eb3/snowflake-snowpark-python-1.6.1.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-08-03 03:35:27] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-08-03 03:35:27] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230803/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 03:35:27] INFO root fetch - processPackages [iot-sdk-demo]: executing diffoscope
+[2023-08-03 03:35:27] INFO root fetch - processPackages [iot-sdk-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iot-sdk-demo-0.0.1.tar.gz tmp/iot-sdk-demo-0.0.2.tar.gz --markdown 20230803/i/iot-sdk-demo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 03:35:27] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2023-08-03 03:35:27] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.1.110.tar.gz tmp/pinjected-0.1.111.tar.gz --markdown 20230803/p/pinjected/0.1.110-0.1.111/diff.md --exclude *.pyd
+[2023-08-03 03:35:28] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-08-03 03:35:28] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230803/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-03 03:35:28] INFO root fetch - processPackages [snowflake-snowpark-python]: executing diffoscope
+[2023-08-03 03:35:28] INFO root fetch - processPackages [snowflake-snowpark-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-snowpark-python-1.6.0.tar.gz tmp/snowflake-snowpark-python-1.6.1.tar.gz --markdown 20230803/s/snowflake-snowpark-python/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-08-03 03:35:28] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-08-03 03:35:28] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2893-py3-none-any.whl.zip tmp/modal_client-0.50.2895-py3-none-any.whl.zip --markdown 20230803/m/modal-client/0.50.2893-0.50.2895/diff.md --exclude *.pyd
+[2023-08-03 03:35:29] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2893-py3-none-any.whl.zip]
+[2023-08-03 03:35:29] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2895-py3-none-any.whl.zip]
+[2023-08-03 03:35:29] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-08-03 03:35:29] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-08-03 03:35:29] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-08-03 03:35:29] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-08-03 03:35:29] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.1.110.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.1.111.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2023-08-03 03:35:29] INFO root fetch - processPackages [iot-sdk-demo]: Remove: archive file [/home/abi/fetcher/tmp/iot-sdk-demo-0.0.1.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - processPackages [iot-sdk-demo]: Remove: archive file [/home/abi/fetcher/tmp/iot-sdk-demo-0.0.2.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - main [MainThread]: End processing [iot-sdk-demo]: success
+[2023-08-03 03:35:29] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-08-03 03:35:29] INFO root fetch - processPackages [snowflake-snowpark-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-snowpark-python-1.6.0.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - processPackages [snowflake-snowpark-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-snowpark-python-1.6.1.tar.gz]
+[2023-08-03 03:35:29] INFO root fetch - main [MainThread]: End processing [snowflake-snowpark-python]: success
+[2023-08-03 03:35:30] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2893-py3-none-any.whl.zip]
+[2023-08-03 03:35:30] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2895-py3-none-any.whl.zip]
+[2023-08-03 03:35:30] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-08-03 03:35:30] INFO root fetch - main [MainThread]: Store serial: [19152608]
