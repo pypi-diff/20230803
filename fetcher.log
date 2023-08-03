@@ -14369,3 +14369,147 @@
 [2023-08-03 09:10:49] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-6.2.0a1691044148.tar.gz]
 [2023-08-03 09:10:49] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
 [2023-08-03 09:10:49] INFO root fetch - main [MainThread]: Store serial: [19154961]
+[2023-08-03 09:15:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154961]
+[2023-08-03 09:15:58] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-03 09:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-ssi-outsource-work-rate
+[2023-08-03 09:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-outsource-work
+[2023-08-03 09:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: StarClusterPlot
+[2023-08-03 09:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smw-music
+[2023-08-03 09:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-tailscale
+[2023-08-03 09:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyroFork-dev
+[2023-08-03 09:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-splunk
+[2023-08-03 09:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iotPervasiveServiceSDK
+[2023-08-03 09:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cntracer
+[2023-08-03 09:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdkit
+[2023-08-03 09:15:59] INFO root fetch - processPackages [iotPervasiveServiceSDK]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 09:15:59] INFO root fetch - processPackages [StarClusterPlot]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-03 09:15:59] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-03 09:15:59] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1691044717] Old Version: [1.3.0a1690564639]
+[2023-08-03 09:15:59] WARNING root fetch - processPackages [odoo14-addon-ssi-outsource-work-rate]: Skipping, unable to determine old version
+[2023-08-03 09:15:59] INFO root fetch - processPackages [smw-music]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-03 09:15:59] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2023-08-03 09:15:59] INFO root fetch - processPackages [odoo14-addon-ssi-outsource-work-rate]: Start processing: tablate
+[2023-08-03 09:15:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-outsource-work-rate] error
+[2023-08-03 09:15:59] WARNING root fetch - processPackages [odoo14-addon-ssi-outsource-work]: Skipping, unable to determine old version
+[2023-08-03 09:15:59] INFO root fetch - processPackages [odoo14-addon-ssi-outsource-work]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-03 09:15:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-outsource-work] error
+[2023-08-03 09:15:59] INFO root fetch - processPackages [cntracer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-03 09:15:59] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.7.dev202308036677] Old Version: [2.2.7.dev202308031407]
+[2023-08-03 09:15:59] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 09:15:59] INFO root fetch - processPackages [StarClusterPlot]: Downloading https://files.pythonhosted.org/packages/2f/8a/5ade71b489c47ac82abb77f047597838898d9ca766353c587663fdc836d7/StarClusterPlot-0.1.5.tar.gz
+[2023-08-03 09:15:59] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-08-03 09:15:59] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/a8/3a/b66aa51454b11c2b8f9d8859f0886b66f189a7776134b2f73df94346d270/iotPervasiveServiceSDK-0.0.1.tar.gz
+[2023-08-03 09:15:59] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-03 09:15:59] INFO root fetch - processPackages [smw-music]: Downloading https://files.pythonhosted.org/packages/c6/7c/3f57d687eb74fa8863bebebd47e56261373a23324155328f62369afa6205/smw_music-0.3.8.tar.gz
+[2023-08-03 09:15:59] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2023-08-03 09:15:59] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/f4/43/361ee6a300c55407c168161e7cdb8d5c286a530252a04622946427ae7728/PyroFork-dev-2.2.7.dev202308031407.tar.gz
+[2023-08-03 09:15:59] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/be/26/5f9f567fdfe18a2e67459184de91fb4517cf7b72b007abcc5249fbbc6772/pulumi_splunk-1.3.0a1690564639.tar.gz
+[2023-08-03 09:15:59] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-03 09:15:59] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/cd/c1/524d687cdbd806764f97f3d240b8e0975433a7aef367c12834b5399cb12b/cntracer-0.0.2-cp39-cp39-win_amd64.whl
+[2023-08-03 09:15:59] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-03 09:15:59] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-08-03 09:15:59] INFO root fetch - processPackages [StarClusterPlot]: Downloading https://files.pythonhosted.org/packages/4b/44/e28876e8dcd5a1259b5a5dc3aff51edaecf8f0e0680e409fbbbe2b008f5a/StarClusterPlot-0.1.6.tar.gz
+[2023-08-03 09:15:59] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/cc/42/1f4aaa34d9d90d60c13c0793d9b599934e6a7af3aa9aa6e66068806a41ef/iotPervasiveServiceSDK-0.0.2.tar.gz
+[2023-08-03 09:16:00] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-08-03 09:16:00] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230803/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-03 09:16:00] INFO root fetch - processPackages [iotPervasiveServiceSDK]: executing diffoscope
+[2023-08-03 09:16:00] INFO root fetch - processPackages [iotPervasiveServiceSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotPervasiveServiceSDK-0.0.1.tar.gz tmp/iotPervasiveServiceSDK-0.0.2.tar.gz --markdown 20230803/i/iotPervasiveServiceSDK/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 09:16:00] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/37/30/e06af9a8f4819425434aeec8747a12b074774b04e9fd5f35dd6cadf5a330/pulumi_splunk-1.3.0a1691044717.tar.gz
+[2023-08-03 09:16:00] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2023-08-03 09:16:00] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/03/2e/91d814eeab8233214c64bbd32c5e304db8f89201c11b85109e162768f637/PyroFork-dev-2.2.7.dev202308036677.tar.gz
+[2023-08-03 09:16:00] INFO root fetch - processPackages [StarClusterPlot]: executing diffoscope
+[2023-08-03 09:16:00] INFO root fetch - processPackages [StarClusterPlot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StarClusterPlot-0.1.5.tar.gz tmp/StarClusterPlot-0.1.6.tar.gz --markdown 20230803/S/StarClusterPlot/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-03 09:16:00] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-03 09:16:00] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2023-08-03 09:16:00] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20230803/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/diff.md --exclude *.pyd
+[2023-08-03 09:16:00] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2023-08-03 09:16:00] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1690564639.tar.gz tmp/pulumi_splunk-1.3.0a1691044717.tar.gz --markdown 20230803/p/pulumi-splunk/1.3.0a1690564639-1.3.0a1691044717/diff.md --exclude *.pyd
+[2023-08-03 09:16:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-03 09:16:00] INFO root fetch - processPackages [smw-music]: Downloading https://files.pythonhosted.org/packages/0b/de/b580813bc260ea9dc5ca2fb4bf1f892c4830adbfa2f5f4b1edaebebd98ce/smw_music-0.3.9.tar.gz
+[2023-08-03 09:16:00] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/c7/a6/aa263ae02e6803a47f2cc2f076a82249eba498a6b3726fca0e88e807dcec/cntracer-0.0.3-cp39-cp39-musllinux_1_1_aarch64.whl
+[2023-08-03 09:16:00] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-08-03 09:16:00] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.7.dev202308031407.tar.gz tmp/PyroFork-dev-2.2.7.dev202308036677.tar.gz --markdown 20230803/P/PyroFork-dev/2.2.7.dev202308031407-2.2.7.dev202308036677/diff.md --exclude *.pyd
+[2023-08-03 09:16:00] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-03 09:16:00] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230803/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:16:00] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2023-08-03 09:16:00] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-0.0.2-cp39-cp39-win_amd64.whl.zip tmp/cntracer-0.0.3-cp39-cp39-musllinux_1_1_aarch64.whl.zip --markdown 20230803/c/cntracer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-03 09:16:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-03 09:16:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230803/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 09:16:00] INFO root fetch - processPackages [smw-music]: executing diffoscope
+[2023-08-03 09:16:00] INFO root fetch - processPackages [smw-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smw_music-0.3.8.tar.gz tmp/smw_music-0.3.9.tar.gz --markdown 20230803/s/smw-music/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 09:16:01] INFO root fetch - processPackages [StarClusterPlot]: Remove: archive file [/home/abi/fetcher/tmp/StarClusterPlot-0.1.5.tar.gz]
+[2023-08-03 09:16:01] INFO root fetch - processPackages [StarClusterPlot]: Remove: archive file [/home/abi/fetcher/tmp/StarClusterPlot-0.1.6.tar.gz]
+[2023-08-03 09:16:01] INFO root fetch - processPackages [StarClusterPlot]: Start processing: pulumi-spotinst
+[2023-08-03 09:16:01] INFO root fetch - main [MainThread]: End processing [StarClusterPlot]: success
+[2023-08-03 09:16:01] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-08-03 09:16:01] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.1.tar.gz]
+[2023-08-03 09:16:01] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.2.tar.gz]
+[2023-08-03 09:16:01] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Start processing: streamlit-nightly
+[2023-08-03 09:16:01] INFO root fetch - main [MainThread]: End processing [iotPervasiveServiceSDK]: success
+[2023-08-03 09:16:01] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-08-03 09:16:01] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2023-08-03 09:16:01] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-08-03 09:16:01] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2023-08-03 09:16:01] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2023-08-03 09:16:01] INFO root fetch - processPackages [pulumi-tailscale]: Start processing: invenio-records-lom
+[2023-08-03 09:16:01] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2023-08-03 09:16:01] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-08-03 09:16:01] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-08-03 09:16:01] INFO root fetch - processPackages [sdkit]: Start processing: tf-hub-nightly
+[2023-08-03 09:16:01] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-08-03 09:16:02] INFO root fetch - processPackages [invenio-records-lom]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-03 09:16:02] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 09:16:02] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.0.3-cp39-cp39-musllinux_1_1_aarch64.whl.zip]
+[2023-08-03 09:16:02] INFO root fetch - processPackages [cntracer]: Start processing: deepchem
+[2023-08-03 09:16:02] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2023-08-03 09:16:02] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1690564639.tar.gz]
+[2023-08-03 09:16:02] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1691044717.tar.gz]
+[2023-08-03 09:16:02] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2023-08-03 09:16:02] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-08-03 09:16:02] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2023-08-03 09:16:02] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230803071432] Old Version: [2.7.2.dev20230730200710]
+[2023-08-03 09:16:02] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/a7/d9/b366af89a5d223ea850fb149d543d8535f1a63df7d6aaf194b788ade4a81/invenio-records-lom-0.8.1.tar.gz
+[2023-08-03 09:16:02] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-08-03 09:16:02] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-08-03 09:16:02] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230803/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-08-03 09:16:02] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-03 09:16:02] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-03 09:16:02] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-03 09:16:02] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-03 09:16:02] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-03 09:16:02] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-03 09:16:02] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/16/b9/3367a511804f098cc8aafa0fc74e0927b276ea8a8696dd5d1945e5cdb1b0/deepchem-2.7.2.dev20230730200710.tar.gz
+[2023-08-03 09:16:02] INFO root fetch - processPackages [smw-music]: Remove: archive file [/home/abi/fetcher/tmp/smw_music-0.3.8.tar.gz]
+[2023-08-03 09:16:02] INFO root fetch - processPackages [smw-music]: Remove: archive file [/home/abi/fetcher/tmp/smw_music-0.3.9.tar.gz]
+[2023-08-03 09:16:02] INFO root fetch - main [MainThread]: End processing [smw-music]: success
+[2023-08-03 09:16:02] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-08-03 09:16:02] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/d2/a1/a4f27a3949cb9641f050db71c0e20941c366e57450ec499c9f5e40d718c4/invenio-records-lom-0.9.0.tar.gz
+[2023-08-03 09:16:02] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-08-03 09:16:02] INFO root fetch - processPackages [invenio-records-lom]: executing diffoscope
+[2023-08-03 09:16:02] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230803/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-08-03 09:16:02] INFO root fetch - processPackages [invenio-records-lom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-lom-0.8.1.tar.gz tmp/invenio-records-lom-0.9.0.tar.gz --markdown 20230803/i/invenio-records-lom/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 09:16:02] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/9d/8d/7d60c433246e53c78bc6b2dc971efd02dac8e06064344d5341a6151828a1/deepchem-2.7.2.dev20230803071432.tar.gz
+[2023-08-03 09:16:03] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-08-03 09:16:03] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230730200710.tar.gz tmp/deepchem-2.7.2.dev20230803071432.tar.gz --markdown 20230803/d/deepchem/2.7.2.dev20230730200710-2.7.2.dev20230803071432/diff.md --exclude *.pyd
+[2023-08-03 09:16:03] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-08-03 09:16:03] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-08-03 09:16:03] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230803/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-08-03 09:16:03] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2023-08-03 09:16:03] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2023-08-03 09:16:03] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-08-03 09:16:03] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-08-03 09:16:03] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-08-03 09:16:03] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-08-03 09:16:04] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.7.dev202308031407.tar.gz]
+[2023-08-03 09:16:04] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.7.dev202308036677.tar.gz]
+[2023-08-03 09:16:04] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-08-03 09:16:04] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.8.1.tar.gz]
+[2023-08-03 09:16:04] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.9.0.tar.gz]
+[2023-08-03 09:16:04] INFO root fetch - main [MainThread]: End processing [invenio-records-lom]: success
+[2023-08-03 09:16:05] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230730200710.tar.gz]
+[2023-08-03 09:16:05] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230803071432.tar.gz]
+[2023-08-03 09:16:05] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-08-03 09:16:11] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-08-03 09:16:11] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-08-03 09:16:11] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-08-03 09:16:11] INFO root fetch - main [MainThread]: Store serial: [19155038]
