@@ -13927,3 +13927,174 @@
 [2023-08-03 08:54:57] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.2.0a1691043040.tar.gz]
 [2023-08-03 08:54:57] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
 [2023-08-03 08:54:57] INFO root fetch - main [MainThread]: Store serial: [19154710]
+[2023-08-03 09:00:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154710]
+[2023-08-03 09:00:06] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-03 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: federated-content-connector
+[2023-08-03 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-alicloud
+[2023-08-03 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: benimang
+[2023-08-03 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cntracer
+[2023-08-03 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-03 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-opsgenie
+[2023-08-03 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WeiboBot
+[2023-08-03 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: axion
+[2023-08-03 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seeed-python-si114x
+[2023-08-03 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: naipng
+[2023-08-03 09:00:06] INFO root fetch - processPackages [WeiboBot]: New version: [0.4.5] Old Version: [0.3.7]
+[2023-08-03 09:00:06] INFO root fetch - processPackages [seeed-python-si114x]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-03 09:00:06] WARNING root fetch - processPackages [naipng]: Skipping, unable to determine old version
+[2023-08-03 09:00:06] INFO root fetch - processPackages [naipng]: Start processing: mpqcv
+[2023-08-03 09:00:06] INFO root fetch - main [MainThread]: End processing [naipng] error
+[2023-08-03 09:00:06] INFO root fetch - processPackages [federated-content-connector]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-03 09:00:06] INFO root fetch - processPackages [axion]: New version: [3.6.13] Old Version: [3.6.10]
+[2023-08-03 09:00:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-03 09:00:06] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1691043253] Old Version: [1.3.0a1690456737]
+[2023-08-03 09:00:06] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2023-08-03 09:00:06] INFO root fetch - processPackages [cntracer]: New version: [1.0.3] Old Version: [0.0.2]
+[2023-08-03 09:00:07] INFO root fetch - processPackages [benimang]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-08-03 09:00:07] INFO root fetch - processPackages [mpqcv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 09:00:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/1d/93/3fd367ba6034c93f084a10d8b938c11d57f595cd9d9db58396706727a3cc/axion-3.6.10-cp311-none-win_amd64.whl
+[2023-08-03 09:00:07] INFO root fetch - processPackages [seeed-python-si114x]: Downloading https://files.pythonhosted.org/packages/d6/84/35c4b5ab5d74939ad836931886ce70a71ebf9f08ed4c7bbab6c4ca514263/seeed_python_si114x-1.0.1-py2.py3-none-any.whl
+[2023-08-03 09:00:07] INFO root fetch - processPackages [WeiboBot]: Downloading https://files.pythonhosted.org/packages/d9/72/54042467af8675421a3455adb5753742237cedbd4036b9c97330bf5669c9/WeiboBot-0.3.7.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/c8/dd/74f7385e52c4b644e58c04a52c4f44213242a11c0cd2f9a87ebf710f80b8/cntracer-0.0.2-cp39-cp39-musllinux_1_1_x86_64.whl
+[2023-08-03 09:00:07] INFO root fetch - processPackages [federated-content-connector]: Downloading https://files.pythonhosted.org/packages/3f/e5/0e3c1237b772c55aade9cc00351e77f663b05b46cfa9dbb3ccbea05aacd1/federated-content-connector-1.2.0.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/62/7c/64cf0cd98f90369446ad9837f7e1a33e659ee8c4e1f84ca6cfeb8912e76e/pulumi_opsgenie-1.3.0a1690456737.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [mpqcv]: Downloading https://files.pythonhosted.org/packages/cc/25/8e4039c5a41b03d4b5008ba696b49e2978adc10a917d4404ebbceaf3d14c/mpqcv-0.0.8.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/53/48/44bcf70988ff6f350a7a8d598248c5af84641929be139b1e268cd53f2410/benimang-0.4.6.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [seeed-python-si114x]: Downloading https://files.pythonhosted.org/packages/16/89/346b90a279258a438ffd7b5139b7bf0762fe3f9e7a4b8108c970e0ce14fb/seeed_python_si114x-1.1.0-py3-none-any.whl
+[2023-08-03 09:00:07] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/09/bb/5040b35d49c8852d1c450b24f97455e4855d16bb07e3afd2820d25ce46cd/axion-3.6.13-cp311-none-win_amd64.whl
+[2023-08-03 09:00:07] INFO root fetch - processPackages [WeiboBot]: Downloading https://files.pythonhosted.org/packages/94/07/6f44400e67a74d18a902fab7965d23948352bddf453473cb0765ead425ef/WeiboBot-0.4.5-py3-none-any.whl
+[2023-08-03 09:00:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [federated-content-connector]: Downloading https://files.pythonhosted.org/packages/8f/85/df2999717c359ad153386a4de263b60548a33f5d713649d86efcf8d29989/federated-content-connector-1.2.1.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [seeed-python-si114x]: executing diffoscope
+[2023-08-03 09:00:07] INFO root fetch - processPackages [seeed-python-si114x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeed_python_si114x-1.0.1-py2.py3-none-any.whl.zip tmp/seeed_python_si114x-1.1.0-py3-none-any.whl.zip --markdown 20230803/s/seeed-python-si114x/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-03 09:00:07] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/71/a4/c0bd42752ec06a4198b06b2c56bae2760fcc4bbe98a6cc663eb8f5e8fb99/pulumi_opsgenie-1.3.0a1691043253.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/26/12/07fe98de75a60c5be794f0bdf3be406b5827e657bb350cf76634562437e2/benimang-0.4.7.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [mpqcv]: Downloading https://files.pythonhosted.org/packages/38/4f/f9ec1c5dea651268e7ffd3acfd8dc8f8617f68cf1b2b1cea9e7bb8a12019/mpqcv-0.0.9.tar.gz
+[2023-08-03 09:00:07] INFO root fetch - processPackages [WeiboBot]: executing diffoscope
+[2023-08-03 09:00:07] INFO root fetch - processPackages [WeiboBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WeiboBot-0.3.7.tar.gz tmp/WeiboBot-0.4.5-py3-none-any.whl.zip --markdown 20230803/W/WeiboBot/0.3.7-0.4.5/diff.md --exclude *.pyd
+[2023-08-03 09:00:08] INFO root fetch - processPackages [federated-content-connector]: executing diffoscope
+[2023-08-03 09:00:08] INFO root fetch - processPackages [federated-content-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/federated-content-connector-1.2.0.tar.gz tmp/federated-content-connector-1.2.1.tar.gz --markdown 20230803/f/federated-content-connector/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-03 09:00:08] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/eb/6e/c40458c177484d4f0e3bf4e587f482a5d0b5512403fef966149940e94d30/cntracer-1.0.3-cp39-cp39-win_amd64.whl
+[2023-08-03 09:00:08] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2023-08-03 09:00:08] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-08-03 09:00:08] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.6.10-cp311-none-win_amd64.whl.zip tmp/axion-3.6.13-cp311-none-win_amd64.whl.zip --markdown 20230803/a/axion/3.6.10-3.6.13/diff.md --exclude *.pyd
+[2023-08-03 09:00:08] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-08-03 09:00:08] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1690456737.tar.gz tmp/pulumi_opsgenie-1.3.0a1691043253.tar.gz --markdown 20230803/p/pulumi-opsgenie/1.3.0a1690456737-1.3.0a1691043253/diff.md --exclude *.pyd
+[2023-08-03 09:00:08] INFO root fetch - processPackages [mpqcv]: executing diffoscope
+[2023-08-03 09:00:08] INFO root fetch - processPackages [mpqcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpqcv-0.0.8.tar.gz tmp/mpqcv-0.0.9.tar.gz --markdown 20230803/m/mpqcv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:00:08] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-08-03 09:00:08] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.6.tar.gz tmp/benimang-0.4.7.tar.gz --markdown 20230803/b/benimang/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-08-03 09:00:08] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2023-08-03 09:00:08] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-0.0.2-cp39-cp39-musllinux_1_1_x86_64.whl.zip tmp/cntracer-1.0.3-cp39-cp39-win_amd64.whl.zip --markdown 20230803/c/cntracer/0.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-03 09:00:08] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2023-08-03 09:00:08] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20230803/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/diff.md --exclude *.pyd
+[2023-08-03 09:00:08] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-03 09:00:08] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230803/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 09:00:08] INFO root fetch - processPackages [seeed-python-si114x]: Remove: archive file [/home/abi/fetcher/tmp/seeed_python_si114x-1.0.1-py2.py3-none-any.whl.zip]
+[2023-08-03 09:00:08] INFO root fetch - processPackages [seeed-python-si114x]: Remove: archive file [/home/abi/fetcher/tmp/seeed_python_si114x-1.1.0-py3-none-any.whl.zip]
+[2023-08-03 09:00:08] INFO root fetch - processPackages [seeed-python-si114x]: Start processing: run-one
+[2023-08-03 09:00:08] INFO root fetch - main [MainThread]: End processing [seeed-python-si114x]: success
+[2023-08-03 09:00:08] INFO root fetch - processPackages [run-one]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/dd/c7/18dd6f2329edfd302c1f5585106fcd5ae68753ad6afe0140752c241cd2cd/run_one-1.0.8.tar.gz
+[2023-08-03 09:00:09] INFO root fetch - processPackages [WeiboBot]: Remove: archive file [/home/abi/fetcher/tmp/WeiboBot-0.3.7.tar.gz]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [WeiboBot]: Remove: archive file [/home/abi/fetcher/tmp/WeiboBot-0.4.5-py3-none-any.whl.zip]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [WeiboBot]: Start processing: webviz-config
+[2023-08-03 09:00:09] INFO root fetch - main [MainThread]: End processing [WeiboBot]: success
+[2023-08-03 09:00:09] INFO root fetch - processPackages [webviz-config]: New version: [0.5.3a0] Old Version: [0.5.2rc0]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/c1/26/bbda3d9d6d651d65052273ca0c0105354d890b838f1d84115820ce2af8b8/run_one-1.0.9.tar.gz
+[2023-08-03 09:00:09] INFO root fetch - processPackages [mpqcv]: Remove: archive file [/home/abi/fetcher/tmp/mpqcv-0.0.8.tar.gz]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [mpqcv]: Remove: archive file [/home/abi/fetcher/tmp/mpqcv-0.0.9.tar.gz]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [mpqcv]: Start processing: psyqlepg
+[2023-08-03 09:00:09] INFO root fetch - main [MainThread]: End processing [mpqcv]: success
+[2023-08-03 09:00:09] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.10-cp311-none-win_amd64.whl.zip]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.13-cp311-none-win_amd64.whl.zip]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [axion]: Start processing: no-api-sdk
+[2023-08-03 09:00:09] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-08-03 09:00:09] INFO root fetch - processPackages [psyqlepg]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.0.2-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-1.0.3-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [cntracer]: Start processing: lccteer
+[2023-08-03 09:00:09] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2023-08-03 09:00:09] INFO root fetch - processPackages [no-api-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [lccteer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [federated-content-connector]: Remove: archive file [/home/abi/fetcher/tmp/federated-content-connector-1.2.0.tar.gz]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [federated-content-connector]: Remove: archive file [/home/abi/fetcher/tmp/federated-content-connector-1.2.1.tar.gz]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [federated-content-connector]: Start processing: aiohutils
+[2023-08-03 09:00:09] INFO root fetch - main [MainThread]: End processing [federated-content-connector]: success
+[2023-08-03 09:00:09] INFO root fetch - processPackages [webviz-config]: Downloading https://files.pythonhosted.org/packages/49/f7/039572959a100aa7763f6126259390eb851da26b44cc355f3093b7b591d6/webviz-config-0.5.2rc0.tar.gz
+[2023-08-03 09:00:09] WARNING root fetch - processPackages [aiohutils]: Skipping, unable to determine old version
+[2023-08-03 09:00:09] INFO root fetch - processPackages [aiohutils]: Start processing: jupyterlite-pyodide-kernel
+[2023-08-03 09:00:09] INFO root fetch - main [MainThread]: End processing [aiohutils] error
+[2023-08-03 09:00:09] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1690456737.tar.gz]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [lccteer]: Downloading https://files.pythonhosted.org/packages/64/58/24c78515e005ca51113c0d7b468ffe09795aa52566fca52bc768cef428e7/lccteer-0.0.1.tar.gz
+[2023-08-03 09:00:09] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1691043253.tar.gz]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [pulumi-opsgenie]: Start processing: aerleon
+[2023-08-03 09:00:09] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-08-03 09:00:09] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.6.tar.gz]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.7.tar.gz]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [benimang]: Start processing: pulumi-rabbitmq
+[2023-08-03 09:00:09] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-08-03 09:00:09] INFO root fetch - processPackages [aerleon]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [no-api-sdk]: Downloading https://files.pythonhosted.org/packages/da/9a/2860060de7f49644068ff01f350a563cddf47d1a7063d9a82ad05839e265/no_api_sdk-0.1.8-cp39-cp39-win_amd64.whl
+[2023-08-03 09:00:09] INFO root fetch - processPackages [psyqlepg]: Downloading https://files.pythonhosted.org/packages/44/eb/3860990328bc73d7ec7d8293412297bf5227996c1c8d918be11f47275d49/psyqlepg-0.0.6.tar.gz
+[2023-08-03 09:00:09] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1691043773] Old Version: [3.4.0a1690968008]
+[2023-08-03 09:00:09] INFO root fetch - processPackages [run-one]: executing diffoscope
+[2023-08-03 09:00:09] INFO root fetch - processPackages [run-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/run_one-1.0.8.tar.gz tmp/run_one-1.0.9.tar.gz --markdown 20230803/r/run-one/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:00:09] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: Downloading https://files.pythonhosted.org/packages/1f/26/168078d40ae095d1179385535224aaff75adec27dd839d63a5e1752776b2/jupyterlite_pyodide_kernel-0.0.8.tar.gz
+[2023-08-03 09:00:10] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/ed/35/22d053115dea6ad24a6565315ecaecaa282a4626ac3fd5ec6f4d804d687f/pulumi_rabbitmq-3.4.0a1690968008.tar.gz
+[2023-08-03 09:00:10] INFO root fetch - processPackages [aerleon]: Downloading https://files.pythonhosted.org/packages/5b/48/7c1f067935de71877bcd1bd74e6dda2a5cedf93f9a3faaac944031947057/aerleon-1.5.0.tar.gz
+[2023-08-03 09:00:10] INFO root fetch - processPackages [lccteer]: Downloading https://files.pythonhosted.org/packages/a3/dd/21029aa22acfcdfb9c615a5604f414bd0c4def44f5337fd2f88d381039ef/lccteer-0.0.2.tar.gz
+[2023-08-03 09:00:10] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-03 09:00:10] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: Downloading https://files.pythonhosted.org/packages/dd/b5/bbe83d84828317d5d75242b82f35e3909b4a17351e7766544a1591869845/jupyterlite_pyodide_kernel-0.0.9.tar.gz
+[2023-08-03 09:00:10] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-03 09:00:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-03 09:00:10] INFO root fetch - processPackages [webviz-config]: Downloading https://files.pythonhosted.org/packages/49/d5/a6fde64ff1591ecce834d60f8862260aa2e1ceca999bfdda230a4f0b7786/webviz-config-0.5.3a0.tar.gz
+[2023-08-03 09:00:10] INFO root fetch - processPackages [lccteer]: executing diffoscope
+[2023-08-03 09:00:10] INFO root fetch - processPackages [lccteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lccteer-0.0.1.tar.gz tmp/lccteer-0.0.2.tar.gz --markdown 20230803/l/lccteer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 09:00:10] INFO root fetch - processPackages [psyqlepg]: Downloading https://files.pythonhosted.org/packages/a7/6f/a2db7a7f47a4d01f606d5a87e451b89f022149fd507a1065ed0e6d80825d/psyqlepg-0.0.7.tar.gz
+[2023-08-03 09:00:10] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: executing diffoscope
+[2023-08-03 09:00:10] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlite_pyodide_kernel-0.0.8.tar.gz tmp/jupyterlite_pyodide_kernel-0.0.9.tar.gz --markdown 20230803/j/jupyterlite-pyodide-kernel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:00:10] INFO root fetch - processPackages [psyqlepg]: executing diffoscope
+[2023-08-03 09:00:10] INFO root fetch - processPackages [psyqlepg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyqlepg-0.0.6.tar.gz tmp/psyqlepg-0.0.7.tar.gz --markdown 20230803/p/psyqlepg/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-03 09:00:10] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/97/53/33b4778fb6174aaa3f499e70f7ba63c5a50ca85aa539944b9412b2c6b34e/pulumi_rabbitmq-3.4.0a1691043773.tar.gz
+[2023-08-03 09:00:10] INFO root fetch - processPackages [aerleon]: Downloading https://files.pythonhosted.org/packages/61/3d/f1f1a0c526825e9e96f6bb7fa8356feeddcf63842c6fbb1468be7760047f/aerleon-1.6.0.tar.gz
+[2023-08-03 09:00:10] INFO root fetch - processPackages [no-api-sdk]: Downloading https://files.pythonhosted.org/packages/7f/90/b2b2512d1f836334407ecd900bbdb359b1d55a6585c9d65d2c13a00bd963/no_api_sdk-0.1.9-cp39-cp39-win_amd64.whl
+[2023-08-03 09:00:10] INFO root fetch - processPackages [webviz-config]: executing diffoscope
+[2023-08-03 09:00:10] INFO root fetch - processPackages [webviz-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webviz-config-0.5.2rc0.tar.gz tmp/webviz-config-0.5.3a0.tar.gz --markdown 20230803/w/webviz-config/0.5.2rc0-0.5.3a0/diff.md --exclude *.pyd
+[2023-08-03 09:00:10] INFO root fetch - processPackages [aerleon]: executing diffoscope
+[2023-08-03 09:00:10] INFO root fetch - processPackages [aerleon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerleon-1.5.0.tar.gz tmp/aerleon-1.6.0.tar.gz --markdown 20230803/a/aerleon/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-08-03 09:00:10] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2023-08-03 09:00:10] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1690968008.tar.gz tmp/pulumi_rabbitmq-3.4.0a1691043773.tar.gz --markdown 20230803/p/pulumi-rabbitmq/3.4.0a1690968008-3.4.0a1691043773/diff.md --exclude *.pyd
+[2023-08-03 09:00:10] INFO root fetch - processPackages [no-api-sdk]: executing diffoscope
+[2023-08-03 09:00:10] INFO root fetch - processPackages [no-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/no_api_sdk-0.1.8-cp39-cp39-win_amd64.whl.zip tmp/no_api_sdk-0.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230803/n/no-api-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 09:00:11] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.0.8.tar.gz]
+[2023-08-03 09:00:11] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.0.9.tar.gz]
+[2023-08-03 09:00:11] INFO root fetch - main [MainThread]: End processing [run-one]: success
+[2023-08-03 09:00:11] INFO root fetch - processPackages [lccteer]: Remove: archive file [/home/abi/fetcher/tmp/lccteer-0.0.1.tar.gz]
+[2023-08-03 09:00:11] INFO root fetch - processPackages [lccteer]: Remove: archive file [/home/abi/fetcher/tmp/lccteer-0.0.2.tar.gz]
+[2023-08-03 09:00:11] INFO root fetch - main [MainThread]: End processing [lccteer]: success
+[2023-08-03 09:00:11] INFO root fetch - processPackages [psyqlepg]: Remove: archive file [/home/abi/fetcher/tmp/psyqlepg-0.0.6.tar.gz]
+[2023-08-03 09:00:11] INFO root fetch - processPackages [psyqlepg]: Remove: archive file [/home/abi/fetcher/tmp/psyqlepg-0.0.7.tar.gz]
+[2023-08-03 09:00:11] INFO root fetch - main [MainThread]: End processing [psyqlepg]: success
+[2023-08-03 09:00:12] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1690968008.tar.gz]
+[2023-08-03 09:00:12] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1691043773.tar.gz]
+[2023-08-03 09:00:12] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2023-08-03 09:00:12] INFO root fetch - processPackages [no-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/no_api_sdk-0.1.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 09:00:12] INFO root fetch - processPackages [no-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/no_api_sdk-0.1.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 09:00:12] INFO root fetch - main [MainThread]: End processing [no-api-sdk]: success
+[2023-08-03 09:00:12] INFO root fetch - processPackages [aerleon]: Remove: archive file [/home/abi/fetcher/tmp/aerleon-1.5.0.tar.gz]
+[2023-08-03 09:00:12] INFO root fetch - processPackages [aerleon]: Remove: archive file [/home/abi/fetcher/tmp/aerleon-1.6.0.tar.gz]
+[2023-08-03 09:00:12] INFO root fetch - main [MainThread]: End processing [aerleon]: success
+[2023-08-03 09:00:12] INFO root fetch - processPackages [webviz-config]: Remove: archive file [/home/abi/fetcher/tmp/webviz-config-0.5.2rc0.tar.gz]
+[2023-08-03 09:00:12] INFO root fetch - processPackages [webviz-config]: Remove: archive file [/home/abi/fetcher/tmp/webviz-config-0.5.3a0.tar.gz]
+[2023-08-03 09:00:12] INFO root fetch - main [MainThread]: End processing [webviz-config]: success
+[2023-08-03 09:00:13] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_pyodide_kernel-0.0.8.tar.gz]
+[2023-08-03 09:00:13] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_pyodide_kernel-0.0.9.tar.gz]
+[2023-08-03 09:00:13] INFO root fetch - main [MainThread]: End processing [jupyterlite-pyodide-kernel]: success
+[2023-08-03 09:00:20] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2023-08-03 09:00:20] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2023-08-03 09:00:20] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2023-08-03 09:00:20] INFO root fetch - main [MainThread]: Store serial: [19154844]
