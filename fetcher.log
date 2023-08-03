@@ -22622,3 +22622,185 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 13:39:32] INFO root fetch - processPackages [patroni]: Remove: archive file [/home/abi/fetcher/tmp/patroni-3.1.0.tar.gz]
 [2023-08-03 13:39:32] INFO root fetch - main [MainThread]: End processing [patroni]: success
 [2023-08-03 13:39:32] INFO root fetch - main [MainThread]: Store serial: [19158361]
+[2023-08-03 13:44:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19158361]
+[2023-08-03 13:44:41] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-03 13:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vdk-sqlite
+[2023-08-03 13:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seaplane
+[2023-08-03 13:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-08-03 13:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opentty
+[2023-08-03 13:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyre-check-nightly
+[2023-08-03 13:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-notification-sdk-preview
+[2023-08-03 13:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bootloader-core-library
+[2023-08-03 13:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easyecs
+[2023-08-03 13:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cmake-parser
+[2023-08-03 13:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: img2table
+[2023-08-03 13:44:42] INFO root fetch - processPackages [bootloader-core-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 13:44:42] INFO root fetch - processPackages [easyecs]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-03 13:44:42] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.89b1]
+[2023-08-03 13:44:42] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 13:44:42] INFO root fetch - processPackages [vdk-sqlite]: New version: [0.1.954571638] Old Version: [0.1.948436673]
+[2023-08-03 13:44:42] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.804] Old Version: [0.1.803]
+[2023-08-03 13:44:42] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/d3/22/b543ce793700f6a6f3418d8eb473f9ab8a74509deb9381428ad3c21feb8d/bootloader_core_library-0.0.8.tar.gz
+[2023-08-03 13:44:42] WARNING root fetch - processPackages [cmake-parser]: Skipping, unable to determine old version
+[2023-08-03 13:44:42] INFO root fetch - processPackages [cmake-parser]: Start processing: matflow-new
+[2023-08-03 13:44:42] INFO root fetch - processPackages [opentty]: New version: [1.0rc4] Old Version: [1.0.1]
+[2023-08-03 13:44:42] INFO root fetch - main [MainThread]: End processing [cmake-parser] error
+[2023-08-03 13:44:42] INFO root fetch - processPackages [img2table]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-03 13:44:42] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-08-03 13:44:42] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101691061253] Old Version: [0.0.101690974660]
+[2023-08-03 13:44:42] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/bd/0d/a534f92a10d9519fb1a7f09f7d044131605277350a98f1c76eca5fdd05c2/easyecs-0.4.0.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/b7/a6/571e7457325cecce21ba9efa1063651cb974d48df1837ff2b8177cc2ddbc/seaplane-0.3.89b1.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/33/06/64bf36c9f9b85be9b3b28a1d21d5a2698384823379079834bc89f2af1e7e/matflow_new-0.3.0a8.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [vdk-sqlite]: Downloading https://files.pythonhosted.org/packages/de/ae/519349ae5e95af4a016bccba93489b1364e449cb4fc16983e11715e2938c/vdk-sqlite-0.1.948436673.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [opentty]: Downloading https://files.pythonhosted.org/packages/81/fc/c191ac8b24efd7800c6478b9fc651c3d9ec5ef8e66b4adeb45f71b8fe4ca/opentty-1.0.1.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/5a/a0/655439a63066c93ace9921f31c5be58008c675b7f17f400da0ce017cd494/lusid-notification-sdk-preview-0.1.803.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/a7/ba/6625ae8bc30e9675cb81c70f3d34f9e108c77a2c5c3ae22002fe7b3e1065/pyre-check-nightly-0.0.101690974660.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/b9/99/23a241c351518223bfc4593969cd5f300baf27d2c8a62e61cbe501902e47/bootloader_core_library-0.0.9.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/e0/4d/d246ca7cc686473187e3bda16e3127e3215e209583f594ef14221824fe67/img2table-1.0.8.tar.gz
+[2023-08-03 13:44:42] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23739700>=10485760
+[2023-08-03 13:44:42] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: name-of-thrones
+[2023-08-03 13:44:42] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-08-03 13:44:42] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/de/ef/a8ccf1a589e7b11863becf48288a6fbbc941dd4ccb3854a66e6cbc77210f/easyecs-0.4.1.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/68/c9/418420420155f18aa38d7861e0cfcd92e65ff36933188ec860c52817fd64/matflow_new-0.3.0a9.tar.gz
+[2023-08-03 13:44:42] INFO root fetch - processPackages [bootloader-core-library]: executing diffoscope
+[2023-08-03 13:44:42] INFO root fetch - processPackages [bootloader-core-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootloader_core_library-0.0.8.tar.gz tmp/bootloader_core_library-0.0.9.tar.gz --markdown 20230803/b/bootloader-core-library/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 13:44:42] INFO root fetch - processPackages [name-of-thrones]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-03 13:44:43] INFO root fetch - processPackages [opentty]: Downloading https://files.pythonhosted.org/packages/a6/8f/a2a3276bf3a37acd2f78e5d218c01dadf180390c5043cefba46d38cee607/opentty-1.0rc4.tar.gz
+[2023-08-03 13:44:43] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-08-03 13:44:43] INFO root fetch - processPackages [vdk-sqlite]: Downloading https://files.pythonhosted.org/packages/cd/e5/aa468b38b757d70ad63cf6ae9031e55cd87c0b4ce9687391fff0c6891fea/vdk-sqlite-0.1.954571638.tar.gz
+[2023-08-03 13:44:43] INFO root fetch - processPackages [easyecs]: executing diffoscope
+[2023-08-03 13:44:43] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230803/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 13:44:43] INFO root fetch - processPackages [easyecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyecs-0.4.0.tar.gz tmp/easyecs-0.4.1.tar.gz --markdown 20230803/e/easyecs/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-03 13:44:43] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-08-03 13:44:43] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230803/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-08-03 13:44:43] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-08-03 13:44:43] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.89b1.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230803/s/seaplane/0.3.89b1-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 13:44:43] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3c/1a/2044eae783a437c4afb974663247f1e455fa9a1ce19791b76d021e12ffbe/lusid-notification-sdk-preview-0.1.804.tar.gz
+[2023-08-03 13:44:43] INFO root fetch - processPackages [name-of-thrones]: Downloading https://files.pythonhosted.org/packages/6b/21/e3097a07edd7cc22bca9a2919ab3f7615abfea8b70db891066c238c95c91/name-of-thrones-0.2.7.tar.gz
+[2023-08-03 13:44:43] INFO root fetch - processPackages [opentty]: executing diffoscope
+[2023-08-03 13:44:43] INFO root fetch - processPackages [opentty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentty-1.0.1.tar.gz tmp/opentty-1.0rc4.tar.gz --markdown 20230803/o/opentty/1.0.1-1.0rc4/diff.md --exclude *.pyd
+[2023-08-03 13:44:43] INFO root fetch - processPackages [vdk-sqlite]: executing diffoscope
+[2023-08-03 13:44:43] INFO root fetch - processPackages [vdk-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-sqlite-0.1.948436673.tar.gz tmp/vdk-sqlite-0.1.954571638.tar.gz --markdown 20230803/v/vdk-sqlite/0.1.948436673-0.1.954571638/diff.md --exclude *.pyd
+[2023-08-03 13:44:43] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-08-03 13:44:43] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.803.tar.gz tmp/lusid-notification-sdk-preview-0.1.804.tar.gz --markdown 20230803/l/lusid-notification-sdk-preview/0.1.803-0.1.804/diff.md --exclude *.pyd
+[2023-08-03 13:44:43] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/3f/e8/6d22fd61f5d0bd0e4d37782a083fb3b88dac52fd1689f7a12d0abdea5e4e/img2table-1.0.9.tar.gz
+[2023-08-03 13:44:43] INFO root fetch - processPackages [name-of-thrones]: Downloading https://files.pythonhosted.org/packages/cc/e1/639d09d8eb805936e632eeafbed1a280662d2ae0b13f53593e435a809dd2/name-of-thrones-0.2.8.tar.gz
+[2023-08-03 13:44:43] INFO root fetch - processPackages [name-of-thrones]: executing diffoscope
+[2023-08-03 13:44:43] INFO root fetch - processPackages [name-of-thrones]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/name-of-thrones-0.2.7.tar.gz tmp/name-of-thrones-0.2.8.tar.gz --markdown 20230803/n/name-of-thrones/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-03 13:44:43] INFO root fetch - processPackages [img2table]: executing diffoscope
+[2023-08-03 13:44:43] INFO root fetch - processPackages [img2table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img2table-1.0.8.tar.gz tmp/img2table-1.0.9.tar.gz --markdown 20230803/i/img2table/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 13:44:44] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.8.tar.gz]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.9.tar.gz]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [bootloader-core-library]: Start processing: tensorage
+[2023-08-03 13:44:44] INFO root fetch - main [MainThread]: End processing [bootloader-core-library]: success
+[2023-08-03 13:44:44] INFO root fetch - processPackages [tensorage]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/de/df/0b1cd70d41bccabec21ce79c9c21dc32c8d20ae5ae9eedcc1884e6002b96/tensorage-0.0.8.tar.gz
+[2023-08-03 13:44:44] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.4.0.tar.gz]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.4.1.tar.gz]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [easyecs]: Start processing: gardener-cicd-base
+[2023-08-03 13:44:44] INFO root fetch - main [MainThread]: End processing [easyecs]: success
+[2023-08-03 13:44:44] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/0e/b1/d6519f414448860d51daa191680d379fcde04c6bcf774fbb1557db59d74f/tensorage-0.0.9.tar.gz
+[2023-08-03 13:44:44] INFO root fetch - processPackages [opentty]: Remove: archive file [/home/abi/fetcher/tmp/opentty-1.0.1.tar.gz]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [opentty]: Remove: archive file [/home/abi/fetcher/tmp/opentty-1.0rc4.tar.gz]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [opentty]: Start processing: gardener-cicd-cli
+[2023-08-03 13:44:44] INFO root fetch - main [MainThread]: End processing [opentty]: success
+[2023-08-03 13:44:44] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-08-03 13:44:44] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.8.tar.gz tmp/tensorage-0.0.9.tar.gz --markdown 20230803/t/tensorage/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 13:44:44] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2123.0] Old Version: [1.2122.0]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [vdk-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/vdk-sqlite-0.1.948436673.tar.gz]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [vdk-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/vdk-sqlite-0.1.954571638.tar.gz]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [vdk-sqlite]: Start processing: gardener-cicd-dso
+[2023-08-03 13:44:44] INFO root fetch - main [MainThread]: End processing [vdk-sqlite]: success
+[2023-08-03 13:44:44] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a8.tar.gz]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a9.tar.gz]
+[2023-08-03 13:44:44] INFO root fetch - processPackages [matflow-new]: Start processing: gardener-cicd-libs
+[2023-08-03 13:44:44] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2123.0] Old Version: [1.2122.0]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2123.0] Old Version: [1.2122.0]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2123.0] Old Version: [1.2122.0]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: gardener-cicd-whd
+[2023-08-03 13:44:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/e0/4f/bb58eb4d016f7e72585ea8e4241efc7f49439cef42254462cff1a51544a9/gardener-cicd-base-1.2122.0.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [name-of-thrones]: Remove: archive file [/home/abi/fetcher/tmp/name-of-thrones-0.2.7.tar.gz]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [name-of-thrones]: Remove: archive file [/home/abi/fetcher/tmp/name-of-thrones-0.2.8.tar.gz]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [name-of-thrones]: Start processing: gardener-oci
+[2023-08-03 13:44:45] INFO root fetch - main [MainThread]: End processing [name-of-thrones]: success
+[2023-08-03 13:44:45] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.89b1.tar.gz]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [seaplane]: Start processing: ashcrypt
+[2023-08-03 13:44:45] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/b9/4d/b1063d0a2c0a104ff7b4ee54b51f6e6d02f441e199e06ede64fb0e683d71/gardener-cicd-cli-1.2122.0.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [ashcrypt]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/6a/9d/aaa538241f075da9bce89af22ae3bca86e485e8b6f88c98698fdc3604779/gardener-cicd-dso-1.2122.0.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/c0/34/05739d689e1925e98a600cb4db5cbc2f2b2a38f74384fbcd55348b14e5a1/gardener-cicd-libs-1.2122.0.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [ashcrypt]: Downloading https://files.pythonhosted.org/packages/ae/26/f180035d36f4ac5d5e4cc4455a82fec08e36671a1ff615b8e1d718621e29/ashcrypt-3.1.3.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2123.0] Old Version: [1.2122.0]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/92/93/dd1f3836065ccd6c6313e0d9a5319664e71647c9093058c2eeaa191915c6/gardener-cicd-base-1.2123.0.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.803.tar.gz]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.804.tar.gz]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Start processing: ontouml-json2graph
+[2023-08-03 13:44:45] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-08-03 13:44:45] INFO root fetch - processPackages [ontouml-json2graph]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-08-03 13:44:45] INFO root fetch - processPackages [ashcrypt]: Downloading https://files.pythonhosted.org/packages/23/74/a34dd9cd86525dbe239d3e270919f60ab5b59445d4a6882379a3682ebd72/ashcrypt-3.1.4.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/09/e0/28032128ec43e332d98855a294a7550a30b2c76496e3274fed93791fb2c5/gardener-cicd-whd-1.2122.0.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/98/f3/6e2a3a97456b8122ca1a070eb286c2b402405fd721bf4c36d695dd6ff416/gardener-cicd-dso-1.2123.0.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/40/64/243d5cb018dd67b8b005888dc9902e63982cdb5dad755a30e50868defafd/ontouml_json2graph-1.0.0b8.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2122.0.tar.gz tmp/gardener-cicd-base-1.2123.0.tar.gz --markdown 20230803/g/gardener-cicd-base/1.2122.0-1.2123.0/diff.md --exclude *.pyd
+[2023-08-03 13:44:45] INFO root fetch - processPackages [ashcrypt]: executing diffoscope
+[2023-08-03 13:44:45] INFO root fetch - processPackages [ashcrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ashcrypt-3.1.3.tar.gz tmp/ashcrypt-3.1.4.tar.gz --markdown 20230803/a/ashcrypt/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/f1/dc/f5bba1da65fdcfa27d6c79b2ccc63de70f2faa96d604c21cb0db50fdf31c/gardener-cicd-cli-1.2123.0.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ad/85/fc9c33848036bd0f52715e64290b3d6c8ba29294ebb079d6be837ee6dae4/gardener-cicd-libs-1.2123.0.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2122.0.tar.gz tmp/gardener-cicd-dso-1.2123.0.tar.gz --markdown 20230803/g/gardener-cicd-dso/1.2122.0-1.2123.0/diff.md --exclude *.pyd
+[2023-08-03 13:44:45] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-08-03 13:44:45] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/ce/0f/f08b5ef30f44856b7f692ee34579259345997f154f01fbe01bb797b0143a/ontouml_json2graph-1.0.0b9.tar.gz
+[2023-08-03 13:44:46] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.8.tar.gz]
+[2023-08-03 13:44:46] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.9.tar.gz]
+[2023-08-03 13:44:46] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-08-03 13:44:46] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/dc/7f/467fe415d57a205b52628a43961f634178a9d4641b63332ed181e1860af2/gardener-cicd-whd-1.2123.0.tar.gz
+[2023-08-03 13:44:46] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-08-03 13:44:46] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2122.0.tar.gz tmp/gardener-cicd-cli-1.2123.0.tar.gz --markdown 20230803/g/gardener-cicd-cli/1.2122.0-1.2123.0/diff.md --exclude *.pyd
+[2023-08-03 13:44:46] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-08-03 13:44:46] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230803/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-08-03 13:44:46] INFO root fetch - processPackages [ontouml-json2graph]: executing diffoscope
+[2023-08-03 13:44:46] INFO root fetch - processPackages [ontouml-json2graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontouml_json2graph-1.0.0b8.tar.gz tmp/ontouml_json2graph-1.0.0b9.tar.gz --markdown 20230803/o/ontouml-json2graph/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-08-03 13:44:46] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-08-03 13:44:46] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2122.0.tar.gz tmp/gardener-cicd-libs-1.2123.0.tar.gz --markdown 20230803/g/gardener-cicd-libs/1.2122.0-1.2123.0/diff.md --exclude *.pyd
+[2023-08-03 13:44:46] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-08-03 13:44:46] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2122.0.tar.gz tmp/gardener-cicd-whd-1.2123.0.tar.gz --markdown 20230803/g/gardener-cicd-whd/1.2122.0-1.2123.0/diff.md --exclude *.pyd
+[2023-08-03 13:44:46] INFO root fetch - processPackages [img2table]: Remove: archive file [/home/abi/fetcher/tmp/img2table-1.0.8.tar.gz]
+[2023-08-03 13:44:46] INFO root fetch - processPackages [img2table]: Remove: archive file [/home/abi/fetcher/tmp/img2table-1.0.9.tar.gz]
+[2023-08-03 13:44:46] INFO root fetch - main [MainThread]: End processing [img2table]: success
+[2023-08-03 13:44:47] INFO root fetch - processPackages [ashcrypt]: Remove: archive file [/home/abi/fetcher/tmp/ashcrypt-3.1.3.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - processPackages [ashcrypt]: Remove: archive file [/home/abi/fetcher/tmp/ashcrypt-3.1.4.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - main [MainThread]: End processing [ashcrypt]: success
+[2023-08-03 13:44:47] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2122.0.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2123.0.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-08-03 13:44:47] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-08-03 13:44:47] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2122.0.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2123.0.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-08-03 13:44:47] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2122.0.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2123.0.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-08-03 13:44:47] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2122.0.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2123.0.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-08-03 13:44:47] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b8.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b9.tar.gz]
+[2023-08-03 13:44:47] INFO root fetch - main [MainThread]: End processing [ontouml-json2graph]: success
+[2023-08-03 13:44:48] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2122.0.tar.gz]
+[2023-08-03 13:44:48] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2123.0.tar.gz]
+[2023-08-03 13:44:48] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-08-03 13:44:48] INFO root fetch - main [MainThread]: Store serial: [19158429]
