@@ -9627,3 +9627,65 @@
 [2023-08-03 04:12:38] INFO root fetch - processPackages [composabl-core-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_core_dev-0.3.9.dev20-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-03 04:12:38] INFO root fetch - main [MainThread]: End processing [composabl-core-dev]: success
 [2023-08-03 04:12:38] INFO root fetch - main [MainThread]: Store serial: [19152806]
+[2023-08-03 04:17:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152806]
+[2023-08-03 04:17:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-03 04:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typedhtml
+[2023-08-03 04:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-radiance
+[2023-08-03 04:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-energy
+[2023-08-03 04:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-core
+[2023-08-03 04:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asqlcell
+[2023-08-03 04:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-rds-dump
+[2023-08-03 04:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: functional-cat
+[2023-08-03 04:17:47] INFO root fetch - processPackages [typedhtml]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-03 04:17:47] INFO root fetch - processPackages [asqlcell]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-08-03 04:17:47] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-08-03 04:17:47] INFO root fetch - processPackages [cdk-rds-dump]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-03 04:17:47] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-08-03 04:17:47] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-03 04:17:47] INFO root fetch - processPackages [functional-cat]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-08-03 04:17:47] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-08-03 04:17:47] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-08-03 04:17:47] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-08-03 04:17:47] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/99/aa/94aca241cd078e21d96f4ae875daad18b3f9f3770d9456afbd7c31f9a75b/typedhtml-0.1.9.tar.gz
+[2023-08-03 04:17:47] INFO root fetch - processPackages [asqlcell]: Downloading https://files.pythonhosted.org/packages/c3/76/378e192f78b3a984ab39c0867fe61a605c9b929964c49ac69e2dbb9866bc/asqlcell-0.1.8-py2.py3-none-any.whl
+[2023-08-03 04:17:47] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/da/04/7987c6cf55388d28f10ecb571fc3b4bd16ffa3b6958e1ea0fef09eac7076/cdk-rds-dump-1.2.8.tar.gz
+[2023-08-03 04:17:48] INFO root fetch - processPackages [functional-cat]: Downloading https://files.pythonhosted.org/packages/26/71/5fbcb1ade373f976428b31be2b19bdaa212826961b3d36be841f4d4e033d/functional-cat-0.4.1.tar.gz
+[2023-08-03 04:17:48] WARNING root fetch - processPackages [asqlcell]: Skipping package: exceeds size limit 16657596>=10485760
+[2023-08-03 04:17:48] INFO root fetch - main [MainThread]: End processing [asqlcell] error
+[2023-08-03 04:17:48] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-08-03 04:17:48] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-08-03 04:17:48] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-08-03 04:17:48] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230803/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-08-03 04:17:48] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-08-03 04:17:48] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-08-03 04:17:48] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230803/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-08-03 04:17:48] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/cf/5d/67f178e012315cf5bff567213e14c3a67754307dfd22731c8cd7bb5d832e/typedhtml-0.2.0.tar.gz
+[2023-08-03 04:17:48] INFO root fetch - processPackages [typedhtml]: executing diffoscope
+[2023-08-03 04:17:48] INFO root fetch - processPackages [typedhtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedhtml-0.1.9.tar.gz tmp/typedhtml-0.2.0.tar.gz --markdown 20230803/t/typedhtml/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-03 04:17:48] INFO root fetch - processPackages [functional-cat]: Downloading https://files.pythonhosted.org/packages/73/d4/a6cc5fee091d22fc7cd463f6def86151931ade30f87a3e155ea5e12fb204/functional-cat-0.5.0.tar.gz
+[2023-08-03 04:17:48] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-08-03 04:17:48] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230803/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-03 04:17:48] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/f4/0b/9ab10174144eed83c415831738537c9f62b5e67cd207b5f85aae8c3bb5a8/cdk-rds-dump-1.2.9.tar.gz
+[2023-08-03 04:17:48] INFO root fetch - processPackages [functional-cat]: executing diffoscope
+[2023-08-03 04:17:48] INFO root fetch - processPackages [functional-cat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functional-cat-0.4.1.tar.gz tmp/functional-cat-0.5.0.tar.gz --markdown 20230803/f/functional-cat/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-08-03 04:17:49] INFO root fetch - processPackages [cdk-rds-dump]: executing diffoscope
+[2023-08-03 04:17:49] INFO root fetch - processPackages [cdk-rds-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-rds-dump-1.2.8.tar.gz tmp/cdk-rds-dump-1.2.9.tar.gz --markdown 20230803/c/cdk-rds-dump/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-03 04:17:49] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-08-03 04:17:49] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-08-03 04:17:49] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-08-03 04:17:49] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.1.9.tar.gz]
+[2023-08-03 04:17:49] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.2.0.tar.gz]
+[2023-08-03 04:17:49] INFO root fetch - main [MainThread]: End processing [typedhtml]: success
+[2023-08-03 04:17:50] INFO root fetch - processPackages [functional-cat]: Remove: archive file [/home/abi/fetcher/tmp/functional-cat-0.4.1.tar.gz]
+[2023-08-03 04:17:50] INFO root fetch - processPackages [functional-cat]: Remove: archive file [/home/abi/fetcher/tmp/functional-cat-0.5.0.tar.gz]
+[2023-08-03 04:17:50] INFO root fetch - main [MainThread]: End processing [functional-cat]: success
+[2023-08-03 04:17:50] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-08-03 04:17:50] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-08-03 04:17:50] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-08-03 04:17:50] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-08-03 04:17:50] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-08-03 04:17:50] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-08-03 04:17:50] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.8.tar.gz]
+[2023-08-03 04:17:50] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.9.tar.gz]
+[2023-08-03 04:17:50] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
+[2023-08-03 04:17:50] INFO root fetch - main [MainThread]: Store serial: [19152829]
