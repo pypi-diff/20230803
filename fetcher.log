@@ -20364,3 +20364,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 12:03:49] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1691040884.tar.gz]
 [2023-08-03 12:03:49] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
 [2023-08-03 12:03:49] INFO root fetch - main [MainThread]: Store serial: [19157476]
+[2023-08-03 12:08:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157476]
+[2023-08-03 12:08:58] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-03 12:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dm-reverb-nightly
+[2023-08-03 12:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orn
+[2023-08-03 12:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-awsx
+[2023-08-03 12:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: httpx-pkcs12
+[2023-08-03 12:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AppiumExtended
+[2023-08-03 12:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-postgresql
+[2023-08-03 12:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-newrelic
+[2023-08-03 12:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vos-mjjo
+[2023-08-03 12:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webmeter
+[2023-08-03 12:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: minet
+[2023-08-03 12:08:58] INFO root fetch - processPackages [AppiumExtended]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 12:08:58] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-08-03 12:08:58] INFO root fetch - processPackages [pulumi-awsx]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-03 12:08:58] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2023-08-03 12:08:58] INFO root fetch - processPackages [httpx-pkcs12]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-03 12:08:58] INFO root fetch - processPackages [webmeter]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-03 12:08:58] WARNING root fetch - processPackages [orn]: Skipping, unable to determine old version
+[2023-08-03 12:08:58] INFO root fetch - processPackages [orn]: Start processing: power-grid-model
+[2023-08-03 12:08:58] INFO root fetch - main [MainThread]: End processing [orn] error
+[2023-08-03 12:08:58] INFO root fetch - processPackages [vos-mjjo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 12:08:58] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/48/55/f67b7ff09d9d9bb7ded43778a2902e2c1945df868cb72b799ff08431d069/AppiumExtended-0.1.8.tar.gz
+[2023-08-03 12:08:58] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-08-03 12:08:58] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-08-03 12:08:58] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9238204632375] Old Version: [1.5.0rc9237711575148]
+[2023-08-03 12:08:59] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/4d/e8/5491d5cfef95e88245d7b464299ca8b4a0005d2a2d6fdcc6f685d350fc01/pulumi_awsx-1.0.1.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [httpx-pkcs12]: Downloading https://files.pythonhosted.org/packages/e3/af/563bc4d3b6ca8be926f3d1fedd7be35615a5ec9193c88fb61c9477150eca/httpx_pkcs12-1.0.2.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [webmeter]: Downloading https://files.pythonhosted.org/packages/e0/12/5711f32e06a01ea40be561aa4b6b9dd80c37a7aa7515066e76dc428b3ff3/webmeter-1.0.1.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/72/f9/075108357140c90fb4b35aef31ade6ffbf6b491244781295f18bee86c506/power-grid-model-1.5.0rc9237711575148.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-03 12:08:59] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [vos-mjjo]: Downloading https://files.pythonhosted.org/packages/47/83/28cdab049770e970692c5ceb9135f0693a13922ef8b42ab4e0f0638c267d/vos_mjjo-0.0.8.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/94/41/154a6ff426782236dbac9d1f34cf02f023cf30692810e4d15682f8b7c8c5/minet-1.0.0a8.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/22/54/076af0e5d0b6ffde29af3abe2bab657b240779ce0cb71b26ebb5c1b7a31d/pulumi_awsx-1.0.2.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/98/22/6a210072cc16cc0844864c54bc03a4714837c16bc570e163961c62152a39/AppiumExtended-0.1.9.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-08-03 12:08:59] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230803/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-08-03 12:08:59] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2023-08-03 12:08:59] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-1.0.1.tar.gz tmp/pulumi_awsx-1.0.2.tar.gz --markdown 20230803/p/pulumi-awsx/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-03 12:08:59] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-08-03 12:08:59] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20230803/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/diff.md --exclude *.pyd
+[2023-08-03 12:08:59] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/e4/44/cbd30384ec0fcf935ae7c1020fa73db4ca3f085cbfe2006ce23e0005e1b1/power-grid-model-1.5.0rc9238204632375.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [httpx-pkcs12]: Downloading https://files.pythonhosted.org/packages/f3/00/5ae603799f220114ac0798916cafdfde2e52292648f7d147410fd29118a0/httpx_pkcs12-1.0.3.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [webmeter]: Downloading https://files.pythonhosted.org/packages/f9/32/33ba871b9ff955b54d422e2f6fb447a192ea4f722951ea0c9650d9aaaa89/webmeter-1.0.2.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [AppiumExtended]: executing diffoscope
+[2023-08-03 12:08:59] INFO root fetch - processPackages [AppiumExtended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppiumExtended-0.1.8.tar.gz tmp/AppiumExtended-0.1.9.tar.gz --markdown 20230803/A/AppiumExtended/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 12:08:59] INFO root fetch - processPackages [httpx-pkcs12]: executing diffoscope
+[2023-08-03 12:08:59] INFO root fetch - processPackages [httpx-pkcs12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx_pkcs12-1.0.2.tar.gz tmp/httpx_pkcs12-1.0.3.tar.gz --markdown 20230803/h/httpx-pkcs12/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-03 12:08:59] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/4e/e5/909a67e95297d6394fab66a1746fc102658cf4b729a2c90a72872c3dd759/minet-1.0.0a9.tar.gz
+[2023-08-03 12:08:59] INFO root fetch - processPackages [webmeter]: executing diffoscope
+[2023-08-03 12:08:59] INFO root fetch - processPackages [webmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webmeter-1.0.1.tar.gz tmp/webmeter-1.0.2.tar.gz --markdown 20230803/w/webmeter/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-03 12:08:59] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-08-03 12:08:59] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9237711575148.tar.gz tmp/power-grid-model-1.5.0rc9238204632375.tar.gz --markdown 20230803/p/power-grid-model/1.5.0rc9237711575148-1.5.0rc9238204632375/diff.md --exclude *.pyd
+[2023-08-03 12:08:59] INFO root fetch - processPackages [vos-mjjo]: Downloading https://files.pythonhosted.org/packages/e8/7f/839af847608e70ad155f4f2abd22a1e6c50ac5e221b68beec9ff5670e15a/vos_mjjo-0.0.9.tar.gz
+[2023-08-03 12:09:00] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-08-03 12:09:00] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230803/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-08-03 12:09:00] INFO root fetch - processPackages [vos-mjjo]: executing diffoscope
+[2023-08-03 12:09:00] INFO root fetch - processPackages [vos-mjjo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vos_mjjo-0.0.8.tar.gz tmp/vos_mjjo-0.0.9.tar.gz --markdown 20230803/v/vos-mjjo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 12:09:01] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-03 12:09:01] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - processPackages [pulumi-postgresql]: Start processing: coconut-develop
+[2023-08-03 12:09:01] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-08-03 12:09:01] INFO root fetch - processPackages [httpx-pkcs12]: Remove: archive file [/home/abi/fetcher/tmp/httpx_pkcs12-1.0.2.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - processPackages [httpx-pkcs12]: Remove: archive file [/home/abi/fetcher/tmp/httpx_pkcs12-1.0.3.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - processPackages [httpx-pkcs12]: Start processing: python-kkmeans
+[2023-08-03 12:09:01] INFO root fetch - main [MainThread]: End processing [httpx-pkcs12]: success
+[2023-08-03 12:09:01] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.3.post0.dev5] Old Version: [3.0.3.post0.dev4]
+[2023-08-03 12:09:01] WARNING root fetch - processPackages [python-kkmeans]: Skipping, unable to determine old version
+[2023-08-03 12:09:01] INFO root fetch - main [MainThread]: End processing [python-kkmeans] error
+[2023-08-03 12:09:01] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.8.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.9.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - main [MainThread]: End processing [AppiumExtended]: success
+[2023-08-03 12:09:01] INFO root fetch - processPackages [webmeter]: Remove: archive file [/home/abi/fetcher/tmp/webmeter-1.0.1.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - processPackages [webmeter]: Remove: archive file [/home/abi/fetcher/tmp/webmeter-1.0.2.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - main [MainThread]: End processing [webmeter]: success
+[2023-08-03 12:09:01] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.1.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.2.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2023-08-03 12:09:01] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2023-08-03 12:09:01] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-08-03 12:09:01] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/51/d8/1b686ec404f8e7cdacaf3f74cd017af8de39f46f4b71f6b30d1ab27b4067/coconut-develop-3.0.3.post0.dev4.tar.gz
+[2023-08-03 12:09:02] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/74/08/dace52fe983c43753f7d0134fce89333a2005096ddd86c0813b23ded7dbd/coconut-develop-3.0.3.post0.dev5.tar.gz
+[2023-08-03 12:09:02] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-1.0.0a8.tar.gz]
+[2023-08-03 12:09:02] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-1.0.0a9.tar.gz]
+[2023-08-03 12:09:02] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-08-03 12:09:02] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-08-03 12:09:02] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.3.post0.dev4.tar.gz tmp/coconut-develop-3.0.3.post0.dev5.tar.gz --markdown 20230803/c/coconut-develop/3.0.3.post0.dev4-3.0.3.post0.dev5/diff.md --exclude *.pyd
+[2023-08-03 12:09:03] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-08-03 12:09:03] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230803/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-08-03 12:09:03] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.3.post0.dev4.tar.gz]
+[2023-08-03 12:09:03] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.3.post0.dev5.tar.gz]
+[2023-08-03 12:09:03] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-08-03 12:09:05] INFO root fetch - processPackages [vos-mjjo]: Remove: archive file [/home/abi/fetcher/tmp/vos_mjjo-0.0.8.tar.gz]
+[2023-08-03 12:09:05] INFO root fetch - processPackages [vos-mjjo]: Remove: archive file [/home/abi/fetcher/tmp/vos_mjjo-0.0.9.tar.gz]
+[2023-08-03 12:09:05] INFO root fetch - main [MainThread]: End processing [vos-mjjo]: success
+[2023-08-03 12:09:35] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-03 12:09:35] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-03 12:09:35] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-08-03 12:09:59] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9237711575148.tar.gz]
+[2023-08-03 12:09:59] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9238204632375.tar.gz]
+[2023-08-03 12:09:59] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-08-03 12:09:59] INFO root fetch - main [MainThread]: Store serial: [19157524]
