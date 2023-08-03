@@ -12298,3 +12298,47 @@
 [2023-08-03 07:12:42] INFO root fetch - processPackages [edc-adverse-event]: Remove: archive file [/home/abi/fetcher/tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip]
 [2023-08-03 07:12:42] INFO root fetch - main [MainThread]: End processing [edc-adverse-event]: success
 [2023-08-03 07:12:42] INFO root fetch - main [MainThread]: Store serial: [19153900]
+[2023-08-03 07:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153900]
+[2023-08-03 07:17:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-03 07:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-module-auto-update
+[2023-08-03 07:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metricflow
+[2023-08-03 07:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-runtime-nightly
+[2023-08-03 07:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: v2rayp
+[2023-08-03 07:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidpe-rift-pipe
+[2023-08-03 07:17:51] INFO root fetch - processPackages [odoo14-addon-module-auto-update]: New version: [14.0.1.0.3.dev2] Old Version: [14.0.1.0.3.dev1]
+[2023-08-03 07:17:51] INFO root fetch - processPackages [metricflow]: New version: [0.93.0] Old Version: [0.92.1]
+[2023-08-03 07:17:51] INFO root fetch - processPackages [v2rayp]: New version: [0.7b9] Old Version: [0.7b8]
+[2023-08-03 07:17:51] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230802] Old Version: [0.5.4.dev20230801]
+[2023-08-03 07:17:51] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/48/c0/df3a23893e69af35d2b44f7a54b4a898409d3b807860016dcad92e38c96e/metricflow-0.92.1.tar.gz
+[2023-08-03 07:17:51] INFO root fetch - processPackages [v2rayp]: Downloading https://files.pythonhosted.org/packages/92/d1/4eaccafdc2f7e05c6059cc786c4e3318910647bece9407b579e9346fd2fd/v2rayp-0.7b8.tar.gz
+[2023-08-03 07:17:51] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.15.0.dev20230802] Old Version: [2.14.0.dev20230730]
+[2023-08-03 07:17:51] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/29/6a/8244ae0d7214874d7280ee95adeb1448762ee33fb1f8c92794f235cd768e/rapidpe_rift_pipe-0.5.4.dev20230801.tar.gz
+[2023-08-03 07:17:51] WARNING root fetch - processPackages [v2rayp]: Skipping package: exceeds size limit 65584125>=10485760
+[2023-08-03 07:17:51] INFO root fetch - main [MainThread]: End processing [v2rayp] error
+[2023-08-03 07:17:51] INFO root fetch - processPackages [odoo14-addon-module-auto-update]: Downloading https://files.pythonhosted.org/packages/e3/84/8bdd946d2886051fc5d2d8ed4d0e59b340a4aaef70d7f2bf659ba5d890e1/odoo14_addon_module_auto_update-14.0.1.0.3.dev1-py3-none-any.whl
+[2023-08-03 07:17:51] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/03/68/180ac09742d18eded44eac796173d6979f94ea672b47f02ceae672167dfa/metricflow-0.93.0.tar.gz
+[2023-08-03 07:17:51] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/80/05/1c24e72258100bc6a1fb62658892e628cf71c39e2a170eeeabc450449237/tflite_runtime_nightly-2.14.0.dev20230730-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-03 07:17:52] INFO root fetch - processPackages [metricflow]: executing diffoscope
+[2023-08-03 07:17:52] INFO root fetch - processPackages [metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricflow-0.92.1.tar.gz tmp/metricflow-0.93.0.tar.gz --markdown 20230803/m/metricflow/0.92.1-0.93.0/diff.md --exclude *.pyd
+[2023-08-03 07:17:52] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/7a/e6/6d36dca2cfd6e2f79033bc32037707acb7d8a63174cf1ce6a76fff62fa94/rapidpe_rift_pipe-0.5.4.dev20230802.tar.gz
+[2023-08-03 07:17:52] INFO root fetch - processPackages [odoo14-addon-module-auto-update]: Downloading https://files.pythonhosted.org/packages/d8/69/ba51fd51cecc27b7dfb3b88360c349590f98b44f2e75854d7a5d15266783/odoo14_addon_module_auto_update-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-08-03 07:17:52] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-08-03 07:17:52] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230801.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230802.tar.gz --markdown 20230803/r/rapidpe-rift-pipe/0.5.4.dev20230801-0.5.4.dev20230802/diff.md --exclude *.pyd
+[2023-08-03 07:17:52] INFO root fetch - processPackages [odoo14-addon-module-auto-update]: executing diffoscope
+[2023-08-03 07:17:52] INFO root fetch - processPackages [odoo14-addon-module-auto-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_module_auto_update-14.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_module_auto_update-14.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20230803/o/odoo14-addon-module-auto-update/14.0.1.0.3.dev1-14.0.1.0.3.dev2/diff.md --exclude *.pyd
+[2023-08-03 07:17:52] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/d4/c9/aea682ded5712f6dbd7c506a16976f38224adb14c0b6d64bb6c4cdfd0aaf/tflite_runtime_nightly-2.15.0.dev20230802-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-03 07:17:53] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-08-03 07:17:53] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230730-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.15.0.dev20230802-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20230803/t/tflite-runtime-nightly/2.14.0.dev20230730-2.15.0.dev20230802/diff.md --exclude *.pyd
+[2023-08-03 07:17:53] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230801.tar.gz]
+[2023-08-03 07:17:53] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230802.tar.gz]
+[2023-08-03 07:17:53] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-08-03 07:17:53] INFO root fetch - processPackages [odoo14-addon-module-auto-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_module_auto_update-14.0.1.0.3.dev1-py3-none-any.whl.zip]
+[2023-08-03 07:17:53] INFO root fetch - processPackages [odoo14-addon-module-auto-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_module_auto_update-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2023-08-03 07:17:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-module-auto-update]: success
+[2023-08-03 07:17:55] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.92.1.tar.gz]
+[2023-08-03 07:17:55] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
+[2023-08-03 07:17:55] INFO root fetch - main [MainThread]: End processing [metricflow]: success
+[2023-08-03 07:18:08] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230730-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-03 07:18:08] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230802-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-03 07:18:08] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-08-03 07:18:08] INFO root fetch - main [MainThread]: Store serial: [19153924]
