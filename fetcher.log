@@ -12720,3 +12720,67 @@
 [2023-08-03 07:49:55] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.2.3.tar.gz]
 [2023-08-03 07:49:55] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
 [2023-08-03 07:49:55] INFO root fetch - main [MainThread]: Store serial: [19154197]
+[2023-08-03 07:55:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154197]
+[2023-08-03 07:55:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-03 07:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2023-08-03 07:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rhinoMorph
+[2023-08-03 07:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crsts
+[2023-08-03 07:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Slpapy
+[2023-08-03 07:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytmpdir
+[2023-08-03 07:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easycompletion
+[2023-08-03 07:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crsts
+[2023-08-03 07:55:05] INFO root fetch - processPackages [Slpapy]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-08-03 07:55:05] INFO root fetch - processPackages [pytmpdir]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-03 07:55:05] INFO root fetch - processPackages [rhinoMorph]: New version: [4.0.1.12] Old Version: [4.0.1.11]
+[2023-08-03 07:55:05] INFO root fetch - processPackages [crsts]: New version: [2.4.8] Old Version: [2.4.6]
+[2023-08-03 07:55:05] INFO root fetch - processPackages [easycompletion]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-08-03 07:55:05] INFO root fetch - processPackages [crsts]: New version: [2.4.8] Old Version: [2.4.6]
+[2023-08-03 07:55:05] INFO root fetch - processPackages [policyengine-us]: New version: [0.406.0] Old Version: [0.405.0]
+[2023-08-03 07:55:05] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/d6/40/68db0978741d4f02035306ec8700ab113a892e4379ffe007ff4e321d2e14/Slpapy-0.4.4.tar.gz
+[2023-08-03 07:55:05] INFO root fetch - processPackages [crsts]: Downloading https://files.pythonhosted.org/packages/ee/bc/b30d4b7747aab900a4d438f12d07cb9651650c65b8d463de7a48f2018ba4/crsts-2.4.6.tar.gz
+[2023-08-03 07:55:05] INFO root fetch - processPackages [crsts]: Downloading https://files.pythonhosted.org/packages/ee/bc/b30d4b7747aab900a4d438f12d07cb9651650c65b8d463de7a48f2018ba4/crsts-2.4.6.tar.gz
+[2023-08-03 07:55:05] INFO root fetch - processPackages [rhinoMorph]: Downloading https://files.pythonhosted.org/packages/cd/fb/33333c67d107aa9d3d0c09b05914520a15239fdb25315e573590a4d62f3d/rhinoMorph-4.0.1.11-py3-none-any.whl
+[2023-08-03 07:55:05] INFO root fetch - processPackages [pytmpdir]: Downloading https://files.pythonhosted.org/packages/f6/b1/7c9c7a32e11ce4dc5a55bc5c2ad28938b19a99b2f2c216accedcd2fa4497/pytmpdir-1.0.4.tar.gz
+[2023-08-03 07:55:05] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/f5/c8/73d40860af4f99136f06ed2219965df9fdc13596039caa9e36f40589f527/policyengine-us-0.405.0.tar.gz
+[2023-08-03 07:55:05] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/2d/c6/6dd784caa5057e9bec02161aee25592146f150275830d58a8ab6208136ee/easycompletion-0.3.5.tar.gz
+[2023-08-03 07:55:05] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/a9/4f/382ec8a269b919c9a45639e7418dc62236618ee7f666db9df1aefd44a0d1/Slpapy-0.4.5.tar.gz
+[2023-08-03 07:55:06] INFO root fetch - processPackages [pytmpdir]: Downloading https://files.pythonhosted.org/packages/e6/9d/c88ea570c81757f5286807fea6edc7374c11e2293b19e1e83ad661ad9ebd/pytmpdir-1.0.5.tar.gz
+[2023-08-03 07:55:06] INFO root fetch - processPackages [crsts]: Downloading https://files.pythonhosted.org/packages/9b/19/f1461e95e2ed300e2b3171d3e6508f21f176e80ad52e655be0f3e485ddb4/crsts-2.4.8.tar.gz
+[2023-08-03 07:55:06] INFO root fetch - processPackages [crsts]: Downloading https://files.pythonhosted.org/packages/9b/19/f1461e95e2ed300e2b3171d3e6508f21f176e80ad52e655be0f3e485ddb4/crsts-2.4.8.tar.gz
+[2023-08-03 07:55:06] INFO root fetch - processPackages [pytmpdir]: executing diffoscope
+[2023-08-03 07:55:06] INFO root fetch - processPackages [pytmpdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmpdir-1.0.4.tar.gz tmp/pytmpdir-1.0.5.tar.gz --markdown 20230803/p/pytmpdir/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-03 07:55:06] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/6a/86/8f7cc85d467fa6612d98da81eaa31c4f2106a2845004444257eeefc702a8/policyengine-us-0.406.0.tar.gz
+[2023-08-03 07:55:06] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/5e/50/0e6753c2d551a1fbd7d548bf58d41847e1746fc37ac9df1fc9393f5d0add/easycompletion-0.3.6.tar.gz
+[2023-08-03 07:55:06] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-08-03 07:55:06] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.4.4.tar.gz tmp/Slpapy-0.4.5.tar.gz --markdown 20230803/S/Slpapy/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-08-03 07:55:06] INFO root fetch - processPackages [crsts]: executing diffoscope
+[2023-08-03 07:55:06] INFO root fetch - processPackages [crsts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crsts-2.4.6.tar.gz tmp/crsts-2.4.8.tar.gz --markdown 20230803/c/crsts/2.4.6-2.4.8/diff.md --exclude *.pyd
+[2023-08-03 07:55:06] INFO root fetch - processPackages [crsts]: executing diffoscope
+[2023-08-03 07:55:06] INFO root fetch - processPackages [crsts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crsts-2.4.6.tar.gz tmp/crsts-2.4.8.tar.gz --markdown 20230803/c/crsts/2.4.6-2.4.8/diff.md --exclude *.pyd
+[2023-08-03 07:55:06] INFO root fetch - processPackages [rhinoMorph]: Downloading https://files.pythonhosted.org/packages/84/67/32135ee34b3ee2423e43cd774bf3db6ced9678be33523fc779c76409fb48/rhinoMorph-4.0.1.12-py3-none-any.whl
+[2023-08-03 07:55:06] INFO root fetch - processPackages [easycompletion]: executing diffoscope
+[2023-08-03 07:55:06] INFO root fetch - processPackages [easycompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycompletion-0.3.5.tar.gz tmp/easycompletion-0.3.6.tar.gz --markdown 20230803/e/easycompletion/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-08-03 07:55:06] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-08-03 07:55:06] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.405.0.tar.gz tmp/policyengine-us-0.406.0.tar.gz --markdown 20230803/p/policyengine-us/0.405.0-0.406.0/diff.md --exclude *.pyd
+[2023-08-03 07:55:06] INFO root fetch - processPackages [rhinoMorph]: executing diffoscope
+[2023-08-03 07:55:06] INFO root fetch - processPackages [rhinoMorph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhinoMorph-4.0.1.11-py3-none-any.whl.zip tmp/rhinoMorph-4.0.1.12-py3-none-any.whl.zip --markdown 20230803/r/rhinoMorph/4.0.1.11-4.0.1.12/diff.md --exclude *.pyd
+[2023-08-03 07:55:07] INFO root fetch - processPackages [pytmpdir]: Remove: archive file [/home/abi/fetcher/tmp/pytmpdir-1.0.4.tar.gz]
+[2023-08-03 07:55:07] INFO root fetch - processPackages [pytmpdir]: Remove: archive file [/home/abi/fetcher/tmp/pytmpdir-1.0.5.tar.gz]
+[2023-08-03 07:55:07] INFO root fetch - main [MainThread]: End processing [pytmpdir]: success
+[2023-08-03 07:55:07] INFO root fetch - processPackages [Slpapy]: Remove: archive file [/home/abi/fetcher/tmp/Slpapy-0.4.4.tar.gz]
+[2023-08-03 07:55:07] INFO root fetch - processPackages [Slpapy]: Remove: archive file [/home/abi/fetcher/tmp/Slpapy-0.4.5.tar.gz]
+[2023-08-03 07:55:07] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-08-03 07:55:07] INFO root fetch - processPackages [crsts]: Remove: archive file [/home/abi/fetcher/tmp/crsts-2.4.6.tar.gz]
+[2023-08-03 07:55:07] INFO root fetch - processPackages [crsts]: Remove: archive file [/home/abi/fetcher/tmp/crsts-2.4.8.tar.gz]
+[2023-08-03 07:55:07] INFO root fetch - main [MainThread]: End processing [crsts]: success
+[2023-08-03 07:55:07] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.3.5.tar.gz]
+[2023-08-03 07:55:07] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.3.6.tar.gz]
+[2023-08-03 07:55:07] INFO root fetch - main [MainThread]: End processing [easycompletion]: success
+[2023-08-03 07:55:07] INFO root fetch - main [MainThread]: End processing [crsts]: success
+[2023-08-03 07:55:23] INFO root fetch - processPackages [rhinoMorph]: Remove: archive file [/home/abi/fetcher/tmp/rhinoMorph-4.0.1.11-py3-none-any.whl.zip]
+[2023-08-03 07:55:23] INFO root fetch - processPackages [rhinoMorph]: Remove: archive file [/home/abi/fetcher/tmp/rhinoMorph-4.0.1.12-py3-none-any.whl.zip]
+[2023-08-03 07:55:23] INFO root fetch - main [MainThread]: End processing [rhinoMorph]: success
+[2023-08-03 07:55:47] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.405.0.tar.gz]
+[2023-08-03 07:55:47] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.406.0.tar.gz]
+[2023-08-03 07:55:47] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-08-03 07:55:47] INFO root fetch - main [MainThread]: Store serial: [19154221]
