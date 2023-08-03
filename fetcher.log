@@ -19596,3 +19596,119 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 11:31:52] INFO root fetch - processPackages [concrete-datastore]: Remove: archive file [/home/abi/fetcher/tmp/concrete-datastore-1.9.0.tar.gz]
 [2023-08-03 11:31:52] INFO root fetch - main [MainThread]: End processing [concrete-datastore]: success
 [2023-08-03 11:31:52] INFO root fetch - main [MainThread]: Store serial: [19157105]
+[2023-08-03 11:36:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157105]
+[2023-08-03 11:37:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-03 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nemusicapi
+[2023-08-03 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RWAPIMicroservicePython
+[2023-08-03 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: investing-algorithm-framework
+[2023-08-03 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-picking-invoice-link
+[2023-08-03 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radicalpy
+[2023-08-03 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opentf-tools-nightly
+[2023-08-03 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hgcal-swamp
+[2023-08-03 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uvdiviner
+[2023-08-03 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pychronicles
+[2023-08-03 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-orangedice
+[2023-08-03 11:37:02] INFO root fetch - processPackages [nemusicapi]: New version: [0.1.0] Old Version: [0.0.5a1]
+[2023-08-03 11:37:02] INFO root fetch - processPackages [pychronicles]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-03 11:37:02] INFO root fetch - processPackages [nonebot-plugin-orangedice]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-08-03 11:37:02] WARNING root fetch - processPackages [uvdiviner]: Skipping, unable to determine old version
+[2023-08-03 11:37:02] INFO root fetch - processPackages [uvdiviner]: Start processing: qf-lib
+[2023-08-03 11:37:02] INFO root fetch - main [MainThread]: End processing [uvdiviner] error
+[2023-08-03 11:37:02] INFO root fetch - processPackages [investing-algorithm-framework]: New version: [1.3] Old Version: [1.2]
+[2023-08-03 11:37:02] INFO root fetch - processPackages [RWAPIMicroservicePython]: New version: [3.0.0b4] Old Version: [2.0.0]
+[2023-08-03 11:37:02] INFO root fetch - processPackages [hgcal-swamp]: New version: [1.1] Old Version: [1.0]
+[2023-08-03 11:37:02] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1.1]
+[2023-08-03 11:37:02] INFO root fetch - processPackages [nonebot-plugin-orangedice]: Downloading https://files.pythonhosted.org/packages/72/21/b4e552f6fceb85f2d5e3023223e222a835776f319d1ed76ff45c8db0e487/nonebot-plugin-orangedice-0.3.6.tar.gz
+[2023-08-03 11:37:02] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.43.0.dev497] Old Version: [0.43.0.dev491]
+[2023-08-03 11:37:02] INFO root fetch - processPackages [radicalpy]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-08-03 11:37:02] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/3c/c6/23270d1590a53f7e422618de2e19c738af67b9b59bb84944446101a8ac1f/nemusicapi-0.0.5a1.tar.gz
+[2023-08-03 11:37:02] INFO root fetch - processPackages [pychronicles]: Downloading https://files.pythonhosted.org/packages/00/d4/992938466fd771057eecd64f15a0fa5b4c9245af4fdd2bc18b410fb9d81f/pychronicles-0.0.9.tar.gz
+[2023-08-03 11:37:02] INFO root fetch - processPackages [investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/15/54/ffeb834a979ce916c6ce3e985d6042b3b4c7d968fd60e4220bd0b6882cc7/investing_algorithm_framework-1.2.tar.gz
+[2023-08-03 11:37:02] INFO root fetch - processPackages [qf-lib]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-03 11:37:02] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/4d/dc/78c72723fb1ade38e3c2f73007c5ae1af220ce1e5345b283195b6040dfda/RWAPIMicroservicePython-2.0.0.tar.gz
+[2023-08-03 11:37:02] INFO root fetch - processPackages [hgcal-swamp]: Downloading https://files.pythonhosted.org/packages/90/56/7dd8a15767c1754c974a9032e364171e45a8437ba81760ad73bc3ed8c289/hgcal_swamp-1.0.tar.gz
+[2023-08-03 11:37:02] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/ab/1c/dba91b7668ecef2bb52d5740d74bc8f66a844cfef2d51b97a31535c65756/opentf_tools_nightly-0.43.0.dev491-py3-none-any.whl
+[2023-08-03 11:37:02] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/7c/0a/4d584d70b2ab2535c05754743b82ef38fa76a04bb1a1e74ab81bc74cb95f/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.1-py3-none-any.whl
+[2023-08-03 11:37:02] INFO root fetch - processPackages [qf-lib]: Downloading https://files.pythonhosted.org/packages/38/3e/f39eed0594683f068383ea8695bf0b1bd2894635f7bc219b9b2f1596ba57/qf-lib-2.2.8.tar.gz
+[2023-08-03 11:37:02] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/95/ba/a444863815b7eaa64dd438c6504ebbbcc3e4e05c8c214c3174968b69164d/radicalpy-0.6.4.tar.gz
+[2023-08-03 11:37:02] INFO root fetch - processPackages [nonebot-plugin-orangedice]: Downloading https://files.pythonhosted.org/packages/13/b1/61cc80d167e34c7d76489bfff232f993321671a58d653c06235e8a5d1086/nonebot-plugin-orangedice-0.3.7.tar.gz
+[2023-08-03 11:37:02] INFO root fetch - processPackages [investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/3b/eb/6a487494a03815522c505a158058952df584a31f809208a2c3867ccb952b/investing_algorithm_framework-1.3.tar.gz
+[2023-08-03 11:37:02] WARNING root fetch - processPackages [qf-lib]: Skipping package: exceeds size limit 11405089>=10485760
+[2023-08-03 11:37:02] INFO root fetch - processPackages [qf-lib]: Start processing: finterion-investing-algorithm-framework
+[2023-08-03 11:37:02] INFO root fetch - main [MainThread]: End processing [qf-lib] error
+[2023-08-03 11:37:03] INFO root fetch - processPackages [pychronicles]: Downloading https://files.pythonhosted.org/packages/fd/d3/87ad86beed078603bb1c6d5b798515e5e4b395c6c85cc9f675d0193eb99a/pychronicles-0.1.0.tar.gz
+[2023-08-03 11:37:03] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/67/e7/a649b134fb49edc783b25084ae93963cfc4422b04f0bf938dbf3c07def50/RWAPIMicroservicePython-3.0.0b4.tar.gz
+[2023-08-03 11:37:03] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: New version: [0.7] Old Version: [0.6]
+[2023-08-03 11:37:03] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/90/cb/5abd5e16690f74095e6bfae7c6364b77fe89ca77521ab1201a5c7f5c5ec8/nemusicapi-0.1.0.tar.gz
+[2023-08-03 11:37:03] INFO root fetch - processPackages [investing-algorithm-framework]: executing diffoscope
+[2023-08-03 11:37:03] INFO root fetch - processPackages [investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investing_algorithm_framework-1.2.tar.gz tmp/investing_algorithm_framework-1.3.tar.gz --markdown 20230803/i/investing-algorithm-framework/1.2-1.3/diff.md --exclude *.pyd
+[2023-08-03 11:37:03] INFO root fetch - processPackages [hgcal-swamp]: Downloading https://files.pythonhosted.org/packages/66/4e/94d3d42e9091dd30003ac246c513b425795d3b79a8cf61905cc4903337bf/hgcal_swamp-1.1.tar.gz
+[2023-08-03 11:37:03] INFO root fetch - processPackages [nonebot-plugin-orangedice]: executing diffoscope
+[2023-08-03 11:37:03] INFO root fetch - processPackages [nonebot-plugin-orangedice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-orangedice-0.3.6.tar.gz tmp/nonebot-plugin-orangedice-0.3.7.tar.gz --markdown 20230803/n/nonebot-plugin-orangedice/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-08-03 11:37:03] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/73/fc/a878dd08e403977abda0abddd3e3dda1d29131dfb9e4549a80b4f5d9e982/opentf_tools_nightly-0.43.0.dev497-py3-none-any.whl
+[2023-08-03 11:37:03] INFO root fetch - processPackages [pychronicles]: executing diffoscope
+[2023-08-03 11:37:03] INFO root fetch - processPackages [pychronicles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychronicles-0.0.9.tar.gz tmp/pychronicles-0.1.0.tar.gz --markdown 20230803/p/pychronicles/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-03 11:37:03] INFO root fetch - processPackages [RWAPIMicroservicePython]: executing diffoscope
+[2023-08-03 11:37:03] INFO root fetch - processPackages [RWAPIMicroservicePython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RWAPIMicroservicePython-2.0.0.tar.gz tmp/RWAPIMicroservicePython-3.0.0b4.tar.gz --markdown 20230803/R/RWAPIMicroservicePython/2.0.0-3.0.0b4/diff.md --exclude *.pyd
+[2023-08-03 11:37:03] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 11:37:03] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.5a1.tar.gz tmp/nemusicapi-0.1.0.tar.gz --markdown 20230803/n/nemusicapi/0.0.5a1-0.1.0/diff.md --exclude *.pyd
+[2023-08-03 11:37:03] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/2c/1b/f581cfd2348a15898cdc2d29c72583dcdd8399e43907c23a3790e3f78e2c/finterion_investing_algorithm_framework-0.6-py3-none-any.whl
+[2023-08-03 11:37:03] INFO root fetch - processPackages [hgcal-swamp]: executing diffoscope
+[2023-08-03 11:37:03] INFO root fetch - processPackages [hgcal-swamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgcal_swamp-1.0.tar.gz tmp/hgcal_swamp-1.1.tar.gz --markdown 20230803/h/hgcal-swamp/1.0-1.1/diff.md --exclude *.pyd
+[2023-08-03 11:37:03] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/ff/65/dbf96d78e3a110c67538fd3ebf4f1e708d611435ccff0ae2956c82473c03/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.2-py3-none-any.whl
+[2023-08-03 11:37:03] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/1c/12/bd1c10187177830c92042a300eec0fa167d999ed4a2614d4b799930f4464/radicalpy-0.6.5.tar.gz
+[2023-08-03 11:37:03] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2023-08-03 11:37:03] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.43.0.dev491-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.43.0.dev497-py3-none-any.whl.zip --markdown 20230803/o/opentf-tools-nightly/0.43.0.dev491-0.43.0.dev497/diff.md --exclude *.pyd
+[2023-08-03 11:37:03] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/d2/7c/3f315ee37a272855580d5f9dcbf6ac484344bd9089815fce727e11c775bf/finterion_investing_algorithm_framework-0.7-py3-none-any.whl
+[2023-08-03 11:37:03] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: executing diffoscope
+[2023-08-03 11:37:03] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-stock-picking-invoice-link/16.0.1.0.1.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-08-03 11:37:03] INFO root fetch - processPackages [radicalpy]: executing diffoscope
+[2023-08-03 11:37:03] INFO root fetch - processPackages [radicalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radicalpy-0.6.4.tar.gz tmp/radicalpy-0.6.5.tar.gz --markdown 20230803/r/radicalpy/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-08-03 11:37:03] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: executing diffoscope
+[2023-08-03 11:37:03] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterion_investing_algorithm_framework-0.6-py3-none-any.whl.zip tmp/finterion_investing_algorithm_framework-0.7-py3-none-any.whl.zip --markdown 20230803/f/finterion-investing-algorithm-framework/0.6-0.7/diff.md --exclude *.pyd
+[2023-08-03 11:37:04] INFO root fetch - processPackages [nonebot-plugin-orangedice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-orangedice-0.3.6.tar.gz]
+[2023-08-03 11:37:04] INFO root fetch - processPackages [nonebot-plugin-orangedice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-orangedice-0.3.7.tar.gz]
+[2023-08-03 11:37:04] INFO root fetch - processPackages [nonebot-plugin-orangedice]: Start processing: atbu-pkg
+[2023-08-03 11:37:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-orangedice]: success
+[2023-08-03 11:37:04] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-2.0.0.tar.gz]
+[2023-08-03 11:37:04] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0b4.tar.gz]
+[2023-08-03 11:37:04] INFO root fetch - processPackages [RWAPIMicroservicePython]: Start processing: odoo14-addon-ssi-fixed-asset-in-progress
+[2023-08-03 11:37:04] INFO root fetch - main [MainThread]: End processing [RWAPIMicroservicePython]: success
+[2023-08-03 11:37:04] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.5a1.tar.gz]
+[2023-08-03 11:37:04] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.0.tar.gz]
+[2023-08-03 11:37:04] INFO root fetch - processPackages [nemusicapi]: Start processing: odoo14-addon-ssi-fixed-asset-useful-life-estimation-change
+[2023-08-03 11:37:04] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 11:37:04] INFO root fetch - processPackages [atbu-pkg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:37:04] INFO root fetch - processPackages [hgcal-swamp]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_swamp-1.0.tar.gz]
+[2023-08-03 11:37:04] INFO root fetch - processPackages [hgcal-swamp]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_swamp-1.1.tar.gz]
+[2023-08-03 11:37:04] INFO root fetch - main [MainThread]: End processing [hgcal-swamp]: success
+[2023-08-03 11:37:04] WARNING root fetch - processPackages [odoo14-addon-ssi-fixed-asset-in-progress]: Skipping, unable to determine old version
+[2023-08-03 11:37:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fixed-asset-in-progress] error
+[2023-08-03 11:37:04] WARNING root fetch - processPackages [odoo14-addon-ssi-fixed-asset-useful-life-estimation-change]: Skipping, unable to determine old version
+[2023-08-03 11:37:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fixed-asset-useful-life-estimation-change] error
+[2023-08-03 11:37:04] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.43.0.dev491-py3-none-any.whl.zip]
+[2023-08-03 11:37:04] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.43.0.dev497-py3-none-any.whl.zip]
+[2023-08-03 11:37:04] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2023-08-03 11:37:05] INFO root fetch - processPackages [pychronicles]: Remove: archive file [/home/abi/fetcher/tmp/pychronicles-0.0.9.tar.gz]
+[2023-08-03 11:37:05] INFO root fetch - processPackages [pychronicles]: Remove: archive file [/home/abi/fetcher/tmp/pychronicles-0.1.0.tar.gz]
+[2023-08-03 11:37:05] INFO root fetch - main [MainThread]: End processing [pychronicles]: success
+[2023-08-03 11:37:05] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/1e/43/b3e6e693150fa9a54fda96dbac24f19792ba7a45686ff6a62e7bbed9bd5d/atbu-pkg-0.0.8.tar.gz
+[2023-08-03 11:37:05] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-08-03 11:37:05] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-08-03 11:37:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-invoice-link]: success
+[2023-08-03 11:37:05] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.6-py3-none-any.whl.zip]
+[2023-08-03 11:37:05] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.7-py3-none-any.whl.zip]
+[2023-08-03 11:37:05] INFO root fetch - main [MainThread]: End processing [finterion-investing-algorithm-framework]: success
+[2023-08-03 11:37:05] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.6.4.tar.gz]
+[2023-08-03 11:37:05] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.6.5.tar.gz]
+[2023-08-03 11:37:05] INFO root fetch - main [MainThread]: End processing [radicalpy]: success
+[2023-08-03 11:37:05] INFO root fetch - processPackages [investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/investing_algorithm_framework-1.2.tar.gz]
+[2023-08-03 11:37:05] INFO root fetch - processPackages [investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/investing_algorithm_framework-1.3.tar.gz]
+[2023-08-03 11:37:05] INFO root fetch - main [MainThread]: End processing [investing-algorithm-framework]: success
+[2023-08-03 11:37:05] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/f5/38/dc8d5091ad2ec0108f1b6ca6014651e5e893c7f8f07c961c902e3d5e4b0e/atbu-pkg-0.0.9.tar.gz
+[2023-08-03 11:37:05] INFO root fetch - processPackages [atbu-pkg]: executing diffoscope
+[2023-08-03 11:37:05] INFO root fetch - processPackages [atbu-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atbu-pkg-0.0.8.tar.gz tmp/atbu-pkg-0.0.9.tar.gz --markdown 20230803/a/atbu-pkg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:37:06] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.8.tar.gz]
+[2023-08-03 11:37:06] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.9.tar.gz]
+[2023-08-03 11:37:06] INFO root fetch - main [MainThread]: End processing [atbu-pkg]: success
+[2023-08-03 11:37:06] INFO root fetch - main [MainThread]: Store serial: [19157152]
