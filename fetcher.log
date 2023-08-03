@@ -13775,3 +13775,59 @@
 [2023-08-03 08:44:34] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230803064250.tar.gz]
 [2023-08-03 08:44:34] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-08-03 08:44:34] INFO root fetch - main [MainThread]: Store serial: [19154655]
+[2023-08-03 08:49:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154655]
+[2023-08-03 08:49:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-03 08:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ontouml-json2graph
+[2023-08-03 08:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qase-python-commons
+[2023-08-03 08:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vocab-coverage
+[2023-08-03 08:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Opti-HPLC-Handler
+[2023-08-03 08:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kentoml
+[2023-08-03 08:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-onelogin
+[2023-08-03 08:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dosmaster
+[2023-08-03 08:49:43] WARNING root fetch - processPackages [Opti-HPLC-Handler]: Skipping, unable to determine old version
+[2023-08-03 08:49:43] INFO root fetch - main [MainThread]: End processing [Opti-HPLC-Handler] error
+[2023-08-03 08:49:43] INFO root fetch - processPackages [dosmaster]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-08-03 08:49:43] INFO root fetch - processPackages [vocab-coverage]: New version: [0.7] Old Version: [0.6]
+[2023-08-03 08:49:43] INFO root fetch - processPackages [qase-python-commons]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-08-03 08:49:43] INFO root fetch - processPackages [ontouml-json2graph]: New version: [1.0.0b5] Old Version: [1.0.0b4]
+[2023-08-03 08:49:43] INFO root fetch - processPackages [kentoml]: New version: [1.0.20.post9] Old Version: [1.0.20.post10]
+[2023-08-03 08:49:43] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.6.1a1691042835] Old Version: [0.6.1a1690895642]
+[2023-08-03 08:49:43] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/f5/84/03e153c4a9570763b90cf7f7e49c3c72da74c3591bed342049e4f6f0c9e9/dosmaster-1.7.4.tar.gz
+[2023-08-03 08:49:43] INFO root fetch - processPackages [kentoml]: Downloading https://files.pythonhosted.org/packages/df/fd/6553ccb1d8e7a8404c6dbf4b7f24860e757068b653b91b14debca8742813/kentoml-1.0.20.post10.tar.gz
+[2023-08-03 08:49:43] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/7b/df/a125130ea45d8331f6cbbe2061305b9f3c36f7c4cabd0de88abe50eb3532/ontouml_json2graph-1.0.0b4.tar.gz
+[2023-08-03 08:49:43] INFO root fetch - processPackages [vocab-coverage]: Downloading https://files.pythonhosted.org/packages/52/02/fd7c0cc9f02a442f75bb5d7d4812a0dd04e08c307b1169f2c2709f627b4d/vocab-coverage-0.6.tar.gz
+[2023-08-03 08:49:43] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/85/ce/8fbd62fe14b617ecf391ec5bf77191867b65278ce8c7e909c2d541ba8dcf/pulumi_onelogin-0.6.1a1690895642.tar.gz
+[2023-08-03 08:49:43] WARNING root fetch - processPackages [kentoml]: Skipping package: exceeds size limit 19837959>=10485760
+[2023-08-03 08:49:43] INFO root fetch - main [MainThread]: End processing [kentoml] error
+[2023-08-03 08:49:43] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/e0/38/24a6210b550932ff02d0b1c883980ef559c05434195b42b5bdc00e9142ec/qase-python-commons-2.0.2.tar.gz
+[2023-08-03 08:49:43] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/84/6a/746bb83e461fea9c1c15b4d95196047a266add9407e76c63923332b1cd4e/dosmaster-1.7.5.tar.gz
+[2023-08-03 08:49:44] INFO root fetch - processPackages [dosmaster]: executing diffoscope
+[2023-08-03 08:49:44] INFO root fetch - processPackages [dosmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosmaster-1.7.4.tar.gz tmp/dosmaster-1.7.5.tar.gz --markdown 20230803/d/dosmaster/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-08-03 08:49:44] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/c0/75/d984b447d3d981dd926c90121cbe9ebc6ddee471f06f06e3ad18ec833813/pulumi_onelogin-0.6.1a1691042835.tar.gz
+[2023-08-03 08:49:44] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/77/76/c5bbd7816dc3acc785d28d52fd3d2bef8ebb4580b63beb84c152ba8dce79/ontouml_json2graph-1.0.0b5.tar.gz
+[2023-08-03 08:49:44] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/e3/9c/2d2e1f9b57672b9eb7a0dabd5b76437b9db1426d79485370437183fc2077/qase-python-commons-2.0.3.tar.gz
+[2023-08-03 08:49:44] INFO root fetch - processPackages [vocab-coverage]: Downloading https://files.pythonhosted.org/packages/c2/d7/edef7f73538e9f3054f9a7c794f58552b51f08bea00d757b8468dbe2d548/vocab-coverage-0.7.tar.gz
+[2023-08-03 08:49:44] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2023-08-03 08:49:44] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.6.1a1690895642.tar.gz tmp/pulumi_onelogin-0.6.1a1691042835.tar.gz --markdown 20230803/p/pulumi-onelogin/0.6.1a1690895642-0.6.1a1691042835/diff.md --exclude *.pyd
+[2023-08-03 08:49:44] INFO root fetch - processPackages [ontouml-json2graph]: executing diffoscope
+[2023-08-03 08:49:44] INFO root fetch - processPackages [ontouml-json2graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontouml_json2graph-1.0.0b4.tar.gz tmp/ontouml_json2graph-1.0.0b5.tar.gz --markdown 20230803/o/ontouml-json2graph/1.0.0b4-1.0.0b5/diff.md --exclude *.pyd
+[2023-08-03 08:49:44] INFO root fetch - processPackages [qase-python-commons]: executing diffoscope
+[2023-08-03 08:49:44] INFO root fetch - processPackages [qase-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase-python-commons-2.0.2.tar.gz tmp/qase-python-commons-2.0.3.tar.gz --markdown 20230803/q/qase-python-commons/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-08-03 08:49:44] INFO root fetch - processPackages [vocab-coverage]: executing diffoscope
+[2023-08-03 08:49:44] INFO root fetch - processPackages [vocab-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocab-coverage-0.6.tar.gz tmp/vocab-coverage-0.7.tar.gz --markdown 20230803/v/vocab-coverage/0.6-0.7/diff.md --exclude *.pyd
+[2023-08-03 08:49:45] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.4.tar.gz]
+[2023-08-03 08:49:45] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.5.tar.gz]
+[2023-08-03 08:49:45] INFO root fetch - main [MainThread]: End processing [dosmaster]: success
+[2023-08-03 08:49:45] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase-python-commons-2.0.2.tar.gz]
+[2023-08-03 08:49:45] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase-python-commons-2.0.3.tar.gz]
+[2023-08-03 08:49:45] INFO root fetch - main [MainThread]: End processing [qase-python-commons]: success
+[2023-08-03 08:49:45] INFO root fetch - processPackages [vocab-coverage]: Remove: archive file [/home/abi/fetcher/tmp/vocab-coverage-0.6.tar.gz]
+[2023-08-03 08:49:45] INFO root fetch - processPackages [vocab-coverage]: Remove: archive file [/home/abi/fetcher/tmp/vocab-coverage-0.7.tar.gz]
+[2023-08-03 08:49:45] INFO root fetch - main [MainThread]: End processing [vocab-coverage]: success
+[2023-08-03 08:49:45] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1690895642.tar.gz]
+[2023-08-03 08:49:45] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1691042835.tar.gz]
+[2023-08-03 08:49:45] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2023-08-03 08:49:45] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b4.tar.gz]
+[2023-08-03 08:49:45] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b5.tar.gz]
+[2023-08-03 08:49:45] INFO root fetch - main [MainThread]: End processing [ontouml-json2graph]: success
+[2023-08-03 08:49:45] INFO root fetch - main [MainThread]: Store serial: [19154677]
