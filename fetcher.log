@@ -9314,3 +9314,50 @@
 [2023-08-03 03:51:18] INFO root fetch - processPackages [pyintesishome]: Remove: archive file [/home/abi/fetcher/tmp/pyintesishome-1.8.5.tar.gz]
 [2023-08-03 03:51:18] INFO root fetch - main [MainThread]: End processing [pyintesishome]: success
 [2023-08-03 03:51:18] INFO root fetch - main [MainThread]: Store serial: [19152674]
+[2023-08-03 03:56:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152674]
+[2023-08-03 03:56:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-03 03:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hopara
+[2023-08-03 03:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-ray-dev
+[2023-08-03 03:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plutoplots
+[2023-08-03 03:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mknodes
+[2023-08-03 03:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langsmith
+[2023-08-03 03:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coastseg
+[2023-08-03 03:56:26] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev6]
+[2023-08-03 03:56:26] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-03 03:56:26] WARNING root fetch - processPackages [plutoplots]: Skipping, unable to determine old version
+[2023-08-03 03:56:26] INFO root fetch - main [MainThread]: End processing [plutoplots] error
+[2023-08-03 03:56:26] INFO root fetch - processPackages [hopara]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-03 03:56:26] INFO root fetch - processPackages [langsmith]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 03:56:26] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 03:56:26] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-08-03 03:56:26] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/70/e8/f08f968adcbfa5134b56fd72a951d7bca0cf3c45e19f526a8e2eacfa377c/langsmith-0.0.8.tar.gz
+[2023-08-03 03:56:26] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-08-03 03:56:26] INFO root fetch - processPackages [hopara]: Downloading https://files.pythonhosted.org/packages/4e/42/e34f499c18abdc72f134e1ead512e2199186712cea3957b597103d453a8e/hopara-1.9.0.tar.gz
+[2023-08-03 03:56:26] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/37/8a/9179e0cdcc6485e06416e6639548eade7fa09f5f49c5f5c5559c1c9b5015/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 03:56:27] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-08-03 03:56:27] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-08-03 03:56:27] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230803/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 03:56:27] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/ea/40/b0e5e654b28ad105bb5168884b0ecdd39bd33af62489415cc34fb7f2738a/langsmith-0.0.9.tar.gz
+[2023-08-03 03:56:27] INFO root fetch - processPackages [hopara]: Downloading https://files.pythonhosted.org/packages/cd/1b/1431697e799fa081ff35944b608f738199cab875e46ab08a17ff9a56da77/hopara-1.9.1.tar.gz
+[2023-08-03 03:56:27] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2023-08-03 03:56:27] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.0.8.tar.gz tmp/langsmith-0.0.9.tar.gz --markdown 20230803/l/langsmith/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 03:56:27] INFO root fetch - processPackages [hopara]: executing diffoscope
+[2023-08-03 03:56:27] INFO root fetch - processPackages [hopara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopara-1.9.0.tar.gz tmp/hopara-1.9.1.tar.gz --markdown 20230803/h/hopara/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-03 03:56:27] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/51/cd/da4e0a374cdc49c4a176f0cb2b3f59efe30ac77171388dc22a8a87a28418/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 03:56:27] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-08-03 03:56:27] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-08-03 03:56:27] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-08-03 03:56:27] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-ray-dev/0.3.9.dev6-0.3.9.dev8/diff.md --exclude *.pyd
+[2023-08-03 03:56:28] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.8.tar.gz]
+[2023-08-03 03:56:28] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.9.tar.gz]
+[2023-08-03 03:56:28] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2023-08-03 03:56:28] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-08-03 03:56:28] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-08-03 03:56:28] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-08-03 03:56:28] INFO root fetch - processPackages [hopara]: Remove: archive file [/home/abi/fetcher/tmp/hopara-1.9.0.tar.gz]
+[2023-08-03 03:56:28] INFO root fetch - processPackages [hopara]: Remove: archive file [/home/abi/fetcher/tmp/hopara-1.9.1.tar.gz]
+[2023-08-03 03:56:28] INFO root fetch - main [MainThread]: End processing [hopara]: success
+[2023-08-03 03:56:52] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 03:56:52] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 03:56:52] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-08-03 03:56:52] INFO root fetch - main [MainThread]: Store serial: [19152697]
