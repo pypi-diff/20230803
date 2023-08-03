@@ -14098,3 +14098,204 @@
 [2023-08-03 09:00:20] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2023-08-03 09:00:20] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2023-08-03 09:00:20] INFO root fetch - main [MainThread]: Store serial: [19154844]
+[2023-08-03 09:05:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154844]
+[2023-08-03 09:05:30] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-08-03 09:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: covalent-api-sdk
+[2023-08-03 09:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-data-loader
+[2023-08-03 09:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: megfile
+[2023-08-03 09:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyroFork-dev
+[2023-08-03 09:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: StarClusterPlot
+[2023-08-03 09:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-pagerduty
+[2023-08-03 09:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mltb2
+[2023-08-03 09:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-03 09:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pip-licenses-lib
+[2023-08-03 09:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dosmaster
+[2023-08-03 09:05:30] INFO root fetch - processPackages [mltb2]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-03 09:05:30] INFO root fetch - processPackages [covalent-api-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-03 09:05:30] INFO root fetch - processPackages [megfile]: New version: [2.2.0.post1] Old Version: [2.2.0]
+[2023-08-03 09:05:30] INFO root fetch - processPackages [dosmaster]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-08-03 09:05:30] INFO root fetch - processPackages [StarClusterPlot]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-03 09:05:30] WARNING root fetch - processPackages [pip-licenses-lib]: Skipping, unable to determine old version
+[2023-08-03 09:05:30] INFO root fetch - processPackages [pip-licenses-lib]: Start processing: zoviz
+[2023-08-03 09:05:30] INFO root fetch - main [MainThread]: End processing [pip-licenses-lib] error
+[2023-08-03 09:05:30] WARNING root fetch - processPackages [multi-data-loader]: Skipping, unable to determine old version
+[2023-08-03 09:05:30] INFO root fetch - processPackages [multi-data-loader]: Start processing: ontouml-json2graph
+[2023-08-03 09:05:30] INFO root fetch - main [MainThread]: End processing [multi-data-loader] error
+[2023-08-03 09:05:30] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-08-03 09:05:30] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.7.dev202308036677] Old Version: [2.2.7.dev202308029069]
+[2023-08-03 09:05:30] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-03 09:05:30] INFO root fetch - processPackages [ontouml-json2graph]: New version: [1.0.0b7] Old Version: [1.0.0b6]
+[2023-08-03 09:05:30] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-08-03 09:05:30] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/24/bc/32f61cfa635f8e36c106ab8ecf049651e18c8629e548adfcdef277036075/PyroFork-dev-2.2.7.dev202308029069.tar.gz
+[2023-08-03 09:05:30] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/c5/b1/af3d8893ef956a10bd3322780a66083ea65ebe5ec74fd86bda91d0a86055/dosmaster-1.7.6.tar.gz
+[2023-08-03 09:05:30] INFO root fetch - processPackages [StarClusterPlot]: Downloading https://files.pythonhosted.org/packages/97/b6/513ce42f2fec4bbf37d303e2ecd75afacb1b30a4e4501f3e305cb46732b9/StarClusterPlot-0.1.4.tar.gz
+[2023-08-03 09:05:30] INFO root fetch - processPackages [mltb2]: Downloading https://files.pythonhosted.org/packages/01/d5/5122ec68cc8a485c2bd3aa3c78a3b12754bcab8a196bf4d37927e5da36f4/mltb2-0.4.2.tar.gz
+[2023-08-03 09:05:30] INFO root fetch - processPackages [covalent-api-sdk]: Downloading https://files.pythonhosted.org/packages/d1/0c/9e71fe0e5f8b9d39e84beda5d8887e89940cee69a8a182f7727b24bd7e04/covalent-api-sdk-0.0.4.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/14/c8/fd876e9689375de91d69023fe6021f2869c1a9488b25be578f0dd930f457/megfile-2.2.0-py3-none-any.whl
+[2023-08-03 09:05:31] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/2e/c5/5e616375fba654230d1a321cd219026334ef960f8b4ab34abf144540c53a/ontouml_json2graph-1.0.0b6.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/e3/fb/cfd0770cc238f4c5d0519a47c0dfe5476a67ad16fc40bc8e1152c8898f91/pulumi_pagerduty-3.9.0a1678231019.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/39/01/118ff39e3e5bc58e05756a517d2b426abe032aa3420d27e3000aaac3b14a/zoviz-0.4.98.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [StarClusterPlot]: Downloading https://files.pythonhosted.org/packages/2f/8a/5ade71b489c47ac82abb77f047597838898d9ca766353c587663fdc836d7/StarClusterPlot-0.1.5.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/55/01/e9d87845086c58568659da267c72528f70d405ed6aa846158840bf24f65e/dosmaster-1.7.7.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/03/2e/91d814eeab8233214c64bbd32c5e304db8f89201c11b85109e162768f637/PyroFork-dev-2.2.7.dev202308036677.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [mltb2]: Downloading https://files.pythonhosted.org/packages/80/47/c4890fa1fa3b9e34e0a819cd4f91847b96f4ca048738ce0a0d8331e63bbf/mltb2-0.4.3.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [covalent-api-sdk]: Downloading https://files.pythonhosted.org/packages/ac/23/e10f307361f1648d8f807e3fde8a29b80fd72f2135066e720adafe821d4c/covalent-api-sdk-0.0.5.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/54/38/ea24c7e4e44a2044301bede184209f2bee88dda37ba2d90265f47376601a/megfile-2.2.0.post1-py3-none-any.whl
+[2023-08-03 09:05:31] INFO root fetch - processPackages [StarClusterPlot]: executing diffoscope
+[2023-08-03 09:05:31] INFO root fetch - processPackages [StarClusterPlot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StarClusterPlot-0.1.4.tar.gz tmp/StarClusterPlot-0.1.5.tar.gz --markdown 20230803/S/StarClusterPlot/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-03 09:05:31] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/b2/77/786140b79d0946ee18e80ac92af9889e190480f889211497d09069a9f0fa/pulumi_pagerduty-3.9.0a1678824312.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [dosmaster]: executing diffoscope
+[2023-08-03 09:05:31] INFO root fetch - processPackages [dosmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosmaster-1.7.6.tar.gz tmp/dosmaster-1.7.7.tar.gz --markdown 20230803/d/dosmaster/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-08-03 09:05:31] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/4b/9a/dea269ed1403497e3e963b49e4d08cdc0e831c8642e0f505481d42cdc405/zoviz-0.4.99.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/c4/3b/956accd9f280a50363da763ad4f409fa94189d109895441e0d4f0f77394f/ontouml_json2graph-1.0.0b7.tar.gz
+[2023-08-03 09:05:31] INFO root fetch - processPackages [mltb2]: executing diffoscope
+[2023-08-03 09:05:31] INFO root fetch - processPackages [mltb2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltb2-0.4.2.tar.gz tmp/mltb2-0.4.3.tar.gz --markdown 20230803/m/mltb2/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-03 09:05:31] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-08-03 09:05:31] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.7.dev202308029069.tar.gz tmp/PyroFork-dev-2.2.7.dev202308036677.tar.gz --markdown 20230803/P/PyroFork-dev/2.2.7.dev202308029069-2.2.7.dev202308036677/diff.md --exclude *.pyd
+[2023-08-03 09:05:31] INFO root fetch - processPackages [covalent-api-sdk]: executing diffoscope
+[2023-08-03 09:05:31] INFO root fetch - processPackages [covalent-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-api-sdk-0.0.4.tar.gz tmp/covalent-api-sdk-0.0.5.tar.gz --markdown 20230803/c/covalent-api-sdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-03 09:05:31] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-08-03 09:05:31] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.2.0-py3-none-any.whl.zip tmp/megfile-2.2.0.post1-py3-none-any.whl.zip --markdown 20230803/m/megfile/2.2.0-2.2.0.post1/diff.md --exclude *.pyd
+[2023-08-03 09:05:32] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-08-03 09:05:32] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230803/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-08-03 09:05:32] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-08-03 09:05:32] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230803/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-08-03 09:05:32] INFO root fetch - processPackages [ontouml-json2graph]: executing diffoscope
+[2023-08-03 09:05:32] INFO root fetch - processPackages [ontouml-json2graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontouml_json2graph-1.0.0b6.tar.gz tmp/ontouml_json2graph-1.0.0b7.tar.gz --markdown 20230803/o/ontouml-json2graph/1.0.0b6-1.0.0b7/diff.md --exclude *.pyd
+[2023-08-03 09:05:32] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-03 09:05:33] INFO root fetch - processPackages [StarClusterPlot]: Remove: archive file [/home/abi/fetcher/tmp/StarClusterPlot-0.1.4.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [StarClusterPlot]: Remove: archive file [/home/abi/fetcher/tmp/StarClusterPlot-0.1.5.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [StarClusterPlot]: Start processing: aiogram-dialog
+[2023-08-03 09:05:33] INFO root fetch - main [MainThread]: End processing [StarClusterPlot]: success
+[2023-08-03 09:05:33] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-03 09:05:33] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230803/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 09:05:33] INFO root fetch - processPackages [aiogram-dialog]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [aiogram-dialog]: Downloading https://files.pythonhosted.org/packages/ca/58/a5eebb03900ea91f6bfef4415b0cdcbaf9ac8757a58f8fa715b8074f2028/aiogram_dialog-2.0.0b8-py3-none-any.whl
+[2023-08-03 09:05:33] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.6.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.7.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [dosmaster]: Start processing: seqio-nightly
+[2023-08-03 09:05:33] INFO root fetch - main [MainThread]: End processing [dosmaster]: success
+[2023-08-03 09:05:33] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.98.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.99.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [zoviz]: Start processing: sqlup
+[2023-08-03 09:05:33] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-08-03 09:05:33] INFO root fetch - processPackages [mltb2]: Remove: archive file [/home/abi/fetcher/tmp/mltb2-0.4.2.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [mltb2]: Remove: archive file [/home/abi/fetcher/tmp/mltb2-0.4.3.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [mltb2]: Start processing: liangutil
+[2023-08-03 09:05:33] INFO root fetch - main [MainThread]: End processing [mltb2]: success
+[2023-08-03 09:05:33] INFO root fetch - processPackages [covalent-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/covalent-api-sdk-0.0.4.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [covalent-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/covalent-api-sdk-0.0.5.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [covalent-api-sdk]: Start processing: pulumi-postgresql
+[2023-08-03 09:05:33] INFO root fetch - main [MainThread]: End processing [covalent-api-sdk]: success
+[2023-08-03 09:05:33] WARNING root fetch - processPackages [sqlup]: Skipping, unable to determine old version
+[2023-08-03 09:05:33] INFO root fetch - processPackages [sqlup]: Start processing: run-one
+[2023-08-03 09:05:33] INFO root fetch - main [MainThread]: End processing [sqlup] error
+[2023-08-03 09:05:33] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-08-03 09:05:33] INFO root fetch - processPackages [liangutil]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [run-one]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.2.0-py3-none-any.whl.zip]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.2.0.post1-py3-none-any.whl.zip]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [megfile]: Start processing: irregular-chars
+[2023-08-03 09:05:33] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-08-03 09:05:33] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b6.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b7.tar.gz]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [ontouml-json2graph]: Start processing: pulumi-random
+[2023-08-03 09:05:33] INFO root fetch - main [MainThread]: End processing [ontouml-json2graph]: success
+[2023-08-03 09:05:33] INFO root fetch - processPackages [irregular-chars]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/dd/c7/18dd6f2329edfd302c1f5585106fcd5ae68753ad6afe0140752c241cd2cd/run_one-1.0.8.tar.gz
+[2023-08-03 09:05:33] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/b6/15/d2e90ddb5db7623175800ea19cbf0385ffd5b6eafc094adaf42caae128af/liangutil-0.1.2.tar.gz
+[2023-08-03 09:05:33] INFO root fetch - processPackages [aiogram-dialog]: Downloading https://files.pythonhosted.org/packages/41/8f/95c3c13124dc4ec951f50e22cae6fa670904709a6790f8ccccb06c85629b/aiogram_dialog-2.0.0b9-py3-none-any.whl
+[2023-08-03 09:05:33] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2023-08-03 09:05:33] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2023-08-03 09:05:34] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/c1/26/bbda3d9d6d651d65052273ca0c0105354d890b838f1d84115820ce2af8b8/run_one-1.0.9.tar.gz
+[2023-08-03 09:05:34] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-08-03 09:05:34] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/19/23/2d17d3875229867471040f034390648a2583ecabb5a7dcc13e45342a234c/irregular-chars-1.3.0.tar.gz
+[2023-08-03 09:05:34] INFO root fetch - processPackages [aiogram-dialog]: executing diffoscope
+[2023-08-03 09:05:34] INFO root fetch - processPackages [aiogram-dialog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram_dialog-2.0.0b8-py3-none-any.whl.zip tmp/aiogram_dialog-2.0.0b9-py3-none-any.whl.zip --markdown 20230803/a/aiogram-dialog/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz]
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz]
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pulumi-pagerduty]: Start processing: razorpay
+[2023-08-03 09:05:34] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-08-03 09:05:34] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/35/cb/e8e138c1e02b2ce5d43402d21998c35b68dd35cae576fc519bb2e71c9498/liangutil-0.1.3.tar.gz
+[2023-08-03 09:05:34] INFO root fetch - processPackages [run-one]: executing diffoscope
+[2023-08-03 09:05:34] INFO root fetch - processPackages [run-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/run_one-1.0.8.tar.gz tmp/run_one-1.0.9.tar.gz --markdown 20230803/r/run-one/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:05:34] INFO root fetch - processPackages [razorpay]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2023-08-03 09:05:34] INFO root fetch - processPackages [liangutil]: executing diffoscope
+[2023-08-03 09:05:34] INFO root fetch - processPackages [liangutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liangutil-0.1.2.tar.gz tmp/liangutil-0.1.3.tar.gz --markdown 20230803/l/liangutil/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-03 09:05:34] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-08-03 09:05:34] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230803/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-08-03 09:05:34] INFO root fetch - processPackages [razorpay]: Downloading https://files.pythonhosted.org/packages/7f/7b/9a62852d321d310ee89b60782cea5f41cd3bb72d601e69470a07a9d5c505/razorpay-1.3.0-py3-none-any.whl
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2023-08-03 09:05:34] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/34/5a/eb294ed4eebe27190f7dc7fd317416a9437bcef966af2290b690bac8c311/irregular-chars-1.4.0.tar.gz
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: kuto
+[2023-08-03 09:05:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2023-08-03 09:05:34] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20230803/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/diff.md --exclude *.pyd
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-08-03 09:05:34] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20230803/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/diff.md --exclude *.pyd
+[2023-08-03 09:05:34] INFO root fetch - processPackages [irregular-chars]: executing diffoscope
+[2023-08-03 09:05:34] INFO root fetch - processPackages [irregular-chars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irregular-chars-1.3.0.tar.gz tmp/irregular-chars-1.4.0.tar.gz --markdown 20230803/i/irregular-chars/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-08-03 09:05:34] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/32/2d/36a7adc8f0a826a28bf2de64180bb8f7b1a73846e5712acc6927388adf46/kuto-0.0.8-py3-none-any.whl
+[2023-08-03 09:05:34] INFO root fetch - processPackages [razorpay]: Downloading https://files.pythonhosted.org/packages/c6/9a/df95454a892259027b31792f977b43d138a13960ac9c2c28842adc19c40a/razorpay-1.3.1.tar.gz
+[2023-08-03 09:05:35] INFO root fetch - processPackages [razorpay]: executing diffoscope
+[2023-08-03 09:05:35] INFO root fetch - processPackages [razorpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/razorpay-1.3.0-py3-none-any.whl.zip tmp/razorpay-1.3.1.tar.gz --markdown 20230803/r/razorpay/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-03 09:05:35] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/44/22/ef926091281ffebdd1b36f86dd2bf9d42dae07fa46569cd788f675d0c2fd/kuto-0.0.9.tar.gz
+[2023-08-03 09:05:35] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.0.8.tar.gz]
+[2023-08-03 09:05:35] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.0.9.tar.gz]
+[2023-08-03 09:05:35] INFO root fetch - processPackages [run-one]: Start processing: aiohutils
+[2023-08-03 09:05:35] INFO root fetch - main [MainThread]: End processing [run-one]: success
+[2023-08-03 09:05:35] INFO root fetch - processPackages [aiohutils]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-03 09:05:35] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-08-03 09:05:35] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230803/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:05:35] INFO root fetch - processPackages [aiohutils]: Downloading https://files.pythonhosted.org/packages/d9/d7/5fcea3b714ac9a36cc79581aa44195bacd5f8cf8dab8c7ad203a88320c25/aiohutils-0.6.0.tar.gz
+[2023-08-03 09:05:35] INFO root fetch - processPackages [aiogram-dialog]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_dialog-2.0.0b8-py3-none-any.whl.zip]
+[2023-08-03 09:05:35] INFO root fetch - processPackages [aiogram-dialog]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_dialog-2.0.0b9-py3-none-any.whl.zip]
+[2023-08-03 09:05:35] INFO root fetch - processPackages [aiogram-dialog]: Start processing: dosmaster
+[2023-08-03 09:05:35] INFO root fetch - main [MainThread]: End processing [aiogram-dialog]: success
+[2023-08-03 09:05:35] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.1.2.tar.gz]
+[2023-08-03 09:05:35] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.1.3.tar.gz]
+[2023-08-03 09:05:35] INFO root fetch - main [MainThread]: End processing [liangutil]: success
+[2023-08-03 09:05:35] INFO root fetch - processPackages [dosmaster]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-08-03 09:05:35] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/55/01/e9d87845086c58568659da267c72528f70d405ed6aa846158840bf24f65e/dosmaster-1.7.7.tar.gz
+[2023-08-03 09:05:35] INFO root fetch - processPackages [aiohutils]: Downloading https://files.pythonhosted.org/packages/af/bb/f02d65433b37984ac6a6ef9b085e06eb1e271cea2a2957cdcd841f4bde6b/aiohutils-0.6.1.tar.gz
+[2023-08-03 09:05:36] INFO root fetch - processPackages [aiohutils]: executing diffoscope
+[2023-08-03 09:05:36] INFO root fetch - processPackages [aiohutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohutils-0.6.0.tar.gz tmp/aiohutils-0.6.1.tar.gz --markdown 20230803/a/aiohutils/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-03 09:05:36] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular-chars-1.3.0.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular-chars-1.4.0.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - main [MainThread]: End processing [irregular-chars]: success
+[2023-08-03 09:05:36] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2023-08-03 09:05:36] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/d5/36/694b694f62be184037fc56c7a6c3bedb7839cdd1d3441fbe38afaed3e182/dosmaster-1.7.8.tar.gz
+[2023-08-03 09:05:36] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-08-03 09:05:36] INFO root fetch - processPackages [dosmaster]: executing diffoscope
+[2023-08-03 09:05:36] INFO root fetch - processPackages [dosmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosmaster-1.7.7.tar.gz tmp/dosmaster-1.7.8.tar.gz --markdown 20230803/d/dosmaster/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-08-03 09:05:36] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-08-03 09:05:36] INFO root fetch - processPackages [razorpay]: Remove: archive file [/home/abi/fetcher/tmp/razorpay-1.3.0-py3-none-any.whl.zip]
+[2023-08-03 09:05:36] INFO root fetch - processPackages [razorpay]: Remove: archive file [/home/abi/fetcher/tmp/razorpay-1.3.1.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - main [MainThread]: End processing [razorpay]: success
+[2023-08-03 09:05:36] INFO root fetch - processPackages [kuto]: Remove: archive file [/home/abi/fetcher/tmp/kuto-0.0.8-py3-none-any.whl.zip]
+[2023-08-03 09:05:36] INFO root fetch - processPackages [kuto]: Remove: archive file [/home/abi/fetcher/tmp/kuto-0.0.9.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-08-03 09:05:36] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.7.dev202308029069.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.7.dev202308036677.tar.gz]
+[2023-08-03 09:05:36] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-08-03 09:05:37] INFO root fetch - processPackages [aiohutils]: Remove: archive file [/home/abi/fetcher/tmp/aiohutils-0.6.0.tar.gz]
+[2023-08-03 09:05:37] INFO root fetch - processPackages [aiohutils]: Remove: archive file [/home/abi/fetcher/tmp/aiohutils-0.6.1.tar.gz]
+[2023-08-03 09:05:37] INFO root fetch - main [MainThread]: End processing [aiohutils]: success
+[2023-08-03 09:05:37] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.7.tar.gz]
+[2023-08-03 09:05:37] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.8.tar.gz]
+[2023-08-03 09:05:37] INFO root fetch - main [MainThread]: End processing [dosmaster]: success
+[2023-08-03 09:05:37] INFO root fetch - main [MainThread]: Store serial: [19154934]
