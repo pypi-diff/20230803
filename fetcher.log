@@ -9178,3 +9178,115 @@
 [2023-08-03 03:40:40] INFO root fetch - processPackages [spelunker]: Remove: archive file [/home/abi/fetcher/tmp/spelunker-1.0.1.tar.gz]
 [2023-08-03 03:40:40] INFO root fetch - main [MainThread]: End processing [spelunker]: success
 [2023-08-03 03:40:40] INFO root fetch - main [MainThread]: Store serial: [19152626]
+[2023-08-03 03:45:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152626]
+[2023-08-03 03:45:49] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-03 03:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeassistant-stubs
+[2023-08-03 03:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-django
+[2023-08-03 03:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peutils
+[2023-08-03 03:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: greatapi
+[2023-08-03 03:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SQLAlchemyExample
+[2023-08-03 03:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-apl
+[2023-08-03 03:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: factool
+[2023-08-03 03:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proactive
+[2023-08-03 03:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smallgenomeutilities
+[2023-08-03 03:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: text2hologram
+[2023-08-03 03:45:49] INFO root fetch - processPackages [greatapi]: New version: [1.0.0] Old Version: [0.0.6]
+[2023-08-03 03:45:49] INFO root fetch - processPackages [smallgenomeutilities]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-03 03:45:49] INFO root fetch - processPackages [peutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 03:45:49] INFO root fetch - processPackages [factool]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-08-03 03:45:49] INFO root fetch - processPackages [SQLAlchemyExample]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-08-03 03:45:49] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.8.0b4] Old Version: [2023.8.0b3]
+[2023-08-03 03:45:49] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 03:45:49] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-08-03 03:45:49] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.933] Old Version: [0.0.932]
+[2023-08-03 03:45:49] INFO root fetch - processPackages [text2hologram]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-08-03 03:45:49] INFO root fetch - processPackages [greatapi]: Downloading https://files.pythonhosted.org/packages/fe/75/534cd0c37dc5d19b7e37993760d90665d9d5abf7d4aba1497aa803677ae7/greatapi-0.0.6.tar.gz
+[2023-08-03 03:45:49] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/1e/7a/c84c43c1f1027e73857cfb954e67e9478684226306212f14223fcfac9ff7/SQLAlchemyExample-0.0.2.tar.gz
+[2023-08-03 03:45:49] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/59/06/1c8f2582ca1e885ab47b437ffaffe1263ae3120893aa3e2cee27fb2bc894/peutils-0.0.8.tar.gz
+[2023-08-03 03:45:49] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/0f/81/67bd46facf8d99cb6d9d6624b8da2175dee11658914a58c28e40468323e6/homeassistant_stubs-2023.8.0b3.tar.gz
+[2023-08-03 03:45:49] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-08-03 03:45:49] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/d5/68/347b9486b1fdf46f73c5d716f29922d840b105e25ce0a159a9004ecb8b39/nbdev-apl-0.0.932.tar.gz
+[2023-08-03 03:45:50] INFO root fetch - processPackages [factool]: Downloading https://files.pythonhosted.org/packages/d1/8c/5ba5b40e48e4644f1277ad095144438e37c74b1e1155fb7b170490e57e9a/factool-0.1.0.tar.gz
+[2023-08-03 03:45:50] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-08-03 03:45:50] INFO root fetch - processPackages [proactive]: Start processing: proactive-jupyter-kernel
+[2023-08-03 03:45:50] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-08-03 03:45:50] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-08-03 03:45:50] INFO root fetch - processPackages [text2hologram]: Downloading https://files.pythonhosted.org/packages/e3/c4/16a6138b3e1c9fb2035bd533ab2eab2941809b1563b79933f41acd56c7a6/text2hologram-0.0.4.tar.gz
+[2023-08-03 03:45:50] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-08-03 03:45:50] INFO root fetch - processPackages [smallgenomeutilities]: Downloading https://files.pythonhosted.org/packages/1e/77/8ea697034e10e42f1d2b4800063531ceb3599bc3fb9a8b25c94c2c37622b/smallgenomeutilities-0.4.0.tar.gz
+[2023-08-03 03:45:50] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/7e/4c/b04cc08226f309f929014d3fa07e929ce9344068762872a701c5c2fa2555/peutils-0.0.9.tar.gz
+[2023-08-03 03:45:50] WARNING root fetch - processPackages [smallgenomeutilities]: Skipping package: exceeds size limit 69288575>=10485760
+[2023-08-03 03:45:50] INFO root fetch - processPackages [smallgenomeutilities]: Start processing: airscript
+[2023-08-03 03:45:50] INFO root fetch - main [MainThread]: End processing [smallgenomeutilities] error
+[2023-08-03 03:45:50] INFO root fetch - processPackages [greatapi]: Downloading https://files.pythonhosted.org/packages/4b/ee/6f95520e508d15d430f3c76a6fad64e0a219f4824a7573167a4b4683ccdd/greatapi-1.0.0.tar.gz
+[2023-08-03 03:45:50] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/12/58/d680ced63f770fdc2706a344003277a66f992e8b3242ae85c65c16b7ec22/SQLAlchemyExample-0.1.0.tar.gz
+[2023-08-03 03:45:50] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-08-03 03:45:50] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/44/22/93e628165bec5ea6de88132a8eec21cd1947e8d46770f6f8a2bbb1458a69/nbdev-apl-0.0.933.tar.gz
+[2023-08-03 03:45:50] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2023-08-03 03:45:50] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.8.tar.gz tmp/peutils-0.0.9.tar.gz --markdown 20230803/p/peutils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 03:45:50] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-08-03 03:45:50] INFO root fetch - processPackages [factool]: Downloading https://files.pythonhosted.org/packages/77/46/650a1adb8f7a31c2fed8287764bc890a116d4d0f8dcaab0b8a696588b6a9/factool-0.1.2.tar.gz
+[2023-08-03 03:45:50] INFO root fetch - processPackages [airscript]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-03 03:45:50] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/01/c7/16d77d21d8cd9cd615ad490fb0d620ea8056df84e246ddda153513c21b9c/homeassistant_stubs-2023.8.0b4.tar.gz
+[2023-08-03 03:45:50] INFO root fetch - processPackages [text2hologram]: Downloading https://files.pythonhosted.org/packages/d7/07/27cdb91337ec93b84e26086a691f6a7b59dfa2b1fb22467bbc25979706db/text2hologram-0.1.0.tar.gz
+[2023-08-03 03:45:50] INFO root fetch - processPackages [greatapi]: executing diffoscope
+[2023-08-03 03:45:50] INFO root fetch - processPackages [greatapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greatapi-0.0.6.tar.gz tmp/greatapi-1.0.0.tar.gz --markdown 20230803/g/greatapi/0.0.6-1.0.0/diff.md --exclude *.pyd
+[2023-08-03 03:45:50] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-08-03 03:45:50] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.932.tar.gz tmp/nbdev-apl-0.0.933.tar.gz --markdown 20230803/n/nbdev-apl/0.0.932-0.0.933/diff.md --exclude *.pyd
+[2023-08-03 03:45:50] INFO root fetch - processPackages [SQLAlchemyExample]: executing diffoscope
+[2023-08-03 03:45:50] INFO root fetch - processPackages [SQLAlchemyExample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemyExample-0.0.2.tar.gz tmp/SQLAlchemyExample-0.1.0.tar.gz --markdown 20230803/S/SQLAlchemyExample/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-08-03 03:45:50] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-08-03 03:45:50] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230803/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 03:45:50] INFO root fetch - processPackages [text2hologram]: executing diffoscope
+[2023-08-03 03:45:50] INFO root fetch - processPackages [text2hologram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2hologram-0.0.4.tar.gz tmp/text2hologram-0.1.0.tar.gz --markdown 20230803/t/text2hologram/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-08-03 03:45:50] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-08-03 03:45:50] INFO root fetch - processPackages [factool]: executing diffoscope
+[2023-08-03 03:45:50] INFO root fetch - processPackages [factool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factool-0.1.0.tar.gz tmp/factool-0.1.2.tar.gz --markdown 20230803/f/factool/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-08-03 03:45:50] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-08-03 03:45:50] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.8.0b3.tar.gz tmp/homeassistant_stubs-2023.8.0b4.tar.gz --markdown 20230803/h/homeassistant-stubs/2023.8.0b3-2023.8.0b4/diff.md --exclude *.pyd
+[2023-08-03 03:45:50] INFO root fetch - processPackages [airscript]: Downloading https://files.pythonhosted.org/packages/35/fe/382dde68466d4501b66292ebc7c0a4c73440059cba8321f451b3a11a973b/airscript-0.0.7.tar.gz
+[2023-08-03 03:45:51] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-08-03 03:45:51] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230803/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-08-03 03:45:51] INFO root fetch - processPackages [airscript]: Downloading https://files.pythonhosted.org/packages/c8/0a/985d7436479e609f3d0b00168f15ec88a735ead1292ff3e9cc513046faef/airscript-0.0.8.tar.gz
+[2023-08-03 03:45:51] INFO root fetch - processPackages [airscript]: executing diffoscope
+[2023-08-03 03:45:51] INFO root fetch - processPackages [airscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airscript-0.0.7.tar.gz tmp/airscript-0.0.8.tar.gz --markdown 20230803/a/airscript/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-03 03:45:51] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.8.tar.gz]
+[2023-08-03 03:45:51] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.9.tar.gz]
+[2023-08-03 03:45:51] INFO root fetch - processPackages [peutils]: Start processing: argcat
+[2023-08-03 03:45:51] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2023-08-03 03:45:51] INFO root fetch - processPackages [argcat]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-03 03:45:52] INFO root fetch - processPackages [argcat]: Downloading https://files.pythonhosted.org/packages/9a/91/1c7591ef58b010da40b2b1b7bd1a19743fc8558ae03f9c2c748c9b7646a1/argcat-0.4.1.tar.gz
+[2023-08-03 03:45:52] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.0.2.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.1.0.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - main [MainThread]: End processing [SQLAlchemyExample]: success
+[2023-08-03 03:45:52] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-08-03 03:45:52] INFO root fetch - processPackages [text2hologram]: Remove: archive file [/home/abi/fetcher/tmp/text2hologram-0.0.4.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - processPackages [text2hologram]: Remove: archive file [/home/abi/fetcher/tmp/text2hologram-0.1.0.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - main [MainThread]: End processing [text2hologram]: success
+[2023-08-03 03:45:52] INFO root fetch - processPackages [greatapi]: Remove: archive file [/home/abi/fetcher/tmp/greatapi-0.0.6.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - processPackages [greatapi]: Remove: archive file [/home/abi/fetcher/tmp/greatapi-1.0.0.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - main [MainThread]: End processing [greatapi]: success
+[2023-08-03 03:45:52] INFO root fetch - processPackages [argcat]: Downloading https://files.pythonhosted.org/packages/06/6c/92dcb4ec2705539c81d397c067fc8bf6237fecca9f885f672a14fe3325c9/argcat-0.4.2.tar.gz
+[2023-08-03 03:45:52] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.932.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.933.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-08-03 03:45:52] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-08-03 03:45:52] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-08-03 03:45:52] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-08-03 03:45:52] INFO root fetch - processPackages [factool]: Remove: archive file [/home/abi/fetcher/tmp/factool-0.1.0.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - processPackages [factool]: Remove: archive file [/home/abi/fetcher/tmp/factool-0.1.2.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - main [MainThread]: End processing [factool]: success
+[2023-08-03 03:45:52] INFO root fetch - processPackages [airscript]: Remove: archive file [/home/abi/fetcher/tmp/airscript-0.0.7.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - processPackages [airscript]: Remove: archive file [/home/abi/fetcher/tmp/airscript-0.0.8.tar.gz]
+[2023-08-03 03:45:52] INFO root fetch - main [MainThread]: End processing [airscript]: success
+[2023-08-03 03:45:52] INFO root fetch - processPackages [argcat]: executing diffoscope
+[2023-08-03 03:45:52] INFO root fetch - processPackages [argcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argcat-0.4.1.tar.gz tmp/argcat-0.4.2.tar.gz --markdown 20230803/a/argcat/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-03 03:45:53] INFO root fetch - processPackages [argcat]: Remove: archive file [/home/abi/fetcher/tmp/argcat-0.4.1.tar.gz]
+[2023-08-03 03:45:53] INFO root fetch - processPackages [argcat]: Remove: archive file [/home/abi/fetcher/tmp/argcat-0.4.2.tar.gz]
+[2023-08-03 03:45:53] INFO root fetch - main [MainThread]: End processing [argcat]: success
+[2023-08-03 03:46:07] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.8.0b3.tar.gz]
+[2023-08-03 03:46:07] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.8.0b4.tar.gz]
+[2023-08-03 03:46:07] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-08-03 03:46:07] INFO root fetch - main [MainThread]: Store serial: [19152662]
