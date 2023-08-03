@@ -12663,3 +12663,60 @@
 [2023-08-03 07:44:41] INFO root fetch - processPackages [djaodjin-saas]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-saas-0.9.5.tar.gz]
 [2023-08-03 07:44:41] INFO root fetch - main [MainThread]: End processing [djaodjin-saas]: success
 [2023-08-03 07:44:41] INFO root fetch - main [MainThread]: Store serial: [19154167]
+[2023-08-03 07:49:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154167]
+[2023-08-03 07:49:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-03 07:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lares
+[2023-08-03 07:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xpip-python
+[2023-08-03 07:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cPyparsing
+[2023-08-03 07:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-cloudinit
+[2023-08-03 07:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elytra-ms
+[2023-08-03 07:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-openai-embeddings-connection
+[2023-08-03 07:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sciform
+[2023-08-03 07:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-auth0
+[2023-08-03 07:49:51] WARNING root fetch - processPackages [st-openai-embeddings-connection]: Skipping, unable to determine old version
+[2023-08-03 07:49:51] INFO root fetch - main [MainThread]: End processing [st-openai-embeddings-connection] error
+[2023-08-03 07:49:51] INFO root fetch - processPackages [elytra-ms]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-08-03 07:49:51] INFO root fetch - processPackages [cPyparsing]: New version: [2.4.7.2.2.3] Old Version: [2.4.7.2.2.2]
+[2023-08-03 07:49:51] WARNING root fetch - processPackages [xpip-python]: Skipping, unable to determine old version
+[2023-08-03 07:49:51] INFO root fetch - main [MainThread]: End processing [xpip-python] error
+[2023-08-03 07:49:51] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.4.0a1691040093] Old Version: [1.4.0a1690467520]
+[2023-08-03 07:49:51] WARNING root fetch - processPackages [lares]: Skipping, unable to determine old version
+[2023-08-03 07:49:51] INFO root fetch - main [MainThread]: End processing [lares] error
+[2023-08-03 07:49:51] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-08-03 07:49:51] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-08-03 07:49:51] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/7e/9e/ac6f6d490cc0d5bcb67530f3375fa9fd6b90f875bdd3b6fbc71bda61838d/cPyparsing-2.4.7.2.2.2.tar.gz
+[2023-08-03 07:49:51] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/3f/41/057c502109f91d69ab5b149705e758931ce6f8b06acb9c5762d607a89360/elytra_ms-0.0.3.tar.gz
+[2023-08-03 07:49:51] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-08-03 07:49:51] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/16/3b/5ed2bd60a48155d01f0f51eab2f51b14d9ecce4930ccbea53f98da362db7/pulumi_cloudinit-1.4.0a1690467520.tar.gz
+[2023-08-03 07:49:51] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/3e/35/7d6e4499bceba97755c0134f6a13d88ed94dadff204afd15746602f4d885/pulumi_auth0-2.9.0a1651588791.tar.gz
+[2023-08-03 07:49:51] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/0c/21/7bf5a23af493ede6a555bc8d0891d335aa2ff39697bb133a59947235afad/elytra_ms-0.1.0.tar.gz
+[2023-08-03 07:49:51] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/a6/b5/0aa384eab20112fff1a3e2e9df0277e766aa9acb1186070caa02bb00f7ac/pulumi_cloudinit-1.4.0a1691040093.tar.gz
+[2023-08-03 07:49:52] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-08-03 07:49:52] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/9c/6a/4134baf6f516d7c65dddd9bfbe745f3563b25887dfb61185b5fbaa51e18c/cPyparsing-2.4.7.2.2.3.tar.gz
+[2023-08-03 07:49:52] INFO root fetch - processPackages [elytra-ms]: executing diffoscope
+[2023-08-03 07:49:52] INFO root fetch - processPackages [elytra-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elytra_ms-0.0.3.tar.gz tmp/elytra_ms-0.1.0.tar.gz --markdown 20230803/e/elytra-ms/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-08-03 07:49:52] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2023-08-03 07:49:52] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.4.0a1690467520.tar.gz tmp/pulumi_cloudinit-1.4.0a1691040093.tar.gz --markdown 20230803/p/pulumi-cloudinit/1.4.0a1690467520-1.4.0a1691040093/diff.md --exclude *.pyd
+[2023-08-03 07:49:52] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/19/fc/57f01dd941ba0ec2ad79d6e6f06dc951a65e89280d974bb8be71b3a6bc6a/pulumi_auth0-2.9.0a1653604814.tar.gz
+[2023-08-03 07:49:52] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-08-03 07:49:52] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230803/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-08-03 07:49:52] INFO root fetch - processPackages [cPyparsing]: executing diffoscope
+[2023-08-03 07:49:52] INFO root fetch - processPackages [cPyparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cPyparsing-2.4.7.2.2.2.tar.gz tmp/cPyparsing-2.4.7.2.2.3.tar.gz --markdown 20230803/c/cPyparsing/2.4.7.2.2.2-2.4.7.2.2.3/diff.md --exclude *.pyd
+[2023-08-03 07:49:52] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-08-03 07:49:52] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230803/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-08-03 07:49:52] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.0.3.tar.gz]
+[2023-08-03 07:49:52] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.1.0.tar.gz]
+[2023-08-03 07:49:52] INFO root fetch - main [MainThread]: End processing [elytra-ms]: success
+[2023-08-03 07:49:53] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-08-03 07:49:53] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-08-03 07:49:53] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-08-03 07:49:53] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1690467520.tar.gz]
+[2023-08-03 07:49:53] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1691040093.tar.gz]
+[2023-08-03 07:49:53] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2023-08-03 07:49:54] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1651588791.tar.gz]
+[2023-08-03 07:49:54] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1653604814.tar.gz]
+[2023-08-03 07:49:54] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-08-03 07:49:55] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.2.2.tar.gz]
+[2023-08-03 07:49:55] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.2.3.tar.gz]
+[2023-08-03 07:49:55] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
+[2023-08-03 07:49:55] INFO root fetch - main [MainThread]: Store serial: [19154197]
