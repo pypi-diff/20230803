@@ -16283,3 +16283,242 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-03 10:20:48] INFO root fetch - processPackages [dkist-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/dkist-sphinx-theme-1.1.2.tar.gz]
 [2023-08-03 10:20:48] INFO root fetch - main [MainThread]: End processing [dkist-sphinx-theme]: success
 [2023-08-03 10:20:48] INFO root fetch - main [MainThread]: Store serial: [19155878]
+[2023-08-03 10:25:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19155878]
+[2023-08-03 10:25:57] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-03 10:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frequenz-sdk
+[2023-08-03 10:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aaz-dev
+[2023-08-03 10:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shapelets-native
+[2023-08-03 10:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cciutils
+[2023-08-03 10:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: avro.py-cli
+[2023-08-03 10:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2023-08-03 10:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: guadania
+[2023-08-03 10:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dingdong-sonos
+[2023-08-03 10:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dipex
+[2023-08-03 10:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: risingwave
+[2023-08-03 10:25:57] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-08-03 10:25:57] INFO root fetch - processPackages [shapelets-native]: New version: [2.0.97] Old Version: [2.0.96]
+[2023-08-03 10:25:57] INFO root fetch - processPackages [aaz-dev]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-08-03 10:25:57] INFO root fetch - processPackages [guadania]: New version: [1.7] Old Version: [1.6]
+[2023-08-03 10:25:57] INFO root fetch - processPackages [avro.py-cli]: New version: [2023.8.3] Old Version: [2023.1.20]
+[2023-08-03 10:25:57] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 10:25:57] INFO root fetch - processPackages [risingwave]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 10:25:57] INFO root fetch - processPackages [dingdong-sonos]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-03 10:25:57] INFO root fetch - processPackages [frequenz-sdk]: New version: [0.23.0] Old Version: [0.22.1]
+[2023-08-03 10:25:57] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-08-03 10:25:57] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-08-03 10:25:57] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/a2/d0/8de20c57aec5054fda0bedf31ad57832e83b3a273b367aa1ebb4c06f5dc4/aaz-dev-1.5.2.tar.gz
+[2023-08-03 10:25:57] INFO root fetch - processPackages [risingwave]: Downloading https://files.pythonhosted.org/packages/7c/cc/4c833bb5f3bc884191a2858a7a3e4cf466d4ddea85998421a1175d7434d5/risingwave-0.0.8.tar.gz
+[2023-08-03 10:25:57] INFO root fetch - processPackages [avro.py-cli]: Downloading https://files.pythonhosted.org/packages/6e/fb/0b9d094c07546fb1c1d75c399887c592f3ef1a8a90137906cec6292ff754/avro.py-cli-2023.1.20.tar.gz
+[2023-08-03 10:25:57] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-08-03 10:25:57] INFO root fetch - processPackages [guadania]: Downloading https://files.pythonhosted.org/packages/e9/43/35b516ad73922645f46d1af5f8322cc75e58e90bfc1255428aa13277fee8/guadania-1.6-py3-none-any.whl
+[2023-08-03 10:25:57] INFO root fetch - processPackages [dingdong-sonos]: Downloading https://files.pythonhosted.org/packages/fc/a1/dcffa754db731cb16a21c0785daf5861f94e6e152d3d48d09f8d7dd92462/dingdong_sonos-0.1.2.tar.gz
+[2023-08-03 10:25:57] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-08-03 10:25:57] INFO root fetch - processPackages [frequenz-sdk]: Downloading https://files.pythonhosted.org/packages/5a/ea/14b5630c393774f591effadc38a408f9b86703a894d851751b3964cbf601/frequenz-sdk-0.22.1.tar.gz
+[2023-08-03 10:25:58] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/33/6d/e45129af594b20cd86d87f578fed727c0b460ddd280c93c2d230d6d6e920/shapelets_native-2.0.97-cp39-cp39-win_amd64.whl
+[2023-08-03 10:25:58] INFO root fetch - processPackages [avro.py-cli]: Downloading https://files.pythonhosted.org/packages/55/83/ad32381246767779b5c323ec9ca09d14aeb2558c1f8259ba39aecfc7f94c/avro.py-cli-2023.8.3.tar.gz
+[2023-08-03 10:25:58] INFO root fetch - processPackages [risingwave]: Downloading https://files.pythonhosted.org/packages/2c/16/a783246019f6767d36ee3d5810876f969e1c2313b15e229cf1a69627c7a5/risingwave-0.0.9.tar.gz
+[2023-08-03 10:25:58] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/38/a8/fac8cdba0c57d9dfa5f8e8f6e5c106aea6aa18703cc9b823fd6dbbbb9093/aaz-dev-1.6.0.tar.gz
+[2023-08-03 10:25:58] INFO root fetch - processPackages [frequenz-sdk]: Downloading https://files.pythonhosted.org/packages/d1/38/217eeef19035fa31b50c9e7ad43d7ec138df2fb1a81480b395e17223ef1f/frequenz-sdk-0.23.0.tar.gz
+[2023-08-03 10:25:58] INFO root fetch - processPackages [shapelets-native]: executing diffoscope
+[2023-08-03 10:25:58] INFO root fetch - processPackages [shapelets-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets_native-2.0.96-cp39-cp39-win_amd64.whl.zip tmp/shapelets_native-2.0.97-cp39-cp39-win_amd64.whl.zip --markdown 20230803/s/shapelets-native/2.0.96-2.0.97/diff.md --exclude *.pyd
+[2023-08-03 10:25:58] INFO root fetch - processPackages [guadania]: Downloading https://files.pythonhosted.org/packages/e6/71/aaf8ad98412e68a49ab64faec4069e1b7f08208bfe8f0e89b9b028020af3/guadania-1.7-py3-none-any.whl
+[2023-08-03 10:25:58] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-08-03 10:25:58] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-08-03 10:25:58] INFO root fetch - processPackages [dingdong-sonos]: Downloading https://files.pythonhosted.org/packages/6e/5c/0c200b90a22f33e828529cddde53b7932374a599753d3941f94fa9bff2bc/dingdong_sonos-0.1.3.tar.gz
+[2023-08-03 10:25:58] INFO root fetch - processPackages [avro.py-cli]: executing diffoscope
+[2023-08-03 10:25:58] INFO root fetch - processPackages [avro.py-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avro.py-cli-2023.1.20.tar.gz tmp/avro.py-cli-2023.8.3.tar.gz --markdown 20230803/a/avro.py-cli/2023.1.20-2023.8.3/diff.md --exclude *.pyd
+[2023-08-03 10:25:58] INFO root fetch - processPackages [risingwave]: executing diffoscope
+[2023-08-03 10:25:58] INFO root fetch - processPackages [risingwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/risingwave-0.0.8.tar.gz tmp/risingwave-0.0.9.tar.gz --markdown 20230803/r/risingwave/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 10:25:58] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-08-03 10:25:58] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230803/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 10:25:58] INFO root fetch - processPackages [frequenz-sdk]: executing diffoscope
+[2023-08-03 10:25:58] INFO root fetch - processPackages [frequenz-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-sdk-0.22.1.tar.gz tmp/frequenz-sdk-0.23.0.tar.gz --markdown 20230803/f/frequenz-sdk/0.22.1-0.23.0/diff.md --exclude *.pyd
+[2023-08-03 10:25:58] INFO root fetch - processPackages [guadania]: executing diffoscope
+[2023-08-03 10:25:58] INFO root fetch - processPackages [guadania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guadania-1.6-py3-none-any.whl.zip tmp/guadania-1.7-py3-none-any.whl.zip --markdown 20230803/g/guadania/1.6-1.7/diff.md --exclude *.pyd
+[2023-08-03 10:25:58] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-08-03 10:25:58] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230803/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-08-03 10:25:58] INFO root fetch - processPackages [aaz-dev]: executing diffoscope
+[2023-08-03 10:25:58] INFO root fetch - processPackages [aaz-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aaz-dev-1.5.2.tar.gz tmp/aaz-dev-1.6.0.tar.gz --markdown 20230803/a/aaz-dev/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-08-03 10:25:58] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-08-03 10:25:59] INFO root fetch - processPackages [dingdong-sonos]: executing diffoscope
+[2023-08-03 10:25:59] INFO root fetch - processPackages [dingdong-sonos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingdong_sonos-0.1.2.tar.gz tmp/dingdong_sonos-0.1.3.tar.gz --markdown 20230803/d/dingdong-sonos/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-03 10:25:59] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-08-03 10:25:59] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230803/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-08-03 10:25:59] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.96-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 10:25:59] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.97-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 10:25:59] INFO root fetch - processPackages [shapelets-native]: Start processing: je-auto-control-dev
+[2023-08-03 10:25:59] INFO root fetch - main [MainThread]: End processing [shapelets-native]: success
+[2023-08-03 10:25:59] ERROR root fetch - processPackages [guadania]: Diffoscope failed: time="2023-08-03T10:25:58+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid start byte
+
+[2023-08-03 10:25:59] INFO root fetch - processPackages [guadania]: Start processing: getgauge-cli
+[2023-08-03 10:25:59] INFO root fetch - main [MainThread]: End processing [guadania] error
+[2023-08-03 10:25:59] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [avro.py-cli]: Remove: archive file [/home/abi/fetcher/tmp/avro.py-cli-2023.1.20.tar.gz]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [avro.py-cli]: Remove: archive file [/home/abi/fetcher/tmp/avro.py-cli-2023.8.3.tar.gz]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [avro.py-cli]: Start processing: pip-setting
+[2023-08-03 10:26:00] INFO root fetch - main [MainThread]: End processing [avro.py-cli]: success
+[2023-08-03 10:26:00] INFO root fetch - processPackages [getgauge-cli]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/b8/16/7dd11e353ca0c8123d965687ecda9eddf0e6719fd29c062f95c4a2634637/je_auto_control_dev-0.0.93.tar.gz
+[2023-08-03 10:26:00] INFO root fetch - processPackages [risingwave]: Remove: archive file [/home/abi/fetcher/tmp/risingwave-0.0.8.tar.gz]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [risingwave]: Remove: archive file [/home/abi/fetcher/tmp/risingwave-0.0.9.tar.gz]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [risingwave]: Start processing: aica-api
+[2023-08-03 10:26:00] INFO root fetch - main [MainThread]: End processing [risingwave]: success
+[2023-08-03 10:26:00] INFO root fetch - processPackages [pip-setting]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [aica-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [getgauge-cli]: Downloading https://files.pythonhosted.org/packages/08/4b/d1a80c7e4a3ed5dbbe12c13f567dbbf4f680d055ee18dd7bcbc7a8716199/getgauge-cli-1.5.3.tar.gz
+[2023-08-03 10:26:00] INFO root fetch - processPackages [dingdong-sonos]: Remove: archive file [/home/abi/fetcher/tmp/dingdong_sonos-0.1.2.tar.gz]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [pip-setting]: Downloading https://files.pythonhosted.org/packages/f6/f2/f727619d7bb1cb3b89f77d88a216cb8792d11e4017ecdf53a3ed43877ace/pip-setting-1.0.0.tar.gz
+[2023-08-03 10:26:00] INFO root fetch - processPackages [dingdong-sonos]: Remove: archive file [/home/abi/fetcher/tmp/dingdong_sonos-0.1.3.tar.gz]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [dingdong-sonos]: Start processing: uvdiviner
+[2023-08-03 10:26:00] INFO root fetch - main [MainThread]: End processing [dingdong-sonos]: success
+[2023-08-03 10:26:00] INFO root fetch - processPackages [aica-api]: Downloading https://files.pythonhosted.org/packages/01/5e/f20474bb93990db870150e047fddcaf21b0924b2692b2639ce579890a956/aica_api-0.0.4.tar.gz
+[2023-08-03 10:26:00] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/47/24/1890d66364ef35722b3c770baa11fedcf6ed374f25edf2d577192a40877c/je_auto_control_dev-0.0.94.tar.gz
+[2023-08-03 10:26:00] WARNING root fetch - processPackages [uvdiviner]: Skipping, unable to determine old version
+[2023-08-03 10:26:00] INFO root fetch - processPackages [uvdiviner]: Start processing: je-auto-control
+[2023-08-03 10:26:00] INFO root fetch - main [MainThread]: End processing [uvdiviner] error
+[2023-08-03 10:26:00] INFO root fetch - processPackages [getgauge-cli]: Downloading https://files.pythonhosted.org/packages/ac/d8/e523b8bc4c5926a601578213ccf8cca482b015e3d904ad93ea32d6f40530/getgauge-cli-1.5.4.tar.gz
+[2023-08-03 10:26:00] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-08-03 10:26:00] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.93.tar.gz tmp/je_auto_control_dev-0.0.94.tar.gz --markdown 20230803/j/je-auto-control-dev/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-08-03 10:26:00] INFO root fetch - processPackages [je-auto-control]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [aica-api]: Downloading https://files.pythonhosted.org/packages/7e/80/1ba5e8795ee56c23fd64ce8e86543192676a7fea4db28c66a79fba9b0c0e/aica_api-0.0.5.tar.gz
+[2023-08-03 10:26:00] INFO root fetch - processPackages [getgauge-cli]: executing diffoscope
+[2023-08-03 10:26:00] INFO root fetch - processPackages [getgauge-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getgauge-cli-1.5.3.tar.gz tmp/getgauge-cli-1.5.4.tar.gz --markdown 20230803/g/getgauge-cli/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-08-03 10:26:00] INFO root fetch - processPackages [frequenz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-sdk-0.22.1.tar.gz]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [frequenz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-sdk-0.23.0.tar.gz]
+[2023-08-03 10:26:00] INFO root fetch - processPackages [frequenz-sdk]: Start processing: chaostoolkit-reliably
+[2023-08-03 10:26:00] INFO root fetch - main [MainThread]: End processing [frequenz-sdk]: success
+[2023-08-03 10:26:00] INFO root fetch - processPackages [pip-setting]: Downloading https://files.pythonhosted.org/packages/06/a0/d79e851523e12ba80afa741b84432f5ca25229441a0c86251824a4abec69/pip-setting-1.0.1.tar.gz
+[2023-08-03 10:26:00] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 10:26:01] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/32/df/58422a4f470f2c9c9d486c7b83bf6c238d72841a2ae64f0b7c88350a6b01/chaostoolkit-reliably-0.9.3.tar.gz
+[2023-08-03 10:26:01] INFO root fetch - processPackages [aica-api]: executing diffoscope
+[2023-08-03 10:26:01] INFO root fetch - processPackages [aica-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aica_api-0.0.4.tar.gz tmp/aica_api-0.0.5.tar.gz --markdown 20230803/a/aica-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-03 10:26:01] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/41/be/9f6a13f0f70160a1e153ade3473128ae8c47be033e7fcd1c5b6673be4441/je_auto_control-0.0.97.tar.gz
+[2023-08-03 10:26:01] INFO root fetch - processPackages [pip-setting]: executing diffoscope
+[2023-08-03 10:26:01] INFO root fetch - processPackages [pip-setting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-setting-1.0.0.tar.gz tmp/pip-setting-1.0.1.tar.gz --markdown 20230803/p/pip-setting/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-03 10:26:01] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-08-03 10:26:01] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-08-03 10:26:01] INFO root fetch - processPackages [dipex]: Start processing: music-assistant
+[2023-08-03 10:26:01] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-08-03 10:26:01] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-08-03 10:26:01] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-08-03 10:26:01] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.5.2.tar.gz]
+[2023-08-03 10:26:01] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.6.0.tar.gz]
+[2023-08-03 10:26:01] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
+[2023-08-03 10:26:01] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/b8/c5/810c74691ec477bb4963d5199f379e4a81d6cce5b71db42bc848f3477e16/chaostoolkit-reliably-0.9.4.tar.gz
+[2023-08-03 10:26:01] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-08-03 10:26:01] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-08-03 10:26:01] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/78/55/4dc015599bcd379abbfd417a41e41cde28b8d30c1067f1ac0bcb165c780d/je_auto_control-0.0.99.tar.gz
+[2023-08-03 10:26:01] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-08-03 10:26:01] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230803/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 10:26:01] INFO root fetch - processPackages [je-auto-control]: executing diffoscope
+[2023-08-03 10:26:01] INFO root fetch - processPackages [je-auto-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control-0.0.97.tar.gz tmp/je_auto_control-0.0.99.tar.gz --markdown 20230803/j/je-auto-control/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 10:26:01] INFO root fetch - processPackages [getgauge-cli]: Remove: archive file [/home/abi/fetcher/tmp/getgauge-cli-1.5.3.tar.gz]
+[2023-08-03 10:26:01] INFO root fetch - processPackages [getgauge-cli]: Remove: archive file [/home/abi/fetcher/tmp/getgauge-cli-1.5.4.tar.gz]
+[2023-08-03 10:26:01] INFO root fetch - main [MainThread]: End processing [getgauge-cli]: success
+[2023-08-03 10:26:02] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.93.tar.gz]
+[2023-08-03 10:26:02] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.94.tar.gz]
+[2023-08-03 10:26:02] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-08-03 10:26:02] INFO root fetch - processPackages [pip-setting]: Remove: archive file [/home/abi/fetcher/tmp/pip-setting-1.0.0.tar.gz]
+[2023-08-03 10:26:02] INFO root fetch - processPackages [pip-setting]: Remove: archive file [/home/abi/fetcher/tmp/pip-setting-1.0.1.tar.gz]
+[2023-08-03 10:26:02] INFO root fetch - main [MainThread]: End processing [pip-setting]: success
+[2023-08-03 10:26:02] INFO root fetch - processPackages [aica-api]: Remove: archive file [/home/abi/fetcher/tmp/aica_api-0.0.4.tar.gz]
+[2023-08-03 10:26:02] INFO root fetch - processPackages [aica-api]: Remove: archive file [/home/abi/fetcher/tmp/aica_api-0.0.5.tar.gz]
+[2023-08-03 10:26:02] INFO root fetch - main [MainThread]: End processing [aica-api]: success
+[2023-08-03 10:26:02] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.3.tar.gz]
+[2023-08-03 10:26:02] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.4.tar.gz]
+[2023-08-03 10:26:02] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-08-03 10:26:02] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.97.tar.gz]
+[2023-08-03 10:26:02] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.99.tar.gz]
+[2023-08-03 10:26:02] INFO root fetch - main [MainThread]: End processing [je-auto-control]: success
+[2023-08-03 10:26:03] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-08-03 10:26:03] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-08-03 10:26:03] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-08-03 10:26:04] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-08-03 10:26:04] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-08-03 10:26:04] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-08-03 10:26:04] INFO root fetch - main [MainThread]: Store serial: [19155932]
