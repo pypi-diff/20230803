@@ -9689,3 +9689,60 @@
 [2023-08-03 04:17:50] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.9.tar.gz]
 [2023-08-03 04:17:50] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
 [2023-08-03 04:17:50] INFO root fetch - main [MainThread]: Store serial: [19152829]
+[2023-08-03 04:22:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152829]
+[2023-08-03 04:22:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-03 04:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-template
+[2023-08-03 04:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inspursmsdk
+[2023-08-03 04:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CrazyDG
+[2023-08-03 04:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: corporate-reputation
+[2023-08-03 04:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flaskz
+[2023-08-03 04:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: honeybee-radiance-postprocess
+[2023-08-03 04:22:59] INFO root fetch - processPackages [flaskz]: New version: [1.6.3rc1] Old Version: [1.6.2]
+[2023-08-03 04:22:59] INFO root fetch - processPackages [azure-template]: New version: [0.1.0b971103] Old Version: [0.1.0b954542]
+[2023-08-03 04:22:59] INFO root fetch - processPackages [corporate-reputation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-03 04:22:59] INFO root fetch - processPackages [CrazyDG]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 04:22:59] INFO root fetch - processPackages [inspursmsdk]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-03 04:22:59] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-08-03 04:22:59] INFO root fetch - processPackages [azure-template]: Downloading https://files.pythonhosted.org/packages/82/04/b1cf5ee1227ca7899decd531cd1521ea523ed4cbdc8ce0e3d7e58ca8331c/azure-template-0.1.0b954542.zip
+[2023-08-03 04:22:59] INFO root fetch - processPackages [CrazyDG]: Downloading https://files.pythonhosted.org/packages/2b/6a/d2fb03e01b5795e2c0ccc5e436ce7189db5fe96584f5fbd5d580a1744251/CrazyDG-0.0.3.tar.gz
+[2023-08-03 04:22:59] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-08-03 04:22:59] INFO root fetch - processPackages [flaskz]: Downloading https://files.pythonhosted.org/packages/d5/11/96c908c943034fe2f48436cb551915ca43a9d3a1bf88e17fc0b4eb079422/flaskz-1.6.2.tar.gz
+[2023-08-03 04:22:59] INFO root fetch - processPackages [inspursmsdk]: Downloading https://files.pythonhosted.org/packages/09/52/b35f1a38eaf0a7f7b2014b2c9afe5026e7ad90bdfac568a14ad28c7eb1d5/inspursmsdk-2.1.1.tar.gz
+[2023-08-03 04:22:59] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/7a/a0/9a2009f226fe67dbd11d0681c39128e4c4d96e57b52c6b0505adcf4e491b/corporate_reputation-0.9.2.tar.gz
+[2023-08-03 04:22:59] INFO root fetch - processPackages [azure-template]: Downloading https://files.pythonhosted.org/packages/a3/ab/51e8db029e6b46655758882e5ee630afbf245243726a418c4125d2ae7e4e/azure-template-0.1.0b971103.zip
+[2023-08-03 04:22:59] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-08-03 04:22:59] INFO root fetch - processPackages [CrazyDG]: Downloading https://files.pythonhosted.org/packages/6c/1f/4f4df1cb5b24ac88657713a9e10496bd41a47cbc419a5afafe91408aebaf/CrazyDG-0.0.4.tar.gz
+[2023-08-03 04:22:59] INFO root fetch - processPackages [azure-template]: executing diffoscope
+[2023-08-03 04:22:59] INFO root fetch - processPackages [azure-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-template-0.1.0b954542.zip tmp/azure-template-0.1.0b971103.zip --markdown 20230803/a/azure-template/0.1.0b954542-0.1.0b971103/diff.md --exclude *.pyd
+[2023-08-03 04:22:59] INFO root fetch - processPackages [CrazyDG]: executing diffoscope
+[2023-08-03 04:22:59] INFO root fetch - processPackages [CrazyDG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrazyDG-0.0.3.tar.gz tmp/CrazyDG-0.0.4.tar.gz --markdown 20230803/C/CrazyDG/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 04:22:59] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-08-03 04:22:59] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230803/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-08-03 04:22:59] INFO root fetch - processPackages [flaskz]: Downloading https://files.pythonhosted.org/packages/48/22/84e9ee06c544b1448e37437ef877c8e91fe4f88734f3ae1dbf995f5edb50/flaskz-1.6.3rc1.tar.gz
+[2023-08-03 04:22:59] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/dc/f5/06774261a9adf3155d1cbfe17773d7d620daeed823c66e41c872ab7cbfd5/corporate_reputation-0.9.3.tar.gz
+[2023-08-03 04:22:59] INFO root fetch - processPackages [corporate-reputation]: executing diffoscope
+[2023-08-03 04:22:59] INFO root fetch - processPackages [corporate-reputation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corporate_reputation-0.9.2.tar.gz tmp/corporate_reputation-0.9.3.tar.gz --markdown 20230803/c/corporate-reputation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-03 04:22:59] INFO root fetch - processPackages [flaskz]: executing diffoscope
+[2023-08-03 04:22:59] INFO root fetch - processPackages [flaskz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaskz-1.6.2.tar.gz tmp/flaskz-1.6.3rc1.tar.gz --markdown 20230803/f/flaskz/1.6.2-1.6.3rc1/diff.md --exclude *.pyd
+[2023-08-03 04:23:00] INFO root fetch - processPackages [inspursmsdk]: Downloading https://files.pythonhosted.org/packages/73/2b/0ae2d4e7c92392f3e2a6d2ed9485aa12cb59d4f26380c1c4192842be4368/inspursmsdk-2.1.2.tar.gz
+[2023-08-03 04:23:00] INFO root fetch - processPackages [inspursmsdk]: executing diffoscope
+[2023-08-03 04:23:00] INFO root fetch - processPackages [inspursmsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspursmsdk-2.1.1.tar.gz tmp/inspursmsdk-2.1.2.tar.gz --markdown 20230803/i/inspursmsdk/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-03 04:23:00] INFO root fetch - processPackages [azure-template]: Remove: archive file [/home/abi/fetcher/tmp/azure-template-0.1.0b954542.zip]
+[2023-08-03 04:23:00] INFO root fetch - processPackages [azure-template]: Remove: archive file [/home/abi/fetcher/tmp/azure-template-0.1.0b971103.zip]
+[2023-08-03 04:23:00] INFO root fetch - main [MainThread]: End processing [azure-template]: success
+[2023-08-03 04:23:00] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2023-08-03 04:23:00] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2023-08-03 04:23:00] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-08-03 04:23:00] INFO root fetch - processPackages [CrazyDG]: Remove: archive file [/home/abi/fetcher/tmp/CrazyDG-0.0.3.tar.gz]
+[2023-08-03 04:23:00] INFO root fetch - processPackages [CrazyDG]: Remove: archive file [/home/abi/fetcher/tmp/CrazyDG-0.0.4.tar.gz]
+[2023-08-03 04:23:00] INFO root fetch - main [MainThread]: End processing [CrazyDG]: success
+[2023-08-03 04:23:00] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.2.tar.gz]
+[2023-08-03 04:23:00] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.3.tar.gz]
+[2023-08-03 04:23:00] INFO root fetch - main [MainThread]: End processing [corporate-reputation]: success
+[2023-08-03 04:23:01] INFO root fetch - processPackages [flaskz]: Remove: archive file [/home/abi/fetcher/tmp/flaskz-1.6.2.tar.gz]
+[2023-08-03 04:23:01] INFO root fetch - processPackages [flaskz]: Remove: archive file [/home/abi/fetcher/tmp/flaskz-1.6.3rc1.tar.gz]
+[2023-08-03 04:23:01] INFO root fetch - main [MainThread]: End processing [flaskz]: success
+[2023-08-03 04:23:02] INFO root fetch - processPackages [inspursmsdk]: Remove: archive file [/home/abi/fetcher/tmp/inspursmsdk-2.1.1.tar.gz]
+[2023-08-03 04:23:02] INFO root fetch - processPackages [inspursmsdk]: Remove: archive file [/home/abi/fetcher/tmp/inspursmsdk-2.1.2.tar.gz]
+[2023-08-03 04:23:02] INFO root fetch - main [MainThread]: End processing [inspursmsdk]: success
+[2023-08-03 04:23:02] INFO root fetch - main [MainThread]: Store serial: [19152848]
