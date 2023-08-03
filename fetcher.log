@@ -12967,3 +12967,141 @@
 [2023-08-03 08:06:13] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
 [2023-08-03 08:06:13] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2023-08-03 08:06:13] INFO root fetch - main [MainThread]: Store serial: [19154287]
+[2023-08-03 08:11:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154287]
+[2023-08-03 08:11:22] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-03 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lares
+[2023-08-03 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: junoplatform
+[2023-08-03 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onqlave-python-dev
+[2023-08-03 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-fastly
+[2023-08-03 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openllm
+[2023-08-03 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-openai-embeddings-connection
+[2023-08-03 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lares
+[2023-08-03 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-dnsimple
+[2023-08-03 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dosmaster
+[2023-08-03 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-aiven
+[2023-08-03 08:11:22] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 08:11:22] INFO root fetch - processPackages [onqlave-python-dev]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 08:11:22] INFO root fetch - processPackages [dosmaster]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-08-03 08:11:22] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 08:11:22] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 08:11:22] INFO root fetch - processPackages [st-openai-embeddings-connection]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-03 08:11:22] INFO root fetch - processPackages [openllm]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-03 08:11:22] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.2.0a1691040884] Old Version: [8.2.0a1690262840]
+[2023-08-03 08:11:22] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1691040671] Old Version: [3.5.0a1690968899]
+[2023-08-03 08:11:22] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/cc/70/e5c2c63d63b764b4f268330addfdd3d06adff76eee9190d6e5fd9df93c2f/dosmaster-1.7.2.tar.gz
+[2023-08-03 08:11:22] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.7.0a1691040265] Old Version: [6.7.0a1690906556]
+[2023-08-03 08:11:23] INFO root fetch - processPackages [onqlave-python-dev]: Downloading https://files.pythonhosted.org/packages/69/10/63c44bb81c7875e6734d4d306ea93e61512f9e37c3f1e9b26b49839bebdf/onqlave-python-dev-0.0.1.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/f5/13/bd1c76e89358feaeda45a3e3fcbdf184255d487bf4fe3f12b2ef43e9a8df/pulumi_dnsimple-3.5.0a1690968899.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [st-openai-embeddings-connection]: Downloading https://files.pythonhosted.org/packages/43/c5/43b8b324da6b98ba53c12193d55dc06a36eb29a6c3689b60a00ed18dc375/st-openai-embeddings-connection-0.1.0.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/7a/9d/01adb7088fe093e9fc7e4d13edbbefdf7ab728655fa18819861ad3783b06/pulumi_fastly-8.2.0a1690262840.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/27/2b/ed3ffae21d77ed89079f47e2fe2393ec44984370420855383049649df8d0/openllm-0.2.8.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/c0/8d/6e012d37aee1a12c9749e8b8189899eb088f8593c8feb36ebe7e38e2b77b/pulumi_aiven-6.7.0a1690906556.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/91/39/75e54d9f828e924acf6857b1c5056af7d8c006845d3fb4baaf94bedc8174/dosmaster-1.7.3.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-08-03 08:11:23] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230803/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 08:11:23] INFO root fetch - processPackages [onqlave-python-dev]: Downloading https://files.pythonhosted.org/packages/b7/dd/e95083b862c34f6f83d7a8c6e5342214db1b9acde0a01ae9222242430434/onqlave-python-dev-0.0.2.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [st-openai-embeddings-connection]: Downloading https://files.pythonhosted.org/packages/c3/91/7ab18209ed11f8052a7bffa8d44fd48db553ab8049477f54dd41277aa43b/st-openai-embeddings-connection-0.1.1.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/32/42/a598c0a6c3f3cac0040a368b926ecf2544d5a5e2d02e6ddfb20769dc454b/pulumi_dnsimple-3.5.0a1691040671.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [dosmaster]: executing diffoscope
+[2023-08-03 08:11:23] INFO root fetch - processPackages [dosmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosmaster-1.7.2.tar.gz tmp/dosmaster-1.7.3.tar.gz --markdown 20230803/d/dosmaster/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-08-03 08:11:23] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/29/8c/7b97d59eb8e996d4ea3290f59704e1f5e06ff2513a7dfce93042f0bd63a5/pulumi_aiven-6.7.0a1691040265.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/98/f2/69a32c5942ad1129fcfb76a36387dcc633b9ed99c9dfe82516730dacc46a/openllm-0.2.9.tar.gz
+[2023-08-03 08:11:23] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/69/db/3c32a9e417726d2dd2f7b92801be4713a954950bbed5b0454c05410812f3/pulumi_fastly-8.2.0a1691040884.tar.gz
+[2023-08-03 08:11:24] INFO root fetch - processPackages [st-openai-embeddings-connection]: executing diffoscope
+[2023-08-03 08:11:24] INFO root fetch - processPackages [st-openai-embeddings-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-openai-embeddings-connection-0.1.0.tar.gz tmp/st-openai-embeddings-connection-0.1.1.tar.gz --markdown 20230803/s/st-openai-embeddings-connection/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-03 08:11:24] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2023-08-03 08:11:24] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1690968899.tar.gz tmp/pulumi_dnsimple-3.5.0a1691040671.tar.gz --markdown 20230803/p/pulumi-dnsimple/3.5.0a1690968899-3.5.0a1691040671/diff.md --exclude *.pyd
+[2023-08-03 08:11:24] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-08-03 08:11:24] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.2.8.tar.gz tmp/openllm-0.2.9.tar.gz --markdown 20230803/o/openllm/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 08:11:24] INFO root fetch - processPackages [onqlave-python-dev]: executing diffoscope
+[2023-08-03 08:11:24] INFO root fetch - processPackages [onqlave-python-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-dev-0.0.1.tar.gz tmp/onqlave-python-dev-0.0.2.tar.gz --markdown 20230803/o/onqlave-python-dev/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 08:11:24] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-03 08:11:24] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230803/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 08:11:24] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-03 08:11:24] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230803/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 08:11:24] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-08-03 08:11:24] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.7.0a1690906556.tar.gz tmp/pulumi_aiven-6.7.0a1691040265.tar.gz --markdown 20230803/p/pulumi-aiven/6.7.0a1690906556-6.7.0a1691040265/diff.md --exclude *.pyd
+[2023-08-03 08:11:24] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-08-03 08:11:24] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.2.0a1690262840.tar.gz tmp/pulumi_fastly-8.2.0a1691040884.tar.gz --markdown 20230803/p/pulumi-fastly/8.2.0a1690262840-8.2.0a1691040884/diff.md --exclude *.pyd
+[2023-08-03 08:11:24] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-08-03 08:11:24] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-08-03 08:11:24] INFO root fetch - processPackages [junoplatform]: Start processing: lendsmart-reva
+[2023-08-03 08:11:24] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-08-03 08:11:24] INFO root fetch - processPackages [lendsmart-reva]: New version: [1.7] Old Version: [1.6]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lendsmart-reva]: Downloading https://files.pythonhosted.org/packages/c8/97/d6583c68a37db5911053dab0d566ef78bbc067a2b2963c1bbdceb750ce05/lendsmart_reva-1.6.tar.gz
+[2023-08-03 08:11:25] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.2.tar.gz]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.7.3.tar.gz]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [dosmaster]: Start processing: lares
+[2023-08-03 08:11:25] INFO root fetch - main [MainThread]: End processing [dosmaster]: success
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lendsmart-reva]: Downloading https://files.pythonhosted.org/packages/d3/46/a9c8dc97b6a13a6ba6394ba98f15910b2e7374cfba160649d388222a46ff/lendsmart_reva-1.7.tar.gz
+[2023-08-03 08:11:25] INFO root fetch - processPackages [st-openai-embeddings-connection]: Remove: archive file [/home/abi/fetcher/tmp/st-openai-embeddings-connection-0.1.0.tar.gz]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [st-openai-embeddings-connection]: Remove: archive file [/home/abi/fetcher/tmp/st-openai-embeddings-connection-0.1.1.tar.gz]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [st-openai-embeddings-connection]: Start processing: fastapi-gen
+[2023-08-03 08:11:25] INFO root fetch - main [MainThread]: End processing [st-openai-embeddings-connection]: success
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.8.tar.gz]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.9.tar.gz]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lares]: Start processing: DependiPy
+[2023-08-03 08:11:25] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lendsmart-reva]: executing diffoscope
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lendsmart-reva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_reva-1.6.tar.gz tmp/lendsmart_reva-1.7.tar.gz --markdown 20230803/l/lendsmart-reva/1.6-1.7/diff.md --exclude *.pyd
+[2023-08-03 08:11:25] INFO root fetch - processPackages [DependiPy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1690968899.tar.gz]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1691040671.tar.gz]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [pulumi-dnsimple]: Start processing: mtbase
+[2023-08-03 08:11:25] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230803/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 08:11:25] INFO root fetch - processPackages [fastapi-gen]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [mtbase]: New version: [4.7.202308030601] Old Version: [4.7.202308011009]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.9.tar.gz]
+[2023-08-03 08:11:25] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-03 08:11:25] INFO root fetch - processPackages [onqlave-python-dev]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-dev-0.0.1.tar.gz]
+[2023-08-03 08:11:25] INFO root fetch - processPackages [onqlave-python-dev]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-dev-0.0.2.tar.gz]
+[2023-08-03 08:11:25] INFO root fetch - main [MainThread]: End processing [onqlave-python-dev]: success
+[2023-08-03 08:11:25] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/f4/bd/b36ba39d5584eca7b35a0ee627caa9c2b8179252bf03217599d72c471ac9/mtbase-4.7.202308011009-py3-none-any.whl
+[2023-08-03 08:11:25] INFO root fetch - processPackages [DependiPy]: Downloading https://files.pythonhosted.org/packages/4a/ca/7d3dc6fb5248778c079172b1a42a0708f73e1eb5e35655e8f1dbd1a46d39/DependiPy-1.0.8.tar.gz
+[2023-08-03 08:11:25] INFO root fetch - processPackages [fastapi-gen]: Downloading https://files.pythonhosted.org/packages/27/8e/0cd3aeec8defdb7545f38a1fad469a8b163d447dff6108c87a7d758e3f2a/fastapi_gen-0.2.0.tar.gz
+[2023-08-03 08:11:26] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1690262840.tar.gz]
+[2023-08-03 08:11:26] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1691040884.tar.gz]
+[2023-08-03 08:11:26] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-08-03 08:11:26] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/75/c4/44578058c9934231caf80de47e044b94b8f189d9f48986bc41ed8e273ec7/mtbase-4.7.202308030601-py3-none-any.whl
+[2023-08-03 08:11:26] INFO root fetch - processPackages [mtbase]: executing diffoscope
+[2023-08-03 08:11:26] INFO root fetch - processPackages [mtbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtbase-4.7.202308011009-py3-none-any.whl.zip tmp/mtbase-4.7.202308030601-py3-none-any.whl.zip --markdown 20230803/m/mtbase/4.7.202308011009-4.7.202308030601/diff.md --exclude *.pyd
+[2023-08-03 08:11:26] INFO root fetch - processPackages [DependiPy]: Downloading https://files.pythonhosted.org/packages/b8/ed/1cb97038d749d7286983e7dd66a7c3acb3a9160aba7014fc58a2841902f2/DependiPy-1.0.9.tar.gz
+[2023-08-03 08:11:26] INFO root fetch - processPackages [fastapi-gen]: Downloading https://files.pythonhosted.org/packages/b8/bc/4e418d50d85aa2612de46f3bc843431764962ad71c31c2b5089343e8c0ba/fastapi_gen-0.3.0.tar.gz
+[2023-08-03 08:11:26] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.8.tar.gz]
+[2023-08-03 08:11:26] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.9.tar.gz]
+[2023-08-03 08:11:26] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-08-03 08:11:26] ERROR root fetch - processPackages [lares]: Diffoscope failed: time="2023-08-03T08:11:25+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/lares-0.0.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/lares-0.0.9.tar.gz: No such file or directory
+
+[2023-08-03 08:11:26] INFO root fetch - main [MainThread]: End processing [lares] error
+[2023-08-03 08:11:26] INFO root fetch - processPackages [DependiPy]: executing diffoscope
+[2023-08-03 08:11:26] INFO root fetch - processPackages [DependiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DependiPy-1.0.8.tar.gz tmp/DependiPy-1.0.9.tar.gz --markdown 20230803/D/DependiPy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 08:11:26] INFO root fetch - processPackages [fastapi-gen]: executing diffoscope
+[2023-08-03 08:11:26] INFO root fetch - processPackages [fastapi-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_gen-0.2.0.tar.gz tmp/fastapi_gen-0.3.0.tar.gz --markdown 20230803/f/fastapi-gen/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-03 08:11:26] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.7.0a1690906556.tar.gz]
+[2023-08-03 08:11:26] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.7.0a1691040265.tar.gz]
+[2023-08-03 08:11:26] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-08-03 08:11:26] INFO root fetch - processPackages [lendsmart-reva]: Remove: archive file [/home/abi/fetcher/tmp/lendsmart_reva-1.6.tar.gz]
+[2023-08-03 08:11:26] INFO root fetch - processPackages [lendsmart-reva]: Remove: archive file [/home/abi/fetcher/tmp/lendsmart_reva-1.7.tar.gz]
+[2023-08-03 08:11:26] INFO root fetch - main [MainThread]: End processing [lendsmart-reva]: success
+[2023-08-03 08:11:27] INFO root fetch - processPackages [DependiPy]: Remove: archive file [/home/abi/fetcher/tmp/DependiPy-1.0.8.tar.gz]
+[2023-08-03 08:11:27] INFO root fetch - processPackages [DependiPy]: Remove: archive file [/home/abi/fetcher/tmp/DependiPy-1.0.9.tar.gz]
+[2023-08-03 08:11:27] INFO root fetch - main [MainThread]: End processing [DependiPy]: success
+[2023-08-03 08:11:27] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.7.202308011009-py3-none-any.whl.zip]
+[2023-08-03 08:11:27] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.7.202308030601-py3-none-any.whl.zip]
+[2023-08-03 08:11:27] INFO root fetch - main [MainThread]: End processing [mtbase]: success
+[2023-08-03 08:11:27] INFO root fetch - processPackages [fastapi-gen]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_gen-0.2.0.tar.gz]
+[2023-08-03 08:11:27] INFO root fetch - processPackages [fastapi-gen]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_gen-0.3.0.tar.gz]
+[2023-08-03 08:11:27] INFO root fetch - main [MainThread]: End processing [fastapi-gen]: success
+[2023-08-03 08:11:27] INFO root fetch - main [MainThread]: Store serial: [19154331]
