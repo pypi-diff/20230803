@@ -19505,3 +19505,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 11:26:40] INFO root fetch - processPackages [blivet]: Remove: archive file [/home/abi/fetcher/tmp/blivet-3.8.0.tar.gz]
 [2023-08-03 11:26:40] INFO root fetch - main [MainThread]: End processing [blivet]: success
 [2023-08-03 11:26:40] INFO root fetch - main [MainThread]: Store serial: [19157061]
+[2023-08-03 11:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157061]
+[2023-08-03 11:31:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbuild
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titan-iris
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intezer-sdk
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bootloader-core-library
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webmeter
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zeroconf
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: customerio-cdp-analytics
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfmock
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bootloader-core-library
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: numspark
+[2023-08-03 11:31:49] INFO root fetch - processPackages [customerio-cdp-analytics]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 11:31:49] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-03 11:31:49] INFO root fetch - processPackages [zeroconf]: New version: [0.72.2] Old Version: [0.72.1]
+[2023-08-03 11:31:49] WARNING root fetch - processPackages [webmeter]: Skipping, unable to determine old version
+[2023-08-03 11:31:49] INFO root fetch - processPackages [webmeter]: Start processing: ontouml-json2graph
+[2023-08-03 11:31:49] INFO root fetch - processPackages [bootloader-core-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:31:49] INFO root fetch - main [MainThread]: End processing [webmeter] error
+[2023-08-03 11:31:49] INFO root fetch - processPackages [bootloader-core-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:31:49] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/54/07/b1b49e1d9407879a59c376b8799d8e3abe495ec3380638b2f1fbc61dd234/intezer_sdk-1.9.3-py3-none-any.whl
+[2023-08-03 11:31:49] WARNING root fetch - processPackages [numspark]: Skipping, unable to determine old version
+[2023-08-03 11:31:49] INFO root fetch - processPackages [numspark]: Start processing: concrete-datastore
+[2023-08-03 11:31:49] INFO root fetch - main [MainThread]: End processing [numspark] error
+[2023-08-03 11:31:49] INFO root fetch - processPackages [vbuild]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-08-03 11:31:49] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-08-03 11:31:49] WARNING root fetch - processPackages [tfmock]: Skipping, unable to determine old version
+[2023-08-03 11:31:49] INFO root fetch - main [MainThread]: End processing [tfmock] error
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ontouml-json2graph]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-08-03 11:31:49] INFO root fetch - processPackages [customerio-cdp-analytics]: Downloading https://files.pythonhosted.org/packages/10/cd/81ac8116808306fdc7fb504a08d5021f4540691b7828824351b01264bd90/customerio_cdp_analytics-0.0.1.tar.gz
+[2023-08-03 11:31:49] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/d3/22/b543ce793700f6a6f3418d8eb473f9ab8a74509deb9381428ad3c21feb8d/bootloader_core_library-0.0.8.tar.gz
+[2023-08-03 11:31:49] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/40/64/243d5cb018dd67b8b005888dc9902e63982cdb5dad755a30e50868defafd/ontouml_json2graph-1.0.0b8.tar.gz
+[2023-08-03 11:31:49] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/d3/22/b543ce793700f6a6f3418d8eb473f9ab8a74509deb9381428ad3c21feb8d/bootloader_core_library-0.0.8.tar.gz
+[2023-08-03 11:31:49] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/fd/a5/1fb0a48a4422c2faba84cfa39f33a9c38cc74a5bd80bace1812f82d20352/zeroconf-0.72.1.tar.gz
+[2023-08-03 11:31:50] INFO root fetch - processPackages [concrete-datastore]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-03 11:31:50] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-08-03 11:31:50] INFO root fetch - processPackages [vbuild]: Downloading https://files.pythonhosted.org/packages/45/23/640048337cd684118bd3e8b26e31a28016070f4c728453b2f127a62d8c0a/vbuild-0.8.1.tar.gz
+[2023-08-03 11:31:50] INFO root fetch - processPackages [customerio-cdp-analytics]: Downloading https://files.pythonhosted.org/packages/70/9b/226d1d364d48effa59be5ecc958d22b77ff6151ef9942fd6bcefa69d528d/customerio_cdp_analytics-0.0.2.tar.gz
+[2023-08-03 11:31:50] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/1c/aa/b1c8d382cd3e6aeabd68aef67900e65831956e5715f6a86367c94bf60cd4/intezer_sdk-1.9.4-py3-none-any.whl
+[2023-08-03 11:31:50] INFO root fetch - processPackages [concrete-datastore]: Downloading https://files.pythonhosted.org/packages/93/84/b081598f2d667183a9aad1ed8bd5c31307c779a6b88f0ff03977d7f2c07b/concrete-datastore-1.8.0.tar.gz
+[2023-08-03 11:31:50] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/b9/99/23a241c351518223bfc4593969cd5f300baf27d2c8a62e61cbe501902e47/bootloader_core_library-0.0.9.tar.gz
+[2023-08-03 11:31:50] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/ce/0f/f08b5ef30f44856b7f692ee34579259345997f154f01fbe01bb797b0143a/ontouml_json2graph-1.0.0b9.tar.gz
+[2023-08-03 11:31:50] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/b9/99/23a241c351518223bfc4593969cd5f300baf27d2c8a62e61cbe501902e47/bootloader_core_library-0.0.9.tar.gz
+[2023-08-03 11:31:50] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/1d/bb/efdeb63d4c6091d0e3584250622f199aab25f7e5a156e8cbc25e62c90190/zeroconf-0.72.2.tar.gz
+[2023-08-03 11:31:50] INFO root fetch - processPackages [bootloader-core-library]: executing diffoscope
+[2023-08-03 11:31:50] INFO root fetch - processPackages [bootloader-core-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootloader_core_library-0.0.8.tar.gz tmp/bootloader_core_library-0.0.9.tar.gz --markdown 20230803/b/bootloader-core-library/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:31:50] INFO root fetch - processPackages [bootloader-core-library]: executing diffoscope
+[2023-08-03 11:31:50] INFO root fetch - processPackages [bootloader-core-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootloader_core_library-0.0.8.tar.gz tmp/bootloader_core_library-0.0.9.tar.gz --markdown 20230803/b/bootloader-core-library/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:31:50] INFO root fetch - processPackages [customerio-cdp-analytics]: executing diffoscope
+[2023-08-03 11:31:50] INFO root fetch - processPackages [customerio-cdp-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customerio_cdp_analytics-0.0.1.tar.gz tmp/customerio_cdp_analytics-0.0.2.tar.gz --markdown 20230803/c/customerio-cdp-analytics/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 11:31:50] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-08-03 11:31:50] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-08-03 11:31:50] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.72.1.tar.gz tmp/zeroconf-0.72.2.tar.gz --markdown 20230803/z/zeroconf/0.72.1-0.72.2/diff.md --exclude *.pyd
+[2023-08-03 11:31:50] INFO root fetch - processPackages [vbuild]: Downloading https://files.pythonhosted.org/packages/22/be/f0c6204a36440bbcc086bfa25964d009b7391c5a3c74d6e73188efd47adb/vbuild-0.8.2.tar.gz
+[2023-08-03 11:31:50] INFO root fetch - processPackages [ontouml-json2graph]: executing diffoscope
+[2023-08-03 11:31:50] INFO root fetch - processPackages [ontouml-json2graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontouml_json2graph-1.0.0b8.tar.gz tmp/ontouml_json2graph-1.0.0b9.tar.gz --markdown 20230803/o/ontouml-json2graph/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-08-03 11:31:50] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-08-03 11:31:50] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230803/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-08-03 11:31:50] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2023-08-03 11:31:50] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20230803/i/intezer-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-08-03 11:31:50] INFO root fetch - processPackages [vbuild]: executing diffoscope
+[2023-08-03 11:31:50] INFO root fetch - processPackages [vbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbuild-0.8.1.tar.gz tmp/vbuild-0.8.2.tar.gz --markdown 20230803/v/vbuild/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-08-03 11:31:51] INFO root fetch - processPackages [concrete-datastore]: Downloading https://files.pythonhosted.org/packages/35/0c/966cc07f835159fc959a82a0a9ce1ede43cbbce66d0df580aad4bee89e8e/concrete-datastore-1.9.0.tar.gz
+[2023-08-03 11:31:51] INFO root fetch - processPackages [concrete-datastore]: executing diffoscope
+[2023-08-03 11:31:51] INFO root fetch - processPackages [concrete-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concrete-datastore-1.8.0.tar.gz tmp/concrete-datastore-1.9.0.tar.gz --markdown 20230803/c/concrete-datastore/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-03 11:31:51] INFO root fetch - processPackages [customerio-cdp-analytics]: Remove: archive file [/home/abi/fetcher/tmp/customerio_cdp_analytics-0.0.1.tar.gz]
+[2023-08-03 11:31:51] INFO root fetch - processPackages [customerio-cdp-analytics]: Remove: archive file [/home/abi/fetcher/tmp/customerio_cdp_analytics-0.0.2.tar.gz]
+[2023-08-03 11:31:51] INFO root fetch - main [MainThread]: End processing [customerio-cdp-analytics]: success
+[2023-08-03 11:31:52] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.8.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.9.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - main [MainThread]: End processing [bootloader-core-library]: success
+[2023-08-03 11:31:52] INFO root fetch - processPackages [vbuild]: Remove: archive file [/home/abi/fetcher/tmp/vbuild-0.8.1.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - processPackages [vbuild]: Remove: archive file [/home/abi/fetcher/tmp/vbuild-0.8.2.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - main [MainThread]: End processing [vbuild]: success
+[2023-08-03 11:31:52] INFO root fetch - main [MainThread]: End processing [bootloader-core-library]: success
+[2023-08-03 11:31:52] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-08-03 11:31:52] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b8.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b9.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - main [MainThread]: End processing [ontouml-json2graph]: success
+[2023-08-03 11:31:52] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip]
+[2023-08-03 11:31:52] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip]
+[2023-08-03 11:31:52] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2023-08-03 11:31:52] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.72.1.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.72.2.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-08-03 11:31:52] INFO root fetch - processPackages [concrete-datastore]: Remove: archive file [/home/abi/fetcher/tmp/concrete-datastore-1.8.0.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - processPackages [concrete-datastore]: Remove: archive file [/home/abi/fetcher/tmp/concrete-datastore-1.9.0.tar.gz]
+[2023-08-03 11:31:52] INFO root fetch - main [MainThread]: End processing [concrete-datastore]: success
+[2023-08-03 11:31:52] INFO root fetch - main [MainThread]: Store serial: [19157105]
