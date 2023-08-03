@@ -1934,3 +1934,187 @@
 [2023-08-03 02:07:07] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-08-03 02:07:07] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
 [2023-08-03 02:07:07] INFO root fetch - main [MainThread]: Store serial: [19150125]
+[2023-08-03 02:12:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19150125]
+[2023-08-03 02:12:21] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchlayers-nightly
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-compiler-opt
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-adapter-feishu
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: validmind
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ixbrl-viewer
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-operator
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-image
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo13-addon-vault
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-aws-discord-notifiers
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202308030007] Old Version: [0.0.1.dev202308020007]
+[2023-08-03 02:12:21] INFO root fetch - processPackages [nonebot-adapter-feishu]: New version: [2.0.1] Old Version: [2.0.0b8]
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ixbrl-viewer]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-08-03 02:12:21] INFO root fetch - processPackages [validmind]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-08-03 02:12:21] INFO root fetch - processPackages [odoo13-addon-vault]: New version: [13.0.1.4.0] Old Version: [13.0.1.3.0]
+[2023-08-03 02:12:21] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-03 02:12:21] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 02:12:21] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-03 02:12:21] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1690934827] Old Version: [1690848521]
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/3c/75/7e31a544b250845f184c213090f764e618576a27c65dd44f4b407c0f358b/ml_compiler_opt-0.0.1.dev202308020007-py3-none-any.whl
+[2023-08-03 02:12:21] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230803] Old Version: [0.0.8.dev20230802]
+[2023-08-03 02:12:21] INFO root fetch - processPackages [ixbrl-viewer]: Downloading https://files.pythonhosted.org/packages/4a/72/c3cc1aa3e1e75eeefd23dc245c510167a4bc66be99829674e73f493ac5b4/ixbrl-viewer-1.3.0.tar.gz
+[2023-08-03 02:12:21] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-08-03 02:12:21] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-08-03 02:12:21] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-08-03 02:12:21] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/65/69/ae717500538a648426299751cd2085404cd8dfbbf826fcc5ed38d67140ff/torchlayers-nightly-1690848521.tar.gz
+[2023-08-03 02:12:21] INFO root fetch - processPackages [odoo13-addon-vault]: Downloading https://files.pythonhosted.org/packages/f7/28/a9f94179cf74e6b84e836e7f867447a585f6ec832974b2bcb0e2dfa40e73/odoo13_addon_vault-13.0.1.3.0-py3-none-any.whl
+[2023-08-03 02:12:21] INFO root fetch - processPackages [nonebot-adapter-feishu]: Downloading https://files.pythonhosted.org/packages/aa/cc/9583f1631bcaf2bcebeb657ab79610650bc75136570ca8f850ebcb501160/nonebot_adapter_feishu-2.0.0b8.tar.gz
+[2023-08-03 02:12:21] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/ed/ce/adf7f62f3d547ced88429192d1a2292e2b1bf09bac7213e98aaa83dbafff/validmind-1.9.6.tar.gz
+[2023-08-03 02:12:22] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/a0/45/e772884fa600bb4a3625192c64743a1b74058959eeeda445bb668a313c56/jaxutils-nightly-0.0.8.dev20230802.tar.gz
+[2023-08-03 02:12:22] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-08-03 02:12:22] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-08-03 02:12:22] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/86/dd/7e14f47fd072412b458c045dbd532c4871e494a31639184a48fb882f35b5/ml-compiler-opt-0.0.1.dev202308030007.tar.gz
+[2023-08-03 02:12:22] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-08-03 02:12:22] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230803/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-03 02:12:22] INFO root fetch - processPackages [odoo13-addon-vault]: Downloading https://files.pythonhosted.org/packages/33/1e/f7039514d01b20461e3b228ccb6bb5a288442f62922e6c8f125c6cf33393/odoo13_addon_vault-13.0.1.4.0-py3-none-any.whl
+[2023-08-03 02:12:22] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/4f/0d/6335a8c30b7de30a93c051687bbf68cc2b9745cffaffe5c43980b4f19e63/torchlayers-nightly-1690934827.tar.gz
+[2023-08-03 02:12:22] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-08-03 02:12:22] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_compiler_opt-0.0.1.dev202308020007-py3-none-any.whl.zip tmp/ml-compiler-opt-0.0.1.dev202308030007.tar.gz --markdown 20230803/m/ml-compiler-opt/0.0.1.dev202308020007-0.0.1.dev202308030007/diff.md --exclude *.pyd
+[2023-08-03 02:12:22] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/da/de/7d31e9e873e1878321886d6ea6c43db05f3b1886a64ad048f5ba4fef8ff5/jaxutils-nightly-0.0.8.dev20230803.tar.gz
+[2023-08-03 02:12:22] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-08-03 02:12:22] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230803/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-03 02:12:22] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-08-03 02:12:22] INFO root fetch - processPackages [nonebot-adapter-feishu]: Downloading https://files.pythonhosted.org/packages/a6/29/8810cb39c3c2950433de4a3b8c29df8de01734fcdc784deb23681c0fd5e5/nonebot_adapter_feishu-2.0.1.tar.gz
+[2023-08-03 02:12:22] INFO root fetch - processPackages [ixbrl-viewer]: Downloading https://files.pythonhosted.org/packages/0d/c7/07691ea021e8ecb0b96baa827c84ef482c674e0395a45dfaab317ad0c812/ixbrl-viewer-1.4.0.tar.gz
+[2023-08-03 02:12:22] INFO root fetch - processPackages [odoo13-addon-vault]: executing diffoscope
+[2023-08-03 02:12:22] INFO root fetch - processPackages [odoo13-addon-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_vault-13.0.1.3.0-py3-none-any.whl.zip tmp/odoo13_addon_vault-13.0.1.4.0-py3-none-any.whl.zip --markdown 20230803/o/odoo13-addon-vault/13.0.1.3.0-13.0.1.4.0/diff.md --exclude *.pyd
+[2023-08-03 02:12:22] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-08-03 02:12:22] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1690848521.tar.gz tmp/torchlayers-nightly-1690934827.tar.gz --markdown 20230803/t/torchlayers-nightly/1690848521-1690934827/diff.md --exclude *.pyd
+[2023-08-03 02:12:22] INFO root fetch - processPackages [nonebot-adapter-feishu]: executing diffoscope
+[2023-08-03 02:12:22] INFO root fetch - processPackages [nonebot-adapter-feishu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_feishu-2.0.0b8.tar.gz tmp/nonebot_adapter_feishu-2.0.1.tar.gz --markdown 20230803/n/nonebot-adapter-feishu/2.0.0b8-2.0.1/diff.md --exclude *.pyd
+[2023-08-03 02:12:22] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-08-03 02:12:22] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230802.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230803.tar.gz --markdown 20230803/j/jaxutils-nightly/0.0.8.dev20230802-0.0.8.dev20230803/diff.md --exclude *.pyd
+[2023-08-03 02:12:22] INFO root fetch - processPackages [ixbrl-viewer]: executing diffoscope
+[2023-08-03 02:12:22] INFO root fetch - processPackages [ixbrl-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixbrl-viewer-1.3.0.tar.gz tmp/ixbrl-viewer-1.4.0.tar.gz --markdown 20230803/i/ixbrl-viewer/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-08-03 02:12:23] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/0a/05/25046b967e5dc51dd5ae20bd6ba3dffd981fbc355bbcbfb62d98c651d5b6/validmind-1.9.7.tar.gz
+[2023-08-03 02:12:23] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-08-03 02:12:23] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230803/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 02:12:23] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-08-03 02:12:23] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-08-03 02:12:23] INFO root fetch - processPackages [cdk8s-image]: Start processing: vesselapi
+[2023-08-03 02:12:23] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-08-03 02:12:23] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-08-03 02:12:23] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-08-03 02:12:23] INFO root fetch - processPackages [cdk8s-operator]: Start processing: odoo14-addon-vault
+[2023-08-03 02:12:23] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-08-03 02:12:23] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.43.0]
+[2023-08-03 02:12:23] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml_compiler_opt-0.0.1.dev202308020007-py3-none-any.whl.zip]
+[2023-08-03 02:12:23] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202308030007.tar.gz]
+[2023-08-03 02:12:23] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: metar2bufr
+[2023-08-03 02:12:23] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-08-03 02:12:23] INFO root fetch - processPackages [odoo14-addon-vault]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1.dev1]
+[2023-08-03 02:12:23] INFO root fetch - processPackages [metar2bufr]: New version: [0.0.2.32] Old Version: [0.0.2.31]
+[2023-08-03 02:12:23] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-08-03 02:12:23] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.9.6.tar.gz tmp/validmind-1.9.7.tar.gz --markdown 20230803/v/validmind/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-08-03 02:12:24] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230802.tar.gz]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230803.tar.gz]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: cdk8s-grafana
+[2023-08-03 02:12:24] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-08-03 02:12:24] INFO root fetch - processPackages [nonebot-adapter-feishu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_feishu-2.0.0b8.tar.gz]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [nonebot-adapter-feishu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_feishu-2.0.1.tar.gz]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [nonebot-adapter-feishu]: Start processing: mct-quantizers-nightly
+[2023-08-03 02:12:24] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-feishu]: success
+[2023-08-03 02:12:24] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/fa/2f/aa531d834ba53fd1cba97b514cf0d49a10663cc20dcf1fc084ae965f8006/vesselapi-3.43.0.tar.gz
+[2023-08-03 02:12:24] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/c5/41/a3ab5c4238c1674f307ba8533132f3ff872595f1976ad2808631590def60/metar2bufr-0.0.2.31.tar.gz
+[2023-08-03 02:12:24] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.2.0.20230802.post1016] Old Version: [1.2.0.20230801.post1224]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690848521.tar.gz]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690934827.tar.gz]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: cdk-iot-core-certificates
+[2023-08-03 02:12:24] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-08-03 02:12:24] INFO root fetch - processPackages [odoo14-addon-vault]: Downloading https://files.pythonhosted.org/packages/72/dc/6ceb6c277ea79b6ff51872ad37950a9925aa08ef8859c57ca8a6b9416ffe/odoo14_addon_vault-14.0.1.8.1.dev1-py3-none-any.whl
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/f2/ef/42e794023c1b23b65dbfbf304a466a097f3bece19b301087abab08fa525e/mct-quantizers-nightly-1.2.0.20230801.post1224.tar.gz
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/f9/3a/11678fcacc9a26643437d84919789043bb31517789527c063bec8da27e8e/cdk-iot-core-certificates-1.0.8.tar.gz
+[2023-08-03 02:12:24] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-08-03 02:12:24] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/fb/cc/da7e7aee102d6eb59d4f62606fadf860abd3ac9b8c6d4d2524234a19a9b1/metar2bufr-0.0.2.32.tar.gz
+[2023-08-03 02:12:24] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-08-03 02:12:24] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.43.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230803/v/vesselapi/3.43.0-3.5.2/diff.md --exclude *.pyd
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Start processing: openbb-nightly
+[2023-08-03 02:12:24] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-08-03 02:12:24] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/40/ac/6681584f9b2af05f6e64dd9033a2f065577e2d98bbcb02461cd9c578a4bc/mct-quantizers-nightly-1.2.0.20230802.post1016.tar.gz
+[2023-08-03 02:12:24] INFO root fetch - processPackages [odoo13-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_vault-13.0.1.3.0-py3-none-any.whl.zip]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [odoo13-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_vault-13.0.1.4.0-py3-none-any.whl.zip]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [odoo13-addon-vault]: Start processing: PythonMetaTrader5
+[2023-08-03 02:12:24] INFO root fetch - main [MainThread]: End processing [odoo13-addon-vault]: success
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/4a/43/39180d2063c944a0f8d32557a55dc2ed201b2244a615cecd4ba0e33dee1a/cdk-iot-core-certificates-1.0.9.tar.gz
+[2023-08-03 02:12:24] INFO root fetch - processPackages [metar2bufr]: executing diffoscope
+[2023-08-03 02:12:24] INFO root fetch - processPackages [metar2bufr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metar2bufr-0.0.2.31.tar.gz tmp/metar2bufr-0.0.2.32.tar.gz --markdown 20230803/m/metar2bufr/0.0.2.31-0.0.2.32/diff.md --exclude *.pyd
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-08-03 02:12:24] INFO root fetch - processPackages [PythonMetaTrader5]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [odoo14-addon-vault]: Downloading https://files.pythonhosted.org/packages/ca/06/9bc81d47eafe76f119c25fc560c1ad78c601e9d95341d8d5defd92978e5a/odoo14_addon_vault-14.0.1.9.0-py3-none-any.whl
+[2023-08-03 02:12:24] INFO root fetch - processPackages [openbb-nightly]: New version: [3.2.0.dev20230803] Old Version: [3.2.0.dev20230802]
+[2023-08-03 02:12:24] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-08-03 02:12:24] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.2.0.20230801.post1224.tar.gz tmp/mct-quantizers-nightly-1.2.0.20230802.post1016.tar.gz --markdown 20230803/m/mct-quantizers-nightly/1.2.0.20230801.post1224-1.2.0.20230802.post1016/diff.md --exclude *.pyd
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230803/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 02:12:24] INFO root fetch - processPackages [PythonMetaTrader5]: Downloading https://files.pythonhosted.org/packages/70/1c/773968dab6c16444e5e0c47333ec37167e4628a06828c9cebdbeb8659c2b/PythonMetaTrader5-1.0.3.tar.gz
+[2023-08-03 02:12:24] INFO root fetch - processPackages [odoo14-addon-vault]: executing diffoscope
+[2023-08-03 02:12:24] INFO root fetch - processPackages [odoo14-addon-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_vault-14.0.1.8.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_vault-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230803/o/odoo14-addon-vault/14.0.1.8.1.dev1-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-08-03 02:12:24] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230803/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-03 02:12:25] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/f0/10/227af4659ec8678d8d344c4f09811da8ea92667a4ec9655ecfe55994de66/openbb_nightly-3.2.0.dev20230802.tar.gz
+[2023-08-03 02:12:25] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 20890283>=10485760
+[2023-08-03 02:12:25] INFO root fetch - processPackages [openbb-nightly]: Start processing: cdk-common
+[2023-08-03 02:12:25] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-08-03 02:12:25] INFO root fetch - processPackages [PythonMetaTrader5]: Downloading https://files.pythonhosted.org/packages/7d/46/58e5afa9cfafa8acc265b3d149306388fd809037ef4ef85d122ab277a6ef/PythonMetaTrader5-1.0.4.tar.gz
+[2023-08-03 02:12:25] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-03 02:12:25] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-08-03 02:12:25] INFO root fetch - processPackages [PythonMetaTrader5]: executing diffoscope
+[2023-08-03 02:12:25] INFO root fetch - processPackages [PythonMetaTrader5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonMetaTrader5-1.0.3.tar.gz tmp/PythonMetaTrader5-1.0.4.tar.gz --markdown 20230803/P/PythonMetaTrader5/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-03 02:12:25] INFO root fetch - processPackages [validmind]: Remove: archive file [/home/abi/fetcher/tmp/validmind-1.9.6.tar.gz]
+[2023-08-03 02:12:25] INFO root fetch - processPackages [validmind]: Remove: archive file [/home/abi/fetcher/tmp/validmind-1.9.7.tar.gz]
+[2023-08-03 02:12:25] INFO root fetch - processPackages [validmind]: Start processing: cdklabs.codepipeline-extensions
+[2023-08-03 02:12:25] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-08-03 02:12:25] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 02:12:25] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-08-03 02:12:26] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-08-03 02:12:26] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-08-03 02:12:26] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: speakeasy-client-sdk-python
+[2023-08-03 02:12:26] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-08-03 02:12:26] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-03 02:12:26] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.31.tar.gz]
+[2023-08-03 02:12:26] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.32.tar.gz]
+[2023-08-03 02:12:26] INFO root fetch - main [MainThread]: End processing [metar2bufr]: success
+[2023-08-03 02:12:26] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.8.tar.gz]
+[2023-08-03 02:12:26] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.9.tar.gz]
+[2023-08-03 02:12:26] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-08-03 02:12:26] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-08-03 02:12:26] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-08-03 02:12:26] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-08-03 02:12:26] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230801.post1224.tar.gz]
+[2023-08-03 02:12:26] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230802.post1016.tar.gz]
+[2023-08-03 02:12:26] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-08-03 02:12:26] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-08-03 02:12:26] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230803/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-03 02:12:26] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/51/73/c74332634e8130c6b89c1c8307ea722240a132020fa5c51bd7f7854b0c05/speakeasy-client-sdk-python-1.9.0.tar.gz
+[2023-08-03 02:12:26] INFO root fetch - processPackages [PythonMetaTrader5]: Remove: archive file [/home/abi/fetcher/tmp/PythonMetaTrader5-1.0.3.tar.gz]
+[2023-08-03 02:12:26] INFO root fetch - processPackages [PythonMetaTrader5]: Remove: archive file [/home/abi/fetcher/tmp/PythonMetaTrader5-1.0.4.tar.gz]
+[2023-08-03 02:12:26] INFO root fetch - main [MainThread]: End processing [PythonMetaTrader5]: success
+[2023-08-03 02:12:26] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/ec/17/af09933815cbb33c06f585554b6a5963756ed5573cefe2151dde0046ce62/speakeasy-client-sdk-python-1.9.1.tar.gz
+[2023-08-03 02:12:26] INFO root fetch - processPackages [odoo14-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_vault-14.0.1.8.1.dev1-py3-none-any.whl.zip]
+[2023-08-03 02:12:26] INFO root fetch - processPackages [odoo14-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_vault-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-08-03 02:12:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-vault]: success
+[2023-08-03 02:12:26] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-08-03 02:12:26] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230803/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-03 02:12:27] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.43.0.tar.gz]
+[2023-08-03 02:12:27] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-08-03 02:12:27] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-08-03 02:12:27] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-08-03 02:12:27] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-08-03 02:12:27] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-08-03 02:12:27] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.0.tar.gz]
+[2023-08-03 02:12:27] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.1.tar.gz]
+[2023-08-03 02:12:27] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-08-03 02:12:35] INFO root fetch - processPackages [ixbrl-viewer]: Remove: archive file [/home/abi/fetcher/tmp/ixbrl-viewer-1.3.0.tar.gz]
+[2023-08-03 02:12:35] INFO root fetch - processPackages [ixbrl-viewer]: Remove: archive file [/home/abi/fetcher/tmp/ixbrl-viewer-1.4.0.tar.gz]
+[2023-08-03 02:12:35] INFO root fetch - main [MainThread]: End processing [ixbrl-viewer]: success
+[2023-08-03 02:12:35] INFO root fetch - main [MainThread]: Store serial: [19150186]
