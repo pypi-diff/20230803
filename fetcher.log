@@ -12234,3 +12234,67 @@
 [2023-08-03 07:07:31] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.3-py3-none-any.whl.zip]
 [2023-08-03 07:07:31] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
 [2023-08-03 07:07:31] INFO root fetch - main [MainThread]: Store serial: [19153875]
+[2023-08-03 07:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153875]
+[2023-08-03 07:12:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-03 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-cuda
+[2023-08-03 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dask-cuda
+[2023-08-03 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-adverse-event
+[2023-08-03 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mojo-runtime
+[2023-08-03 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Giraffe-View
+[2023-08-03 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-appointment
+[2023-08-03 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-homeassistant-custom-component
+[2023-08-03 07:12:40] INFO root fetch - processPackages [Giraffe-View]: New version: [0.0.9.5] Old Version: [0.0.9.4]
+[2023-08-03 07:12:40] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 07:12:40] INFO root fetch - processPackages [edc-adverse-event]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-03 07:12:40] INFO root fetch - processPackages [edc-appointment]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-03 07:12:40] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230803] Old Version: [23.8.0a230802]
+[2023-08-03 07:12:40] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-03 07:12:40] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230803] Old Version: [23.8.0a230802]
+[2023-08-03 07:12:40] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/7a/df/575e328078ac7fddcb6caf7f3e8edb3df35524769d31b738684819e50c9f/dask-cuda-23.8.0a230802.tar.gz
+[2023-08-03 07:12:40] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/7a/df/575e328078ac7fddcb6caf7f3e8edb3df35524769d31b738684819e50c9f/dask-cuda-23.8.0a230802.tar.gz
+[2023-08-03 07:12:40] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/aa/cc/60c44545ab1f1682384ca1da00d121b07fcba05a12b0d6021ae317e693d9/edc_adverse_event-0.3.8-py3-none-any.whl
+[2023-08-03 07:12:40] INFO root fetch - processPackages [edc-appointment]: Downloading https://files.pythonhosted.org/packages/f8/13/58ebbfd6de5f2213f4f7217b376f9cf74076ac8297a3033abf3e189f3a31/edc_appointment-0.3.8-py3-none-any.whl
+[2023-08-03 07:12:40] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/db/37/516fe709f86d258be0f5a778c40223cf5664bee23872366db528c38d1fa0/mojo_runtime-0.0.8.tar.gz
+[2023-08-03 07:12:40] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-08-03 07:12:40] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/f1/32/748947e89aa3637ce5819dfb13d978682fcbd79699890360db43219256f6/Giraffe_View-0.0.9.4.tar.gz
+[2023-08-03 07:12:40] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/e5/e5/878e54cb56a6478159eb5be2040751af54dea61657231a6639b16b6bbf9a/dask-cuda-23.8.0a230803.tar.gz
+[2023-08-03 07:12:40] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/e5/e5/878e54cb56a6478159eb5be2040751af54dea61657231a6639b16b6bbf9a/dask-cuda-23.8.0a230803.tar.gz
+[2023-08-03 07:12:40] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-08-03 07:12:40] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/2f/02/18ac149fc963e050bad03d628b2233ba564873640d194d0fb91edfa2804b/Giraffe_View-0.0.9.5.tar.gz
+[2023-08-03 07:12:40] INFO root fetch - processPackages [edc-appointment]: Downloading https://files.pythonhosted.org/packages/10/c7/d34ba3e8a95cc8c2dd0b0dab4375371ad481c46f2b9edfe550ebcc8c8cbc/edc_appointment-0.3.9-py3-none-any.whl
+[2023-08-03 07:12:40] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/01/a6/585a2c7f79b275fe281946b36941136d6e09296a144056c0b4a78c26b94d/mojo_runtime-0.0.9.tar.gz
+[2023-08-03 07:12:40] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-08-03 07:12:40] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230803/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-03 07:12:40] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-03 07:12:40] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230802.tar.gz tmp/dask-cuda-23.8.0a230803.tar.gz --markdown 20230803/d/dask-cuda/23.8.0a230802-23.8.0a230803/diff.md --exclude *.pyd
+[2023-08-03 07:12:40] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-03 07:12:40] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230802.tar.gz tmp/dask-cuda-23.8.0a230803.tar.gz --markdown 20230803/d/dask-cuda/23.8.0a230802-23.8.0a230803/diff.md --exclude *.pyd
+[2023-08-03 07:12:40] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/04/f0/b9f2b8c39c677c51359e09b0e2a6ec34dde4a98ad9ed7c6bb6f8cea26097/edc_adverse_event-0.3.9-py3-none-any.whl
+[2023-08-03 07:12:40] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2023-08-03 07:12:40] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.0.9.4.tar.gz tmp/Giraffe_View-0.0.9.5.tar.gz --markdown 20230803/G/Giraffe-View/0.0.9.4-0.0.9.5/diff.md --exclude *.pyd
+[2023-08-03 07:12:40] INFO root fetch - processPackages [edc-appointment]: executing diffoscope
+[2023-08-03 07:12:40] INFO root fetch - processPackages [edc-appointment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_appointment-0.3.8-py3-none-any.whl.zip tmp/edc_appointment-0.3.9-py3-none-any.whl.zip --markdown 20230803/e/edc-appointment/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 07:12:41] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-08-03 07:12:41] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230803/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 07:12:41] INFO root fetch - processPackages [edc-adverse-event]: executing diffoscope
+[2023-08-03 07:12:41] INFO root fetch - processPackages [edc-adverse-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_adverse_event-0.3.8-py3-none-any.whl.zip tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip --markdown 20230803/e/edc-adverse-event/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 07:12:42] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-08-03 07:12:42] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-08-03 07:12:42] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-08-03 07:12:42] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.9.4.tar.gz]
+[2023-08-03 07:12:42] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.9.5.tar.gz]
+[2023-08-03 07:12:42] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2023-08-03 07:12:42] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230802.tar.gz]
+[2023-08-03 07:12:42] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230803.tar.gz]
+[2023-08-03 07:12:42] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-03 07:12:42] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.8.tar.gz]
+[2023-08-03 07:12:42] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.9.tar.gz]
+[2023-08-03 07:12:42] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-08-03 07:12:42] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-03 07:12:42] INFO root fetch - processPackages [edc-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc_appointment-0.3.8-py3-none-any.whl.zip]
+[2023-08-03 07:12:42] INFO root fetch - processPackages [edc-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc_appointment-0.3.9-py3-none-any.whl.zip]
+[2023-08-03 07:12:42] INFO root fetch - main [MainThread]: End processing [edc-appointment]: success
+[2023-08-03 07:12:42] INFO root fetch - processPackages [edc-adverse-event]: Remove: archive file [/home/abi/fetcher/tmp/edc_adverse_event-0.3.8-py3-none-any.whl.zip]
+[2023-08-03 07:12:42] INFO root fetch - processPackages [edc-adverse-event]: Remove: archive file [/home/abi/fetcher/tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip]
+[2023-08-03 07:12:42] INFO root fetch - main [MainThread]: End processing [edc-adverse-event]: success
+[2023-08-03 07:12:42] INFO root fetch - main [MainThread]: Store serial: [19153900]
