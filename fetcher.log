@@ -9889,3 +9889,86 @@
 [2023-08-03 04:33:29] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.8.0.43895-py2-none-any.whl.zip]
 [2023-08-03 04:33:29] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
 [2023-08-03 04:33:29] INFO root fetch - main [MainThread]: Store serial: [19152910]
+[2023-08-03 04:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152910]
+[2023-08-03 04:38:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-03 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blender-stubs
+[2023-08-03 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2023-08-03 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lexikanon
+[2023-08-03 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulpcore
+[2023-08-03 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulpcore-client
+[2023-08-03 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyac
+[2023-08-03 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-08-03 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.cdk-graph
+[2023-08-03 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mopidy-yamusic
+[2023-08-03 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ycxiaomeng-demo
+[2023-08-03 04:38:38] INFO root fetch - processPackages [cyac]: New version: [1.9] Old Version: [1.7]
+[2023-08-03 04:38:38] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: New version: [0.19.58] Old Version: [0.19.57]
+[2023-08-03 04:38:38] INFO root fetch - processPackages [lexikanon]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-03 04:38:38] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-08-03 04:38:38] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-08-03 04:38:38] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-08-03 04:38:38] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-08-03 04:38:38] INFO root fetch - processPackages [blender-stubs]: New version: [3.2.0.27.dev5745415930] Old Version: [3.2.0.27.dev5733491624]
+[2023-08-03 04:38:38] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: Downloading https://files.pythonhosted.org/packages/a3/25/957c64709a0f5bdff090991513d4123734a80098c447243b5e209635a5d2/aws_prototyping_sdk.cdk_graph-0.19.57.tar.gz
+[2023-08-03 04:38:38] WARNING root fetch - processPackages [ycxiaomeng-demo]: Skipping, unable to determine old version
+[2023-08-03 04:38:38] INFO root fetch - main [MainThread]: End processing [ycxiaomeng-demo] error
+[2023-08-03 04:38:38] INFO root fetch - processPackages [mopidy-yamusic]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-08-03 04:38:38] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-08-03 04:38:38] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/90/98/e5b0c000a82f4c3fa5ca7ff1fdca47a699de09226e1073048c85eb6749c0/lexikanon-0.4.0.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [cyac]: Downloading https://files.pythonhosted.org/packages/ec/fa/b3cbda4c5d43825d152103b502a970d0a51ece42f782474b57632c7c314b/cyac-1.7.tar.gz
+[2023-08-03 04:38:39] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-08-03 04:38:39] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-08-03 04:38:39] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [blender-stubs]: Downloading https://files.pythonhosted.org/packages/da/3f/091276736b4215b070ba3307c98c7984ed69a4e926de57d718f0e11e3fac/blender-stubs-3.2.0.27.dev5733491624.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [mopidy-yamusic]: Downloading https://files.pythonhosted.org/packages/ea/4f/b9efa7d06ae181fa713f002505537dc25a1b184785a82841a80a8400fca2/mopidy-yamusic-2.2.1.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: Downloading https://files.pythonhosted.org/packages/d6/bd/75ae684912329ba6e81515c72ff33f984836821fa9b23abb2b12cdf524a3/aws_prototyping_sdk.cdk_graph-0.19.58.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-08-03 04:38:39] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230803/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-08-03 04:38:39] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: executing diffoscope
+[2023-08-03 04:38:39] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cdk_graph-0.19.57.tar.gz tmp/aws_prototyping_sdk.cdk_graph-0.19.58.tar.gz --markdown 20230803/a/aws-prototyping-sdk.cdk-graph/0.19.57-0.19.58/diff.md --exclude *.pyd
+[2023-08-03 04:38:39] INFO root fetch - processPackages [cyac]: Downloading https://files.pythonhosted.org/packages/ed/50/358b3540a823d8b62fc90115371a6bec8f0cd34b66acef573c48acc75fb4/cyac-1.9.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/92/02/79427da1708ebc2e790b862bdaee56495769c6beeb784f4ba8f701c1aea0/lexikanon-0.4.1.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [blender-stubs]: Downloading https://files.pythonhosted.org/packages/5f/b5/91f36efd337b580498a71ee705e65f87742e0a9a2ad4056eecdf11dff820/blender-stubs-3.2.0.27.dev5745415930.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [mopidy-yamusic]: Downloading https://files.pythonhosted.org/packages/94/84/0bd16cfba0851d61fa50c3bb28a8c6c8b8bf0233c59a267232d0d953dfaa/mopidy-yamusic-2.2.2.tar.gz
+[2023-08-03 04:38:39] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-08-03 04:38:39] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230803/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-08-03 04:38:39] INFO root fetch - processPackages [cyac]: executing diffoscope
+[2023-08-03 04:38:39] INFO root fetch - processPackages [cyac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyac-1.7.tar.gz tmp/cyac-1.9.tar.gz --markdown 20230803/c/cyac/1.7-1.9/diff.md --exclude *.pyd
+[2023-08-03 04:38:39] INFO root fetch - processPackages [lexikanon]: executing diffoscope
+[2023-08-03 04:38:39] INFO root fetch - processPackages [lexikanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikanon-0.4.0.tar.gz tmp/lexikanon-0.4.1.tar.gz --markdown 20230803/l/lexikanon/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-03 04:38:39] INFO root fetch - processPackages [mopidy-yamusic]: executing diffoscope
+[2023-08-03 04:38:39] INFO root fetch - processPackages [mopidy-yamusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mopidy-yamusic-2.2.1.tar.gz tmp/mopidy-yamusic-2.2.2.tar.gz --markdown 20230803/m/mopidy-yamusic/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-08-03 04:38:39] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-08-03 04:38:39] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230803/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-08-03 04:38:40] INFO root fetch - processPackages [blender-stubs]: executing diffoscope
+[2023-08-03 04:38:40] INFO root fetch - processPackages [blender-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blender-stubs-3.2.0.27.dev5733491624.tar.gz tmp/blender-stubs-3.2.0.27.dev5745415930.tar.gz --markdown 20230803/b/blender-stubs/3.2.0.27.dev5733491624-3.2.0.27.dev5745415930/diff.md --exclude *.pyd
+[2023-08-03 04:38:40] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-08-03 04:38:40] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-08-03 04:38:40] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-08-03 04:38:40] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cdk_graph-0.19.57.tar.gz]
+[2023-08-03 04:38:40] INFO root fetch - processPackages [aws-prototyping-sdk.cdk-graph]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cdk_graph-0.19.58.tar.gz]
+[2023-08-03 04:38:40] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cdk-graph]: success
+[2023-08-03 04:38:41] INFO root fetch - processPackages [cyac]: Remove: archive file [/home/abi/fetcher/tmp/cyac-1.7.tar.gz]
+[2023-08-03 04:38:41] INFO root fetch - processPackages [cyac]: Remove: archive file [/home/abi/fetcher/tmp/cyac-1.9.tar.gz]
+[2023-08-03 04:38:41] INFO root fetch - main [MainThread]: End processing [cyac]: success
+[2023-08-03 04:38:41] INFO root fetch - processPackages [mopidy-yamusic]: Remove: archive file [/home/abi/fetcher/tmp/mopidy-yamusic-2.2.1.tar.gz]
+[2023-08-03 04:38:41] INFO root fetch - processPackages [mopidy-yamusic]: Remove: archive file [/home/abi/fetcher/tmp/mopidy-yamusic-2.2.2.tar.gz]
+[2023-08-03 04:38:41] INFO root fetch - main [MainThread]: End processing [mopidy-yamusic]: success
+[2023-08-03 04:38:41] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.4.0.tar.gz]
+[2023-08-03 04:38:41] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.4.1.tar.gz]
+[2023-08-03 04:38:41] INFO root fetch - main [MainThread]: End processing [lexikanon]: success
+[2023-08-03 04:38:41] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz]
+[2023-08-03 04:38:41] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.1.tar.gz]
+[2023-08-03 04:38:41] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-08-03 04:38:41] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.0.tar.gz]
+[2023-08-03 04:38:41] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
+[2023-08-03 04:38:41] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-08-03 04:38:43] INFO root fetch - processPackages [blender-stubs]: Remove: archive file [/home/abi/fetcher/tmp/blender-stubs-3.2.0.27.dev5733491624.tar.gz]
+[2023-08-03 04:38:43] INFO root fetch - processPackages [blender-stubs]: Remove: archive file [/home/abi/fetcher/tmp/blender-stubs-3.2.0.27.dev5745415930.tar.gz]
+[2023-08-03 04:38:43] INFO root fetch - main [MainThread]: End processing [blender-stubs]: success
+[2023-08-03 04:38:43] INFO root fetch - main [MainThread]: Store serial: [19152937]
