@@ -18227,3 +18227,190 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 10:42:50] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
 [2023-08-03 10:42:50] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
 [2023-08-03 10:42:50] INFO root fetch - main [MainThread]: Store serial: [19156382]
+[2023-08-03 10:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19156382]
+[2023-08-03 10:48:00] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-08-03 10:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automation-file-dev
+[2023-08-03 10:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dh-json-logic
+[2023-08-03 10:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RWAPIMicroservicePython
+[2023-08-03 10:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-modules
+[2023-08-03 10:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dvc-data
+[2023-08-03 10:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pasqal-cloud
+[2023-08-03 10:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-modules
+[2023-08-03 10:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frontengine
+[2023-08-03 10:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: automation-file
+[2023-08-03 10:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mtbase
+[2023-08-03 10:48:00] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.1.2] Old Version: [0.0.1.1]
+[2023-08-03 10:48:00] INFO root fetch - processPackages [automation-file]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 10:48:00] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.1.2] Old Version: [0.0.1.1]
+[2023-08-03 10:48:00] INFO root fetch - processPackages [mtbase]: New version: [4.7.202308030611] Old Version: [4.7.202308030601]
+[2023-08-03 10:48:00] INFO root fetch - processPackages [dvc-data]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-08-03 10:48:00] INFO root fetch - processPackages [RWAPIMicroservicePython]: New version: [3.0.0b3] Old Version: [3.0.0b2]
+[2023-08-03 10:48:00] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 10:48:00] INFO root fetch - processPackages [pasqal-cloud]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-03 10:48:00] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 10:48:00] INFO root fetch - processPackages [dh-json-logic]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-03 10:48:00] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/3d/74/09948eebf9b103cb365d6fb95aedb1e503f2a90785f0985840b6b91fd289/abstract_modules-0.0.1.1-py3-none-any.whl
+[2023-08-03 10:48:00] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/5f/4c/2b84f4134629f3fc1f1f99b2cf878073fad61f7fc5f56f406e4197bc3eca/automation_file-0.0.8.tar.gz
+[2023-08-03 10:48:00] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/3d/74/09948eebf9b103cb365d6fb95aedb1e503f2a90785f0985840b6b91fd289/abstract_modules-0.0.1.1-py3-none-any.whl
+[2023-08-03 10:48:00] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/75/c4/44578058c9934231caf80de47e044b94b8f189d9f48986bc41ed8e273ec7/mtbase-4.7.202308030601-py3-none-any.whl
+[2023-08-03 10:48:00] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/17/f8/64da2a7960f5450b7b770bd33a2182be1ea5d0dabf3e5a60f465a09afdd8/dvc-data-2.8.1.tar.gz
+[2023-08-03 10:48:00] INFO root fetch - processPackages [dh-json-logic]: Downloading https://files.pythonhosted.org/packages/4e/8b/d4e6bb2c62f48cb7352f0a51cfd6d520fe1d601113a16563742becfc795c/dh_json_logic-1.2.1.tar.gz
+[2023-08-03 10:48:00] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/b4/e1/f4475763909aa85b0a46262063394fa927e5e8357518c31d0466aeb9e4d5/RWAPIMicroservicePython-3.0.0b2.tar.gz
+[2023-08-03 10:48:00] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/a8/ac/0c7d47373834088c1e51432abf5758c7c09f8c3303b11513d87897381400/automation_file_dev-0.0.8.tar.gz
+[2023-08-03 10:48:00] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/81/72/9a4ffda34b7a7a53bdad490f26e9b48461235adedf612504eb5aaf805d9f/pasqal-cloud-0.3.3.tar.gz
+[2023-08-03 10:48:00] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-08-03 10:48:00] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/61/d5/25a9248a3f46d8aff54ddc54143797f9b35549506743ec8ed413213e29b1/automation_file-0.0.9.tar.gz
+[2023-08-03 10:48:00] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/eb/97/7607e5fbf16695a1848ffd451fcd587f11ae95a84962de6fbc3b215bcdde/abstract_modules-0.0.1.2-py3-none-any.whl
+[2023-08-03 10:48:00] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/eb/97/7607e5fbf16695a1848ffd451fcd587f11ae95a84962de6fbc3b215bcdde/abstract_modules-0.0.1.2-py3-none-any.whl
+[2023-08-03 10:48:01] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/6f/b9/117c4c5e2bb65610482e8921b28ca0b5d763bbf3fb6b4fd0ff6ca5d96b4b/mtbase-4.7.202308030611-py3-none-any.whl
+[2023-08-03 10:48:01] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/3a/01/1eb16026b61e74cf4dbd564a51839495edb9d74bb2ec635e4c237a03ccee/dvc-data-2.9.0.tar.gz
+[2023-08-03 10:48:01] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-03 10:48:01] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.1.1-py3-none-any.whl.zip tmp/abstract_modules-0.0.1.2-py3-none-any.whl.zip --markdown 20230803/a/abstract-modules/0.0.1.1-0.0.1.2/diff.md --exclude *.pyd
+[2023-08-03 10:48:01] INFO root fetch - processPackages [automation-file]: executing diffoscope
+[2023-08-03 10:48:01] INFO root fetch - processPackages [automation-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file-0.0.8.tar.gz tmp/automation_file-0.0.9.tar.gz --markdown 20230803/a/automation-file/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 10:48:01] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-03 10:48:01] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.1.1-py3-none-any.whl.zip tmp/abstract_modules-0.0.1.2-py3-none-any.whl.zip --markdown 20230803/a/abstract-modules/0.0.1.1-0.0.1.2/diff.md --exclude *.pyd
+[2023-08-03 10:48:01] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/92/3a/8ef6787406a84352eb7c95af435e25d7837169bf2320c7de96f10e1eb270/RWAPIMicroservicePython-3.0.0b3.tar.gz
+[2023-08-03 10:48:01] INFO root fetch - processPackages [mtbase]: executing diffoscope
+[2023-08-03 10:48:01] INFO root fetch - processPackages [mtbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtbase-4.7.202308030601-py3-none-any.whl.zip tmp/mtbase-4.7.202308030611-py3-none-any.whl.zip --markdown 20230803/m/mtbase/4.7.202308030601-4.7.202308030611/diff.md --exclude *.pyd
+[2023-08-03 10:48:01] INFO root fetch - processPackages [dh-json-logic]: Downloading https://files.pythonhosted.org/packages/f4/1e/84e6e739d753dc847c8cd15a7fe6a9bcd6171711b684c4cbe9bfbd533047/dh_json_logic-1.2.2.tar.gz
+[2023-08-03 10:48:01] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/00/c7/5ae239f56081e25e75d2eb48241455ba46ff0be91ca1e0a582305931463b/pasqal-cloud-0.3.4.tar.gz
+[2023-08-03 10:48:01] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-08-03 10:48:01] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-2.8.1.tar.gz tmp/dvc-data-2.9.0.tar.gz --markdown 20230803/d/dvc-data/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-08-03 10:48:01] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-08-03 10:48:01] INFO root fetch - processPackages [RWAPIMicroservicePython]: executing diffoscope
+[2023-08-03 10:48:01] INFO root fetch - processPackages [RWAPIMicroservicePython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RWAPIMicroservicePython-3.0.0b2.tar.gz tmp/RWAPIMicroservicePython-3.0.0b3.tar.gz --markdown 20230803/R/RWAPIMicroservicePython/3.0.0b2-3.0.0b3/diff.md --exclude *.pyd
+[2023-08-03 10:48:01] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/01/7f/12e7511afb9c1d3533be1bb5782b028b4e743036972a3bed3ce053bb52ac/automation_file_dev-0.0.9.tar.gz
+[2023-08-03 10:48:01] INFO root fetch - processPackages [dh-json-logic]: executing diffoscope
+[2023-08-03 10:48:01] INFO root fetch - processPackages [dh-json-logic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh_json_logic-1.2.1.tar.gz tmp/dh_json_logic-1.2.2.tar.gz --markdown 20230803/d/dh-json-logic/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-03 10:48:01] INFO root fetch - processPackages [pasqal-cloud]: executing diffoscope
+[2023-08-03 10:48:01] INFO root fetch - processPackages [pasqal-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasqal-cloud-0.3.3.tar.gz tmp/pasqal-cloud-0.3.4.tar.gz --markdown 20230803/p/pasqal-cloud/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-03 10:48:01] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-08-03 10:48:01] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230803/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 10:48:01] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-08-03 10:48:01] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.8.tar.gz tmp/automation_file_dev-0.0.9.tar.gz --markdown 20230803/a/automation-file-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 10:48:02] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.1.1-py3-none-any.whl.zip]
+[2023-08-03 10:48:02] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.1.2-py3-none-any.whl.zip]
+[2023-08-03 10:48:02] INFO root fetch - processPackages [abstract-modules]: Start processing: nemusicapi
+[2023-08-03 10:48:02] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-03 10:48:02] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0b2.tar.gz]
+[2023-08-03 10:48:02] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0b3.tar.gz]
+[2023-08-03 10:48:02] INFO root fetch - processPackages [RWAPIMicroservicePython]: Start processing: sizzpdf
+[2023-08-03 10:48:02] INFO root fetch - main [MainThread]: End processing [RWAPIMicroservicePython]: success
+[2023-08-03 10:48:02] INFO root fetch - processPackages [nemusicapi]: New version: [0.0.4a6] Old Version: [0.0.4a5]
+[2023-08-03 10:48:02] INFO root fetch - processPackages [abstract-modules]: Start processing: scipion-em-imod
+[2023-08-03 10:48:02] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-03 10:48:02] INFO root fetch - processPackages [dh-json-logic]: Remove: archive file [/home/abi/fetcher/tmp/dh_json_logic-1.2.1.tar.gz]
+[2023-08-03 10:48:02] INFO root fetch - processPackages [dh-json-logic]: Remove: archive file [/home/abi/fetcher/tmp/dh_json_logic-1.2.2.tar.gz]
+[2023-08-03 10:48:02] INFO root fetch - processPackages [dh-json-logic]: Start processing: pepperize.projen-awscdk-construct
+[2023-08-03 10:48:02] INFO root fetch - main [MainThread]: End processing [dh-json-logic]: success
+[2023-08-03 10:48:03] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/a1/2c/8579ed7f6a504ec56e2522144764c8d2a3bb771743ad849c34495bd4b171/nemusicapi-0.0.4a5.tar.gz
+[2023-08-03 10:48:03] ERROR root fetch - processPackages [sizzpdf]: Unable to get metadata: No such project 'sizzpdf'
+[2023-08-03 10:48:03] INFO root fetch - processPackages [sizzpdf]: Start processing: freestyle-keys
+[2023-08-03 10:48:03] INFO root fetch - main [MainThread]: End processing [sizzpdf] error
+[2023-08-03 10:48:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [scipion-em-imod]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.8.tar.gz]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.9.tar.gz]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [automation-file]: Start processing: syntaxlight
+[2023-08-03 10:48:03] INFO root fetch - main [MainThread]: End processing [automation-file]: success
+[2023-08-03 10:48:03] WARNING root fetch - processPackages [freestyle-keys]: Skipping, unable to determine old version
+[2023-08-03 10:48:03] INFO root fetch - processPackages [freestyle-keys]: Start processing: readyocr
+[2023-08-03 10:48:03] INFO root fetch - main [MainThread]: End processing [freestyle-keys] error
+[2023-08-03 10:48:03] INFO root fetch - processPackages [syntaxlight]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.7.202308030601-py3-none-any.whl.zip]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.7.202308030611-py3-none-any.whl.zip]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [mtbase]: Start processing: micrologai
+[2023-08-03 10:48:03] INFO root fetch - main [MainThread]: End processing [mtbase]: success
+[2023-08-03 10:48:03] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [micrologai]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [frontengine]: Start processing: flowty
+[2023-08-03 10:48:03] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-08-03 10:48:03] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [scipion-em-imod]: Downloading https://files.pythonhosted.org/packages/04/c7/093b83e538de303cc740b5dfa86354f3296d75556c07da71c60c3786f39c/scipion-em-imod-3.1.8.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.8.1.tar.gz]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.9.0.tar.gz]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [dvc-data]: Start processing: chromatinhd
+[2023-08-03 10:48:03] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-08-03 10:48:03] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/2d/83/fe534916d49e9bdf1671db37b88f61c03fecb4e00db5c8aa367a42c0c648/micrologai-1.3.6.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/8b/4c/e95fb75054df6c8b0155ad894dcbb0685fbadb2be24c23b6637778d2cdf6/nemusicapi-0.0.4a6.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.3.3.tar.gz]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.3.4.tar.gz]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [pasqal-cloud]: Start processing: geospacelab
+[2023-08-03 10:48:03] INFO root fetch - main [MainThread]: End processing [pasqal-cloud]: success
+[2023-08-03 10:48:03] INFO root fetch - processPackages [flowty]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [chromatinhd]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [geospacelab]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 10:48:03] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.4a5.tar.gz tmp/nemusicapi-0.0.4a6.tar.gz --markdown 20230803/n/nemusicapi/0.0.4a5-0.0.4a6/diff.md --exclude *.pyd
+[2023-08-03 10:48:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/30/fb/dfe7b68548bc527c7eb35188b2710543b34f0883477f4fe637e08e39625c/syntaxlight-0.1.0.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.8.tar.gz]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.9.tar.gz]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [automation-file-dev]: Start processing: hiddifypanel
+[2023-08-03 10:48:03] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-08-03 10:48:03] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev0] Old Version: [7.1.9]
+[2023-08-03 10:48:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-08-03 10:48:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230803/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 10:48:03] INFO root fetch - processPackages [flowty]: Downloading https://files.pythonhosted.org/packages/03/c7/c0b43d2734b8a6b718e94e312738722832e69b9761bb0b40c2d1874c5a3b/flowty-1.5.0-py3-none-any.whl
+[2023-08-03 10:48:03] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-08-03 10:48:03] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.9.tar.gz tmp/syntaxlight-0.1.0.tar.gz --markdown 20230803/s/syntaxlight/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-03 10:48:03] INFO root fetch - processPackages [scipion-em-imod]: Downloading https://files.pythonhosted.org/packages/8d/ea/b737900f46e274cc7c2eded5268e9ddf882c46c4bede133056fe1b40da02/scipion-em-imod-3.1.9.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [chromatinhd]: Downloading https://files.pythonhosted.org/packages/72/5b/c26d6af6225afc0756a522cd3e48acc3da4303d32213719cd2c9485fc922/chromatinhd-0.0.18.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [geospacelab]: Downloading https://files.pythonhosted.org/packages/d6/f1/1d661ab4084061e7cfef4afd7345dd8d40f08435bb470ff3aba9e13c543e/geospacelab-0.6.5.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/05/d4/62624f77f4ec1289bc7bc2e0122fa8d4566a67c9a7c149de1361c928d072/hiddifypanel-7.1.9.tar.gz
+[2023-08-03 10:48:03] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-08-03 10:48:03] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230803/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 10:48:03] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/50/9d/5d313d1013d4f325e5e5acf7e7535e95e5cd1ae632e661ae592d8ece8ed6/micrologai-1.3.7.tar.gz
+[2023-08-03 10:48:04] INFO root fetch - processPackages [scipion-em-imod]: executing diffoscope
+[2023-08-03 10:48:04] INFO root fetch - processPackages [scipion-em-imod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-imod-3.1.8.tar.gz tmp/scipion-em-imod-3.1.9.tar.gz --markdown 20230803/s/scipion-em-imod/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-08-03 10:48:04] INFO root fetch - processPackages [geospacelab]: Downloading https://files.pythonhosted.org/packages/c1/f4/2f7d36c0738789438c5f3b7f388f2645879c5ee90820192437d3b1778b52/geospacelab-0.6.6.tar.gz
+[2023-08-03 10:48:04] INFO root fetch - processPackages [micrologai]: executing diffoscope
+[2023-08-03 10:48:04] INFO root fetch - processPackages [micrologai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrologai-1.3.6.tar.gz tmp/micrologai-1.3.7.tar.gz --markdown 20230803/m/micrologai/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-08-03 10:48:04] INFO root fetch - processPackages [chromatinhd]: Downloading https://files.pythonhosted.org/packages/37/f9/6b1068560b2425ea11a4a86d14b950330f39d169afcdd81712ec76c8dc4e/chromatinhd-0.0.19.tar.gz
+[2023-08-03 10:48:04] INFO root fetch - processPackages [geospacelab]: executing diffoscope
+[2023-08-03 10:48:04] INFO root fetch - processPackages [geospacelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geospacelab-0.6.5.tar.gz tmp/geospacelab-0.6.6.tar.gz --markdown 20230803/g/geospacelab/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-08-03 10:48:04] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/71/cb/19a8463d958e9da97cad75b01ffd58a601b4228ee34890aab53ae77cd3bc/hiddifypanel-8.0.0.dev0.tar.gz
+[2023-08-03 10:48:04] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.4a5.tar.gz]
+[2023-08-03 10:48:04] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.4a6.tar.gz]
+[2023-08-03 10:48:04] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 10:48:04] INFO root fetch - processPackages [flowty]: Downloading https://files.pythonhosted.org/packages/9c/f6/5c36f741cc6868a06eb37a9e836242358c91cded6624a4343b39f7c1f2ea/flowty-1.5.1-py3-none-any.whl
+[2023-08-03 10:48:04] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-08-03 10:48:04] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-08-03 10:48:04] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-08-03 10:48:04] INFO root fetch - processPackages [chromatinhd]: executing diffoscope
+[2023-08-03 10:48:04] INFO root fetch - processPackages [chromatinhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromatinhd-0.0.18.tar.gz tmp/chromatinhd-0.0.19.tar.gz --markdown 20230803/c/chromatinhd/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-08-03 10:48:04] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-03 10:48:04] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.1.9.tar.gz tmp/hiddifypanel-8.0.0.dev0.tar.gz --markdown 20230803/h/hiddifypanel/7.1.9-8.0.0.dev0/diff.md --exclude *.pyd
+[2023-08-03 10:48:04] INFO root fetch - processPackages [flowty]: executing diffoscope
+[2023-08-03 10:48:04] INFO root fetch - processPackages [flowty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowty-1.5.0-py3-none-any.whl.zip tmp/flowty-1.5.1-py3-none-any.whl.zip --markdown 20230803/f/flowty/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-08-03 10:48:05] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-08-03 10:48:05] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-08-03 10:48:05] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-08-03 10:48:05] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-08-03 10:48:05] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.0.tar.gz]
+[2023-08-03 10:48:05] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-08-03 10:48:05] INFO root fetch - processPackages [scipion-em-imod]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-imod-3.1.8.tar.gz]
+[2023-08-03 10:48:05] INFO root fetch - processPackages [scipion-em-imod]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-imod-3.1.9.tar.gz]
+[2023-08-03 10:48:05] INFO root fetch - main [MainThread]: End processing [scipion-em-imod]: success
+[2023-08-03 10:48:06] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.6.tar.gz]
+[2023-08-03 10:48:06] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.7.tar.gz]
+[2023-08-03 10:48:06] INFO root fetch - main [MainThread]: End processing [micrologai]: success
+[2023-08-03 10:48:06] INFO root fetch - processPackages [geospacelab]: Remove: archive file [/home/abi/fetcher/tmp/geospacelab-0.6.5.tar.gz]
+[2023-08-03 10:48:06] INFO root fetch - processPackages [geospacelab]: Remove: archive file [/home/abi/fetcher/tmp/geospacelab-0.6.6.tar.gz]
+[2023-08-03 10:48:06] INFO root fetch - main [MainThread]: End processing [geospacelab]: success
+[2023-08-03 10:48:07] INFO root fetch - processPackages [chromatinhd]: Remove: archive file [/home/abi/fetcher/tmp/chromatinhd-0.0.18.tar.gz]
+[2023-08-03 10:48:07] INFO root fetch - processPackages [chromatinhd]: Remove: archive file [/home/abi/fetcher/tmp/chromatinhd-0.0.19.tar.gz]
+[2023-08-03 10:48:07] INFO root fetch - main [MainThread]: End processing [chromatinhd]: success
+[2023-08-03 10:48:10] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.9.tar.gz]
+[2023-08-03 10:48:10] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev0.tar.gz]
+[2023-08-03 10:48:10] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-03 10:49:08] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-1.5.0-py3-none-any.whl.zip]
+[2023-08-03 10:49:08] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-1.5.1-py3-none-any.whl.zip]
+[2023-08-03 10:49:08] INFO root fetch - main [MainThread]: End processing [flowty]: success
+[2023-08-03 10:49:08] INFO root fetch - main [MainThread]: Store serial: [19156461]
