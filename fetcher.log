@@ -2118,3 +2118,183 @@
 [2023-08-03 02:12:35] INFO root fetch - processPackages [ixbrl-viewer]: Remove: archive file [/home/abi/fetcher/tmp/ixbrl-viewer-1.4.0.tar.gz]
 [2023-08-03 02:12:35] INFO root fetch - main [MainThread]: End processing [ixbrl-viewer]: success
 [2023-08-03 02:12:35] INFO root fetch - main [MainThread]: Store serial: [19150186]
+[2023-08-03 02:17:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19150186]
+[2023-08-03 02:17:44] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-03 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: speakeasy-client-sdk-python
+[2023-08-03 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: masto
+[2023-08-03 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-events-notify
+[2023-08-03 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gridworks-cert
+[2023-08-03 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databento
+[2023-08-03 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqPSS
+[2023-08-03 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-events-notify
+[2023-08-03 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-gitlab-runner
+[2023-08-03 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-skylight
+[2023-08-03 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: loss-mob
+[2023-08-03 02:17:44] WARNING root fetch - processPackages [masto]: Skipping, unable to determine old version
+[2023-08-03 02:17:44] INFO root fetch - processPackages [masto]: Start processing: odoo-addon-event-sale-session
+[2023-08-03 02:17:44] INFO root fetch - main [MainThread]: End processing [masto] error
+[2023-08-03 02:17:44] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-03 02:17:44] INFO root fetch - processPackages [databento]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-03 02:17:44] INFO root fetch - processPackages [loss-mob]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-03 02:17:44] INFO root fetch - processPackages [gridworks-cert]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-08-03 02:17:44] INFO root fetch - processPackages [seqPSS]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-03 02:17:44] INFO root fetch - processPackages [odoo-addon-event-sale-session]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.9]
+[2023-08-03 02:17:44] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-03 02:17:44] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-03 02:17:44] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-08-03 02:17:44] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 02:17:44] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/51/73/c74332634e8130c6b89c1c8307ea722240a132020fa5c51bd7f7854b0c05/speakeasy-client-sdk-python-1.9.0.tar.gz
+[2023-08-03 02:17:44] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-08-03 02:17:44] INFO root fetch - processPackages [gridworks-cert]: Downloading https://files.pythonhosted.org/packages/ed/4f/83e6a9b6a329eb699422f95821a0d4017b2b27a91114d944c5b4c385f08f/gridworks_cert-0.3.2.tar.gz
+[2023-08-03 02:17:44] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-08-03 02:17:44] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-08-03 02:17:44] INFO root fetch - processPackages [seqPSS]: Downloading https://files.pythonhosted.org/packages/df/4d/3a4cfd4ae5ac5fc960ddd669631979f1b1748bc93c4738747ff24c092e3e/seqPSS-0.0.6-py3-none-any.whl
+[2023-08-03 02:17:45] INFO root fetch - processPackages [loss-mob]: Downloading https://files.pythonhosted.org/packages/c7/5f/54457c597eb3e582040e328198d66ea2b9a86aede0fa06f4ef6599dee63e/loss_mob-0.1.2.tar.gz
+[2023-08-03 02:17:45] INFO root fetch - processPackages [databento]: Downloading https://files.pythonhosted.org/packages/0d/e4/10790d212df7a4c2dea782ab8b245802a946d6669038f3858c84767ecdda/databento-0.8.1.tar.gz
+[2023-08-03 02:17:45] INFO root fetch - processPackages [odoo-addon-event-sale-session]: Downloading https://files.pythonhosted.org/packages/05/78/9bbe71ed431fc7db80b7470b4f3226b5dfdeef198738b3bf9ef1c02469b6/odoo_addon_event_sale_session-16.0.1.0.0.9-py3-none-any.whl
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-08-03 02:17:45] INFO root fetch - processPackages [gridworks-cert]: Downloading https://files.pythonhosted.org/packages/b1/83/acd41b380b01a356cf60cfe7b645d9a4c1a21729d3c0b8899a3c12070135/gridworks_cert-0.4.0.tar.gz
+[2023-08-03 02:17:45] INFO root fetch - processPackages [loss-mob]: Downloading https://files.pythonhosted.org/packages/ba/20/8398dbc2ea4ef3d58ac068ac813fd91348c83c6a5464e3b934155457b362/loss_mob-0.1.3.tar.gz
+[2023-08-03 02:17:45] INFO root fetch - processPackages [seqPSS]: Downloading https://files.pythonhosted.org/packages/8a/42/e44e9674462da0b76199466b6bdf0d222d03c0123e1cfcc19b1754c276e0/seqPSS-0.0.7-py3-none-any.whl
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230803/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-03 02:17:45] INFO root fetch - processPackages [databento]: Downloading https://files.pythonhosted.org/packages/ec/da/e98fe04d3df728294a2fa7f56a0f9d17514e08ac81160fe5ff493b02cf31/databento-0.9.0.tar.gz
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230803/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230803/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-08-03 02:17:45] INFO root fetch - processPackages [loss-mob]: executing diffoscope
+[2023-08-03 02:17:45] INFO root fetch - processPackages [loss-mob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loss_mob-0.1.2.tar.gz tmp/loss_mob-0.1.3.tar.gz --markdown 20230803/l/loss-mob/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-03 02:17:45] INFO root fetch - processPackages [gridworks-cert]: executing diffoscope
+[2023-08-03 02:17:45] INFO root fetch - processPackages [gridworks-cert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_cert-0.3.2.tar.gz tmp/gridworks_cert-0.4.0.tar.gz --markdown 20230803/g/gridworks-cert/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-08-03 02:17:45] INFO root fetch - processPackages [seqPSS]: executing diffoscope
+[2023-08-03 02:17:45] INFO root fetch - processPackages [odoo-addon-event-sale-session]: Downloading https://files.pythonhosted.org/packages/7c/e3/5fa03bcdca35ee1afece3da89b9b70834a767ad4d4dfd5ae75ee9c900a96/odoo_addon_event_sale_session-16.0.1.0.1-py3-none-any.whl
+[2023-08-03 02:17:45] INFO root fetch - processPackages [seqPSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqPSS-0.0.6-py3-none-any.whl.zip tmp/seqPSS-0.0.7-py3-none-any.whl.zip --markdown 20230803/s/seqPSS/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-03 02:17:45] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/ec/17/af09933815cbb33c06f585554b6a5963756ed5573cefe2151dde0046ce62/speakeasy-client-sdk-python-1.9.1.tar.gz
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-08-03 02:17:45] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230803/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 02:17:45] INFO root fetch - processPackages [odoo-addon-event-sale-session]: executing diffoscope
+[2023-08-03 02:17:45] INFO root fetch - processPackages [odoo-addon-event-sale-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_sale_session-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_event_sale_session-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-event-sale-session/16.0.1.0.0.9-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-08-03 02:17:45] INFO root fetch - processPackages [databento]: executing diffoscope
+[2023-08-03 02:17:45] INFO root fetch - processPackages [databento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databento-0.8.1.tar.gz tmp/databento-0.9.0.tar.gz --markdown 20230803/d/databento/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 02:17:45] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-08-03 02:17:45] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230803/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdk-events-notify]: Start processing: litellm
+[2023-08-03 02:17:47] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-08-03 02:17:47] INFO root fetch - processPackages [litellm]: New version: [0.1.219] Old Version: [0.1.218]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/2b/f1/6b532e37066fd008ee3eb86d51cec6fcfba5bfbfd2770e2a3b03af2d166e/litellm-0.1.218.tar.gz
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdk-events-notify]: Start processing: pepperize.cdk-github
+[2023-08-03 02:17:47] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdk-skylight]: Start processing: single-linked-list
+[2023-08-03 02:17:47] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-08-03 02:17:47] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [single-linked-list]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [loss-mob]: Remove: archive file [/home/abi/fetcher/tmp/loss_mob-0.1.2.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [loss-mob]: Remove: archive file [/home/abi/fetcher/tmp/loss_mob-0.1.3.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [loss-mob]: Start processing: pytorch-ignite
+[2023-08-03 02:17:47] INFO root fetch - main [MainThread]: End processing [loss-mob]: success
+[2023-08-03 02:17:47] INFO root fetch - processPackages [seqPSS]: Remove: archive file [/home/abi/fetcher/tmp/seqPSS-0.0.6-py3-none-any.whl.zip]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [seqPSS]: Remove: archive file [/home/abi/fetcher/tmp/seqPSS-0.0.7-py3-none-any.whl.zip]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [seqPSS]: Start processing: anyforce
+[2023-08-03 02:17:47] INFO root fetch - main [MainThread]: End processing [seqPSS]: success
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdktf-gitlab-runner]: Start processing: switbuilder-core
+[2023-08-03 02:17:47] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-08-03 02:17:47] INFO root fetch - processPackages [odoo-addon-event-sale-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_sale_session-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [odoo-addon-event-sale-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_sale_session-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [odoo-addon-event-sale-session]: Start processing: zxkane.cdk-construct-simple-nat
+[2023-08-03 02:17:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-sale-session]: success
+[2023-08-03 02:17:47] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230803] Old Version: [0.5.0.dev20230802]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [gridworks-cert]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_cert-0.3.2.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [gridworks-cert]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_cert-0.4.0.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [gridworks-cert]: Start processing: cdk-amazon-chime-resources
+[2023-08-03 02:17:47] INFO root fetch - main [MainThread]: End processing [gridworks-cert]: success
+[2023-08-03 02:17:47] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-08-03 02:17:47] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/68/ab/1757c677bb8929728536bc9c0dbb1485d4cd07b464e93d25ab5e134fadef/litellm-0.1.219.tar.gz
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [switbuilder-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/22/cc/cda859d62419303a9e60d9a872028cd8fbdc7ded5591dbe43aabdfc0e615/pytorch-ignite-0.5.0.dev20230802.tar.gz
+[2023-08-03 02:17:47] INFO root fetch - processPackages [single-linked-list]: Downloading https://files.pythonhosted.org/packages/55/aa/34b6acfdd1272b1f8be8ee234b952e7ab394667cc50fb3f6fbcd3ce45149/single-linked-list-0.0.2.tar.gz
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/4c/ea/3ffe9aaa9fff3e6ce00cfde898a305f95a593308f75cbf8c8da89e04914e/cdk-amazon-chime-resources-2.4.8.tar.gz
+[2023-08-03 02:17:47] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-03 02:17:47] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.218.tar.gz tmp/litellm-0.1.219.tar.gz --markdown 20230803/l/litellm/0.1.218-0.1.219/diff.md --exclude *.pyd
+[2023-08-03 02:17:47] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/8e/42/0a609d15782dbbbc9ed11adae4b6947cb95d90050b2993420f854023f40d/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz
+[2023-08-03 02:17:47] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-08-03 02:17:47] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.0.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.1.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2023-08-03 02:17:47] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-08-03 02:17:47] INFO root fetch - processPackages [databento]: Remove: archive file [/home/abi/fetcher/tmp/databento-0.8.1.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [databento]: Remove: archive file [/home/abi/fetcher/tmp/databento-0.9.0.tar.gz]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [databento]: Start processing: seqPSS
+[2023-08-03 02:17:47] INFO root fetch - main [MainThread]: End processing [databento]: success
+[2023-08-03 02:17:47] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-08-03 02:17:47] INFO root fetch - processPackages [seqPSS]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/c2/88/8d845b42b8a0b630e8f3b72cafe18bb7ccca46b28477dc768f2f3a32acd9/switbuilder_core-0.0.8.tar.gz
+[2023-08-03 02:17:47] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2023-08-03 02:17:47] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-08-03 02:17:47] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230803/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 02:17:48] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/b9/f8/6046aa2afc88718422d134f2f5818c383b5e88aa849c8a4d74a3c1bf370e/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz
+[2023-08-03 02:17:48] INFO root fetch - processPackages [single-linked-list]: Downloading https://files.pythonhosted.org/packages/b5/7d/0d81ed45cc598195d75ad108109476bbba6d56bf1a220f8641da525b4694/single-linked-list-0.0.3.tar.gz
+[2023-08-03 02:17:48] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2023-08-03 02:17:48] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14616087>=10485760
+[2023-08-03 02:17:48] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-08-03 02:17:48] INFO root fetch - processPackages [seqPSS]: Downloading https://files.pythonhosted.org/packages/8a/42/e44e9674462da0b76199466b6bdf0d222d03c0123e1cfcc19b1754c276e0/seqPSS-0.0.7-py3-none-any.whl
+[2023-08-03 02:17:48] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/25/1a/3e0f61745c88b0fe3fb3aa5e2f9b6b29fa5b3d1d4bc896d9d756ed3f420c/pytorch-ignite-0.5.0.dev20230803.tar.gz
+[2023-08-03 02:17:48] INFO root fetch - processPackages [single-linked-list]: executing diffoscope
+[2023-08-03 02:17:48] INFO root fetch - processPackages [single-linked-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/single-linked-list-0.0.2.tar.gz tmp/single-linked-list-0.0.3.tar.gz --markdown 20230803/s/single-linked-list/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-03 02:17:48] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2023-08-03 02:17:48] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/20/8a/73027b935cadace2a996b7f38db3705600afcd06272f73aafaefe6052f41/switbuilder_core-0.0.9.tar.gz
+[2023-08-03 02:17:48] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-08-03 02:17:48] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230802.tar.gz tmp/pytorch-ignite-0.5.0.dev20230803.tar.gz --markdown 20230803/p/pytorch-ignite/0.5.0.dev20230802-0.5.0.dev20230803/diff.md --exclude *.pyd
+[2023-08-03 02:17:48] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-08-03 02:17:48] INFO root fetch - processPackages [seqPSS]: Downloading https://files.pythonhosted.org/packages/ae/4d/27ce30ebce8bfda15f5bc69770d44f7b404bc74c4c6bc249d29735e0e768/seqPSS-0.0.8-py3-none-any.whl
+[2023-08-03 02:17:48] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2023-08-03 02:17:48] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20230803/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2023-08-03 02:17:48] INFO root fetch - processPackages [switbuilder-core]: executing diffoscope
+[2023-08-03 02:17:48] INFO root fetch - processPackages [switbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switbuilder_core-0.0.8.tar.gz tmp/switbuilder_core-0.0.9.tar.gz --markdown 20230803/s/switbuilder-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 02:17:48] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-08-03 02:17:48] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230803/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 02:17:48] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.218.tar.gz]
+[2023-08-03 02:17:48] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.219.tar.gz]
+[2023-08-03 02:17:48] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-03 02:17:48] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: executing diffoscope
+[2023-08-03 02:17:48] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz --markdown 20230803/z/zxkane.cdk-construct-simple-nat/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-03 02:17:48] INFO root fetch - processPackages [seqPSS]: executing diffoscope
+[2023-08-03 02:17:48] INFO root fetch - processPackages [seqPSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqPSS-0.0.7-py3-none-any.whl.zip tmp/seqPSS-0.0.8-py3-none-any.whl.zip --markdown 20230803/s/seqPSS/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-03 02:17:49] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-08-03 02:17:49] INFO root fetch - processPackages [single-linked-list]: Remove: archive file [/home/abi/fetcher/tmp/single-linked-list-0.0.2.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - processPackages [single-linked-list]: Remove: archive file [/home/abi/fetcher/tmp/single-linked-list-0.0.3.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - main [MainThread]: End processing [single-linked-list]: success
+[2023-08-03 02:17:49] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2023-08-03 02:17:49] INFO root fetch - processPackages [seqPSS]: Remove: archive file [/home/abi/fetcher/tmp/seqPSS-0.0.7-py3-none-any.whl.zip]
+[2023-08-03 02:17:49] INFO root fetch - processPackages [seqPSS]: Remove: archive file [/home/abi/fetcher/tmp/seqPSS-0.0.8-py3-none-any.whl.zip]
+[2023-08-03 02:17:49] INFO root fetch - main [MainThread]: End processing [seqPSS]: success
+[2023-08-03 02:17:49] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.8.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.9.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
+[2023-08-03 02:17:49] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-08-03 02:17:49] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz]
+[2023-08-03 02:17:49] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
+[2023-08-03 02:17:50] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230802.tar.gz]
+[2023-08-03 02:17:50] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230803.tar.gz]
+[2023-08-03 02:17:50] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-08-03 02:17:50] INFO root fetch - main [MainThread]: Store serial: [19150247]
