@@ -11168,3 +11168,90 @@
 [2023-08-03 05:42:52] INFO root fetch - processPackages [jdcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/jdcloud_sdk-1.6.99.tar.gz]
 [2023-08-03 05:42:52] INFO root fetch - main [MainThread]: End processing [jdcloud-sdk]: success
 [2023-08-03 05:42:52] INFO root fetch - main [MainThread]: Store serial: [19153364]
+[2023-08-03 05:48:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153364]
+[2023-08-03 05:48:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-03 05:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-08-03 05:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-dev
+[2023-08-03 05:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iot-sdk-demo
+[2023-08-03 05:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lares
+[2023-08-03 05:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickscope
+[2023-08-03 05:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codedog
+[2023-08-03 05:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lastfm-mpris2-scrobbler
+[2023-08-03 05:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thinks-dash-components
+[2023-08-03 05:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupylot
+[2023-08-03 05:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydflow
+[2023-08-03 05:48:06] INFO root fetch - processPackages [codedog]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-08-03 05:48:06] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-03 05:48:06] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-03 05:48:06] INFO root fetch - processPackages [quickscope]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-03 05:48:06] INFO root fetch - processPackages [jupylot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-03 05:48:06] WARNING root fetch - processPackages [lares]: Skipping, unable to determine old version
+[2023-08-03 05:48:06] INFO root fetch - main [MainThread]: End processing [lares] error
+[2023-08-03 05:48:06] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-08-03 05:48:06] INFO root fetch - processPackages [composabl-dev]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev5]
+[2023-08-03 05:48:06] INFO root fetch - processPackages [iot-sdk-demo]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-03 05:48:06] INFO root fetch - processPackages [codedog]: Downloading https://files.pythonhosted.org/packages/19/b7/a7ce221613e2c42088b331f7702e8ed16098b03b7a8821004430a8db6371/codedog-0.5.4.tar.gz
+[2023-08-03 05:48:06] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/06/3e/4a343eabe9ed89bae6993d415f6f2a253dcdf14ecc8a7594e59f454f6987/thinks_dash_components-0.4.9.tar.gz
+[2023-08-03 05:48:06] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-08-03 05:48:06] INFO root fetch - processPackages [jupylot]: Downloading https://files.pythonhosted.org/packages/e4/3e/23a17be1df2e74fa8cd521f5eacbfe619831184699dd9b0a371eba6ccab7/jupylot-0.1.0.tar.gz
+[2023-08-03 05:48:06] INFO root fetch - processPackages [quickscope]: Downloading https://files.pythonhosted.org/packages/87/c5/3962f01d86057e85ba80f9054010bfa32b470c5bcdf1e062a9c3362c83aa/quickscope-0.1.4.tar.gz
+[2023-08-03 05:48:06] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/f5/02/2455d127b6a97727340fd4a20ff4530769b8af192ef4dfae422c7f214278/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 05:48:06] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-08-03 05:48:06] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-03 05:48:06] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Downloading https://files.pythonhosted.org/packages/ad/cd/11197f58e798ae5604eb8807dcc62837cd834d18f7f3e9e07dc1e4c704ec/lastfm-mpris2-scrobbler-0.2.1.tar.gz
+[2023-08-03 05:48:06] INFO root fetch - processPackages [iot-sdk-demo]: Downloading https://files.pythonhosted.org/packages/8b/76/bd97b618403ee6459ada691d0647372e0cfe436540cc6a62f9340c74693e/iot-sdk-demo-0.0.2.tar.gz
+[2023-08-03 05:48:06] INFO root fetch - processPackages [codedog]: Downloading https://files.pythonhosted.org/packages/db/06/36af2708e3faa6c947d78c1243bafbc70d315eaac26f182c5ce4f7f4f2b4/codedog-0.5.5.tar.gz
+[2023-08-03 05:48:06] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/eb/d8/83edf76e3fced44b3c3cb1b323c1d309640cd05bf1feb4af48bd4cbb988f/thinks_dash_components-0.5.0.tar.gz
+[2023-08-03 05:48:07] INFO root fetch - processPackages [jupylot]: Downloading https://files.pythonhosted.org/packages/7d/85/131228886cefa7940fad5215c9d07249b1bffd4a650d8253ed8f9e742fa5/jupylot-0.1.1.tar.gz
+[2023-08-03 05:48:07] INFO root fetch - processPackages [codedog]: executing diffoscope
+[2023-08-03 05:48:07] INFO root fetch - processPackages [codedog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedog-0.5.4.tar.gz tmp/codedog-0.5.5.tar.gz --markdown 20230803/c/codedog/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-08-03 05:48:07] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Downloading https://files.pythonhosted.org/packages/76/c2/913d09f0b1a52a15f41a69039b05c0e74c216d1946ae7d7a11c58081a53e/lastfm-mpris2-scrobbler-0.3.0.tar.gz
+[2023-08-03 05:48:07] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-08-03 05:48:07] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.4.9.tar.gz tmp/thinks_dash_components-0.5.0.tar.gz --markdown 20230803/t/thinks-dash-components/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-08-03 05:48:07] INFO root fetch - processPackages [quickscope]: Downloading https://files.pythonhosted.org/packages/ff/30/de2188931fb899d9a4047bda34df563e307022a33e5daf9d372a1184f12f/quickscope-0.1.5.tar.gz
+[2023-08-03 05:48:07] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-08-03 05:48:07] INFO root fetch - processPackages [iot-sdk-demo]: Downloading https://files.pythonhosted.org/packages/b6/3e/1dd5923501473885c5554018e0b717eacb2f8cd5951b032ab797b5b2f61d/iot-sdk-demo-0.0.3.tar.gz
+[2023-08-03 05:48:07] INFO root fetch - processPackages [jupylot]: executing diffoscope
+[2023-08-03 05:48:07] INFO root fetch - processPackages [jupylot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupylot-0.1.0.tar.gz tmp/jupylot-0.1.1.tar.gz --markdown 20230803/j/jupylot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-03 05:48:07] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-03 05:48:07] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: executing diffoscope
+[2023-08-03 05:48:07] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastfm-mpris2-scrobbler-0.2.1.tar.gz tmp/lastfm-mpris2-scrobbler-0.3.0.tar.gz --markdown 20230803/l/lastfm-mpris2-scrobbler/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-03 05:48:07] INFO root fetch - processPackages [quickscope]: executing diffoscope
+[2023-08-03 05:48:07] INFO root fetch - processPackages [quickscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickscope-0.1.4.tar.gz tmp/quickscope-0.1.5.tar.gz --markdown 20230803/q/quickscope/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-03 05:48:07] INFO root fetch - processPackages [iot-sdk-demo]: executing diffoscope
+[2023-08-03 05:48:07] INFO root fetch - processPackages [iot-sdk-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iot-sdk-demo-0.0.2.tar.gz tmp/iot-sdk-demo-0.0.3.tar.gz --markdown 20230803/i/iot-sdk-demo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-03 05:48:07] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-08-03 05:48:07] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230803/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-08-03 05:48:07] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-03 05:48:07] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230803/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-03 05:48:08] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Remove: archive file [/home/abi/fetcher/tmp/lastfm-mpris2-scrobbler-0.2.1.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Remove: archive file [/home/abi/fetcher/tmp/lastfm-mpris2-scrobbler-0.3.0.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - main [MainThread]: End processing [lastfm-mpris2-scrobbler]: success
+[2023-08-03 05:48:08] INFO root fetch - processPackages [codedog]: Remove: archive file [/home/abi/fetcher/tmp/codedog-0.5.4.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - processPackages [codedog]: Remove: archive file [/home/abi/fetcher/tmp/codedog-0.5.5.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - processPackages [jupylot]: Remove: archive file [/home/abi/fetcher/tmp/jupylot-0.1.0.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - main [MainThread]: End processing [codedog]: success
+[2023-08-03 05:48:08] INFO root fetch - processPackages [jupylot]: Remove: archive file [/home/abi/fetcher/tmp/jupylot-0.1.1.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - main [MainThread]: End processing [jupylot]: success
+[2023-08-03 05:48:08] INFO root fetch - processPackages [iot-sdk-demo]: Remove: archive file [/home/abi/fetcher/tmp/iot-sdk-demo-0.0.2.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - processPackages [iot-sdk-demo]: Remove: archive file [/home/abi/fetcher/tmp/iot-sdk-demo-0.0.3.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - main [MainThread]: End processing [iot-sdk-demo]: success
+[2023-08-03 05:48:08] INFO root fetch - processPackages [quickscope]: Remove: archive file [/home/abi/fetcher/tmp/quickscope-0.1.4.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - processPackages [quickscope]: Remove: archive file [/home/abi/fetcher/tmp/quickscope-0.1.5.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - main [MainThread]: End processing [quickscope]: success
+[2023-08-03 05:48:08] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-03 05:48:08] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-03 05:48:08] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-03 05:48:08] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/54/be/e399388bd48adf9263b327a838fa8fadc33f070b712563217db654e901ba/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 05:48:08] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-08-03 05:48:08] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-dev/0.3.9.dev5-0.3.9.dev8/diff.md --exclude *.pyd
+[2023-08-03 05:48:08] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-08-03 05:48:08] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-08-03 05:48:09] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.9.tar.gz]
+[2023-08-03 05:48:09] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.5.0.tar.gz]
+[2023-08-03 05:48:09] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-08-03 05:48:10] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev5-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 05:48:10] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 05:48:10] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-08-03 05:48:10] INFO root fetch - main [MainThread]: Store serial: [19153406]
