@@ -11255,3 +11255,63 @@
 [2023-08-03 05:48:10] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-08-03 05:48:10] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
 [2023-08-03 05:48:10] INFO root fetch - main [MainThread]: Store serial: [19153406]
+[2023-08-03 05:53:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153406]
+[2023-08-03 05:53:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-03 05:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composabl-core-dev
+[2023-08-03 05:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pedal
+[2023-08-03 05:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magnetocaloric
+[2023-08-03 05:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkms-cli
+[2023-08-03 05:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartkey-cli
+[2023-08-03 05:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-api-package-xpandapaws
+[2023-08-03 05:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openmodelz
+[2023-08-03 05:53:19] INFO root fetch - processPackages [magnetocaloric]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-08-03 05:53:19] WARNING root fetch - processPackages [google-api-package-xpandapaws]: Skipping, unable to determine old version
+[2023-08-03 05:53:19] INFO root fetch - main [MainThread]: End processing [google-api-package-xpandapaws] error
+[2023-08-03 05:53:19] INFO root fetch - processPackages [sdkms-cli]: New version: [4.9.2084] Old Version: [4.8.2070]
+[2023-08-03 05:53:19] INFO root fetch - processPackages [smartkey-cli]: New version: [4.9.2084] Old Version: [4.8.2070]
+[2023-08-03 05:53:19] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.3.9.dev24] Old Version: [0.3.9.dev20]
+[2023-08-03 05:53:19] INFO root fetch - processPackages [openmodelz]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-08-03 05:53:19] INFO root fetch - processPackages [pedal]: New version: [2.5.8] Old Version: [2.5.7]
+[2023-08-03 05:53:19] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/74/eb/4c1095f91131b4444d7fe22d2aecac9a1e1cf827f802213fa413e57a18b9/magnetocaloric-1.2.3.tar.gz
+[2023-08-03 05:53:19] INFO root fetch - processPackages [openmodelz]: Downloading https://files.pythonhosted.org/packages/de/1a/cb947b3f335590b30f595c343c52e5ab71d8f3587722aee6c29af21bf639/openmodelz-0.0.20.tar.gz
+[2023-08-03 05:53:19] INFO root fetch - processPackages [sdkms-cli]: Downloading https://files.pythonhosted.org/packages/ce/df/888a73dc14736bafe467cac490c2a231c34270ef4a248dc7e95c23a21cc6/sdkms_cli-4.8.2070-py2.py3-none-any.whl
+[2023-08-03 05:53:19] INFO root fetch - processPackages [pedal]: Downloading https://files.pythonhosted.org/packages/8f/fa/9fc1148e0d54365313f3f3de1ce38157d3a6eb70db0118f127a38e8613be/pedal-2.5.7.tar.gz
+[2023-08-03 05:53:19] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/5e/80/cd390b2838898d5c049705052da1d0c802fdccf99274446b099a438781f5/composabl_core_dev-0.3.9.dev20-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-03 05:53:19] INFO root fetch - processPackages [smartkey-cli]: Downloading https://files.pythonhosted.org/packages/ce/7f/001d24ce2bc35bcbc60039e7661442bdee657d5407a35f7c20b13c28eedf/smartkey_cli-4.8.2070-py2.py3-none-any.whl
+[2023-08-03 05:53:19] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/a3/a0/0851e6c811166c3d2d6d6eefcf5eacd40b417ffc796877d0afbc7f5cb560/magnetocaloric-1.2.4.tar.gz
+[2023-08-03 05:53:19] INFO root fetch - processPackages [openmodelz]: Downloading https://files.pythonhosted.org/packages/4b/e8/22e8e9bd4b6313095530f75068640c221bc5206100aa37d4f07d2192554e/openmodelz-0.0.21.tar.gz
+[2023-08-03 05:53:20] INFO root fetch - processPackages [magnetocaloric]: executing diffoscope
+[2023-08-03 05:53:20] INFO root fetch - processPackages [magnetocaloric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnetocaloric-1.2.3.tar.gz tmp/magnetocaloric-1.2.4.tar.gz --markdown 20230803/m/magnetocaloric/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-08-03 05:53:20] INFO root fetch - processPackages [pedal]: Downloading https://files.pythonhosted.org/packages/69/75/e9c67cb94c199f437f6d65c6c111c184bfc3884316117207626437f791f5/pedal-2.5.8.tar.gz
+[2023-08-03 05:53:20] INFO root fetch - processPackages [openmodelz]: executing diffoscope
+[2023-08-03 05:53:20] INFO root fetch - processPackages [openmodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodelz-0.0.20.tar.gz tmp/openmodelz-0.0.21.tar.gz --markdown 20230803/o/openmodelz/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-08-03 05:53:20] INFO root fetch - processPackages [pedal]: executing diffoscope
+[2023-08-03 05:53:20] INFO root fetch - processPackages [pedal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pedal-2.5.7.tar.gz tmp/pedal-2.5.8.tar.gz --markdown 20230803/p/pedal/2.5.7-2.5.8/diff.md --exclude *.pyd
+[2023-08-03 05:53:20] INFO root fetch - processPackages [smartkey-cli]: Downloading https://files.pythonhosted.org/packages/37/13/b20a475fdb812f59d94fa3522bb4a8625fa1b85c10b0daac1e9eaf549d60/smartkey_cli-4.9.2084-py3-none-any.whl
+[2023-08-03 05:53:20] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/53/52/e9fd739746d2b231e97a07ac5bf5850802accd6bc75b07d8cd2dfa1a1de7/composabl_core_dev-0.3.9.dev24-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-03 05:53:20] INFO root fetch - processPackages [sdkms-cli]: Downloading https://files.pythonhosted.org/packages/1d/ab/2ce96f7ea033e0563c2cf90b1912ff4248926a3362c7af09515ba3b6c790/sdkms_cli-4.9.2084-py3-none-any.whl
+[2023-08-03 05:53:20] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.2.3.tar.gz]
+[2023-08-03 05:53:20] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.2.4.tar.gz]
+[2023-08-03 05:53:20] INFO root fetch - main [MainThread]: End processing [magnetocaloric]: success
+[2023-08-03 05:53:20] INFO root fetch - processPackages [composabl-core-dev]: executing diffoscope
+[2023-08-03 05:53:20] INFO root fetch - processPackages [composabl-core-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_core_dev-0.3.9.dev20-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_core_dev-0.3.9.dev24-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230803/c/composabl-core-dev/0.3.9.dev20-0.3.9.dev24/diff.md --exclude *.pyd
+[2023-08-03 05:53:20] INFO root fetch - processPackages [sdkms-cli]: executing diffoscope
+[2023-08-03 05:53:20] INFO root fetch - processPackages [sdkms-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkms_cli-4.8.2070-py2.py3-none-any.whl.zip tmp/sdkms_cli-4.9.2084-py3-none-any.whl.zip --markdown 20230803/s/sdkms-cli/4.8.2070-4.9.2084/diff.md --exclude *.pyd
+[2023-08-03 05:53:21] INFO root fetch - processPackages [smartkey-cli]: executing diffoscope
+[2023-08-03 05:53:21] INFO root fetch - processPackages [smartkey-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartkey_cli-4.8.2070-py2.py3-none-any.whl.zip tmp/smartkey_cli-4.9.2084-py3-none-any.whl.zip --markdown 20230803/s/smartkey-cli/4.8.2070-4.9.2084/diff.md --exclude *.pyd
+[2023-08-03 05:53:21] INFO root fetch - processPackages [pedal]: Remove: archive file [/home/abi/fetcher/tmp/pedal-2.5.7.tar.gz]
+[2023-08-03 05:53:21] INFO root fetch - processPackages [pedal]: Remove: archive file [/home/abi/fetcher/tmp/pedal-2.5.8.tar.gz]
+[2023-08-03 05:53:21] INFO root fetch - main [MainThread]: End processing [pedal]: success
+[2023-08-03 05:53:21] INFO root fetch - processPackages [sdkms-cli]: Remove: archive file [/home/abi/fetcher/tmp/sdkms_cli-4.8.2070-py2.py3-none-any.whl.zip]
+[2023-08-03 05:53:21] INFO root fetch - processPackages [sdkms-cli]: Remove: archive file [/home/abi/fetcher/tmp/sdkms_cli-4.9.2084-py3-none-any.whl.zip]
+[2023-08-03 05:53:21] INFO root fetch - main [MainThread]: End processing [sdkms-cli]: success
+[2023-08-03 05:53:22] INFO root fetch - processPackages [openmodelz]: Remove: archive file [/home/abi/fetcher/tmp/openmodelz-0.0.20.tar.gz]
+[2023-08-03 05:53:22] INFO root fetch - processPackages [openmodelz]: Remove: archive file [/home/abi/fetcher/tmp/openmodelz-0.0.21.tar.gz]
+[2023-08-03 05:53:22] INFO root fetch - main [MainThread]: End processing [openmodelz]: success
+[2023-08-03 05:53:22] INFO root fetch - processPackages [smartkey-cli]: Remove: archive file [/home/abi/fetcher/tmp/smartkey_cli-4.8.2070-py2.py3-none-any.whl.zip]
+[2023-08-03 05:53:22] INFO root fetch - processPackages [smartkey-cli]: Remove: archive file [/home/abi/fetcher/tmp/smartkey_cli-4.9.2084-py3-none-any.whl.zip]
+[2023-08-03 05:53:22] INFO root fetch - main [MainThread]: End processing [smartkey-cli]: success
+[2023-08-03 05:53:44] INFO root fetch - processPackages [composabl-core-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_core_dev-0.3.9.dev20-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-03 05:53:44] INFO root fetch - processPackages [composabl-core-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_core_dev-0.3.9.dev24-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-03 05:53:44] INFO root fetch - main [MainThread]: End processing [composabl-core-dev]: success
+[2023-08-03 05:53:44] INFO root fetch - main [MainThread]: Store serial: [19153435]
