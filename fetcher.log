@@ -21472,3 +21472,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 12:57:22] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.9.tar.gz]
 [2023-08-03 12:57:22] INFO root fetch - main [MainThread]: End processing [webcam]: success
 [2023-08-03 12:57:22] INFO root fetch - main [MainThread]: Store serial: [19157877]
+[2023-08-03 13:02:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157877]
+[2023-08-03 13:02:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-03 13:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imagedata
+[2023-08-03 13:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-uvdiviner
+[2023-08-03 13:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ANSIController
+[2023-08-03 13:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastlogistic
+[2023-08-03 13:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seaplane
+[2023-08-03 13:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seaplane
+[2023-08-03 13:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-bawiki
+[2023-08-03 13:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: web-fragments
+[2023-08-03 13:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sympy2c
+[2023-08-03 13:02:31] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.88]
+[2023-08-03 13:02:31] WARNING root fetch - processPackages [nonebot-plugin-uvdiviner]: Skipping, unable to determine old version
+[2023-08-03 13:02:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-uvdiviner] error
+[2023-08-03 13:02:31] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.88]
+[2023-08-03 13:02:31] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/03/da/9dd4a371cdb6acfb048764d1aaf96a746dc89baae20f7e298bb087353e96/seaplane-0.3.88.tar.gz
+[2023-08-03 13:02:31] ERROR root fetch - processPackages [fastlogistic]: Unable to get metadata: No such project 'fastlogistic'
+[2023-08-03 13:02:31] INFO root fetch - main [MainThread]: End processing [fastlogistic] error
+[2023-08-03 13:02:31] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/03/da/9dd4a371cdb6acfb048764d1aaf96a746dc89baae20f7e298bb087353e96/seaplane-0.3.88.tar.gz
+[2023-08-03 13:02:31] INFO root fetch - processPackages [sympy2c]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-08-03 13:02:31] INFO root fetch - processPackages [web-fragments]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-08-03 13:02:31] WARNING root fetch - processPackages [ANSIController]: Skipping, unable to determine old version
+[2023-08-03 13:02:31] INFO root fetch - main [MainThread]: End processing [ANSIController] error
+[2023-08-03 13:02:31] INFO root fetch - processPackages [imagedata]: New version: [3.0.0rc0] Old Version: [2.1.3]
+[2023-08-03 13:02:31] INFO root fetch - processPackages [nonebot-plugin-bawiki]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-03 13:02:32] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-08-03 13:02:32] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Downloading https://files.pythonhosted.org/packages/dd/c5/38a98fc890f8b22277ab0fb7cb51c7a05de1297ae3097f45eb09f0449d10/nonebot_plugin_bawiki-0.8.2.tar.gz
+[2023-08-03 13:02:32] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-08-03 13:02:32] INFO root fetch - processPackages [web-fragments]: Downloading https://files.pythonhosted.org/packages/26/7a/099f7b4d0af9a058b42e0c58ba59557e6b865aa77a36b24dc93b5168de9e/web-fragments-2.0.0.tar.gz
+[2023-08-03 13:02:32] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/f4/ff/1bcbfaca28958661fdcd38dbeb829a9b074cddf4576b013e6cb151fb690d/imagedata-2.1.3.tar.gz
+[2023-08-03 13:02:32] INFO root fetch - processPackages [sympy2c]: Downloading https://files.pythonhosted.org/packages/60/4c/c245241b4a7103594845ba0b22843f5c4fb51aa76cc72f7bc5651246816a/sympy2c-2.2.3.tar.gz
+[2023-08-03 13:02:32] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 21793935>=10485760
+[2023-08-03 13:02:32] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2023-08-03 13:02:32] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-08-03 13:02:32] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.88.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230803/s/seaplane/0.3.88-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 13:02:32] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-08-03 13:02:32] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.88.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230803/s/seaplane/0.3.88-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 13:02:32] INFO root fetch - processPackages [sympy2c]: Downloading https://files.pythonhosted.org/packages/01/72/f2e7ec593ec31c82627c77e3e8d0a75420b1ff79575d4efed515b608589f/sympy2c-2.2.4.tar.gz
+[2023-08-03 13:02:32] INFO root fetch - processPackages [web-fragments]: Downloading https://files.pythonhosted.org/packages/b2/a4/dbdf82051c3f9a1da81a3c2c5125b5065f417c00ad27de9b73c6d0a5b512/web-fragments-2.1.0.tar.gz
+[2023-08-03 13:02:32] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Downloading https://files.pythonhosted.org/packages/9c/c6/0215889230cbad499786ef7eb9973243ee7a22eb8d4f362041fc172a1aa6/nonebot_plugin_bawiki-0.8.3.tar.gz
+[2023-08-03 13:02:32] INFO root fetch - processPackages [sympy2c]: executing diffoscope
+[2023-08-03 13:02:32] INFO root fetch - processPackages [sympy2c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sympy2c-2.2.3.tar.gz tmp/sympy2c-2.2.4.tar.gz --markdown 20230803/s/sympy2c/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-08-03 13:02:32] INFO root fetch - processPackages [web-fragments]: executing diffoscope
+[2023-08-03 13:02:32] INFO root fetch - processPackages [web-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-fragments-2.0.0.tar.gz tmp/web-fragments-2.1.0.tar.gz --markdown 20230803/w/web-fragments/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-08-03 13:02:33] INFO root fetch - processPackages [nonebot-plugin-bawiki]: executing diffoscope
+[2023-08-03 13:02:33] INFO root fetch - processPackages [nonebot-plugin-bawiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bawiki-0.8.2.tar.gz tmp/nonebot_plugin_bawiki-0.8.3.tar.gz --markdown 20230803/n/nonebot-plugin-bawiki/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-03 13:02:33] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.88.tar.gz]
+[2023-08-03 13:02:33] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-08-03 13:02:33] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-08-03 13:02:33] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-08-03 13:02:33] INFO root fetch - processPackages [web-fragments]: Remove: archive file [/home/abi/fetcher/tmp/web-fragments-2.0.0.tar.gz]
+[2023-08-03 13:02:33] INFO root fetch - processPackages [web-fragments]: Remove: archive file [/home/abi/fetcher/tmp/web-fragments-2.1.0.tar.gz]
+[2023-08-03 13:02:33] INFO root fetch - main [MainThread]: End processing [web-fragments]: success
+[2023-08-03 13:02:34] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bawiki-0.8.2.tar.gz]
+[2023-08-03 13:02:34] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bawiki-0.8.3.tar.gz]
+[2023-08-03 13:02:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bawiki]: success
+[2023-08-03 13:02:35] INFO root fetch - processPackages [sympy2c]: Remove: archive file [/home/abi/fetcher/tmp/sympy2c-2.2.3.tar.gz]
+[2023-08-03 13:02:35] INFO root fetch - processPackages [sympy2c]: Remove: archive file [/home/abi/fetcher/tmp/sympy2c-2.2.4.tar.gz]
+[2023-08-03 13:02:35] INFO root fetch - main [MainThread]: End processing [sympy2c]: success
+[2023-08-03 13:02:35] INFO root fetch - main [MainThread]: Store serial: [19157909]
