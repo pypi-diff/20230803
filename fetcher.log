@@ -22065,3 +22065,133 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 13:18:23] INFO root fetch - processPackages [datapackage-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/datapackage-pipelines-2.2.9.tar.gz]
 [2023-08-03 13:18:23] INFO root fetch - main [MainThread]: End processing [datapackage-pipelines]: success
 [2023-08-03 13:18:23] INFO root fetch - main [MainThread]: Store serial: [19158151]
+[2023-08-03 13:23:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19158151]
+[2023-08-03 13:23:32] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-03 13:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-atc
+[2023-08-03 13:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-keycloak-utils
+[2023-08-03 13:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyecs
+[2023-08-03 13:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tb-nightly
+[2023-08-03 13:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiohutils
+[2023-08-03 13:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uvdiviner
+[2023-08-03 13:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: khmercut
+[2023-08-03 13:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-keycloak-utils
+[2023-08-03 13:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tap-pendo
+[2023-08-03 13:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finterion-investing-algorithm-framework
+[2023-08-03 13:23:32] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-08-03 13:23:32] INFO root fetch - processPackages [py-keycloak-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-03 13:23:32] INFO root fetch - processPackages [easyecs]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-03 13:23:32] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: New version: [0.8] Old Version: [0.7]
+[2023-08-03 13:23:32] INFO root fetch - processPackages [uvdiviner]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-03 13:23:32] INFO root fetch - processPackages [aiohutils]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-08-03 13:23:32] INFO root fetch - processPackages [py-keycloak-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-03 13:23:32] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/b3/dc/1ac154659ac46e9097173c936871e0aa02fd17874a65a329fc23f1acbf23/easyecs-0.3.1.tar.gz
+[2023-08-03 13:23:32] WARNING root fetch - processPackages [khmercut]: Skipping, unable to determine old version
+[2023-08-03 13:23:32] INFO root fetch - processPackages [khmercut]: Start processing: pymeten
+[2023-08-03 13:23:32] INFO root fetch - main [MainThread]: End processing [khmercut] error
+[2023-08-03 13:23:32] INFO root fetch - processPackages [tap-pendo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-03 13:23:32] INFO root fetch - processPackages [llm-atc]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-03 13:23:32] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/d2/7c/3f315ee37a272855580d5f9dcbf6ac484344bd9089815fce727e11c775bf/finterion_investing_algorithm_framework-0.7-py3-none-any.whl
+[2023-08-03 13:23:33] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-08-03 13:23:33] INFO root fetch - processPackages [uvdiviner]: Downloading https://files.pythonhosted.org/packages/4e/1a/38d39376fe07b060cf02d42c5026f595bb550708fd58c311d8382676eda6/uvdiviner-2.1.1.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [py-keycloak-utils]: Downloading https://files.pythonhosted.org/packages/cf/23/4c0455857c3795cae68a4954616bf0c9d99504aa5e3b15377c1654f9289a/py-keycloak-utils-1.0.1.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [aiohutils]: Downloading https://files.pythonhosted.org/packages/0e/33/f7f18eb016dcc1d6df525cd779887cfb1aeff0111d97688bf0610f5f585c/aiohutils-0.7.1.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [py-keycloak-utils]: Downloading https://files.pythonhosted.org/packages/cf/23/4c0455857c3795cae68a4954616bf0c9d99504aa5e3b15377c1654f9289a/py-keycloak-utils-1.0.1.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [pymeten]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-03 13:23:33] INFO root fetch - processPackages [llm-atc]: Downloading https://files.pythonhosted.org/packages/e7/57/a40790bf9bf5cb5befda7dfdd846806822cf9121cfb6821ad9db1c0a908e/llm_atc-0.1.1.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [tap-pendo]: Downloading https://files.pythonhosted.org/packages/33/e6/83db8e012997c6822288f75e90da1bcc5f95b0b021b58406f2fdd9431a93/tap-pendo-1.0.0.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [pymeten]: Downloading https://files.pythonhosted.org/packages/b7/1b/c0e7d6aaf3318f9273b113436cb92fb0ccc240f1b7c607043c529196bacc/pymeten-0.0.2.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/61/eb/47f9a4a5a24d0fa92af986815a867a3e0ee07802d6de055e4a7ac33eb400/easyecs-0.3.2.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/f5/c4/ada8eaadd33d5dc793282490ae16c12335f45b0aefffa4d8ae36a4bc8a84/finterion_investing_algorithm_framework-0.8-py3-none-any.whl
+[2023-08-03 13:23:33] INFO root fetch - processPackages [aiohutils]: Downloading https://files.pythonhosted.org/packages/ae/c0/46c886a99dbe0f1153660f93567a60d8b9c73ea3fd1304056e2b2d931899/aiohutils-0.8.0.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [uvdiviner]: Downloading https://files.pythonhosted.org/packages/c8/6a/eb37eb38cc1141fd633699429e01083bac549d9c80098fdd75a05427bf5a/uvdiviner-2.1.2.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [py-keycloak-utils]: Downloading https://files.pythonhosted.org/packages/9f/89/d03bfc956d8dc9888c9fd87055eb5f13e340f9785da0a3f9d1d2a7a45ba3/py-keycloak-utils-1.0.2.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [py-keycloak-utils]: Downloading https://files.pythonhosted.org/packages/9f/89/d03bfc956d8dc9888c9fd87055eb5f13e340f9785da0a3f9d1d2a7a45ba3/py-keycloak-utils-1.0.2.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: executing diffoscope
+[2023-08-03 13:23:33] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterion_investing_algorithm_framework-0.7-py3-none-any.whl.zip tmp/finterion_investing_algorithm_framework-0.8-py3-none-any.whl.zip --markdown 20230803/f/finterion-investing-algorithm-framework/0.7-0.8/diff.md --exclude *.pyd
+[2023-08-03 13:23:33] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-08-03 13:23:33] INFO root fetch - processPackages [easyecs]: executing diffoscope
+[2023-08-03 13:23:33] INFO root fetch - processPackages [easyecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyecs-0.3.1.tar.gz tmp/easyecs-0.3.2.tar.gz --markdown 20230803/e/easyecs/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-03 13:23:33] INFO root fetch - processPackages [llm-atc]: Downloading https://files.pythonhosted.org/packages/91/70/a62dbe61e78b4194c802c152e24ca850067671d47cab0303e9d9bb31b0db/llm_atc-0.1.2.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [py-keycloak-utils]: executing diffoscope
+[2023-08-03 13:23:33] INFO root fetch - processPackages [py-keycloak-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-keycloak-utils-1.0.1.tar.gz tmp/py-keycloak-utils-1.0.2.tar.gz --markdown 20230803/p/py-keycloak-utils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-03 13:23:33] INFO root fetch - processPackages [aiohutils]: executing diffoscope
+[2023-08-03 13:23:33] INFO root fetch - processPackages [aiohutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohutils-0.7.1.tar.gz tmp/aiohutils-0.8.0.tar.gz --markdown 20230803/a/aiohutils/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-08-03 13:23:33] INFO root fetch - processPackages [uvdiviner]: executing diffoscope
+[2023-08-03 13:23:33] INFO root fetch - processPackages [uvdiviner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvdiviner-2.1.1.tar.gz tmp/uvdiviner-2.1.2.tar.gz --markdown 20230803/u/uvdiviner/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-03 13:23:33] INFO root fetch - processPackages [py-keycloak-utils]: executing diffoscope
+[2023-08-03 13:23:33] INFO root fetch - processPackages [py-keycloak-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-keycloak-utils-1.0.1.tar.gz tmp/py-keycloak-utils-1.0.2.tar.gz --markdown 20230803/p/py-keycloak-utils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-03 13:23:33] INFO root fetch - processPackages [pymeten]: Downloading https://files.pythonhosted.org/packages/1b/08/f04882047cc6a63e3708c334c4fdd561c8a331f508573d491cce1085893e/pymeten-0.0.3.tar.gz
+[2023-08-03 13:23:33] INFO root fetch - processPackages [tap-pendo]: Downloading https://files.pythonhosted.org/packages/79/f8/7c5d58b7594c705cbdca53755721f142f4d1678d43a988793064afa30fc1/tap-pendo-1.0.1.tar.gz
+[2023-08-03 13:23:34] INFO root fetch - processPackages [llm-atc]: executing diffoscope
+[2023-08-03 13:23:34] INFO root fetch - processPackages [llm-atc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_atc-0.1.1.tar.gz tmp/llm_atc-0.1.2.tar.gz --markdown 20230803/l/llm-atc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-03 13:23:34] INFO root fetch - processPackages [pymeten]: executing diffoscope
+[2023-08-03 13:23:34] INFO root fetch - processPackages [pymeten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeten-0.0.2.tar.gz tmp/pymeten-0.0.3.tar.gz --markdown 20230803/p/pymeten/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-03 13:23:34] INFO root fetch - processPackages [tap-pendo]: executing diffoscope
+[2023-08-03 13:23:34] INFO root fetch - processPackages [tap-pendo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-pendo-1.0.0.tar.gz tmp/tap-pendo-1.0.1.tar.gz --markdown 20230803/t/tap-pendo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-03 13:23:34] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-08-03 13:23:34] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230803/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-08-03 13:23:35] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.7-py3-none-any.whl.zip]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.8-py3-none-any.whl.zip]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Start processing: nonebot-plugin-uvdiviner
+[2023-08-03 13:23:35] INFO root fetch - main [MainThread]: End processing [finterion-investing-algorithm-framework]: success
+[2023-08-03 13:23:35] INFO root fetch - processPackages [aiohutils]: Remove: archive file [/home/abi/fetcher/tmp/aiohutils-0.7.1.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [aiohutils]: Remove: archive file [/home/abi/fetcher/tmp/aiohutils-0.8.0.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [aiohutils]: Start processing: aiounifi
+[2023-08-03 13:23:35] INFO root fetch - main [MainThread]: End processing [aiohutils]: success
+[2023-08-03 13:23:35] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: New version: [2.1.2.1] Old Version: [2.1.2]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.3.1.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.3.2.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [easyecs]: Start processing: matflow-new
+[2023-08-03 13:23:35] INFO root fetch - main [MainThread]: End processing [easyecs]: success
+[2023-08-03 13:23:35] INFO root fetch - processPackages [aiounifi]: New version: [9] Old Version: [8]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Downloading https://files.pythonhosted.org/packages/7b/2f/ded138b9badeeb9625e6e1a06dde80ec3addb4015d35e6bdbce57316f852/nonebot-plugin-uvdiviner-2.1.2.tar.gz
+[2023-08-03 13:23:35] INFO root fetch - processPackages [py-keycloak-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-keycloak-utils-1.0.1.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [py-keycloak-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-keycloak-utils-1.0.2.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [py-keycloak-utils]: Start processing: omni-infer-api
+[2023-08-03 13:23:35] INFO root fetch - main [MainThread]: End processing [py-keycloak-utils]: success
+[2023-08-03 13:23:35] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [pymeten]: Remove: archive file [/home/abi/fetcher/tmp/pymeten-0.0.2.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [pymeten]: Remove: archive file [/home/abi/fetcher/tmp/pymeten-0.0.3.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - main [MainThread]: End processing [pymeten]: success
+[2023-08-03 13:23:35] INFO root fetch - processPackages [uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/uvdiviner-2.1.1.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/uvdiviner-2.1.2.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - main [MainThread]: End processing [uvdiviner]: success
+[2023-08-03 13:23:35] INFO root fetch - main [MainThread]: End processing [py-keycloak-utils]: success
+[2023-08-03 13:23:35] INFO root fetch - processPackages [omni-infer-api]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [llm-atc]: Remove: archive file [/home/abi/fetcher/tmp/llm_atc-0.1.1.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [llm-atc]: Remove: archive file [/home/abi/fetcher/tmp/llm_atc-0.1.2.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - processPackages [tap-pendo]: Remove: archive file [/home/abi/fetcher/tmp/tap-pendo-1.0.0.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - main [MainThread]: End processing [llm-atc]: success
+[2023-08-03 13:23:35] INFO root fetch - processPackages [tap-pendo]: Remove: archive file [/home/abi/fetcher/tmp/tap-pendo-1.0.1.tar.gz]
+[2023-08-03 13:23:35] INFO root fetch - main [MainThread]: End processing [tap-pendo]: success
+[2023-08-03 13:23:35] INFO root fetch - processPackages [aiounifi]: Downloading https://files.pythonhosted.org/packages/f2/d3/41ed032ca77b591345ff1acab6e3e73548f1f1c7db8e05326edeca8c7c4a/aiounifi-8.tar.gz
+[2023-08-03 13:23:35] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/33/06/64bf36c9f9b85be9b3b28a1d21d5a2698384823379079834bc89f2af1e7e/matflow_new-0.3.0a8.tar.gz
+[2023-08-03 13:23:36] INFO root fetch - processPackages [omni-infer-api]: Downloading https://files.pythonhosted.org/packages/ad/3d/48faa2a9a25127f39fdd9341be6c6972f0894baccc4594693e910a65c643/omni_infer_api-0.0.7-py3-none-any.whl
+[2023-08-03 13:23:36] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Downloading https://files.pythonhosted.org/packages/47/8a/d1179a45fa2a8ed03633be9f47417e8b796a028dc2b61371bc3e1809ef6b/nonebot-plugin-uvdiviner-2.1.2.1.tar.gz
+[2023-08-03 13:23:36] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: executing diffoscope
+[2023-08-03 13:23:36] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-uvdiviner-2.1.2.tar.gz tmp/nonebot-plugin-uvdiviner-2.1.2.1.tar.gz --markdown 20230803/n/nonebot-plugin-uvdiviner/2.1.2-2.1.2.1/diff.md --exclude *.pyd
+[2023-08-03 13:23:36] INFO root fetch - processPackages [aiounifi]: Downloading https://files.pythonhosted.org/packages/3e/99/3710e9e4e2c4d5e01f2fb4a1a2459a673a60a56c632f11644e0848e8d92a/aiounifi-9.tar.gz
+[2023-08-03 13:23:36] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/68/c9/418420420155f18aa38d7861e0cfcd92e65ff36933188ec860c52817fd64/matflow_new-0.3.0a9.tar.gz
+[2023-08-03 13:23:36] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-08-03 13:23:36] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230803/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-08-03 13:23:36] INFO root fetch - processPackages [omni-infer-api]: Downloading https://files.pythonhosted.org/packages/4d/1a/06ce79e3f61b8c9c42a8382e2eda88b80ce3c38399fb4f4db654e0fb53d9/omni_infer_api-0.0.8-py3-none-any.whl
+[2023-08-03 13:23:36] INFO root fetch - processPackages [aiounifi]: executing diffoscope
+[2023-08-03 13:23:36] INFO root fetch - processPackages [aiounifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiounifi-8.tar.gz tmp/aiounifi-9.tar.gz --markdown 20230803/a/aiounifi/8-9/diff.md --exclude *.pyd
+[2023-08-03 13:23:36] INFO root fetch - processPackages [omni-infer-api]: executing diffoscope
+[2023-08-03 13:23:36] INFO root fetch - processPackages [omni-infer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni_infer_api-0.0.7-py3-none-any.whl.zip tmp/omni_infer_api-0.0.8-py3-none-any.whl.zip --markdown 20230803/o/omni-infer-api/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-03 13:23:37] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-uvdiviner-2.1.2.tar.gz]
+[2023-08-03 13:23:37] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-uvdiviner-2.1.2.1.tar.gz]
+[2023-08-03 13:23:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-uvdiviner]: success
+[2023-08-03 13:23:37] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a8.tar.gz]
+[2023-08-03 13:23:37] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a9.tar.gz]
+[2023-08-03 13:23:37] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-08-03 13:23:37] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-08-03 13:23:37] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-08-03 13:23:37] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-08-03 13:23:37] INFO root fetch - processPackages [aiounifi]: Remove: archive file [/home/abi/fetcher/tmp/aiounifi-8.tar.gz]
+[2023-08-03 13:23:37] INFO root fetch - processPackages [aiounifi]: Remove: archive file [/home/abi/fetcher/tmp/aiounifi-9.tar.gz]
+[2023-08-03 13:23:37] INFO root fetch - main [MainThread]: End processing [aiounifi]: success
+[2023-08-03 13:23:37] INFO root fetch - processPackages [omni-infer-api]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api-0.0.7-py3-none-any.whl.zip]
+[2023-08-03 13:23:37] INFO root fetch - processPackages [omni-infer-api]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api-0.0.8-py3-none-any.whl.zip]
+[2023-08-03 13:23:37] INFO root fetch - main [MainThread]: End processing [omni-infer-api]: success
+[2023-08-03 13:23:37] INFO root fetch - main [MainThread]: Store serial: [19158198]
