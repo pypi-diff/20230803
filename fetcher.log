@@ -15530,3 +15530,270 @@ AssertionError: tmp/cjptools-0.1.4.tar.gz does not exist
 [2023-08-03 09:53:22] INFO root fetch - processPackages [fofpy]: Remove: archive file [/home/abi/fetcher/tmp/fofpy-1.0.9.tar.gz]
 [2023-08-03 09:53:22] INFO root fetch - main [MainThread]: End processing [fofpy]: success
 [2023-08-03 09:53:22] INFO root fetch - main [MainThread]: Store serial: [19155536]
+[2023-08-03 09:58:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19155536]
+[2023-08-03 09:58:31] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-08-03 09:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pbs-builder
+[2023-08-03 09:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat-mod303
+[2023-08-03 09:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nomenklatura
+[2023-08-03 09:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nemusicapi
+[2023-08-03 09:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: projen
+[2023-08-03 09:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cm-two
+[2023-08-03 09:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyobs-core
+[2023-08-03 09:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: naipng
+[2023-08-03 09:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: boostnano
+[2023-08-03 09:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xron
+[2023-08-03 09:58:32] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: New version: [16.0.2.3.1] Old Version: [16.0.2.3.0.5]
+[2023-08-03 09:58:32] INFO root fetch - processPackages [pbs-builder]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-03 09:58:32] INFO root fetch - processPackages [nemusicapi]: New version: [0.0.4a5] Old Version: [0.0.4a4]
+[2023-08-03 09:58:32] WARNING root fetch - processPackages [xron]: Skipping, unable to determine old version
+[2023-08-03 09:58:32] INFO root fetch - processPackages [xron]: Start processing: ashcrypt
+[2023-08-03 09:58:32] INFO root fetch - main [MainThread]: End processing [xron] error
+[2023-08-03 09:58:32] WARNING root fetch - processPackages [boostnano]: Skipping, unable to determine old version
+[2023-08-03 09:58:32] INFO root fetch - processPackages [boostnano]: Start processing: sinetstream-cli
+[2023-08-03 09:58:32] INFO root fetch - main [MainThread]: End processing [boostnano] error
+[2023-08-03 09:58:32] INFO root fetch - processPackages [naipng]: New version: [1.0.0.post2] Old Version: [1.0.0.post1]
+[2023-08-03 09:58:32] INFO root fetch - processPackages [nomenklatura]: New version: [3.3.7] Old Version: [3.3.6]
+[2023-08-03 09:58:32] INFO root fetch - processPackages [ashcrypt]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-08-03 09:58:32] INFO root fetch - processPackages [cm-two]: New version: [2.3.598] Old Version: [2.3.597]
+[2023-08-03 09:58:32] INFO root fetch - processPackages [pyobs-core]: New version: [1.4.8] Old Version: [1.4.6]
+[2023-08-03 09:58:32] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-08-03 09:58:32] INFO root fetch - processPackages [sinetstream-cli]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-08-03 09:58:32] INFO root fetch - processPackages [ashcrypt]: Downloading https://files.pythonhosted.org/packages/ae/26/f180035d36f4ac5d5e4cc4455a82fec08e36671a1ff615b8e1d718621e29/ashcrypt-3.1.3.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [naipng]: Downloading https://files.pythonhosted.org/packages/70/e4/aaccb6cf3389ee53dcc3b4917d61aad7cff94635d9fab868b5cd1342776d/naipng-1.0.0.post1.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/b9/07/5aa86bae0743311e26e0d51fe05ca2c017229dc97370eab3987cf647b69d/nemusicapi-0.0.4a4.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [pbs-builder]: Downloading https://files.pythonhosted.org/packages/00/c6/94cd566c1902d8ab72d0282c0a1629a85ae44b761c2cc1baaf71d4c06157/pbs_builder-0.3.0.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Downloading https://files.pythonhosted.org/packages/28/bb/bd7d62fc70d0282a098276141b2f88bf92d25aac86d2cf32ad009400b3a6/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.5-py3-none-any.whl
+[2023-08-03 09:58:32] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/0f/eb/90696748f355792c4152650005ee17a4476c66c7fada0f75b34db951ece0/nomenklatura-3.3.6.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [pyobs-core]: Downloading https://files.pythonhosted.org/packages/3f/b0/17a45844f3b724f900214a978017dbbbb118bfba9c49a1c76897198f2bf6/pyobs_core-1.4.6.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [sinetstream-cli]: Downloading https://files.pythonhosted.org/packages/35/a1/d8a3260d510dc42e6656cbf065e0b577378f0365f0f9440d01264c886f47/sinetstream_cli-1.8.0.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/e8/d6/4106294d6666718e3cb3450fba425b3d14df456f75221bfc86363bd27132/cm_two-2.3.598-py3-none-any.whl
+[2023-08-03 09:58:32] INFO root fetch - processPackages [ashcrypt]: Downloading https://files.pythonhosted.org/packages/23/74/a34dd9cd86525dbe239d3e270919f60ab5b59445d4a6882379a3682ebd72/ashcrypt-3.1.4.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [naipng]: Downloading https://files.pythonhosted.org/packages/31/e9/43616106f44411d419935ae137cad4e4ac756f1c53f669f76b51c11fdbc7/naipng-1.0.0.post2.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/a1/2c/8579ed7f6a504ec56e2522144764c8d2a3bb771743ad849c34495bd4b171/nemusicapi-0.0.4a5.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [ashcrypt]: executing diffoscope
+[2023-08-03 09:58:32] INFO root fetch - processPackages [ashcrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ashcrypt-3.1.3.tar.gz tmp/ashcrypt-3.1.4.tar.gz --markdown 20230803/a/ashcrypt/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-08-03 09:58:32] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [pbs-builder]: Downloading https://files.pythonhosted.org/packages/25/f0/5bb397e3a2136f9226f109addab6ab9ba0dec37d2eee22dcd5143f648fa6/pbs_builder-0.3.1.tar.gz
+[2023-08-03 09:58:32] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-08-03 09:58:32] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.597-py3-none-any.whl.zip tmp/cm_two-2.3.598-py3-none-any.whl.zip --markdown 20230803/c/cm-two/2.3.597-2.3.598/diff.md --exclude *.pyd
+[2023-08-03 09:58:33] INFO root fetch - processPackages [pyobs-core]: Downloading https://files.pythonhosted.org/packages/0e/f4/4d0fc709198698a8aac1d3f9c1b6cea0277c0e505d0c513b74d6aca36d91/pyobs_core-1.4.8.tar.gz
+[2023-08-03 09:58:33] INFO root fetch - processPackages [naipng]: executing diffoscope
+[2023-08-03 09:58:33] INFO root fetch - processPackages [naipng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naipng-1.0.0.post1.tar.gz tmp/naipng-1.0.0.post2.tar.gz --markdown 20230803/n/naipng/1.0.0.post1-1.0.0.post2/diff.md --exclude *.pyd
+[2023-08-03 09:58:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Downloading https://files.pythonhosted.org/packages/ba/dc/68b8fd5ed88fb7088974f00ef4b9fba8399314263cb5b8708b583d333bc8/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.1-py3-none-any.whl
+[2023-08-03 09:58:33] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 09:58:33] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.4a4.tar.gz tmp/nemusicapi-0.0.4a5.tar.gz --markdown 20230803/n/nemusicapi/0.0.4a4-0.0.4a5/diff.md --exclude *.pyd
+[2023-08-03 09:58:33] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/b9/2c/2def7ce91e28d9edcf35467d1d4fbdf920df2975f18df54e56a83fbe401f/nomenklatura-3.3.7.tar.gz
+[2023-08-03 09:58:33] INFO root fetch - processPackages [pbs-builder]: executing diffoscope
+[2023-08-03 09:58:33] INFO root fetch - processPackages [pbs-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbs_builder-0.3.0.tar.gz tmp/pbs_builder-0.3.1.tar.gz --markdown 20230803/p/pbs-builder/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-03 09:58:33] INFO root fetch - processPackages [pyobs-core]: executing diffoscope
+[2023-08-03 09:58:33] INFO root fetch - processPackages [pyobs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobs_core-1.4.6.tar.gz tmp/pyobs_core-1.4.8.tar.gz --markdown 20230803/p/pyobs-core/1.4.6-1.4.8/diff.md --exclude *.pyd
+[2023-08-03 09:58:33] INFO root fetch - processPackages [sinetstream-cli]: Downloading https://files.pythonhosted.org/packages/62/c1/77287ead18c2b9e690ff518e5f312158b38dd88734db4bf5c93f7359c54f/sinetstream_cli-1.8.1.tar.gz
+[2023-08-03 09:58:33] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-08-03 09:58:33] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-3.3.6.tar.gz tmp/nomenklatura-3.3.7.tar.gz --markdown 20230803/n/nomenklatura/3.3.6-3.3.7/diff.md --exclude *.pyd
+[2023-08-03 09:58:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: executing diffoscope
+[2023-08-03 09:58:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.1-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-l10n-es-aeat-mod303/16.0.2.3.0.5-16.0.2.3.1/diff.md --exclude *.pyd
+[2023-08-03 09:58:33] INFO root fetch - processPackages [sinetstream-cli]: executing diffoscope
+[2023-08-03 09:58:33] INFO root fetch - processPackages [sinetstream-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinetstream_cli-1.8.0.tar.gz tmp/sinetstream_cli-1.8.1.tar.gz --markdown 20230803/s/sinetstream-cli/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-08-03 09:58:33] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-08-03 09:58:33] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230803/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-08-03 09:58:34] INFO root fetch - processPackages [ashcrypt]: Remove: archive file [/home/abi/fetcher/tmp/ashcrypt-3.1.3.tar.gz]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [ashcrypt]: Remove: archive file [/home/abi/fetcher/tmp/ashcrypt-3.1.4.tar.gz]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [ashcrypt]: Start processing: remotion-lambda
+[2023-08-03 09:58:34] INFO root fetch - main [MainThread]: End processing [ashcrypt]: success
+[2023-08-03 09:58:34] INFO root fetch - processPackages [remotion-lambda]: New version: [4.0.16] Old Version: [4.0.15]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.4a4.tar.gz]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.4a5.tar.gz]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [nemusicapi]: Start processing: OpenGeodeWeb-Back
+[2023-08-03 09:58:34] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 09:58:34] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-08-03T09:58:33+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-08-03 09:58:34] INFO root fetch - processPackages [cm-two]: Start processing: junoplatform
+[2023-08-03 09:58:34] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-08-03 09:58:34] INFO root fetch - processPackages [naipng]: Remove: archive file [/home/abi/fetcher/tmp/naipng-1.0.0.post1.tar.gz]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [naipng]: Remove: archive file [/home/abi/fetcher/tmp/naipng-1.0.0.post2.tar.gz]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [naipng]: Start processing: ansys-dpf-composites
+[2023-08-03 09:58:34] INFO root fetch - main [MainThread]: End processing [naipng]: success
+[2023-08-03 09:58:34] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [ansys-dpf-composites]: New version: [0.3.0] Old Version: [0.2b2]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/be/be/5da9080aa98185d99c84da3e72df242c283ec3a9081fa21f5e69e4ccefc5/remotion_lambda-4.0.15.tar.gz
+[2023-08-03 09:58:34] INFO root fetch - processPackages [pbs-builder]: Remove: archive file [/home/abi/fetcher/tmp/pbs_builder-0.3.0.tar.gz]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [pbs-builder]: Remove: archive file [/home/abi/fetcher/tmp/pbs_builder-0.3.1.tar.gz]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [pbs-builder]: Start processing: beiboot
+[2023-08-03 09:58:34] INFO root fetch - main [MainThread]: End processing [pbs-builder]: success
+[2023-08-03 09:58:34] INFO root fetch - processPackages [beiboot]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-08-03 09:58:34] INFO root fetch - processPackages [sinetstream-cli]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream_cli-1.8.0.tar.gz]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [sinetstream-cli]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream_cli-1.8.1.tar.gz]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [sinetstream-cli]: Start processing: pyiosbackup
+[2023-08-03 09:58:34] INFO root fetch - main [MainThread]: End processing [sinetstream-cli]: success
+[2023-08-03 09:58:34] INFO root fetch - processPackages [pyiosbackup]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-03 09:58:34] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/33/d0/52dea471bdf413bc827f969a6e29828ff853973109220f6752e9bf433dd4/OpenGeodeWeb-Back-0.0.8.tar.gz
+[2023-08-03 09:58:34] INFO root fetch - processPackages [ansys-dpf-composites]: Downloading https://files.pythonhosted.org/packages/e0/a0/347b2d7c3a2bb72dc8cff429548cbccc833045a72c87ce89c89129084670/ansys_dpf_composites-0.2b2.tar.gz
+[2023-08-03 09:58:35] INFO root fetch - processPackages [beiboot]: Downloading https://files.pythonhosted.org/packages/2d/a1/f4a6b220259ac27c1b5eb910dee4ac902880628f2101916945d67e78cdd0/beiboot-1.4.2.tar.gz
+[2023-08-03 09:58:35] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-08-03 09:58:35] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.3.6.tar.gz]
+[2023-08-03 09:58:35] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.3.7.tar.gz]
+[2023-08-03 09:58:35] INFO root fetch - processPackages [nomenklatura]: Start processing: retakesearch-fork
+[2023-08-03 09:58:35] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-08-03 09:58:35] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/5f/4c/f61228918672fc9fe84a2c7ec19e832b6cd490d401be296b3b3bf9dda240/remotion_lambda-4.0.16.tar.gz
+[2023-08-03 09:58:35] INFO root fetch - processPackages [pyiosbackup]: Downloading https://files.pythonhosted.org/packages/c5/41/bb5a1fe921707360e96d5a92391cd06db0fc24b64539fee79fd3c092000f/pyiosbackup-0.2.2.tar.gz
+[2023-08-03 09:58:35] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.5-py3-none-any.whl.zip]
+[2023-08-03 09:58:35] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.1-py3-none-any.whl.zip]
+[2023-08-03 09:58:35] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Start processing: checkov
+[2023-08-03 09:58:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod303]: success
+[2023-08-03 09:58:35] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-08-03 09:58:35] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230803/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:58:35] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/30/2d/6aebd85fd54c36b403cdb7f3cadba58e710fd13cb018c169c305f1659cd4/OpenGeodeWeb-Back-0.0.9.tar.gz
+[2023-08-03 09:58:35] WARNING root fetch - processPackages [retakesearch-fork]: Skipping, unable to determine old version
+[2023-08-03 09:58:35] INFO root fetch - processPackages [retakesearch-fork]: Start processing: qtgql
+[2023-08-03 09:58:35] INFO root fetch - main [MainThread]: End processing [retakesearch-fork] error
+[2023-08-03 09:58:35] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2023-08-03 09:58:35] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.15.tar.gz tmp/remotion_lambda-4.0.16.tar.gz --markdown 20230803/r/remotion-lambda/4.0.15-4.0.16/diff.md --exclude *.pyd
+[2023-08-03 09:58:35] INFO root fetch - processPackages [ansys-dpf-composites]: Downloading https://files.pythonhosted.org/packages/d2/61/1a5fcc247953de2ac6e87b4ba2ea75cd041d672a0b5ec133d1a3d10e41c7/ansys_dpf_composites-0.3.0.tar.gz
+[2023-08-03 09:58:35] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-03 09:58:35] INFO root fetch - processPackages [beiboot]: Downloading https://files.pythonhosted.org/packages/e9/f6/63ed933f06a6db2c58b96cfc8840aa75118701490342cff248cd220c868d/beiboot-1.4.3.tar.gz
+[2023-08-03 09:58:35] INFO root fetch - processPackages [qtgql]: New version: [0.132.0] Old Version: [0.131.0]
+[2023-08-03 09:58:35] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2023-08-03 09:58:35] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeodeWeb-Back-0.0.8.tar.gz tmp/OpenGeodeWeb-Back-0.0.9.tar.gz --markdown 20230803/O/OpenGeodeWeb-Back/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:58:35] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-08-03 09:58:35] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-08-03 09:58:35] INFO root fetch - processPackages [projen]: Start processing: django-outbox-menu
+[2023-08-03 09:58:35] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-08-03 09:58:35] INFO root fetch - processPackages [ansys-dpf-composites]: executing diffoscope
+[2023-08-03 09:58:35] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-08-03 09:58:35] INFO root fetch - processPackages [ansys-dpf-composites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_dpf_composites-0.2b2.tar.gz tmp/ansys_dpf_composites-0.3.0.tar.gz --markdown 20230803/a/ansys-dpf-composites/0.2b2-0.3.0/diff.md --exclude *.pyd
+[2023-08-03 09:58:35] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/ed/cc/a26c342d06e4cb9aab5e624bbd4b76df406b79d7a5d1770332751fb62b59/qtgql-0.131.0.tar.gz
+[2023-08-03 09:58:35] INFO root fetch - processPackages [beiboot]: executing diffoscope
+[2023-08-03 09:58:35] INFO root fetch - processPackages [beiboot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beiboot-1.4.2.tar.gz tmp/beiboot-1.4.3.tar.gz --markdown 20230803/b/beiboot/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-03 09:58:35] INFO root fetch - processPackages [pyiosbackup]: Downloading https://files.pythonhosted.org/packages/e5/04/2f0c27e78fd31c48f511ebbe9e335831d4b9859a619c3de2c765c6dc2254/pyiosbackup-0.2.3.tar.gz
+[2023-08-03 09:58:35] INFO root fetch - processPackages [django-outbox-menu]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-03 09:58:35] INFO root fetch - processPackages [pyiosbackup]: executing diffoscope
+[2023-08-03 09:58:35] INFO root fetch - processPackages [pyiosbackup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiosbackup-0.2.2.tar.gz tmp/pyiosbackup-0.2.3.tar.gz --markdown 20230803/p/pyiosbackup/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-03 09:58:35] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-08-03 09:58:36] INFO root fetch - processPackages [django-outbox-menu]: Downloading https://files.pythonhosted.org/packages/a4/b5/e927ce22b10a0beef1e06c269bf6eadb92529b619a81ebd58c9491256c5a/django-outbox-menu-1.0.8.tar.gz
+[2023-08-03 09:58:36] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/30/cd/3bf6df667836adcfc71357867296dca4816c76c9ec1e24b5a039beb04c61/qtgql-0.132.0.tar.gz
+[2023-08-03 09:58:36] INFO root fetch - processPackages [pyobs-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_core-1.4.6.tar.gz]
+[2023-08-03 09:58:36] INFO root fetch - processPackages [pyobs-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_core-1.4.8.tar.gz]
+[2023-08-03 09:58:36] INFO root fetch - main [MainThread]: End processing [pyobs-core]: success
+[2023-08-03 09:58:36] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-08-03 09:58:36] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230803/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-03 09:58:36] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-08-03 09:58:36] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.131.0.tar.gz tmp/qtgql-0.132.0.tar.gz --markdown 20230803/q/qtgql/0.131.0-0.132.0/diff.md --exclude *.pyd
+[2023-08-03 09:58:36] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.15.tar.gz]
+[2023-08-03 09:58:36] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.16.tar.gz]
+[2023-08-03 09:58:36] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2023-08-03 09:58:36] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-08-03 09:58:36] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-08-03 09:58:36] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-08-03 09:58:36] INFO root fetch - processPackages [django-outbox-menu]: Downloading https://files.pythonhosted.org/packages/12/74/17de0051024c6e36a45ad52e58d199e38092cc14004026d9ecb4d963cfd5/django-outbox-menu-1.0.9.tar.gz
+[2023-08-03 09:58:36] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Back-0.0.8.tar.gz]
+[2023-08-03 09:58:36] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Back-0.0.9.tar.gz]
+[2023-08-03 09:58:36] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2023-08-03 09:58:36] INFO root fetch - processPackages [django-outbox-menu]: executing diffoscope
+[2023-08-03 09:58:36] INFO root fetch - processPackages [django-outbox-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-outbox-menu-1.0.8.tar.gz tmp/django-outbox-menu-1.0.9.tar.gz --markdown 20230803/d/django-outbox-menu/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:58:36] INFO root fetch - processPackages [beiboot]: Remove: archive file [/home/abi/fetcher/tmp/beiboot-1.4.2.tar.gz]
+[2023-08-03 09:58:36] INFO root fetch - processPackages [beiboot]: Remove: archive file [/home/abi/fetcher/tmp/beiboot-1.4.3.tar.gz]
+[2023-08-03 09:58:36] INFO root fetch - main [MainThread]: End processing [beiboot]: success
+[2023-08-03 09:58:37] INFO root fetch - processPackages [ansys-dpf-composites]: Remove: archive file [/home/abi/fetcher/tmp/ansys_dpf_composites-0.2b2.tar.gz]
+[2023-08-03 09:58:37] INFO root fetch - processPackages [ansys-dpf-composites]: Remove: archive file [/home/abi/fetcher/tmp/ansys_dpf_composites-0.3.0.tar.gz]
+[2023-08-03 09:58:37] INFO root fetch - main [MainThread]: End processing [ansys-dpf-composites]: success
+[2023-08-03 09:58:37] INFO root fetch - processPackages [pyiosbackup]: Remove: archive file [/home/abi/fetcher/tmp/pyiosbackup-0.2.2.tar.gz]
+[2023-08-03 09:58:37] INFO root fetch - processPackages [pyiosbackup]: Remove: archive file [/home/abi/fetcher/tmp/pyiosbackup-0.2.3.tar.gz]
+[2023-08-03 09:58:37] INFO root fetch - main [MainThread]: End processing [pyiosbackup]: success
+[2023-08-03 09:58:37] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.131.0.tar.gz]
+[2023-08-03 09:58:37] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.132.0.tar.gz]
+[2023-08-03 09:58:37] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-08-03 09:58:38] INFO root fetch - processPackages [django-outbox-menu]: Remove: archive file [/home/abi/fetcher/tmp/django-outbox-menu-1.0.8.tar.gz]
+[2023-08-03 09:58:38] INFO root fetch - processPackages [django-outbox-menu]: Remove: archive file [/home/abi/fetcher/tmp/django-outbox-menu-1.0.9.tar.gz]
+[2023-08-03 09:58:38] INFO root fetch - main [MainThread]: End processing [django-outbox-menu]: success
+[2023-08-03 09:58:49] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-08-03 09:58:49] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-08-03 09:58:49] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-08-03 09:58:49] INFO root fetch - main [MainThread]: Store serial: [19155607]
