@@ -18078,3 +18078,152 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 10:37:36] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkworkspaceapp-3.1.52-py2.py3-none-any.whl.zip]
 [2023-08-03 10:37:36] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkworkspaceapp]: success
 [2023-08-03 10:37:36] INFO root fetch - main [MainThread]: Store serial: [19156318]
+[2023-08-03 10:42:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19156318]
+[2023-08-03 10:42:45] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-03 10:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ontouml-json2graph
+[2023-08-03 10:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-estimator-nightly
+[2023-08-03 10:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vosk-tts
+[2023-08-03 10:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sectxt
+[2023-08-03 10:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fast2q
+[2023-08-03 10:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UzSyllable
+[2023-08-03 10:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: freestyle-keys
+[2023-08-03 10:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: logger-local
+[2023-08-03 10:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flumine
+[2023-08-03 10:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shapelets-platform
+[2023-08-03 10:42:46] INFO root fetch - processPackages [sectxt]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-03 10:42:46] INFO root fetch - processPackages [UzSyllable]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-03 10:42:46] INFO root fetch - processPackages [shapelets-platform]: New version: [2.0.97] Old Version: [2.0.96]
+[2023-08-03 10:42:46] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 10:42:46] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-08-03 10:42:46] INFO root fetch - processPackages [fast2q]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-08-03 10:42:46] INFO root fetch - processPackages [ontouml-json2graph]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-08-03 10:42:46] INFO root fetch - processPackages [vosk-tts]: New version: [0.3.47] Old Version: [0.3.46]
+[2023-08-03 10:42:46] INFO root fetch - processPackages [UzSyllable]: Downloading https://files.pythonhosted.org/packages/ba/13/b0ef7fd47a0ad54692227fa47753cc0aa36b79033b4444fb95e3b465706b/UzSyllable-0.0.6.tar.gz
+[2023-08-03 10:42:46] WARNING root fetch - processPackages [freestyle-keys]: Skipping, unable to determine old version
+[2023-08-03 10:42:46] INFO root fetch - processPackages [freestyle-keys]: Start processing: tff-nightly
+[2023-08-03 10:42:46] INFO root fetch - main [MainThread]: End processing [freestyle-keys] error
+[2023-08-03 10:42:46] INFO root fetch - processPackages [flumine]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-08-03 10:42:46] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/7c/bd/7d6934e25145c2774399d4dca191be4a599eabddc8d2c58a88ebd6bf1adc/shapelets-platform-2.0.96.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-08-03 10:42:46] INFO root fetch - processPackages [sectxt]: Downloading https://files.pythonhosted.org/packages/7a/18/86bed006583c42198d3663539425bf816259d47fd1cf9ed072c13f6ee10b/sectxt-0.8.3.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [fast2q]: Downloading https://files.pythonhosted.org/packages/7b/e1/60ab6c5f953cffcc720590cad65e58a8205ed49a6e6933b56e9a30212b5b/fast2q-2.5.2.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230803] Old Version: [0.0.1.dev20230802]
+[2023-08-03 10:42:46] INFO root fetch - processPackages [vosk-tts]: Downloading https://files.pythonhosted.org/packages/eb/1d/0471490a560ac0e3071d8176fed22b4e3b70b298641c3c3850208ff03e84/vosk_tts-0.3.46-py3-none-any.whl
+[2023-08-03 10:42:46] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/40/64/243d5cb018dd67b8b005888dc9902e63982cdb5dad755a30e50868defafd/ontouml_json2graph-1.0.0b8.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [UzSyllable]: Downloading https://files.pythonhosted.org/packages/b2/9a/c242255635e436e5e48b9b555024d5fb4ee03514cd28a8a9222324f0f0fd/UzSyllable-0.0.7.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [flumine]: Downloading https://files.pythonhosted.org/packages/a2/cd/abd5b4915b68154a9a10886b5b32acf9c3ba24b118a5aaa515a657ac897a/flumine-2.4.1.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [UzSyllable]: executing diffoscope
+[2023-08-03 10:42:46] INFO root fetch - processPackages [UzSyllable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UzSyllable-0.0.6.tar.gz tmp/UzSyllable-0.0.7.tar.gz --markdown 20230803/U/UzSyllable/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-03 10:42:46] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/1b/2e/590095326e35ba033ffa2c89a44476da12484128a4c0b1936614476bc143/tff_nightly-0.0.1.dev20230802-py2.py3-none-any.whl
+[2023-08-03 10:42:46] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/6d/55/338b3acc4e10e5a199b285b221f1cbfe713e7410e6a891d0f3bf64829ee0/shapelets-platform-2.0.97.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-08-03 10:42:46] INFO root fetch - processPackages [fast2q]: Downloading https://files.pythonhosted.org/packages/08/31/26c9bc935039c56f06c9347cca5a3987f4834e69ec670d9089fd8de0def9/fast2q-2.5.3.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-08-03 10:42:46] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230803/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 10:42:46] INFO root fetch - processPackages [sectxt]: Downloading https://files.pythonhosted.org/packages/89/23/a55269c3fdbfc80fe8dc2b1a6b8af42635dcab3a9caed0952e4d95ed484b/sectxt-0.9.0.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/ce/0f/f08b5ef30f44856b7f692ee34579259345997f154f01fbe01bb797b0143a/ontouml_json2graph-1.0.0b9.tar.gz
+[2023-08-03 10:42:46] INFO root fetch - processPackages [vosk-tts]: Downloading https://files.pythonhosted.org/packages/9d/4a/117f231cadd5a11f583fc7e1f3427e17173d4603e86b143eb51f8e833c66/vosk_tts-0.3.47-py3-none-any.whl
+[2023-08-03 10:42:46] INFO root fetch - processPackages [fast2q]: executing diffoscope
+[2023-08-03 10:42:46] INFO root fetch - processPackages [fast2q]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast2q-2.5.2.tar.gz tmp/fast2q-2.5.3.tar.gz --markdown 20230803/f/fast2q/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-08-03 10:42:47] INFO root fetch - processPackages [sectxt]: executing diffoscope
+[2023-08-03 10:42:47] INFO root fetch - processPackages [sectxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sectxt-0.8.3.tar.gz tmp/sectxt-0.9.0.tar.gz --markdown 20230803/s/sectxt/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 10:42:47] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-08-03 10:42:47] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230803/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-08-03 10:42:47] INFO root fetch - processPackages [vosk-tts]: executing diffoscope
+[2023-08-03 10:42:47] INFO root fetch - processPackages [vosk-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vosk_tts-0.3.46-py3-none-any.whl.zip tmp/vosk_tts-0.3.47-py3-none-any.whl.zip --markdown 20230803/v/vosk-tts/0.3.46-0.3.47/diff.md --exclude *.pyd
+[2023-08-03 10:42:47] INFO root fetch - processPackages [flumine]: Downloading https://files.pythonhosted.org/packages/55/9a/53f0d8c1250ede4502fe200c058412f3edd9b38d9a4c7add6ec566120525/flumine-2.4.2.tar.gz
+[2023-08-03 10:42:47] INFO root fetch - processPackages [ontouml-json2graph]: executing diffoscope
+[2023-08-03 10:42:47] INFO root fetch - processPackages [ontouml-json2graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontouml_json2graph-1.0.0b8.tar.gz tmp/ontouml_json2graph-1.0.0b9.tar.gz --markdown 20230803/o/ontouml-json2graph/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-08-03 10:42:47] INFO root fetch - processPackages [shapelets-platform]: executing diffoscope
+[2023-08-03 10:42:47] INFO root fetch - processPackages [shapelets-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets-platform-2.0.96.tar.gz tmp/shapelets-platform-2.0.97.tar.gz --markdown 20230803/s/shapelets-platform/2.0.96-2.0.97/diff.md --exclude *.pyd
+[2023-08-03 10:42:47] INFO root fetch - processPackages [flumine]: executing diffoscope
+[2023-08-03 10:42:47] INFO root fetch - processPackages [flumine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flumine-2.4.1.tar.gz tmp/flumine-2.4.2.tar.gz --markdown 20230803/f/flumine/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-08-03 10:42:47] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/2c/fd/f87e6fc8865037ecf1574506288c10da9d7101f6803f6a543621885c7b4a/tff_nightly-0.0.1.dev20230803-py2.py3-none-any.whl
+[2023-08-03 10:42:47] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-08-03 10:42:47] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230802-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230803-py2.py3-none-any.whl.zip --markdown 20230803/t/tff-nightly/0.0.1.dev20230802-0.0.1.dev20230803/diff.md --exclude *.pyd
+[2023-08-03 10:42:47] INFO root fetch - processPackages [UzSyllable]: Remove: archive file [/home/abi/fetcher/tmp/UzSyllable-0.0.6.tar.gz]
+[2023-08-03 10:42:47] INFO root fetch - processPackages [UzSyllable]: Remove: archive file [/home/abi/fetcher/tmp/UzSyllable-0.0.7.tar.gz]
+[2023-08-03 10:42:47] INFO root fetch - processPackages [UzSyllable]: Start processing: nonebot-plugin-chatgpt-plus
+[2023-08-03 10:42:47] INFO root fetch - main [MainThread]: End processing [UzSyllable]: success
+[2023-08-03 10:42:48] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [logger-local]: Start processing: corporate-reputation
+[2023-08-03 10:42:48] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-08-03 10:42:48] INFO root fetch - processPackages [corporate-reputation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [fast2q]: Remove: archive file [/home/abi/fetcher/tmp/fast2q-2.5.2.tar.gz]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [fast2q]: Remove: archive file [/home/abi/fetcher/tmp/fast2q-2.5.3.tar.gz]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [fast2q]: Start processing: retakesearch-fork
+[2023-08-03 10:42:48] INFO root fetch - main [MainThread]: End processing [fast2q]: success
+[2023-08-03 10:42:48] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: Downloading https://files.pythonhosted.org/packages/7c/b3/01848cb0a7ff89de4584fa1406f35c7577f961984dbc006a37dc602622cc/nonebot-plugin-chatgpt-plus-0.8.7.tar.gz
+[2023-08-03 10:42:48] WARNING root fetch - processPackages [retakesearch-fork]: Skipping, unable to determine old version
+[2023-08-03 10:42:48] INFO root fetch - processPackages [retakesearch-fork]: Start processing: smart-vector
+[2023-08-03 10:42:48] INFO root fetch - main [MainThread]: End processing [retakesearch-fork] error
+[2023-08-03 10:42:48] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/7a/a0/9a2009f226fe67dbd11d0681c39128e4c4d96e57b52c6b0505adcf4e491b/corporate_reputation-0.9.2.tar.gz
+[2023-08-03 10:42:48] INFO root fetch - processPackages [smart-vector]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [sectxt]: Remove: archive file [/home/abi/fetcher/tmp/sectxt-0.8.3.tar.gz]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [sectxt]: Remove: archive file [/home/abi/fetcher/tmp/sectxt-0.9.0.tar.gz]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [sectxt]: Start processing: python-license-manager
+[2023-08-03 10:42:48] INFO root fetch - main [MainThread]: End processing [sectxt]: success
+[2023-08-03 10:42:48] INFO root fetch - processPackages [vosk-tts]: Remove: archive file [/home/abi/fetcher/tmp/vosk_tts-0.3.46-py3-none-any.whl.zip]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [vosk-tts]: Remove: archive file [/home/abi/fetcher/tmp/vosk_tts-0.3.47-py3-none-any.whl.zip]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [vosk-tts]: Start processing: tablate
+[2023-08-03 10:42:48] INFO root fetch - main [MainThread]: End processing [vosk-tts]: success
+[2023-08-03 10:42:48] INFO root fetch - processPackages [python-license-manager]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b8.tar.gz]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b9.tar.gz]
+[2023-08-03 10:42:48] INFO root fetch - processPackages [ontouml-json2graph]: Start processing: frontengine-dev
+[2023-08-03 10:42:48] INFO root fetch - main [MainThread]: End processing [ontouml-json2graph]: success
+[2023-08-03 10:42:48] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/dc/f5/06774261a9adf3155d1cbfe17773d7d620daeed823c66e41c872ab7cbfd5/corporate_reputation-0.9.3.tar.gz
+[2023-08-03 10:42:48] INFO root fetch - processPackages [smart-vector]: Downloading https://files.pythonhosted.org/packages/d9/f1/f15ee33a2cbc4b5fa543f23c3d4fa93b03e0380c6c8b63b1efc272955cfa/smart_vector-1.1.2.tar.gz
+[2023-08-03 10:42:48] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: Downloading https://files.pythonhosted.org/packages/f8/f3/00a4308396cdce29d70779e6b38cb4a27b0bd2d8d8b4b8ad992782b03b87/nonebot-plugin-chatgpt-plus-0.8.8.tar.gz
+[2023-08-03 10:42:48] INFO root fetch - processPackages [python-license-manager]: Downloading https://files.pythonhosted.org/packages/07/61/ccc1a3d695ad0868871344159f3d5b918b7ca4a15b34fc9c527ad02da966/python_license_manager-0.2.8-py3-none-any.whl
+[2023-08-03 10:42:48] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-03 10:42:48] INFO root fetch - processPackages [corporate-reputation]: executing diffoscope
+[2023-08-03 10:42:48] INFO root fetch - processPackages [corporate-reputation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corporate_reputation-0.9.2.tar.gz tmp/corporate_reputation-0.9.3.tar.gz --markdown 20230803/c/corporate-reputation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-03 10:42:48] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: executing diffoscope
+[2023-08-03 10:42:48] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-chatgpt-plus-0.8.7.tar.gz tmp/nonebot-plugin-chatgpt-plus-0.8.8.tar.gz --markdown 20230803/n/nonebot-plugin-chatgpt-plus/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-08-03 10:42:48] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 10:42:48] WARNING root fetch - processPackages [smart-vector]: Skipping package: exceeds size limit 10899391>=10485760
+[2023-08-03 10:42:48] INFO root fetch - main [MainThread]: End processing [smart-vector] error
+[2023-08-03 10:42:49] INFO root fetch - processPackages [python-license-manager]: Downloading https://files.pythonhosted.org/packages/79/9e/354aac86af09069edacb6c9be211a3eed36e035f421def3bf1c5b48e4c5e/python_license_manager-0.2.9-py3-none-any.whl
+[2023-08-03 10:42:49] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-03 10:42:49] INFO root fetch - processPackages [flumine]: Remove: archive file [/home/abi/fetcher/tmp/flumine-2.4.1.tar.gz]
+[2023-08-03 10:42:49] INFO root fetch - processPackages [flumine]: Remove: archive file [/home/abi/fetcher/tmp/flumine-2.4.2.tar.gz]
+[2023-08-03 10:42:49] INFO root fetch - main [MainThread]: End processing [flumine]: success
+[2023-08-03 10:42:49] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-08-03 10:42:49] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-08-03 10:42:49] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-03 10:42:49] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-08-03 10:42:49] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230803/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 10:42:49] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-08-03 10:42:49] INFO root fetch - processPackages [python-license-manager]: executing diffoscope
+[2023-08-03 10:42:49] INFO root fetch - processPackages [python-license-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_license_manager-0.2.8-py3-none-any.whl.zip tmp/python_license_manager-0.2.9-py3-none-any.whl.zip --markdown 20230803/p/python-license-manager/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 10:42:49] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-08-03 10:42:49] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-08-03 10:42:49] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230803/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 10:42:50] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-chatgpt-plus-0.8.7.tar.gz]
+[2023-08-03 10:42:50] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-chatgpt-plus-0.8.8.tar.gz]
+[2023-08-03 10:42:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chatgpt-plus]: success
+[2023-08-03 10:42:50] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.2.tar.gz]
+[2023-08-03 10:42:50] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.3.tar.gz]
+[2023-08-03 10:42:50] INFO root fetch - main [MainThread]: End processing [corporate-reputation]: success
+[2023-08-03 10:42:50] INFO root fetch - processPackages [python-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_license_manager-0.2.8-py3-none-any.whl.zip]
+[2023-08-03 10:42:50] INFO root fetch - processPackages [python-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_license_manager-0.2.9-py3-none-any.whl.zip]
+[2023-08-03 10:42:50] INFO root fetch - main [MainThread]: End processing [python-license-manager]: success
+[2023-08-03 10:42:50] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230802-py2.py3-none-any.whl.zip]
+[2023-08-03 10:42:50] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230803-py2.py3-none-any.whl.zip]
+[2023-08-03 10:42:50] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-08-03 10:42:50] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.96.tar.gz]
+[2023-08-03 10:42:50] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.97.tar.gz]
+[2023-08-03 10:42:50] INFO root fetch - main [MainThread]: End processing [shapelets-platform]: success
+[2023-08-03 10:42:50] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-03 10:42:50] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-03 10:42:50] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-03 10:42:50] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-08-03 10:42:50] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-08-03 10:42:50] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-08-03 10:42:50] INFO root fetch - main [MainThread]: Store serial: [19156382]
