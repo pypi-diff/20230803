@@ -11113,3 +11113,58 @@
 [2023-08-03 05:36:23] INFO root fetch - processPackages [extract-msg]: Remove: archive file [/home/abi/fetcher/tmp/extract_msg-0.43.0.tar.gz]
 [2023-08-03 05:36:23] INFO root fetch - main [MainThread]: End processing [extract-msg]: success
 [2023-08-03 05:36:23] INFO root fetch - main [MainThread]: Store serial: [19153346]
+[2023-08-03 05:41:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153346]
+[2023-08-03 05:41:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-03 05:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composabl-ray-dev
+[2023-08-03 05:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-08-03 05:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mynacode
+[2023-08-03 05:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ciokatana
+[2023-08-03 05:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jdcloud-sdk
+[2023-08-03 05:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-chatbox
+[2023-08-03 05:41:32] INFO root fetch - processPackages [ciokatana]: New version: [0.1.1] Old Version: [0.1.0rc5]
+[2023-08-03 05:41:32] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-03 05:41:32] INFO root fetch - processPackages [jdcloud-sdk]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-08-03 05:41:32] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev6]
+[2023-08-03 05:41:32] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-03 05:41:32] INFO root fetch - processPackages [streamlit-chatbox]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-03 05:41:33] INFO root fetch - processPackages [jdcloud-sdk]: Downloading https://files.pythonhosted.org/packages/95/4f/825f3e2814e962db5d30b644c7fdfc01996a9bbe76c789866aeaf20d1d82/jdcloud_sdk-1.6.98.tar.gz
+[2023-08-03 05:41:33] INFO root fetch - processPackages [ciokatana]: Downloading https://files.pythonhosted.org/packages/60/c1/445a890df7886c54b1a1a52289ca9d4a9808a3111f56cfa26644bfa37b48/ciokatana-0.1.0rc5-py2.py3-none-any.whl
+[2023-08-03 05:41:33] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-03 05:41:33] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-03 05:41:33] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/1e/4e/b20896f0f6db53853824948f335e2b9d947f39ed2f79cf3940118015513d/streamlit_chatbox-1.1.0-py3-none-any.whl
+[2023-08-03 05:41:33] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/37/8a/9179e0cdcc6485e06416e6639548eade7fa09f5f49c5f5c5559c1c9b5015/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 05:41:33] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/67/74/23e2084488e28f794190b98f373e2f5f1805612ac7b686bc9e78a303580b/streamlit_chatbox-1.1.1-py3-none-any.whl
+[2023-08-03 05:41:33] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-03 05:41:33] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-03 05:41:33] INFO root fetch - processPackages [jdcloud-sdk]: Downloading https://files.pythonhosted.org/packages/14/1e/7f5fff16d7e0e2793fdd72a4eb17de3ad540cf935be128a7c69d1ee161c0/jdcloud_sdk-1.6.99.tar.gz
+[2023-08-03 05:41:33] INFO root fetch - processPackages [ciokatana]: Downloading https://files.pythonhosted.org/packages/d9/2a/e8adb01c01e0358385eb20ba9e1242f6671e265e9c78891c32c24b669718/ciokatana-0.1.1-py2.py3-none-any.whl
+[2023-08-03 05:41:33] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-03 05:41:33] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230803/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-03 05:41:33] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-03 05:41:33] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230803/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-03 05:41:33] INFO root fetch - processPackages [streamlit-chatbox]: executing diffoscope
+[2023-08-03 05:41:33] INFO root fetch - processPackages [streamlit-chatbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chatbox-1.1.0-py3-none-any.whl.zip tmp/streamlit_chatbox-1.1.1-py3-none-any.whl.zip --markdown 20230803/s/streamlit-chatbox/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-03 05:41:33] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/51/cd/da4e0a374cdc49c4a176f0cb2b3f59efe30ac77171388dc22a8a87a28418/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-08-03 05:41:33] INFO root fetch - processPackages [jdcloud-sdk]: executing diffoscope
+[2023-08-03 05:41:33] INFO root fetch - processPackages [jdcloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdcloud_sdk-1.6.98.tar.gz tmp/jdcloud_sdk-1.6.99.tar.gz --markdown 20230803/j/jdcloud-sdk/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-08-03 05:41:33] INFO root fetch - processPackages [ciokatana]: executing diffoscope
+[2023-08-03 05:41:33] INFO root fetch - processPackages [ciokatana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciokatana-0.1.0rc5-py2.py3-none-any.whl.zip tmp/ciokatana-0.1.1-py2.py3-none-any.whl.zip --markdown 20230803/c/ciokatana/0.1.0rc5-0.1.1/diff.md --exclude *.pyd
+[2023-08-03 05:41:34] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-08-03 05:41:34] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230803/c/composabl-ray-dev/0.3.9.dev6-0.3.9.dev8/diff.md --exclude *.pyd
+[2023-08-03 05:41:34] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-03 05:41:34] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-03 05:41:34] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-03 05:41:34] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.0-py3-none-any.whl.zip]
+[2023-08-03 05:41:34] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.1-py3-none-any.whl.zip]
+[2023-08-03 05:41:34] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-03 05:41:34] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
+[2023-08-03 05:41:35] INFO root fetch - processPackages [ciokatana]: Remove: archive file [/home/abi/fetcher/tmp/ciokatana-0.1.0rc5-py2.py3-none-any.whl.zip]
+[2023-08-03 05:41:35] INFO root fetch - processPackages [ciokatana]: Remove: archive file [/home/abi/fetcher/tmp/ciokatana-0.1.1-py2.py3-none-any.whl.zip]
+[2023-08-03 05:41:35] INFO root fetch - main [MainThread]: End processing [ciokatana]: success
+[2023-08-03 05:41:59] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev6-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 05:41:59] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.3.9.dev8-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-08-03 05:41:59] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-08-03 05:42:52] INFO root fetch - processPackages [jdcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/jdcloud_sdk-1.6.98.tar.gz]
+[2023-08-03 05:42:52] INFO root fetch - processPackages [jdcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/jdcloud_sdk-1.6.99.tar.gz]
+[2023-08-03 05:42:52] INFO root fetch - main [MainThread]: End processing [jdcloud-sdk]: success
+[2023-08-03 05:42:52] INFO root fetch - main [MainThread]: Store serial: [19153364]
