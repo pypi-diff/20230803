@@ -21532,3 +21532,173 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 13:02:35] INFO root fetch - processPackages [sympy2c]: Remove: archive file [/home/abi/fetcher/tmp/sympy2c-2.2.4.tar.gz]
 [2023-08-03 13:02:35] INFO root fetch - main [MainThread]: End processing [sympy2c]: success
 [2023-08-03 13:02:35] INFO root fetch - main [MainThread]: Store serial: [19157909]
+[2023-08-03 13:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157909]
+[2023-08-03 13:07:43] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-03 13:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ul-py-tool
+[2023-08-03 13:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discco
+[2023-08-03 13:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: re-edge-gpt
+[2023-08-03 13:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: re-edge-gpt-dev
+[2023-08-03 13:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: enmerkar-underscore
+[2023-08-03 13:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-uvdiviner
+[2023-08-03 13:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kedro-telemetry
+[2023-08-03 13:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aisrfwk
+[2023-08-03 13:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2023-08-03 13:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: matplotlib-polyroi
+[2023-08-03 13:07:44] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-08-03 13:07:44] INFO root fetch - processPackages [ul-py-tool]: New version: [1.15.33] Old Version: [1.15.32]
+[2023-08-03 13:07:44] INFO root fetch - processPackages [re-edge-gpt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 13:07:44] INFO root fetch - processPackages [discco]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-03 13:07:44] INFO root fetch - processPackages [enmerkar-underscore]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-08-03 13:07:44] INFO root fetch - processPackages [re-edge-gpt-dev]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 13:07:44] INFO root fetch - processPackages [aisrfwk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-03 13:07:44] INFO root fetch - processPackages [matplotlib-polyroi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-03 13:07:44] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/96/bd/21552dd6ee6549fa870b39da783053281b4ec5431e697f4d48bdc3c71a79/ul-py-tool-1.15.32.tar.gz
+[2023-08-03 13:07:44] INFO root fetch - processPackages [kedro-telemetry]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-03 13:07:44] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230803.11.4.224977] Old Version: [20230802.9.57.238825]
+[2023-08-03 13:07:44] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Downloading https://files.pythonhosted.org/packages/54/af/95e0b004453d6a14f56c5a0fe4fa5b13d0f9c6cbc2d688d28b7bbc246a07/nonebot-plugin-uvdiviner-2.1.0.tar.gz
+[2023-08-03 13:07:44] INFO root fetch - processPackages [re-edge-gpt-dev]: Downloading https://files.pythonhosted.org/packages/7b/b8/a20968cc895671d96cd9054389e21eb4f4d0f7301ab34bebc282e9f2d9bf/re_edge_gpt_dev-0.0.1.tar.gz
+[2023-08-03 13:07:44] INFO root fetch - processPackages [discco]: Downloading https://files.pythonhosted.org/packages/c0/b7/b356c42832dcbd66842039d4236b7138acbd5107ef3417f680021fc5af9a/discco-0.2.4.tar.gz
+[2023-08-03 13:07:44] INFO root fetch - processPackages [enmerkar-underscore]: Downloading https://files.pythonhosted.org/packages/70/5d/ad4946641971638a3615609948a638068d5029905b2647c151f08d56272a/enmerkar-underscore-2.1.0.tar.gz
+[2023-08-03 13:07:44] INFO root fetch - processPackages [re-edge-gpt]: Downloading https://files.pythonhosted.org/packages/7b/f8/b33c08d4621aa9267bdfdad3dbd53b809ccbe73287991b01113cdc8529cc/re_edge_gpt-0.0.1.tar.gz
+[2023-08-03 13:07:44] INFO root fetch - processPackages [matplotlib-polyroi]: Downloading https://files.pythonhosted.org/packages/d3/14/73d86b76a0165b23b734ac4b9bdc7f484962a15b86827c4fc879f1ccfa2b/matplotlib-polyroi-0.1.4.tar.gz
+[2023-08-03 13:07:44] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/93/1a/7073ec2b79c1b5a8677dbb32271bc13c405840a81852900e2c2e288c4c27/ul-py-tool-1.15.33.tar.gz
+[2023-08-03 13:07:44] INFO root fetch - processPackages [kedro-telemetry]: Downloading https://files.pythonhosted.org/packages/65/7a/4f8f96df64cb13d81586e901f8dfed33d97d0125e79562fe64e13e20b0ad/kedro-telemetry-0.2.4.tar.gz
+[2023-08-03 13:07:44] INFO root fetch - processPackages [aisrfwk]: Downloading https://files.pythonhosted.org/packages/da/ca/f942bae57f75c34a224184a3ad884e1ed0f91f6f133306097dd97c2b0c76/aisrfwk-1.0.4-py3-none-any.whl
+[2023-08-03 13:07:44] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/73/97/c5f640412b38b273b87b882ecd2b15190dc8f16f7eb306263bb3080327e8/certora-cli-alpha-master-20230802.9.57.238825.tar.gz
+[2023-08-03 13:07:44] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37806248>=10485760
+[2023-08-03 13:07:44] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: make-playlist
+[2023-08-03 13:07:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-03 13:07:44] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Downloading https://files.pythonhosted.org/packages/49/34/1a8bbd62180ae02b49a9a950f1c127c9222d55351dfcb380ab51e91a4291/nonebot-plugin-uvdiviner-2.1.1.tar.gz
+[2023-08-03 13:07:44] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2023-08-03 13:07:44] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-1.15.32.tar.gz tmp/ul-py-tool-1.15.33.tar.gz --markdown 20230803/u/ul-py-tool/1.15.32-1.15.33/diff.md --exclude *.pyd
+[2023-08-03 13:07:45] INFO root fetch - processPackages [re-edge-gpt-dev]: Downloading https://files.pythonhosted.org/packages/03/81/4b07f639ddd54ddd987ab9e71921ae3ced6ede964a0993e9c2af3ee2bb22/re_edge_gpt_dev-0.0.2.tar.gz
+[2023-08-03 13:07:45] INFO root fetch - processPackages [discco]: Downloading https://files.pythonhosted.org/packages/f7/1d/641089ea5fb056087c907df76dcb7251159d8fa909aa4a323c557908724a/discco-0.2.5.tar.gz
+[2023-08-03 13:07:45] INFO root fetch - processPackages [make-playlist]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-08-03 13:07:45] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: executing diffoscope
+[2023-08-03 13:07:45] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-uvdiviner-2.1.0.tar.gz tmp/nonebot-plugin-uvdiviner-2.1.1.tar.gz --markdown 20230803/n/nonebot-plugin-uvdiviner/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-08-03 13:07:45] INFO root fetch - processPackages [enmerkar-underscore]: Downloading https://files.pythonhosted.org/packages/c1/b6/35b14377d724fcb8bf998d77093cf92693318f39d8dffa071f7b06b861e1/enmerkar-underscore-2.2.0.tar.gz
+[2023-08-03 13:07:45] INFO root fetch - processPackages [re-edge-gpt]: Downloading https://files.pythonhosted.org/packages/90/b2/e8bbd2744f2fce55e392cc03640e9bd3de5235c5a5f288cd44ed94108ad9/re_edge_gpt-0.0.2.tar.gz
+[2023-08-03 13:07:45] INFO root fetch - processPackages [re-edge-gpt-dev]: executing diffoscope
+[2023-08-03 13:07:45] INFO root fetch - processPackages [re-edge-gpt-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_edge_gpt_dev-0.0.1.tar.gz tmp/re_edge_gpt_dev-0.0.2.tar.gz --markdown 20230803/r/re-edge-gpt-dev/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 13:07:45] INFO root fetch - processPackages [discco]: executing diffoscope
+[2023-08-03 13:07:45] INFO root fetch - processPackages [aisrfwk]: Downloading https://files.pythonhosted.org/packages/1a/01/1bef4b4d9908c5b0cb9b97f33a85e9a5ceb9526c5d017ca5f15b08bb05a6/aisrfwk-1.0.5.tar.gz
+[2023-08-03 13:07:45] INFO root fetch - processPackages [discco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discco-0.2.4.tar.gz tmp/discco-0.2.5.tar.gz --markdown 20230803/d/discco/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-03 13:07:45] INFO root fetch - processPackages [matplotlib-polyroi]: Downloading https://files.pythonhosted.org/packages/8b/8a/cc593244fcacf9d0f27520950836f2a631846d9653d9ae27ed100ab2b8f9/matplotlib-polyroi-0.1.5.tar.gz
+[2023-08-03 13:07:45] INFO root fetch - processPackages [kedro-telemetry]: Downloading https://files.pythonhosted.org/packages/51/02/9ba9939181f27d7eccb881cdfe0f8b42e9d2973a921d6de4e218a02671dc/kedro-telemetry-0.2.5.tar.gz
+[2023-08-03 13:07:45] INFO root fetch - processPackages [enmerkar-underscore]: executing diffoscope
+[2023-08-03 13:07:45] INFO root fetch - processPackages [enmerkar-underscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enmerkar-underscore-2.1.0.tar.gz tmp/enmerkar-underscore-2.2.0.tar.gz --markdown 20230803/e/enmerkar-underscore/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-08-03 13:07:45] INFO root fetch - processPackages [make-playlist]: Downloading https://files.pythonhosted.org/packages/a6/8d/0c8346b89fcd8c811006ca05797b67ed031f189740ea631b7a59153d823e/make_playlist-1.7.0.tar.gz
+[2023-08-03 13:07:45] INFO root fetch - processPackages [re-edge-gpt]: executing diffoscope
+[2023-08-03 13:07:45] INFO root fetch - processPackages [re-edge-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_edge_gpt-0.0.1.tar.gz tmp/re_edge_gpt-0.0.2.tar.gz --markdown 20230803/r/re-edge-gpt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 13:07:45] INFO root fetch - processPackages [aisrfwk]: executing diffoscope
+[2023-08-03 13:07:45] INFO root fetch - processPackages [aisrfwk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisrfwk-1.0.4-py3-none-any.whl.zip tmp/aisrfwk-1.0.5.tar.gz --markdown 20230803/a/aisrfwk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-03 13:07:45] INFO root fetch - processPackages [matplotlib-polyroi]: executing diffoscope
+[2023-08-03 13:07:45] INFO root fetch - processPackages [matplotlib-polyroi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlib-polyroi-0.1.4.tar.gz tmp/matplotlib-polyroi-0.1.5.tar.gz --markdown 20230803/m/matplotlib-polyroi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-03 13:07:45] INFO root fetch - processPackages [kedro-telemetry]: executing diffoscope
+[2023-08-03 13:07:45] INFO root fetch - processPackages [kedro-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-telemetry-0.2.4.tar.gz tmp/kedro-telemetry-0.2.5.tar.gz --markdown 20230803/k/kedro-telemetry/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-03 13:07:45] INFO root fetch - processPackages [make-playlist]: Downloading https://files.pythonhosted.org/packages/21/30/9bc0c157268648ca45e5984b82413efe6abdad88315d31a2d70734c36b6f/make_playlist-1.8.0.tar.gz
+[2023-08-03 13:07:45] INFO root fetch - processPackages [make-playlist]: executing diffoscope
+[2023-08-03 13:07:45] INFO root fetch - processPackages [make-playlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/make_playlist-1.7.0.tar.gz tmp/make_playlist-1.8.0.tar.gz --markdown 20230803/m/make-playlist/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-08-03 13:07:46] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.32.tar.gz]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.33.tar.gz]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [ul-py-tool]: Start processing: fotoobo
+[2023-08-03 13:07:46] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2023-08-03 13:07:46] INFO root fetch - processPackages [fotoobo]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-uvdiviner-2.1.0.tar.gz]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-uvdiviner-2.1.1.tar.gz]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Start processing: DeepSlice
+[2023-08-03 13:07:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-uvdiviner]: success
+[2023-08-03 13:07:46] INFO root fetch - processPackages [fotoobo]: Downloading https://files.pythonhosted.org/packages/96/64/49d5d87cd64bc68e9f3497873b53e69eeb908245348465615ef3ec23e7b9/fotoobo-0.9.0.tar.gz
+[2023-08-03 13:07:46] INFO root fetch - processPackages [DeepSlice]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [re-edge-gpt-dev]: Remove: archive file [/home/abi/fetcher/tmp/re_edge_gpt_dev-0.0.1.tar.gz]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [re-edge-gpt-dev]: Remove: archive file [/home/abi/fetcher/tmp/re_edge_gpt_dev-0.0.2.tar.gz]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [re-edge-gpt-dev]: Start processing: faker-crypto
+[2023-08-03 13:07:46] INFO root fetch - main [MainThread]: End processing [re-edge-gpt-dev]: success
+[2023-08-03 13:07:46] INFO root fetch - processPackages [aisrfwk]: Remove: archive file [/home/abi/fetcher/tmp/aisrfwk-1.0.4-py3-none-any.whl.zip]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [aisrfwk]: Remove: archive file [/home/abi/fetcher/tmp/aisrfwk-1.0.5.tar.gz]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [aisrfwk]: Start processing: somanet-test-suite
+[2023-08-03 13:07:46] INFO root fetch - main [MainThread]: End processing [aisrfwk]: success
+[2023-08-03 13:07:46] INFO root fetch - processPackages [fotoobo]: Downloading https://files.pythonhosted.org/packages/02/78/7a561b6ba2a59fce7b77766abaa5883c154867640c6f315dd2adad30e5c8/fotoobo-1.0.0.tar.gz
+[2023-08-03 13:07:46] INFO root fetch - processPackages [DeepSlice]: Downloading https://files.pythonhosted.org/packages/af/93/4f5d4a2946cadc92105fe06c89a5dc8a102d036a7d975dd166481cd757de/DeepSlice-1.1.3.tar.gz
+[2023-08-03 13:07:46] INFO root fetch - processPackages [enmerkar-underscore]: Remove: archive file [/home/abi/fetcher/tmp/enmerkar-underscore-2.1.0.tar.gz]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [enmerkar-underscore]: Remove: archive file [/home/abi/fetcher/tmp/enmerkar-underscore-2.2.0.tar.gz]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [enmerkar-underscore]: Start processing: urban-footprinter
+[2023-08-03 13:07:46] INFO root fetch - main [MainThread]: End processing [enmerkar-underscore]: success
+[2023-08-03 13:07:46] INFO root fetch - processPackages [faker-crypto]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [somanet-test-suite]: New version: [1.1.2] Old Version: [1.0.1]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [re-edge-gpt]: Remove: archive file [/home/abi/fetcher/tmp/re_edge_gpt-0.0.1.tar.gz]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [fotoobo]: executing diffoscope
+[2023-08-03 13:07:46] INFO root fetch - processPackages [re-edge-gpt]: Remove: archive file [/home/abi/fetcher/tmp/re_edge_gpt-0.0.2.tar.gz]
+[2023-08-03 13:07:46] INFO root fetch - processPackages [fotoobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fotoobo-0.9.0.tar.gz tmp/fotoobo-1.0.0.tar.gz --markdown 20230803/f/fotoobo/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-03 13:07:46] INFO root fetch - processPackages [re-edge-gpt]: Start processing: syngen
+[2023-08-03 13:07:46] INFO root fetch - main [MainThread]: End processing [re-edge-gpt]: success
+[2023-08-03 13:07:47] INFO root fetch - processPackages [matplotlib-polyroi]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib-polyroi-0.1.4.tar.gz]
+[2023-08-03 13:07:47] INFO root fetch - processPackages [matplotlib-polyroi]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib-polyroi-0.1.5.tar.gz]
+[2023-08-03 13:07:47] INFO root fetch - processPackages [matplotlib-polyroi]: Start processing: parameter-space-2d
+[2023-08-03 13:07:47] INFO root fetch - main [MainThread]: End processing [matplotlib-polyroi]: success
+[2023-08-03 13:07:47] INFO root fetch - processPackages [kedro-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/kedro-telemetry-0.2.4.tar.gz]
+[2023-08-03 13:07:47] INFO root fetch - processPackages [kedro-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/kedro-telemetry-0.2.5.tar.gz]
+[2023-08-03 13:07:47] INFO root fetch - processPackages [kedro-telemetry]: Start processing: tensorage
+[2023-08-03 13:07:47] INFO root fetch - main [MainThread]: End processing [kedro-telemetry]: success
+[2023-08-03 13:07:47] INFO root fetch - processPackages [discco]: Remove: archive file [/home/abi/fetcher/tmp/discco-0.2.4.tar.gz]
+[2023-08-03 13:07:47] INFO root fetch - processPackages [discco]: Remove: archive file [/home/abi/fetcher/tmp/discco-0.2.5.tar.gz]
+[2023-08-03 13:07:47] INFO root fetch - main [MainThread]: End processing [discco]: success
+[2023-08-03 13:07:47] INFO root fetch - processPackages [urban-footprinter]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-03 13:07:47] INFO root fetch - processPackages [tensorage]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 13:07:47] INFO root fetch - processPackages [syngen]: New version: [0.2.0rc0] Old Version: [0.1.9]
+[2023-08-03 13:07:47] INFO root fetch - processPackages [faker-crypto]: Downloading https://files.pythonhosted.org/packages/29/60/5b74019ec69b482e37e917a82d8611bcfe41baf1d246cba7d4ad1e27d570/faker_crypto-0.2.0.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [parameter-space-2d]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-03 13:07:47] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/de/df/0b1cd70d41bccabec21ce79c9c21dc32c8d20ae5ae9eedcc1884e6002b96/tensorage-0.0.8.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [somanet-test-suite]: Downloading https://files.pythonhosted.org/packages/fd/12/2a5516eceda87c5ab3a589d483c2ba755ce003ded040ba8ef299b5c3c3b3/somanet_test_suite-1.0.1.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [make-playlist]: Remove: archive file [/home/abi/fetcher/tmp/make_playlist-1.7.0.tar.gz]
+[2023-08-03 13:07:47] INFO root fetch - processPackages [make-playlist]: Remove: archive file [/home/abi/fetcher/tmp/make_playlist-1.8.0.tar.gz]
+[2023-08-03 13:07:47] INFO root fetch - main [MainThread]: End processing [make-playlist]: success
+[2023-08-03 13:07:47] INFO root fetch - processPackages [DeepSlice]: Downloading https://files.pythonhosted.org/packages/1f/4a/192da8d33a1e153518603891c9872c396ce690dafa433f15555305bd8c65/DeepSlice-1.1.4.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [urban-footprinter]: Downloading https://files.pythonhosted.org/packages/86/d0/25cc27bf37940b42b30f1492d172bac7f421d0026fff2754f89aeb28d44d/urban-footprinter-0.2.0.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [DeepSlice]: executing diffoscope
+[2023-08-03 13:07:47] INFO root fetch - processPackages [DeepSlice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepSlice-1.1.3.tar.gz tmp/DeepSlice-1.1.4.tar.gz --markdown 20230803/D/DeepSlice/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-03 13:07:47] INFO root fetch - processPackages [parameter-space-2d]: Downloading https://files.pythonhosted.org/packages/b7/9f/76aa4c2e77204878c92ee229eff7f56e79ab2781caaf1f8e5bf76ea72290/parameter-space-2d-0.1.3.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/1c/ec/09634635304cfe54bd538c9f136477113b28b8b56e10596aec3cf678573a/syngen-0.1.9.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/0e/b1/d6519f414448860d51daa191680d379fcde04c6bcf774fbb1557db59d74f/tensorage-0.0.9.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [somanet-test-suite]: Downloading https://files.pythonhosted.org/packages/fe/bc/878ac8b3f211dc33474a36e5df1cf0d32677f560533ff706cc70e2548ef7/somanet_test_suite-1.1.2.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [faker-crypto]: Downloading https://files.pythonhosted.org/packages/6a/ea/bec83893e887c5ac595bd445bc242f4087e1e6a469abfe294312bf40d1e9/faker_crypto-0.2.1.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-08-03 13:07:47] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.8.tar.gz tmp/tensorage-0.0.9.tar.gz --markdown 20230803/t/tensorage/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 13:07:47] INFO root fetch - processPackages [urban-footprinter]: Downloading https://files.pythonhosted.org/packages/07/74/53381d9d0ede0f47dbdfc1521d36ac25cafa6cbfe1c3e80e4cba1a370030/urban-footprinter-0.3.0.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [somanet-test-suite]: executing diffoscope
+[2023-08-03 13:07:47] INFO root fetch - processPackages [somanet-test-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somanet_test_suite-1.0.1.tar.gz tmp/somanet_test_suite-1.1.2.tar.gz --markdown 20230803/s/somanet-test-suite/1.0.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-03 13:07:47] INFO root fetch - processPackages [faker-crypto]: executing diffoscope
+[2023-08-03 13:07:47] INFO root fetch - processPackages [faker-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker_crypto-0.2.0.tar.gz tmp/faker_crypto-0.2.1.tar.gz --markdown 20230803/f/faker-crypto/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-03 13:07:47] INFO root fetch - processPackages [parameter-space-2d]: Downloading https://files.pythonhosted.org/packages/0d/d8/c6620adcc143d0a0e44d4b99a75f703f1c369b7432fa2a6f369ad2ae9d6c/parameter-space-2d-0.1.4.tar.gz
+[2023-08-03 13:07:47] INFO root fetch - processPackages [urban-footprinter]: executing diffoscope
+[2023-08-03 13:07:47] INFO root fetch - processPackages [urban-footprinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urban-footprinter-0.2.0.tar.gz tmp/urban-footprinter-0.3.0.tar.gz --markdown 20230803/u/urban-footprinter/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-03 13:07:48] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/6f/d5/864bd9a8ec3d327eba30b617f140b18f761e36f1d16a4a6a5b33de75459d/syngen-0.2.0rc0.tar.gz
+[2023-08-03 13:07:48] INFO root fetch - processPackages [parameter-space-2d]: executing diffoscope
+[2023-08-03 13:07:48] INFO root fetch - processPackages [parameter-space-2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parameter-space-2d-0.1.3.tar.gz tmp/parameter-space-2d-0.1.4.tar.gz --markdown 20230803/p/parameter-space-2d/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-03 13:07:48] INFO root fetch - processPackages [fotoobo]: Remove: archive file [/home/abi/fetcher/tmp/fotoobo-0.9.0.tar.gz]
+[2023-08-03 13:07:48] INFO root fetch - processPackages [fotoobo]: Remove: archive file [/home/abi/fetcher/tmp/fotoobo-1.0.0.tar.gz]
+[2023-08-03 13:07:48] INFO root fetch - main [MainThread]: End processing [fotoobo]: success
+[2023-08-03 13:07:48] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-08-03 13:07:48] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.9.tar.gz tmp/syngen-0.2.0rc0.tar.gz --markdown 20230803/s/syngen/0.1.9-0.2.0rc0/diff.md --exclude *.pyd
+[2023-08-03 13:07:48] INFO root fetch - processPackages [DeepSlice]: Remove: archive file [/home/abi/fetcher/tmp/DeepSlice-1.1.3.tar.gz]
+[2023-08-03 13:07:48] INFO root fetch - processPackages [DeepSlice]: Remove: archive file [/home/abi/fetcher/tmp/DeepSlice-1.1.4.tar.gz]
+[2023-08-03 13:07:48] INFO root fetch - main [MainThread]: End processing [DeepSlice]: success
+[2023-08-03 13:07:48] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.8.tar.gz]
+[2023-08-03 13:07:48] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.9.tar.gz]
+[2023-08-03 13:07:48] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-08-03 13:07:48] INFO root fetch - processPackages [faker-crypto]: Remove: archive file [/home/abi/fetcher/tmp/faker_crypto-0.2.0.tar.gz]
+[2023-08-03 13:07:48] INFO root fetch - processPackages [faker-crypto]: Remove: archive file [/home/abi/fetcher/tmp/faker_crypto-0.2.1.tar.gz]
+[2023-08-03 13:07:48] INFO root fetch - main [MainThread]: End processing [faker-crypto]: success
+[2023-08-03 13:07:48] INFO root fetch - processPackages [somanet-test-suite]: Remove: archive file [/home/abi/fetcher/tmp/somanet_test_suite-1.0.1.tar.gz]
+[2023-08-03 13:07:48] INFO root fetch - processPackages [somanet-test-suite]: Remove: archive file [/home/abi/fetcher/tmp/somanet_test_suite-1.1.2.tar.gz]
+[2023-08-03 13:07:48] INFO root fetch - main [MainThread]: End processing [somanet-test-suite]: success
+[2023-08-03 13:07:49] INFO root fetch - processPackages [urban-footprinter]: Remove: archive file [/home/abi/fetcher/tmp/urban-footprinter-0.2.0.tar.gz]
+[2023-08-03 13:07:49] INFO root fetch - processPackages [urban-footprinter]: Remove: archive file [/home/abi/fetcher/tmp/urban-footprinter-0.3.0.tar.gz]
+[2023-08-03 13:07:49] INFO root fetch - main [MainThread]: End processing [urban-footprinter]: success
+[2023-08-03 13:07:49] INFO root fetch - processPackages [parameter-space-2d]: Remove: archive file [/home/abi/fetcher/tmp/parameter-space-2d-0.1.3.tar.gz]
+[2023-08-03 13:07:49] INFO root fetch - processPackages [parameter-space-2d]: Remove: archive file [/home/abi/fetcher/tmp/parameter-space-2d-0.1.4.tar.gz]
+[2023-08-03 13:07:49] INFO root fetch - main [MainThread]: End processing [parameter-space-2d]: success
+[2023-08-03 13:07:49] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-08-03 13:07:49] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.2.0rc0.tar.gz]
+[2023-08-03 13:07:49] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-08-03 13:07:49] INFO root fetch - main [MainThread]: Store serial: [19157974]
