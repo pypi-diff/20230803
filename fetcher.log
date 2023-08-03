@@ -12784,3 +12784,90 @@
 [2023-08-03 07:55:47] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.406.0.tar.gz]
 [2023-08-03 07:55:47] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-03 07:55:47] INFO root fetch - main [MainThread]: Store serial: [19154221]
+[2023-08-03 08:00:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154221]
+[2023-08-03 08:00:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-03 08:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lares
+[2023-08-03 08:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pokie-container
+[2023-08-03 08:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onqlave-python-dev
+[2023-08-03 08:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoBrewML
+[2023-08-03 08:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: async-stripe
+[2023-08-03 08:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elytra-ms
+[2023-08-03 08:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nemusicapi
+[2023-08-03 08:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lares
+[2023-08-03 08:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-cloudamqp
+[2023-08-03 08:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-civo
+[2023-08-03 08:00:56] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1691040085] Old Version: [2.4.0a1690969046]
+[2023-08-03 08:00:56] INFO root fetch - processPackages [elytra-ms]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-03 08:00:56] WARNING root fetch - processPackages [pokie-container]: Skipping, unable to determine old version
+[2023-08-03 08:00:56] INFO root fetch - processPackages [pokie-container]: Start processing: pulumi-cloudflare
+[2023-08-03 08:00:56] INFO root fetch - main [MainThread]: End processing [pokie-container] error
+[2023-08-03 08:00:56] WARNING root fetch - processPackages [lares]: Skipping, unable to determine old version
+[2023-08-03 08:00:56] INFO root fetch - processPackages [lares]: Start processing: qontract-reconcile
+[2023-08-03 08:00:56] INFO root fetch - main [MainThread]: End processing [lares] error
+[2023-08-03 08:00:56] INFO root fetch - processPackages [nemusicapi]: New version: [0.0.3a1] Old Version: [0.0.3]
+[2023-08-03 08:00:56] INFO root fetch - processPackages [AutoBrewML]: New version: [0.9] Old Version: [0.8]
+[2023-08-03 08:00:56] WARNING root fetch - processPackages [lares]: Skipping, unable to determine old version
+[2023-08-03 08:00:56] INFO root fetch - main [MainThread]: End processing [lares] error
+[2023-08-03 08:00:56] INFO root fetch - processPackages [async-stripe]: New version: [5.5.0] Old Version: [5.4.0]
+[2023-08-03 08:00:56] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-08-03 08:00:56] WARNING root fetch - processPackages [onqlave-python-dev]: Skipping, unable to determine old version
+[2023-08-03 08:00:56] INFO root fetch - main [MainThread]: End processing [onqlave-python-dev] error
+[2023-08-03 08:00:56] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.8.0a1691040208] Old Version: [5.8.0a1690471136]
+[2023-08-03 08:00:56] INFO root fetch - processPackages [AutoBrewML]: Downloading https://files.pythonhosted.org/packages/29/99/00ae06948a5c95386068fe7e12aada406a92d235d69e8b6a4fcc997579a8/AutoBrewML-0.8-py3-none-any.whl
+[2023-08-03 08:00:56] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-08-03 08:00:56] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/0c/21/7bf5a23af493ede6a555bc8d0891d335aa2ff39697bb133a59947235afad/elytra_ms-0.1.0.tar.gz
+[2023-08-03 08:00:56] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/54/63/7c1a3f5815f8a082f83069b312410e7a6ac940e26831b6c8334f18ec6e01/pulumi_civo-2.4.0a1690969046.tar.gz
+[2023-08-03 08:00:56] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/97/bf/4e8953d01004cfc58f04cde0989a4be35df251df8e93fdda09ecd8212300/nemusicapi-0.0.3.tar.gz
+[2023-08-03 08:00:57] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-08-03 08:00:57] INFO root fetch - processPackages [async-stripe]: Downloading https://files.pythonhosted.org/packages/de/89/ac289d31df45787c4b022d16a6e9493d9b700df9a0b8ab2b7bae704d2274/async_stripe-5.4.0.tar.gz
+[2023-08-03 08:00:57] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2023-08-03 08:00:57] INFO root fetch - processPackages [AutoBrewML]: Downloading https://files.pythonhosted.org/packages/86/de/d9373b67ff4d1ddc1a258960a5c79af5f1f4d568541adfc5eae52aaedcf4/AutoBrewML-0.9-py3-none-any.whl
+[2023-08-03 08:00:57] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/4d/3d/b2b1423332dd667ec7bfa5fa47db81998c1264df10f14859d7fc76b62f5a/pulumi_cloudflare-5.8.0a1690471136.tar.gz
+[2023-08-03 08:00:57] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/e8/9c/7ed2d188ef97b972373f8face963e2e6c8ba0f15d526f736dfd1df91d42b/elytra_ms-0.1.1.tar.gz
+[2023-08-03 08:00:57] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/7a/b6/cd5544e156ac55a6ed007da408d29a0a132c3ae9c9a71b85d5b8bb52d9c5/nemusicapi-0.0.3a1.tar.gz
+[2023-08-03 08:00:57] INFO root fetch - processPackages [AutoBrewML]: executing diffoscope
+[2023-08-03 08:00:57] INFO root fetch - processPackages [AutoBrewML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoBrewML-0.8-py3-none-any.whl.zip tmp/AutoBrewML-0.9-py3-none-any.whl.zip --markdown 20230803/A/AutoBrewML/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-03 08:00:57] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-08-03 08:00:57] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/1f/d0/831fa5140baf786cddcbe76f4de6aa04a119d9f154373ce9e3f72f8787ce/pulumi_civo-2.4.0a1691040085.tar.gz
+[2023-08-03 08:00:57] INFO root fetch - processPackages [elytra-ms]: executing diffoscope
+[2023-08-03 08:00:57] INFO root fetch - processPackages [elytra-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elytra_ms-0.1.0.tar.gz tmp/elytra_ms-0.1.1.tar.gz --markdown 20230803/e/elytra-ms/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-03 08:00:57] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-08-03 08:00:57] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230803/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-08-03 08:00:57] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 08:00:57] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.3.tar.gz tmp/nemusicapi-0.0.3a1.tar.gz --markdown 20230803/n/nemusicapi/0.0.3-0.0.3a1/diff.md --exclude *.pyd
+[2023-08-03 08:00:57] INFO root fetch - processPackages [async-stripe]: Downloading https://files.pythonhosted.org/packages/3a/bd/2ebe867f327d2fb9d140e4b52be10bef770f5e148d47cd248182b3d83f99/async_stripe-5.5.0.tar.gz
+[2023-08-03 08:00:57] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-08-03 08:00:57] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1690969046.tar.gz tmp/pulumi_civo-2.4.0a1691040085.tar.gz --markdown 20230803/p/pulumi-civo/2.4.0a1690969046-2.4.0a1691040085/diff.md --exclude *.pyd
+[2023-08-03 08:00:57] INFO root fetch - processPackages [async-stripe]: executing diffoscope
+[2023-08-03 08:00:57] INFO root fetch - processPackages [async-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_stripe-5.4.0.tar.gz tmp/async_stripe-5.5.0.tar.gz --markdown 20230803/a/async-stripe/5.4.0-5.5.0/diff.md --exclude *.pyd
+[2023-08-03 08:00:57] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/d8/c7/c4b5bf0e7af4b385d37a04561e8ab1590dd152dd192ce1fc0c02ac93cb10/pulumi_cloudflare-5.8.0a1691040208.tar.gz
+[2023-08-03 08:00:57] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2023-08-03 08:00:58] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-08-03 08:00:58] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.8.0a1690471136.tar.gz tmp/pulumi_cloudflare-5.8.0a1691040208.tar.gz --markdown 20230803/p/pulumi-cloudflare/5.8.0a1690471136-5.8.0a1691040208/diff.md --exclude *.pyd
+[2023-08-03 08:00:58] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2023-08-03 08:00:58] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20230803/p/pulumi-cloudamqp/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-08-03 08:00:58] INFO root fetch - processPackages [AutoBrewML]: Remove: archive file [/home/abi/fetcher/tmp/AutoBrewML-0.8-py3-none-any.whl.zip]
+[2023-08-03 08:00:58] INFO root fetch - processPackages [AutoBrewML]: Remove: archive file [/home/abi/fetcher/tmp/AutoBrewML-0.9-py3-none-any.whl.zip]
+[2023-08-03 08:00:58] INFO root fetch - main [MainThread]: End processing [AutoBrewML]: success
+[2023-08-03 08:00:58] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.3.tar.gz]
+[2023-08-03 08:00:58] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.3a1.tar.gz]
+[2023-08-03 08:00:58] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 08:00:58] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.1.0.tar.gz]
+[2023-08-03 08:00:58] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.1.1.tar.gz]
+[2023-08-03 08:00:58] INFO root fetch - main [MainThread]: End processing [elytra-ms]: success
+[2023-08-03 08:00:59] INFO root fetch - processPackages [async-stripe]: Remove: archive file [/home/abi/fetcher/tmp/async_stripe-5.4.0.tar.gz]
+[2023-08-03 08:00:59] INFO root fetch - processPackages [async-stripe]: Remove: archive file [/home/abi/fetcher/tmp/async_stripe-5.5.0.tar.gz]
+[2023-08-03 08:00:59] INFO root fetch - main [MainThread]: End processing [async-stripe]: success
+[2023-08-03 08:00:59] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1690969046.tar.gz]
+[2023-08-03 08:00:59] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1691040085.tar.gz]
+[2023-08-03 08:00:59] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-08-03 08:00:59] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2023-08-03 08:00:59] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2023-08-03 08:00:59] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2023-08-03 08:00:59] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.8.0a1690471136.tar.gz]
+[2023-08-03 08:00:59] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.8.0a1691040208.tar.gz]
+[2023-08-03 08:00:59] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-08-03 08:01:00] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-08-03 08:01:00] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-08-03 08:01:00] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-08-03 08:01:00] INFO root fetch - main [MainThread]: Store serial: [19154257]
