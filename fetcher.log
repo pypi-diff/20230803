@@ -12580,3 +12580,86 @@
 [2023-08-03 07:39:28] INFO root fetch - processPackages [asqlcell]: Remove: archive file [/home/abi/fetcher/tmp/asqlcell-0.2.0.1-py2.py3-none-any.whl.zip]
 [2023-08-03 07:39:28] INFO root fetch - main [MainThread]: End processing [asqlcell]: success
 [2023-08-03 07:39:28] INFO root fetch - main [MainThread]: Store serial: [19154135]
+[2023-08-03 07:44:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154135]
+[2023-08-03 07:44:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vmklib
+[2023-08-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djaodjin-saas
+[2023-08-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: servicefoundry
+[2023-08-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RobertCommonDriver
+[2023-08-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xgit-python
+[2023-08-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: distcrab
+[2023-08-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-metricflow
+[2023-08-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-web-field-required-invisible-manager
+[2023-08-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: music-assistant
+[2023-08-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nemusicapi
+[2023-08-03 07:44:37] INFO root fetch - processPackages [dbt-metricflow]: New version: [0.1.0rc1] Old Version: [0.1.0]
+[2023-08-03 07:44:37] INFO root fetch - processPackages [vmklib]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-08-03 07:44:37] INFO root fetch - processPackages [djaodjin-saas]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-03 07:44:37] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: New version: [14.0.2.0.1.dev1] Old Version: [14.0.2.0.0]
+[2023-08-03 07:44:37] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 07:44:37] WARNING root fetch - processPackages [xgit-python]: Skipping, unable to determine old version
+[2023-08-03 07:44:37] INFO root fetch - main [MainThread]: End processing [xgit-python] error
+[2023-08-03 07:44:37] INFO root fetch - processPackages [RobertCommonDriver]: New version: [0.1.49] Old Version: [0.1.48]
+[2023-08-03 07:44:37] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-08-03 07:44:37] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2023-08-03 07:44:37] INFO root fetch - processPackages [nemusicapi]: New version: [0.0.3] Old Version: [0.0.2a1]
+[2023-08-03 07:44:37] INFO root fetch - processPackages [vmklib]: Downloading https://files.pythonhosted.org/packages/8b/2b/054d405a9582c09c7ec330574176ca84c230c0a1d3218c0c8b5e6146a2c3/vmklib-1.8.3.tar.gz
+[2023-08-03 07:44:37] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: Downloading https://files.pythonhosted.org/packages/35/f6/10022d1d2ac585dc016b8921aa923aa789c2889a139a1182a650a4d2b416/odoo14_addon_web_field_required_invisible_manager-14.0.2.0.0-py3-none-any.whl
+[2023-08-03 07:44:37] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-08-03 07:44:37] INFO root fetch - processPackages [dbt-metricflow]: Downloading https://files.pythonhosted.org/packages/6a/83/54138ae14d4c52468781dfc0230887527790d30d2270f2a8762a6189c9b9/dbt_metricflow-0.1.0.tar.gz
+[2023-08-03 07:44:37] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-08-03 07:44:37] INFO root fetch - processPackages [djaodjin-saas]: Downloading https://files.pythonhosted.org/packages/e2/ac/072254f3b422410b9d5eddfdc13c2a3bc0d1f6a123903ed144aa8a44670e/djaodjin-saas-0.9.4.tar.gz
+[2023-08-03 07:44:37] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/7d/b2/cda0feaff7bd5a24cecf306d5eddc6f4ceb533dac24873a25fc3d1ba2793/RobertCommonDriver-0.1.48.tar.gz
+[2023-08-03 07:44:37] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-08-03 07:44:37] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-08-03 07:44:37] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2023-08-03 07:44:38] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/21/b5/85be0a216f1784fb9618f0a0208a7c8efa49d7659b9b4f159e95ad5d4e11/nemusicapi-0.0.2a1.tar.gz
+[2023-08-03 07:44:38] INFO root fetch - processPackages [vmklib]: Downloading https://files.pythonhosted.org/packages/f4/b0/58bb77fef5d8a0347e565208f96e8fa7f66804ac2f039ea33ac938a59f3c/vmklib-1.9.0.tar.gz
+[2023-08-03 07:44:38] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: Downloading https://files.pythonhosted.org/packages/2a/15/442886deb116e6ae738fad6b0ee72eb4750ef5f57075f1c06ce90f15ebb6/odoo14_addon_web_field_required_invisible_manager-14.0.2.0.1.dev1-py3-none-any.whl
+[2023-08-03 07:44:38] INFO root fetch - processPackages [dbt-metricflow]: Downloading https://files.pythonhosted.org/packages/9a/f0/d6b4d5470e1c011466d0da63ae2c43f66a2f9a73706a29f0e6ae3f84b37c/dbt_metricflow-0.1.0rc1.tar.gz
+[2023-08-03 07:44:38] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-08-03 07:44:38] INFO root fetch - processPackages [vmklib]: executing diffoscope
+[2023-08-03 07:44:38] INFO root fetch - processPackages [vmklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmklib-1.8.3.tar.gz tmp/vmklib-1.9.0.tar.gz --markdown 20230803/v/vmklib/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-08-03 07:44:38] INFO root fetch - processPackages [djaodjin-saas]: Downloading https://files.pythonhosted.org/packages/e6/ac/a73ae117d10f1c5fb4d2822dd256e2fd2856a153a9ca8c10f499e9a3b490/djaodjin-saas-0.9.5.tar.gz
+[2023-08-03 07:44:38] INFO root fetch - processPackages [dbt-metricflow]: executing diffoscope
+[2023-08-03 07:44:38] INFO root fetch - processPackages [dbt-metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_metricflow-0.1.0.tar.gz tmp/dbt_metricflow-0.1.0rc1.tar.gz --markdown 20230803/d/dbt-metricflow/0.1.0-0.1.0rc1/diff.md --exclude *.pyd
+[2023-08-03 07:44:38] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/e3/b0/02215bab99a47e4c9c13ce60fcb036d359a08e90f805fbec020243b75024/RobertCommonDriver-0.1.49.tar.gz
+[2023-08-03 07:44:38] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/97/bf/4e8953d01004cfc58f04cde0989a4be35df251df8e93fdda09ecd8212300/nemusicapi-0.0.3.tar.gz
+[2023-08-03 07:44:38] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-08-03 07:44:38] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230803/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 07:44:38] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2023-08-03 07:44:38] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: executing diffoscope
+[2023-08-03 07:44:38] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_field_required_invisible_manager-14.0.2.0.0-py3-none-any.whl.zip tmp/odoo14_addon_web_field_required_invisible_manager-14.0.2.0.1.dev1-py3-none-any.whl.zip --markdown 20230803/o/odoo14-addon-web-field-required-invisible-manager/14.0.2.0.0-14.0.2.0.1.dev1/diff.md --exclude *.pyd
+[2023-08-03 07:44:38] INFO root fetch - processPackages [RobertCommonDriver]: executing diffoscope
+[2023-08-03 07:44:38] INFO root fetch - processPackages [RobertCommonDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonDriver-0.1.48.tar.gz tmp/RobertCommonDriver-0.1.49.tar.gz --markdown 20230803/R/RobertCommonDriver/0.1.48-0.1.49/diff.md --exclude *.pyd
+[2023-08-03 07:44:38] INFO root fetch - processPackages [djaodjin-saas]: executing diffoscope
+[2023-08-03 07:44:38] INFO root fetch - processPackages [djaodjin-saas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-saas-0.9.4.tar.gz tmp/djaodjin-saas-0.9.5.tar.gz --markdown 20230803/d/djaodjin-saas/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-03 07:44:38] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 07:44:38] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.2a1.tar.gz tmp/nemusicapi-0.0.3.tar.gz --markdown 20230803/n/nemusicapi/0.0.2a1-0.0.3/diff.md --exclude *.pyd
+[2023-08-03 07:44:38] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-08-03 07:44:38] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20230803/s/servicefoundry/0.9.9rc1-0.9.9rc2/diff.md --exclude *.pyd
+[2023-08-03 07:44:39] INFO root fetch - processPackages [dbt-metricflow]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metricflow-0.1.0.tar.gz]
+[2023-08-03 07:44:39] INFO root fetch - processPackages [dbt-metricflow]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metricflow-0.1.0rc1.tar.gz]
+[2023-08-03 07:44:39] INFO root fetch - main [MainThread]: End processing [dbt-metricflow]: success
+[2023-08-03 07:44:39] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-08-03 07:44:39] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-08-03 07:44:39] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-08-03 07:44:39] INFO root fetch - processPackages [vmklib]: Remove: archive file [/home/abi/fetcher/tmp/vmklib-1.8.3.tar.gz]
+[2023-08-03 07:44:39] INFO root fetch - processPackages [vmklib]: Remove: archive file [/home/abi/fetcher/tmp/vmklib-1.9.0.tar.gz]
+[2023-08-03 07:44:39] INFO root fetch - main [MainThread]: End processing [vmklib]: success
+[2023-08-03 07:44:39] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.2a1.tar.gz]
+[2023-08-03 07:44:39] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.3.tar.gz]
+[2023-08-03 07:44:39] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 07:44:39] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_field_required_invisible_manager-14.0.2.0.0-py3-none-any.whl.zip]
+[2023-08-03 07:44:39] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_field_required_invisible_manager-14.0.2.0.1.dev1-py3-none-any.whl.zip]
+[2023-08-03 07:44:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-field-required-invisible-manager]: success
+[2023-08-03 07:44:40] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2023-08-03 07:44:40] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2023-08-03 07:44:40] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-08-03 07:44:40] INFO root fetch - processPackages [RobertCommonDriver]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonDriver-0.1.48.tar.gz]
+[2023-08-03 07:44:40] INFO root fetch - processPackages [RobertCommonDriver]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonDriver-0.1.49.tar.gz]
+[2023-08-03 07:44:40] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
+[2023-08-03 07:44:41] INFO root fetch - processPackages [djaodjin-saas]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-saas-0.9.4.tar.gz]
+[2023-08-03 07:44:41] INFO root fetch - processPackages [djaodjin-saas]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-saas-0.9.5.tar.gz]
+[2023-08-03 07:44:41] INFO root fetch - main [MainThread]: End processing [djaodjin-saas]: success
+[2023-08-03 07:44:41] INFO root fetch - main [MainThread]: Store serial: [19154167]
