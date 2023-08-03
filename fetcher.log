@@ -12092,3 +12092,45 @@
 [2023-08-03 06:57:07] INFO root fetch - processPackages [seqlog]: Remove: archive file [/home/abi/fetcher/tmp/seqlog-0.3.9-py2.py3-none-any.whl.zip]
 [2023-08-03 06:57:07] INFO root fetch - main [MainThread]: End processing [seqlog]: success
 [2023-08-03 06:57:07] INFO root fetch - main [MainThread]: Store serial: [19153822]
+[2023-08-03 07:02:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153822]
+[2023-08-03 07:02:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-03 07:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sos-matlab
+[2023-08-03 07:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Srini-CRMA
+[2023-08-03 07:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: corporate-reputation
+[2023-08-03 07:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-transfer
+[2023-08-03 07:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsap
+[2023-08-03 07:02:15] INFO root fetch - processPackages [sos-matlab]: New version: [0.9.9.2] Old Version: [0.9.12.1]
+[2023-08-03 07:02:15] INFO root fetch - processPackages [edc-transfer]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-03 07:02:16] WARNING root fetch - processPackages [Srini-CRMA]: Skipping, unable to determine old version
+[2023-08-03 07:02:16] INFO root fetch - main [MainThread]: End processing [Srini-CRMA] error
+[2023-08-03 07:02:16] INFO root fetch - processPackages [corporate-reputation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-03 07:02:16] INFO root fetch - processPackages [dsap]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-03 07:02:16] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/7a/a0/9a2009f226fe67dbd11d0681c39128e4c4d96e57b52c6b0505adcf4e491b/corporate_reputation-0.9.2.tar.gz
+[2023-08-03 07:02:16] INFO root fetch - processPackages [sos-matlab]: Downloading https://files.pythonhosted.org/packages/5a/c1/184f89c0d2ae5f556c048a8f2cec6a2af5db8c1e6056ea17711c402f3cbf/sos-matlab-0.9.12.1.tar.gz
+[2023-08-03 07:02:16] INFO root fetch - processPackages [edc-transfer]: Downloading https://files.pythonhosted.org/packages/33/99/398e16dab466f22b316931d8b82af7a3c2c1faf344a269cf0b8a3b231f8a/edc-transfer-0.3.8.tar.gz
+[2023-08-03 07:02:16] INFO root fetch - processPackages [dsap]: Downloading https://files.pythonhosted.org/packages/f7/d4/4f35c23544d789dd7a21a1ebe0d5880d8d38c5d266aef48810ca729ef2db/dsap-1.0.0.tar.gz
+[2023-08-03 07:02:16] INFO root fetch - processPackages [sos-matlab]: Downloading https://files.pythonhosted.org/packages/4c/f1/021eaedc4f2b3140b9b12c806e20bd19ffb3cda1fa11544e7b52b224b15d/sos-matlab-0.9.9.2.tar.gz
+[2023-08-03 07:02:16] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/dc/f5/06774261a9adf3155d1cbfe17773d7d620daeed823c66e41c872ab7cbfd5/corporate_reputation-0.9.3.tar.gz
+[2023-08-03 07:02:16] INFO root fetch - processPackages [sos-matlab]: executing diffoscope
+[2023-08-03 07:02:16] INFO root fetch - processPackages [sos-matlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sos-matlab-0.9.12.1.tar.gz tmp/sos-matlab-0.9.9.2.tar.gz --markdown 20230803/s/sos-matlab/0.9.12.1-0.9.9.2/diff.md --exclude *.pyd
+[2023-08-03 07:02:16] INFO root fetch - processPackages [corporate-reputation]: executing diffoscope
+[2023-08-03 07:02:16] INFO root fetch - processPackages [corporate-reputation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corporate_reputation-0.9.2.tar.gz tmp/corporate_reputation-0.9.3.tar.gz --markdown 20230803/c/corporate-reputation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-03 07:02:16] INFO root fetch - processPackages [edc-transfer]: Downloading https://files.pythonhosted.org/packages/81/e4/e37e43f8687d0e2c0bf54009a6e1fa219ea664c85e1fd339d9099629325f/edc-transfer-0.3.9.tar.gz
+[2023-08-03 07:02:16] INFO root fetch - processPackages [edc-transfer]: executing diffoscope
+[2023-08-03 07:02:16] INFO root fetch - processPackages [edc-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-transfer-0.3.8.tar.gz tmp/edc-transfer-0.3.9.tar.gz --markdown 20230803/e/edc-transfer/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 07:02:16] INFO root fetch - processPackages [dsap]: Downloading https://files.pythonhosted.org/packages/ba/05/40f49eec68280b90fbc79168e8d7390bc087a86c5eabacc9e497e760271c/dsap-1.0.1-py3-none-any.whl
+[2023-08-03 07:02:17] INFO root fetch - processPackages [dsap]: executing diffoscope
+[2023-08-03 07:02:17] INFO root fetch - processPackages [dsap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsap-1.0.0.tar.gz tmp/dsap-1.0.1-py3-none-any.whl.zip --markdown 20230803/d/dsap/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-03 07:02:17] INFO root fetch - processPackages [sos-matlab]: Remove: archive file [/home/abi/fetcher/tmp/sos-matlab-0.9.12.1.tar.gz]
+[2023-08-03 07:02:17] INFO root fetch - processPackages [sos-matlab]: Remove: archive file [/home/abi/fetcher/tmp/sos-matlab-0.9.9.2.tar.gz]
+[2023-08-03 07:02:17] INFO root fetch - main [MainThread]: End processing [sos-matlab]: success
+[2023-08-03 07:02:17] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.2.tar.gz]
+[2023-08-03 07:02:17] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.3.tar.gz]
+[2023-08-03 07:02:17] INFO root fetch - main [MainThread]: End processing [corporate-reputation]: success
+[2023-08-03 07:02:17] INFO root fetch - processPackages [edc-transfer]: Remove: archive file [/home/abi/fetcher/tmp/edc-transfer-0.3.8.tar.gz]
+[2023-08-03 07:02:17] INFO root fetch - processPackages [edc-transfer]: Remove: archive file [/home/abi/fetcher/tmp/edc-transfer-0.3.9.tar.gz]
+[2023-08-03 07:02:17] INFO root fetch - main [MainThread]: End processing [edc-transfer]: success
+[2023-08-03 07:02:18] INFO root fetch - processPackages [dsap]: Remove: archive file [/home/abi/fetcher/tmp/dsap-1.0.0.tar.gz]
+[2023-08-03 07:02:18] INFO root fetch - processPackages [dsap]: Remove: archive file [/home/abi/fetcher/tmp/dsap-1.0.1-py3-none-any.whl.zip]
+[2023-08-03 07:02:18] INFO root fetch - main [MainThread]: End processing [dsap]: success
+[2023-08-03 07:02:18] INFO root fetch - main [MainThread]: Store serial: [19153844]
