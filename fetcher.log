@@ -5083,3 +5083,63 @@
 [2023-08-03 02:40:06] INFO root fetch - processPackages [great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations-0.9.9.tar.gz]
 [2023-08-03 02:40:06] INFO root fetch - main [MainThread]: End processing [great-expectations]: success
 [2023-08-03 02:40:06] INFO root fetch - main [MainThread]: Store serial: [19151234]
+[2023-08-03 02:45:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19151234]
+[2023-08-03 02:45:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-03 02:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-metrics-converter
+[2023-08-03 02:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvidplayer2
+[2023-08-03 02:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djaodjin-extended-templates
+[2023-08-03 02:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: state-machine-semaphore
+[2023-08-03 02:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mecha
+[2023-08-03 02:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airscript
+[2023-08-03 02:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiohttp-client-rate-limiter
+[2023-08-03 02:45:16] INFO root fetch - processPackages [pyvidplayer2]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 02:45:16] INFO root fetch - processPackages [dbt-metrics-converter]: New version: [0.1.5.3] Old Version: [0.1.5.1]
+[2023-08-03 02:45:16] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-03 02:45:16] INFO root fetch - processPackages [airscript]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-03 02:45:16] INFO root fetch - processPackages [djaodjin-extended-templates]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-03 02:45:16] WARNING root fetch - processPackages [aiohttp-client-rate-limiter]: Skipping, unable to determine old version
+[2023-08-03 02:45:16] INFO root fetch - main [MainThread]: End processing [aiohttp-client-rate-limiter] error
+[2023-08-03 02:45:16] INFO root fetch - processPackages [mecha]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-03 02:45:16] INFO root fetch - processPackages [dbt-metrics-converter]: Downloading https://files.pythonhosted.org/packages/2f/9e/624318dcd8c77398f83e798c23689f42a1f08fea95ea9d59fd714e5f1f6c/dbt_metrics_converter-0.1.5.1.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [pyvidplayer2]: Downloading https://files.pythonhosted.org/packages/0e/83/0d7a283c88cad81bd03717ae6db0be80f043b9ab111a8d4d0119a9ce585c/pyvidplayer2-0.9.3.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [airscript]: Downloading https://files.pythonhosted.org/packages/9a/be/1d8e3552789fd81c902dbd23835d2b413cc14628d94dfed1611fb714ed57/airscript-0.0.6.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [djaodjin-extended-templates]: Downloading https://files.pythonhosted.org/packages/dc/e6/e54254c0723ca091a91c631769d0e1e53993e444015a2735bc917d4b08be/djaodjin-extended-templates-0.4.3.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/28/57/da22dd551f33f6b582c19b734b74b26aee1d4803dcb574a2f1364532ba4d/mecha-0.9.1.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [dbt-metrics-converter]: Downloading https://files.pythonhosted.org/packages/11/36/40ff94e8421a28afa1aa7dfb380f2f6c6766960731b5e197b215aa0906f8/dbt_metrics_converter-0.1.5.3.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [airscript]: Downloading https://files.pythonhosted.org/packages/35/fe/382dde68466d4501b66292ebc7c0a4c73440059cba8321f451b3a11a973b/airscript-0.0.7.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [pyvidplayer2]: Downloading https://files.pythonhosted.org/packages/76/b8/858ee499c321fc0d1bda89218192af9dfda8142043954c172d839c40e42a/pyvidplayer2-0.9.4.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [dbt-metrics-converter]: executing diffoscope
+[2023-08-03 02:45:16] INFO root fetch - processPackages [dbt-metrics-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_metrics_converter-0.1.5.1.tar.gz tmp/dbt_metrics_converter-0.1.5.3.tar.gz --markdown 20230803/d/dbt-metrics-converter/0.1.5.1-0.1.5.3/diff.md --exclude *.pyd
+[2023-08-03 02:45:16] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/6f/a1/0f57164803886c9e226d6e5c23400fa86bc0a33db9e0dde0312bc627047f/mecha-0.9.2.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [djaodjin-extended-templates]: Downloading https://files.pythonhosted.org/packages/f5/03/e6d68ad0bfb48c025ee455df915a60b542564e7c85c0c880ca7bb1418f26/djaodjin-extended-templates-0.4.4.tar.gz
+[2023-08-03 02:45:16] INFO root fetch - processPackages [pyvidplayer2]: executing diffoscope
+[2023-08-03 02:45:16] INFO root fetch - processPackages [pyvidplayer2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvidplayer2-0.9.3.tar.gz tmp/pyvidplayer2-0.9.4.tar.gz --markdown 20230803/p/pyvidplayer2/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 02:45:16] INFO root fetch - processPackages [airscript]: executing diffoscope
+[2023-08-03 02:45:16] INFO root fetch - processPackages [airscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airscript-0.0.6.tar.gz tmp/airscript-0.0.7.tar.gz --markdown 20230803/a/airscript/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-03 02:45:16] INFO root fetch - processPackages [mecha]: executing diffoscope
+[2023-08-03 02:45:16] INFO root fetch - processPackages [mecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecha-0.9.1.tar.gz tmp/mecha-0.9.2.tar.gz --markdown 20230803/m/mecha/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-03 02:45:16] INFO root fetch - processPackages [djaodjin-extended-templates]: executing diffoscope
+[2023-08-03 02:45:16] INFO root fetch - processPackages [djaodjin-extended-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-extended-templates-0.4.3.tar.gz tmp/djaodjin-extended-templates-0.4.4.tar.gz --markdown 20230803/d/djaodjin-extended-templates/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-03 02:45:17] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-08-03 02:45:17] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230803/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-03 02:45:17] INFO root fetch - processPackages [dbt-metrics-converter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metrics_converter-0.1.5.1.tar.gz]
+[2023-08-03 02:45:17] INFO root fetch - processPackages [dbt-metrics-converter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metrics_converter-0.1.5.3.tar.gz]
+[2023-08-03 02:45:17] INFO root fetch - main [MainThread]: End processing [dbt-metrics-converter]: success
+[2023-08-03 02:45:17] INFO root fetch - processPackages [pyvidplayer2]: Remove: archive file [/home/abi/fetcher/tmp/pyvidplayer2-0.9.3.tar.gz]
+[2023-08-03 02:45:17] INFO root fetch - processPackages [pyvidplayer2]: Remove: archive file [/home/abi/fetcher/tmp/pyvidplayer2-0.9.4.tar.gz]
+[2023-08-03 02:45:17] INFO root fetch - main [MainThread]: End processing [pyvidplayer2]: success
+[2023-08-03 02:45:18] INFO root fetch - processPackages [airscript]: Remove: archive file [/home/abi/fetcher/tmp/airscript-0.0.6.tar.gz]
+[2023-08-03 02:45:18] INFO root fetch - processPackages [airscript]: Remove: archive file [/home/abi/fetcher/tmp/airscript-0.0.7.tar.gz]
+[2023-08-03 02:45:18] INFO root fetch - main [MainThread]: End processing [airscript]: success
+[2023-08-03 02:45:18] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.9.1.tar.gz]
+[2023-08-03 02:45:18] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.9.2.tar.gz]
+[2023-08-03 02:45:18] INFO root fetch - main [MainThread]: End processing [mecha]: success
+[2023-08-03 02:45:18] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-08-03 02:45:18] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-08-03 02:45:18] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-08-03 02:45:18] INFO root fetch - processPackages [djaodjin-extended-templates]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-extended-templates-0.4.3.tar.gz]
+[2023-08-03 02:45:18] INFO root fetch - processPackages [djaodjin-extended-templates]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-extended-templates-0.4.4.tar.gz]
+[2023-08-03 02:45:18] INFO root fetch - main [MainThread]: End processing [djaodjin-extended-templates]: success
+[2023-08-03 02:45:18] INFO root fetch - main [MainThread]: Store serial: [19151256]
