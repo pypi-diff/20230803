@@ -1016,7 +1016,7 @@
 +7 files, 14214 bytes uncompressed, 5800 bytes compressed:  59.2%
 ```
 
-#### zipnote «TEMP»/diffoscope_m3om18kn_/tmp0v2y6ur7_.zip
+#### zipnote «TEMP»/diffoscope_dibrkpdu_/tmp_a6yr48x_.zip
 
 ```diff
 @@ -3,20 +3,20 @@
@@ -1117,7 +1117,7 @@
 +11 files, 17319 bytes uncompressed, 6680 bytes compressed:  61.4%
 ```
 
-#### zipnote «TEMP»/diffoscope_m3om18kn_/tmp8nvsofr2_.zip
+#### zipnote «TEMP»/diffoscope_dibrkpdu_/tmp6fwqqxdk_.zip
 
 ```diff
 @@ -15,20 +15,20 @@
