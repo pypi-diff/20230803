@@ -15947,3 +15947,195 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-03 10:04:04] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.7.tar.gz]
 [2023-08-03 10:04:04] INFO root fetch - main [MainThread]: End processing [micrologai]: success
 [2023-08-03 10:04:04] INFO root fetch - main [MainThread]: Store serial: [19155662]
+[2023-08-03 10:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19155662]
+[2023-08-03 10:09:14] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-08-03 10:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: t3qai-client
+[2023-08-03 10:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygpsclient
+[2023-08-03 10:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: convst
+[2023-08-03 10:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cntracer
+[2023-08-03 10:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: k1lib
+[2023-08-03 10:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packg
+[2023-08-03 10:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: renus
+[2023-08-03 10:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raftify
+[2023-08-03 10:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jcloud
+[2023-08-03 10:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hpl-rv
+[2023-08-03 10:09:14] INFO root fetch - processPackages [k1lib]: New version: [1.4.3.2] Old Version: [1.4.3]
+[2023-08-03 10:09:14] INFO root fetch - processPackages [packg]: New version: [0.2.25] Old Version: [0.2.24]
+[2023-08-03 10:09:14] INFO root fetch - processPackages [cntracer]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-08-03 10:09:14] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/c5/24/aa3511ccec70287cae54de0747140f45830312cf2edd059cd71c84a3dbdb/k1lib-1.4.3.tar.gz
+[2023-08-03 10:09:14] WARNING root fetch - processPackages [raftify]: Skipping, unable to determine old version
+[2023-08-03 10:09:14] INFO root fetch - processPackages [raftify]: Start processing: pyglove
+[2023-08-03 10:09:14] INFO root fetch - main [MainThread]: End processing [raftify] error
+[2023-08-03 10:09:14] INFO root fetch - processPackages [renus]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-08-03 10:09:14] INFO root fetch - processPackages [pygpsclient]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-08-03 10:09:14] INFO root fetch - processPackages [hpl-rv]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-03 10:09:14] INFO root fetch - processPackages [convst]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-03 10:09:14] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/4e/a0/adbea1166122ab1fd975140b98e60a0d76f5ee4ee2a83ba6bcf9053d5813/packg-0.2.24.tar.gz
+[2023-08-03 10:09:14] INFO root fetch - processPackages [t3qai-client]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-03 10:09:14] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-08-03 10:09:14] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/32/2d/a35e426bba449d439f0e066bbded67eade7037607885f9d5bd4148401785/cntracer-0.1.3-cp39-cp39-win_amd64.whl
+[2023-08-03 10:09:14] INFO root fetch - processPackages [pyglove]: New version: [0.4.3.dev20230802] Old Version: [0.4.3.dev20230801]
+[2023-08-03 10:09:14] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/5e/11/6cd673955b5b88b139ff8b439c253db248d8e6e63b6783013da0905079c4/pyglove-0.4.3.dev20230801.tar.gz
+[2023-08-03 10:09:14] INFO root fetch - processPackages [convst]: Downloading https://files.pythonhosted.org/packages/e0/1a/08923a9e5f2fb9d407996dedf88ee39641867ceb34ebe406ad2f2f39221e/convst-0.3.0.tar.gz
+[2023-08-03 10:09:14] INFO root fetch - processPackages [renus]: Downloading https://files.pythonhosted.org/packages/00/70/2abf117f06ec217bdec8dfed76e81cbf6d119a579e3a5b6d92f874149055/renus-1.1.6.tar.gz
+[2023-08-03 10:09:14] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/41/78/a59f50d505dbf297e13ddefe2decbcad2ba0659b57a40180cd41a226c9c9/packg-0.2.25.tar.gz
+[2023-08-03 10:09:15] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-08-03 10:09:15] INFO root fetch - processPackages [hpl-rv]: Downloading https://files.pythonhosted.org/packages/43/2d/9aa3b814155a8875edfdd7d0ab6d0a79c5ee04de8f2190fc12f6e31eccfe/hpl_rv-1.0.0-py3-none-any.whl
+[2023-08-03 10:09:15] INFO root fetch - processPackages [pygpsclient]: Downloading https://files.pythonhosted.org/packages/e5/bd/8454c188f3af9cf23396bb9676d469014b1e5f12800e67c79cc7554b5208/PyGPSClient-1.3.9.tar.gz
+[2023-08-03 10:09:15] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/f7/f4/df2ae21366d4819d4c2d98ee5a39060e02cf6c466f54db6edd8f9b3d0628/cntracer-0.2.0-cp39-cp39-win_amd64.whl
+[2023-08-03 10:09:15] INFO root fetch - processPackages [t3qai-client]: Downloading https://files.pythonhosted.org/packages/70/63/ad6b58c262a20c73fc2940960d657fd99996675c7522f5fd9a8745f887d4/t3qai_client-1.1.2-py3-none-any.whl
+[2023-08-03 10:09:15] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-08-03 10:09:15] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.24.tar.gz tmp/packg-0.2.25.tar.gz --markdown 20230803/p/packg/0.2.24-0.2.25/diff.md --exclude *.pyd
+[2023-08-03 10:09:15] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/9c/01/7f1df42adafc3254b4da39c311cf8ca082ce2926b3794becbfabb6687d84/k1lib-1.4.3.2.tar.gz
+[2023-08-03 10:09:15] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/85/02/0cbfea636276cdb7ffe318798e29d0a1a68e72042245cf969798890394f1/pyglove-0.4.3.dev20230802.tar.gz
+[2023-08-03 10:09:15] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2023-08-03 10:09:15] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-0.1.3-cp39-cp39-win_amd64.whl.zip tmp/cntracer-0.2.0-cp39-cp39-win_amd64.whl.zip --markdown 20230803/c/cntracer/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-08-03 10:09:15] INFO root fetch - processPackages [convst]: Downloading https://files.pythonhosted.org/packages/74/1a/946664ec28f3341c4c013e1b7b5357389d1dfdf20971dc48278e85707922/convst-0.3.1.tar.gz
+[2023-08-03 10:09:15] INFO root fetch - processPackages [renus]: Downloading https://files.pythonhosted.org/packages/fe/d3/e73fd06a9e008b1b1a9451f9e1be6005800bb33f468558bfdf829e29aaf4/renus-1.1.7.tar.gz
+[2023-08-03 10:09:15] INFO root fetch - processPackages [hpl-rv]: Downloading https://files.pythonhosted.org/packages/58/0b/9c5ea2b5097daa0f88ac2f04f0c1341dbcd0057c3109417da742e201f3ba/hpl_rv-1.1.0-py3-none-any.whl
+[2023-08-03 10:09:15] INFO root fetch - processPackages [t3qai-client]: Downloading https://files.pythonhosted.org/packages/5c/c9/9cfab31e386937936316337fd29be1e8b280e9858e305e233dc03ff72bc4/t3qai_client-1.1.3-py3-none-any.whl
+[2023-08-03 10:09:15] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-08-03 10:09:15] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.4.3.tar.gz tmp/k1lib-1.4.3.2.tar.gz --markdown 20230803/k/k1lib/1.4.3-1.4.3.2/diff.md --exclude *.pyd
+[2023-08-03 10:09:15] INFO root fetch - processPackages [convst]: executing diffoscope
+[2023-08-03 10:09:15] INFO root fetch - processPackages [convst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convst-0.3.0.tar.gz tmp/convst-0.3.1.tar.gz --markdown 20230803/c/convst/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-03 10:09:15] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-08-03 10:09:15] INFO root fetch - processPackages [renus]: executing diffoscope
+[2023-08-03 10:09:15] INFO root fetch - processPackages [hpl-rv]: executing diffoscope
+[2023-08-03 10:09:15] INFO root fetch - processPackages [renus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renus-1.1.6.tar.gz tmp/renus-1.1.7.tar.gz --markdown 20230803/r/renus/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-08-03 10:09:15] INFO root fetch - processPackages [hpl-rv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpl_rv-1.0.0-py3-none-any.whl.zip tmp/hpl_rv-1.1.0-py3-none-any.whl.zip --markdown 20230803/h/hpl-rv/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-03 10:09:15] INFO root fetch - processPackages [t3qai-client]: executing diffoscope
+[2023-08-03 10:09:15] INFO root fetch - processPackages [t3qai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t3qai_client-1.1.2-py3-none-any.whl.zip tmp/t3qai_client-1.1.3-py3-none-any.whl.zip --markdown 20230803/t/t3qai-client/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-03 10:09:15] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-08-03 10:09:15] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230803/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-08-03 10:09:15] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-08-03 10:09:15] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.3.dev20230801.tar.gz tmp/pyglove-0.4.3.dev20230802.tar.gz --markdown 20230803/p/pyglove/0.4.3.dev20230801-0.4.3.dev20230802/diff.md --exclude *.pyd
+[2023-08-03 10:09:16] INFO root fetch - processPackages [pygpsclient]: Downloading https://files.pythonhosted.org/packages/8f/ef/e63f4a33a309ad27c931c9e4105cfec9304d8c9935af3787955a4be8a2de/pygpsclient-1.4.0.tar.gz
+[2023-08-03 10:09:16] INFO root fetch - processPackages [pygpsclient]: executing diffoscope
+[2023-08-03 10:09:16] INFO root fetch - processPackages [pygpsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGPSClient-1.3.9.tar.gz tmp/pygpsclient-1.4.0.tar.gz --markdown 20230803/p/pygpsclient/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-08-03 10:09:16] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.1.3-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 10:09:16] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.2.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 10:09:16] INFO root fetch - processPackages [cntracer]: Start processing: pyjt
+[2023-08-03 10:09:16] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2023-08-03 10:09:16] INFO root fetch - processPackages [pyjt]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-03 10:09:16] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/23/10/e82b8b25c57d31c65f6a151769efb79a76fd1475c5c96a66f9146e190484/pyjt-0.2.0.tar.gz
+[2023-08-03 10:09:16] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.24.tar.gz]
+[2023-08-03 10:09:16] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.25.tar.gz]
+[2023-08-03 10:09:16] INFO root fetch - processPackages [packg]: Start processing: angola
+[2023-08-03 10:09:16] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-08-03 10:09:17] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/99/7e/2188ace3d957357d5388a72b75650495172b166f1ad4b1ee15d178bb478b/pyjt-0.2.1.tar.gz
+[2023-08-03 10:09:17] INFO root fetch - processPackages [angola]: New version: [0.15.0] Old Version: [0.14.5]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [pyjt]: executing diffoscope
+[2023-08-03 10:09:17] INFO root fetch - processPackages [pyjt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjt-0.2.0.tar.gz tmp/pyjt-0.2.1.tar.gz --markdown 20230803/p/pyjt/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-03 10:09:17] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/1c/92/68095a70588c3b6d8521c470227503931a04a9ed1b10d326089d10beeec8/angola-0.14.5.tar.gz
+[2023-08-03 10:09:17] INFO root fetch - processPackages [t3qai-client]: Remove: archive file [/home/abi/fetcher/tmp/t3qai_client-1.1.2-py3-none-any.whl.zip]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [t3qai-client]: Remove: archive file [/home/abi/fetcher/tmp/t3qai_client-1.1.3-py3-none-any.whl.zip]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [t3qai-client]: Start processing: AsyncClient
+[2023-08-03 10:09:17] INFO root fetch - main [MainThread]: End processing [t3qai-client]: success
+[2023-08-03 10:09:17] INFO root fetch - processPackages [convst]: Remove: archive file [/home/abi/fetcher/tmp/convst-0.3.0.tar.gz]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [convst]: Remove: archive file [/home/abi/fetcher/tmp/convst-0.3.1.tar.gz]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [convst]: Start processing: checkov
+[2023-08-03 10:09:17] INFO root fetch - main [MainThread]: End processing [convst]: success
+[2023-08-03 10:09:17] INFO root fetch - processPackages [hpl-rv]: Remove: archive file [/home/abi/fetcher/tmp/hpl_rv-1.0.0-py3-none-any.whl.zip]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [hpl-rv]: Remove: archive file [/home/abi/fetcher/tmp/hpl_rv-1.1.0-py3-none-any.whl.zip]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [hpl-rv]: Start processing: wodoo
+[2023-08-03 10:09:17] INFO root fetch - main [MainThread]: End processing [hpl-rv]: success
+[2023-08-03 10:09:17] WARNING root fetch - processPackages [AsyncClient]: Skipping, unable to determine old version
+[2023-08-03 10:09:17] INFO root fetch - processPackages [AsyncClient]: Start processing: OpenGeodeWeb-Back
+[2023-08-03 10:09:17] INFO root fetch - main [MainThread]: End processing [AsyncClient] error
+[2023-08-03 10:09:17] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev3.tar.gz]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev4.tar.gz]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [jcloud]: Start processing: je-api-testka-dev
+[2023-08-03 10:09:17] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-08-03 10:09:17] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [renus]: Remove: archive file [/home/abi/fetcher/tmp/renus-1.1.6.tar.gz]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [renus]: Remove: archive file [/home/abi/fetcher/tmp/renus-1.1.7.tar.gz]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [renus]: Start processing: Async-Server
+[2023-08-03 10:09:17] INFO root fetch - main [MainThread]: End processing [renus]: success
+[2023-08-03 10:09:17] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-08-03 10:09:17] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/33/d0/52dea471bdf413bc827f969a6e29828ff853973109220f6752e9bf433dd4/OpenGeodeWeb-Back-0.0.8.tar.gz
+[2023-08-03 10:09:17] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-03 10:09:17] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/55/7a/4fa15be46d4d298a2e52644f39568b8bc7e996732f41049ad071d5a03084/angola-0.15.0.tar.gz
+[2023-08-03 10:09:17] WARNING root fetch - processPackages [Async-Server]: Skipping, unable to determine old version
+[2023-08-03 10:09:17] INFO root fetch - processPackages [Async-Server]: Start processing: universal-pathlib
+[2023-08-03 10:09:17] INFO root fetch - main [MainThread]: End processing [Async-Server] error
+[2023-08-03 10:09:17] INFO root fetch - processPackages [k1lib]: Remove: archive file [/home/abi/fetcher/tmp/k1lib-1.4.3.tar.gz]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [k1lib]: Remove: archive file [/home/abi/fetcher/tmp/k1lib-1.4.3.2.tar.gz]
+[2023-08-03 10:09:17] INFO root fetch - processPackages [k1lib]: Start processing: power-grid-model
+[2023-08-03 10:09:17] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-08-03 10:09:17] INFO root fetch - processPackages [universal-pathlib]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-03 10:09:18] INFO root fetch - processPackages [angola]: executing diffoscope
+[2023-08-03 10:09:18] INFO root fetch - processPackages [angola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angola-0.14.5.tar.gz tmp/angola-0.15.0.tar.gz --markdown 20230803/a/angola/0.14.5-0.15.0/diff.md --exclude *.pyd
+[2023-08-03 10:09:18] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-03 10:09:18] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/92/49/f38d1276f6eeea1d06806088abcb16743a3b113216899600e65561d41420/je_api_testka_dev-0.0.98.tar.gz
+[2023-08-03 10:09:18] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-08-03 10:09:18] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9238204632375] Old Version: [1.5.0rc9237711575148]
+[2023-08-03 10:09:18] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/30/2d/6aebd85fd54c36b403cdb7f3cadba58e710fd13cb018c169c305f1659cd4/OpenGeodeWeb-Back-0.0.9.tar.gz
+[2023-08-03 10:09:18] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-03 10:09:18] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230803/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-03 10:09:18] INFO root fetch - processPackages [pygpsclient]: Remove: archive file [/home/abi/fetcher/tmp/PyGPSClient-1.3.9.tar.gz]
+[2023-08-03 10:09:18] INFO root fetch - processPackages [pygpsclient]: Remove: archive file [/home/abi/fetcher/tmp/pygpsclient-1.4.0.tar.gz]
+[2023-08-03 10:09:18] INFO root fetch - processPackages [universal-pathlib]: Downloading https://files.pythonhosted.org/packages/10/03/620a7d73eeffae1b374aef4e3de566085d878314b2cff2258935f5439320/universal_pathlib-0.0.9.tar.gz
+[2023-08-03 10:09:18] INFO root fetch - processPackages [pygpsclient]: Start processing: typedparser
+[2023-08-03 10:09:18] INFO root fetch - main [MainThread]: End processing [pygpsclient]: success
+[2023-08-03 10:09:18] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/72/f9/075108357140c90fb4b35aef31ade6ffbf6b491244781295f18bee86c506/power-grid-model-1.5.0rc9237711575148.tar.gz
+[2023-08-03 10:09:18] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2023-08-03 10:09:18] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeodeWeb-Back-0.0.8.tar.gz tmp/OpenGeodeWeb-Back-0.0.9.tar.gz --markdown 20230803/O/OpenGeodeWeb-Back/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 10:09:18] INFO root fetch - processPackages [typedparser]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-03 10:09:18] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-08-03 10:09:18] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230803/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-03 10:09:18] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.2.0.tar.gz]
+[2023-08-03 10:09:18] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.2.1.tar.gz]
+[2023-08-03 10:09:18] INFO root fetch - processPackages [pyjt]: Start processing: lendsmart-reva
+[2023-08-03 10:09:18] INFO root fetch - main [MainThread]: End processing [pyjt]: success
+[2023-08-03 10:09:18] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/c7/d7/9d2c05af1cf5fadb2ce71a63912fbb0b20546812a3bb1eca8e57cc068fbd/typedparser-0.2.8.tar.gz
+[2023-08-03 10:09:18] INFO root fetch - processPackages [lendsmart-reva]: New version: [1.7] Old Version: [1.6]
+[2023-08-03 10:09:18] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/2c/1d/fcd4ebf844f853e6ba33ca71dd156f408545707c8e66109c284040bd08b1/je_api_testka_dev-0.0.99.tar.gz
+[2023-08-03 10:09:18] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/e4/44/cbd30384ec0fcf935ae7c1020fa73db4ca3f085cbfe2006ce23e0005e1b1/power-grid-model-1.5.0rc9238204632375.tar.gz
+[2023-08-03 10:09:18] INFO root fetch - processPackages [lendsmart-reva]: Downloading https://files.pythonhosted.org/packages/c8/97/d6583c68a37db5911053dab0d566ef78bbc067a2b2963c1bbdceb750ce05/lendsmart_reva-1.6.tar.gz
+[2023-08-03 10:09:18] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230801.tar.gz]
+[2023-08-03 10:09:18] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230802.tar.gz]
+[2023-08-03 10:09:18] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-08-03 10:09:18] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-08-03 10:09:18] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.98.tar.gz tmp/je_api_testka_dev-0.0.99.tar.gz --markdown 20230803/j/je-api-testka-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 10:09:18] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/93/82/2103b6fc1c9856a51b75cb85f603ec37754041e25e2223c91fba155b6e69/typedparser-0.2.9.tar.gz
+[2023-08-03 10:09:18] INFO root fetch - processPackages [typedparser]: executing diffoscope
+[2023-08-03 10:09:18] INFO root fetch - processPackages [typedparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedparser-0.2.8.tar.gz tmp/typedparser-0.2.9.tar.gz --markdown 20230803/t/typedparser/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 10:09:18] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-08-03 10:09:18] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9237711575148.tar.gz tmp/power-grid-model-1.5.0rc9238204632375.tar.gz --markdown 20230803/p/power-grid-model/1.5.0rc9237711575148-1.5.0rc9238204632375/diff.md --exclude *.pyd
+[2023-08-03 10:09:18] INFO root fetch - processPackages [lendsmart-reva]: Downloading https://files.pythonhosted.org/packages/d3/46/a9c8dc97b6a13a6ba6394ba98f15910b2e7374cfba160649d388222a46ff/lendsmart_reva-1.7.tar.gz
+[2023-08-03 10:09:19] INFO root fetch - processPackages [lendsmart-reva]: executing diffoscope
+[2023-08-03 10:09:19] INFO root fetch - processPackages [lendsmart-reva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_reva-1.6.tar.gz tmp/lendsmart_reva-1.7.tar.gz --markdown 20230803/l/lendsmart-reva/1.6-1.7/diff.md --exclude *.pyd
+[2023-08-03 10:09:19] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.14.5.tar.gz]
+[2023-08-03 10:09:19] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.15.0.tar.gz]
+[2023-08-03 10:09:19] INFO root fetch - main [MainThread]: End processing [angola]: success
+[2023-08-03 10:09:19] INFO root fetch - processPackages [universal-pathlib]: Downloading https://files.pythonhosted.org/packages/0f/25/f50e529f35d84338799b0e5b5350e847f17bde6903665e3be00f08b72f46/universal_pathlib-0.1.0.tar.gz
+[2023-08-03 10:09:19] INFO root fetch - processPackages [universal-pathlib]: executing diffoscope
+[2023-08-03 10:09:19] INFO root fetch - processPackages [universal-pathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universal_pathlib-0.0.9.tar.gz tmp/universal_pathlib-0.1.0.tar.gz --markdown 20230803/u/universal-pathlib/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-03 10:09:19] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Back-0.0.8.tar.gz]
+[2023-08-03 10:09:19] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Back-0.0.9.tar.gz]
+[2023-08-03 10:09:19] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2023-08-03 10:09:19] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-08-03 10:09:19] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-08-03 10:09:19] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-03 10:09:20] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.98.tar.gz]
+[2023-08-03 10:09:20] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.99.tar.gz]
+[2023-08-03 10:09:20] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-08-03 10:09:20] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.2.8.tar.gz]
+[2023-08-03 10:09:20] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.2.9.tar.gz]
+[2023-08-03 10:09:20] INFO root fetch - main [MainThread]: End processing [typedparser]: success
+[2023-08-03 10:09:20] INFO root fetch - processPackages [universal-pathlib]: Remove: archive file [/home/abi/fetcher/tmp/universal_pathlib-0.0.9.tar.gz]
+[2023-08-03 10:09:20] INFO root fetch - processPackages [universal-pathlib]: Remove: archive file [/home/abi/fetcher/tmp/universal_pathlib-0.1.0.tar.gz]
+[2023-08-03 10:09:20] INFO root fetch - main [MainThread]: End processing [universal-pathlib]: success
+[2023-08-03 10:09:20] INFO root fetch - processPackages [lendsmart-reva]: Remove: archive file [/home/abi/fetcher/tmp/lendsmart_reva-1.6.tar.gz]
+[2023-08-03 10:09:20] INFO root fetch - processPackages [lendsmart-reva]: Remove: archive file [/home/abi/fetcher/tmp/lendsmart_reva-1.7.tar.gz]
+[2023-08-03 10:09:20] INFO root fetch - main [MainThread]: End processing [lendsmart-reva]: success
+[2023-08-03 10:09:32] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-08-03 10:09:32] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-08-03 10:09:32] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-08-03 10:10:20] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9237711575148.tar.gz]
+[2023-08-03 10:10:20] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9238204632375.tar.gz]
+[2023-08-03 10:10:20] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-08-03 10:10:20] INFO root fetch - main [MainThread]: Store serial: [19155767]
