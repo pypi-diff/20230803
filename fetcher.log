@@ -20472,3 +20472,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 12:09:59] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9238204632375.tar.gz]
 [2023-08-03 12:09:59] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-08-03 12:09:59] INFO root fetch - main [MainThread]: Store serial: [19157524]
+[2023-08-03 12:15:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157524]
+[2023-08-03 12:15:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-03 12:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msaBase
+[2023-08-03 12:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monday-item-parser
+[2023-08-03 12:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metaboatrace.models
+[2023-08-03 12:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mmcb-avt
+[2023-08-03 12:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt
+[2023-08-03 12:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: layernext-enterprise-beta
+[2023-08-03 12:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airbyte-cdk
+[2023-08-03 12:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iotPervasiveServiceSDK
+[2023-08-03 12:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: document-merge-service
+[2023-08-03 12:15:11] INFO root fetch - processPackages [metaboatrace.models]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-03 12:15:11] INFO root fetch - processPackages [iotPervasiveServiceSDK]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-03 12:15:11] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-03 12:15:11] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-03 12:15:11] INFO root fetch - processPackages [monday-item-parser]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-03 12:15:11] INFO root fetch - processPackages [metaboatrace.models]: Downloading https://files.pythonhosted.org/packages/93/92/1f20c2a9aafca8cb161f85fdb3e6c2967e9f3e7c1686e09a48c15811cd5c/metaboatrace_models-0.3.0.tar.gz
+[2023-08-03 12:15:11] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 12:15:11] INFO root fetch - processPackages [document-merge-service]: New version: [6.4.0] Old Version: [6.3.1]
+[2023-08-03 12:15:11] INFO root fetch - processPackages [layernext-enterprise-beta]: New version: [1.1.0b0] Old Version: [1.0.0b0]
+[2023-08-03 12:15:11] INFO root fetch - processPackages [msaBase]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-08-03 12:15:11] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/d6/1d/3b70a3cd3f5bf72cbc6ce7f41ddac82070f3498251019b9e2ed4b048164b/iotPervasiveServiceSDK-0.0.4.tar.gz
+[2023-08-03 12:15:11] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-08-03 12:15:11] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2023-08-03 12:15:11] INFO root fetch - processPackages [monday-item-parser]: Downloading https://files.pythonhosted.org/packages/3b/d7/d20df777d9f9d5220ae0fc9892fcce90c8dae86bc0ce26a396b5d3862692/monday-item-parser-0.2.8.tar.gz
+[2023-08-03 12:15:11] INFO root fetch - processPackages [metaboatrace.models]: Downloading https://files.pythonhosted.org/packages/d2/0e/17decfa7f68b7689b20fed84b2aaa9736119872be9bcc6844c142d3a0a66/metaboatrace_models-0.4.0.tar.gz
+[2023-08-03 12:15:11] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/ce/51/1ddd39bc4c93602ca448eb1d3af7462e0ef56e7b3b722440d0029110890e/document_merge_service-6.3.1.tar.gz
+[2023-08-03 12:15:11] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/16/d7/4fe3e4094100f03d08fa1f410f596dacfba72723ce69be49b0ea49361226/mmcb-avt-0.0.98.tar.gz
+[2023-08-03 12:15:11] INFO root fetch - processPackages [layernext-enterprise-beta]: Downloading https://files.pythonhosted.org/packages/6a/61/e790605326e755f39b41bf4b1a2ba6eb862bae3683541fdc083b923a4ff8/layernext-enterprise-beta-1.0.0b0.tar.gz
+[2023-08-03 12:15:11] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/fc/29/e847e86514615f181a8b7c842d345d5096613071f392af169da729e64bd3/msaBase-0.0.96.tar.gz
+[2023-08-03 12:15:11] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/1d/be/38def344a8d0c1d8b5017b0dbadd0e27ff0bee4c20163d19439ad485ca95/iotPervasiveServiceSDK-0.0.5.tar.gz
+[2023-08-03 12:15:11] INFO root fetch - processPackages [iotPervasiveServiceSDK]: executing diffoscope
+[2023-08-03 12:15:11] INFO root fetch - processPackages [iotPervasiveServiceSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotPervasiveServiceSDK-0.0.4.tar.gz tmp/iotPervasiveServiceSDK-0.0.5.tar.gz --markdown 20230803/i/iotPervasiveServiceSDK/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-03 12:15:11] INFO root fetch - processPackages [metaboatrace.models]: executing diffoscope
+[2023-08-03 12:15:11] INFO root fetch - processPackages [metaboatrace.models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaboatrace_models-0.3.0.tar.gz tmp/metaboatrace_models-0.4.0.tar.gz --markdown 20230803/m/metaboatrace.models/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-03 12:15:12] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2023-08-03 12:15:12] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/f5/d7/81d0736863723671373d2744884b91d51aad09cf601b76b79b71b9a24df1/msaBase-0.0.97.tar.gz
+[2023-08-03 12:15:12] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/b4/76/1d24cb3753aef4dba5a9a888ec1d44c90580f114ca66617b25317a4f6c64/document_merge_service-6.4.0.tar.gz
+[2023-08-03 12:15:12] INFO root fetch - processPackages [monday-item-parser]: Downloading https://files.pythonhosted.org/packages/fc/79/c51fb2990497d7bc4fa7af06ebb35053f84f3e9f6b46badd1dbeab1581a3/monday-item-parser-0.2.9.tar.gz
+[2023-08-03 12:15:12] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/12/64/9e2debedf2e579aa60d1875df6b2347d152959a81be1006b3b93c1c1cf85/mmcb-avt-0.0.99.tar.gz
+[2023-08-03 12:15:12] INFO root fetch - processPackages [layernext-enterprise-beta]: Downloading https://files.pythonhosted.org/packages/06/b0/6a3edde9b9486f3bf79ec8217acfbc0262d7515a64fbceb6329cadc87a1b/layernext-enterprise-beta-1.1.0b0.tar.gz
+[2023-08-03 12:15:12] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-08-03 12:15:12] INFO root fetch - processPackages [monday-item-parser]: executing diffoscope
+[2023-08-03 12:15:12] INFO root fetch - processPackages [monday-item-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monday-item-parser-0.2.8.tar.gz tmp/monday-item-parser-0.2.9.tar.gz --markdown 20230803/m/monday-item-parser/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-03 12:15:12] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-08-03 12:15:12] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230803/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-03 12:15:12] INFO root fetch - processPackages [document-merge-service]: executing diffoscope
+[2023-08-03 12:15:12] INFO root fetch - processPackages [layernext-enterprise-beta]: executing diffoscope
+[2023-08-03 12:15:12] INFO root fetch - processPackages [document-merge-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_merge_service-6.3.1.tar.gz tmp/document_merge_service-6.4.0.tar.gz --markdown 20230803/d/document-merge-service/6.3.1-6.4.0/diff.md --exclude *.pyd
+[2023-08-03 12:15:12] INFO root fetch - processPackages [layernext-enterprise-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layernext-enterprise-beta-1.0.0b0.tar.gz tmp/layernext-enterprise-beta-1.1.0b0.tar.gz --markdown 20230803/l/layernext-enterprise-beta/1.0.0b0-1.1.0b0/diff.md --exclude *.pyd
+[2023-08-03 12:15:12] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-08-03 12:15:12] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.98.tar.gz tmp/mmcb-avt-0.0.99.tar.gz --markdown 20230803/m/mmcb-avt/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 12:15:12] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-08-03 12:15:12] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.96.tar.gz tmp/msaBase-0.0.97.tar.gz --markdown 20230803/m/msaBase/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-08-03 12:15:12] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-08-03 12:15:12] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230803/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-03 12:15:13] INFO root fetch - processPackages [metaboatrace.models]: Remove: archive file [/home/abi/fetcher/tmp/metaboatrace_models-0.3.0.tar.gz]
+[2023-08-03 12:15:13] INFO root fetch - processPackages [metaboatrace.models]: Remove: archive file [/home/abi/fetcher/tmp/metaboatrace_models-0.4.0.tar.gz]
+[2023-08-03 12:15:13] INFO root fetch - main [MainThread]: End processing [metaboatrace.models]: success
+[2023-08-03 12:15:13] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.4.tar.gz]
+[2023-08-03 12:15:13] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.5.tar.gz]
+[2023-08-03 12:15:13] INFO root fetch - main [MainThread]: End processing [iotPervasiveServiceSDK]: success
+[2023-08-03 12:15:13] INFO root fetch - processPackages [monday-item-parser]: Remove: archive file [/home/abi/fetcher/tmp/monday-item-parser-0.2.8.tar.gz]
+[2023-08-03 12:15:13] INFO root fetch - processPackages [monday-item-parser]: Remove: archive file [/home/abi/fetcher/tmp/monday-item-parser-0.2.9.tar.gz]
+[2023-08-03 12:15:13] INFO root fetch - main [MainThread]: End processing [monday-item-parser]: success
+[2023-08-03 12:15:14] INFO root fetch - processPackages [msaBase]: Remove: archive file [/home/abi/fetcher/tmp/msaBase-0.0.96.tar.gz]
+[2023-08-03 12:15:14] INFO root fetch - processPackages [msaBase]: Remove: archive file [/home/abi/fetcher/tmp/msaBase-0.0.97.tar.gz]
+[2023-08-03 12:15:14] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-08-03 12:15:14] INFO root fetch - processPackages [layernext-enterprise-beta]: Remove: archive file [/home/abi/fetcher/tmp/layernext-enterprise-beta-1.0.0b0.tar.gz]
+[2023-08-03 12:15:14] INFO root fetch - processPackages [layernext-enterprise-beta]: Remove: archive file [/home/abi/fetcher/tmp/layernext-enterprise-beta-1.1.0b0.tar.gz]
+[2023-08-03 12:15:14] INFO root fetch - main [MainThread]: End processing [layernext-enterprise-beta]: success
+[2023-08-03 12:15:14] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.98.tar.gz]
+[2023-08-03 12:15:14] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.99.tar.gz]
+[2023-08-03 12:15:14] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-08-03 12:15:14] INFO root fetch - processPackages [document-merge-service]: Remove: archive file [/home/abi/fetcher/tmp/document_merge_service-6.3.1.tar.gz]
+[2023-08-03 12:15:14] INFO root fetch - processPackages [document-merge-service]: Remove: archive file [/home/abi/fetcher/tmp/document_merge_service-6.4.0.tar.gz]
+[2023-08-03 12:15:14] INFO root fetch - main [MainThread]: End processing [document-merge-service]: success
+[2023-08-03 12:15:14] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2023-08-03 12:15:14] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2023-08-03 12:15:14] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-08-03 12:15:17] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-08-03 12:15:17] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-08-03 12:15:17] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-08-03 12:15:17] INFO root fetch - main [MainThread]: Store serial: [19157551]
