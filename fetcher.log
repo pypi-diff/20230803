@@ -13283,3 +13283,103 @@
 [2023-08-03 08:16:44] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230803.tar.gz]
 [2023-08-03 08:16:44] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-08-03 08:16:44] INFO root fetch - main [MainThread]: Store serial: [19154391]
+[2023-08-03 08:21:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19154391]
+[2023-08-03 08:21:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-03 08:21:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nemusicapi
+[2023-08-03 08:21:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-datadog
+[2023-08-03 08:21:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tcpsocket
+[2023-08-03 08:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyolin
+[2023-08-03 08:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-adb
+[2023-08-03 08:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tcpsocket
+[2023-08-03 08:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UzSyllable
+[2023-08-03 08:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: insights-core
+[2023-08-03 08:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-08-03 08:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-hcloud
+[2023-08-03 08:21:54] INFO root fetch - processPackages [nemusicapi]: New version: [0.0.3a2] Old Version: [0.0.3a1]
+[2023-08-03 08:21:54] INFO root fetch - processPackages [pyolin]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 08:21:54] INFO root fetch - processPackages [tcpsocket]: New version: [1.4] Old Version: [1.3]
+[2023-08-03 08:21:54] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-08-03 08:21:54] INFO root fetch - processPackages [UzSyllable]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-03 08:21:54] INFO root fetch - processPackages [aliyun-python-sdk-adb]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-03 08:21:54] INFO root fetch - processPackages [tcpsocket]: New version: [1.4] Old Version: [1.3]
+[2023-08-03 08:21:54] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-08-03 08:21:54] INFO root fetch - processPackages [policyengine-us]: New version: [0.407.0] Old Version: [0.406.0]
+[2023-08-03 08:21:54] INFO root fetch - processPackages [insights-core]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-08-03 08:21:54] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/7a/b6/cd5544e156ac55a6ed007da408d29a0a132c3ae9c9a71b85d5b8bb52d9c5/nemusicapi-0.0.3a1.tar.gz
+[2023-08-03 08:21:54] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Downloading https://files.pythonhosted.org/packages/d4/b2/f3859718509ec23447d64bd0f49211e7c47aa9ec36bf521014376315fe07/aliyun-python-sdk-adb-1.1.4.tar.gz
+[2023-08-03 08:21:54] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/6a/86/8f7cc85d467fa6612d98da81eaa31c4f2106a2845004444257eeefc702a8/policyengine-us-0.406.0.tar.gz
+[2023-08-03 08:21:54] INFO root fetch - processPackages [pyolin]: Downloading https://files.pythonhosted.org/packages/1b/8a/ea18712f345ca155a6b576445d4ec1ba3075b8878f6381537261c88db61b/pyolin-0.0.3.tar.gz
+[2023-08-03 08:21:54] INFO root fetch - processPackages [tcpsocket]: Downloading https://files.pythonhosted.org/packages/28/38/0087be4f42993a3bacc464c0138be6073c0b0c18a9512e86ed569b88bf1b/tcpsocket-1.3-py3-none-any.whl
+[2023-08-03 08:21:54] INFO root fetch - processPackages [tcpsocket]: Downloading https://files.pythonhosted.org/packages/28/38/0087be4f42993a3bacc464c0138be6073c0b0c18a9512e86ed569b88bf1b/tcpsocket-1.3-py3-none-any.whl
+[2023-08-03 08:21:54] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2023-08-03 08:21:54] INFO root fetch - processPackages [UzSyllable]: Downloading https://files.pythonhosted.org/packages/ba/13/b0ef7fd47a0ad54692227fa47753cc0aa36b79033b4444fb95e3b465706b/UzSyllable-0.0.6.tar.gz
+[2023-08-03 08:21:54] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2023-08-03 08:21:54] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/05/93/81004b4f686a378a6bf8c6192e10d5bb486f005988b73f2b53f0c97553f2/insights-core-3.2.8.tar.gz
+[2023-08-03 08:21:54] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/b9/25/5020b25c2ea7d752bd00e637305dbd9ecbf68fcac79ccd6b529e53fa26b9/nemusicapi-0.0.3a2.tar.gz
+[2023-08-03 08:21:54] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Downloading https://files.pythonhosted.org/packages/00/55/7fd2149ae6ca51ce2529164f2eacddad5cb2e9ea4a41d5705e3b35ba40f0/aliyun-python-sdk-adb-1.1.5.tar.gz
+[2023-08-03 08:21:55] INFO root fetch - processPackages [pyolin]: Downloading https://files.pythonhosted.org/packages/fd/86/4a1c4ce4c3eb545af07ec06b7af88891c4290d22c73e868e2ab9219107e1/pyolin-0.0.4.tar.gz
+[2023-08-03 08:21:55] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/f0/54/ab1c36e981546d0ee16ab181c08a9156dc3ea1f9ab20cfdfc0957cfb2019/policyengine-us-0.407.0.tar.gz
+[2023-08-03 08:21:55] INFO root fetch - processPackages [tcpsocket]: Downloading https://files.pythonhosted.org/packages/25/9b/7ea79d1ded1d19f9b6b49d3a95681f772bda102fa164d1b838e4a48cce55/tcpsocket-1.4.tar.gz
+[2023-08-03 08:21:55] INFO root fetch - processPackages [tcpsocket]: Downloading https://files.pythonhosted.org/packages/25/9b/7ea79d1ded1d19f9b6b49d3a95681f772bda102fa164d1b838e4a48cce55/tcpsocket-1.4.tar.gz
+[2023-08-03 08:21:55] INFO root fetch - processPackages [aliyun-python-sdk-adb]: executing diffoscope
+[2023-08-03 08:21:55] INFO root fetch - processPackages [aliyun-python-sdk-adb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-adb-1.1.4.tar.gz tmp/aliyun-python-sdk-adb-1.1.5.tar.gz --markdown 20230803/a/aliyun-python-sdk-adb/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-03 08:21:55] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2023-08-03 08:21:55] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 08:21:55] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.3a1.tar.gz tmp/nemusicapi-0.0.3a2.tar.gz --markdown 20230803/n/nemusicapi/0.0.3a1-0.0.3a2/diff.md --exclude *.pyd
+[2023-08-03 08:21:55] INFO root fetch - processPackages [pyolin]: executing diffoscope
+[2023-08-03 08:21:55] INFO root fetch - processPackages [pyolin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyolin-0.0.3.tar.gz tmp/pyolin-0.0.4.tar.gz --markdown 20230803/p/pyolin/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 08:21:55] INFO root fetch - processPackages [tcpsocket]: executing diffoscope
+[2023-08-03 08:21:55] INFO root fetch - processPackages [tcpsocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcpsocket-1.3-py3-none-any.whl.zip tmp/tcpsocket-1.4.tar.gz --markdown 20230803/t/tcpsocket/1.3-1.4/diff.md --exclude *.pyd
+[2023-08-03 08:21:55] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2023-08-03 08:21:55] INFO root fetch - processPackages [tcpsocket]: executing diffoscope
+[2023-08-03 08:21:55] INFO root fetch - processPackages [tcpsocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcpsocket-1.3-py3-none-any.whl.zip tmp/tcpsocket-1.4.tar.gz --markdown 20230803/t/tcpsocket/1.3-1.4/diff.md --exclude *.pyd
+[2023-08-03 08:21:55] INFO root fetch - processPackages [UzSyllable]: Downloading https://files.pythonhosted.org/packages/b2/9a/c242255635e436e5e48b9b555024d5fb4ee03514cd28a8a9222324f0f0fd/UzSyllable-0.0.7.tar.gz
+[2023-08-03 08:21:55] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-08-03 08:21:55] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.406.0.tar.gz tmp/policyengine-us-0.407.0.tar.gz --markdown 20230803/p/policyengine-us/0.406.0-0.407.0/diff.md --exclude *.pyd
+[2023-08-03 08:21:55] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-08-03 08:21:55] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230803/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-08-03 08:21:55] INFO root fetch - processPackages [UzSyllable]: executing diffoscope
+[2023-08-03 08:21:55] INFO root fetch - processPackages [UzSyllable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UzSyllable-0.0.6.tar.gz tmp/UzSyllable-0.0.7.tar.gz --markdown 20230803/U/UzSyllable/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-03 08:21:55] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/85/26/dc724888d279c8a335351512fdbd1b8b303aa5f46595660b6851e86e12ef/insights-core-3.2.9.tar.gz
+[2023-08-03 08:21:55] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-08-03 08:21:55] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230803/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-08-03 08:21:55] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2023-08-03 08:21:55] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.2.8.tar.gz tmp/insights-core-3.2.9.tar.gz --markdown 20230803/i/insights-core/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-08-03 08:21:56] INFO root fetch - processPackages [tcpsocket]: Remove: archive file [/home/abi/fetcher/tmp/tcpsocket-1.3-py3-none-any.whl.zip]
+[2023-08-03 08:21:56] INFO root fetch - processPackages [tcpsocket]: Remove: archive file [/home/abi/fetcher/tmp/tcpsocket-1.4.tar.gz]
+[2023-08-03 08:21:56] INFO root fetch - processPackages [tcpsocket]: Start processing: pulumi-ec
+[2023-08-03 08:21:56] INFO root fetch - main [MainThread]: End processing [tcpsocket]: success
+[2023-08-03 08:21:56] INFO root fetch - main [MainThread]: End processing [tcpsocket]: success
+[2023-08-03 08:21:56] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1691041082] Old Version: [0.5.2a1690534446]
+[2023-08-03 08:21:56] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.3a1.tar.gz]
+[2023-08-03 08:21:56] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.3a2.tar.gz]
+[2023-08-03 08:21:56] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 08:21:57] INFO root fetch - processPackages [pyolin]: Remove: archive file [/home/abi/fetcher/tmp/pyolin-0.0.3.tar.gz]
+[2023-08-03 08:21:57] INFO root fetch - processPackages [pyolin]: Remove: archive file [/home/abi/fetcher/tmp/pyolin-0.0.4.tar.gz]
+[2023-08-03 08:21:57] INFO root fetch - main [MainThread]: End processing [pyolin]: success
+[2023-08-03 08:21:57] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/46/55/abd0e93e960c5c275addb80a84d3961844af265d11c4d7e919ed6d00d07c/pulumi_ec-0.5.2a1690534446.tar.gz
+[2023-08-03 08:21:57] INFO root fetch - processPackages [UzSyllable]: Remove: archive file [/home/abi/fetcher/tmp/UzSyllable-0.0.6.tar.gz]
+[2023-08-03 08:21:57] INFO root fetch - processPackages [UzSyllable]: Remove: archive file [/home/abi/fetcher/tmp/UzSyllable-0.0.7.tar.gz]
+[2023-08-03 08:21:57] INFO root fetch - main [MainThread]: End processing [UzSyllable]: success
+[2023-08-03 08:21:57] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-adb-1.1.4.tar.gz]
+[2023-08-03 08:21:57] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-adb-1.1.5.tar.gz]
+[2023-08-03 08:21:57] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-adb]: success
+[2023-08-03 08:21:57] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/01/e6/84f675ac5d1a682050bc332eb7ce65feef2ec133aaea945a4a3072da79e9/pulumi_ec-0.5.2a1691041082.tar.gz
+[2023-08-03 08:21:57] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2023-08-03 08:21:57] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2023-08-03 08:21:57] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-08-03 08:21:57] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-08-03 08:21:57] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1690534446.tar.gz tmp/pulumi_ec-0.5.2a1691041082.tar.gz --markdown 20230803/p/pulumi-ec/0.5.2a1690534446-0.5.2a1691041082/diff.md --exclude *.pyd
+[2023-08-03 08:21:58] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1690534446.tar.gz]
+[2023-08-03 08:21:58] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1691041082.tar.gz]
+[2023-08-03 08:21:58] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-08-03 08:21:58] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2023-08-03 08:21:58] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2023-08-03 08:21:58] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-08-03 08:22:06] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.8.tar.gz]
+[2023-08-03 08:22:06] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.9.tar.gz]
+[2023-08-03 08:22:06] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2023-08-03 08:22:27] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.406.0.tar.gz]
+[2023-08-03 08:22:27] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.407.0.tar.gz]
+[2023-08-03 08:22:27] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-08-03 08:22:27] INFO root fetch - main [MainThread]: Store serial: [19154423]
