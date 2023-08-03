@@ -10227,3 +10227,179 @@
 [2023-08-03 04:54:27] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
 [2023-08-03 04:54:27] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2023-08-03 04:54:27] INFO root fetch - main [MainThread]: Store serial: [19153045]
+[2023-08-03 04:59:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153045]
+[2023-08-03 04:59:35] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coola
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VizTyping
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ttdatasdk
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dicergirl
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ibackupy
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-company-sanitary-registry
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-base-unece
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-uom-unece
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-tax-unece
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-product-fao-fishing
+[2023-08-03 04:59:35] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-08-03 04:59:35] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-08-03 04:59:35] INFO root fetch - processPackages [odoo-addon-uom-unece]: New version: [16.0.1.1.0.4] Old Version: [16.0.1.1.0.2]
+[2023-08-03 04:59:35] INFO root fetch - processPackages [coola]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 04:59:35] INFO root fetch - processPackages [odoo-addon-base-unece]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-08-03 04:59:35] INFO root fetch - processPackages [dicergirl]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-08-03 04:59:35] WARNING root fetch - processPackages [ibackupy]: Skipping, unable to determine old version
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ibackupy]: Start processing: odoo-addon-base-iso3166
+[2023-08-03 04:59:35] INFO root fetch - main [MainThread]: End processing [ibackupy] error
+[2023-08-03 04:59:35] INFO root fetch - processPackages [ttdatasdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-03 04:59:35] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: New version: [16.0.1.2.0.3] Old Version: [16.0.1.2.0.1]
+[2023-08-03 04:59:35] WARNING root fetch - processPackages [VizTyping]: Skipping, unable to determine old version
+[2023-08-03 04:59:35] INFO root fetch - processPackages [VizTyping]: Start processing: odoo-addon-account-payment-unece
+[2023-08-03 04:59:35] INFO root fetch - main [MainThread]: End processing [VizTyping] error
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-base-iso3166]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: Downloading https://files.pythonhosted.org/packages/9e/d5/200bd8a3620ff8cc86bf4949cba19e44b6271c0540347661ea546deb7b4b/odoo_addon_product_fao_fishing-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/8b/4a/3b5164723b1baf2ae98bcbc6678920a09d19c1adb79b5925c65e2bacb1a7/dicergirl-3.0.8.tar.gz
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Downloading https://files.pythonhosted.org/packages/38/88/cd4f1982a6aa7e40179c27c5cb38e2fb705096a8d7c0b084133f59ecc9cd/odoo_addon_company_sanitary_registry-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-uom-unece]: Downloading https://files.pythonhosted.org/packages/81/5e/d2b679e5dd1fe584cef9622ab7d8c6e8e1d2a5fa479107592e9cc8b4a911/odoo_addon_uom_unece-16.0.1.1.0.2-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-base-unece]: Downloading https://files.pythonhosted.org/packages/94/b1/8ef2ba2abc17c3968e027375ac5991a81adbd007ff592c0b91245b8687ca/odoo_addon_base_unece-16.0.1.0.0.6-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/ca/0c/e47f7fdc6f34e79ff4ab3b21c0ef7b7f32f62be0255411f914475666fb8c/coola-0.0.8.tar.gz
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/08/23/f66638ca0a84b3d533ecd07a35045196ff76a5e898aed010de434945c593/odoo_addon_account_tax_unece-16.0.1.2.0.1-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [ttdatasdk]: Downloading https://files.pythonhosted.org/packages/f5/27/31307eb21c4f9ab34c39805aed7021503e18fc2671254c77ae9de4dcf5e6/ttdatasdk-0.0.2.tar.gz
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Downloading https://files.pythonhosted.org/packages/67/ff/f7f448ee2d128ee06c46eb3950c765b72c8d79dcdb74081b22dabc9c44b1/odoo_addon_base_iso3166-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Downloading https://files.pythonhosted.org/packages/5d/87/97754c95abf0ddf71cb353b686d312b37d86a995a9a7da75eda091e9768c/odoo_addon_account_payment_unece-16.0.1.0.0.5-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/cc/2f/86394a6773784d7b675bced8d86f2838a1653b0cd960f19c21fedf5a8d2b/dicergirl-3.0.9.tar.gz
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: Downloading https://files.pythonhosted.org/packages/5d/63/1eaa1572e7c2bfe30e476542bdc052b3eedc1e525e914e06cd186615f8f7/odoo_addon_product_fao_fishing-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [dicergirl]: executing diffoscope
+[2023-08-03 04:59:36] INFO root fetch - processPackages [dicergirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicergirl-3.0.8.tar.gz tmp/dicergirl-3.0.9.tar.gz --markdown 20230803/d/dicergirl/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Downloading https://files.pythonhosted.org/packages/86/0d/1aa608ea2154bc0a4e74febb936c212aaf67b411dcfdb75a6130107b491c/odoo_addon_company_sanitary_registry-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-uom-unece]: Downloading https://files.pythonhosted.org/packages/a6/1f/271da68d3cb5d246e9918e72b727d8c5b2c39c6440acc985cb9ab3fc6f3c/odoo_addon_uom_unece-16.0.1.1.0.4-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Downloading https://files.pythonhosted.org/packages/49/e6/496909c066285439412b0310c7f3e05b6f41b855b9e6e8043ef75c6c10b5/odoo_addon_base_iso3166-16.0.1.0.0.6-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/26/eb/3934c8c610c4a1731bfec6e9cc78b049b845e9646b554e4a7133f3037248/odoo_addon_account_tax_unece-16.0.1.2.0.3-py3-none-any.whl
+[2023-08-03 04:59:36] INFO root fetch - processPackages [ttdatasdk]: Downloading https://files.pythonhosted.org/packages/4b/40/9e7878baed3532425d1f0a19d93d68554cd16e8dec4580cb1c8bd2cc2a9e/ttdatasdk-0.0.3.tar.gz
+[2023-08-03 04:59:36] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/67/49/16dce5b5e529dd9625489d79e8f5d3f192bb6a514bfb92247ce5198fda1a/coola-0.0.9.tar.gz
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: executing diffoscope
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_fao_fishing-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_fao_fishing-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-product-fao-fishing/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: executing diffoscope
+[2023-08-03 04:59:36] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_company_sanitary_registry-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_company_sanitary_registry-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-company-sanitary-registry/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Downloading https://files.pythonhosted.org/packages/13/48/5441377e4897aa7064ffacdad0e46a59229f5876e7475bf1596cbc988826/odoo_addon_account_payment_unece-16.0.1.0.0.7-py3-none-any.whl
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-base-unece]: Downloading https://files.pythonhosted.org/packages/00/47/f3bcc4d49eef7f3bb27aa61de9b0e2ad1fcbdc1ba239f138d6bed5153c88/odoo_addon_base_unece-16.0.1.0.0.8-py3-none-any.whl
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-uom-unece]: executing diffoscope
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-uom-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_uom_unece-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_uom_unece-16.0.1.1.0.4-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-uom-unece/16.0.1.1.0.2-16.0.1.1.0.4/diff.md --exclude *.pyd
+[2023-08-03 04:59:37] INFO root fetch - processPackages [ttdatasdk]: executing diffoscope
+[2023-08-03 04:59:37] INFO root fetch - processPackages [ttdatasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttdatasdk-0.0.2.tar.gz tmp/ttdatasdk-0.0.3.tar.gz --markdown 20230803/t/ttdatasdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-03 04:59:37] INFO root fetch - processPackages [coola]: executing diffoscope
+[2023-08-03 04:59:37] INFO root fetch - processPackages [coola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coola-0.0.8.tar.gz tmp/coola-0.0.9.tar.gz --markdown 20230803/c/coola/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: executing diffoscope
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_tax_unece-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_tax_unece-16.0.1.2.0.3-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-account-tax-unece/16.0.1.2.0.1-16.0.1.2.0.3/diff.md --exclude *.pyd
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-base-iso3166]: executing diffoscope
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-base-iso3166]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_iso3166-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_base_iso3166-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-base-iso3166/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-base-unece]: executing diffoscope
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-base-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_unece-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_base_unece-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-base-unece/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: executing diffoscope
+[2023-08-03 04:59:37] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_unece-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_payment_unece-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-account-payment-unece/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-08-03 04:59:38] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.8.tar.gz]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.9.tar.gz]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [dicergirl]: Start processing: torch-nets
+[2023-08-03 04:59:38] INFO root fetch - main [MainThread]: End processing [dicergirl]: success
+[2023-08-03 04:59:38] INFO root fetch - processPackages [torch-nets]: New version: [0.0.5rc0] Old Version: [0.0.4rc0]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_company_sanitary_registry-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_company_sanitary_registry-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-08-03 04:59:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-company-sanitary-registry]: success
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_fao_fishing-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_fao_fishing-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: Start processing: odoo-addon-connector
+[2023-08-03 04:59:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-fao-fishing]: success
+[2023-08-03 04:59:38] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [torch-nets]: Downloading https://files.pythonhosted.org/packages/fd/d9/f8131e88f8764c111beef91ad83225d5554d2acce07dcb73c5b040274fc4/torch-nets-0.0.4rc0.tar.gz
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-connector]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-08-03 04:59:38] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.8.tar.gz]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.9.tar.gz]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [coola]: Start processing: VizTyping
+[2023-08-03 04:59:38] INFO root fetch - main [MainThread]: End processing [coola]: success
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_unece-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_unece-16.0.1.2.0.3-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Start processing: odoo-addon-component-event
+[2023-08-03 04:59:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-tax-unece]: success
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-uom-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_uom_unece-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-uom-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_uom_unece-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-uom-unece]: Start processing: odoo-addon-test-component
+[2023-08-03 04:59:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-uom-unece]: success
+[2023-08-03 04:59:38] WARNING root fetch - processPackages [VizTyping]: Skipping, unable to determine old version
+[2023-08-03 04:59:38] INFO root fetch - processPackages [VizTyping]: Start processing: odoo-addon-component
+[2023-08-03 04:59:38] INFO root fetch - main [MainThread]: End processing [VizTyping] error
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-component-event]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-test-component]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-base-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_unece-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-base-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_unece-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-base-unece]: Start processing: odoo-addon-test-connector
+[2023-08-03 04:59:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-unece]: success
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-connector]: Downloading https://files.pythonhosted.org/packages/ff/72/e56732ae401b3fa1d037280b89d0d6973ce6f2d75d440dd4ab68ba2291e2/odoo_addon_connector-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-test-connector]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-component]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_unece-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_unece-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Start processing: BioSAK
+[2023-08-03 04:59:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-unece]: success
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_iso3166-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_iso3166-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Start processing: novellamemory
+[2023-08-03 04:59:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-iso3166]: success
+[2023-08-03 04:59:38] INFO root fetch - processPackages [torch-nets]: Downloading https://files.pythonhosted.org/packages/c5/9d/686795f868f0e26aec5d3ac39e2816b619356fb2c924422ca718631e1d29/torch-nets-0.0.5rc0.tar.gz
+[2023-08-03 04:59:38] INFO root fetch - processPackages [ttdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/ttdatasdk-0.0.2.tar.gz]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [ttdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/ttdatasdk-0.0.3.tar.gz]
+[2023-08-03 04:59:38] INFO root fetch - processPackages [ttdatasdk]: Start processing: napool
+[2023-08-03 04:59:38] INFO root fetch - main [MainThread]: End processing [ttdatasdk]: success
+[2023-08-03 04:59:39] INFO root fetch - processPackages [torch-nets]: executing diffoscope
+[2023-08-03 04:59:39] INFO root fetch - processPackages [torch-nets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-nets-0.0.4rc0.tar.gz tmp/torch-nets-0.0.5rc0.tar.gz --markdown 20230803/t/torch-nets/0.0.4rc0-0.0.5rc0/diff.md --exclude *.pyd
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-component-event]: Downloading https://files.pythonhosted.org/packages/0b/76/a6927fa86c717cff2388b73a2b889de63820301c642e3ad7347c950c3fcb/odoo_addon_component_event-16.0.1.0.1-py3-none-any.whl
+[2023-08-03 04:59:39] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-08-03 04:59:39] WARNING root fetch - processPackages [novellamemory]: Skipping, unable to determine old version
+[2023-08-03 04:59:39] INFO root fetch - main [MainThread]: End processing [novellamemory] error
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-test-component]: Downloading https://files.pythonhosted.org/packages/a9/04/be3bc5d9c16a47420f9078c0932989744f7f017b6e1fe4ed79d61abba676/odoo_addon_test_component-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-03 04:59:39] WARNING root fetch - processPackages [napool]: Skipping, unable to determine old version
+[2023-08-03 04:59:39] INFO root fetch - main [MainThread]: End processing [napool] error
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-test-connector]: Downloading https://files.pythonhosted.org/packages/2a/a2/2a0fe45c9eecbab0b94715c9ca4c69fe857dd8f0a63727366df03607ab08/odoo_addon_test_connector-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-03 04:59:39] INFO root fetch - processPackages [BioSAK]: New version: [1.70.2] Old Version: [1.70.1]
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-component]: Downloading https://files.pythonhosted.org/packages/9f/ce/e64d16704c7dd2b15077d03702bad117efec225a2a2f4bbf45acac8c992f/odoo_addon_component-16.0.1.1.0-py3-none-any.whl
+[2023-08-03 04:59:39] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-08-03 04:59:39] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230803/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-connector]: Downloading https://files.pythonhosted.org/packages/41/fe/a4e1c1de1e94de77e04ee0d706d85491b5cfdac414d08042f22d7d19e95e/odoo_addon_connector-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-03 04:59:39] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/06/a2/70bfa6b3bc7bfaef34fb1a7f039d7571525c5fa58965ec00784643bbe923/BioSAK-1.70.1.tar.gz
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-component-event]: Downloading https://files.pythonhosted.org/packages/46/92/e6c3a982e090a1ea7c311fbb3fd831020ff206dc5d7374882f381b7ba106/odoo_addon_component_event-16.0.1.0.1.2-py3-none-any.whl
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-test-connector]: Downloading https://files.pythonhosted.org/packages/76/d4/ed770a015242b92e35413145fec8fcbba3f2339047fa592021461904c364/odoo_addon_test_connector-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-03 04:59:39] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21177197>=10485760
+[2023-08-03 04:59:39] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-test-component]: Downloading https://files.pythonhosted.org/packages/83/ad/66e5e984537782fb5ef0aa2c5ca4cae091dd79f40b5aa278b679c04fa638/odoo_addon_test_component-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-component]: Downloading https://files.pythonhosted.org/packages/3a/6e/eccc87571f1e99458378cf81e644f59b29e50abe90661e5d11721932c6f6/odoo_addon_component-16.0.1.1.0.1-py3-none-any.whl
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-component-event]: executing diffoscope
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-component-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_component_event-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_component_event-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-component-event/16.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-connector]: executing diffoscope
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_connector-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_connector-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-connector/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-test-connector]: executing diffoscope
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-test-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_test_connector-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_test_connector-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-test-connector/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-test-component]: executing diffoscope
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-test-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_test_component-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_test_component-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-test-component/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-component]: executing diffoscope
+[2023-08-03 04:59:39] INFO root fetch - processPackages [odoo-addon-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_component-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_component-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-component/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-08-03 04:59:40] INFO root fetch - processPackages [torch-nets]: Remove: archive file [/home/abi/fetcher/tmp/torch-nets-0.0.4rc0.tar.gz]
+[2023-08-03 04:59:40] INFO root fetch - processPackages [torch-nets]: Remove: archive file [/home/abi/fetcher/tmp/torch-nets-0.0.5rc0.tar.gz]
+[2023-08-03 04:59:40] INFO root fetch - main [MainThread]: End processing [torch-nets]: success
+[2023-08-03 04:59:40] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-08-03 04:59:40] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-08-03 04:59:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-08-03 04:59:40] INFO root fetch - processPackages [odoo-addon-component-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_component_event-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-03 04:59:40] INFO root fetch - processPackages [odoo-addon-component-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_component_event-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-08-03 04:59:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-component-event]: success
+[2023-08-03 04:59:40] INFO root fetch - processPackages [odoo-addon-test-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_connector-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-03 04:59:40] INFO root fetch - processPackages [odoo-addon-test-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_connector-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-03 04:59:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-connector]: success
+[2023-08-03 04:59:40] INFO root fetch - processPackages [odoo-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_component-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-03 04:59:40] INFO root fetch - processPackages [odoo-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_component-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-03 04:59:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-component]: success
+[2023-08-03 04:59:41] INFO root fetch - processPackages [odoo-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-03 04:59:41] INFO root fetch - processPackages [odoo-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-03 04:59:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector]: success
+[2023-08-03 04:59:41] INFO root fetch - processPackages [odoo-addon-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_component-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-08-03 04:59:41] INFO root fetch - processPackages [odoo-addon-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_component-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-08-03 04:59:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-component]: success
+[2023-08-03 04:59:41] INFO root fetch - main [MainThread]: Store serial: [19153114]
