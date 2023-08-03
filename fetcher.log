@@ -21228,3 +21228,112 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 12:46:55] INFO root fetch - processPackages [pulumi-volcengine]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_volcengine-0.0.9.tar.gz]
 [2023-08-03 12:46:55] INFO root fetch - main [MainThread]: End processing [pulumi-volcengine]: success
 [2023-08-03 12:46:55] INFO root fetch - main [MainThread]: Store serial: [19157797]
+[2023-08-03 12:51:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157797]
+[2023-08-03 12:52:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-03 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MyOverlay
+[2023-08-03 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rath
+[2023-08-03 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yep-detectors
+[2023-08-03 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hatyan
+[2023-08-03 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: layernext-enterprise-beta
+[2023-08-03 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yep-detectors
+[2023-08-03 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: barcodes-uc
+[2023-08-03 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-nonememe
+[2023-08-03 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlalchemy-multiple-db
+[2023-08-03 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easyecs
+[2023-08-03 12:52:04] INFO root fetch - processPackages [MyOverlay]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-03 12:52:04] INFO root fetch - processPackages [yep-detectors]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-03 12:52:04] INFO root fetch - processPackages [yep-detectors]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-03 12:52:04] INFO root fetch - processPackages [rath]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-08-03 12:52:04] INFO root fetch - processPackages [easyecs]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-03 12:52:04] INFO root fetch - processPackages [layernext-enterprise-beta]: New version: [1.1.0b0] Old Version: [1.0.0b0]
+[2023-08-03 12:52:04] INFO root fetch - processPackages [sqlalchemy-multiple-db]: New version: [2.0.0] Old Version: [1.8.0]
+[2023-08-03 12:52:04] INFO root fetch - processPackages [nonebot-plugin-nonememe]: New version: [0.2.0] Old Version: [0.1.1.post1]
+[2023-08-03 12:52:04] INFO root fetch - processPackages [hatyan]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-08-03 12:52:04] INFO root fetch - processPackages [barcodes-uc]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-03 12:52:04] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/a9/a4/494706874ecc15b8b78fa416acdb17afd688d1b26a9df8108e347f108438/MyOverlay-0.2.1.tar.gz
+[2023-08-03 12:52:04] INFO root fetch - processPackages [yep-detectors]: Downloading https://files.pythonhosted.org/packages/31/4c/6a99359465b7c8a33f54e909cad4f30afa9cd6554dbfa875e3c77c92e4d7/yep_detectors-1.0.3.tar.gz
+[2023-08-03 12:52:04] INFO root fetch - processPackages [yep-detectors]: Downloading https://files.pythonhosted.org/packages/31/4c/6a99359465b7c8a33f54e909cad4f30afa9cd6554dbfa875e3c77c92e4d7/yep_detectors-1.0.3.tar.gz
+[2023-08-03 12:52:04] INFO root fetch - processPackages [rath]: Downloading https://files.pythonhosted.org/packages/1b/db/3d96aa683976cd29474ff28c7f9cc8df30d5a76d22e59e5ff543e2aa7f7f/rath-0.3.6.tar.gz
+[2023-08-03 12:52:04] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/05/c9/56d30419992987f3ccb1204160c8b7da6c2c9654ac6feee61f5e6c19f110/easyecs-0.3.0.tar.gz
+[2023-08-03 12:52:04] INFO root fetch - processPackages [layernext-enterprise-beta]: Downloading https://files.pythonhosted.org/packages/6a/61/e790605326e755f39b41bf4b1a2ba6eb862bae3683541fdc083b923a4ff8/layernext-enterprise-beta-1.0.0b0.tar.gz
+[2023-08-03 12:52:04] INFO root fetch - processPackages [hatyan]: Downloading https://files.pythonhosted.org/packages/9b/d6/e2ca99561844249377fbcacdcc2cb2395b0b90e859609fbc68d05d65220e/hatyan-2.6.0.tar.gz
+[2023-08-03 12:52:04] INFO root fetch - processPackages [nonebot-plugin-nonememe]: Downloading https://files.pythonhosted.org/packages/73/cc/474544263ec9db492e927267f2d3b16f5e00eb482ef2cd82ab1e2fc2cfc4/nonebot_plugin_nonememe-0.1.1.post1.tar.gz
+[2023-08-03 12:52:04] INFO root fetch - processPackages [sqlalchemy-multiple-db]: Downloading https://files.pythonhosted.org/packages/aa/3e/0d35e2bd88c1f2f22b45f6dc0899219313f4eed1a75e815484dbb541ca48/sqlalchemy-multiple-db-1.8.0.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [barcodes-uc]: Downloading https://files.pythonhosted.org/packages/93/b3/4fab0df0ef5592e9f235e706b962e83574e77b57f1f7cbdda0abda29576b/barcodes_uc-0.6.1.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/fb/5b/cbcd9ea1a1de65ed5edb1e896b52de3ff811ba8ebb674f31e6855554cda4/MyOverlay-0.2.2.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [layernext-enterprise-beta]: Downloading https://files.pythonhosted.org/packages/06/b0/6a3edde9b9486f3bf79ec8217acfbc0262d7515a64fbceb6329cadc87a1b/layernext-enterprise-beta-1.1.0b0.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [rath]: Downloading https://files.pythonhosted.org/packages/b2/7f/682637d0407b08f5b7e1213b88ddab7c3f9dd4b7c249616bc30ada20e61b/rath-0.4.0.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/b3/dc/1ac154659ac46e9097173c936871e0aa02fd17874a65a329fc23f1acbf23/easyecs-0.3.1.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [yep-detectors]: Downloading https://files.pythonhosted.org/packages/db/3c/7b9652468d30d39a8e1ecbd3a6049544b51e112bc8ba87cb19538ba703ea/yep_detectors-1.0.4.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [MyOverlay]: executing diffoscope
+[2023-08-03 12:52:05] INFO root fetch - processPackages [MyOverlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyOverlay-0.2.1.tar.gz tmp/MyOverlay-0.2.2.tar.gz --markdown 20230803/M/MyOverlay/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-03 12:52:05] INFO root fetch - processPackages [yep-detectors]: Downloading https://files.pythonhosted.org/packages/db/3c/7b9652468d30d39a8e1ecbd3a6049544b51e112bc8ba87cb19538ba703ea/yep_detectors-1.0.4.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [sqlalchemy-multiple-db]: Downloading https://files.pythonhosted.org/packages/c0/3b/574f0e416b351203fa43bf70f852f66ce01714450a05f58d9b33f0007311/sqlalchemy-multiple-db-2.0.0.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [hatyan]: Downloading https://files.pythonhosted.org/packages/34/af/ff1cf9027994e4989e1687cfeaff3349b4ee6fc83c3971a000860ccb1a1a/hatyan-2.7.0.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [nonebot-plugin-nonememe]: Downloading https://files.pythonhosted.org/packages/15/0d/36173c8e796c418bef05aff9ae4c4998ffeb33557c451bff9179d9738334/nonebot_plugin_nonememe-0.2.0.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [layernext-enterprise-beta]: executing diffoscope
+[2023-08-03 12:52:05] INFO root fetch - processPackages [layernext-enterprise-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layernext-enterprise-beta-1.0.0b0.tar.gz tmp/layernext-enterprise-beta-1.1.0b0.tar.gz --markdown 20230803/l/layernext-enterprise-beta/1.0.0b0-1.1.0b0/diff.md --exclude *.pyd
+[2023-08-03 12:52:05] INFO root fetch - processPackages [rath]: executing diffoscope
+[2023-08-03 12:52:05] INFO root fetch - processPackages [rath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rath-0.3.6.tar.gz tmp/rath-0.4.0.tar.gz --markdown 20230803/r/rath/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-08-03 12:52:05] INFO root fetch - processPackages [barcodes-uc]: Downloading https://files.pythonhosted.org/packages/43/63/4c35c5627d7c82371d7aa838184c58db2881b1ac308f373838f3cede2ce0/barcodes_uc-0.6.2.tar.gz
+[2023-08-03 12:52:05] INFO root fetch - processPackages [sqlalchemy-multiple-db]: executing diffoscope
+[2023-08-03 12:52:05] INFO root fetch - processPackages [sqlalchemy-multiple-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-multiple-db-1.8.0.tar.gz tmp/sqlalchemy-multiple-db-2.0.0.tar.gz --markdown 20230803/s/sqlalchemy-multiple-db/1.8.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-03 12:52:05] INFO root fetch - processPackages [easyecs]: executing diffoscope
+[2023-08-03 12:52:05] INFO root fetch - processPackages [easyecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyecs-0.3.0.tar.gz tmp/easyecs-0.3.1.tar.gz --markdown 20230803/e/easyecs/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-03 12:52:05] INFO root fetch - processPackages [nonebot-plugin-nonememe]: executing diffoscope
+[2023-08-03 12:52:05] INFO root fetch - processPackages [nonebot-plugin-nonememe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nonememe-0.1.1.post1.tar.gz tmp/nonebot_plugin_nonememe-0.2.0.tar.gz --markdown 20230803/n/nonebot-plugin-nonememe/0.1.1.post1-0.2.0/diff.md --exclude *.pyd
+[2023-08-03 12:52:05] INFO root fetch - processPackages [hatyan]: executing diffoscope
+[2023-08-03 12:52:05] INFO root fetch - processPackages [hatyan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatyan-2.6.0.tar.gz tmp/hatyan-2.7.0.tar.gz --markdown 20230803/h/hatyan/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-08-03 12:52:05] INFO root fetch - processPackages [barcodes-uc]: executing diffoscope
+[2023-08-03 12:52:05] INFO root fetch - processPackages [barcodes-uc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barcodes_uc-0.6.1.tar.gz tmp/barcodes_uc-0.6.2.tar.gz --markdown 20230803/b/barcodes-uc/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-03 12:52:05] INFO root fetch - processPackages [yep-detectors]: executing diffoscope
+[2023-08-03 12:52:05] INFO root fetch - processPackages [yep-detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yep_detectors-1.0.3.tar.gz tmp/yep_detectors-1.0.4.tar.gz --markdown 20230803/y/yep-detectors/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-03 12:52:05] INFO root fetch - processPackages [yep-detectors]: executing diffoscope
+[2023-08-03 12:52:05] INFO root fetch - processPackages [yep-detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yep_detectors-1.0.3.tar.gz tmp/yep_detectors-1.0.4.tar.gz --markdown 20230803/y/yep-detectors/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-03 12:52:06] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.2.1.tar.gz]
+[2023-08-03 12:52:06] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.2.2.tar.gz]
+[2023-08-03 12:52:06] INFO root fetch - processPackages [MyOverlay]: Start processing: yep-detectors
+[2023-08-03 12:52:06] INFO root fetch - main [MainThread]: End processing [MyOverlay]: success
+[2023-08-03 12:52:06] INFO root fetch - processPackages [yep-detectors]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-03 12:52:07] INFO root fetch - processPackages [yep-detectors]: Downloading https://files.pythonhosted.org/packages/44/0f/9cfa11662e3d8d929e40253b9d7622e5724287ce0158b6f6f7d7bc98dfba/yep_detectors-1.0.6.tar.gz
+[2023-08-03 12:52:07] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.3.0.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.3.1.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - processPackages [easyecs]: Start processing: pulumi-awsx
+[2023-08-03 12:52:07] INFO root fetch - main [MainThread]: End processing [easyecs]: success
+[2023-08-03 12:52:07] INFO root fetch - processPackages [pulumi-awsx]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-03 12:52:07] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/4d/e8/5491d5cfef95e88245d7b464299ca8b4a0005d2a2d6fdcc6f685d350fc01/pulumi_awsx-1.0.1.tar.gz
+[2023-08-03 12:52:07] INFO root fetch - processPackages [layernext-enterprise-beta]: Remove: archive file [/home/abi/fetcher/tmp/layernext-enterprise-beta-1.0.0b0.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - processPackages [layernext-enterprise-beta]: Remove: archive file [/home/abi/fetcher/tmp/layernext-enterprise-beta-1.1.0b0.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - main [MainThread]: End processing [layernext-enterprise-beta]: success
+[2023-08-03 12:52:07] INFO root fetch - processPackages [nonebot-plugin-nonememe]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nonememe-0.1.1.post1.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - processPackages [nonebot-plugin-nonememe]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nonememe-0.2.0.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nonememe]: success
+[2023-08-03 12:52:07] INFO root fetch - processPackages [yep-detectors]: Downloading https://files.pythonhosted.org/packages/99/1e/97eee4741a71650f9305cc1af1c900868167697480889e2d6a1434710472/yep_detectors-1.0.7.tar.gz
+[2023-08-03 12:52:07] INFO root fetch - processPackages [yep-detectors]: Remove: archive file [/home/abi/fetcher/tmp/yep_detectors-1.0.3.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - processPackages [yep-detectors]: Remove: archive file [/home/abi/fetcher/tmp/yep_detectors-1.0.4.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - main [MainThread]: End processing [yep-detectors]: success
+[2023-08-03 12:52:07] INFO root fetch - processPackages [rath]: Remove: archive file [/home/abi/fetcher/tmp/rath-0.3.6.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - processPackages [rath]: Remove: archive file [/home/abi/fetcher/tmp/rath-0.4.0.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - main [MainThread]: End processing [rath]: success
+[2023-08-03 12:52:07] INFO root fetch - processPackages [hatyan]: Remove: archive file [/home/abi/fetcher/tmp/hatyan-2.6.0.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - processPackages [hatyan]: Remove: archive file [/home/abi/fetcher/tmp/hatyan-2.7.0.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - main [MainThread]: End processing [hatyan]: success
+[2023-08-03 12:52:07] INFO root fetch - processPackages [barcodes-uc]: Remove: archive file [/home/abi/fetcher/tmp/barcodes_uc-0.6.1.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - processPackages [barcodes-uc]: Remove: archive file [/home/abi/fetcher/tmp/barcodes_uc-0.6.2.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - main [MainThread]: End processing [barcodes-uc]: success
+[2023-08-03 12:52:07] INFO root fetch - main [MainThread]: End processing [yep-detectors]: success
+[2023-08-03 12:52:07] INFO root fetch - processPackages [sqlalchemy-multiple-db]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-multiple-db-1.8.0.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - processPackages [sqlalchemy-multiple-db]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-multiple-db-2.0.0.tar.gz]
+[2023-08-03 12:52:07] INFO root fetch - main [MainThread]: End processing [sqlalchemy-multiple-db]: success
+[2023-08-03 12:52:07] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/22/54/076af0e5d0b6ffde29af3abe2bab657b240779ce0cb71b26ebb5c1b7a31d/pulumi_awsx-1.0.2.tar.gz
+[2023-08-03 12:52:07] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2023-08-03 12:52:07] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-1.0.1.tar.gz tmp/pulumi_awsx-1.0.2.tar.gz --markdown 20230803/p/pulumi-awsx/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-03 12:52:07] INFO root fetch - processPackages [yep-detectors]: executing diffoscope
+[2023-08-03 12:52:07] INFO root fetch - processPackages [yep-detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yep_detectors-1.0.6.tar.gz tmp/yep_detectors-1.0.7.tar.gz --markdown 20230803/y/yep-detectors/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-03 12:52:08] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.1.tar.gz]
+[2023-08-03 12:52:08] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.2.tar.gz]
+[2023-08-03 12:52:08] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2023-08-03 12:52:08] INFO root fetch - processPackages [yep-detectors]: Remove: archive file [/home/abi/fetcher/tmp/yep_detectors-1.0.6.tar.gz]
+[2023-08-03 12:52:08] INFO root fetch - processPackages [yep-detectors]: Remove: archive file [/home/abi/fetcher/tmp/yep_detectors-1.0.7.tar.gz]
+[2023-08-03 12:52:08] INFO root fetch - main [MainThread]: End processing [yep-detectors]: success
+[2023-08-03 12:52:08] INFO root fetch - main [MainThread]: Store serial: [19157832]
