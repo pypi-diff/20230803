@@ -15323,3 +15323,210 @@ AssertionError: tmp/cjptools-0.1.4.tar.gz does not exist
 [2023-08-03 09:48:06] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.7.0a1691043893.tar.gz]
 [2023-08-03 09:48:06] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-08-03 09:48:06] INFO root fetch - main [MainThread]: Store serial: [19155461]
+[2023-08-03 09:53:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19155461]
+[2023-08-03 09:53:14] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-08-03 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CTkListbox
+[2023-08-03 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyroFork-dev
+[2023-08-03 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fipiran
+[2023-08-03 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cjptools
+[2023-08-03 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentmemory
+[2023-08-03 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naipng
+[2023-08-03 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sinetstream
+[2023-08-03 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ssb-altinn3-util
+[2023-08-03 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keras-nightly
+[2023-08-03 09:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hubble-exchange
+[2023-08-03 09:53:15] INFO root fetch - processPackages [agentmemory]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-03 09:53:15] INFO root fetch - processPackages [fipiran]: New version: [0.9.0] Old Version: [0.8.1.dev0]
+[2023-08-03 09:53:15] INFO root fetch - processPackages [cjptools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-03 09:53:15] INFO root fetch - processPackages [CTkListbox]: New version: [0.5] Old Version: [0.4]
+[2023-08-03 09:53:15] INFO root fetch - processPackages [hubble-exchange]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-03 09:53:15] INFO root fetch - processPackages [naipng]: New version: [1.0.0.post1] Old Version: [1.0.0]
+[2023-08-03 09:53:15] INFO root fetch - processPackages [sinetstream]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-08-03 09:53:15] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 09:53:15] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.7.dev202308039601] Old Version: [2.2.7.dev202308036698]
+[2023-08-03 09:53:15] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-08-03 09:53:15] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/cc/e0/d3863bcb4b46c4556350d8a5b6a7c0291a81cb70bee258b1412b33f248dd/agentmemory-0.3.1.tar.gz
+[2023-08-03 09:53:15] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-08-03 09:53:15] INFO root fetch - processPackages [sinetstream]: Downloading https://files.pythonhosted.org/packages/ae/c2/55c7524b4535c855cba7f1030f2e9a310514e5893c8bf607f98eef45cca2/sinetstream-1.8.0.tar.gz
+[2023-08-03 09:53:15] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/76/f6/9a4e482607855f69dc32646b8172802bf8eaec0ae4182734402ff48cf2fe/cjptools-0.1.5.tar.gz
+[2023-08-03 09:53:15] INFO root fetch - processPackages [fipiran]: Downloading https://files.pythonhosted.org/packages/32/5c/f541aa4fbaf3a80f635e4012885ade2f850c46942caa544fc2788e94a42b/fipiran-0.8.1.dev0.tar.gz
+[2023-08-03 09:53:15] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/26/14/6d5cee77fa4377a0b32eacea98456ef31ebd8f8a0615c5fe56a1e1d116bb/hubble_exchange-0.4.0.tar.gz
+[2023-08-03 09:53:15] INFO root fetch - processPackages [CTkListbox]: Downloading https://files.pythonhosted.org/packages/b4/99/cbb7d737791f961a27c992f99afcaaae0f34f3bf6a8d88765c07c05a6025/CTkListbox-0.4.tar.gz
+[2023-08-03 09:53:15] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/ef/cb/003df3d92e53e6833a38e7c0e143bc4d6f12027d22363d6eaddd6cdfd246/ssb_altinn3_util-0.0.8.tar.gz
+[2023-08-03 09:53:15] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/c6/c8/3bd06ba8078e28f7a13929a8b346ede31eb205c0ab70a0197663a5962929/PyroFork-dev-2.2.7.dev202308036698.tar.gz
+[2023-08-03 09:53:15] INFO root fetch - processPackages [naipng]: Downloading https://files.pythonhosted.org/packages/b3/ed/a314a309a415a2f8e2e7ab67ba62af10567ca6299a65949b3a055f52c449/naipng-1.0.0.tar.gz
+[2023-08-03 09:53:15] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-08-03 09:53:15] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/a0/c8/5adcb740b96243a826adefa3b35715c481f75ea757e1b01644ac849658be/agentmemory-0.3.2.tar.gz
+[2023-08-03 09:53:15] INFO root fetch - processPackages [sinetstream]: Downloading https://files.pythonhosted.org/packages/ae/da/e488f8e08d34435a2f3ed4d88025bbf98dad2e559c7000958ad6c3d5aa1b/sinetstream-1.8.1.tar.gz
+[2023-08-03 09:53:16] INFO root fetch - processPackages [CTkListbox]: Downloading https://files.pythonhosted.org/packages/73/f7/66d74268ef8d8125f977252c017aba205df831e2191e5ff23358674d24c6/CTkListbox-0.5.tar.gz
+[2023-08-03 09:53:16] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/07/39/346581caa3bc8d0d53b5a25202cb0e384abdc9e82fee7f9421ba3f9f37e1/cjptools-0.1.6.tar.gz
+[2023-08-03 09:53:16] INFO root fetch - processPackages [fipiran]: Downloading https://files.pythonhosted.org/packages/95/72/531bbe1908672d05170b2177622b940382f45aaf6e88cdb53bcb6e7c9256/fipiran-0.9.0.tar.gz
+[2023-08-03 09:53:16] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/6f/29/1d34a2e8d330c63514b8b8b8eaa9f667ae6baa7465742a404ada3cebd81b/hubble_exchange-0.5.0.tar.gz
+[2023-08-03 09:53:16] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-08-03 09:53:16] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.3.1.tar.gz tmp/agentmemory-0.3.2.tar.gz --markdown 20230803/a/agentmemory/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-03 09:53:16] INFO root fetch - processPackages [CTkListbox]: executing diffoscope
+[2023-08-03 09:53:16] INFO root fetch - processPackages [CTkListbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTkListbox-0.4.tar.gz tmp/CTkListbox-0.5.tar.gz --markdown 20230803/C/CTkListbox/0.4-0.5/diff.md --exclude *.pyd
+[2023-08-03 09:53:16] INFO root fetch - processPackages [naipng]: Downloading https://files.pythonhosted.org/packages/70/e4/aaccb6cf3389ee53dcc3b4917d61aad7cff94635d9fab868b5cd1342776d/naipng-1.0.0.post1.tar.gz
+[2023-08-03 09:53:16] INFO root fetch - processPackages [cjptools]: executing diffoscope
+[2023-08-03 09:53:16] INFO root fetch - processPackages [cjptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjptools-0.1.5.tar.gz tmp/cjptools-0.1.6.tar.gz --markdown 20230803/c/cjptools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-03 09:53:16] INFO root fetch - processPackages [sinetstream]: executing diffoscope
+[2023-08-03 09:53:16] INFO root fetch - processPackages [sinetstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinetstream-1.8.0.tar.gz tmp/sinetstream-1.8.1.tar.gz --markdown 20230803/s/sinetstream/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-08-03 09:53:16] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/ad/e1/67bdd97ac09e1e97a2896bc0433f453c92d74451fbf543278a3dcf1cdd19/PyroFork-dev-2.2.7.dev202308039601.tar.gz
+[2023-08-03 09:53:16] INFO root fetch - processPackages [fipiran]: executing diffoscope
+[2023-08-03 09:53:16] INFO root fetch - processPackages [fipiran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fipiran-0.8.1.dev0.tar.gz tmp/fipiran-0.9.0.tar.gz --markdown 20230803/f/fipiran/0.8.1.dev0-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 09:53:16] INFO root fetch - processPackages [hubble-exchange]: executing diffoscope
+[2023-08-03 09:53:16] INFO root fetch - processPackages [hubble-exchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubble_exchange-0.4.0.tar.gz tmp/hubble_exchange-0.5.0.tar.gz --markdown 20230803/h/hubble-exchange/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-03 09:53:16] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/94/61/ca19b663821a79f349fe04383c5a68f9cf3f6c75cf20b9b9f2c7a92aa898/ssb_altinn3_util-0.0.9.tar.gz
+[2023-08-03 09:53:16] INFO root fetch - processPackages [naipng]: executing diffoscope
+[2023-08-03 09:53:16] INFO root fetch - processPackages [naipng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naipng-1.0.0.tar.gz tmp/naipng-1.0.0.post1.tar.gz --markdown 20230803/n/naipng/1.0.0-1.0.0.post1/diff.md --exclude *.pyd
+[2023-08-03 09:53:16] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-08-03 09:53:16] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230803/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-08-03 09:53:16] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-08-03 09:53:16] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.7.dev202308036698.tar.gz tmp/PyroFork-dev-2.2.7.dev202308039601.tar.gz --markdown 20230803/P/PyroFork-dev/2.2.7.dev202308036698-2.2.7.dev202308039601/diff.md --exclude *.pyd
+[2023-08-03 09:53:16] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2023-08-03 09:53:16] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20230803/s/ssb-altinn3-util/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:53:17] INFO root fetch - processPackages [CTkListbox]: Remove: archive file [/home/abi/fetcher/tmp/CTkListbox-0.4.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [CTkListbox]: Remove: archive file [/home/abi/fetcher/tmp/CTkListbox-0.5.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [CTkListbox]: Start processing: aiohutils
+[2023-08-03 09:53:17] INFO root fetch - main [MainThread]: End processing [CTkListbox]: success
+[2023-08-03 09:53:17] INFO root fetch - processPackages [aiohutils]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.3.1.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.3.2.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [agentmemory]: Start processing: oddrn-generator
+[2023-08-03 09:53:17] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-08-03 09:53:17] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.5.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.6.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [cjptools]: Start processing: tf-nightly-cpu
+[2023-08-03 09:53:17] INFO root fetch - main [MainThread]: End processing [cjptools]: success
+[2023-08-03 09:53:17] INFO root fetch - processPackages [fipiran]: Remove: archive file [/home/abi/fetcher/tmp/fipiran-0.8.1.dev0.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [fipiran]: Remove: archive file [/home/abi/fetcher/tmp/fipiran-0.9.0.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [fipiran]: Start processing: xautomata-hive
+[2023-08-03 09:53:17] INFO root fetch - main [MainThread]: End processing [fipiran]: success
+[2023-08-03 09:53:17] INFO root fetch - processPackages [oddrn-generator]: New version: [0.1.92] Old Version: [0.1.91]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [aiohutils]: Downloading https://files.pythonhosted.org/packages/f3/f9/8810b4dd6001f3f91f670063ecf2a9b7e56cd10db3fc6a78472829e41702/aiohutils-0.7.0.tar.gz
+[2023-08-03 09:53:17] ERROR root fetch - processPackages [xautomata-hive]: Unable to get metadata: No such project 'xautomata-hive'
+[2023-08-03 09:53:17] INFO root fetch - processPackages [xautomata-hive]: Start processing: sinetstream-iostream
+[2023-08-03 09:53:17] INFO root fetch - main [MainThread]: End processing [xautomata-hive] error
+[2023-08-03 09:53:17] INFO root fetch - processPackages [sinetstream]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-1.8.0.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [sinetstream]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-1.8.1.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [sinetstream]: Start processing: sinetstream-kafka
+[2023-08-03 09:53:17] INFO root fetch - main [MainThread]: End processing [sinetstream]: success
+[2023-08-03 09:53:17] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.15.0.dev20230803] Old Version: [2.14.0.dev20230802]
+[2023-08-03 09:53:17] WARNING root fetch - processPackages [sinetstream-iostream]: Skipping, unable to determine old version
+[2023-08-03 09:53:17] INFO root fetch - processPackages [sinetstream-iostream]: Start processing: sinetstream-mqtt
+[2023-08-03 09:53:17] INFO root fetch - main [MainThread]: End processing [sinetstream-iostream] error
+[2023-08-03 09:53:17] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.4.0.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.5.0.tar.gz]
+[2023-08-03 09:53:17] INFO root fetch - processPackages [hubble-exchange]: Start processing: sinetstream-s3
+[2023-08-03 09:53:17] INFO root fetch - main [MainThread]: End processing [hubble-exchange]: success
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-mqtt]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-kafka]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-08-03 09:53:18] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/11/57/21618d3de177cb1358167c3af3643e07ae6a232451139823d9cbdd069044/oddrn_generator-0.1.91.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-s3]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-08-03 09:53:18] INFO root fetch - processPackages [naipng]: Remove: archive file [/home/abi/fetcher/tmp/naipng-1.0.0.tar.gz]
+[2023-08-03 09:53:18] INFO root fetch - processPackages [naipng]: Remove: archive file [/home/abi/fetcher/tmp/naipng-1.0.0.post1.tar.gz]
+[2023-08-03 09:53:18] INFO root fetch - processPackages [naipng]: Start processing: sinetstream-type-image
+[2023-08-03 09:53:18] INFO root fetch - main [MainThread]: End processing [naipng]: success
+[2023-08-03 09:53:18] INFO root fetch - processPackages [ssb-altinn3-util]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn3_util-0.0.8.tar.gz]
+[2023-08-03 09:53:18] INFO root fetch - processPackages [ssb-altinn3-util]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn3_util-0.0.9.tar.gz]
+[2023-08-03 09:53:18] INFO root fetch - processPackages [ssb-altinn3-util]: Start processing: sinetstream-comp-lz4
+[2023-08-03 09:53:18] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-type-image]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-08-03 09:53:18] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/59/74/146041b5d0b6de9262f05f07557e7e334d9a97725b63298f69dc4453a769/tf_nightly_cpu-2.14.0.dev20230802-cp39-cp39-win_amd64.whl
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-comp-lz4]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-s3]: Downloading https://files.pythonhosted.org/packages/14/14/79d8eb6b26b75f783fb3e9a8f9945f931c15020120fb54c48312764a4599/sinetstream-s3-1.8.0.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [aiohutils]: Downloading https://files.pythonhosted.org/packages/0e/33/f7f18eb016dcc1d6df525cd779887cfb1aeff0111d97688bf0610f5f585c/aiohutils-0.7.1.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-kafka]: Downloading https://files.pythonhosted.org/packages/09/03/963f112a9f3d49c967a7a850b16265716aebeb5e06e376ceb1beb2a9aafd/sinetstream-kafka-1.8.0.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-mqtt]: Downloading https://files.pythonhosted.org/packages/6f/67/2850b8c62a1ae56e59c39c9245563c07156c63203844e0c831fbc5f0183d/sinetstream-mqtt-1.8.0.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/c0/fb/324d61d1fe38e8663929abba6ecceb1c7fe2f89b870f2edb3b5b50ed517e/oddrn_generator-0.1.92.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-type-image]: Downloading https://files.pythonhosted.org/packages/0d/f0/069d7e663a16c93e0ceeefed6dc6d7420a44f34fca40b1ee8df5da0451be/sinetstream-type-image-1.8.0.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-comp-lz4]: Downloading https://files.pythonhosted.org/packages/83/92/b058c68cb3a82d9c306bef4b497d4059e747aec21c206d232fcdaeafb3a7/sinetstream-comp-lz4-1.8.0.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [aiohutils]: executing diffoscope
+[2023-08-03 09:53:18] INFO root fetch - processPackages [aiohutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohutils-0.7.0.tar.gz tmp/aiohutils-0.7.1.tar.gz --markdown 20230803/a/aiohutils/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-s3]: Downloading https://files.pythonhosted.org/packages/40/63/0b33c417f23a8702de0f56ce06c1a49c48ff407e3704fa1a5c21d5fc94fa/sinetstream-s3-1.8.1.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [oddrn-generator]: executing diffoscope
+[2023-08-03 09:53:18] INFO root fetch - processPackages [oddrn-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oddrn_generator-0.1.91.tar.gz tmp/oddrn_generator-0.1.92.tar.gz --markdown 20230803/o/oddrn-generator/0.1.91-0.1.92/diff.md --exclude *.pyd
+[2023-08-03 09:53:18] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/cb/c7/7e53f452b5405b58d70ac7651c1d4049795a29367631bdd4dc363b89218f/tf_nightly_cpu-2.15.0.dev20230803-cp39-cp39-win_amd64.whl
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-s3]: executing diffoscope
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinetstream-s3-1.8.0.tar.gz tmp/sinetstream-s3-1.8.1.tar.gz --markdown 20230803/s/sinetstream-s3/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-type-image]: Downloading https://files.pythonhosted.org/packages/7d/07/3441e752322420584040d4a60d69b5f6f1316989eea7a3bbbf1f3a5f24e5/sinetstream-type-image-1.8.1.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-kafka]: Downloading https://files.pythonhosted.org/packages/9f/94/8aee58ed06a76d498c69cc345f0927e78350453f700edd2e00b14a3e5dbf/sinetstream-kafka-1.8.1.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-mqtt]: Downloading https://files.pythonhosted.org/packages/62/48/8c9da0fd511ef946659c278e2deaaa8f0f3f04b536b9b3fb9a9357b13ba9/sinetstream-mqtt-1.8.1.tar.gz
+[2023-08-03 09:53:18] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-08-03 09:53:18] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230802-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.15.0.dev20230803-cp39-cp39-win_amd64.whl.zip --markdown 20230803/t/tf-nightly-cpu/2.14.0.dev20230802-2.15.0.dev20230803/diff.md --exclude *.pyd
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-type-image]: executing diffoscope
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-type-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinetstream-type-image-1.8.0.tar.gz tmp/sinetstream-type-image-1.8.1.tar.gz --markdown 20230803/s/sinetstream-type-image/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-kafka]: executing diffoscope
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinetstream-kafka-1.8.0.tar.gz tmp/sinetstream-kafka-1.8.1.tar.gz --markdown 20230803/s/sinetstream-kafka/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-mqtt]: executing diffoscope
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinetstream-mqtt-1.8.0.tar.gz tmp/sinetstream-mqtt-1.8.1.tar.gz --markdown 20230803/s/sinetstream-mqtt/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-08-03 09:53:18] INFO root fetch - processPackages [sinetstream-comp-lz4]: Downloading https://files.pythonhosted.org/packages/f9/3b/53d8ed4f14e1b09576e777bbb3668917862d319736f2ab7b5f7786a8f7fb/sinetstream-comp-lz4-1.8.1.tar.gz
+[2023-08-03 09:53:19] INFO root fetch - processPackages [sinetstream-comp-lz4]: executing diffoscope
+[2023-08-03 09:53:19] INFO root fetch - processPackages [sinetstream-comp-lz4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinetstream-comp-lz4-1.8.0.tar.gz tmp/sinetstream-comp-lz4-1.8.1.tar.gz --markdown 20230803/s/sinetstream-comp-lz4/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-08-03 09:53:19] INFO root fetch - processPackages [aiohutils]: Remove: archive file [/home/abi/fetcher/tmp/aiohutils-0.7.0.tar.gz]
+[2023-08-03 09:53:19] INFO root fetch - processPackages [aiohutils]: Remove: archive file [/home/abi/fetcher/tmp/aiohutils-0.7.1.tar.gz]
+[2023-08-03 09:53:19] INFO root fetch - processPackages [aiohutils]: Start processing: abstract-modules
+[2023-08-03 09:53:19] INFO root fetch - main [MainThread]: End processing [aiohutils]: success
+[2023-08-03 09:53:19] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.1.1] Old Version: [0.0.1.0]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [sinetstream-s3]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-s3-1.8.0.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [sinetstream-s3]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-s3-1.8.1.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [sinetstream-s3]: Start processing: fofpy
+[2023-08-03 09:53:20] INFO root fetch - main [MainThread]: End processing [sinetstream-s3]: success
+[2023-08-03 09:53:20] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/53/7e/e92a1c4cc531c84155683a26d17dbedf5efeaf96086d15f330b59e795de4/abstract_modules-0.0.1.0-py3-none-any.whl
+[2023-08-03 09:53:20] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn_generator-0.1.91.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn_generator-0.1.92.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [oddrn-generator]: Start processing: feedancy
+[2023-08-03 09:53:20] INFO root fetch - main [MainThread]: End processing [oddrn-generator]: success
+[2023-08-03 09:53:20] INFO root fetch - processPackages [fofpy]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230802-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.15.0.dev20230803-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: PyroFork-dev
+[2023-08-03 09:53:20] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-08-03 09:53:20] INFO root fetch - processPackages [sinetstream-kafka]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-kafka-1.8.0.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [sinetstream-kafka]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-kafka-1.8.1.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - main [MainThread]: End processing [sinetstream-kafka]: success
+[2023-08-03 09:53:20] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.7.dev202308039610] Old Version: [2.2.7.dev202308039601]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [feedancy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [fofpy]: Downloading https://files.pythonhosted.org/packages/63/13/8bac84191678b881f18fb6d349b6a5af7d6b71d8989575c513ca5ebdafc8/fofpy-1.0.7.tar.gz
+[2023-08-03 09:53:20] INFO root fetch - processPackages [sinetstream-type-image]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-type-image-1.8.0.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [sinetstream-type-image]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-type-image-1.8.1.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - main [MainThread]: End processing [sinetstream-type-image]: success
+[2023-08-03 09:53:20] INFO root fetch - processPackages [sinetstream-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-mqtt-1.8.0.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [sinetstream-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-mqtt-1.8.1.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - main [MainThread]: End processing [sinetstream-mqtt]: success
+[2023-08-03 09:53:20] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/3d/74/09948eebf9b103cb365d6fb95aedb1e503f2a90785f0985840b6b91fd289/abstract_modules-0.0.1.1-py3-none-any.whl
+[2023-08-03 09:53:20] INFO root fetch - processPackages [sinetstream-comp-lz4]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-comp-lz4-1.8.0.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - processPackages [sinetstream-comp-lz4]: Remove: archive file [/home/abi/fetcher/tmp/sinetstream-comp-lz4-1.8.1.tar.gz]
+[2023-08-03 09:53:20] INFO root fetch - main [MainThread]: End processing [sinetstream-comp-lz4]: success
+[2023-08-03 09:53:20] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/89/f1/b678f6a7f79e6bdfd69dcec8e930c4feaac339742fa398c6239456a597ba/feedancy-0.1.5.tar.gz
+[2023-08-03 09:53:20] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-03 09:53:20] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.1.0-py3-none-any.whl.zip tmp/abstract_modules-0.0.1.1-py3-none-any.whl.zip --markdown 20230803/a/abstract-modules/0.0.1.0-0.0.1.1/diff.md --exclude *.pyd
+[2023-08-03 09:53:20] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/87/2a/2c98da193cb0d0e939da4759de905ec9996ca6a8cbd3beb5867e8bf9ba55/PyroFork-dev-2.2.7.dev202308039610.tar.gz
+[2023-08-03 09:53:20] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/a7/86/214334e28cb7ad591683ce8b18c4205763951551de3d8662c171262614ad/feedancy-0.1.6.tar.gz
+[2023-08-03 09:53:20] INFO root fetch - processPackages [fofpy]: Downloading https://files.pythonhosted.org/packages/18/d9/9b0d5597e7bb4e21474e6c9a0b369bc46c1d470f4205bbcd3a36a7bbfa74/fofpy-1.0.9.tar.gz
+[2023-08-03 09:53:20] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-08-03 09:53:20] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.7.dev202308039601.tar.gz tmp/PyroFork-dev-2.2.7.dev202308039610.tar.gz --markdown 20230803/P/PyroFork-dev/2.2.7.dev202308039601-2.2.7.dev202308039610/diff.md --exclude *.pyd
+[2023-08-03 09:53:21] INFO root fetch - processPackages [feedancy]: executing diffoscope
+[2023-08-03 09:53:21] INFO root fetch - processPackages [feedancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedancy-0.1.5.tar.gz tmp/feedancy-0.1.6.tar.gz --markdown 20230803/f/feedancy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-03 09:53:21] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.7.dev202308036698.tar.gz]
+[2023-08-03 09:53:21] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.7.dev202308039601.tar.gz]
+[2023-08-03 09:53:21] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-08-03 09:53:21] INFO root fetch - processPackages [fofpy]: executing diffoscope
+[2023-08-03 09:53:21] INFO root fetch - processPackages [fofpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fofpy-1.0.7.tar.gz tmp/fofpy-1.0.9.tar.gz --markdown 20230803/f/fofpy/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:53:21] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.1.0-py3-none-any.whl.zip]
+[2023-08-03 09:53:21] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.1.1-py3-none-any.whl.zip]
+[2023-08-03 09:53:21] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-03 09:53:21] ERROR root fetch - processPackages [PyroFork-dev]: Diffoscope failed: time="2023-08-03T09:53:21+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/PyroFork-dev-2.2.7.dev202308039601.tar.gz: No such file or directory
+
+[2023-08-03 09:53:21] INFO root fetch - main [MainThread]: End processing [PyroFork-dev] error
+[2023-08-03 09:53:21] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-08-03 09:53:21] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-08-03 09:53:21] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-08-03 09:53:22] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.1.5.tar.gz]
+[2023-08-03 09:53:22] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.1.6.tar.gz]
+[2023-08-03 09:53:22] INFO root fetch - main [MainThread]: End processing [feedancy]: success
+[2023-08-03 09:53:22] INFO root fetch - processPackages [fofpy]: Remove: archive file [/home/abi/fetcher/tmp/fofpy-1.0.7.tar.gz]
+[2023-08-03 09:53:22] INFO root fetch - processPackages [fofpy]: Remove: archive file [/home/abi/fetcher/tmp/fofpy-1.0.9.tar.gz]
+[2023-08-03 09:53:22] INFO root fetch - main [MainThread]: End processing [fofpy]: success
+[2023-08-03 09:53:22] INFO root fetch - main [MainThread]: Store serial: [19155536]
