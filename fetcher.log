@@ -21702,3 +21702,186 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 13:07:49] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.2.0rc0.tar.gz]
 [2023-08-03 13:07:49] INFO root fetch - main [MainThread]: End processing [syngen]: success
 [2023-08-03 13:07:49] INFO root fetch - main [MainThread]: Store serial: [19157974]
+[2023-08-03 13:12:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157974]
+[2023-08-03 13:12:59] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cosmosis
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serpyco-rs
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shareddata
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Peliqan
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: saibr
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: euklid
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-statemachine
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: voicemeeter-api
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ersilia
+[2023-08-03 13:12:59] INFO root fetch - processPackages [voicemeeter-api]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-08-03 13:12:59] INFO root fetch - processPackages [Peliqan]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-03 13:12:59] INFO root fetch - processPackages [shareddata]: New version: [2.3.5] Old Version: [2.3.2]
+[2023-08-03 13:12:59] INFO root fetch - processPackages [saibr]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-03 13:12:59] INFO root fetch - processPackages [python-statemachine]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ersilia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 13:12:59] INFO root fetch - processPackages [cosmosis]: New version: [3.1] Old Version: [3.0.3]
+[2023-08-03 13:12:59] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/93/9e/d96ed4b2c1ff6f999b7196c67331115274ae8dc3873f079a3da29150844e/voicemeeter_api-2.4.0.tar.gz
+[2023-08-03 13:12:59] INFO root fetch - processPackages [euklid]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-03 13:12:59] INFO root fetch - processPackages [serpyco-rs]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-03 13:12:59] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/2d/cc/cee569c150c4f25cbda23590c8e9baf1de58f7658dde670ba0b1182df4fe/shareddata-2.3.2.tar.gz
+[2023-08-03 13:12:59] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/ac/02/d0ee7240b26136e0b4eaaae486152ff771a7507d8327e700fb54179b7d35/Peliqan-0.1.3.tar.gz
+[2023-08-03 13:12:59] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 13:12:59] INFO root fetch - processPackages [cosmosis]: Downloading https://files.pythonhosted.org/packages/85/f9/cdfbbe9825b188e9ddd8edcc45adce854b18611e76cb898284459efdb0e8/cosmosis-3.0.3.tar.gz
+[2023-08-03 13:12:59] INFO root fetch - processPackages [saibr]: Downloading https://files.pythonhosted.org/packages/a5/2f/9e0cb2571849345ecd0f1b888f3b463a2e3ab2f2c57787c83898fa067a45/saibr-0.1.3.tar.gz
+[2023-08-03 13:12:59] INFO root fetch - processPackages [python-statemachine]: Downloading https://files.pythonhosted.org/packages/1d/52/2aa0af94f579873c8d517b8bb38ff357c9acf4d0cd6dfd2bd54c323b7a06/python_statemachine-2.1.0.tar.gz
+[2023-08-03 13:12:59] INFO root fetch - processPackages [euklid]: Downloading https://files.pythonhosted.org/packages/d6/72/9388a28a619b07d0b25f589a11c3b4c45b685141384e3931315a5dd24e06/euklid-0.2.3.tar.gz
+[2023-08-03 13:12:59] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/df/17/bcc5e49ed055c8a30ec17207724be19de78561c458a32cc19a8a7dcfda5f/ersilia-0.1.8.tar.gz
+[2023-08-03 13:12:59] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/31/09/1b76acf4aeb63b2a6d71df48d791eb8dc788517cd51f38f148cbd988a3f1/voicemeeter_api-2.4.1.tar.gz
+[2023-08-03 13:12:59] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/d9/45/94ce3f85179db4fac16aa2fe9d20adf17e5539bb7cd9289d14b3e1ffb8ec/serpyco_rs-0.9.2.tar.gz
+[2023-08-03 13:12:59] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/80/13/035528f2577d94eddfb6556eebef98d0c2b48b5228d56ce0f0a932859bfc/shareddata-2.3.5.tar.gz
+[2023-08-03 13:12:59] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-08-03 13:13:00] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-08-03 13:13:00] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.3.2.tar.gz tmp/shareddata-2.3.5.tar.gz --markdown 20230803/s/shareddata/2.3.2-2.3.5/diff.md --exclude *.pyd
+[2023-08-03 13:13:00] INFO root fetch - processPackages [voicemeeter-api]: executing diffoscope
+[2023-08-03 13:13:00] INFO root fetch - processPackages [voicemeeter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_api-2.4.0.tar.gz tmp/voicemeeter_api-2.4.1.tar.gz --markdown 20230803/v/voicemeeter-api/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-08-03 13:13:00] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/21/31/96bb61acd48bc7b65c184f95ba9df36e9295d2ac87b2317efe86717150c3/Peliqan-0.1.4.tar.gz
+[2023-08-03 13:13:00] INFO root fetch - processPackages [saibr]: Downloading https://files.pythonhosted.org/packages/87/6a/5fe9cbf72070c64e15bebaff0a68e7f67f7c9850af634245724f0e670387/saibr-0.1.4.tar.gz
+[2023-08-03 13:13:00] INFO root fetch - processPackages [cosmosis]: Downloading https://files.pythonhosted.org/packages/83/42/326d45b5ade6afb34ffd34a0a6c0c7a2481a1c6dc9038f8c8620b30bfcd1/cosmosis-3.1.tar.gz
+[2023-08-03 13:13:00] INFO root fetch - processPackages [python-statemachine]: Downloading https://files.pythonhosted.org/packages/88/79/9c842c8494d162f451b12bf93aa082209d2e1f1d843fc9524dd7f234b349/python_statemachine-2.1.1.tar.gz
+[2023-08-03 13:13:00] INFO root fetch - processPackages [euklid]: Downloading https://files.pythonhosted.org/packages/d7/70/5e4388cf42140529076771ed54f2eb67043d3f02b66d0925cb6e8c1ad377/euklid-0.2.4.tar.gz
+[2023-08-03 13:13:00] INFO root fetch - processPackages [Peliqan]: executing diffoscope
+[2023-08-03 13:13:00] INFO root fetch - processPackages [Peliqan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Peliqan-0.1.3.tar.gz tmp/Peliqan-0.1.4.tar.gz --markdown 20230803/P/Peliqan/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-03 13:13:00] INFO root fetch - processPackages [saibr]: executing diffoscope
+[2023-08-03 13:13:00] INFO root fetch - processPackages [saibr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saibr-0.1.3.tar.gz tmp/saibr-0.1.4.tar.gz --markdown 20230803/s/saibr/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-03 13:13:00] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-08-03 13:13:00] INFO root fetch - processPackages [cosmosis]: executing diffoscope
+[2023-08-03 13:13:00] INFO root fetch - processPackages [cosmosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmosis-3.0.3.tar.gz tmp/cosmosis-3.1.tar.gz --markdown 20230803/c/cosmosis/3.0.3-3.1/diff.md --exclude *.pyd
+[2023-08-03 13:13:00] INFO root fetch - processPackages [python-statemachine]: executing diffoscope
+[2023-08-03 13:13:00] INFO root fetch - processPackages [python-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_statemachine-2.1.0.tar.gz tmp/python_statemachine-2.1.1.tar.gz --markdown 20230803/p/python-statemachine/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-08-03 13:13:00] INFO root fetch - processPackages [euklid]: executing diffoscope
+[2023-08-03 13:13:00] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-08-03 13:13:00] INFO root fetch - processPackages [euklid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euklid-0.2.3.tar.gz tmp/euklid-0.2.4.tar.gz --markdown 20230803/e/euklid/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-03 13:13:00] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230803/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 13:13:00] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/0d/b3/c3f982b04acf7516afd38fbdc171988d718835fdd1e426e434d91d55611a/serpyco_rs-0.9.3.tar.gz
+[2023-08-03 13:13:01] INFO root fetch - processPackages [serpyco-rs]: executing diffoscope
+[2023-08-03 13:13:01] INFO root fetch - processPackages [serpyco-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serpyco_rs-0.9.2.tar.gz tmp/serpyco_rs-0.9.3.tar.gz --markdown 20230803/s/serpyco-rs/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-03 13:13:01] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.3.2.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.3.5.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [shareddata]: Start processing: faker-crypto
+[2023-08-03 13:13:01] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-08-03 13:13:01] INFO root fetch - processPackages [faker-crypto]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/e5/c8/bbe25f319721547bf0de64521c3e4e208423692183d8713cbe692d35db62/ersilia-0.1.9.tar.gz
+[2023-08-03 13:13:01] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.4.0.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.4.1.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [voicemeeter-api]: Start processing: djangocms-blog
+[2023-08-03 13:13:01] INFO root fetch - main [MainThread]: End processing [voicemeeter-api]: success
+[2023-08-03 13:13:01] INFO root fetch - processPackages [faker-crypto]: Downloading https://files.pythonhosted.org/packages/29/60/5b74019ec69b482e37e917a82d8611bcfe41baf1d246cba7d4ad1e27d570/faker_crypto-0.2.0.tar.gz
+[2023-08-03 13:13:01] INFO root fetch - processPackages [saibr]: Remove: archive file [/home/abi/fetcher/tmp/saibr-0.1.3.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [saibr]: Remove: archive file [/home/abi/fetcher/tmp/saibr-0.1.4.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [saibr]: Start processing: bitcoin-utils
+[2023-08-03 13:13:01] INFO root fetch - main [MainThread]: End processing [saibr]: success
+[2023-08-03 13:13:01] INFO root fetch - processPackages [djangocms-blog]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-0.1.3.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-0.1.4.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [Peliqan]: Start processing: uvdiviner
+[2023-08-03 13:13:01] INFO root fetch - main [MainThread]: End processing [Peliqan]: success
+[2023-08-03 13:13:01] INFO root fetch - processPackages [uvdiviner]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [faker-crypto]: Downloading https://files.pythonhosted.org/packages/6a/ea/bec83893e887c5ac595bd445bc242f4087e1e6a469abfe294312bf40d1e9/faker_crypto-0.2.1.tar.gz
+[2023-08-03 13:13:01] INFO root fetch - processPackages [bitcoin-utils]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [uvdiviner]: Downloading https://files.pythonhosted.org/packages/ab/ae/ee166dd23ac3fa3497783394b690fb6f8d911c0b1603de7ba1e52ebb24a0/uvdiviner-2.1.0.tar.gz
+[2023-08-03 13:13:01] INFO root fetch - processPackages [python-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/python_statemachine-2.1.0.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [python-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/python_statemachine-2.1.1.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [python-statemachine]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-08-03 13:13:01] INFO root fetch - main [MainThread]: End processing [python-statemachine]: success
+[2023-08-03 13:13:01] INFO root fetch - processPackages [euklid]: Remove: archive file [/home/abi/fetcher/tmp/euklid-0.2.3.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [faker-crypto]: executing diffoscope
+[2023-08-03 13:13:01] INFO root fetch - processPackages [euklid]: Remove: archive file [/home/abi/fetcher/tmp/euklid-0.2.4.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [faker-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker_crypto-0.2.0.tar.gz tmp/faker_crypto-0.2.1.tar.gz --markdown 20230803/f/faker-crypto/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-03 13:13:01] INFO root fetch - processPackages [euklid]: Start processing: pde-rk
+[2023-08-03 13:13:01] INFO root fetch - main [MainThread]: End processing [euklid]: success
+[2023-08-03 13:13:01] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [djangocms-blog]: Downloading https://files.pythonhosted.org/packages/c3/e6/be9d46469ae8dace556a8b92d6c6ce623d53fc1152e54d2708c9c4ec75f3/djangocms-blog-2.0.0b1.tar.gz
+[2023-08-03 13:13:01] INFO root fetch - processPackages [bitcoin-utils]: Downloading https://files.pythonhosted.org/packages/92/de/d789bc10f87db19a03a7534acdcc53a42b97d65a6b7a1560be856707173d/bitcoin-utils-0.6.1.tar.gz
+[2023-08-03 13:13:01] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-08-03 13:13:01] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: xblock-free-text-response
+[2023-08-03 13:13:01] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-08-03 13:13:02] INFO root fetch - processPackages [pde-rk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-03 13:13:02] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-08-03 13:13:02] INFO root fetch - processPackages [ersilia]: executing diffoscope
+[2023-08-03 13:13:02] INFO root fetch - processPackages [ersilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersilia-0.1.8.tar.gz tmp/ersilia-0.1.9.tar.gz --markdown 20230803/e/ersilia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 13:13:02] INFO root fetch - processPackages [xblock-free-text-response]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-08-03 13:13:02] INFO root fetch - processPackages [uvdiviner]: Downloading https://files.pythonhosted.org/packages/4e/1a/38d39376fe07b060cf02d42c5026f595bb550708fd58c311d8382676eda6/uvdiviner-2.1.1.tar.gz
+[2023-08-03 13:13:02] INFO root fetch - processPackages [pde-rk]: Downloading https://files.pythonhosted.org/packages/fd/e0/657543b5d7f14c5aeb8456fe459efaa44190de934db3a0556d8b95be2575/pde-rk-0.1.3.tar.gz
+[2023-08-03 13:13:02] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-08-03 13:13:02] INFO root fetch - processPackages [xblock-free-text-response]: Downloading https://files.pythonhosted.org/packages/c6/d5/956205d6e849889bd21d81e02dbb133d5979376df89f4791de1e878d528c/xblock-free-text-response-3.0.0.tar.gz
+[2023-08-03 13:13:02] INFO root fetch - processPackages [djangocms-blog]: Downloading https://files.pythonhosted.org/packages/e5/bf/acfffed1d55dca5f707491a0af2d6b54ecf4ba5b1e2f67b065b5553c4722/djangocms-blog-2.0.0b2.zip
+[2023-08-03 13:13:02] INFO root fetch - processPackages [uvdiviner]: executing diffoscope
+[2023-08-03 13:13:02] INFO root fetch - processPackages [uvdiviner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvdiviner-2.1.0.tar.gz tmp/uvdiviner-2.1.1.tar.gz --markdown 20230803/u/uvdiviner/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-08-03 13:13:02] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-08-03 13:13:02] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230803/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 13:13:02] INFO root fetch - processPackages [bitcoin-utils]: Downloading https://files.pythonhosted.org/packages/22/a3/05926b649c03e878baf7629c7ca26383ea4937509462000f37655cf5775f/bitcoin-utils-0.6.2.tar.gz
+[2023-08-03 13:13:02] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-0.9.2.tar.gz]
+[2023-08-03 13:13:02] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-0.9.3.tar.gz]
+[2023-08-03 13:13:02] INFO root fetch - processPackages [serpyco-rs]: Start processing: SuperPang
+[2023-08-03 13:13:02] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
+[2023-08-03 13:13:02] INFO root fetch - processPackages [djangocms-blog]: executing diffoscope
+[2023-08-03 13:13:02] INFO root fetch - processPackages [djangocms-blog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-blog-2.0.0b1.tar.gz tmp/djangocms-blog-2.0.0b2.zip --markdown 20230803/d/djangocms-blog/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-08-03 13:13:02] INFO root fetch - processPackages [SuperPang]: New version: [1.1.0.post2] Old Version: [1.1.0.post1]
+[2023-08-03 13:13:02] INFO root fetch - processPackages [bitcoin-utils]: executing diffoscope
+[2023-08-03 13:13:02] INFO root fetch - processPackages [pde-rk]: Downloading https://files.pythonhosted.org/packages/17/4d/8a7fe849dd53cb7a756f84f2cf29a37f10c869c3e019b1d02a96371cf397/pde-rk-0.1.4.tar.gz
+[2023-08-03 13:13:02] INFO root fetch - processPackages [bitcoin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoin-utils-0.6.1.tar.gz tmp/bitcoin-utils-0.6.2.tar.gz --markdown 20230803/b/bitcoin-utils/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-03 13:13:02] INFO root fetch - processPackages [xblock-free-text-response]: Downloading https://files.pythonhosted.org/packages/72/30/c3c7c083c15173307ff091eb28f7fab787db96536bfc3d838bdeae60192a/xblock-free-text-response-3.1.0.tar.gz
+[2023-08-03 13:13:02] INFO root fetch - processPackages [pde-rk]: executing diffoscope
+[2023-08-03 13:13:02] INFO root fetch - processPackages [pde-rk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pde-rk-0.1.3.tar.gz tmp/pde-rk-0.1.4.tar.gz --markdown 20230803/p/pde-rk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-03 13:13:02] INFO root fetch - processPackages [SuperPang]: Downloading https://files.pythonhosted.org/packages/76/72/0f49b3c52d5c0b65291481efc7dad0d0de90ce91d6ef311dae6c697731bf/SuperPang-1.1.0.post1.tar.gz
+[2023-08-03 13:13:03] INFO root fetch - processPackages [faker-crypto]: Remove: archive file [/home/abi/fetcher/tmp/faker_crypto-0.2.0.tar.gz]
+[2023-08-03 13:13:03] INFO root fetch - processPackages [faker-crypto]: Remove: archive file [/home/abi/fetcher/tmp/faker_crypto-0.2.1.tar.gz]
+[2023-08-03 13:13:03] INFO root fetch - processPackages [faker-crypto]: Start processing: fotoobo
+[2023-08-03 13:13:03] INFO root fetch - main [MainThread]: End processing [faker-crypto]: success
+[2023-08-03 13:13:03] INFO root fetch - processPackages [xblock-free-text-response]: executing diffoscope
+[2023-08-03 13:13:03] INFO root fetch - processPackages [xblock-free-text-response]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xblock-free-text-response-3.0.0.tar.gz tmp/xblock-free-text-response-3.1.0.tar.gz --markdown 20230803/x/xblock-free-text-response/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-08-03 13:13:03] INFO root fetch - processPackages [fotoobo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-03 13:13:03] INFO root fetch - processPackages [cosmosis]: Remove: archive file [/home/abi/fetcher/tmp/cosmosis-3.0.3.tar.gz]
+[2023-08-03 13:13:03] INFO root fetch - processPackages [cosmosis]: Remove: archive file [/home/abi/fetcher/tmp/cosmosis-3.1.tar.gz]
+[2023-08-03 13:13:03] INFO root fetch - processPackages [cosmosis]: Start processing: nonebot-plugin-uvdiviner
+[2023-08-03 13:13:03] INFO root fetch - main [MainThread]: End processing [cosmosis]: success
+[2023-08-03 13:13:03] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-03 13:13:03] INFO root fetch - processPackages [fotoobo]: Downloading https://files.pythonhosted.org/packages/02/78/7a561b6ba2a59fce7b77766abaa5883c154867640c6f315dd2adad30e5c8/fotoobo-1.0.0.tar.gz
+[2023-08-03 13:13:03] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Downloading https://files.pythonhosted.org/packages/49/34/1a8bbd62180ae02b49a9a950f1c127c9222d55351dfcb380ab51e91a4291/nonebot-plugin-uvdiviner-2.1.1.tar.gz
+[2023-08-03 13:13:03] INFO root fetch - processPackages [fotoobo]: Downloading https://files.pythonhosted.org/packages/d5/be/421143911226d6a1c760d71bb25f834e2e1a1ad44baa635cd248aec8b864/fotoobo-1.0.1.tar.gz
+[2023-08-03 13:13:03] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Downloading https://files.pythonhosted.org/packages/7b/2f/ded138b9badeeb9625e6e1a06dde80ec3addb4015d35e6bdbce57316f852/nonebot-plugin-uvdiviner-2.1.2.tar.gz
+[2023-08-03 13:13:03] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-08-03 13:13:03] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-08-03 13:13:03] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-08-03 13:13:03] INFO root fetch - processPackages [SuperPang]: Downloading https://files.pythonhosted.org/packages/e9/76/480cf52a521b709421ea14b0ef982fe8fb4aeb4ef9b6a2e078a967ae6c2c/SuperPang-1.1.0.post2.tar.gz
+[2023-08-03 13:13:03] INFO root fetch - processPackages [fotoobo]: executing diffoscope
+[2023-08-03 13:13:03] INFO root fetch - processPackages [fotoobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fotoobo-1.0.0.tar.gz tmp/fotoobo-1.0.1.tar.gz --markdown 20230803/f/fotoobo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-03 13:13:03] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: executing diffoscope
+[2023-08-03 13:13:03] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-uvdiviner-2.1.1.tar.gz tmp/nonebot-plugin-uvdiviner-2.1.2.tar.gz --markdown 20230803/n/nonebot-plugin-uvdiviner/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-03 13:13:03] INFO root fetch - processPackages [uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/uvdiviner-2.1.0.tar.gz]
+[2023-08-03 13:13:03] INFO root fetch - processPackages [uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/uvdiviner-2.1.1.tar.gz]
+[2023-08-03 13:13:03] INFO root fetch - main [MainThread]: End processing [uvdiviner]: success
+[2023-08-03 13:13:04] INFO root fetch - processPackages [djangocms-blog]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-blog-2.0.0b1.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - processPackages [djangocms-blog]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-blog-2.0.0b2.zip]
+[2023-08-03 13:13:04] INFO root fetch - main [MainThread]: End processing [djangocms-blog]: success
+[2023-08-03 13:13:04] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.8.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.9.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - main [MainThread]: End processing [ersilia]: success
+[2023-08-03 13:13:04] INFO root fetch - processPackages [xblock-free-text-response]: Remove: archive file [/home/abi/fetcher/tmp/xblock-free-text-response-3.0.0.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - processPackages [xblock-free-text-response]: Remove: archive file [/home/abi/fetcher/tmp/xblock-free-text-response-3.1.0.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - main [MainThread]: End processing [xblock-free-text-response]: success
+[2023-08-03 13:13:04] INFO root fetch - processPackages [pde-rk]: Remove: archive file [/home/abi/fetcher/tmp/pde-rk-0.1.3.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - processPackages [pde-rk]: Remove: archive file [/home/abi/fetcher/tmp/pde-rk-0.1.4.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - main [MainThread]: End processing [pde-rk]: success
+[2023-08-03 13:13:04] INFO root fetch - processPackages [bitcoin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin-utils-0.6.1.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - processPackages [bitcoin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin-utils-0.6.2.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - main [MainThread]: End processing [bitcoin-utils]: success
+[2023-08-03 13:13:04] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-uvdiviner-2.1.1.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-uvdiviner-2.1.2.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-uvdiviner]: success
+[2023-08-03 13:13:04] INFO root fetch - processPackages [fotoobo]: Remove: archive file [/home/abi/fetcher/tmp/fotoobo-1.0.0.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - processPackages [fotoobo]: Remove: archive file [/home/abi/fetcher/tmp/fotoobo-1.0.1.tar.gz]
+[2023-08-03 13:13:04] INFO root fetch - main [MainThread]: End processing [fotoobo]: success
+[2023-08-03 13:13:05] INFO root fetch - processPackages [SuperPang]: executing diffoscope
+[2023-08-03 13:13:05] INFO root fetch - processPackages [SuperPang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SuperPang-1.1.0.post1.tar.gz tmp/SuperPang-1.1.0.post2.tar.gz --markdown 20230803/S/SuperPang/1.1.0.post1-1.1.0.post2/diff.md --exclude *.pyd
+[2023-08-03 13:13:07] INFO root fetch - processPackages [SuperPang]: Remove: archive file [/home/abi/fetcher/tmp/SuperPang-1.1.0.post1.tar.gz]
+[2023-08-03 13:13:07] INFO root fetch - processPackages [SuperPang]: Remove: archive file [/home/abi/fetcher/tmp/SuperPang-1.1.0.post2.tar.gz]
+[2023-08-03 13:13:07] INFO root fetch - main [MainThread]: End processing [SuperPang]: success
+[2023-08-03 13:13:07] INFO root fetch - main [MainThread]: Store serial: [19158061]
