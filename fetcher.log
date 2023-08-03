@@ -22425,3 +22425,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 13:28:55] INFO root fetch - processPackages [parsec-cloud]: Remove: archive file [/home/abi/fetcher/tmp/parsec_cloud-2.9.2-py3-none-any.whl.zip]
 [2023-08-03 13:28:55] INFO root fetch - main [MainThread]: End processing [parsec-cloud]: success
 [2023-08-03 13:28:55] INFO root fetch - main [MainThread]: Store serial: [19158272]
+[2023-08-03 13:34:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19158272]
+[2023-08-03 13:34:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-03 13:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luminesce-sdk-preview
+[2023-08-03 13:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchrec-nightly
+[2023-08-03 13:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openmetadata-ingestion
+[2023-08-03 13:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hiddifypanel
+[2023-08-03 13:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uvdiviner
+[2023-08-03 13:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ctranslate2
+[2023-08-03 13:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omni-infer-api-account
+[2023-08-03 13:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: micrologai
+[2023-08-03 13:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yangsuite-gnmi
+[2023-08-03 13:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quickstart-vdk
+[2023-08-03 13:34:05] INFO root fetch - processPackages [omni-infer-api-account]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 13:34:05] INFO root fetch - processPackages [micrologai]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-08-03 13:34:05] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-08-03 13:34:05] INFO root fetch - processPackages [uvdiviner]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-08-03 13:34:06] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.954135995.dev12631] Old Version: [0.2.952803197.dev12608]
+[2023-08-03 13:34:06] INFO root fetch - processPackages [omni-infer-api-account]: Downloading https://files.pythonhosted.org/packages/5e/bb/388456516914b02ba7c588ce54f4f2fb359367549fe82cc825409ba6ea24/omni_infer_api_account-0.0.1-py3-none-any.whl
+[2023-08-03 13:34:06] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev6] Old Version: [8.0.0.dev5]
+[2023-08-03 13:34:06] INFO root fetch - processPackages [yangsuite-gnmi]: New version: [2.7.8.post0.dev2] Old Version: [2.7.8]
+[2023-08-03 13:34:06] INFO root fetch - processPackages [ctranslate2]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-08-03 13:34:06] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/50/9d/5d313d1013d4f325e5e5acf7e7535e95e5cd1ae632e661ae592d8ece8ed6/micrologai-1.3.7.tar.gz
+[2023-08-03 13:34:06] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.8.3] Old Version: [2023.8.2]
+[2023-08-03 13:34:06] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.1.0.5] Old Version: [1.1.0.4]
+[2023-08-03 13:34:06] INFO root fetch - processPackages [uvdiviner]: Downloading https://files.pythonhosted.org/packages/c8/6a/eb37eb38cc1141fd633699429e01083bac549d9c80098fdd75a05427bf5a/uvdiviner-2.1.2.tar.gz
+[2023-08-03 13:34:06] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-08-03 13:34:06] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/bd/03/2c85549fb51e3c27e483bd20211a3589fab6a6ad0b0717a0ed7ba19b79bd/hiddifypanel-8.0.0.dev5.tar.gz
+[2023-08-03 13:34:06] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/6b/37/3fdbe8d1932b0f7881a7e12b18a2d555a8153f72bae8291cfb900034a618/quickstart-vdk-0.2.952803197.dev12608.tar.gz
+[2023-08-03 13:34:06] INFO root fetch - processPackages [yangsuite-gnmi]: Downloading https://files.pythonhosted.org/packages/e3/7d/bef61dbed300ac35e06209ce304d3bd5386c3af1b2526ab258416a8bc8a1/yangsuite_gnmi-2.7.8-py3-none-any.whl
+[2023-08-03 13:34:06] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/be/af/4d4cd29205550aa5c31a406dd95c6a438d0bd7fa96a35d7123ac2a239baf/torchrec_nightly-2023.8.2-py39-none-any.whl
+[2023-08-03 13:34:06] INFO root fetch - processPackages [omni-infer-api-account]: Downloading https://files.pythonhosted.org/packages/30/5c/2df41058326eecedb6edd93bbefe33b49fa2e3d6b864c98a6a09bf2df291/omni_infer_api_account-0.0.2-py3-none-any.whl
+[2023-08-03 13:34:06] INFO root fetch - processPackages [ctranslate2]: Downloading https://files.pythonhosted.org/packages/b5/81/cdc9f9331850da67c3bf8ae02839d375c1dc9c96e40d2f23d29751661742/ctranslate2-3.9.0-cp39-cp39-win_amd64.whl
+[2023-08-03 13:34:06] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/20/e4/f1f8257a444ac74c0b2973099a29f4726ff6c8e2097fd5ec2d0b6849784b/openmetadata-ingestion-1.1.0.4.tar.gz
+[2023-08-03 13:34:06] INFO root fetch - processPackages [omni-infer-api-account]: executing diffoscope
+[2023-08-03 13:34:06] INFO root fetch - processPackages [omni-infer-api-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni_infer_api_account-0.0.1-py3-none-any.whl.zip tmp/omni_infer_api_account-0.0.2-py3-none-any.whl.zip --markdown 20230803/o/omni-infer-api-account/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 13:34:06] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/a3/cf/0f6b572b63420e60922302974e87dbc16c822d0ff2f7ab6f00e9acbbeb04/quickstart-vdk-0.2.954135995.dev12631.tar.gz
+[2023-08-03 13:34:06] WARNING root fetch - processPackages [ctranslate2]: Skipping package: exceeds size limit 17975431>=10485760
+[2023-08-03 13:34:06] INFO root fetch - processPackages [ctranslate2]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-08-03 13:34:06] INFO root fetch - main [MainThread]: End processing [ctranslate2] error
+[2023-08-03 13:34:06] INFO root fetch - processPackages [uvdiviner]: Downloading https://files.pythonhosted.org/packages/76/1c/03f7ff016d4bcdc03ac89386a542f06eca452aa5d3fadd0591a2f49745ef/uvdiviner-2.1.3.tar.gz
+[2023-08-03 13:34:06] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 13:34:06] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-08-03 13:34:06] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-08-03 13:34:06] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.952803197.dev12608.tar.gz tmp/quickstart-vdk-0.2.954135995.dev12631.tar.gz --markdown 20230803/q/quickstart-vdk/0.2.952803197.dev12608-0.2.954135995.dev12631/diff.md --exclude *.pyd
+[2023-08-03 13:34:06] INFO root fetch - processPackages [uvdiviner]: executing diffoscope
+[2023-08-03 13:34:06] INFO root fetch - processPackages [uvdiviner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvdiviner-2.1.2.tar.gz tmp/uvdiviner-2.1.3.tar.gz --markdown 20230803/u/uvdiviner/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-08-03 13:34:06] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/20/8c/4098098773e99add7ee9290d6ceb4b753ceb536baf9c03398db857f5e887/micrologai-1.3.8.tar.gz
+[2023-08-03 13:34:06] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/98/5a/fa4ec802fe382c0e45ec3e5f96e54af38e7d70840477004e462c29d18d47/torchrec_nightly-2023.8.3-py39-none-any.whl
+[2023-08-03 13:34:06] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-08-03 13:34:07] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/6e/fc/adea000f828c530b81348de9d135c74443f8a0b6b762d05fe59f2e51b9b1/openmetadata-ingestion-1.1.0.5.tar.gz
+[2023-08-03 13:34:07] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-08-03 13:34:07] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230803/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-08-03 13:34:07] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/03/17/00969b7f68565d3b1797afea30b739e12958784c8872855b18b71da98130/hiddifypanel-8.0.0.dev6.tar.gz
+[2023-08-03 13:34:07] INFO root fetch - processPackages [yangsuite-gnmi]: Downloading https://files.pythonhosted.org/packages/47/e1/90a14d9244302b22ecf127835b4009d900b2d31df47e2b15db64165b8464/yangsuite_gnmi-2.7.8.post0.dev2-py3-none-any.whl
+[2023-08-03 13:34:07] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-08-03 13:34:07] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.1.0.4.tar.gz tmp/openmetadata-ingestion-1.1.0.5.tar.gz --markdown 20230803/o/openmetadata-ingestion/1.1.0.4-1.1.0.5/diff.md --exclude *.pyd
+[2023-08-03 13:34:07] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-08-03 13:34:07] INFO root fetch - processPackages [micrologai]: executing diffoscope
+[2023-08-03 13:34:07] INFO root fetch - processPackages [micrologai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrologai-1.3.7.tar.gz tmp/micrologai-1.3.8.tar.gz --markdown 20230803/m/micrologai/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-08-03 13:34:07] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-08-03 13:34:07] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230803/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 13:34:07] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-08-03 13:34:07] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.8.2-py39-none-any.whl.zip tmp/torchrec_nightly-2023.8.3-py39-none-any.whl.zip --markdown 20230803/t/torchrec-nightly/2023.8.2-2023.8.3/diff.md --exclude *.pyd
+[2023-08-03 13:34:07] INFO root fetch - processPackages [omni-infer-api-account]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api_account-0.0.1-py3-none-any.whl.zip]
+[2023-08-03 13:34:07] INFO root fetch - processPackages [omni-infer-api-account]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api_account-0.0.2-py3-none-any.whl.zip]
+[2023-08-03 13:34:07] INFO root fetch - processPackages [omni-infer-api-account]: Start processing: khmercut
+[2023-08-03 13:34:07] INFO root fetch - main [MainThread]: End processing [omni-infer-api-account]: success
+[2023-08-03 13:34:07] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-03 13:34:07] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev5.tar.gz tmp/hiddifypanel-8.0.0.dev6.tar.gz --markdown 20230803/h/hiddifypanel/8.0.0.dev5-8.0.0.dev6/diff.md --exclude *.pyd
+[2023-08-03 13:34:07] WARNING root fetch - processPackages [khmercut]: Skipping, unable to determine old version
+[2023-08-03 13:34:07] INFO root fetch - processPackages [khmercut]: Start processing: kotsu
+[2023-08-03 13:34:07] INFO root fetch - main [MainThread]: End processing [khmercut] error
+[2023-08-03 13:34:07] INFO root fetch - processPackages [yangsuite-gnmi]: executing diffoscope
+[2023-08-03 13:34:07] INFO root fetch - processPackages [yangsuite-gnmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_gnmi-2.7.8-py3-none-any.whl.zip tmp/yangsuite_gnmi-2.7.8.post0.dev2-py3-none-any.whl.zip --markdown 20230803/y/yangsuite-gnmi/2.7.8-2.7.8.post0.dev2/diff.md --exclude *.pyd
+[2023-08-03 13:34:07] INFO root fetch - processPackages [kotsu]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-03 13:34:07] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.952803197.dev12608.tar.gz]
+[2023-08-03 13:34:07] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.954135995.dev12631.tar.gz]
+[2023-08-03 13:34:07] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-08-03 13:34:08] INFO root fetch - processPackages [kotsu]: Downloading https://files.pythonhosted.org/packages/62/92/08fd5809a4eff55b1395ca3e5133f5639f3ab65350397f9d6a4a467cb137/kotsu-0.3.2.tar.gz
+[2023-08-03 13:34:08] INFO root fetch - processPackages [uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/uvdiviner-2.1.2.tar.gz]
+[2023-08-03 13:34:08] INFO root fetch - processPackages [uvdiviner]: Remove: archive file [/home/abi/fetcher/tmp/uvdiviner-2.1.3.tar.gz]
+[2023-08-03 13:34:08] INFO root fetch - main [MainThread]: End processing [uvdiviner]: success
+[2023-08-03 13:34:08] INFO root fetch - processPackages [kotsu]: Downloading https://files.pythonhosted.org/packages/04/f2/3f306aba18a6537e90ab8972a5db9febe4a8ce29786987b7ec4017096704/kotsu-0.3.3.tar.gz
+[2023-08-03 13:34:08] INFO root fetch - processPackages [kotsu]: executing diffoscope
+[2023-08-03 13:34:08] INFO root fetch - processPackages [kotsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kotsu-0.3.2.tar.gz tmp/kotsu-0.3.3.tar.gz --markdown 20230803/k/kotsu/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-03 13:34:08] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-08-03 13:34:08] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-08-03 13:34:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-08-03 13:34:09] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-08-03 13:34:09] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-08-03 13:34:09] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-08-03 13:34:09] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.7.tar.gz]
+[2023-08-03 13:34:09] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.8.tar.gz]
+[2023-08-03 13:34:09] INFO root fetch - main [MainThread]: End processing [micrologai]: success
+[2023-08-03 13:34:09] INFO root fetch - processPackages [kotsu]: Remove: archive file [/home/abi/fetcher/tmp/kotsu-0.3.2.tar.gz]
+[2023-08-03 13:34:09] INFO root fetch - processPackages [kotsu]: Remove: archive file [/home/abi/fetcher/tmp/kotsu-0.3.3.tar.gz]
+[2023-08-03 13:34:09] INFO root fetch - main [MainThread]: End processing [kotsu]: success
+[2023-08-03 13:34:09] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.8.2-py39-none-any.whl.zip]
+[2023-08-03 13:34:09] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.8.3-py39-none-any.whl.zip]
+[2023-08-03 13:34:09] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-08-03 13:34:11] INFO root fetch - processPackages [yangsuite-gnmi]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_gnmi-2.7.8-py3-none-any.whl.zip]
+[2023-08-03 13:34:11] INFO root fetch - processPackages [yangsuite-gnmi]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_gnmi-2.7.8.post0.dev2-py3-none-any.whl.zip]
+[2023-08-03 13:34:11] INFO root fetch - main [MainThread]: End processing [yangsuite-gnmi]: success
+[2023-08-03 13:34:13] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev5.tar.gz]
+[2023-08-03 13:34:13] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev6.tar.gz]
+[2023-08-03 13:34:13] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-03 13:34:16] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.4.tar.gz]
+[2023-08-03 13:34:16] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.5.tar.gz]
+[2023-08-03 13:34:16] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-08-03 13:34:16] INFO root fetch - main [MainThread]: Store serial: [19158331]
