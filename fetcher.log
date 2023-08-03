@@ -18414,3 +18414,192 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 10:49:08] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-1.5.1-py3-none-any.whl.zip]
 [2023-08-03 10:49:08] INFO root fetch - main [MainThread]: End processing [flowty]: success
 [2023-08-03 10:49:08] INFO root fetch - main [MainThread]: Store serial: [19156461]
+[2023-08-03 10:54:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19156461]
+[2023-08-03 10:54:32] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-08-03 10:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: w3lib
+[2023-08-03 10:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.projen-awscdk-construct
+[2023-08-03 10:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nemusicapi
+[2023-08-03 10:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: processoptim
+[2023-08-03 10:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iranetf
+[2023-08-03 10:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: futu-api
+[2023-08-03 10:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcentralab-qa-infra-automation
+[2023-08-03 10:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stemia
+[2023-08-03 10:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-modules
+[2023-08-03 10:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfp-nightly
+[2023-08-03 10:54:32] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-08-03 10:54:32] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-08-03 10:54:33] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-03 10:54:33] INFO root fetch - processPackages [futu-api]: New version: [7.2.3408] Old Version: [7.1.3308]
+[2023-08-03 10:54:33] INFO root fetch - processPackages [w3lib]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-03 10:54:33] INFO root fetch - processPackages [stemia]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-08-03 10:54:33] INFO root fetch - processPackages [nemusicapi]: New version: [0.0.5a1] Old Version: [0.0.5]
+[2023-08-03 10:54:33] INFO root fetch - processPackages [iranetf]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-03 10:54:33] INFO root fetch - processPackages [processoptim]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-03 10:54:33] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 10:54:33] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/e0/b6/7c288a353541f8d0aa13beb24ddd8ab94509f6106ad773bfc2964e05a327/abstract_modules-0.0.1.3-py3-none-any.whl
+[2023-08-03 10:54:33] INFO root fetch - processPackages [futu-api]: Downloading https://files.pythonhosted.org/packages/bd/98/500d3747654e072db4e8587bd5e4996ce310482eab2682e4faeb4af051ac/futu-api-7.1.3308.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [w3lib]: Downloading https://files.pythonhosted.org/packages/0b/29/755466b52987cf553231ca929149c62583b938dc9cd5a7cc63c9dcf2175c/w3lib-2.1.1.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-08-03 10:54:33] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/14/07/db8ce0b015239f657ba709ecd18dbe9d37499d526990629dd7006a7bce82/nemusicapi-0.0.5.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [iranetf]: Downloading https://files.pythonhosted.org/packages/13/fa/ca27cb7ea77c138ca4142cbb138910ddb5f3f57bb0ace643813d498c9d0d/iranetf-0.8.1.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Downloading https://files.pythonhosted.org/packages/9e/6e/df45dd25a2119377a2f5b6fc2464c36026b51a975677ce3ddd16f0cc95d2/dcentralab_qa_infra_automation-1.0.7.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [processoptim]: Downloading https://files.pythonhosted.org/packages/90/5d/dac079d477b53e95f0cbd62405798abfd4707f7058f45500424f4510452e/processoptim-0.2.2-py3-none-any.whl
+[2023-08-03 10:54:33] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [stemia]: Downloading https://files.pythonhosted.org/packages/7c/c6/35bb9202287aba8c447bae8a921d735d303aca0b90cc61ecaa90a55d5d5f/stemia-0.6.2.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/ec/11/001c19ddfa47c34c47f79d955d63fd3b6865a9181d956d285d6f3e15c9fc/abstract_modules-0.0.1.4-py3-none-any.whl
+[2023-08-03 10:54:33] INFO root fetch - processPackages [futu-api]: Downloading https://files.pythonhosted.org/packages/8f/99/b45edc6457bd352e5ce0afde7ff25a0f3483439cca28a2c860f5a8f49af2/futu-api-7.2.3408.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [w3lib]: Downloading https://files.pythonhosted.org/packages/47/79/0c62d246fcc9e6fe520c196fe4dad2070db64692bde49c15c4f71fe7d1cb/w3lib-2.1.2.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/3c/c6/23270d1590a53f7e422618de2e19c738af67b9b59bb84944446101a8ac1f/nemusicapi-0.0.5a1.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [iranetf]: Downloading https://files.pythonhosted.org/packages/de/32/2fd33eafec94b14d144edffe2e00b0d68221076651e8f8cd029b26311acd/iranetf-0.9.0.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [processoptim]: Downloading https://files.pythonhosted.org/packages/b0/88/455863202aa51c6accaf21a1604f00ae4caa228e7ccd087972eab1689f71/processoptim-0.2.3-py3-none-any.whl
+[2023-08-03 10:54:33] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-03 10:54:33] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.1.3-py3-none-any.whl.zip tmp/abstract_modules-0.0.1.4-py3-none-any.whl.zip --markdown 20230803/a/abstract-modules/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-08-03 10:54:33] INFO root fetch - processPackages [stemia]: Downloading https://files.pythonhosted.org/packages/e0/30/d68a08d41db253eb4bd18c27fa8c801f3b7ee8f75ec769f5196dce6d16a7/stemia-0.6.3.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Downloading https://files.pythonhosted.org/packages/3d/47/c86efa11238eeb65eba4c769ac809f2d20c6b9fe49e87a79d7c2f7c136c3/dcentralab_qa_infra_automation-1.0.8.tar.gz
+[2023-08-03 10:54:33] INFO root fetch - processPackages [futu-api]: executing diffoscope
+[2023-08-03 10:54:33] INFO root fetch - processPackages [futu-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/futu-api-7.1.3308.tar.gz tmp/futu-api-7.2.3408.tar.gz --markdown 20230803/f/futu-api/7.1.3308-7.2.3408/diff.md --exclude *.pyd
+[2023-08-03 10:54:34] INFO root fetch - processPackages [iranetf]: executing diffoscope
+[2023-08-03 10:54:34] INFO root fetch - processPackages [iranetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iranetf-0.8.1.tar.gz tmp/iranetf-0.9.0.tar.gz --markdown 20230803/i/iranetf/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 10:54:34] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-08-03 10:54:34] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 10:54:34] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.5.tar.gz tmp/nemusicapi-0.0.5a1.tar.gz --markdown 20230803/n/nemusicapi/0.0.5-0.0.5a1/diff.md --exclude *.pyd
+[2023-08-03 10:54:34] INFO root fetch - processPackages [w3lib]: executing diffoscope
+[2023-08-03 10:54:34] INFO root fetch - processPackages [w3lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3lib-2.1.1.tar.gz tmp/w3lib-2.1.2.tar.gz --markdown 20230803/w/w3lib/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-03 10:54:34] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-08-03 10:54:34] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230803/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 10:54:34] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: executing diffoscope
+[2023-08-03 10:54:34] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentralab_qa_infra_automation-1.0.7.tar.gz tmp/dcentralab_qa_infra_automation-1.0.8.tar.gz --markdown 20230803/d/dcentralab-qa-infra-automation/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-03 10:54:34] INFO root fetch - processPackages [stemia]: executing diffoscope
+[2023-08-03 10:54:34] INFO root fetch - processPackages [stemia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stemia-0.6.2.tar.gz tmp/stemia-0.6.3.tar.gz --markdown 20230803/s/stemia/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-08-03 10:54:34] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-08-03 10:54:34] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230803/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-08-03 10:54:35] INFO root fetch - processPackages [processoptim]: executing diffoscope
+[2023-08-03 10:54:35] INFO root fetch - processPackages [processoptim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processoptim-0.2.2-py3-none-any.whl.zip tmp/processoptim-0.2.3-py3-none-any.whl.zip --markdown 20230803/p/processoptim/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-03 10:54:35] INFO root fetch - processPackages [iranetf]: Remove: archive file [/home/abi/fetcher/tmp/iranetf-0.8.1.tar.gz]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [iranetf]: Remove: archive file [/home/abi/fetcher/tmp/iranetf-0.9.0.tar.gz]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [iranetf]: Start processing: pepperize.projen-awscdk-construct
+[2023-08-03 10:54:35] INFO root fetch - main [MainThread]: End processing [iranetf]: success
+[2023-08-03 10:54:35] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.5.tar.gz]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.5a1.tar.gz]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [nemusicapi]: Start processing: fennel-ai
+[2023-08-03 10:54:35] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 10:54:35] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.1.3-py3-none-any.whl.zip]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.1.4-py3-none-any.whl.zip]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [abstract-modules]: Start processing: abstract-modules
+[2023-08-03 10:54:35] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-03 10:54:35] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [abstract-modules]: New version: [0.0.1.6] Old Version: [0.0.1.5]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: rbx
+[2023-08-03 10:54:35] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-08-03 10:54:35] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-08-03 10:54:35] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/cb/17/dd9f640b9955d45582ed0aa817c9e4cfc35ac5ae11cdb6a11d286c48ef08/abstract_modules-0.0.1.5-py3-none-any.whl
+[2023-08-03 10:54:35] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/d4/26/4eb76cfe9ce1dbe30c04220d8454ea3bc2454cab78e5cb06cba758448183/fennel_ai-0.8.6.tar.gz
+[2023-08-03 10:54:35] INFO root fetch - processPackages [w3lib]: Remove: archive file [/home/abi/fetcher/tmp/w3lib-2.1.1.tar.gz]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [w3lib]: Remove: archive file [/home/abi/fetcher/tmp/w3lib-2.1.2.tar.gz]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [w3lib]: Start processing: moomoo-api
+[2023-08-03 10:54:35] INFO root fetch - main [MainThread]: End processing [w3lib]: success
+[2023-08-03 10:54:35] INFO root fetch - processPackages [rbx]: New version: [3.3.1.dev33] Old Version: [3.3.0.dev32]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-08-03 10:54:35] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230803/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 10:54:35] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Remove: archive file [/home/abi/fetcher/tmp/dcentralab_qa_infra_automation-1.0.7.tar.gz]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Remove: archive file [/home/abi/fetcher/tmp/dcentralab_qa_infra_automation-1.0.8.tar.gz]
+[2023-08-03 10:54:35] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Start processing: finbourne-identity-sdk
+[2023-08-03 10:54:35] INFO root fetch - main [MainThread]: End processing [dcentralab-qa-infra-automation]: success
+[2023-08-03 10:54:35] INFO root fetch - processPackages [moomoo-api]: New version: [7.2.3408] Old Version: [5.11.2307]
+[2023-08-03 10:54:36] INFO root fetch - processPackages [stemia]: Remove: archive file [/home/abi/fetcher/tmp/stemia-0.6.2.tar.gz]
+[2023-08-03 10:54:36] INFO root fetch - processPackages [stemia]: Remove: archive file [/home/abi/fetcher/tmp/stemia-0.6.3.tar.gz]
+[2023-08-03 10:54:36] INFO root fetch - processPackages [stemia]: Start processing: titan-iris
+[2023-08-03 10:54:36] INFO root fetch - main [MainThread]: End processing [stemia]: success
+[2023-08-03 10:54:36] INFO root fetch - processPackages [abstract-modules]: Downloading https://files.pythonhosted.org/packages/f7/26/fcf1328295a8aa56557991440fc24e21224daf297fa9e6148b04f610697f/abstract_modules-0.0.1.6-py3-none-any.whl
+[2023-08-03 10:54:36] INFO root fetch - processPackages [rbx]: Downloading https://files.pythonhosted.org/packages/86/17/52460611b283ef21a31643460b669274f751ef237edd6e75de27adabfa57/rbx-3.3.0.dev32.tar.gz
+[2023-08-03 10:54:36] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-08-03 10:54:36] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2523]
+[2023-08-03 10:54:36] INFO root fetch - processPackages [moomoo-api]: Downloading https://files.pythonhosted.org/packages/61/bb/7fd3bf3220ad29edf7df4465518733b6d9030e77c17541afa4981cf56b20/moomoo-api-5.11.2307.tar.gz
+[2023-08-03 10:54:36] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/4c/fc/90b33a768471ec120e5a2eb150847406a26ac2ef34bd6a41f7eb20a0432f/fennel_ai-0.8.7.tar.gz
+[2023-08-03 10:54:36] INFO root fetch - processPackages [abstract-modules]: executing diffoscope
+[2023-08-03 10:54:36] INFO root fetch - processPackages [abstract-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_modules-0.0.1.5-py3-none-any.whl.zip tmp/abstract_modules-0.0.1.6-py3-none-any.whl.zip --markdown 20230803/a/abstract-modules/0.0.1.5-0.0.1.6/diff.md --exclude *.pyd
+[2023-08-03 10:54:36] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-08-03 10:54:36] ERROR root fetch - processPackages [pepperize.projen-awscdk-construct]: Diffoscope failed: time="2023-08-03T10:54:35+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz: No such file or directory
+
+[2023-08-03 10:54:36] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: leadguru-jobs
+[2023-08-03 10:54:36] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct] error
+[2023-08-03 10:54:36] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/b3/45/f53419c5e5ef5373defc9734041757fd10453d69dfc93a7ae007a4776a4f/finbourne-identity-sdk-0.0.2523.tar.gz
+[2023-08-03 10:54:36] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-08-03 10:54:36] INFO root fetch - processPackages [rbx]: Downloading https://files.pythonhosted.org/packages/b4/9c/5c88f9d77d64e81bdef51403f1c522420543f361d053cafc7d0d2a945dea/rbx-3.3.1.dev33.tar.gz
+[2023-08-03 10:54:36] INFO root fetch - processPackages [moomoo-api]: Downloading https://files.pythonhosted.org/packages/3a/29/41162b77778ff0b74409e0a7ad2017db152d5fe23a2e2ff46fabce010f58/moomoo-api-7.2.3408.tar.gz
+[2023-08-03 10:54:36] INFO root fetch - processPackages [futu-api]: Remove: archive file [/home/abi/fetcher/tmp/futu-api-7.1.3308.tar.gz]
+[2023-08-03 10:54:36] INFO root fetch - processPackages [futu-api]: Remove: archive file [/home/abi/fetcher/tmp/futu-api-7.2.3408.tar.gz]
+[2023-08-03 10:54:36] INFO root fetch - processPackages [futu-api]: Start processing: processoptim
+[2023-08-03 10:54:36] INFO root fetch - main [MainThread]: End processing [futu-api]: success
+[2023-08-03 10:54:36] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-08-03 10:54:36] INFO root fetch - processPackages [processoptim]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-03 10:54:36] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-08-03 10:54:36] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230803/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-08-03 10:54:36] INFO root fetch - processPackages [rbx]: executing diffoscope
+[2023-08-03 10:54:36] INFO root fetch - processPackages [rbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbx-3.3.0.dev32.tar.gz tmp/rbx-3.3.1.dev33.tar.gz --markdown 20230803/r/rbx/3.3.0.dev32-3.3.1.dev33/diff.md --exclude *.pyd
+[2023-08-03 10:54:36] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-08-03 10:54:36] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230803/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-08-03 10:54:36] INFO root fetch - processPackages [moomoo-api]: executing diffoscope
+[2023-08-03 10:54:36] INFO root fetch - processPackages [moomoo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moomoo-api-5.11.2307.tar.gz tmp/moomoo-api-7.2.3408.tar.gz --markdown 20230803/m/moomoo-api/5.11.2307-7.2.3408/diff.md --exclude *.pyd
+[2023-08-03 10:54:36] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-08-03 10:54:36] INFO root fetch - processPackages [processoptim]: executing diffoscope
+[2023-08-03 10:54:36] INFO root fetch - processPackages [processoptim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processoptim-0.2.2-py3-none-any.whl.zip tmp/processoptim-0.2.3-py3-none-any.whl.zip --markdown 20230803/p/processoptim/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-03 10:54:36] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-08-03 10:54:37] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.2-py3-none-any.whl.zip]
+[2023-08-03 10:54:37] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.3-py3-none-any.whl.zip]
+[2023-08-03 10:54:37] INFO root fetch - processPackages [processoptim]: Start processing: zbxtool-cfomp
+[2023-08-03 10:54:37] INFO root fetch - main [MainThread]: End processing [processoptim]: success
+[2023-08-03 10:54:37] INFO root fetch - processPackages [zbxtool-cfomp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-03 10:54:37] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.1.5-py3-none-any.whl.zip]
+[2023-08-03 10:54:37] INFO root fetch - processPackages [abstract-modules]: Remove: archive file [/home/abi/fetcher/tmp/abstract_modules-0.0.1.6-py3-none-any.whl.zip]
+[2023-08-03 10:54:37] INFO root fetch - processPackages [abstract-modules]: Start processing: cmeel-gperf
+[2023-08-03 10:54:37] INFO root fetch - main [MainThread]: End processing [abstract-modules]: success
+[2023-08-03 10:54:37] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-08-03 10:54:37] WARNING root fetch - processPackages [cmeel-gperf]: Skipping, unable to determine old version
+[2023-08-03 10:54:37] INFO root fetch - processPackages [cmeel-gperf]: Start processing: oremi-sds
+[2023-08-03 10:54:37] INFO root fetch - main [MainThread]: End processing [cmeel-gperf] error
+[2023-08-03 10:54:37] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/a2/af/b197bd86cab21e82f9a9e5f3178e2cd10c9ed0caccddd151f0a722e203dd/zbxtool-cfomp-0.9.8.tar.gz
+[2023-08-03 10:54:37] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-08-03 10:54:37] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2523.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230803/f/finbourne-identity-sdk/0.0.2523-0.0.840/diff.md --exclude *.pyd
+[2023-08-03 10:54:37] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-08-03 10:54:37] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230803/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-08-03 10:54:37] WARNING root fetch - processPackages [oremi-sds]: Skipping, unable to determine old version
+[2023-08-03 10:54:37] INFO root fetch - main [MainThread]: End processing [oremi-sds] error
+[2023-08-03 10:54:37] ERROR root fetch - processPackages [processoptim]: Diffoscope failed: time="2023-08-03T10:54:36+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/processoptim-0.2.2-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/processoptim-0.2.3-py3-none-any.whl.zip: No such file or directory
+
+[2023-08-03 10:54:37] INFO root fetch - main [MainThread]: End processing [processoptim] error
+[2023-08-03 10:54:37] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/d7/f7/5b055effe9c5650ac3ff3993bd9d1e2077b59cb55512af186bf0ed073c5c/zbxtool-cfomp-0.9.9.tar.gz
+[2023-08-03 10:54:38] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-08-03 10:54:38] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-08-03 10:54:38] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-08-03 10:54:38] INFO root fetch - processPackages [rbx]: Remove: archive file [/home/abi/fetcher/tmp/rbx-3.3.0.dev32.tar.gz]
+[2023-08-03 10:54:38] INFO root fetch - processPackages [rbx]: Remove: archive file [/home/abi/fetcher/tmp/rbx-3.3.1.dev33.tar.gz]
+[2023-08-03 10:54:38] INFO root fetch - main [MainThread]: End processing [rbx]: success
+[2023-08-03 10:54:38] INFO root fetch - processPackages [zbxtool-cfomp]: executing diffoscope
+[2023-08-03 10:54:38] INFO root fetch - processPackages [zbxtool-cfomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbxtool-cfomp-0.9.8.tar.gz tmp/zbxtool-cfomp-0.9.9.tar.gz --markdown 20230803/z/zbxtool-cfomp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-03 10:54:38] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.6.tar.gz]
+[2023-08-03 10:54:38] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
+[2023-08-03 10:54:38] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-08-03 10:54:38] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-08-03 10:54:38] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-08-03 10:54:38] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-08-03 10:54:39] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.8.tar.gz]
+[2023-08-03 10:54:39] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.9.tar.gz]
+[2023-08-03 10:54:39] INFO root fetch - main [MainThread]: End processing [zbxtool-cfomp]: success
+[2023-08-03 10:54:39] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2523.tar.gz]
+[2023-08-03 10:54:39] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-08-03 10:54:39] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-08-03 10:54:39] INFO root fetch - processPackages [moomoo-api]: Remove: archive file [/home/abi/fetcher/tmp/moomoo-api-5.11.2307.tar.gz]
+[2023-08-03 10:54:39] INFO root fetch - processPackages [moomoo-api]: Remove: archive file [/home/abi/fetcher/tmp/moomoo-api-7.2.3408.tar.gz]
+[2023-08-03 10:54:39] INFO root fetch - main [MainThread]: End processing [moomoo-api]: success
+[2023-08-03 10:54:40] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-08-03 10:54:40] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-08-03 10:54:40] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-08-03 10:54:40] INFO root fetch - main [MainThread]: Store serial: [19156530]
