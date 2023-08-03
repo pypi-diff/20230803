@@ -19052,3 +19052,156 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 11:10:41] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev2.tar.gz]
 [2023-08-03 11:10:41] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-08-03 11:10:41] INFO root fetch - main [MainThread]: Store serial: [19156796]
+[2023-08-03 11:15:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19156796]
+[2023-08-03 11:15:50] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-08-03 11:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unified-planning
+[2023-08-03 11:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-orangedice
+[2023-08-03 11:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-user
+[2023-08-03 11:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: routingpy
+[2023-08-03 11:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textual
+[2023-08-03 11:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nemusicapi
+[2023-08-03 11:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ssi-psychology-testing-outsource-work
+[2023-08-03 11:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyzjr
+[2023-08-03 11:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-ssi-psychology-evaluation-related-attachment
+[2023-08-03 11:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rdfreader
+[2023-08-03 11:15:51] INFO root fetch - processPackages [nemusicapi]: New version: [0.0.5a1] Old Version: [0.0.5]
+[2023-08-03 11:15:51] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-03 11:15:51] INFO root fetch - processPackages [routingpy]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-08-03 11:15:51] INFO root fetch - processPackages [nonebot-plugin-orangedice]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-08-03 11:15:51] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-03 11:15:51] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/14/07/db8ce0b015239f657ba709ecd18dbe9d37499d526990629dd7006a7bce82/nemusicapi-0.0.5.tar.gz
+[2023-08-03 11:15:51] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-evaluation-related-attachment]: Skipping, unable to determine old version
+[2023-08-03 11:15:51] INFO root fetch - processPackages [odoo14-addon-ssi-psychology-evaluation-related-attachment]: Start processing: odoo14-addon-ssi-psychology-evaluation
+[2023-08-03 11:15:51] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-testing-outsource-work]: Skipping, unable to determine old version
+[2023-08-03 11:15:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-evaluation-related-attachment] error
+[2023-08-03 11:15:51] INFO root fetch - processPackages [odoo14-addon-ssi-psychology-testing-outsource-work]: Start processing: odoo14-addon-ssi-psychology-testing
+[2023-08-03 11:15:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-testing-outsource-work] error
+[2023-08-03 11:15:51] INFO root fetch - processPackages [rdfreader]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-03 11:15:51] INFO root fetch - processPackages [pyzjr]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-03 11:15:51] INFO root fetch - processPackages [unified-planning]: New version: [1.0.0.6.dev1] Old Version: [1.0.0.52.dev1]
+[2023-08-03 11:15:51] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-08-03 11:15:51] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-testing]: Skipping, unable to determine old version
+[2023-08-03 11:15:51] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-evaluation]: Skipping, unable to determine old version
+[2023-08-03 11:15:51] INFO root fetch - processPackages [odoo14-addon-ssi-psychology-testing]: Start processing: ontouml-json2graph
+[2023-08-03 11:15:51] INFO root fetch - processPackages [odoo14-addon-ssi-psychology-evaluation]: Start processing: odoo14-addon-ssi-psychology-consultation-outsource-work
+[2023-08-03 11:15:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-testing] error
+[2023-08-03 11:15:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-evaluation] error
+[2023-08-03 11:15:51] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/2c/9a/cd9a81d0c56ed648821c77d8773914d6ba705dcfb7f684e0da5b1c3518d6/unified_planning-1.0.0.52.dev1.tar.gz
+[2023-08-03 11:15:51] INFO root fetch - processPackages [ontouml-json2graph]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-08-03 11:15:51] INFO root fetch - processPackages [routingpy]: Downloading https://files.pythonhosted.org/packages/b6/9f/a22c376ba05b5f3446982c66384cea7c2b172d2b9b1e5ae3e180b3746848/routingpy-1.2.1-py3-none-any.whl
+[2023-08-03 11:15:51] INFO root fetch - processPackages [nonebot-plugin-orangedice]: Downloading https://files.pythonhosted.org/packages/72/21/b4e552f6fceb85f2d5e3023223e222a835776f319d1ed76ff45c8db0e487/nonebot-plugin-orangedice-0.3.6.tar.gz
+[2023-08-03 11:15:51] INFO root fetch - processPackages [rdfreader]: Downloading https://files.pythonhosted.org/packages/4e/9e/f143f405e983e71c05110e8182e174a304e7d03cb16461fd91047fe3519f/rdfreader-1.0.1.tar.gz
+[2023-08-03 11:15:51] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2023-08-03 11:15:51] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/7e/9f/84ef41ce13f5e159cecbd7f31910951bed1c8e7781d5e49f04280a9371fa/pyzjr-1.0.1.tar.gz
+[2023-08-03 11:15:51] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/3c/c6/23270d1590a53f7e422618de2e19c738af67b9b59bb84944446101a8ac1f/nemusicapi-0.0.5a1.tar.gz
+[2023-08-03 11:15:51] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-consultation-outsource-work]: Skipping, unable to determine old version
+[2023-08-03 11:15:51] INFO root fetch - processPackages [odoo14-addon-ssi-psychology-consultation-outsource-work]: Start processing: odoo14-addon-ssi-psychology-evaluation-outsource-work
+[2023-08-03 11:15:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-consultation-outsource-work] error
+[2023-08-03 11:15:51] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/40/64/243d5cb018dd67b8b005888dc9902e63982cdb5dad755a30e50868defafd/ontouml_json2graph-1.0.0b8.tar.gz
+[2023-08-03 11:15:51] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-evaluation-outsource-work]: Skipping, unable to determine old version
+[2023-08-03 11:15:51] INFO root fetch - processPackages [odoo14-addon-ssi-psychology-evaluation-outsource-work]: Start processing: odoo14-addon-ssi-psychology
+[2023-08-03 11:15:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-evaluation-outsource-work] error
+[2023-08-03 11:15:51] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-08-03 11:15:51] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 11:15:51] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.5.tar.gz tmp/nemusicapi-0.0.5a1.tar.gz --markdown 20230803/n/nemusicapi/0.0.5-0.0.5a1/diff.md --exclude *.pyd
+[2023-08-03 11:15:52] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology]: Skipping, unable to determine old version
+[2023-08-03 11:15:52] INFO root fetch - processPackages [odoo14-addon-ssi-psychology]: Start processing: ramodels
+[2023-08-03 11:15:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology] error
+[2023-08-03 11:15:52] INFO root fetch - processPackages [routingpy]: Downloading https://files.pythonhosted.org/packages/ce/01/72f3ed477b8bbf0774c95e11c6eaabdc1ac7e9bf9417b1c9bc3741a126f9/routingpy-1.3.0-py3-none-any.whl
+[2023-08-03 11:15:52] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-08-03 11:15:52] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230803/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-03 11:15:52] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/4b/89/1a7921a8b2b4f3dc61cc55714316c320e1ee5c16f956a55ccb771ecf1d28/unified_planning-1.0.0.6.dev1.tar.gz
+[2023-08-03 11:15:52] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/80/18/b90ebeb6c999350c02c55678b8d2559895ffbb5a6092ab4771d3e375f7c1/pyzjr-1.0.2.tar.gz
+[2023-08-03 11:15:52] INFO root fetch - processPackages [rdfreader]: Downloading https://files.pythonhosted.org/packages/69/cd/cdb4e57c5346f8470238ebfd4299a18f2943cd6c6ef8b1e632d0a64143b1/rdfreader-1.0.2.tar.gz
+[2023-08-03 11:15:52] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/ce/0f/f08b5ef30f44856b7f692ee34579259345997f154f01fbe01bb797b0143a/ontouml_json2graph-1.0.0b9.tar.gz
+[2023-08-03 11:15:52] INFO root fetch - processPackages [nonebot-plugin-orangedice]: Downloading https://files.pythonhosted.org/packages/13/b1/61cc80d167e34c7d76489bfff232f993321671a58d653c06235e8a5d1086/nonebot-plugin-orangedice-0.3.7.tar.gz
+[2023-08-03 11:15:52] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2023-08-03 11:15:52] INFO root fetch - processPackages [pyzjr]: executing diffoscope
+[2023-08-03 11:15:52] INFO root fetch - processPackages [pyzjr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzjr-1.0.1.tar.gz tmp/pyzjr-1.0.2.tar.gz --markdown 20230803/p/pyzjr/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-03 11:15:52] INFO root fetch - processPackages [routingpy]: executing diffoscope
+[2023-08-03 11:15:52] INFO root fetch - processPackages [routingpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routingpy-1.2.1-py3-none-any.whl.zip tmp/routingpy-1.3.0-py3-none-any.whl.zip --markdown 20230803/r/routingpy/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-08-03 11:15:52] INFO root fetch - processPackages [rdfreader]: executing diffoscope
+[2023-08-03 11:15:52] INFO root fetch - processPackages [rdfreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfreader-1.0.1.tar.gz tmp/rdfreader-1.0.2.tar.gz --markdown 20230803/r/rdfreader/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-03 11:15:52] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-08-03 11:15:52] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-08-03 11:15:52] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.0.0.52.dev1.tar.gz tmp/unified_planning-1.0.0.6.dev1.tar.gz --markdown 20230803/u/unified-planning/1.0.0.52.dev1-1.0.0.6.dev1/diff.md --exclude *.pyd
+[2023-08-03 11:15:52] INFO root fetch - processPackages [ontouml-json2graph]: executing diffoscope
+[2023-08-03 11:15:52] INFO root fetch - processPackages [ontouml-json2graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontouml_json2graph-1.0.0b8.tar.gz tmp/ontouml_json2graph-1.0.0b9.tar.gz --markdown 20230803/o/ontouml-json2graph/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-08-03 11:15:52] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-08-03 11:15:52] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230803/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-03 11:15:52] INFO root fetch - processPackages [nonebot-plugin-orangedice]: executing diffoscope
+[2023-08-03 11:15:52] INFO root fetch - processPackages [nonebot-plugin-orangedice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-orangedice-0.3.6.tar.gz tmp/nonebot-plugin-orangedice-0.3.7.tar.gz --markdown 20230803/n/nonebot-plugin-orangedice/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-08-03 11:15:52] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-08-03 11:15:53] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-08-03 11:15:53] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.5.tar.gz]
+[2023-08-03 11:15:53] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.5a1.tar.gz]
+[2023-08-03 11:15:53] INFO root fetch - processPackages [nemusicapi]: Start processing: odoo14-addon-ssi-psychology-case
+[2023-08-03 11:15:53] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 11:15:53] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-08-03 11:15:53] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230803/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-08-03 11:15:53] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-case]: Skipping, unable to determine old version
+[2023-08-03 11:15:53] INFO root fetch - processPackages [odoo14-addon-ssi-psychology-case]: Start processing: odoo14-addon-ssi-psychology-operating-unit
+[2023-08-03 11:15:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-case] error
+[2023-08-03 11:15:53] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-operating-unit]: Skipping, unable to determine old version
+[2023-08-03 11:15:53] INFO root fetch - processPackages [odoo14-addon-ssi-psychology-operating-unit]: Start processing: odoo14-addon-ssi-psychology-intervention
+[2023-08-03 11:15:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-operating-unit] error
+[2023-08-03 11:15:53] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-intervention]: Skipping, unable to determine old version
+[2023-08-03 11:15:53] INFO root fetch - processPackages [odoo14-addon-ssi-psychology-intervention]: Start processing: bmsdna-lakeapi
+[2023-08-03 11:15:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-intervention] error
+[2023-08-03 11:15:53] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-03 11:15:53] INFO root fetch - processPackages [rdfreader]: Remove: archive file [/home/abi/fetcher/tmp/rdfreader-1.0.1.tar.gz]
+[2023-08-03 11:15:53] INFO root fetch - processPackages [rdfreader]: Remove: archive file [/home/abi/fetcher/tmp/rdfreader-1.0.2.tar.gz]
+[2023-08-03 11:15:53] INFO root fetch - processPackages [rdfreader]: Start processing: odoo14-addon-ssi-psychology-consultation
+[2023-08-03 11:15:53] INFO root fetch - main [MainThread]: End processing [rdfreader]: success
+[2023-08-03 11:15:53] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-08-03 11:15:53] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-08-03 11:15:53] INFO root fetch - processPackages [xj-user]: Start processing: odoo14-addon-ssi-psychology-evaluation-operating-unit
+[2023-08-03 11:15:53] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-08-03 11:15:53] INFO root fetch - processPackages [nonebot-plugin-orangedice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-orangedice-0.3.6.tar.gz]
+[2023-08-03 11:15:53] INFO root fetch - processPackages [nonebot-plugin-orangedice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-orangedice-0.3.7.tar.gz]
+[2023-08-03 11:15:53] INFO root fetch - processPackages [nonebot-plugin-orangedice]: Start processing: odoo14-addon-ssi-psychology-case-outsource-work
+[2023-08-03 11:15:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-orangedice]: success
+[2023-08-03 11:15:53] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/30/97/1247a81c07f22adae3aefb39a4a3b05b4f42bc3a1ee3d5d6b70ef1f952c6/bmsdna_lakeapi-0.9.6.tar.gz
+[2023-08-03 11:15:53] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-consultation]: Skipping, unable to determine old version
+[2023-08-03 11:15:53] INFO root fetch - processPackages [odoo14-addon-ssi-psychology-consultation]: Start processing: hiddifypanel
+[2023-08-03 11:15:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-consultation] error
+[2023-08-03 11:15:53] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.0.1.tar.gz]
+[2023-08-03 11:15:53] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.0.2.tar.gz]
+[2023-08-03 11:15:53] INFO root fetch - processPackages [pyzjr]: Start processing: optional-python
+[2023-08-03 11:15:53] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
+[2023-08-03 11:15:53] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-evaluation-operating-unit]: Skipping, unable to determine old version
+[2023-08-03 11:15:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-evaluation-operating-unit] error
+[2023-08-03 11:15:53] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev3] Old Version: [8.0.0.dev2]
+[2023-08-03 11:15:54] WARNING root fetch - processPackages [odoo14-addon-ssi-psychology-case-outsource-work]: Skipping, unable to determine old version
+[2023-08-03 11:15:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-psychology-case-outsource-work] error
+[2023-08-03 11:15:54] INFO root fetch - processPackages [routingpy]: Remove: archive file [/home/abi/fetcher/tmp/routingpy-1.2.1-py3-none-any.whl.zip]
+[2023-08-03 11:15:54] INFO root fetch - processPackages [routingpy]: Remove: archive file [/home/abi/fetcher/tmp/routingpy-1.3.0-py3-none-any.whl.zip]
+[2023-08-03 11:15:54] INFO root fetch - main [MainThread]: End processing [routingpy]: success
+[2023-08-03 11:15:54] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/ad/18/03b2b9d1d41be858417ad0cce27affe047e91bcc85eb44441bab7e6c1dba/hiddifypanel-8.0.0.dev2.tar.gz
+[2023-08-03 11:15:54] WARNING root fetch - processPackages [optional-python]: Skipping, unable to determine old version
+[2023-08-03 11:15:54] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/73/d2/49277a33825c2fbbed400dec012e2410e757f6a5c7ba04608709388615b1/bmsdna_lakeapi-0.9.7.tar.gz
+[2023-08-03 11:15:54] INFO root fetch - main [MainThread]: End processing [optional-python] error
+[2023-08-03 11:15:54] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b8.tar.gz]
+[2023-08-03 11:15:54] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b9.tar.gz]
+[2023-08-03 11:15:54] INFO root fetch - main [MainThread]: End processing [ontouml-json2graph]: success
+[2023-08-03 11:15:54] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-08-03 11:15:54] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.9.6.tar.gz tmp/bmsdna_lakeapi-0.9.7.tar.gz --markdown 20230803/b/bmsdna-lakeapi/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-03 11:15:54] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-08-03 11:15:54] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-08-03 11:15:54] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-08-03 11:15:54] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2023-08-03 11:15:54] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2023-08-03 11:15:54] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-08-03 11:15:54] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/e9/9e/529a20b7d0fccc668c2c486671568d5e40fb7ae542e4065f4239767ef551/hiddifypanel-8.0.0.dev3.tar.gz
+[2023-08-03 11:15:55] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.6.tar.gz]
+[2023-08-03 11:15:55] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.7.tar.gz]
+[2023-08-03 11:15:55] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-08-03 11:15:55] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-03 11:15:55] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev2.tar.gz tmp/hiddifypanel-8.0.0.dev3.tar.gz --markdown 20230803/h/hiddifypanel/8.0.0.dev2-8.0.0.dev3/diff.md --exclude *.pyd
+[2023-08-03 11:15:55] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.52.dev1.tar.gz]
+[2023-08-03 11:15:55] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.6.dev1.tar.gz]
+[2023-08-03 11:15:55] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-08-03 11:16:00] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev2.tar.gz]
+[2023-08-03 11:16:00] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev3.tar.gz]
+[2023-08-03 11:16:00] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-03 11:16:00] INFO root fetch - main [MainThread]: Store serial: [19156897]
