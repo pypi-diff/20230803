@@ -19712,3 +19712,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 11:37:06] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.9.tar.gz]
 [2023-08-03 11:37:06] INFO root fetch - main [MainThread]: End processing [atbu-pkg]: success
 [2023-08-03 11:37:06] INFO root fetch - main [MainThread]: Store serial: [19157152]
+[2023-08-03 11:42:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157152]
+[2023-08-03 11:42:15] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-03 11:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-ssi-fixed-asset-disposal
+[2023-08-03 11:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-fixed-asset
+[2023-08-03 11:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-fixed-asset-report
+[2023-08-03 11:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-fixed-asset-salvage-value-estimation-change
+[2023-08-03 11:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-fixed-asset-qrcode
+[2023-08-03 11:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stemia
+[2023-08-03 11:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nxselector
+[2023-08-03 11:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-kkmeans
+[2023-08-03 11:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MCPoly
+[2023-08-03 11:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sidraconnector
+[2023-08-03 11:42:15] WARNING root fetch - processPackages [sidraconnector]: Skipping, unable to determine old version
+[2023-08-03 11:42:15] INFO root fetch - processPackages [sidraconnector]: Start processing: TEST-TC
+[2023-08-03 11:42:15] INFO root fetch - main [MainThread]: End processing [sidraconnector] error
+[2023-08-03 11:42:15] INFO root fetch - processPackages [stemia]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-08-03 11:42:15] INFO root fetch - processPackages [TEST-TC]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-03 11:42:15] WARNING root fetch - processPackages [odoo14-addon-ssi-fixed-asset-salvage-value-estimation-change]: Skipping, unable to determine old version
+[2023-08-03 11:42:15] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset-salvage-value-estimation-change]: Start processing: sdkit
+[2023-08-03 11:42:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fixed-asset-salvage-value-estimation-change] error
+[2023-08-03 11:42:15] WARNING root fetch - processPackages [odoo14-addon-ssi-fixed-asset-disposal]: Skipping, unable to determine old version
+[2023-08-03 11:42:15] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset-disposal]: Start processing: finbourne-access-sdk
+[2023-08-03 11:42:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fixed-asset-disposal] error
+[2023-08-03 11:42:15] INFO root fetch - processPackages [nxselector]: New version: [3.20.0] Old Version: [3.19.1]
+[2023-08-03 11:42:15] WARNING root fetch - processPackages [odoo14-addon-ssi-fixed-asset]: Skipping, unable to determine old version
+[2023-08-03 11:42:15] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset]: Start processing: nemusicapi
+[2023-08-03 11:42:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fixed-asset] error
+[2023-08-03 11:42:15] WARNING root fetch - processPackages [py-kkmeans]: Skipping, unable to determine old version
+[2023-08-03 11:42:15] INFO root fetch - processPackages [py-kkmeans]: Start processing: fosslight-source
+[2023-08-03 11:42:15] INFO root fetch - main [MainThread]: End processing [py-kkmeans] error
+[2023-08-03 11:42:15] INFO root fetch - processPackages [MCPoly]: New version: [0.6b1] Old Version: [0.5.1.3]
+[2023-08-03 11:42:15] WARNING root fetch - processPackages [odoo14-addon-ssi-fixed-asset-report]: Skipping, unable to determine old version
+[2023-08-03 11:42:15] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset-report]: Start processing: py-keycloak-utils
+[2023-08-03 11:42:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fixed-asset-report] error
+[2023-08-03 11:42:15] INFO root fetch - processPackages [nemusicapi]: New version: [0.1.1a1] Old Version: [0.1.0]
+[2023-08-03 11:42:15] WARNING root fetch - processPackages [odoo14-addon-ssi-fixed-asset-qrcode]: Skipping, unable to determine old version
+[2023-08-03 11:42:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fixed-asset-qrcode] error
+[2023-08-03 11:42:15] INFO root fetch - processPackages [stemia]: Downloading https://files.pythonhosted.org/packages/7c/c6/35bb9202287aba8c447bae8a921d735d303aca0b90cc61ecaa90a55d5d5f/stemia-0.6.2.tar.gz
+[2023-08-03 11:42:15] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-03 11:42:15] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/66/83/2f0c3a02f58ad91c5c443334cfdc8b559cf92ce2d5d49ec7e8a0c8fc6829/TEST_TC-1.1.4.tar.gz
+[2023-08-03 11:42:15] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-08-03 11:42:15] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/90/cb/5abd5e16690f74095e6bfae7c6364b77fe89ca77521ab1201a5c7f5c5ec8/nemusicapi-0.1.0.tar.gz
+[2023-08-03 11:42:15] INFO root fetch - processPackages [py-keycloak-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-03 11:42:15] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-08-03 11:42:15] INFO root fetch - processPackages [fosslight-source]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-08-03 11:42:15] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-08-03 11:42:15] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/14/a1/6b465bee8551aa37cd47d4c48343b0f7b49c42c69225284a63c3f2528b51/MCPoly-0.5.1.3.tar.gz
+[2023-08-03 11:42:15] INFO root fetch - processPackages [nxselector]: Downloading https://files.pythonhosted.org/packages/f7/1d/7d7dba3ecc2558fe3d15e3165e9af126abf2da8148f1795ba1dfa66a9b0a/nxselector-3.19.1.tar.gz
+[2023-08-03 11:42:15] INFO root fetch - processPackages [stemia]: Downloading https://files.pythonhosted.org/packages/e0/30/d68a08d41db253eb4bd18c27fa8c801f3b7ee8f75ec769f5196dce6d16a7/stemia-0.6.3.tar.gz
+[2023-08-03 11:42:16] INFO root fetch - processPackages [py-keycloak-utils]: Downloading https://files.pythonhosted.org/packages/42/50/611aac3021283f16ed7e95e20bb052448cc1a5d1372033480be2e2f3f1eb/py-keycloak-utils-1.0.0.tar.gz
+[2023-08-03 11:42:16] INFO root fetch - processPackages [fosslight-source]: Downloading https://files.pythonhosted.org/packages/ee/81/9d5938e4f4b84f30990232b1c32ac6d1f0a4b51b609e7d7fef02cca1c97b/fosslight_source-1.6.8.tar.gz
+[2023-08-03 11:42:16] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/6a/2f/b3600fcff163f8429a665bcf24907166852865ba16f2852d739de1537019/nemusicapi-0.1.1a1.tar.gz
+[2023-08-03 11:42:16] INFO root fetch - processPackages [stemia]: executing diffoscope
+[2023-08-03 11:42:16] INFO root fetch - processPackages [stemia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stemia-0.6.2.tar.gz tmp/stemia-0.6.3.tar.gz --markdown 20230803/s/stemia/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-08-03 11:42:16] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-08-03 11:42:16] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-08-03 11:42:16] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 11:42:16] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.1.0.tar.gz tmp/nemusicapi-0.1.1a1.tar.gz --markdown 20230803/n/nemusicapi/0.1.0-0.1.1a1/diff.md --exclude *.pyd
+[2023-08-03 11:42:16] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/dd/87/4db8e6898657431b0df9a81d823b5caaf2c97e86f76731c02a8b1868feae/MCPoly-0.6b1.tar.gz
+[2023-08-03 11:42:16] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-08-03 11:42:16] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230803/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-03 11:42:16] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-08-03 11:42:16] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230803/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-08-03 11:42:16] INFO root fetch - processPackages [nxselector]: Downloading https://files.pythonhosted.org/packages/c9/8d/5079260be99983bf30cb357937ef02a874bb4b496a857f8f1400f86777d3/nxselector-3.20.0.tar.gz
+[2023-08-03 11:42:16] INFO root fetch - processPackages [MCPoly]: executing diffoscope
+[2023-08-03 11:42:16] INFO root fetch - processPackages [MCPoly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCPoly-0.5.1.3.tar.gz tmp/MCPoly-0.6b1.tar.gz --markdown 20230803/M/MCPoly/0.5.1.3-0.6b1/diff.md --exclude *.pyd
+[2023-08-03 11:42:16] INFO root fetch - processPackages [fosslight-source]: Downloading https://files.pythonhosted.org/packages/9d/81/a3d8e1dafb41eb63278bfb32976a9fc72dcca248bd42ca726c302c026a86/fosslight_source-1.6.9.tar.gz
+[2023-08-03 11:42:16] INFO root fetch - processPackages [py-keycloak-utils]: Downloading https://files.pythonhosted.org/packages/cf/23/4c0455857c3795cae68a4954616bf0c9d99504aa5e3b15377c1654f9289a/py-keycloak-utils-1.0.1.tar.gz
+[2023-08-03 11:42:16] INFO root fetch - processPackages [nxselector]: executing diffoscope
+[2023-08-03 11:42:16] INFO root fetch - processPackages [nxselector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxselector-3.19.1.tar.gz tmp/nxselector-3.20.0.tar.gz --markdown 20230803/n/nxselector/3.19.1-3.20.0/diff.md --exclude *.pyd
+[2023-08-03 11:42:16] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/a9/ae/cc48e0c4dee179e9893205f7e7ae1dce1d5bc0d6d49c7cb06cbf58db540e/TEST_TC-1.1.5.tar.gz
+[2023-08-03 11:42:16] INFO root fetch - processPackages [fosslight-source]: executing diffoscope
+[2023-08-03 11:42:16] INFO root fetch - processPackages [fosslight-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_source-1.6.8.tar.gz tmp/fosslight_source-1.6.9.tar.gz --markdown 20230803/f/fosslight-source/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-08-03 11:42:16] INFO root fetch - processPackages [py-keycloak-utils]: executing diffoscope
+[2023-08-03 11:42:16] INFO root fetch - processPackages [py-keycloak-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-keycloak-utils-1.0.0.tar.gz tmp/py-keycloak-utils-1.0.1.tar.gz --markdown 20230803/p/py-keycloak-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-03 11:42:16] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-08-03 11:42:16] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.1.4.tar.gz tmp/TEST_TC-1.1.5.tar.gz --markdown 20230803/T/TEST-TC/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-03 11:42:17] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.0.tar.gz]
+[2023-08-03 11:42:17] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.1a1.tar.gz]
+[2023-08-03 11:42:17] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 11:42:17] INFO root fetch - processPackages [stemia]: Remove: archive file [/home/abi/fetcher/tmp/stemia-0.6.2.tar.gz]
+[2023-08-03 11:42:17] INFO root fetch - processPackages [stemia]: Remove: archive file [/home/abi/fetcher/tmp/stemia-0.6.3.tar.gz]
+[2023-08-03 11:42:17] INFO root fetch - main [MainThread]: End processing [stemia]: success
+[2023-08-03 11:42:17] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-08-03 11:42:17] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-08-03 11:42:17] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-08-03 11:42:18] INFO root fetch - processPackages [fosslight-source]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_source-1.6.8.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - processPackages [fosslight-source]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_source-1.6.9.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - main [MainThread]: End processing [fosslight-source]: success
+[2023-08-03 11:42:18] INFO root fetch - processPackages [py-keycloak-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-keycloak-utils-1.0.0.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - processPackages [py-keycloak-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-keycloak-utils-1.0.1.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - main [MainThread]: End processing [py-keycloak-utils]: success
+[2023-08-03 11:42:18] INFO root fetch - processPackages [nxselector]: Remove: archive file [/home/abi/fetcher/tmp/nxselector-3.19.1.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - processPackages [nxselector]: Remove: archive file [/home/abi/fetcher/tmp/nxselector-3.20.0.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - main [MainThread]: End processing [nxselector]: success
+[2023-08-03 11:42:18] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.4.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.5.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-08-03 11:42:18] INFO root fetch - processPackages [MCPoly]: Remove: archive file [/home/abi/fetcher/tmp/MCPoly-0.5.1.3.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - processPackages [MCPoly]: Remove: archive file [/home/abi/fetcher/tmp/MCPoly-0.6b1.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - main [MainThread]: End processing [MCPoly]: success
+[2023-08-03 11:42:18] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-08-03 11:42:18] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-08-03 11:42:18] INFO root fetch - main [MainThread]: Store serial: [19157219]
