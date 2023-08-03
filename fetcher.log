@@ -10764,3 +10764,135 @@
 [2023-08-03 05:10:16] INFO root fetch - processPackages [odoo-addon-privacy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_privacy-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-08-03 05:10:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-privacy]: success
 [2023-08-03 05:10:16] INFO root fetch - main [MainThread]: Store serial: [19153224]
+[2023-08-03 05:15:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153224]
+[2023-08-03 05:15:25] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-03 05:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quarkstudio
+[2023-08-03 05:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-nets
+[2023-08-03 05:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docarray
+[2023-08-03 05:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiofauna
+[2023-08-03 05:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: r-lambda
+[2023-08-03 05:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exergenics-etl
+[2023-08-03 05:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-base-delivery-carrier-label
+[2023-08-03 05:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-delivery-auto-refresh
+[2023-08-03 05:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bayanpy
+[2023-08-03 05:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-delivery-postlogistics
+[2023-08-03 05:15:25] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-08-03 05:15:25] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 05:15:25] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-08-03 05:15:25] INFO root fetch - processPackages [r-lambda]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-03 05:15:25] INFO root fetch - processPackages [exergenics-etl]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-08-03 05:15:25] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: New version: [16.0.1.0.2.3] Old Version: [16.0.1.0.2]
+[2023-08-03 05:15:25] INFO root fetch - processPackages [quarkstudio]: New version: [6.5.1.5] Old Version: [6.5.1.2]
+[2023-08-03 05:15:25] INFO root fetch - processPackages [bayanpy]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-08-03 05:15:25] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-08-03 05:15:25] INFO root fetch - processPackages [torch-nets]: New version: [0.0.5rc0] Old Version: [0.0.5]
+[2023-08-03 05:15:25] INFO root fetch - processPackages [r-lambda]: Downloading https://files.pythonhosted.org/packages/5b/55/26eed3f1db30e453d5e883e9e22ef2a34823925abfd9f6cc42de4fc82d7e/r_lambda-1.0.2.tar.gz
+[2023-08-03 05:15:25] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-08-03 05:15:25] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: Downloading https://files.pythonhosted.org/packages/61/14/4de29ba95e3fb1bdd4c4b84d3355c2383ee889bb166478aaac9f59936105/odoo_addon_base_delivery_carrier_label-16.0.1.1.0-py3-none-any.whl
+[2023-08-03 05:15:25] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: Downloading https://files.pythonhosted.org/packages/f3/ba/131189a6801cf336f5f702ddba93ed35cdd04a9a35ea4ca3b547e0ca9722/odoo_addon_delivery_auto_refresh-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-03 05:15:25] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-08-03 05:15:25] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/07/db/1aa223dd8a31e47b590a9f16a0772b1bd1b3fb23d1f81fff42c7db2322ff/bayanpy-0.7.5.tar.gz
+[2023-08-03 05:15:25] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/95/b7/b41d979d84ceedccfbc2f1f224ec6628020cbe1682aba43751d5b966cce5/quarkstudio-6.5.1.2-cp311-none-win_amd64.whl
+[2023-08-03 05:15:25] INFO root fetch - processPackages [torch-nets]: Downloading https://files.pythonhosted.org/packages/80/07/231dbf7b343cd7485db606a62f3d3b7d095691af73286e14aaa79be91b6d/torch-nets-0.0.5.tar.gz
+[2023-08-03 05:15:25] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Downloading https://files.pythonhosted.org/packages/42/9e/e6d1b67af767dec1bdbff953e4cff272f0926705ce40ceb15e7e2404c4ae/odoo_addon_delivery_postlogistics-16.0.1.0.2-py3-none-any.whl
+[2023-08-03 05:15:25] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/0b/a3/da1c5de3b6a6f85d40295174a2ebed479638a8cc693a6e4c780f8cda151a/exergenics-etl-1.6.1.tar.gz
+[2023-08-03 05:15:26] INFO root fetch - processPackages [r-lambda]: Downloading https://files.pythonhosted.org/packages/80/74/fb789997068121cf95bb30d6b06551ae3f1cf4e8357c290a9d6120938d2c/r_lambda-1.0.3.tar.gz
+[2023-08-03 05:15:26] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-08-03 05:15:26] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: Downloading https://files.pythonhosted.org/packages/38/fc/7647a0da6e89582dc2da84c36e747d4b7a0715e37aaad2ab5edb4da2af05/odoo_addon_delivery_auto_refresh-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-03 05:15:26] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-08-03 05:15:26] INFO root fetch - processPackages [torch-nets]: Downloading https://files.pythonhosted.org/packages/c5/9d/686795f868f0e26aec5d3ac39e2816b619356fb2c924422ca718631e1d29/torch-nets-0.0.5rc0.tar.gz
+[2023-08-03 05:15:26] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: Downloading https://files.pythonhosted.org/packages/97/78/a2a0fcaa54f8be8a3a787dfbe71bcc86eb91f847fd83f3ced2c283de3f5a/odoo_addon_base_delivery_carrier_label-16.0.1.1.0.1-py3-none-any.whl
+[2023-08-03 05:15:26] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/3b/53/1bd5c4c25e59b52704c0ed541db126ad3a67ee929cfeb7693f7a8dea5148/exergenics-etl-1.7.0.tar.gz
+[2023-08-03 05:15:26] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/3b/8c/3f1914914148a06c4a1837a912e365c4073defa3ea10733c470f3a5d075e/bayanpy-0.7.6.tar.gz
+[2023-08-03 05:15:26] INFO root fetch - processPackages [r-lambda]: executing diffoscope
+[2023-08-03 05:15:26] INFO root fetch - processPackages [r-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r_lambda-1.0.2.tar.gz tmp/r_lambda-1.0.3.tar.gz --markdown 20230803/r/r-lambda/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-03 05:15:26] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: executing diffoscope
+[2023-08-03 05:15:26] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_auto_refresh-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_delivery_auto_refresh-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-delivery-auto-refresh/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-03 05:15:26] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-08-03 05:15:26] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230803/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-08-03 05:15:26] INFO root fetch - processPackages [torch-nets]: executing diffoscope
+[2023-08-03 05:15:26] INFO root fetch - processPackages [torch-nets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-nets-0.0.5.tar.gz tmp/torch-nets-0.0.5rc0.tar.gz --markdown 20230803/t/torch-nets/0.0.5-0.0.5rc0/diff.md --exclude *.pyd
+[2023-08-03 05:15:26] INFO root fetch - processPackages [exergenics-etl]: executing diffoscope
+[2023-08-03 05:15:26] INFO root fetch - processPackages [exergenics-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-etl-1.6.1.tar.gz tmp/exergenics-etl-1.7.0.tar.gz --markdown 20230803/e/exergenics-etl/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-08-03 05:15:26] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-08-03 05:15:26] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230803/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 05:15:26] INFO root fetch - processPackages [bayanpy]: executing diffoscope
+[2023-08-03 05:15:26] INFO root fetch - processPackages [bayanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayanpy-0.7.5.tar.gz tmp/bayanpy-0.7.6.tar.gz --markdown 20230803/b/bayanpy/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-08-03 05:15:26] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: executing diffoscope
+[2023-08-03 05:15:26] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_delivery_carrier_label-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_base_delivery_carrier_label-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-base-delivery-carrier-label/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-08-03 05:15:26] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Downloading https://files.pythonhosted.org/packages/9f/d3/a4faba76f9bcf05f621c1ab189aebe7b9a27d6d31a21dada72bf1bfa6f53/odoo_addon_delivery_postlogistics-16.0.1.0.2.3-py3-none-any.whl
+[2023-08-03 05:15:26] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: executing diffoscope
+[2023-08-03 05:15:26] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_postlogistics-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_delivery_postlogistics-16.0.1.0.2.3-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-delivery-postlogistics/16.0.1.0.2-16.0.1.0.2.3/diff.md --exclude *.pyd
+[2023-08-03 05:15:26] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/3a/22/b552a6cccf9e30257d47fc97d6b2ebbf3c6611604db5214db6edaf1796e8/quarkstudio-6.5.1.5-cp311-none-win_amd64.whl
+[2023-08-03 05:15:27] INFO root fetch - processPackages [r-lambda]: Remove: archive file [/home/abi/fetcher/tmp/r_lambda-1.0.2.tar.gz]
+[2023-08-03 05:15:27] INFO root fetch - processPackages [r-lambda]: Remove: archive file [/home/abi/fetcher/tmp/r_lambda-1.0.3.tar.gz]
+[2023-08-03 05:15:27] INFO root fetch - processPackages [r-lambda]: Start processing: jupylot
+[2023-08-03 05:15:27] INFO root fetch - main [MainThread]: End processing [r-lambda]: success
+[2023-08-03 05:15:27] WARNING root fetch - processPackages [jupylot]: Skipping, unable to determine old version
+[2023-08-03 05:15:27] INFO root fetch - processPackages [jupylot]: Start processing: odoo-addon-delivery-cttexpress
+[2023-08-03 05:15:27] INFO root fetch - main [MainThread]: End processing [jupylot] error
+[2023-08-03 05:15:27] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2023-08-03 05:15:28] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.5.1.2-cp311-none-win_amd64.whl.zip tmp/quarkstudio-6.5.1.5-cp311-none-win_amd64.whl.zip --markdown 20230803/q/quarkstudio/6.5.1.2-6.5.1.5/diff.md --exclude *.pyd
+[2023-08-03 05:15:28] INFO root fetch - processPackages [bayanpy]: Remove: archive file [/home/abi/fetcher/tmp/bayanpy-0.7.5.tar.gz]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [bayanpy]: Remove: archive file [/home/abi/fetcher/tmp/bayanpy-0.7.6.tar.gz]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [bayanpy]: Start processing: cachesql
+[2023-08-03 05:15:28] INFO root fetch - main [MainThread]: End processing [bayanpy]: success
+[2023-08-03 05:15:28] INFO root fetch - processPackages [cachesql]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [aiofauna]: Start processing: PySide2-Material-Widgets
+[2023-08-03 05:15:28] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-08-03 05:15:28] INFO root fetch - processPackages [PySide2-Material-Widgets]: New version: [0.1.1] Old Version: [0.0.11]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: Downloading https://files.pythonhosted.org/packages/37/aa/d9e455000dc2a9036438863cd09bd27d8e61f9983c0e6bfac29f3c9124fa/odoo_addon_delivery_cttexpress-16.0.1.1.0-py3-none-any.whl
+[2023-08-03 05:15:28] INFO root fetch - processPackages [torch-nets]: Remove: archive file [/home/abi/fetcher/tmp/torch-nets-0.0.5.tar.gz]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [torch-nets]: Remove: archive file [/home/abi/fetcher/tmp/torch-nets-0.0.5rc0.tar.gz]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [torch-nets]: Start processing: GANDLF
+[2023-08-03 05:15:28] INFO root fetch - main [MainThread]: End processing [torch-nets]: success
+[2023-08-03 05:15:28] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_auto_refresh-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_auto_refresh-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-03 05:15:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-auto-refresh]: success
+[2023-08-03 05:15:28] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230803] Old Version: [0.0.17.dev20230802]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [exergenics-etl]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-etl-1.6.1.tar.gz]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [exergenics-etl]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-etl-1.7.0.tar.gz]
+[2023-08-03 05:15:28] INFO root fetch - main [MainThread]: End processing [exergenics-etl]: success
+[2023-08-03 05:15:28] INFO root fetch - processPackages [cachesql]: Downloading https://files.pythonhosted.org/packages/bf/55/aa342e8e030ede8a2c73d536eaafeb1a5c295e0a73d816245ed6f78846bb/cachesql-0.2.2.tar.gz
+[2023-08-03 05:15:28] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_delivery_carrier_label-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_delivery_carrier_label-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-08-03 05:15:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-delivery-carrier-label]: success
+[2023-08-03 05:15:28] INFO root fetch - processPackages [PySide2-Material-Widgets]: Downloading https://files.pythonhosted.org/packages/ce/72/c94a8a40398217a700f2a89095119941e666f7123657ffe41f44a39d81cf/PySide2-Material-Widgets-0.0.11.tar.gz
+[2023-08-03 05:15:28] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/1b/3b/c813a6989c5340d858b529476ecdd50aafae17ad69bee708bb66968db39a/GANDLF-0.0.17.dev20230802.tar.gz
+[2023-08-03 05:15:28] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_postlogistics-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_postlogistics-16.0.1.0.2.3-py3-none-any.whl.zip]
+[2023-08-03 05:15:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-postlogistics]: success
+[2023-08-03 05:15:28] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-08-03 05:15:28] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-08-03 05:15:28] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-08-03 05:15:28] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: Downloading https://files.pythonhosted.org/packages/c2/3c/dc5d141c69b3c7b2da221c75719c5b2eceb874e5912454634d57b0ad0dd0/odoo_addon_delivery_cttexpress-16.0.1.1.0.1-py3-none-any.whl
+[2023-08-03 05:15:28] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: executing diffoscope
+[2023-08-03 05:15:28] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_cttexpress-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_delivery_cttexpress-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-delivery-cttexpress/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-08-03 05:15:28] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/d8/37/8698b0266d3928c0181381ceb23e28d11f317c9a84a50cf7d448f2df3572/GANDLF-0.0.17.dev20230803.tar.gz
+[2023-08-03 05:15:28] INFO root fetch - processPackages [cachesql]: Downloading https://files.pythonhosted.org/packages/09/f2/a572ba3f5917ebbda2f1f634614fda1aac2545f3c698e541d2774cd05c70/cachesql-0.3.0.tar.gz
+[2023-08-03 05:15:28] INFO root fetch - processPackages [PySide2-Material-Widgets]: Downloading https://files.pythonhosted.org/packages/7e/42/681e747a018ea6a2c644f71b00680f6c5f066f34097d0ee0c48d5cc72171/PySide2-Material-Widgets-0.1.1.tar.gz
+[2023-08-03 05:15:28] INFO root fetch - processPackages [cachesql]: executing diffoscope
+[2023-08-03 05:15:28] INFO root fetch - processPackages [cachesql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachesql-0.2.2.tar.gz tmp/cachesql-0.3.0.tar.gz --markdown 20230803/c/cachesql/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-08-03 05:15:28] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-08-03 05:15:28] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230802.tar.gz tmp/GANDLF-0.0.17.dev20230803.tar.gz --markdown 20230803/G/GANDLF/0.0.17.dev20230802-0.0.17.dev20230803/diff.md --exclude *.pyd
+[2023-08-03 05:15:29] INFO root fetch - processPackages [PySide2-Material-Widgets]: executing diffoscope
+[2023-08-03 05:15:29] INFO root fetch - processPackages [PySide2-Material-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Material-Widgets-0.0.11.tar.gz tmp/PySide2-Material-Widgets-0.1.1.tar.gz --markdown 20230803/P/PySide2-Material-Widgets/0.0.11-0.1.1/diff.md --exclude *.pyd
+[2023-08-03 05:15:29] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_cttexpress-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-08-03 05:15:29] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_cttexpress-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-08-03 05:15:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-cttexpress]: success
+[2023-08-03 05:15:29] INFO root fetch - processPackages [cachesql]: Remove: archive file [/home/abi/fetcher/tmp/cachesql-0.2.2.tar.gz]
+[2023-08-03 05:15:29] INFO root fetch - processPackages [cachesql]: Remove: archive file [/home/abi/fetcher/tmp/cachesql-0.3.0.tar.gz]
+[2023-08-03 05:15:29] INFO root fetch - main [MainThread]: End processing [cachesql]: success
+[2023-08-03 05:15:30] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.5.1.2-cp311-none-win_amd64.whl.zip]
+[2023-08-03 05:15:30] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.5.1.5-cp311-none-win_amd64.whl.zip]
+[2023-08-03 05:15:30] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2023-08-03 05:15:30] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230802.tar.gz]
+[2023-08-03 05:15:30] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230803.tar.gz]
+[2023-08-03 05:15:30] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-08-03 05:15:30] INFO root fetch - processPackages [PySide2-Material-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Material-Widgets-0.0.11.tar.gz]
+[2023-08-03 05:15:30] INFO root fetch - processPackages [PySide2-Material-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Material-Widgets-0.1.1.tar.gz]
+[2023-08-03 05:15:30] INFO root fetch - main [MainThread]: End processing [PySide2-Material-Widgets]: success
+[2023-08-03 05:15:30] INFO root fetch - main [MainThread]: Store serial: [19153270]
