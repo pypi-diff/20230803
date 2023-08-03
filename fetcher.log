@@ -20556,3 +20556,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 12:15:17] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-08-03 12:15:17] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-08-03 12:15:17] INFO root fetch - main [MainThread]: Store serial: [19157551]
+[2023-08-03 12:20:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157551]
+[2023-08-03 12:20:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-03 12:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartchart
+[2023-08-03 12:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-spotinst
+[2023-08-03 12:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SimpliPyTEM
+[2023-08-03 12:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glycowork
+[2023-08-03 12:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hippo-api
+[2023-08-03 12:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sluyspy
+[2023-08-03 12:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cwtune
+[2023-08-03 12:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-uvdiviner
+[2023-08-03 12:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mstrio-py
+[2023-08-03 12:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zebrazoom
+[2023-08-03 12:20:28] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-08-03 12:20:28] INFO root fetch - processPackages [smartchart]: New version: [6.6.9.2] Old Version: [6.6.9.1]
+[2023-08-03 12:20:28] INFO root fetch - processPackages [glycowork]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-08-03 12:20:28] INFO root fetch - processPackages [sluyspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 12:20:28] INFO root fetch - processPackages [cwtune]: New version: [0.2.0] Old Version: [0.1.14]
+[2023-08-03 12:20:28] INFO root fetch - processPackages [SimpliPyTEM]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-03 12:20:28] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2023-08-03 12:20:28] WARNING root fetch - processPackages [nonebot-plugin-uvdiviner]: Skipping, unable to determine old version
+[2023-08-03 12:20:28] INFO root fetch - processPackages [nonebot-plugin-uvdiviner]: Start processing: pepperize.cdk-private-bucket
+[2023-08-03 12:20:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-uvdiviner] error
+[2023-08-03 12:20:28] INFO root fetch - processPackages [hippo-api]: New version: [1.0.1] Old Version: [1.0.0.post1]
+[2023-08-03 12:20:28] INFO root fetch - processPackages [mstrio-py]: New version: [11.3.9.103] Old Version: [11.3.9.101]
+[2023-08-03 12:20:28] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-08-03 12:20:28] INFO root fetch - processPackages [SimpliPyTEM]: Downloading https://files.pythonhosted.org/packages/48/83/fd243c097c63a7e0c06ae07bf7f35b6eee71ac987b359492fb117d75ded0/SimpliPyTEM-1.0.6.tar.gz
+[2023-08-03 12:20:28] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/9d/95/b2a22b6808d2e8846c31d4d8d957082e6d6cb435f3480fca9de3a6692f1b/smartchart-6.6.9.1.tar.gz
+[2023-08-03 12:20:28] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 12:20:28] INFO root fetch - processPackages [cwtune]: Downloading https://files.pythonhosted.org/packages/32/d8/6e1159abd18b6f25798109d11d295126338784419172c738c27e570af4f9/cwtune-0.1.14.tar.gz
+[2023-08-03 12:20:28] INFO root fetch - processPackages [sluyspy]: Downloading https://files.pythonhosted.org/packages/2e/a4/4900e50b59fbb28d4aab27262e301da21d524f63b67822a6e0d4a96ffa07/sluyspy-0.0.8.tar.gz
+[2023-08-03 12:20:28] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2023-08-03 12:20:28] INFO root fetch - processPackages [hippo-api]: Downloading https://files.pythonhosted.org/packages/96/f1/e3126feff16ea68c8b9b28ce4d4488f042ec9ee0a08d55f08e843846b76a/hippo_api-1.0.0.post1-py3-none-any.whl
+[2023-08-03 12:20:28] INFO root fetch - processPackages [glycowork]: Downloading https://files.pythonhosted.org/packages/2d/e4/de9e149ccd5e207048d86ad273735c801487a44447bba8c434a513a5eba7/glycowork-0.7.0.tar.gz
+[2023-08-03 12:20:28] INFO root fetch - processPackages [mstrio-py]: Downloading https://files.pythonhosted.org/packages/a4/d2/b42ff7f4678478c1e261af14f326b5e893d426d1ec4aed816b5f09208632/mstrio-py-11.3.9.101.tar.gz
+[2023-08-03 12:20:28] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2023-08-03 12:20:28] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-08-03 12:20:28] WARNING root fetch - processPackages [glycowork]: Skipping package: exceeds size limit 74649938>=10485760
+[2023-08-03 12:20:28] INFO root fetch - main [MainThread]: End processing [glycowork] error
+[2023-08-03 12:20:29] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-08-03 12:20:29] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230803/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-08-03 12:20:29] INFO root fetch - processPackages [SimpliPyTEM]: Downloading https://files.pythonhosted.org/packages/a9/fe/f4aafab6c3063f424482b8a67b3690b80300191d3f2af54dc753e4e5244f/SimpliPyTEM-1.0.7.tar.gz
+[2023-08-03 12:20:29] INFO root fetch - processPackages [hippo-api]: Downloading https://files.pythonhosted.org/packages/70/f0/3e0fce7a012720d6bc30316b957e9a7f9acc700d4a9b2ee0e19fa36660cd/hippo_api-1.0.1-py3-none-any.whl
+[2023-08-03 12:20:29] INFO root fetch - processPackages [cwtune]: Downloading https://files.pythonhosted.org/packages/ab/f1/c0ee269697b28100133699d917e537a7cee26471b3575abd38fe1b99ba02/cwtune-0.2.0.tar.gz
+[2023-08-03 12:20:29] INFO root fetch - processPackages [SimpliPyTEM]: executing diffoscope
+[2023-08-03 12:20:29] INFO root fetch - processPackages [SimpliPyTEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpliPyTEM-1.0.6.tar.gz tmp/SimpliPyTEM-1.0.7.tar.gz --markdown 20230803/S/SimpliPyTEM/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-03 12:20:29] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-08-03 12:20:29] INFO root fetch - processPackages [hippo-api]: executing diffoscope
+[2023-08-03 12:20:29] INFO root fetch - processPackages [hippo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hippo_api-1.0.0.post1-py3-none-any.whl.zip tmp/hippo_api-1.0.1-py3-none-any.whl.zip --markdown 20230803/h/hippo-api/1.0.0.post1-1.0.1/diff.md --exclude *.pyd
+[2023-08-03 12:20:29] INFO root fetch - processPackages [cwtune]: executing diffoscope
+[2023-08-03 12:20:29] INFO root fetch - processPackages [cwtune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwtune-0.1.14.tar.gz tmp/cwtune-0.2.0.tar.gz --markdown 20230803/c/cwtune/0.1.14-0.2.0/diff.md --exclude *.pyd
+[2023-08-03 12:20:29] INFO root fetch - processPackages [sluyspy]: Downloading https://files.pythonhosted.org/packages/57/63/315f0a2381b239ccca34d6bc6a450de14abd766af694e35bd2e06340f14d/sluyspy-0.0.9.tar.gz
+[2023-08-03 12:20:29] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-08-03 12:20:29] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230803/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 12:20:29] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/f4/e0/0a6dc88d4280acebf357991a8e44b01ecf87dfdc914e9c91cef846369d6b/smartchart-6.6.9.2.tar.gz
+[2023-08-03 12:20:29] INFO root fetch - processPackages [mstrio-py]: Downloading https://files.pythonhosted.org/packages/89/7d/26554e41bec458147ea8ec867cfb44d29d9bad1d5219f1a9685e5787dd94/mstrio-py-11.3.9.103.tar.gz
+[2023-08-03 12:20:29] INFO root fetch - processPackages [sluyspy]: executing diffoscope
+[2023-08-03 12:20:29] INFO root fetch - processPackages [sluyspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sluyspy-0.0.8.tar.gz tmp/sluyspy-0.0.9.tar.gz --markdown 20230803/s/sluyspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 12:20:29] INFO root fetch - processPackages [mstrio-py]: executing diffoscope
+[2023-08-03 12:20:29] INFO root fetch - processPackages [mstrio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mstrio-py-11.3.9.101.tar.gz tmp/mstrio-py-11.3.9.103.tar.gz --markdown 20230803/m/mstrio-py/11.3.9.101-11.3.9.103/diff.md --exclude *.pyd
+[2023-08-03 12:20:29] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-08-03 12:20:29] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.9.1.tar.gz tmp/smartchart-6.6.9.2.tar.gz --markdown 20230803/s/smartchart/6.6.9.1-6.6.9.2/diff.md --exclude *.pyd
+[2023-08-03 12:20:30] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2023-08-03 12:20:30] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2023-08-03 12:20:30] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-08-03 12:20:30] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-08-03 12:20:30] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-08-03 12:20:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-08-03 12:20:30] INFO root fetch - processPackages [SimpliPyTEM]: Remove: archive file [/home/abi/fetcher/tmp/SimpliPyTEM-1.0.6.tar.gz]
+[2023-08-03 12:20:30] INFO root fetch - processPackages [SimpliPyTEM]: Remove: archive file [/home/abi/fetcher/tmp/SimpliPyTEM-1.0.7.tar.gz]
+[2023-08-03 12:20:30] INFO root fetch - main [MainThread]: End processing [SimpliPyTEM]: success
+[2023-08-03 12:20:30] INFO root fetch - processPackages [hippo-api]: Remove: archive file [/home/abi/fetcher/tmp/hippo_api-1.0.0.post1-py3-none-any.whl.zip]
+[2023-08-03 12:20:30] INFO root fetch - processPackages [hippo-api]: Remove: archive file [/home/abi/fetcher/tmp/hippo_api-1.0.1-py3-none-any.whl.zip]
+[2023-08-03 12:20:30] INFO root fetch - main [MainThread]: End processing [hippo-api]: success
+[2023-08-03 12:20:30] INFO root fetch - processPackages [cwtune]: Remove: archive file [/home/abi/fetcher/tmp/cwtune-0.1.14.tar.gz]
+[2023-08-03 12:20:30] INFO root fetch - processPackages [cwtune]: Remove: archive file [/home/abi/fetcher/tmp/cwtune-0.2.0.tar.gz]
+[2023-08-03 12:20:30] INFO root fetch - main [MainThread]: End processing [cwtune]: success
+[2023-08-03 12:20:30] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2023-08-03 12:20:30] INFO root fetch - processPackages [sluyspy]: Remove: archive file [/home/abi/fetcher/tmp/sluyspy-0.0.8.tar.gz]
+[2023-08-03 12:20:30] INFO root fetch - processPackages [sluyspy]: Remove: archive file [/home/abi/fetcher/tmp/sluyspy-0.0.9.tar.gz]
+[2023-08-03 12:20:30] INFO root fetch - main [MainThread]: End processing [sluyspy]: success
+[2023-08-03 12:20:32] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-08-03 12:20:32] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230803/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-08-03 12:20:33] INFO root fetch - processPackages [mstrio-py]: Remove: archive file [/home/abi/fetcher/tmp/mstrio-py-11.3.9.101.tar.gz]
+[2023-08-03 12:20:33] INFO root fetch - processPackages [mstrio-py]: Remove: archive file [/home/abi/fetcher/tmp/mstrio-py-11.3.9.103.tar.gz]
+[2023-08-03 12:20:33] INFO root fetch - main [MainThread]: End processing [mstrio-py]: success
+[2023-08-03 12:20:33] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.8.tar.gz]
+[2023-08-03 12:20:33] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
+[2023-08-03 12:20:33] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-08-03 12:20:33] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.9.1.tar.gz]
+[2023-08-03 12:20:33] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.9.2.tar.gz]
+[2023-08-03 12:20:33] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-08-03 12:20:33] INFO root fetch - main [MainThread]: Store serial: [19157585]
