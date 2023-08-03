@@ -11481,3 +11481,87 @@
 [2023-08-03 06:09:32] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.3.0-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-08-03 06:09:32] INFO root fetch - main [MainThread]: End processing [composabl]: success
 [2023-08-03 06:09:32] INFO root fetch - main [MainThread]: Store serial: [19153516]
+[2023-08-03 06:14:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153516]
+[2023-08-03 06:14:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-03 06:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kkpyutil
+[2023-08-03 06:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidy-tweet
+[2023-08-03 06:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prettier-prints
+[2023-08-03 06:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs2
+[2023-08-03 06:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: magnetocaloric
+[2023-08-03 06:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: StarClusterPlot
+[2023-08-03 06:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: image2layout-computer-vision
+[2023-08-03 06:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gs2-cdk
+[2023-08-03 06:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: periflow-client
+[2023-08-03 06:14:41] INFO root fetch - processPackages [gs2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-03 06:14:41] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 06:14:41] INFO root fetch - processPackages [prettier-prints]: New version: [1.3.1] Old Version: [1.2.0]
+[2023-08-03 06:14:41] INFO root fetch - processPackages [StarClusterPlot]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-03 06:14:41] INFO root fetch - processPackages [magnetocaloric]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-08-03 06:14:41] INFO root fetch - processPackages [gs2-cdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-03 06:14:41] INFO root fetch - processPackages [tidy-tweet]: New version: [1.0.0a6] Old Version: [1.0.0a5]
+[2023-08-03 06:14:41] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-08-03 06:14:41] INFO root fetch - processPackages [periflow-client]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-03 06:14:41] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/f4/b1/13ed585befcfa8c69b52af73acb96e39e14f443b95942ebcb9c4e9c2db0e/gs2-1.1.8.tar.gz
+[2023-08-03 06:14:41] INFO root fetch - processPackages [StarClusterPlot]: Downloading https://files.pythonhosted.org/packages/0d/0d/d0cda8714e03f9d1b87c35c62871b0f230a015956a15de7f7a20f25fcbe3/StarClusterPlot-0.1.2.tar.gz
+[2023-08-03 06:14:41] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/7e/cc/ed540655913ca2ef30701d3f3325abb71db0b407d707f9af21c88a5c9b89/image2layout_computer_vision-0.0.8.tar.gz
+[2023-08-03 06:14:41] INFO root fetch - processPackages [prettier-prints]: Downloading https://files.pythonhosted.org/packages/4c/4d/cdefc6ab5ffa1b979fbd0f34cc44a3a490d07783b5a5d389676831164087/prettier_prints-1.2.0-py3-none-any.whl
+[2023-08-03 06:14:41] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/e3/aa/0f163edc9bc64614a93358063b9233d886f8c00044a4ce8276f11777827e/gs2-cdk-1.0.8.tar.gz
+[2023-08-03 06:14:41] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/a3/a0/0851e6c811166c3d2d6d6eefcf5eacd40b417ffc796877d0afbc7f5cb560/magnetocaloric-1.2.4.tar.gz
+[2023-08-03 06:14:41] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-08-03 06:14:41] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/5f/92/ee6a02ad5a5d66abc8ca55e21c420b0ccc5ac335bbf764f50d45fa5896f0/tidy_tweet-1.0.0a5.tar.gz
+[2023-08-03 06:14:41] INFO root fetch - processPackages [periflow-client]: Downloading https://files.pythonhosted.org/packages/a7/24/68032a2ba3995f95aaf932a53f8dd85cefe8735bb2bb85cc7ab4020619bd/periflow_client-0.1.3.tar.gz
+[2023-08-03 06:14:41] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/b9/4f/fc1b1db4bb6a9f511d91debf7491a2e7804f52693e716c1de4937a9221e7/image2layout_computer_vision-0.0.9.tar.gz
+[2023-08-03 06:14:42] INFO root fetch - processPackages [StarClusterPlot]: Downloading https://files.pythonhosted.org/packages/49/ac/23bdb8c2bc5c1922f3319dd5e5c05d0229747d6dcb76cfaa8292d7bd95dc/StarClusterPlot-0.1.3.tar.gz
+[2023-08-03 06:14:42] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/9e/ad/b84dd85efc1650d47b3308d729fd537f26fee338fdb19a43c7a243d07107/gs2-1.1.9.tar.gz
+[2023-08-03 06:14:42] INFO root fetch - processPackages [prettier-prints]: Downloading https://files.pythonhosted.org/packages/a3/bc/fe889e00653806d1cfb9016bcc221fb2101843b7b5428394096d07d5470e/prettier_prints-1.3.1-py3-none-any.whl
+[2023-08-03 06:14:42] INFO root fetch - processPackages [StarClusterPlot]: executing diffoscope
+[2023-08-03 06:14:42] INFO root fetch - processPackages [StarClusterPlot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StarClusterPlot-0.1.2.tar.gz tmp/StarClusterPlot-0.1.3.tar.gz --markdown 20230803/S/StarClusterPlot/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-03 06:14:42] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/23/0e/f0a8dfd503a8d7ffd98b02e585680bf39868e84b844789a34fb369302733/magnetocaloric-1.2.5.tar.gz
+[2023-08-03 06:14:42] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-08-03 06:14:42] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-08-03 06:14:42] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.0.8.tar.gz tmp/image2layout_computer_vision-0.0.9.tar.gz --markdown 20230803/i/image2layout-computer-vision/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 06:14:42] INFO root fetch - processPackages [prettier-prints]: executing diffoscope
+[2023-08-03 06:14:42] INFO root fetch - processPackages [prettier-prints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettier_prints-1.2.0-py3-none-any.whl.zip tmp/prettier_prints-1.3.1-py3-none-any.whl.zip --markdown 20230803/p/prettier-prints/1.2.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-03 06:14:42] INFO root fetch - processPackages [magnetocaloric]: executing diffoscope
+[2023-08-03 06:14:42] INFO root fetch - processPackages [magnetocaloric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnetocaloric-1.2.4.tar.gz tmp/magnetocaloric-1.2.5.tar.gz --markdown 20230803/m/magnetocaloric/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-08-03 06:14:42] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2023-08-03 06:14:42] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.8.tar.gz tmp/gs2-1.1.9.tar.gz --markdown 20230803/g/gs2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-03 06:14:42] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/aa/c8/4c685dde7cd3ec13b69f0d5f6a6314cbaee70ccae2309f5e3c0923af450c/tidy_tweet-1.0.0a6.tar.gz
+[2023-08-03 06:14:42] INFO root fetch - processPackages [periflow-client]: Downloading https://files.pythonhosted.org/packages/88/24/19fe4bb637d7447e5ccd48a049a837d448fb311b9bb7f8ebb732bd05bb9b/periflow_client-0.1.4.tar.gz
+[2023-08-03 06:14:42] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-08-03 06:14:42] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230803/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-08-03 06:14:42] INFO root fetch - processPackages [tidy-tweet]: executing diffoscope
+[2023-08-03 06:14:42] INFO root fetch - processPackages [tidy-tweet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidy_tweet-1.0.0a5.tar.gz tmp/tidy_tweet-1.0.0a6.tar.gz --markdown 20230803/t/tidy-tweet/1.0.0a5-1.0.0a6/diff.md --exclude *.pyd
+[2023-08-03 06:14:42] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/29/69/56532d9a44c725ba36a6010c493491c32d238a25ff3b70b61de2bd6479ef/gs2-cdk-1.0.9.tar.gz
+[2023-08-03 06:14:42] INFO root fetch - processPackages [periflow-client]: executing diffoscope
+[2023-08-03 06:14:42] INFO root fetch - processPackages [periflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periflow_client-0.1.3.tar.gz tmp/periflow_client-0.1.4.tar.gz --markdown 20230803/p/periflow-client/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-03 06:14:42] INFO root fetch - processPackages [gs2-cdk]: executing diffoscope
+[2023-08-03 06:14:42] INFO root fetch - processPackages [gs2-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-cdk-1.0.8.tar.gz tmp/gs2-cdk-1.0.9.tar.gz --markdown 20230803/g/gs2-cdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-03 06:14:43] INFO root fetch - processPackages [prettier-prints]: Remove: archive file [/home/abi/fetcher/tmp/prettier_prints-1.2.0-py3-none-any.whl.zip]
+[2023-08-03 06:14:43] INFO root fetch - processPackages [prettier-prints]: Remove: archive file [/home/abi/fetcher/tmp/prettier_prints-1.3.1-py3-none-any.whl.zip]
+[2023-08-03 06:14:43] INFO root fetch - main [MainThread]: End processing [prettier-prints]: success
+[2023-08-03 06:14:43] INFO root fetch - processPackages [StarClusterPlot]: Remove: archive file [/home/abi/fetcher/tmp/StarClusterPlot-0.1.2.tar.gz]
+[2023-08-03 06:14:43] INFO root fetch - processPackages [StarClusterPlot]: Remove: archive file [/home/abi/fetcher/tmp/StarClusterPlot-0.1.3.tar.gz]
+[2023-08-03 06:14:43] INFO root fetch - main [MainThread]: End processing [StarClusterPlot]: success
+[2023-08-03 06:14:43] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.2.4.tar.gz]
+[2023-08-03 06:14:43] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.2.5.tar.gz]
+[2023-08-03 06:14:43] INFO root fetch - main [MainThread]: End processing [magnetocaloric]: success
+[2023-08-03 06:14:43] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.0.tar.gz]
+[2023-08-03 06:14:43] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
+[2023-08-03 06:14:43] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-08-03 06:14:43] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.8.tar.gz]
+[2023-08-03 06:14:43] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.9.tar.gz]
+[2023-08-03 06:14:43] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-08-03 06:14:44] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0a5.tar.gz]
+[2023-08-03 06:14:44] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0a6.tar.gz]
+[2023-08-03 06:14:44] INFO root fetch - main [MainThread]: End processing [tidy-tweet]: success
+[2023-08-03 06:14:44] INFO root fetch - processPackages [periflow-client]: Remove: archive file [/home/abi/fetcher/tmp/periflow_client-0.1.3.tar.gz]
+[2023-08-03 06:14:44] INFO root fetch - processPackages [periflow-client]: Remove: archive file [/home/abi/fetcher/tmp/periflow_client-0.1.4.tar.gz]
+[2023-08-03 06:14:44] INFO root fetch - main [MainThread]: End processing [periflow-client]: success
+[2023-08-03 06:14:45] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.8.tar.gz]
+[2023-08-03 06:14:45] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.9.tar.gz]
+[2023-08-03 06:14:45] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2023-08-03 06:14:45] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.8.tar.gz]
+[2023-08-03 06:14:45] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.9.tar.gz]
+[2023-08-03 06:14:45] INFO root fetch - main [MainThread]: End processing [gs2-cdk]: success
+[2023-08-03 06:14:45] INFO root fetch - main [MainThread]: Store serial: [19153546]
