@@ -16139,3 +16139,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-08-03 10:10:20] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9238204632375.tar.gz]
 [2023-08-03 10:10:20] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-08-03 10:10:20] INFO root fetch - main [MainThread]: Store serial: [19155767]
+[2023-08-03 10:15:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19155767]
+[2023-08-03 10:15:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-03 10:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packg
+[2023-08-03 10:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-data-loader
+[2023-08-03 10:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AsyncServerKate
+[2023-08-03 10:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: k1lib
+[2023-08-03 10:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: projen
+[2023-08-03 10:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-invoice-crm-tag
+[2023-08-03 10:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grizli
+[2023-08-03 10:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xj-migrate
+[2023-08-03 10:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: je-api-testka
+[2023-08-03 10:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boostnano
+[2023-08-03 10:15:29] WARNING root fetch - processPackages [multi-data-loader]: Skipping, unable to determine old version
+[2023-08-03 10:15:29] INFO root fetch - processPackages [multi-data-loader]: Start processing: hiddifypanel
+[2023-08-03 10:15:29] INFO root fetch - main [MainThread]: End processing [multi-data-loader] error
+[2023-08-03 10:15:29] WARNING root fetch - processPackages [boostnano]: Skipping, unable to determine old version
+[2023-08-03 10:15:29] INFO root fetch - processPackages [boostnano]: Start processing: raftify
+[2023-08-03 10:15:29] INFO root fetch - main [MainThread]: End processing [boostnano] error
+[2023-08-03 10:15:29] INFO root fetch - processPackages [k1lib]: New version: [1.4.3.3] Old Version: [1.4.3.2]
+[2023-08-03 10:15:29] WARNING root fetch - processPackages [raftify]: Skipping, unable to determine old version
+[2023-08-03 10:15:29] INFO root fetch - main [MainThread]: End processing [raftify] error
+[2023-08-03 10:15:29] INFO root fetch - processPackages [odoo-addon-account-invoice-crm-tag]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1]
+[2023-08-03 10:15:29] INFO root fetch - processPackages [grizli]: New version: [1.9.1] Old Version: [1.9]
+[2023-08-03 10:15:29] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-08-03 10:15:29] WARNING root fetch - processPackages [AsyncServerKate]: Skipping, unable to determine old version
+[2023-08-03 10:15:29] INFO root fetch - main [MainThread]: End processing [AsyncServerKate] error
+[2023-08-03 10:15:29] INFO root fetch - processPackages [packg]: New version: [0.2.27] Old Version: [0.2.26]
+[2023-08-03 10:15:29] INFO root fetch - processPackages [xj-migrate]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-03 10:15:29] INFO root fetch - processPackages [je-api-testka]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 10:15:30] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/9c/01/7f1df42adafc3254b4da39c311cf8ca082ce2926b3794becbfabb6687d84/k1lib-1.4.3.2.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev0] Old Version: [7.1.9]
+[2023-08-03 10:15:30] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [odoo-addon-account-invoice-crm-tag]: Downloading https://files.pythonhosted.org/packages/05/7e/c3a52a6219cc42658c779f827b138bcd4de3eab06ab20fc33085129824d3/odoo_addon_account_invoice_crm_tag-15.0.1.0.1-py3-none-any.whl
+[2023-08-03 10:15:30] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/a3/e5/07686feb57468989a1594e910e8b129ff0a8b5e508599977e3d292dd2f94/packg-0.2.26.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [xj-migrate]: Downloading https://files.pythonhosted.org/packages/79/b7/47163ebd89814453fcce295a069a99a94a491cda828cff3e5d52196cfdfc/xj-migrate-1.0.6.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/05/d3/6e752e8b6e2b67e21ffcd427ed3bac63c12348adf3a626180bee475ba1fd/je_api_testka-0.0.98.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/41/18/d86cee2ecb2c4edfa028d7b6c86e477d9fcfc048cf5fbc20d534ce8707f6/grizli-1.9.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/05/d4/62624f77f4ec1289bc7bc2e0122fa8d4566a67c9a7c149de1361c928d072/hiddifypanel-7.1.9.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [odoo-addon-account-invoice-crm-tag]: Downloading https://files.pythonhosted.org/packages/ce/df/21cedfe3395216d193a978ef4d72d1e555fbda3fb8ecba77ce06a5717f79/odoo_addon_account_invoice_crm_tag-15.0.1.0.2-py3-none-any.whl
+[2023-08-03 10:15:30] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/e6/e6/1acd7ccb1167639bccda549d1c74a3a4d09383635503dc8443cf6c43336e/k1lib-1.4.3.3.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/1f/b1/fa897c75a477506a02745cc9f0c32397bc6c427e4e4e80e12d039409f0fb/packg-0.2.27.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [odoo-addon-account-invoice-crm-tag]: executing diffoscope
+[2023-08-03 10:15:30] INFO root fetch - processPackages [odoo-addon-account-invoice-crm-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_crm_tag-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_crm_tag-15.0.1.0.2-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-account-invoice-crm-tag/15.0.1.0.1-15.0.1.0.2/diff.md --exclude *.pyd
+[2023-08-03 10:15:30] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/a2/12/2e290beab81cc049ca40bb4900a68a6a67cdad5d5a5c927a4b1499415d33/je_api_testka-0.0.99.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [xj-migrate]: Downloading https://files.pythonhosted.org/packages/89/7e/95932d51ad1672d645b9f606bc82feca1410dabaede7772d5fcf195134f6/xj-migrate-1.0.7.tar.gz
+[2023-08-03 10:15:30] INFO root fetch - processPackages [je-api-testka]: executing diffoscope
+[2023-08-03 10:15:30] INFO root fetch - processPackages [je-api-testka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka-0.0.98.tar.gz tmp/je_api_testka-0.0.99.tar.gz --markdown 20230803/j/je-api-testka/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 10:15:30] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-08-03 10:15:30] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.26.tar.gz tmp/packg-0.2.27.tar.gz --markdown 20230803/p/packg/0.2.26-0.2.27/diff.md --exclude *.pyd
+[2023-08-03 10:15:30] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-08-03 10:15:30] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.4.3.2.tar.gz tmp/k1lib-1.4.3.3.tar.gz --markdown 20230803/k/k1lib/1.4.3.2-1.4.3.3/diff.md --exclude *.pyd
+[2023-08-03 10:15:30] INFO root fetch - processPackages [xj-migrate]: executing diffoscope
+[2023-08-03 10:15:30] INFO root fetch - processPackages [xj-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj-migrate-1.0.6.tar.gz tmp/xj-migrate-1.0.7.tar.gz --markdown 20230803/x/xj-migrate/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-03 10:15:30] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-08-03 10:15:30] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230803/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-08-03 10:15:31] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/71/cb/19a8463d958e9da97cad75b01ffd58a601b4228ee34890aab53ae77cd3bc/hiddifypanel-8.0.0.dev0.tar.gz
+[2023-08-03 10:15:31] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/a2/80/d5b2a484cef7e700220e87dde0fcb7455d674ddda0347c7600e0d50032c1/grizli-1.9.1.tar.gz
+[2023-08-03 10:15:31] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-03 10:15:31] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.1.9.tar.gz tmp/hiddifypanel-8.0.0.dev0.tar.gz --markdown 20230803/h/hiddifypanel/7.1.9-8.0.0.dev0/diff.md --exclude *.pyd
+[2023-08-03 10:15:31] INFO root fetch - processPackages [grizli]: executing diffoscope
+[2023-08-03 10:15:31] INFO root fetch - processPackages [grizli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizli-1.9.tar.gz tmp/grizli-1.9.1.tar.gz --markdown 20230803/g/grizli/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-08-03 10:15:32] INFO root fetch - processPackages [odoo-addon-account-invoice-crm-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_crm_tag-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-03 10:15:32] INFO root fetch - processPackages [odoo-addon-account-invoice-crm-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_crm_tag-15.0.1.0.2-py3-none-any.whl.zip]
+[2023-08-03 10:15:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-crm-tag]: success
+[2023-08-03 10:15:32] INFO root fetch - processPackages [xj-migrate]: Remove: archive file [/home/abi/fetcher/tmp/xj-migrate-1.0.6.tar.gz]
+[2023-08-03 10:15:32] INFO root fetch - processPackages [xj-migrate]: Remove: archive file [/home/abi/fetcher/tmp/xj-migrate-1.0.7.tar.gz]
+[2023-08-03 10:15:32] INFO root fetch - main [MainThread]: End processing [xj-migrate]: success
+[2023-08-03 10:15:32] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.26.tar.gz]
+[2023-08-03 10:15:32] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.27.tar.gz]
+[2023-08-03 10:15:32] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-08-03 10:15:32] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.98.tar.gz]
+[2023-08-03 10:15:32] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.99.tar.gz]
+[2023-08-03 10:15:32] INFO root fetch - main [MainThread]: End processing [je-api-testka]: success
+[2023-08-03 10:15:32] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-08-03 10:15:32] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-08-03 10:15:32] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-08-03 10:15:32] INFO root fetch - processPackages [k1lib]: Remove: archive file [/home/abi/fetcher/tmp/k1lib-1.4.3.2.tar.gz]
+[2023-08-03 10:15:32] INFO root fetch - processPackages [k1lib]: Remove: archive file [/home/abi/fetcher/tmp/k1lib-1.4.3.3.tar.gz]
+[2023-08-03 10:15:32] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-08-03 10:15:35] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.9.tar.gz]
+[2023-08-03 10:15:35] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.9.1.tar.gz]
+[2023-08-03 10:15:35] INFO root fetch - main [MainThread]: End processing [grizli]: success
+[2023-08-03 10:15:36] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.9.tar.gz]
+[2023-08-03 10:15:36] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev0.tar.gz]
+[2023-08-03 10:15:36] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-03 10:15:36] INFO root fetch - main [MainThread]: Store serial: [19155813]
