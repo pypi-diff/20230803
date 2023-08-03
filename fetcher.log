@@ -19355,3 +19355,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 11:21:22] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev4.tar.gz]
 [2023-08-03 11:21:22] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-08-03 11:21:22] INFO root fetch - main [MainThread]: Store serial: [19156972]
+[2023-08-03 11:26:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19156972]
+[2023-08-03 11:26:31] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-03 11:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wowipy
+[2023-08-03 11:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hot-fair-utilities
+[2023-08-03 11:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dipex
+[2023-08-03 11:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvc
+[2023-08-03 11:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-wavefront
+[2023-08-03 11:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-inmanta
+[2023-08-03 11:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tinybird-cli
+[2023-08-03 11:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwon-baseline
+[2023-08-03 11:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chartart
+[2023-08-03 11:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AlgDiff
+[2023-08-03 11:26:31] INFO root fetch - processPackages [AlgDiff]: New version: [2.1.1] Old Version: [2.1]
+[2023-08-03 11:26:31] INFO root fetch - processPackages [pulumi-wavefront]: New version: [2.0.0a1690995516] Old Version: [2.0.0a0]
+[2023-08-03 11:26:31] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-08-03 11:26:31] INFO root fetch - processPackages [chartart]: New version: [0.0.3.dev23] Old Version: [0.0.3.dev22]
+[2023-08-03 11:26:31] INFO root fetch - processPackages [AlgDiff]: Downloading https://files.pythonhosted.org/packages/f5/97/d81864b8cfd6f78a0b42068c289c94188aa6fb3fd26b514172d2ff2db00f/AlgDiff-2.1.tar.gz
+[2023-08-03 11:26:31] INFO root fetch - processPackages [nwon-baseline]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-03 11:26:31] INFO root fetch - processPackages [wowipy]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-08-03 11:26:31] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/ab/06/2d963563a4d94f7ca9d8bd731b9b25b35f3a0981f8e338ac66a426772285/pulumi_wavefront-2.0.0a0.tar.gz
+[2023-08-03 11:26:31] INFO root fetch - processPackages [pytest-inmanta]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-08-03 11:26:31] INFO root fetch - processPackages [hot-fair-utilities]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-03 11:26:31] INFO root fetch - processPackages [dvc]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-08-03 11:26:32] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-08-03 11:26:32] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [chartart]: Downloading https://files.pythonhosted.org/packages/e4/2f/cf234bd11eecdc762a7978597f04c39077e182dc82eac296e11e926c3c02/chartart-0.0.3.dev22.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [nwon-baseline]: Downloading https://files.pythonhosted.org/packages/ba/35/2bd87bf0b5a389789720ad7cdab85ccc7b26503810dedb5276a2a3a31624/nwon_baseline-0.2.1.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/a2/cf/02b5ce40ce193342fecfa9c6fa634e0b344b13a199b9e03da80e23dcdc75/pulumi_wavefront-2.0.0a1690995516.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [pytest-inmanta]: Downloading https://files.pythonhosted.org/packages/55/3f/c72d8f576e4f68e8ae5169b7a712d5da53a2b80726624a1403f8fd86a9da/pytest-inmanta-2.7.0.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/07/06/7e13f21980ace4ff011c14df393b40e540414458dcc404767bc8a3779a84/wowipy-1.1.6.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/bd/2b/d427d0c781a0f09d653c7b90a0d9b792232769c21d0147c154b00cd75a2d/dvc-3.9.0.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [hot-fair-utilities]: Downloading https://files.pythonhosted.org/packages/60/e1/43c45312c25e2b9aa211bbc520597e2bb4da540463d09157e3b570a40ab5/hot-fair-utilities-1.1.1.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [AlgDiff]: Downloading https://files.pythonhosted.org/packages/e1/00/035965e89899bec97bd2a83485e8d2734ea5b72f70a03e16b2d23257b4b4/AlgDiff-2.1.1.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-08-03 11:26:32] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-2.0.0a0.tar.gz tmp/pulumi_wavefront-2.0.0a1690995516.tar.gz --markdown 20230803/p/pulumi-wavefront/2.0.0a0-2.0.0a1690995516/diff.md --exclude *.pyd
+[2023-08-03 11:26:32] INFO root fetch - processPackages [AlgDiff]: executing diffoscope
+[2023-08-03 11:26:32] INFO root fetch - processPackages [AlgDiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgDiff-2.1.tar.gz tmp/AlgDiff-2.1.1.tar.gz --markdown 20230803/A/AlgDiff/2.1-2.1.1/diff.md --exclude *.pyd
+[2023-08-03 11:26:32] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-08-03 11:26:32] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230803/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-08-03 11:26:32] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/2b/d9/64c21d6e4e93395e9572edd152c5e117fb4f258637232d80c309214e8f12/wowipy-1.1.7.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [chartart]: Downloading https://files.pythonhosted.org/packages/25/29/f32e8379e7083ad7bbb803dbd8f27437561f17febd28c9d8d99f575f8eaa/chartart-0.0.3.dev23.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [nwon-baseline]: Downloading https://files.pythonhosted.org/packages/5a/37/a8476cd7320d9eb60530d25157654409d984b73d3146d1058bfab81816e6/nwon_baseline-0.2.2.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [pytest-inmanta]: Downloading https://files.pythonhosted.org/packages/85/ba/06d6e2fd9c3e32096e7066287a1549ea08aa1690b14d96ce1375a39ce1fb/pytest-inmanta-2.8.0.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [hot-fair-utilities]: Downloading https://files.pythonhosted.org/packages/dc/69/2e8cea9debecc161e9e2567ddcfaf73d4309296e2cd2fc66bf9b47723bcc/hot-fair-utilities-1.1.2.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/30/3c/4d47accc46da04fafb05c09836ec780d0c7ca2dcfe17bdd5f659a2e9c9a2/dvc-3.9.1.tar.gz
+[2023-08-03 11:26:32] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-08-03 11:26:33] INFO root fetch - processPackages [wowipy]: executing diffoscope
+[2023-08-03 11:26:33] INFO root fetch - processPackages [wowipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wowipy-1.1.6.tar.gz tmp/wowipy-1.1.7.tar.gz --markdown 20230803/w/wowipy/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-08-03 11:26:33] INFO root fetch - processPackages [chartart]: executing diffoscope
+[2023-08-03 11:26:33] INFO root fetch - processPackages [chartart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartart-0.0.3.dev22.tar.gz tmp/chartart-0.0.3.dev23.tar.gz --markdown 20230803/c/chartart/0.0.3.dev22-0.0.3.dev23/diff.md --exclude *.pyd
+[2023-08-03 11:26:33] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-08-03 11:26:33] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.9.0.tar.gz tmp/dvc-3.9.1.tar.gz --markdown 20230803/d/dvc/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-08-03 11:26:33] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-08-03 11:26:33] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230803/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-08-03 11:26:33] INFO root fetch - processPackages [pytest-inmanta]: executing diffoscope
+[2023-08-03 11:26:33] INFO root fetch - processPackages [pytest-inmanta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-inmanta-2.7.0.tar.gz tmp/pytest-inmanta-2.8.0.tar.gz --markdown 20230803/p/pytest-inmanta/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-08-03 11:26:33] INFO root fetch - processPackages [hot-fair-utilities]: executing diffoscope
+[2023-08-03 11:26:33] INFO root fetch - processPackages [hot-fair-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hot-fair-utilities-1.1.1.tar.gz tmp/hot-fair-utilities-1.1.2.tar.gz --markdown 20230803/h/hot-fair-utilities/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-03 11:26:33] INFO root fetch - processPackages [nwon-baseline]: executing diffoscope
+[2023-08-03 11:26:33] INFO root fetch - processPackages [nwon-baseline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwon_baseline-0.2.1.tar.gz tmp/nwon_baseline-0.2.2.tar.gz --markdown 20230803/n/nwon-baseline/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-03 11:26:33] INFO root fetch - processPackages [AlgDiff]: Remove: archive file [/home/abi/fetcher/tmp/AlgDiff-2.1.tar.gz]
+[2023-08-03 11:26:33] INFO root fetch - processPackages [AlgDiff]: Remove: archive file [/home/abi/fetcher/tmp/AlgDiff-2.1.1.tar.gz]
+[2023-08-03 11:26:33] INFO root fetch - processPackages [AlgDiff]: Start processing: smol-k8s-lab
+[2023-08-03 11:26:33] INFO root fetch - main [MainThread]: End processing [AlgDiff]: success
+[2023-08-03 11:26:33] INFO root fetch - processPackages [smol-k8s-lab]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [smol-k8s-lab]: Downloading https://files.pythonhosted.org/packages/9d/87/13308be22204b51fb87e866b901eeeed544e88ea1a57a0ca37a6132ad894/smol_k8s_lab-0.9.2.tar.gz
+[2023-08-03 11:26:34] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-2.0.0a0.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-2.0.0a1690995516.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [pulumi-wavefront]: Start processing: monstermash
+[2023-08-03 11:26:34] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-08-03 11:26:34] INFO root fetch - processPackages [smol-k8s-lab]: Downloading https://files.pythonhosted.org/packages/af/4f/23da6cacde788d0bcd24e300bf328ec91cb8f76f9c2e4971c3c98340e06e/smol_k8s_lab-0.9.3.tar.gz
+[2023-08-03 11:26:34] INFO root fetch - processPackages [monstermash]: New version: [1.8.0] Old Version: [1.7.2]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [smol-k8s-lab]: executing diffoscope
+[2023-08-03 11:26:34] INFO root fetch - processPackages [smol-k8s-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol_k8s_lab-0.9.2.tar.gz tmp/smol_k8s_lab-0.9.3.tar.gz --markdown 20230803/s/smol-k8s-lab/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-03 11:26:34] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/d4/e9/9027d5984c76d3ebb9ee95037f0747ab0ead21220fb5b17184cd60a3a1fe/monstermash-1.7.2.tar.gz
+[2023-08-03 11:26:34] INFO root fetch - processPackages [chartart]: Remove: archive file [/home/abi/fetcher/tmp/chartart-0.0.3.dev22.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [chartart]: Remove: archive file [/home/abi/fetcher/tmp/chartart-0.0.3.dev23.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [chartart]: Start processing: pulumi-wavefront
+[2023-08-03 11:26:34] INFO root fetch - main [MainThread]: End processing [chartart]: success
+[2023-08-03 11:26:34] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [tinybird-cli]: Start processing: blivet
+[2023-08-03 11:26:34] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-08-03 11:26:34] INFO root fetch - processPackages [pulumi-wavefront]: New version: [2.0.0a1691053410] Old Version: [2.0.0a1691053402]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.6.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.7.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [wowipy]: Start processing: AlgDiff
+[2023-08-03 11:26:34] INFO root fetch - main [MainThread]: End processing [wowipy]: success
+[2023-08-03 11:26:34] INFO root fetch - processPackages [blivet]: New version: [3.8.0] Old Version: [3.7.1]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [AlgDiff]: New version: [2.1.1.2] Old Version: [2.1.1.1]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [hot-fair-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hot-fair-utilities-1.1.1.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [hot-fair-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hot-fair-utilities-1.1.2.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [hot-fair-utilities]: Start processing: fwdviewpy
+[2023-08-03 11:26:34] INFO root fetch - main [MainThread]: End processing [hot-fair-utilities]: success
+[2023-08-03 11:26:34] INFO root fetch - processPackages [pytest-inmanta]: Remove: archive file [/home/abi/fetcher/tmp/pytest-inmanta-2.7.0.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [pytest-inmanta]: Remove: archive file [/home/abi/fetcher/tmp/pytest-inmanta-2.8.0.tar.gz]
+[2023-08-03 11:26:34] INFO root fetch - processPackages [pytest-inmanta]: Start processing: jupyterhub-datalaboauthenticator
+[2023-08-03 11:26:34] INFO root fetch - main [MainThread]: End processing [pytest-inmanta]: success
+[2023-08-03 11:26:35] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/48/8c/5fbd8347038e86140d75dc2f34344a3c93559d9a12eb9d22e82967d6ce0f/pulumi_wavefront-2.0.0a1691053402.tar.gz
+[2023-08-03 11:26:35] INFO root fetch - processPackages [fwdviewpy]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-03 11:26:35] INFO root fetch - processPackages [AlgDiff]: Downloading https://files.pythonhosted.org/packages/34/71/68717d374e62fa5e7c16c6d9b027bf72359f26d673fe4b40492a392eec2d/AlgDiff-2.1.1.1.tar.gz
+[2023-08-03 11:26:35] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/17/fe/e109571c0cb6653424a37589c2dac0129b0678baa4ed76210d2fa3a9df03/monstermash-1.8.0.tar.gz
+[2023-08-03 11:26:35] INFO root fetch - processPackages [blivet]: Downloading https://files.pythonhosted.org/packages/83/c8/5f0d778023d2a9f9de707e8877bb9783a0948307d9d907f1b2904b290f72/blivet-3.7.1.tar.gz
+[2023-08-03 11:26:35] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-08-03 11:26:35] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-08-03 11:26:35] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-08-03 11:26:35] WARNING root fetch - processPackages [jupyterhub-datalaboauthenticator]: Skipping, unable to determine old version
+[2023-08-03 11:26:35] INFO root fetch - main [MainThread]: End processing [jupyterhub-datalaboauthenticator] error
+[2023-08-03 11:26:35] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/bf/47/e1cd17cf05039c10f66c25f194d96ca3740490420e1b58975b5e7dda54d9/fwdviewpy-0.2.3.tar.gz
+[2023-08-03 11:26:35] INFO root fetch - processPackages [monstermash]: executing diffoscope
+[2023-08-03 11:26:35] INFO root fetch - processPackages [monstermash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monstermash-1.7.2.tar.gz tmp/monstermash-1.8.0.tar.gz --markdown 20230803/m/monstermash/1.7.2-1.8.0/diff.md --exclude *.pyd
+[2023-08-03 11:26:35] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/25/82/f33799259dae0fa13e47fc34f12824b7acc4cd00c73442ecad56d7e0a4eb/fwdviewpy-0.2.4.tar.gz
+[2023-08-03 11:26:35] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/fa/89/191c807ea277b2a37db0987f5799e338ec309397db8cb147594ab41407dc/pulumi_wavefront-2.0.0a1691053410.tar.gz
+[2023-08-03 11:26:35] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-08-03 11:26:35] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.2.3.tar.gz tmp/fwdviewpy-0.2.4.tar.gz --markdown 20230803/f/fwdviewpy/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-03 11:26:35] INFO root fetch - processPackages [AlgDiff]: Downloading https://files.pythonhosted.org/packages/a7/bf/23f5f159cf48496da205bce66194b3ed3821f5962d3b63bc7e15bc70ca0f/AlgDiff-2.1.1.2.tar.gz
+[2023-08-03 11:26:35] INFO root fetch - processPackages [blivet]: Downloading https://files.pythonhosted.org/packages/80/e2/3c714f055f33bc7dfaa799bc641f40f568c0fa24c68b902d4c992568920f/blivet-3.8.0.tar.gz
+[2023-08-03 11:26:35] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-08-03 11:26:35] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-2.0.0a1691053402.tar.gz tmp/pulumi_wavefront-2.0.0a1691053410.tar.gz --markdown 20230803/p/pulumi-wavefront/2.0.0a1691053402-2.0.0a1691053410/diff.md --exclude *.pyd
+[2023-08-03 11:26:35] INFO root fetch - processPackages [AlgDiff]: executing diffoscope
+[2023-08-03 11:26:35] INFO root fetch - processPackages [AlgDiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgDiff-2.1.1.1.tar.gz tmp/AlgDiff-2.1.1.2.tar.gz --markdown 20230803/A/AlgDiff/2.1.1.1-2.1.1.2/diff.md --exclude *.pyd
+[2023-08-03 11:26:35] INFO root fetch - processPackages [smol-k8s-lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-0.9.2.tar.gz]
+[2023-08-03 11:26:35] INFO root fetch - processPackages [smol-k8s-lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-0.9.3.tar.gz]
+[2023-08-03 11:26:35] INFO root fetch - main [MainThread]: End processing [smol-k8s-lab]: success
+[2023-08-03 11:26:36] INFO root fetch - processPackages [blivet]: executing diffoscope
+[2023-08-03 11:26:36] INFO root fetch - processPackages [blivet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blivet-3.7.1.tar.gz tmp/blivet-3.8.0.tar.gz --markdown 20230803/b/blivet/3.7.1-3.8.0/diff.md --exclude *.pyd
+[2023-08-03 11:26:36] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.7.2.tar.gz]
+[2023-08-03 11:26:36] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.8.0.tar.gz]
+[2023-08-03 11:26:36] INFO root fetch - main [MainThread]: End processing [monstermash]: success
+[2023-08-03 11:26:36] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.2.3.tar.gz]
+[2023-08-03 11:26:36] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.2.4.tar.gz]
+[2023-08-03 11:26:36] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-08-03 11:26:36] INFO root fetch - processPackages [AlgDiff]: Remove: archive file [/home/abi/fetcher/tmp/AlgDiff-2.1.1.1.tar.gz]
+[2023-08-03 11:26:36] INFO root fetch - processPackages [AlgDiff]: Remove: archive file [/home/abi/fetcher/tmp/AlgDiff-2.1.1.2.tar.gz]
+[2023-08-03 11:26:36] INFO root fetch - main [MainThread]: End processing [AlgDiff]: success
+[2023-08-03 11:26:37] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-2.0.0a1691053402.tar.gz]
+[2023-08-03 11:26:37] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-2.0.0a1691053410.tar.gz]
+[2023-08-03 11:26:37] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-08-03 11:26:37] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.0.tar.gz]
+[2023-08-03 11:26:37] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.1.tar.gz]
+[2023-08-03 11:26:37] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-08-03 11:26:38] INFO root fetch - processPackages [nwon-baseline]: Remove: archive file [/home/abi/fetcher/tmp/nwon_baseline-0.2.1.tar.gz]
+[2023-08-03 11:26:38] INFO root fetch - processPackages [nwon-baseline]: Remove: archive file [/home/abi/fetcher/tmp/nwon_baseline-0.2.2.tar.gz]
+[2023-08-03 11:26:38] INFO root fetch - main [MainThread]: End processing [nwon-baseline]: success
+[2023-08-03 11:26:40] INFO root fetch - processPackages [blivet]: Remove: archive file [/home/abi/fetcher/tmp/blivet-3.7.1.tar.gz]
+[2023-08-03 11:26:40] INFO root fetch - processPackages [blivet]: Remove: archive file [/home/abi/fetcher/tmp/blivet-3.8.0.tar.gz]
+[2023-08-03 11:26:40] INFO root fetch - main [MainThread]: End processing [blivet]: success
+[2023-08-03 11:26:40] INFO root fetch - main [MainThread]: Store serial: [19157061]
