@@ -9290,3 +9290,27 @@
 [2023-08-03 03:46:07] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.8.0b4.tar.gz]
 [2023-08-03 03:46:07] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-08-03 03:46:07] INFO root fetch - main [MainThread]: Store serial: [19152662]
+[2023-08-03 03:51:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19152662]
+[2023-08-03 03:51:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-03 03:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CrazyDG
+[2023-08-03 03:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyintesishome
+[2023-08-03 03:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-08-03 03:51:16] WARNING root fetch - processPackages [CrazyDG]: Skipping, unable to determine old version
+[2023-08-03 03:51:16] INFO root fetch - main [MainThread]: End processing [CrazyDG] error
+[2023-08-03 03:51:16] INFO root fetch - processPackages [pyintesishome]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-08-03 03:51:16] INFO root fetch - processPackages [coiled]: New version: [0.9.5.dev9] Old Version: [0.9.5.dev8]
+[2023-08-03 03:51:16] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/24/6d/7e38de78e9f052f234b1170563fc1971e6ffc387d8426174fb4b981de64f/coiled-0.9.5.dev8.tar.gz
+[2023-08-03 03:51:16] INFO root fetch - processPackages [pyintesishome]: Downloading https://files.pythonhosted.org/packages/ee/fe/4ecb455a92870d5c15ce50162f4806e6884175f1691d3a87937e611aa694/pyintesishome-1.8.4.tar.gz
+[2023-08-03 03:51:17] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/de/d3/b197d5f4cd35d1634c7d1049508a9a3504620135205db52eb1add92737a2/coiled-0.9.5.dev9.tar.gz
+[2023-08-03 03:51:17] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-08-03 03:51:17] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.5.dev8.tar.gz tmp/coiled-0.9.5.dev9.tar.gz --markdown 20230803/c/coiled/0.9.5.dev8-0.9.5.dev9/diff.md --exclude *.pyd
+[2023-08-03 03:51:17] INFO root fetch - processPackages [pyintesishome]: Downloading https://files.pythonhosted.org/packages/db/a6/9a82717ae942115548f802e5110320081bd7ce625b3ecd63ddc0ac557210/pyintesishome-1.8.5.tar.gz
+[2023-08-03 03:51:17] INFO root fetch - processPackages [pyintesishome]: executing diffoscope
+[2023-08-03 03:51:17] INFO root fetch - processPackages [pyintesishome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyintesishome-1.8.4.tar.gz tmp/pyintesishome-1.8.5.tar.gz --markdown 20230803/p/pyintesishome/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-08-03 03:51:18] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.5.dev8.tar.gz]
+[2023-08-03 03:51:18] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.5.dev9.tar.gz]
+[2023-08-03 03:51:18] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-08-03 03:51:18] INFO root fetch - processPackages [pyintesishome]: Remove: archive file [/home/abi/fetcher/tmp/pyintesishome-1.8.4.tar.gz]
+[2023-08-03 03:51:18] INFO root fetch - processPackages [pyintesishome]: Remove: archive file [/home/abi/fetcher/tmp/pyintesishome-1.8.5.tar.gz]
+[2023-08-03 03:51:18] INFO root fetch - main [MainThread]: End processing [pyintesishome]: success
+[2023-08-03 03:51:18] INFO root fetch - main [MainThread]: Store serial: [19152674]
