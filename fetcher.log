@@ -19817,3 +19817,121 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 11:42:18] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
 [2023-08-03 11:42:18] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2023-08-03 11:42:18] INFO root fetch - main [MainThread]: Store serial: [19157219]
+[2023-08-03 11:47:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157219]
+[2023-08-03 11:47:27] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-03 11:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langfuse
+[2023-08-03 11:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyGithub
+[2023-08-03 11:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asammdf
+[2023-08-03 11:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zadarapyV2
+[2023-08-03 11:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hgcal-swamp
+[2023-08-03 11:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-wavefront
+[2023-08-03 11:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-wavefront
+[2023-08-03 11:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tektronixosc
+[2023-08-03 11:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: terragrunt-generator
+[2023-08-03 11:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: setuptools-github
+[2023-08-03 11:47:28] INFO root fetch - processPackages [PyGithub]: New version: [2.0.0rc1] Old Version: [2.0.0rc0]
+[2023-08-03 11:47:28] INFO root fetch - processPackages [pulumi-wavefront]: New version: [2.0.0a1691053410] Old Version: [2.0.0a1691053402]
+[2023-08-03 11:47:28] INFO root fetch - processPackages [terragrunt-generator]: New version: [0.7.0] Old Version: [0.6.6]
+[2023-08-03 11:47:28] INFO root fetch - processPackages [hgcal-swamp]: New version: [1.1] Old Version: [1.0]
+[2023-08-03 11:47:28] INFO root fetch - processPackages [setuptools-github]: New version: [0.3.2b78] Old Version: [0.3.2b77]
+[2023-08-03 11:47:28] INFO root fetch - processPackages [pulumi-wavefront]: New version: [2.0.0a1691053410] Old Version: [2.0.0a1691053402]
+[2023-08-03 11:47:28] WARNING root fetch - processPackages [tektronixosc]: Skipping, unable to determine old version
+[2023-08-03 11:47:28] INFO root fetch - processPackages [tektronixosc]: Start processing: numspark
+[2023-08-03 11:47:28] INFO root fetch - main [MainThread]: End processing [tektronixosc] error
+[2023-08-03 11:47:28] INFO root fetch - processPackages [zadarapyV2]: New version: [23.3.1.dev120] Old Version: [23.3.1.120]
+[2023-08-03 11:47:28] INFO root fetch - processPackages [langfuse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:47:28] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/48/8c/5fbd8347038e86140d75dc2f34344a3c93559d9a12eb9d22e82967d6ce0f/pulumi_wavefront-2.0.0a1691053402.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [hgcal-swamp]: Downloading https://files.pythonhosted.org/packages/90/56/7dd8a15767c1754c974a9032e364171e45a8437ba81760ad73bc3ed8c289/hgcal_swamp-1.0.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [terragrunt-generator]: Downloading https://files.pythonhosted.org/packages/35/bc/e16f7acebd2876a8c5cce94fa6843e45602ac58d341faf621baf3637c59d/terragrunt-generator-0.6.6.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/a1/34/60ac75349a0555d5464f67b5d5f491e8bdbd22c4efebc0eafe1680047065/setuptools-github-0.3.2b77.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/48/8c/5fbd8347038e86140d75dc2f34344a3c93559d9a12eb9d22e82967d6ce0f/pulumi_wavefront-2.0.0a1691053402.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [asammdf]: New version: [7.3.9] Old Version: [7.3.8]
+[2023-08-03 11:47:28] INFO root fetch - processPackages [PyGithub]: Downloading https://files.pythonhosted.org/packages/87/48/0a7da7ad1c438eadaee370d9a964a30026291e8cc0f893f625c927d6a763/PyGithub-2.0.0rc0.tar.gz
+[2023-08-03 11:47:28] WARNING root fetch - processPackages [numspark]: Skipping, unable to determine old version
+[2023-08-03 11:47:28] INFO root fetch - processPackages [numspark]: Start processing: titiler.image
+[2023-08-03 11:47:28] INFO root fetch - main [MainThread]: End processing [numspark] error
+[2023-08-03 11:47:28] WARNING root fetch - processPackages [titiler.image]: Skipping, unable to determine old version
+[2023-08-03 11:47:28] INFO root fetch - processPackages [titiler.image]: Start processing: nemusicapi
+[2023-08-03 11:47:28] INFO root fetch - main [MainThread]: End processing [titiler.image] error
+[2023-08-03 11:47:28] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/fc/40/3ef74e4912171af535ce42a8496b5d514b756a0b45ff32bc1feed39955ef/langfuse-0.0.8.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [zadarapyV2]: Downloading https://files.pythonhosted.org/packages/00/f7/c6d9dff1c0a4425dd632cd745850509619bb1ac0c02fc74bc0cad835699c/zadarapyV2-23.3.1.120.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [nemusicapi]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-08-03 11:47:28] INFO root fetch - processPackages [hgcal-swamp]: Downloading https://files.pythonhosted.org/packages/66/4e/94d3d42e9091dd30003ac246c513b425795d3b79a8cf61905cc4903337bf/hgcal_swamp-1.1.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/fa/89/191c807ea277b2a37db0987f5799e338ec309397db8cb147594ab41407dc/pulumi_wavefront-2.0.0a1691053410.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [terragrunt-generator]: Downloading https://files.pythonhosted.org/packages/4a/c1/a0e5244b1e91fe0c680d5f07ddfc3d44458fea3e06e2dbcd21dd1d6aacd2/terragrunt-generator-0.7.0.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [asammdf]: Downloading https://files.pythonhosted.org/packages/6a/cd/02337a529d16d57d1963f0aaa462273ebfbc2e6d1ab67f1d462cdd64b67e/asammdf-7.3.8.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/fa/89/191c807ea277b2a37db0987f5799e338ec309397db8cb147594ab41407dc/pulumi_wavefront-2.0.0a1691053410.tar.gz
+[2023-08-03 11:47:28] INFO root fetch - processPackages [hgcal-swamp]: executing diffoscope
+[2023-08-03 11:47:28] INFO root fetch - processPackages [hgcal-swamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgcal_swamp-1.0.tar.gz tmp/hgcal_swamp-1.1.tar.gz --markdown 20230803/h/hgcal-swamp/1.0-1.1/diff.md --exclude *.pyd
+[2023-08-03 11:47:28] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/6a/2f/b3600fcff163f8429a665bcf24907166852865ba16f2852d739de1537019/nemusicapi-0.1.1a1.tar.gz
+[2023-08-03 11:47:29] INFO root fetch - processPackages [terragrunt-generator]: executing diffoscope
+[2023-08-03 11:47:29] INFO root fetch - processPackages [terragrunt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terragrunt-generator-0.6.6.tar.gz tmp/terragrunt-generator-0.7.0.tar.gz --markdown 20230803/t/terragrunt-generator/0.6.6-0.7.0/diff.md --exclude *.pyd
+[2023-08-03 11:47:29] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/09/73/62a323f37bd698d88bc07c7d9cf18506487ade3652e32025145f6251ec63/setuptools-github-0.3.2b78.tar.gz
+[2023-08-03 11:47:29] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-08-03 11:47:29] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-2.0.0a1691053402.tar.gz tmp/pulumi_wavefront-2.0.0a1691053410.tar.gz --markdown 20230803/p/pulumi-wavefront/2.0.0a1691053402-2.0.0a1691053410/diff.md --exclude *.pyd
+[2023-08-03 11:47:29] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-08-03 11:47:29] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-2.0.0a1691053402.tar.gz tmp/pulumi_wavefront-2.0.0a1691053410.tar.gz --markdown 20230803/p/pulumi-wavefront/2.0.0a1691053402-2.0.0a1691053410/diff.md --exclude *.pyd
+[2023-08-03 11:47:29] INFO root fetch - processPackages [setuptools-github]: executing diffoscope
+[2023-08-03 11:47:29] INFO root fetch - processPackages [setuptools-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-github-0.3.2b77.tar.gz tmp/setuptools-github-0.3.2b78.tar.gz --markdown 20230803/s/setuptools-github/0.3.2b77-0.3.2b78/diff.md --exclude *.pyd
+[2023-08-03 11:47:29] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/a3/6a/95eb0d740a1f91ce539617150bdf06282bad7e47ab66b7bf599d696f52d9/langfuse-0.0.9.tar.gz
+[2023-08-03 11:47:29] INFO root fetch - processPackages [asammdf]: Downloading https://files.pythonhosted.org/packages/fa/99/d6f332cab8102c6edec82e40775474ae6dd55aed8f47b7294076641b74b3/asammdf-7.3.9.tar.gz
+[2023-08-03 11:47:29] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-08-03 11:47:29] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.8.tar.gz tmp/langfuse-0.0.9.tar.gz --markdown 20230803/l/langfuse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:47:29] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/4f/3c/a8cdf70c5aa78a1e8cb5652535119336957aaddcf68b9b64bfb090e38d1b/nemusicapi-0.1.1a2.tar.gz
+[2023-08-03 11:47:29] INFO root fetch - processPackages [PyGithub]: Downloading https://files.pythonhosted.org/packages/4e/90/d233f45d08243401ec8e3c033ea1970ba5495ff7b8bb85fc761db8d48f6b/PyGithub-2.0.0rc1.tar.gz
+[2023-08-03 11:47:29] INFO root fetch - processPackages [asammdf]: executing diffoscope
+[2023-08-03 11:47:29] INFO root fetch - processPackages [asammdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asammdf-7.3.8.tar.gz tmp/asammdf-7.3.9.tar.gz --markdown 20230803/a/asammdf/7.3.8-7.3.9/diff.md --exclude *.pyd
+[2023-08-03 11:47:29] INFO root fetch - processPackages [zadarapyV2]: Downloading https://files.pythonhosted.org/packages/84/d7/836f1e3623283a2192efa1b3c97df036f7e83fa94fd65ca3eceb93064c0f/zadarapyV2-23.3.1.dev120.tar.gz
+[2023-08-03 11:47:29] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 11:47:29] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.1.1a1.tar.gz tmp/nemusicapi-0.1.1a2.tar.gz --markdown 20230803/n/nemusicapi/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-08-03 11:47:30] INFO root fetch - processPackages [zadarapyV2]: executing diffoscope
+[2023-08-03 11:47:30] INFO root fetch - processPackages [zadarapyV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zadarapyV2-23.3.1.120.tar.gz tmp/zadarapyV2-23.3.1.dev120.tar.gz --markdown 20230803/z/zadarapyV2/23.3.1.120-23.3.1.dev120/diff.md --exclude *.pyd
+[2023-08-03 11:47:30] INFO root fetch - processPackages [hgcal-swamp]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_swamp-1.0.tar.gz]
+[2023-08-03 11:47:30] INFO root fetch - processPackages [hgcal-swamp]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_swamp-1.1.tar.gz]
+[2023-08-03 11:47:30] INFO root fetch - processPackages [hgcal-swamp]: Start processing: nucleus-driver
+[2023-08-03 11:47:30] INFO root fetch - main [MainThread]: End processing [hgcal-swamp]: success
+[2023-08-03 11:47:30] INFO root fetch - processPackages [terragrunt-generator]: Remove: archive file [/home/abi/fetcher/tmp/terragrunt-generator-0.6.6.tar.gz]
+[2023-08-03 11:47:30] INFO root fetch - processPackages [terragrunt-generator]: Remove: archive file [/home/abi/fetcher/tmp/terragrunt-generator-0.7.0.tar.gz]
+[2023-08-03 11:47:30] INFO root fetch - processPackages [terragrunt-generator]: Start processing: databricks-aws-utils
+[2023-08-03 11:47:30] INFO root fetch - main [MainThread]: End processing [terragrunt-generator]: success
+[2023-08-03 11:47:30] INFO root fetch - processPackages [PyGithub]: executing diffoscope
+[2023-08-03 11:47:30] INFO root fetch - processPackages [PyGithub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGithub-2.0.0rc0.tar.gz tmp/PyGithub-2.0.0rc1.tar.gz --markdown 20230803/P/PyGithub/2.0.0rc0-2.0.0rc1/diff.md --exclude *.pyd
+[2023-08-03 11:47:30] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.2b77.tar.gz]
+[2023-08-03 11:47:30] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.2b78.tar.gz]
+[2023-08-03 11:47:30] INFO root fetch - main [MainThread]: End processing [setuptools-github]: success
+[2023-08-03 11:47:30] INFO root fetch - processPackages [nucleus-driver]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-08-03 11:47:30] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-2.0.0a1691053402.tar.gz]
+[2023-08-03 11:47:30] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-2.0.0a1691053410.tar.gz]
+[2023-08-03 11:47:30] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-08-03 11:47:30] INFO root fetch - processPackages [databricks-aws-utils]: New version: [1.4.0b1] Old Version: [1.3.3b1]
+[2023-08-03 11:47:30] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-08-03 11:47:30] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.8.tar.gz]
+[2023-08-03 11:47:30] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.9.tar.gz]
+[2023-08-03 11:47:30] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-08-03 11:47:30] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/c4/47/d05a5cdd9c6e6c0247bc8945a60b9bceb58807df10a8592a3e7a9e7b9dc3/nucleus_driver-1.5.5.tar.gz
+[2023-08-03 11:47:30] INFO root fetch - processPackages [databricks-aws-utils]: Downloading https://files.pythonhosted.org/packages/24/d8/c31e267411af4fec34eabee44bd4b9f00237d077537c442c6547aed422b4/databricks_aws_utils-1.3.3b1.tar.gz
+[2023-08-03 11:47:31] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.1a1.tar.gz]
+[2023-08-03 11:47:31] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.1a2.tar.gz]
+[2023-08-03 11:47:31] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 11:47:31] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/c6/7c/04ade6fe8c8742c6b69b83a6838e37e38096483f0d832caf141e62129efa/nucleus_driver-1.5.6.tar.gz
+[2023-08-03 11:47:31] INFO root fetch - processPackages [nucleus-driver]: executing diffoscope
+[2023-08-03 11:47:31] INFO root fetch - processPackages [nucleus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucleus_driver-1.5.5.tar.gz tmp/nucleus_driver-1.5.6.tar.gz --markdown 20230803/n/nucleus-driver/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-08-03 11:47:31] INFO root fetch - processPackages [databricks-aws-utils]: Downloading https://files.pythonhosted.org/packages/e4/15/93a9072f17bd8382ce8378dad0d83dd2ee7773ed7b447c01f2c9967918d4/databricks_aws_utils-1.4.0b1.tar.gz
+[2023-08-03 11:47:31] INFO root fetch - processPackages [asammdf]: Remove: archive file [/home/abi/fetcher/tmp/asammdf-7.3.8.tar.gz]
+[2023-08-03 11:47:31] INFO root fetch - processPackages [asammdf]: Remove: archive file [/home/abi/fetcher/tmp/asammdf-7.3.9.tar.gz]
+[2023-08-03 11:47:31] INFO root fetch - main [MainThread]: End processing [asammdf]: success
+[2023-08-03 11:47:31] INFO root fetch - processPackages [databricks-aws-utils]: executing diffoscope
+[2023-08-03 11:47:31] INFO root fetch - processPackages [databricks-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_aws_utils-1.3.3b1.tar.gz tmp/databricks_aws_utils-1.4.0b1.tar.gz --markdown 20230803/d/databricks-aws-utils/1.3.3b1-1.4.0b1/diff.md --exclude *.pyd
+[2023-08-03 11:47:32] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.5.5.tar.gz]
+[2023-08-03 11:47:32] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.5.6.tar.gz]
+[2023-08-03 11:47:32] INFO root fetch - main [MainThread]: End processing [nucleus-driver]: success
+[2023-08-03 11:47:32] INFO root fetch - processPackages [databricks-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/databricks_aws_utils-1.3.3b1.tar.gz]
+[2023-08-03 11:47:32] INFO root fetch - processPackages [databricks-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/databricks_aws_utils-1.4.0b1.tar.gz]
+[2023-08-03 11:47:32] INFO root fetch - main [MainThread]: End processing [databricks-aws-utils]: success
+[2023-08-03 11:47:40] INFO root fetch - processPackages [PyGithub]: Remove: archive file [/home/abi/fetcher/tmp/PyGithub-2.0.0rc0.tar.gz]
+[2023-08-03 11:47:40] INFO root fetch - processPackages [PyGithub]: Remove: archive file [/home/abi/fetcher/tmp/PyGithub-2.0.0rc1.tar.gz]
+[2023-08-03 11:47:40] INFO root fetch - main [MainThread]: End processing [PyGithub]: success
+[2023-08-03 11:48:03] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.3.1.120.tar.gz]
+[2023-08-03 11:48:03] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.3.1.dev120.tar.gz]
+[2023-08-03 11:48:03] INFO root fetch - main [MainThread]: End processing [zadarapyV2]: success
+[2023-08-03 11:48:03] INFO root fetch - main [MainThread]: Store serial: [19157278]
