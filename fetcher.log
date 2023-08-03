@@ -22195,3 +22195,233 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 13:23:37] INFO root fetch - processPackages [omni-infer-api]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api-0.0.8-py3-none-any.whl.zip]
 [2023-08-03 13:23:37] INFO root fetch - main [MainThread]: End processing [omni-infer-api]: success
 [2023-08-03 13:23:37] INFO root fetch - main [MainThread]: Store serial: [19158198]
+[2023-08-03 13:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19158198]
+[2023-08-03 13:28:46] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-08-03 13:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wordview
+[2023-08-03 13:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rath
+[2023-08-03 13:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tair
+[2023-08-03 13:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: burnysc2
+[2023-08-03 13:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: setuptools-github
+[2023-08-03 13:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bagbag
+[2023-08-03 13:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chaostoolkit-reliably
+[2023-08-03 13:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phc-ingestion
+[2023-08-03 13:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: parsec-cloud
+[2023-08-03 13:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchtnt-nightly
+[2023-08-03 13:28:46] INFO root fetch - processPackages [setuptools-github]: New version: [0.3.3b84] Old Version: [0.3.2b83]
+[2023-08-03 13:28:46] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.8.2] Old Version: [2023.8.1]
+[2023-08-03 13:28:46] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 13:28:46] INFO root fetch - processPackages [tair]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-08-03 13:28:46] INFO root fetch - processPackages [wordview]: New version: [1.0.0] Old Version: [0.4.2]
+[2023-08-03 13:28:46] INFO root fetch - processPackages [rath]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-03 13:28:46] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/f6/c8/4d1e8a4a6b45d05d727489bab467153bcedf66f5a0ef757bab210d0f6f9a/setuptools-github-0.3.2b83.tar.gz
+[2023-08-03 13:28:46] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.46] Old Version: [0.3.45]
+[2023-08-03 13:28:46] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/32/df/58422a4f470f2c9c9d486c7b83bf6c238d72841a2ae64f0b7c88350a6b01/chaostoolkit-reliably-0.9.3.tar.gz
+[2023-08-03 13:28:46] INFO root fetch - processPackages [burnysc2]: New version: [6.4.0] Old Version: [6.3.0]
+[2023-08-03 13:28:46] INFO root fetch - processPackages [parsec-cloud]: New version: [2.9.2] Old Version: [2.9.0rc2]
+[2023-08-03 13:28:46] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-08-03 13:28:47] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/90/7c/2cf89f3905bde7fbe5ecdf5a659117672d39c181b8bf65b6e4c4c376c35b/torchtnt-nightly-2023.8.1.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/fb/86/0608709688e0db87361d7da96042af2f43dcb9479bf33146a565c70cfda5/wordview-0.4.2.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [tair]: Downloading https://files.pythonhosted.org/packages/d1/50/762d6dd9e86a0776013dedcbd87fcda63bf8e482e053a4d23302a2a60eb8/tair-1.3.5.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [rath]: Downloading https://files.pythonhosted.org/packages/2e/91/0b6bd9ad60d2236ce4d7d423c3fead7bae06785eb56e9053babf5b1f2470/rath-0.4.1.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [burnysc2]: Downloading https://files.pythonhosted.org/packages/52/72/c7daf744623bf2b5c2d2c303a12ebfd57749a295c0a80173fcf1772978aa/burnysc2-6.3.0.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/49/50/5860f381948bc50e6607b83a97e40815aceff97eb6d5a1d74a135a0d7b7e/phc-ingestion-0.3.45.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [parsec-cloud]: Downloading https://files.pythonhosted.org/packages/cf/e4/3671050f3250178ae0281b09961a3e9e2ff3354ad6b5f7bdda5e1f3b5e59/parsec_cloud-2.9.0rc2-py3-none-any.whl
+[2023-08-03 13:28:47] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/b8/c5/810c74691ec477bb4963d5199f379e4a81d6cce5b71db42bc848f3477e16/chaostoolkit-reliably-0.9.4.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/53/f2/cdeb54c02a9f5986dc7955908094ef1084448e565972eacf5643536ea66e/setuptools-github-0.3.3b84.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/f7/29/940a1a244f3db7cfd47dc64ad42e6a80bc5de271437227843e55e34081c5/wordview-1.0.0.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [setuptools-github]: executing diffoscope
+[2023-08-03 13:28:47] INFO root fetch - processPackages [setuptools-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-github-0.3.2b83.tar.gz tmp/setuptools-github-0.3.3b84.tar.gz --markdown 20230803/s/setuptools-github/0.3.2b83-0.3.3b84/diff.md --exclude *.pyd
+[2023-08-03 13:28:47] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-08-03 13:28:47] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230803/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 13:28:47] INFO root fetch - processPackages [tair]: Downloading https://files.pythonhosted.org/packages/30/a5/d1b8915a27f2b16657acb3758539385407176452804cbb8879bec8bf2184/tair-1.3.6.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/7a/a9/91e155dea65b61cb732a62d37d5f29c37652ee564e7a67cfd70c22b9c437/torchtnt-nightly-2023.8.2.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [rath]: Downloading https://files.pythonhosted.org/packages/1d/96/b3a0b59d81ee55606ecaa4758ba15bc14ed28cb15d739ce74243985b97a3/rath-0.4.2.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-08-03 13:28:47] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-0.4.2.tar.gz tmp/wordview-1.0.0.tar.gz --markdown 20230803/w/wordview/0.4.2-1.0.0/diff.md --exclude *.pyd
+[2023-08-03 13:28:47] INFO root fetch - processPackages [tair]: executing diffoscope
+[2023-08-03 13:28:47] INFO root fetch - processPackages [tair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tair-1.3.5.tar.gz tmp/tair-1.3.6.tar.gz --markdown 20230803/t/tair/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-08-03 13:28:47] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-08-03 13:28:47] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.8.1.tar.gz tmp/torchtnt-nightly-2023.8.2.tar.gz --markdown 20230803/t/torchtnt-nightly/2023.8.1-2023.8.2/diff.md --exclude *.pyd
+[2023-08-03 13:28:47] INFO root fetch - processPackages [burnysc2]: Downloading https://files.pythonhosted.org/packages/d3/23/8cea78c56e6d6c0c9697dad171e451033c1f092ac74837c0cbcf1302f7b8/burnysc2-6.4.0.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [rath]: executing diffoscope
+[2023-08-03 13:28:47] INFO root fetch - processPackages [rath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rath-0.4.1.tar.gz tmp/rath-0.4.2.tar.gz --markdown 20230803/r/rath/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-03 13:28:47] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/e4/d4/93ecbdc679a18a208f5de95d23f32951622d0610e5030f7f47417cee061b/phc-ingestion-0.3.46.tar.gz
+[2023-08-03 13:28:47] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-08-03 13:28:47] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230803/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-08-03 13:28:47] INFO root fetch - processPackages [burnysc2]: executing diffoscope
+[2023-08-03 13:28:47] INFO root fetch - processPackages [burnysc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burnysc2-6.3.0.tar.gz tmp/burnysc2-6.4.0.tar.gz --markdown 20230803/b/burnysc2/6.3.0-6.4.0/diff.md --exclude *.pyd
+[2023-08-03 13:28:48] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-08-03 13:28:48] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.3.45.tar.gz tmp/phc-ingestion-0.3.46.tar.gz --markdown 20230803/p/phc-ingestion/0.3.45-0.3.46/diff.md --exclude *.pyd
+[2023-08-03 13:28:48] INFO root fetch - processPackages [parsec-cloud]: Downloading https://files.pythonhosted.org/packages/72/52/73f86e5611912f232d4a195f8ee4ed5d775a86d8ce4861422cceed603c4d/parsec_cloud-2.9.2-py3-none-any.whl
+[2023-08-03 13:28:48] INFO root fetch - processPackages [parsec-cloud]: executing diffoscope
+[2023-08-03 13:28:48] INFO root fetch - processPackages [parsec-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsec_cloud-2.9.0rc2-py3-none-any.whl.zip tmp/parsec_cloud-2.9.2-py3-none-any.whl.zip --markdown 20230803/p/parsec-cloud/2.9.0rc2-2.9.2/diff.md --exclude *.pyd
+[2023-08-03 13:28:49] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.2b83.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.3b84.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [setuptools-github]: Start processing: bletl
+[2023-08-03 13:28:49] INFO root fetch - main [MainThread]: End processing [setuptools-github]: success
+[2023-08-03 13:28:49] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.3.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.4.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [chaostoolkit-reliably]: Start processing: fastlogistic
+[2023-08-03 13:28:49] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-08-03 13:28:49] INFO root fetch - processPackages [bletl]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-08-03 13:28:49] WARNING root fetch - processPackages [fastlogistic]: Skipping, unable to determine old version
+[2023-08-03 13:28:49] INFO root fetch - processPackages [fastlogistic]: Start processing: mplabml
+[2023-08-03 13:28:49] INFO root fetch - main [MainThread]: End processing [fastlogistic] error
+[2023-08-03 13:28:49] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.4.2.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-1.0.0.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [wordview]: Start processing: q1simulator
+[2023-08-03 13:28:49] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-08-03 13:28:49] INFO root fetch - processPackages [tair]: Remove: archive file [/home/abi/fetcher/tmp/tair-1.3.5.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [tair]: Remove: archive file [/home/abi/fetcher/tmp/tair-1.3.6.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [tair]: Start processing: nxtomomill
+[2023-08-03 13:28:49] INFO root fetch - main [MainThread]: End processing [tair]: success
+[2023-08-03 13:28:49] WARNING root fetch - processPackages [mplabml]: Skipping, unable to determine old version
+[2023-08-03 13:28:49] INFO root fetch - processPackages [mplabml]: Start processing: torchx-nightly
+[2023-08-03 13:28:49] INFO root fetch - main [MainThread]: End processing [mplabml] error
+[2023-08-03 13:28:49] INFO root fetch - processPackages [bletl]: Downloading https://files.pythonhosted.org/packages/28/11/e6f3324fb42dc1b3bc2dd7c3496c7ace422469a4ba7284a7fdedb329fbea/bletl-1.3.1.tar.gz
+[2023-08-03 13:28:49] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.8.2] Old Version: [2023.8.1]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [q1simulator]: New version: [0.9.4] Old Version: [0.9.1]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [nxtomomill]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/e4/fa/c58f54bb6f7c088a1a0af9e811006fd475d4d26db86dc46cbab8b926a850/torchx_nightly-2023.8.1-py3-none-any.whl
+[2023-08-03 13:28:49] INFO root fetch - processPackages [rath]: Remove: archive file [/home/abi/fetcher/tmp/rath-0.4.1.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [rath]: Remove: archive file [/home/abi/fetcher/tmp/rath-0.4.2.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [rath]: Start processing: nucliadb
+[2023-08-03 13:28:49] INFO root fetch - main [MainThread]: End processing [rath]: success
+[2023-08-03 13:28:49] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.8.1.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.8.2.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: nucliadb-client
+[2023-08-03 13:28:49] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-08-03 13:28:49] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [burnysc2]: Remove: archive file [/home/abi/fetcher/tmp/burnysc2-6.3.0.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [burnysc2]: Remove: archive file [/home/abi/fetcher/tmp/burnysc2-6.4.0.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [burnysc2]: Start processing: nucliadb-dataset
+[2023-08-03 13:28:49] INFO root fetch - main [MainThread]: End processing [burnysc2]: success
+[2023-08-03 13:28:49] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.45.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.46.tar.gz]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [phc-ingestion]: Start processing: nucliadb-models
+[2023-08-03 13:28:49] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-08-03 13:28:49] INFO root fetch - processPackages [q1simulator]: Downloading https://files.pythonhosted.org/packages/12/5d/9963f79d6cb216eb80352c34369c0c13410e07eafd4a6fbfa67d46097817/q1simulator-0.9.1.tar.gz
+[2023-08-03 13:28:49] INFO root fetch - processPackages [nxtomomill]: Downloading https://files.pythonhosted.org/packages/58/c6/454b121748b6bbb0962dd37841f9350345e3dcbb65db152ee469dd6c9334/nxtomomill-0.9.0a2.tar.gz
+[2023-08-03 13:28:49] INFO root fetch - processPackages [bletl]: Downloading https://files.pythonhosted.org/packages/3a/87/21194d3817d2cbe61a848b8db35c455449fc54954e6e17ab6e55a32bfea2/bletl-1.4.0.tar.gz
+[2023-08-03 13:28:49] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-08-03 13:28:49] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-03 13:28:49] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-03 13:28:50] INFO root fetch - processPackages [bletl]: executing diffoscope
+[2023-08-03 13:28:50] INFO root fetch - processPackages [bletl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bletl-1.3.1.tar.gz tmp/bletl-1.4.0.tar.gz --markdown 20230803/b/bletl/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-08-03 13:28:50] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/9d/35/3bf6e29ff472c2537c1f1a9fd966dd67b03a4ce4fd6564bd8240aa33e1f3/torchx_nightly-2023.8.2-py3-none-any.whl
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-08-03 13:28:50] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-08-03 13:28:50] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-08-03 13:28:50] INFO root fetch - processPackages [bagbag]: Start processing: nucliadb-protos
+[2023-08-03 13:28:50] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-08-03 13:28:50] INFO root fetch - processPackages [q1simulator]: Downloading https://files.pythonhosted.org/packages/12/03/829cbedd40ece346a6177e56bfa45f6fa2471a2b8b7348d91ef09bf29370/q1simulator-0.9.4.tar.gz
+[2023-08-03 13:28:50] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-08-03 13:28:50] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.8.1-py3-none-any.whl.zip tmp/torchx_nightly-2023.8.2-py3-none-any.whl.zip --markdown 20230803/t/torchx-nightly/2023.8.1-2023.8.2/diff.md --exclude *.pyd
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nxtomomill]: Downloading https://files.pythonhosted.org/packages/2a/16/deba04f7f33d8773b1391f0edc1e6783e781c732fd5016e7ebd3c183b1ad/nxtomomill-0.9.0a3.tar.gz
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230803/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-08-03 13:28:50] INFO root fetch - processPackages [q1simulator]: executing diffoscope
+[2023-08-03 13:28:50] INFO root fetch - processPackages [q1simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q1simulator-0.9.1.tar.gz tmp/q1simulator-0.9.4.tar.gz --markdown 20230803/q/q1simulator/0.9.1-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nxtomomill]: executing diffoscope
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nxtomomill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxtomomill-0.9.0a2.tar.gz tmp/nxtomomill-0.9.0a3.tar.gz --markdown 20230803/n/nxtomomill/0.9.0a2-0.9.0a3/diff.md --exclude *.pyd
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230803/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230803/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230803/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-08-03 13:28:50] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-08-03 13:28:51] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-08-03 13:28:51] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230803/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-03 13:28:51] INFO root fetch - processPackages [bletl]: Remove: archive file [/home/abi/fetcher/tmp/bletl-1.3.1.tar.gz]
+[2023-08-03 13:28:51] INFO root fetch - processPackages [bletl]: Remove: archive file [/home/abi/fetcher/tmp/bletl-1.4.0.tar.gz]
+[2023-08-03 13:28:51] INFO root fetch - processPackages [bletl]: Start processing: nucliadb-sdk
+[2023-08-03 13:28:51] INFO root fetch - main [MainThread]: End processing [bletl]: success
+[2023-08-03 13:28:51] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-03 13:28:51] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-08-03 13:28:51] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-03 13:28:51] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-03 13:28:51] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-utils
+[2023-08-03 13:28:51] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: secrets-storage
+[2023-08-03 13:28:52] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-08-03 13:28:52] INFO root fetch - processPackages [secrets-storage]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-models]: Start processing: torchserve-nightly
+[2023-08-03 13:28:52] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-08-03 13:28:52] INFO root fetch - processPackages [q1simulator]: Remove: archive file [/home/abi/fetcher/tmp/q1simulator-0.9.1.tar.gz]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [q1simulator]: Remove: archive file [/home/abi/fetcher/tmp/q1simulator-0.9.4.tar.gz]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [q1simulator]: Start processing: torch-model-archiver-nightly
+[2023-08-03 13:28:52] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.8.2] Old Version: [2023.8.1]
+[2023-08-03 13:28:52] INFO root fetch - main [MainThread]: End processing [q1simulator]: success
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230803/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-03 13:28:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.8.2] Old Version: [2023.8.1]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-08-03 13:28:52] INFO root fetch - processPackages [secrets-storage]: Downloading https://files.pythonhosted.org/packages/d2/91/ddd96357ee08bc228e656c990e5eb02476fd12ed6c51858ab62328763cfd/secrets-storage-0.8.0.tar.gz
+[2023-08-03 13:28:52] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/83/ea/010df2bdfce5600abb4e65da596877befd9e288262550ca4a0a5c51418ac/torchserve_nightly-2023.8.1-py3-none-any.whl
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230803/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-08-03 13:28:52] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750250>=10485760
+[2023-08-03 13:28:52] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-workflow-archiver-nightly
+[2023-08-03 13:28:52] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-08-03 13:28:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/1e/4a/d6d24efd802133e8ad23559efab3aa4115e8a54a0a0f206050f21ada1a12/torch_model_archiver_nightly-2023.8.1-py3-none-any.whl
+[2023-08-03 13:28:52] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.8.1-py3-none-any.whl.zip]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.8.2-py3-none-any.whl.zip]
+[2023-08-03 13:28:52] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-08-03 13:28:52] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.8.2] Old Version: [2023.8.1]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nxtomomill]: Remove: archive file [/home/abi/fetcher/tmp/nxtomomill-0.9.0a2.tar.gz]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nxtomomill]: Remove: archive file [/home/abi/fetcher/tmp/nxtomomill-0.9.0a3.tar.gz]
+[2023-08-03 13:28:52] INFO root fetch - main [MainThread]: End processing [nxtomomill]: success
+[2023-08-03 13:28:52] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/bb/94/b3576b1c85d26bbe9b7b0c16ef6363714e84d3c1f63bc8e615d39b394b5c/torch_workflow_archiver_nightly-2023.8.1-py3-none-any.whl
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-03 13:28:52] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-03 13:28:52] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-08-03 13:28:53] INFO root fetch - processPackages [secrets-storage]: Downloading https://files.pythonhosted.org/packages/59/fd/bd5179c971e615cab233640a8483834316d51338b90aebb3638d9e89b83a/secrets-storage-0.9.0.tar.gz
+[2023-08-03 13:28:53] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fb/b9/5bf016bc2c37271e4341b14c6e58d673edb17a8d74be42bd468e2f47517e/torch_model_archiver_nightly-2023.8.2-py3-none-any.whl
+[2023-08-03 13:28:53] INFO root fetch - processPackages [secrets-storage]: executing diffoscope
+[2023-08-03 13:28:53] INFO root fetch - processPackages [secrets-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-storage-0.8.0.tar.gz tmp/secrets-storage-0.9.0.tar.gz --markdown 20230803/s/secrets-storage/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 13:28:53] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-08-03 13:28:53] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.8.1-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.8.2-py3-none-any.whl.zip --markdown 20230803/t/torch-model-archiver-nightly/2023.8.1-2023.8.2/diff.md --exclude *.pyd
+[2023-08-03 13:28:53] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/6d/b9/c764d17563562f39cf6026658ca5c049d2e96d6ccf4f9bb43accc6e6d17d/torch_workflow_archiver_nightly-2023.8.2-py3-none-any.whl
+[2023-08-03 13:28:53] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-08-03 13:28:53] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.8.1-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.8.2-py3-none-any.whl.zip --markdown 20230803/t/torch-workflow-archiver-nightly/2023.8.1-2023.8.2/diff.md --exclude *.pyd
+[2023-08-03 13:28:53] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-03 13:28:53] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-03 13:28:53] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-08-03 13:28:53] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-03 13:28:53] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-03 13:28:53] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-08-03 13:28:53] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-08-03 13:28:53] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-08-03 13:28:53] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-08-03 13:28:54] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.8.1-py3-none-any.whl.zip]
+[2023-08-03 13:28:54] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.8.2-py3-none-any.whl.zip]
+[2023-08-03 13:28:54] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-08-03 13:28:54] INFO root fetch - processPackages [secrets-storage]: Remove: archive file [/home/abi/fetcher/tmp/secrets-storage-0.8.0.tar.gz]
+[2023-08-03 13:28:54] INFO root fetch - processPackages [secrets-storage]: Remove: archive file [/home/abi/fetcher/tmp/secrets-storage-0.9.0.tar.gz]
+[2023-08-03 13:28:54] INFO root fetch - main [MainThread]: End processing [secrets-storage]: success
+[2023-08-03 13:28:54] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.8.1-py3-none-any.whl.zip]
+[2023-08-03 13:28:54] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.8.2-py3-none-any.whl.zip]
+[2023-08-03 13:28:54] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-08-03 13:28:55] INFO root fetch - processPackages [parsec-cloud]: Remove: archive file [/home/abi/fetcher/tmp/parsec_cloud-2.9.0rc2-py3-none-any.whl.zip]
+[2023-08-03 13:28:55] INFO root fetch - processPackages [parsec-cloud]: Remove: archive file [/home/abi/fetcher/tmp/parsec_cloud-2.9.2-py3-none-any.whl.zip]
+[2023-08-03 13:28:55] INFO root fetch - main [MainThread]: End processing [parsec-cloud]: success
+[2023-08-03 13:28:55] INFO root fetch - main [MainThread]: Store serial: [19158272]
