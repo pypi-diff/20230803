@@ -20727,3 +20727,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 12:25:46] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev8.tar.gz]
 [2023-08-03 12:25:46] INFO root fetch - main [MainThread]: End processing [junifer]: success
 [2023-08-03 12:25:46] INFO root fetch - main [MainThread]: Store serial: [19157622]
+[2023-08-03 12:30:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19157622]
+[2023-08-03 12:30:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-03 12:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autosubmitconfigparser
+[2023-08-03 12:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apiclient-gonzalo123
+[2023-08-03 12:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-private-bucket
+[2023-08-03 12:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: armory-library
+[2023-08-03 12:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: divio-docs-parser
+[2023-08-03 12:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: 1password
+[2023-08-03 12:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yep-detectors
+[2023-08-03 12:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CrazyDG
+[2023-08-03 12:30:56] INFO root fetch - processPackages [armory-library]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-08-03 12:30:56] WARNING root fetch - processPackages [yep-detectors]: Skipping, unable to determine old version
+[2023-08-03 12:30:56] INFO root fetch - main [MainThread]: End processing [yep-detectors] error
+[2023-08-03 12:30:56] INFO root fetch - processPackages [CrazyDG]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-03 12:30:56] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-03 12:30:56] WARNING root fetch - processPackages [apiclient-gonzalo123]: Skipping, unable to determine old version
+[2023-08-03 12:30:56] INFO root fetch - main [MainThread]: End processing [apiclient-gonzalo123] error
+[2023-08-03 12:30:56] WARNING root fetch - processPackages [divio-docs-parser]: Skipping, unable to determine old version
+[2023-08-03 12:30:56] INFO root fetch - main [MainThread]: End processing [divio-docs-parser] error
+[2023-08-03 12:30:56] INFO root fetch - processPackages [CrazyDG]: Downloading https://files.pythonhosted.org/packages/6c/1f/4f4df1cb5b24ac88657713a9e10496bd41a47cbc419a5afafe91408aebaf/CrazyDG-0.0.4.tar.gz
+[2023-08-03 12:30:56] INFO root fetch - processPackages [1password]: New version: [1.0.1] Old Version: [0.6.2]
+[2023-08-03 12:30:56] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-08-03 12:30:56] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.43] Old Version: [1.0.42]
+[2023-08-03 12:30:56] INFO root fetch - processPackages [armory-library]: Downloading https://files.pythonhosted.org/packages/bd/44/727c82bfd9cf092c9f9bbd599175d2d9934e9632dd8e39b779d17ce6906b/armory_library-0.0.1-py3-none-any.whl
+[2023-08-03 12:30:56] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-08-03 12:30:56] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/c2/a7/11afe70a563495ac5bcbc85b6d0674746eef4a888c527458de7fcb025dbb/autosubmitconfigparser-1.0.42.tar.gz
+[2023-08-03 12:30:56] INFO root fetch - processPackages [armory-library]: Downloading https://files.pythonhosted.org/packages/e4/41/a9dbe3d6fb834d1d08755ed0016e898d35b6b77dc4ee1ef6b5a947d776db/armory_library-0.0.5-py3-none-any.whl
+[2023-08-03 12:30:56] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-08-03 12:30:56] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230803/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-03 12:30:56] INFO root fetch - processPackages [armory-library]: executing diffoscope
+[2023-08-03 12:30:56] INFO root fetch - processPackages [armory-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armory_library-0.0.1-py3-none-any.whl.zip tmp/armory_library-0.0.5-py3-none-any.whl.zip --markdown 20230803/a/armory-library/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-08-03 12:30:57] INFO root fetch - processPackages [1password]: Downloading https://files.pythonhosted.org/packages/8b/d6/10af687db9822c600c29bdafb4aff308728bff15a89b08ed1ad446b25964/1password-0.6.2.tar.gz
+[2023-08-03 12:30:57] INFO root fetch - processPackages [CrazyDG]: Downloading https://files.pythonhosted.org/packages/6f/a4/e5b15387b2c9438105f5a463720a2ef8650a8bd2134370fd8e09912590e0/CrazyDG-0.0.5.tar.gz
+[2023-08-03 12:30:57] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/48/07/6cc38ffb6b85e3afcd157fc36d39da11d54a9421d4d4a705c1b7b83b725a/autosubmitconfigparser-1.0.43.tar.gz
+[2023-08-03 12:30:57] INFO root fetch - processPackages [CrazyDG]: executing diffoscope
+[2023-08-03 12:30:57] INFO root fetch - processPackages [CrazyDG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrazyDG-0.0.4.tar.gz tmp/CrazyDG-0.0.5.tar.gz --markdown 20230803/C/CrazyDG/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-03 12:30:57] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2023-08-03 12:30:57] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.42.tar.gz tmp/autosubmitconfigparser-1.0.43.tar.gz --markdown 20230803/a/autosubmitconfigparser/1.0.42-1.0.43/diff.md --exclude *.pyd
+[2023-08-03 12:30:57] INFO root fetch - processPackages [1password]: Downloading https://files.pythonhosted.org/packages/53/00/a6393992f3aa2e25c803ee4313c809b6023ea2b01e1dd37112191a1fc7c8/1password-1.0.1.tar.gz
+[2023-08-03 12:30:57] INFO root fetch - processPackages [1password]: executing diffoscope
+[2023-08-03 12:30:57] INFO root fetch - processPackages [1password]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/1password-0.6.2.tar.gz tmp/1password-1.0.1.tar.gz --markdown 20230803/1/1password/0.6.2-1.0.1/diff.md --exclude *.pyd
+[2023-08-03 12:30:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-08-03 12:30:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-08-03 12:30:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-08-03 12:30:57] INFO root fetch - processPackages [armory-library]: Remove: archive file [/home/abi/fetcher/tmp/armory_library-0.0.1-py3-none-any.whl.zip]
+[2023-08-03 12:30:57] INFO root fetch - processPackages [armory-library]: Remove: archive file [/home/abi/fetcher/tmp/armory_library-0.0.5-py3-none-any.whl.zip]
+[2023-08-03 12:30:57] INFO root fetch - main [MainThread]: End processing [armory-library]: success
+[2023-08-03 12:30:58] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.42.tar.gz]
+[2023-08-03 12:30:58] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.43.tar.gz]
+[2023-08-03 12:30:58] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2023-08-03 12:30:58] INFO root fetch - processPackages [CrazyDG]: Remove: archive file [/home/abi/fetcher/tmp/CrazyDG-0.0.4.tar.gz]
+[2023-08-03 12:30:58] INFO root fetch - processPackages [CrazyDG]: Remove: archive file [/home/abi/fetcher/tmp/CrazyDG-0.0.5.tar.gz]
+[2023-08-03 12:30:58] INFO root fetch - main [MainThread]: End processing [CrazyDG]: success
+[2023-08-03 12:30:58] INFO root fetch - processPackages [1password]: Remove: archive file [/home/abi/fetcher/tmp/1password-0.6.2.tar.gz]
+[2023-08-03 12:30:58] INFO root fetch - processPackages [1password]: Remove: archive file [/home/abi/fetcher/tmp/1password-1.0.1.tar.gz]
+[2023-08-03 12:30:58] INFO root fetch - main [MainThread]: End processing [1password]: success
+[2023-08-03 12:30:58] INFO root fetch - main [MainThread]: Store serial: [19157648]
