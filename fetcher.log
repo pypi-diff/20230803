@@ -14650,3 +14650,126 @@
 [2023-08-03 09:21:26] INFO root fetch - main [MainThread]: End processing [open-aea-web3]: success
 [2023-08-03 09:21:26] INFO root fetch - main [MainThread]: End processing [open-aea-web3]: success
 [2023-08-03 09:21:26] INFO root fetch - main [MainThread]: Store serial: [19155150]
+[2023-08-03 09:26:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19155150]
+[2023-08-03 09:26:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-03 09:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anyon
+[2023-08-03 09:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chaostoolkit-reliably
+[2023-08-03 09:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tablate
+[2023-08-03 09:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlup
+[2023-08-03 09:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nemusicapi
+[2023-08-03 09:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-tls
+[2023-08-03 09:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyiron-contrib
+[2023-08-03 09:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-vault
+[2023-08-03 09:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: the-keyspy
+[2023-08-03 09:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitaudit
+[2023-08-03 09:26:36] INFO root fetch - processPackages [sqlup]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-03 09:26:36] INFO root fetch - processPackages [nemusicapi]: New version: [0.0.4a2] Old Version: [0.0.4a1]
+[2023-08-03 09:26:36] INFO root fetch - processPackages [the-keyspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 09:26:36] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 09:26:36] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-08-03 09:26:36] INFO root fetch - processPackages [anyon]: New version: [3.8.9] Old Version: [3.8.12]
+[2023-08-03 09:26:36] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-03 09:26:36] INFO root fetch - processPackages [pyiron-contrib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 09:26:36] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1691045467] Old Version: [5.1.0a1690967682]
+[2023-08-03 09:26:36] INFO root fetch - processPackages [pulumi-vault]: New version: [5.9.0a1678382334] Old Version: [5.9.0a1678129627]
+[2023-08-03 09:26:36] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/cd/10/4c7c68194bb8c0e1c45e87b7ee823ebd871b643bea0981a4a9df112edce7/nemusicapi-0.0.4a1.tar.gz
+[2023-08-03 09:26:36] INFO root fetch - processPackages [sqlup]: Downloading https://files.pythonhosted.org/packages/2c/51/97821bba8d20e0fa04508e7f0efa3282ad40e7e5680f0f982b6969fca892/sqlup-0.0.1.tar.gz
+[2023-08-03 09:26:36] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/8f/6b/fab7a43db7bea94154ff87f19305d6fdd3dbcbbacb09d97bfe0bc66b7a68/anyon-3.8.12-cp311-none-win_amd64.whl
+[2023-08-03 09:26:36] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-08-03 09:26:36] INFO root fetch - processPackages [the-keyspy]: Downloading https://files.pythonhosted.org/packages/dc/b2/9fcc3ac21d5f3bf88c9c126a0fcc7ad323860fe9766308466f78965af430/the_keyspy-0.0.8.tar.gz
+[2023-08-03 09:26:36] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/32/df/58422a4f470f2c9c9d486c7b83bf6c238d72841a2ae64f0b7c88350a6b01/chaostoolkit-reliably-0.9.3.tar.gz
+[2023-08-03 09:26:36] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-03 09:26:36] INFO root fetch - processPackages [pyiron-contrib]: Downloading https://files.pythonhosted.org/packages/e2/8a/6c96a90275f7eb901940b3c4c1e2dc92749df237421cdae62c11c8e81ede/pyiron_contrib-0.1.8.tar.gz
+[2023-08-03 09:26:36] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/e3/c9/65898499b67448eae06780fb3be448afa8cd40dece05d5bff04eb8c060fd/pulumi_vault-5.9.0a1678129627.tar.gz
+[2023-08-03 09:26:36] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/44/be/d976b978c466bd49b1e198cc8ca28f0e29bdc3e893968d3c91ab0d009d20/pulumi_tls-5.1.0a1690967682.tar.gz
+[2023-08-03 09:26:37] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-08-03 09:26:37] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/b8/c5/810c74691ec477bb4963d5199f379e4a81d6cce5b71db42bc848f3477e16/chaostoolkit-reliably-0.9.4.tar.gz
+[2023-08-03 09:26:37] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/3a/7c/5cdc0d34f97fc73d161caa9ebb5da9aedf85f36bed0672e5ef7c89447a25/nemusicapi-0.0.4a2.tar.gz
+[2023-08-03 09:26:37] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-03 09:26:37] INFO root fetch - processPackages [sqlup]: Downloading https://files.pythonhosted.org/packages/a3/bb/22488a26e04b7b76c1b7a4b78343d01bd7b0a063fd66b3dfb263239bf52d/sqlup-0.0.2.tar.gz
+[2023-08-03 09:26:37] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/ed/92/409b285914980f035f40d0f929ef3fc963df14955907713e94988241c1dd/anyon-3.8.9-cp311-none-win_amd64.whl
+[2023-08-03 09:26:37] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/ed/2f/d2dbb3407f0fdd01cc4ad94d930a70843270a50c7d8cc4597b5113561639/pulumi_vault-5.9.0a1678382334.tar.gz
+[2023-08-03 09:26:37] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-08-03 09:26:37] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230803/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 09:26:37] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/56/4f/d50a5d8e965e3242a593d88ee12ec183ca3148d5a550996b93b675a8102d/pulumi_tls-5.1.0a1691045467.tar.gz
+[2023-08-03 09:26:37] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-08-03 09:26:37] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230803/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-03 09:26:37] INFO root fetch - processPackages [sqlup]: executing diffoscope
+[2023-08-03 09:26:37] INFO root fetch - processPackages [sqlup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlup-0.0.1.tar.gz tmp/sqlup-0.0.2.tar.gz --markdown 20230803/s/sqlup/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-03 09:26:37] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-03 09:26:37] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230803/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:26:37] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-03 09:26:37] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.4a1.tar.gz tmp/nemusicapi-0.0.4a2.tar.gz --markdown 20230803/n/nemusicapi/0.0.4a1-0.0.4a2/diff.md --exclude *.pyd
+[2023-08-03 09:26:37] INFO root fetch - processPackages [pyiron-contrib]: Downloading https://files.pythonhosted.org/packages/7f/90/c9fc16cc31904775edfdb96446fd7ecd73a0714f946cf1de5b3309859849/pyiron_contrib-0.1.9.tar.gz
+[2023-08-03 09:26:37] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-08-03 09:26:37] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.8.12-cp311-none-win_amd64.whl.zip tmp/anyon-3.8.9-cp311-none-win_amd64.whl.zip --markdown 20230803/a/anyon/3.8.12-3.8.9/diff.md --exclude *.pyd
+[2023-08-03 09:26:37] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2023-08-03 09:26:37] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1690967682.tar.gz tmp/pulumi_tls-5.1.0a1691045467.tar.gz --markdown 20230803/p/pulumi-tls/5.1.0a1690967682-5.1.0a1691045467/diff.md --exclude *.pyd
+[2023-08-03 09:26:37] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2023-08-03 09:26:37] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-5.9.0a1678129627.tar.gz tmp/pulumi_vault-5.9.0a1678382334.tar.gz --markdown 20230803/p/pulumi-vault/5.9.0a1678129627-5.9.0a1678382334/diff.md --exclude *.pyd
+[2023-08-03 09:26:37] INFO root fetch - processPackages [the-keyspy]: Downloading https://files.pythonhosted.org/packages/ea/34/96749b1bceb3a50e26b7db860f036ae8f5b6464143d6241c23ff7559900a/the_keyspy-0.0.9.tar.gz
+[2023-08-03 09:26:37] INFO root fetch - processPackages [pyiron-contrib]: executing diffoscope
+[2023-08-03 09:26:37] INFO root fetch - processPackages [pyiron-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_contrib-0.1.8.tar.gz tmp/pyiron_contrib-0.1.9.tar.gz --markdown 20230803/p/pyiron-contrib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 09:26:37] INFO root fetch - processPackages [the-keyspy]: executing diffoscope
+[2023-08-03 09:26:37] INFO root fetch - processPackages [the-keyspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the_keyspy-0.0.8.tar.gz tmp/the_keyspy-0.0.9.tar.gz --markdown 20230803/t/the-keyspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 09:26:38] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.4a1.tar.gz]
+[2023-08-03 09:26:38] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.4a2.tar.gz]
+[2023-08-03 09:26:38] INFO root fetch - processPackages [nemusicapi]: Start processing: subnet-calculator
+[2023-08-03 09:26:38] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-03 09:26:38] WARNING root fetch - processPackages [subnet-calculator]: Skipping, unable to determine old version
+[2023-08-03 09:26:38] INFO root fetch - processPackages [subnet-calculator]: Start processing: pulumi-rancher2
+[2023-08-03 09:26:38] INFO root fetch - main [MainThread]: End processing [subnet-calculator] error
+[2023-08-03 09:26:38] INFO root fetch - processPackages [pulumi-rancher2]: New version: [5.2.0a1691044117] Old Version: [5.1.0a1690482743]
+[2023-08-03 09:26:38] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.8.12-cp311-none-win_amd64.whl.zip]
+[2023-08-03 09:26:38] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.8.9-cp311-none-win_amd64.whl.zip]
+[2023-08-03 09:26:38] INFO root fetch - processPackages [anyon]: Start processing: titan-iris
+[2023-08-03 09:26:38] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-08-03 09:26:39] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-08-03 09:26:39] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-08-03 09:26:39] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.3.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.4.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - processPackages [chaostoolkit-reliably]: Start processing: packg
+[2023-08-03 09:26:39] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-08-03 09:26:39] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-08-03 09:26:39] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/80/f5/0601f0fd13d9beca00f5304ab7a312ff60304089c4ebb6b6cf0d9f840fba/pulumi_rancher2-5.1.0a1690482743.tar.gz
+[2023-08-03 09:26:39] INFO root fetch - processPackages [packg]: New version: [0.2.25] Old Version: [0.2.24]
+[2023-08-03 09:26:39] INFO root fetch - processPackages [sqlup]: Remove: archive file [/home/abi/fetcher/tmp/sqlup-0.0.1.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - processPackages [sqlup]: Remove: archive file [/home/abi/fetcher/tmp/sqlup-0.0.2.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - main [MainThread]: End processing [sqlup]: success
+[2023-08-03 09:26:39] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1690967682.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1691045467.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2023-08-03 09:26:39] INFO root fetch - processPackages [the-keyspy]: Remove: archive file [/home/abi/fetcher/tmp/the_keyspy-0.0.8.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - processPackages [the-keyspy]: Remove: archive file [/home/abi/fetcher/tmp/the_keyspy-0.0.9.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - main [MainThread]: End processing [the-keyspy]: success
+[2023-08-03 09:26:39] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-08-03 09:26:39] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/4e/a0/adbea1166122ab1fd975140b98e60a0d76f5ee4ee2a83ba6bcf9053d5813/packg-0.2.24.tar.gz
+[2023-08-03 09:26:39] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-03 09:26:39] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-08-03 09:26:39] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230803/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-08-03 09:26:39] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/30/9f/93517d82cfa4b80c9ddca4eeb683fa656eb9ee8edb84cbc540de1af32e1f/pulumi_rancher2-5.2.0a1691044117.tar.gz
+[2023-08-03 09:26:39] INFO root fetch - processPackages [pyiron-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_contrib-0.1.8.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - processPackages [pyiron-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_contrib-0.1.9.tar.gz]
+[2023-08-03 09:26:39] INFO root fetch - main [MainThread]: End processing [pyiron-contrib]: success
+[2023-08-03 09:26:39] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2023-08-03 09:26:39] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-5.1.0a1690482743.tar.gz tmp/pulumi_rancher2-5.2.0a1691044117.tar.gz --markdown 20230803/p/pulumi-rancher2/5.1.0a1690482743-5.2.0a1691044117/diff.md --exclude *.pyd
+[2023-08-03 09:26:39] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/41/78/a59f50d505dbf297e13ddefe2decbcad2ba0659b57a40180cd41a226c9c9/packg-0.2.25.tar.gz
+[2023-08-03 09:26:39] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-08-03 09:26:39] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.24.tar.gz tmp/packg-0.2.25.tar.gz --markdown 20230803/p/packg/0.2.24-0.2.25/diff.md --exclude *.pyd
+[2023-08-03 09:26:40] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678129627.tar.gz]
+[2023-08-03 09:26:40] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678382334.tar.gz]
+[2023-08-03 09:26:40] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2023-08-03 09:26:40] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-08-03 09:26:40] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-08-03 09:26:40] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-08-03 09:26:40] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.24.tar.gz]
+[2023-08-03 09:26:40] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.25.tar.gz]
+[2023-08-03 09:26:40] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-08-03 09:26:41] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.1.0a1690482743.tar.gz]
+[2023-08-03 09:26:41] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.2.0a1691044117.tar.gz]
+[2023-08-03 09:26:41] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2023-08-03 09:26:41] INFO root fetch - main [MainThread]: Store serial: [19155197]
