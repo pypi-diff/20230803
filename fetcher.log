@@ -18950,3 +18950,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-08-03 11:05:24] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-08-03 11:05:24] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-08-03 11:05:24] INFO root fetch - main [MainThread]: Store serial: [19156764]
+[2023-08-03 11:10:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19156764]
+[2023-08-03 11:10:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-03 11:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freestyle-hid
+[2023-08-03 11:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AlgDiff
+[2023-08-03 11:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-mail-thunder-dev
+[2023-08-03 11:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FRion
+[2023-08-03 11:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: artigraph
+[2023-08-03 11:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-load-density-dev
+[2023-08-03 11:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hiddifypanel
+[2023-08-03 11:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: web-poet
+[2023-08-03 11:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syntaxlight
+[2023-08-03 11:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: je-mail-thunder
+[2023-08-03 11:10:33] INFO root fetch - processPackages [syntaxlight]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-03 11:10:33] INFO root fetch - processPackages [je-mail-thunder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:10:33] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev2] Old Version: [8.0.0.dev1]
+[2023-08-03 11:10:33] INFO root fetch - processPackages [freestyle-hid]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-08-03 11:10:33] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/30/fb/dfe7b68548bc527c7eb35188b2710543b34f0883477f4fe637e08e39625c/syntaxlight-0.1.0.tar.gz
+[2023-08-03 11:10:33] INFO root fetch - processPackages [AlgDiff]: New version: [2.1.1] Old Version: [2.1]
+[2023-08-03 11:10:33] INFO root fetch - processPackages [je-mail-thunder-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:10:33] INFO root fetch - processPackages [web-poet]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-03 11:10:33] INFO root fetch - processPackages [artigraph]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-03 11:10:33] INFO root fetch - processPackages [FRion]: New version: [1.1.0] Old Version: [1.0]
+[2023-08-03 11:10:33] INFO root fetch - processPackages [je-load-density-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:10:34] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/08/0e/7e3701275c9c7325666260921b5e0f39ff86229e421c94e593dac5a8b57b/hiddifypanel-8.0.0.dev1.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/00/f5/1fddea644fa72ad7caf4c3541fd95402c82966b9bf3cee33a9664308ae54/je_mail_thunder-0.0.8.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [FRion]: Downloading https://files.pythonhosted.org/packages/1f/5e/dc0eab7f6793fb97811f8ffcaa68ace9dc4eaec68a0c321ced67198220da/FRion-1.0.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [freestyle-hid]: Downloading https://files.pythonhosted.org/packages/da/83/c19603d6663cab5e5c74c79924816196fba36c2369a23551e1934ef54eca/freestyle-hid-1.0.3.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/d9/2d/666cfbe7457d16fd8f9c298e28fd54c3ff6c7a5cb10d6ebd6397b2764c96/je_mail_thunder_dev-0.0.8.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [AlgDiff]: Downloading https://files.pythonhosted.org/packages/f5/97/d81864b8cfd6f78a0b42068c289c94188aa6fb3fd26b514172d2ff2db00f/AlgDiff-2.1.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [web-poet]: Downloading https://files.pythonhosted.org/packages/2d/32/0675884fa5cdf787f67e2a19ab228abc728f16139ab9f087f04d18a828be/web-poet-0.8.1.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/5f/b0/10ccd308c4bcaa3b05709a4f5b4d406df6be7d1faec63fad4b0bc4c82147/artigraph-0.0.3.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/dd/17/89f57cc1d3fc4e52838d51bb6d42a96ea6b3a880b0a7a1f7bd606ab78542/syntaxlight-0.1.1.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [je-load-density-dev]: Downloading https://files.pythonhosted.org/packages/08/9b/276d10cd2af97e0ba353bbce459ef1dce5ce5648ae6fdb78fd6862f6d685/je_load_density_dev-0.0.8.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-08-03 11:10:34] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.1.0.tar.gz tmp/syntaxlight-0.1.1.tar.gz --markdown 20230803/s/syntaxlight/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-03 11:10:34] INFO root fetch - processPackages [FRion]: Downloading https://files.pythonhosted.org/packages/c1/de/2acf5f5b07506441c07dc4c77716406ee8c4000b5a4700956e01c29bfd3c/FRion-1.1.0.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/0e/52/72dbb2396dffc495c2d329b371da485bd85f60db90b846ea3b2ad2944f73/je_mail_thunder-0.0.9.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [freestyle-hid]: Downloading https://files.pythonhosted.org/packages/be/ac/4261250b6915fdb23199344b996b88d38a6fbdf92d6ad453f774ec3d1cbb/freestyle-hid-1.1.0.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/d5/23/90280c1d391b4dbfb8b2b7aa116c61f6dcce32afde8a427821b2f0988006/artigraph-0.0.4.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [FRion]: executing diffoscope
+[2023-08-03 11:10:34] INFO root fetch - processPackages [FRion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FRion-1.0.tar.gz tmp/FRion-1.1.0.tar.gz --markdown 20230803/F/FRion/1.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-03 11:10:34] INFO root fetch - processPackages [je-load-density-dev]: Downloading https://files.pythonhosted.org/packages/df/2d/a480de55778bfb00b70ded4769d73832026bfcb50fcc2ad9500f506c347f/je_load_density_dev-0.0.9.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [freestyle-hid]: executing diffoscope
+[2023-08-03 11:10:34] INFO root fetch - processPackages [freestyle-hid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freestyle-hid-1.0.3.tar.gz tmp/freestyle-hid-1.1.0.tar.gz --markdown 20230803/f/freestyle-hid/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-08-03 11:10:34] INFO root fetch - processPackages [AlgDiff]: Downloading https://files.pythonhosted.org/packages/e1/00/035965e89899bec97bd2a83485e8d2734ea5b72f70a03e16b2d23257b4b4/AlgDiff-2.1.1.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [artigraph]: executing diffoscope
+[2023-08-03 11:10:34] INFO root fetch - processPackages [artigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artigraph-0.0.3.tar.gz tmp/artigraph-0.0.4.tar.gz --markdown 20230803/a/artigraph/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-03 11:10:34] INFO root fetch - processPackages [je-mail-thunder]: executing diffoscope
+[2023-08-03 11:10:34] INFO root fetch - processPackages [je-mail-thunder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder-0.0.8.tar.gz tmp/je_mail_thunder-0.0.9.tar.gz --markdown 20230803/j/je-mail-thunder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:10:34] INFO root fetch - processPackages [web-poet]: Downloading https://files.pythonhosted.org/packages/38/5f/56ac62f4665c5f437ba35ae603d73c10d70863562af8e6fc44acd21395f0/web-poet-0.9.0.tar.gz
+[2023-08-03 11:10:34] INFO root fetch - processPackages [je-load-density-dev]: executing diffoscope
+[2023-08-03 11:10:34] INFO root fetch - processPackages [je-load-density-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_load_density_dev-0.0.8.tar.gz tmp/je_load_density_dev-0.0.9.tar.gz --markdown 20230803/j/je-load-density-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:10:34] INFO root fetch - processPackages [AlgDiff]: executing diffoscope
+[2023-08-03 11:10:34] INFO root fetch - processPackages [AlgDiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgDiff-2.1.tar.gz tmp/AlgDiff-2.1.1.tar.gz --markdown 20230803/A/AlgDiff/2.1-2.1.1/diff.md --exclude *.pyd
+[2023-08-03 11:10:35] INFO root fetch - processPackages [web-poet]: executing diffoscope
+[2023-08-03 11:10:35] INFO root fetch - processPackages [web-poet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-poet-0.8.1.tar.gz tmp/web-poet-0.9.0.tar.gz --markdown 20230803/w/web-poet/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 11:10:35] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/50/83/96de4dcb88c3fe1000dbe2a57639ee261684eff5193860f20204d5850501/je_mail_thunder_dev-0.0.9.tar.gz
+[2023-08-03 11:10:35] INFO root fetch - processPackages [je-mail-thunder-dev]: executing diffoscope
+[2023-08-03 11:10:35] INFO root fetch - processPackages [je-mail-thunder-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder_dev-0.0.8.tar.gz tmp/je_mail_thunder_dev-0.0.9.tar.gz --markdown 20230803/j/je-mail-thunder-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:10:35] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/ad/18/03b2b9d1d41be858417ad0cce27affe047e91bcc85eb44441bab7e6c1dba/hiddifypanel-8.0.0.dev2.tar.gz
+[2023-08-03 11:10:35] INFO root fetch - processPackages [FRion]: Remove: archive file [/home/abi/fetcher/tmp/FRion-1.0.tar.gz]
+[2023-08-03 11:10:35] INFO root fetch - processPackages [FRion]: Remove: archive file [/home/abi/fetcher/tmp/FRion-1.1.0.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - processPackages [FRion]: Start processing: je-load-density
+[2023-08-03 11:10:36] INFO root fetch - main [MainThread]: End processing [FRion]: success
+[2023-08-03 11:10:36] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.0.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.1.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-08-03 11:10:36] INFO root fetch - processPackages [je-load-density]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-03 11:10:36] INFO root fetch - processPackages [AlgDiff]: Remove: archive file [/home/abi/fetcher/tmp/AlgDiff-2.1.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - processPackages [AlgDiff]: Remove: archive file [/home/abi/fetcher/tmp/AlgDiff-2.1.1.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - main [MainThread]: End processing [AlgDiff]: success
+[2023-08-03 11:10:36] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.3.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.4.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - main [MainThread]: End processing [artigraph]: success
+[2023-08-03 11:10:36] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.8.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.9.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - main [MainThread]: End processing [je-mail-thunder]: success
+[2023-08-03 11:10:36] INFO root fetch - processPackages [je-load-density]: Downloading https://files.pythonhosted.org/packages/4c/8c/dba8992c47ab061a70303761eacd4d5fbff44d8f454381c8e568f6b95847/je_load_density-0.0.8.tar.gz
+[2023-08-03 11:10:36] INFO root fetch - processPackages [je-load-density-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density_dev-0.0.8.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - processPackages [je-load-density-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density_dev-0.0.9.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - main [MainThread]: End processing [je-load-density-dev]: success
+[2023-08-03 11:10:36] INFO root fetch - processPackages [freestyle-hid]: Remove: archive file [/home/abi/fetcher/tmp/freestyle-hid-1.0.3.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - processPackages [freestyle-hid]: Remove: archive file [/home/abi/fetcher/tmp/freestyle-hid-1.1.0.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - main [MainThread]: End processing [freestyle-hid]: success
+[2023-08-03 11:10:36] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.8.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.9.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - main [MainThread]: End processing [je-mail-thunder-dev]: success
+[2023-08-03 11:10:36] INFO root fetch - processPackages [web-poet]: Remove: archive file [/home/abi/fetcher/tmp/web-poet-0.8.1.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - processPackages [web-poet]: Remove: archive file [/home/abi/fetcher/tmp/web-poet-0.9.0.tar.gz]
+[2023-08-03 11:10:36] INFO root fetch - main [MainThread]: End processing [web-poet]: success
+[2023-08-03 11:10:36] INFO root fetch - processPackages [je-load-density]: Downloading https://files.pythonhosted.org/packages/7c/6d/23fc8524faa26c12e97439e14d6a72ec372159914b55201815df9724ddb5/je_load_density-0.0.9.tar.gz
+[2023-08-03 11:10:36] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-03 11:10:36] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev1.tar.gz tmp/hiddifypanel-8.0.0.dev2.tar.gz --markdown 20230803/h/hiddifypanel/8.0.0.dev1-8.0.0.dev2/diff.md --exclude *.pyd
+[2023-08-03 11:10:36] INFO root fetch - processPackages [je-load-density]: executing diffoscope
+[2023-08-03 11:10:36] INFO root fetch - processPackages [je-load-density]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_load_density-0.0.8.tar.gz tmp/je_load_density-0.0.9.tar.gz --markdown 20230803/j/je-load-density/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-03 11:10:37] INFO root fetch - processPackages [je-load-density]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density-0.0.8.tar.gz]
+[2023-08-03 11:10:37] INFO root fetch - processPackages [je-load-density]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density-0.0.9.tar.gz]
+[2023-08-03 11:10:37] INFO root fetch - main [MainThread]: End processing [je-load-density]: success
+[2023-08-03 11:10:41] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev1.tar.gz]
+[2023-08-03 11:10:41] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev2.tar.gz]
+[2023-08-03 11:10:41] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-03 11:10:41] INFO root fetch - main [MainThread]: Store serial: [19156796]
