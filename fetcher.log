@@ -15215,3 +15215,111 @@ AssertionError: tmp/cjptools-0.1.4.tar.gz does not exist
 [2023-08-03 09:42:31] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.7.dev202308036698.tar.gz]
 [2023-08-03 09:42:31] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-08-03 09:42:31] INFO root fetch - main [MainThread]: Store serial: [19155381]
+[2023-08-03 09:47:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19155381]
+[2023-08-03 09:47:41] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KKMeans-JO
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ontouml-json2graph
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cntracer
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c2cciutils
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gismath
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ignf_gpf_api
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyroFork-dev
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zeroconf
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloud-governance
+[2023-08-03 09:47:41] WARNING root fetch - processPackages [KKMeans-JO]: Skipping, unable to determine old version
+[2023-08-03 09:47:41] INFO root fetch - processPackages [KKMeans-JO]: Start processing: gdb-plus
+[2023-08-03 09:47:41] INFO root fetch - main [MainThread]: End processing [KKMeans-JO] error
+[2023-08-03 09:47:41] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ontouml-json2graph]: New version: [1.0.0b8] Old Version: [1.0.0b7]
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ignf_gpf_api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 09:47:41] WARNING root fetch - processPackages [gismath]: Skipping, unable to determine old version
+[2023-08-03 09:47:41] INFO root fetch - processPackages [gismath]: Start processing: dagshub
+[2023-08-03 09:47:41] INFO root fetch - main [MainThread]: End processing [gismath] error
+[2023-08-03 09:47:41] INFO root fetch - processPackages [cntracer]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-08-03 09:47:41] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.7.dev202308036698] Old Version: [2.2.7.dev202308036677]
+[2023-08-03 09:47:41] INFO root fetch - processPackages [gdb-plus]: New version: [6.4.1] Old Version: [6.3.1]
+[2023-08-03 09:47:41] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-08-03 09:47:41] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-08-03 09:47:41] INFO root fetch - processPackages [zeroconf]: New version: [0.72.1] Old Version: [0.72.0]
+[2023-08-03 09:47:41] INFO root fetch - processPackages [dagshub]: New version: [0.3.2.post1] Old Version: [0.3.2]
+[2023-08-03 09:47:41] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-08-03 09:47:41] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/03/2e/91d814eeab8233214c64bbd32c5e304db8f89201c11b85109e162768f637/PyroFork-dev-2.2.7.dev202308036677.tar.gz
+[2023-08-03 09:47:41] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-08-03 09:47:41] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/c4/3b/956accd9f280a50363da763ad4f409fa94189d109895441e0d4f0f77394f/ontouml_json2graph-1.0.0b7.tar.gz
+[2023-08-03 09:47:41] INFO root fetch - processPackages [ignf_gpf_api]: Downloading https://files.pythonhosted.org/packages/be/23/0023d811927403ac054e24f73aca2f3cc07d717770a94b4770dfe960be74/ignf_gpf_api-0.1.8.tar.gz
+[2023-08-03 09:47:41] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/32/2d/a35e426bba449d439f0e066bbded67eade7037607885f9d5bd4148401785/cntracer-0.1.3-cp39-cp39-win_amd64.whl
+[2023-08-03 09:47:41] INFO root fetch - processPackages [gdb-plus]: Downloading https://files.pythonhosted.org/packages/10/73/12a827afdf9eb631b5497a66dc5cf8da0e965818024acf819a7d3ecd0a95/gdb_plus-6.3.1.tar.gz
+[2023-08-03 09:47:41] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/93/1f/b46b1d626807b525be9c7e4fdc38224634929d5cb62b399516119eedb71c/zeroconf-0.72.0.tar.gz
+[2023-08-03 09:47:41] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/2c/cf/91e294e8305b12b6ce9412fa6d9ee1f5bf5993f0d750789333f3c01b4c5b/dagshub-0.3.2.tar.gz
+[2023-08-03 09:47:42] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/c6/c8/3bd06ba8078e28f7a13929a8b346ede31eb205c0ab70a0197663a5962929/PyroFork-dev-2.2.7.dev202308036698.tar.gz
+[2023-08-03 09:47:42] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-08-03 09:47:42] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-08-03 09:47:42] INFO root fetch - processPackages [ontouml-json2graph]: Downloading https://files.pythonhosted.org/packages/40/64/243d5cb018dd67b8b005888dc9902e63982cdb5dad755a30e50868defafd/ontouml_json2graph-1.0.0b8.tar.gz
+[2023-08-03 09:47:42] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/fd/a5/1fb0a48a4422c2faba84cfa39f33a9c38cc74a5bd80bace1812f82d20352/zeroconf-0.72.1.tar.gz
+[2023-08-03 09:47:42] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-08-03 09:47:42] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230803/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-08-03 09:47:42] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-08-03 09:47:42] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.7.dev202308036677.tar.gz tmp/PyroFork-dev-2.2.7.dev202308036698.tar.gz --markdown 20230803/P/PyroFork-dev/2.2.7.dev202308036677-2.2.7.dev202308036698/diff.md --exclude *.pyd
+[2023-08-03 09:47:42] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/f7/f4/df2ae21366d4819d4c2d98ee5a39060e02cf6c466f54db6edd8f9b3d0628/cntracer-0.2.0-cp39-cp39-win_amd64.whl
+[2023-08-03 09:47:42] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/69/17/672b51e2b738f83ef03dd7bb31a4a9bb1bb18e5396eefec1530fe659fe79/dagshub-0.3.2.post1.tar.gz
+[2023-08-03 09:47:42] INFO root fetch - processPackages [gdb-plus]: Downloading https://files.pythonhosted.org/packages/ad/20/61eb8e293e7a49ab22b9af133393c94a19ad10f6f081fe21bd9b5e84cd7d/gdb_plus-6.4.1.tar.gz
+[2023-08-03 09:47:42] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-08-03 09:47:42] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-08-03 09:47:42] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.72.0.tar.gz tmp/zeroconf-0.72.1.tar.gz --markdown 20230803/z/zeroconf/0.72.0-0.72.1/diff.md --exclude *.pyd
+[2023-08-03 09:47:42] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-08-03 09:47:42] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230803/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-08-03 09:47:42] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-08-03 09:47:42] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.2.tar.gz tmp/dagshub-0.3.2.post1.tar.gz --markdown 20230803/d/dagshub/0.3.2-0.3.2.post1/diff.md --exclude *.pyd
+[2023-08-03 09:47:42] INFO root fetch - processPackages [gdb-plus]: executing diffoscope
+[2023-08-03 09:47:42] INFO root fetch - processPackages [gdb-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdb_plus-6.3.1.tar.gz tmp/gdb_plus-6.4.1.tar.gz --markdown 20230803/g/gdb-plus/6.3.1-6.4.1/diff.md --exclude *.pyd
+[2023-08-03 09:47:42] INFO root fetch - processPackages [ontouml-json2graph]: executing diffoscope
+[2023-08-03 09:47:42] INFO root fetch - processPackages [ontouml-json2graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontouml_json2graph-1.0.0b7.tar.gz tmp/ontouml_json2graph-1.0.0b8.tar.gz --markdown 20230803/o/ontouml-json2graph/1.0.0b7-1.0.0b8/diff.md --exclude *.pyd
+[2023-08-03 09:47:42] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2023-08-03 09:47:42] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-0.1.3-cp39-cp39-win_amd64.whl.zip tmp/cntracer-0.2.0-cp39-cp39-win_amd64.whl.zip --markdown 20230803/c/cntracer/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-08-03 09:47:43] INFO root fetch - processPackages [ignf_gpf_api]: Downloading https://files.pythonhosted.org/packages/ab/be/22d056e6e233dc04ef013ed5a469d64554cc4bdf2562565885aa671bd194/ignf_gpf_api-0.1.9.tar.gz
+[2023-08-03 09:47:43] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-08-03 09:47:43] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230803/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-08-03 09:47:43] INFO root fetch - processPackages [ignf_gpf_api]: executing diffoscope
+[2023-08-03 09:47:43] INFO root fetch - processPackages [ignf_gpf_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignf_gpf_api-0.1.8.tar.gz tmp/ignf_gpf_api-0.1.9.tar.gz --markdown 20230803/i/ignf_gpf_api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 09:47:43] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.1.3-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 09:47:43] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.2.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-03 09:47:43] INFO root fetch - processPackages [cntracer]: Start processing: pulumi-oci
+[2023-08-03 09:47:43] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2023-08-03 09:47:44] INFO root fetch - processPackages [pulumi-oci]: New version: [1.7.0a1691043893] Old Version: [1.6.0a1690932539]
+[2023-08-03 09:47:44] INFO root fetch - processPackages [gdb-plus]: Remove: archive file [/home/abi/fetcher/tmp/gdb_plus-6.3.1.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - processPackages [gdb-plus]: Remove: archive file [/home/abi/fetcher/tmp/gdb_plus-6.4.1.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - main [MainThread]: End processing [gdb-plus]: success
+[2023-08-03 09:47:44] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/6e/69/d2d22f209ba288ed6ddf5c2333b6e436b656fd86d703099731d71c422249/pulumi_oci-1.6.0a1690932539.tar.gz
+[2023-08-03 09:47:44] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b7.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - processPackages [ontouml-json2graph]: Remove: archive file [/home/abi/fetcher/tmp/ontouml_json2graph-1.0.0b8.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - main [MainThread]: End processing [ontouml-json2graph]: success
+[2023-08-03 09:47:44] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.2.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.2.post1.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-08-03 09:47:44] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-08-03 09:47:44] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-08-03 09:47:44] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.72.0.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.72.1.tar.gz]
+[2023-08-03 09:47:44] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-08-03 09:47:45] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/7e/0e/19ea2e42ade1eabe84a798efdbc795593327b3e7c6ea0da18fa5f3fbcc18/pulumi_oci-1.7.0a1691043893.tar.gz
+[2023-08-03 09:47:45] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-08-03 09:47:45] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.6.0a1690932539.tar.gz tmp/pulumi_oci-1.7.0a1691043893.tar.gz --markdown 20230803/p/pulumi-oci/1.6.0a1690932539-1.7.0a1691043893/diff.md --exclude *.pyd
+[2023-08-03 09:47:46] INFO root fetch - processPackages [ignf_gpf_api]: Remove: archive file [/home/abi/fetcher/tmp/ignf_gpf_api-0.1.8.tar.gz]
+[2023-08-03 09:47:46] INFO root fetch - processPackages [ignf_gpf_api]: Remove: archive file [/home/abi/fetcher/tmp/ignf_gpf_api-0.1.9.tar.gz]
+[2023-08-03 09:47:46] INFO root fetch - main [MainThread]: End processing [ignf_gpf_api]: success
+[2023-08-03 09:47:46] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.7.dev202308036677.tar.gz]
+[2023-08-03 09:47:46] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.7.dev202308036698.tar.gz]
+[2023-08-03 09:47:46] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-08-03 09:47:48] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-08-03 09:47:48] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-08-03 09:47:48] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-08-03 09:48:06] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.6.0a1690932539.tar.gz]
+[2023-08-03 09:48:06] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.7.0a1691043893.tar.gz]
+[2023-08-03 09:48:06] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-08-03 09:48:06] INFO root fetch - main [MainThread]: Store serial: [19155461]
