@@ -12134,3 +12134,103 @@
 [2023-08-03 07:02:18] INFO root fetch - processPackages [dsap]: Remove: archive file [/home/abi/fetcher/tmp/dsap-1.0.1-py3-none-any.whl.zip]
 [2023-08-03 07:02:18] INFO root fetch - main [MainThread]: End processing [dsap]: success
 [2023-08-03 07:02:18] INFO root fetch - main [MainThread]: Store serial: [19153844]
+[2023-08-03 07:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19153844]
+[2023-08-03 07:07:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-03 07:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iot-sdk-demo
+[2023-08-03 07:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-adherence
+[2023-08-03 07:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-vault
+[2023-08-03 07:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-vault
+[2023-08-03 07:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-vault
+[2023-08-03 07:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smart-factory-faker
+[2023-08-03 07:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iot-sdk-demo
+[2023-08-03 07:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc-action-item
+[2023-08-03 07:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rapid-pe
+[2023-08-03 07:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adbkit
+[2023-08-03 07:07:27] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230803] Old Version: [0.1.1.dev20230802]
+[2023-08-03 07:07:27] INFO root fetch - processPackages [smart-factory-faker]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-03 07:07:27] INFO root fetch - processPackages [iot-sdk-demo]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-03 07:07:27] INFO root fetch - processPackages [edc-adherence]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-03 07:07:27] INFO root fetch - processPackages [iot-sdk-demo]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-03 07:07:27] INFO root fetch - processPackages [odoo13-addon-vault]: New version: [13.0.1.4.1.dev1] Old Version: [13.0.1.4.0]
+[2023-08-03 07:07:27] INFO root fetch - processPackages [odoo-addon-vault]: New version: [15.0.2.0.1.1] Old Version: [15.0.2.0.1]
+[2023-08-03 07:07:27] INFO root fetch - processPackages [odoo14-addon-vault]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-08-03 07:07:27] INFO root fetch - processPackages [adbkit]: New version: [0.24] Old Version: [0.23]
+[2023-08-03 07:07:27] INFO root fetch - processPackages [edc-action-item]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-03 07:07:27] INFO root fetch - processPackages [smart-factory-faker]: Downloading https://files.pythonhosted.org/packages/4b/01/cb47efc781fcb8441ba6ccb7460b0db4178ac948f9990ea9b24bd92ceed9/smart_factory_faker-0.8.1.tar.gz
+[2023-08-03 07:07:27] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/8d/43/fead01b07b1d811317db2624dc07ba4f13cf8ee1a62655f5cad565926bc1/rapid_pe-0.1.1.dev20230802.tar.gz
+[2023-08-03 07:07:27] INFO root fetch - processPackages [odoo13-addon-vault]: Downloading https://files.pythonhosted.org/packages/33/1e/f7039514d01b20461e3b228ccb6bb5a288442f62922e6c8f125c6cf33393/odoo13_addon_vault-13.0.1.4.0-py3-none-any.whl
+[2023-08-03 07:07:27] INFO root fetch - processPackages [iot-sdk-demo]: Downloading https://files.pythonhosted.org/packages/e3/b1/f5cf74ffd1aca4dbb735b7a22a8f75b2f9ffff9abfa860f3eae0f1b7216b/iot-sdk-demo-0.0.4.tar.gz
+[2023-08-03 07:07:27] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/61/36/d3061a0f93c04f13299478db5419e6ddccfe272ed1cd226cf51e1691232b/odoo_addon_vault-15.0.2.0.1-py3-none-any.whl
+[2023-08-03 07:07:27] INFO root fetch - processPackages [iot-sdk-demo]: Downloading https://files.pythonhosted.org/packages/e3/b1/f5cf74ffd1aca4dbb735b7a22a8f75b2f9ffff9abfa860f3eae0f1b7216b/iot-sdk-demo-0.0.4.tar.gz
+[2023-08-03 07:07:27] INFO root fetch - processPackages [odoo14-addon-vault]: Downloading https://files.pythonhosted.org/packages/ca/06/9bc81d47eafe76f119c25fc560c1ad78c601e9d95341d8d5defd92978e5a/odoo14_addon_vault-14.0.1.9.0-py3-none-any.whl
+[2023-08-03 07:07:27] INFO root fetch - processPackages [edc-action-item]: Downloading https://files.pythonhosted.org/packages/de/5a/1dc166c4fd573ff5dfdb59854b9486b0bb27eb6c6e8c720e931baf318a4c/edc_action_item-0.3.8-py3-none-any.whl
+[2023-08-03 07:07:27] INFO root fetch - processPackages [edc-adherence]: Downloading https://files.pythonhosted.org/packages/20/d1/e99c9b905ff807b4c6e0dd6992336666d95c1ec75f11caa823f5bf676965/edc-adherence-0.1.8.tar.gz
+[2023-08-03 07:07:27] INFO root fetch - processPackages [adbkit]: Downloading https://files.pythonhosted.org/packages/60/0d/4125d3f828d88b13f3c6dd25e4f5f9983bf6bb0bea3ab3fcb1e90c562693/adbkit-0.23.tar.gz
+[2023-08-03 07:07:27] INFO root fetch - processPackages [smart-factory-faker]: Downloading https://files.pythonhosted.org/packages/aa/6f/c46b55ea98853c24de2439fa36974ca1b87ecbadd404be6753385033923d/smart_factory_faker-0.9.0.tar.gz
+[2023-08-03 07:07:27] INFO root fetch - processPackages [odoo13-addon-vault]: Downloading https://files.pythonhosted.org/packages/2c/36/4881429b91b428b3b1536a0a426def12730db8ae6d7a944ff2ee523f3f92/odoo13_addon_vault-13.0.1.4.1.dev1-py3-none-any.whl
+[2023-08-03 07:07:28] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/02/31/86d12981be819b361c6edb4342c935b3d666680bba0c02d7f8826b2fd6f9/odoo_addon_vault-15.0.2.0.1.1-py3-none-any.whl
+[2023-08-03 07:07:28] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/0c/85/dbab015c44b6e3cbfc1e938c95243f492423ca42b996e49db2a84a75b0af/rapid_pe-0.1.1.dev20230803.tar.gz
+[2023-08-03 07:07:28] INFO root fetch - processPackages [iot-sdk-demo]: Downloading https://files.pythonhosted.org/packages/26/b5/ebccb335beccecc8e71a799f18fc4dcf220be3f11f050bf28af832304967/iot-sdk-demo-0.0.5.tar.gz
+[2023-08-03 07:07:28] INFO root fetch - processPackages [iot-sdk-demo]: Downloading https://files.pythonhosted.org/packages/26/b5/ebccb335beccecc8e71a799f18fc4dcf220be3f11f050bf28af832304967/iot-sdk-demo-0.0.5.tar.gz
+[2023-08-03 07:07:28] INFO root fetch - processPackages [odoo14-addon-vault]: Downloading https://files.pythonhosted.org/packages/71/3b/847e58c2426f6f5de4e0d477dd0287b4adf0d393dfe819072f36a8c93cab/odoo14_addon_vault-14.0.1.9.1.dev1-py3-none-any.whl
+[2023-08-03 07:07:28] INFO root fetch - processPackages [smart-factory-faker]: executing diffoscope
+[2023-08-03 07:07:28] INFO root fetch - processPackages [smart-factory-faker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_factory_faker-0.8.1.tar.gz tmp/smart_factory_faker-0.9.0.tar.gz --markdown 20230803/s/smart-factory-faker/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-03 07:07:28] INFO root fetch - processPackages [edc-adherence]: Downloading https://files.pythonhosted.org/packages/eb/8a/d4f08dd464918c67eaaf5e360e6e8068f5970056cc9c9461ea1947751a43/edc-adherence-0.1.9.tar.gz
+[2023-08-03 07:07:28] INFO root fetch - processPackages [adbkit]: Downloading https://files.pythonhosted.org/packages/ed/e5/f849f138599040f7345e01f67e83ff52b9f05a6ac987ae00d63cfcdbb109/adbkit-0.24.tar.gz
+[2023-08-03 07:07:28] INFO root fetch - processPackages [odoo13-addon-vault]: executing diffoscope
+[2023-08-03 07:07:28] INFO root fetch - processPackages [odoo13-addon-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_vault-13.0.1.4.0-py3-none-any.whl.zip tmp/odoo13_addon_vault-13.0.1.4.1.dev1-py3-none-any.whl.zip --markdown 20230803/o/odoo13-addon-vault/13.0.1.4.0-13.0.1.4.1.dev1/diff.md --exclude *.pyd
+[2023-08-03 07:07:28] INFO root fetch - processPackages [edc-action-item]: Downloading https://files.pythonhosted.org/packages/1f/74/a25a0c0516fcd227b7ff92f76a6964b274c5434b3f53ee629dbdb634e005/edc_action_item-0.3.9-py3-none-any.whl
+[2023-08-03 07:07:28] INFO root fetch - processPackages [odoo14-addon-vault]: executing diffoscope
+[2023-08-03 07:07:28] INFO root fetch - processPackages [odoo14-addon-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_vault-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_vault-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230803/o/odoo14-addon-vault/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-08-03 07:07:28] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-08-03 07:07:28] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230802.tar.gz tmp/rapid_pe-0.1.1.dev20230803.tar.gz --markdown 20230803/r/rapid-pe/0.1.1.dev20230802-0.1.1.dev20230803/diff.md --exclude *.pyd
+[2023-08-03 07:07:28] INFO root fetch - processPackages [iot-sdk-demo]: executing diffoscope
+[2023-08-03 07:07:28] INFO root fetch - processPackages [iot-sdk-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iot-sdk-demo-0.0.4.tar.gz tmp/iot-sdk-demo-0.0.5.tar.gz --markdown 20230803/i/iot-sdk-demo/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-03 07:07:28] INFO root fetch - processPackages [iot-sdk-demo]: executing diffoscope
+[2023-08-03 07:07:28] INFO root fetch - processPackages [iot-sdk-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iot-sdk-demo-0.0.4.tar.gz tmp/iot-sdk-demo-0.0.5.tar.gz --markdown 20230803/i/iot-sdk-demo/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-03 07:07:28] INFO root fetch - processPackages [edc-adherence]: executing diffoscope
+[2023-08-03 07:07:28] INFO root fetch - processPackages [edc-adherence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-adherence-0.1.8.tar.gz tmp/edc-adherence-0.1.9.tar.gz --markdown 20230803/e/edc-adherence/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-03 07:07:28] INFO root fetch - processPackages [odoo-addon-vault]: executing diffoscope
+[2023-08-03 07:07:28] INFO root fetch - processPackages [odoo-addon-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_vault-15.0.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_vault-15.0.2.0.1.1-py3-none-any.whl.zip --markdown 20230803/o/odoo-addon-vault/15.0.2.0.1-15.0.2.0.1.1/diff.md --exclude *.pyd
+[2023-08-03 07:07:28] INFO root fetch - processPackages [adbkit]: executing diffoscope
+[2023-08-03 07:07:28] INFO root fetch - processPackages [adbkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbkit-0.23.tar.gz tmp/adbkit-0.24.tar.gz --markdown 20230803/a/adbkit/0.23-0.24/diff.md --exclude *.pyd
+[2023-08-03 07:07:28] INFO root fetch - processPackages [edc-action-item]: executing diffoscope
+[2023-08-03 07:07:28] INFO root fetch - processPackages [edc-action-item]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_action_item-0.3.8-py3-none-any.whl.zip tmp/edc_action_item-0.3.9-py3-none-any.whl.zip --markdown 20230803/e/edc-action-item/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-03 07:07:29] INFO root fetch - processPackages [smart-factory-faker]: Remove: archive file [/home/abi/fetcher/tmp/smart_factory_faker-0.8.1.tar.gz]
+[2023-08-03 07:07:29] INFO root fetch - processPackages [smart-factory-faker]: Remove: archive file [/home/abi/fetcher/tmp/smart_factory_faker-0.9.0.tar.gz]
+[2023-08-03 07:07:29] INFO root fetch - processPackages [smart-factory-faker]: Start processing: streamlit-chatbox
+[2023-08-03 07:07:29] INFO root fetch - main [MainThread]: End processing [smart-factory-faker]: success
+[2023-08-03 07:07:29] INFO root fetch - processPackages [streamlit-chatbox]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-03 07:07:29] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/2e/90/ce788d5d94f02d879a029171db7046575bad455a697a256698eb55dc1923/streamlit_chatbox-1.1.2-py3-none-any.whl
+[2023-08-03 07:07:29] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230802.tar.gz]
+[2023-08-03 07:07:29] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230803.tar.gz]
+[2023-08-03 07:07:29] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-08-03 07:07:30] INFO root fetch - processPackages [iot-sdk-demo]: Remove: archive file [/home/abi/fetcher/tmp/iot-sdk-demo-0.0.4.tar.gz]
+[2023-08-03 07:07:30] INFO root fetch - processPackages [iot-sdk-demo]: Remove: archive file [/home/abi/fetcher/tmp/iot-sdk-demo-0.0.5.tar.gz]
+[2023-08-03 07:07:30] INFO root fetch - main [MainThread]: End processing [iot-sdk-demo]: success
+[2023-08-03 07:07:30] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/39/86/20ab82ad347284616ede11598ac9349117cc6396a47acecc2fa07f0a84e6/streamlit_chatbox-1.1.3-py3-none-any.whl
+[2023-08-03 07:07:30] INFO root fetch - main [MainThread]: End processing [iot-sdk-demo]: success
+[2023-08-03 07:07:30] INFO root fetch - processPackages [edc-adherence]: Remove: archive file [/home/abi/fetcher/tmp/edc-adherence-0.1.8.tar.gz]
+[2023-08-03 07:07:30] INFO root fetch - processPackages [edc-adherence]: Remove: archive file [/home/abi/fetcher/tmp/edc-adherence-0.1.9.tar.gz]
+[2023-08-03 07:07:30] INFO root fetch - main [MainThread]: End processing [edc-adherence]: success
+[2023-08-03 07:07:30] INFO root fetch - processPackages [adbkit]: Remove: archive file [/home/abi/fetcher/tmp/adbkit-0.23.tar.gz]
+[2023-08-03 07:07:30] INFO root fetch - processPackages [adbkit]: Remove: archive file [/home/abi/fetcher/tmp/adbkit-0.24.tar.gz]
+[2023-08-03 07:07:30] INFO root fetch - main [MainThread]: End processing [adbkit]: success
+[2023-08-03 07:07:30] INFO root fetch - processPackages [odoo13-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_vault-13.0.1.4.0-py3-none-any.whl.zip]
+[2023-08-03 07:07:30] INFO root fetch - processPackages [odoo13-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_vault-13.0.1.4.1.dev1-py3-none-any.whl.zip]
+[2023-08-03 07:07:30] INFO root fetch - main [MainThread]: End processing [odoo13-addon-vault]: success
+[2023-08-03 07:07:30] INFO root fetch - processPackages [streamlit-chatbox]: executing diffoscope
+[2023-08-03 07:07:30] INFO root fetch - processPackages [streamlit-chatbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230803:/home/abi/fetcher/20230803:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chatbox-1.1.2-py3-none-any.whl.zip tmp/streamlit_chatbox-1.1.3-py3-none-any.whl.zip --markdown 20230803/s/streamlit-chatbox/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-03 07:07:30] INFO root fetch - processPackages [odoo14-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_vault-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-08-03 07:07:30] INFO root fetch - processPackages [odoo14-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_vault-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2023-08-03 07:07:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-vault]: success
+[2023-08-03 07:07:30] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.2.0.1-py3-none-any.whl.zip]
+[2023-08-03 07:07:30] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.2.0.1.1-py3-none-any.whl.zip]
+[2023-08-03 07:07:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-vault]: success
+[2023-08-03 07:07:30] INFO root fetch - processPackages [edc-action-item]: Remove: archive file [/home/abi/fetcher/tmp/edc_action_item-0.3.8-py3-none-any.whl.zip]
+[2023-08-03 07:07:30] INFO root fetch - processPackages [edc-action-item]: Remove: archive file [/home/abi/fetcher/tmp/edc_action_item-0.3.9-py3-none-any.whl.zip]
+[2023-08-03 07:07:30] INFO root fetch - main [MainThread]: End processing [edc-action-item]: success
+[2023-08-03 07:07:31] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.2-py3-none-any.whl.zip]
+[2023-08-03 07:07:31] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.3-py3-none-any.whl.zip]
+[2023-08-03 07:07:31] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
+[2023-08-03 07:07:31] INFO root fetch - main [MainThread]: Store serial: [19153875]
